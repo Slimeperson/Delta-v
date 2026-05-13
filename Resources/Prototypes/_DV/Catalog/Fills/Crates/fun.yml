@@ -13,8 +13,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateCapGunSet
-  name: cap gun box set
-  description: A box filled with fun, harmless cap guns that are sure to keep security entertained and the air smelling of sulfur.
+  name: ковпачок пістолет бокс набір
+  description: Коробка, наповнена веселими, нешкідливими пістолетами з капсюлями, які обов’язково розважать охорону, а повітря пахне сіркою.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -29,8 +29,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateLaserTagSet
-  name: laser tag set
-  description: A crate filled with a full set of laser tag guns, harmless fun for 6 people.
+  name: набір лазертаг
+  description: ТЕГ і 2 циркуляційних насоса.
   components:
   - type: EntityTableContainerFill
     containers:

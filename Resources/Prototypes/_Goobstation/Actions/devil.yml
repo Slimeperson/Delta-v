@@ -9,8 +9,8 @@
 - type: entity
   parent: BaseAction
   id: ActionCreateContract
-  name: Summon infernal contract
-  description: Creates an infernal contract in the Devil's hand.
+  name: Викликати пекельний контракт
+  description: Створює пекельний контракт у руці диявола.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseAction
   id: ActionCreateRevivalContract
-  name: Summon revival contract
-  description: Creates a revival contract in the Devil's hand.
+  name: Договір виклику пожвавлення
+  description: Створює контракт на відродження в руці диявола.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseAction
   id: ActionShadowJaunt
-  name: Shadow jaunt
-  description: Melt into the shadows.
+  name: Прогулянка в тіні
+  description: Розтопитися в тіні.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDevilPossess
-  name: Possess target
-  description: Temporarily possess a target.
+  name: Володіти ціллю
+  description: Тимчасово володіти ціллю.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseAction
   id: ActionEndPossession
-  name: End possession
-  description: Cancel this possession early.
+  name: Кінець володіння
+  description: Скасуйте це володіння достроково.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -98,8 +98,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDevilGrip
-  name: Devils Grip
-  description: What little fraction of your power remains in this realm, channeled into your hands.
+  name: Хватка диявола
+  description: Та маленька частка вашої сили залишилася в цьому царстві, спрямована у ваші руки.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -115,8 +115,8 @@
 - type: entity
   parent: BaseAction
   id: ActionCheatDeath
-  name: Cheat Death
-  description: Laugh in the Grim Reaper's face. You've still got time.
+  name: Обдурити смерть
+  description: Смійтеся в обличчя Жницю. У вас ще є час.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

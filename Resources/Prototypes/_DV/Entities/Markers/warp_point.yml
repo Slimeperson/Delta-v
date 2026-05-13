@@ -44,7 +44,7 @@
 - type: entity
   id: WarpPointBridge
   parent: WarpPoint
-  suffix: Bridge
+  suffix: Міст
   components:
   - type: WarpPoint
     location: Bridge
@@ -69,7 +69,7 @@
 - type: entity
   id: WarpPointSecurity
   parent: WarpPoint
-  suffix: Security
+  suffix: Безпека
   components:
   - type: WarpPoint
     location: Security
@@ -85,7 +85,7 @@
 - type: entity
   id: WarpPointDetective
   parent: WarpPoint
-  suffix: Detective
+  suffix: Детектив
   components:
   - type: WarpPoint
     location: Detective
@@ -118,7 +118,7 @@
 - type: entity
   id: WarpPointJustice
   parent: WarpPoint
-  suffix: Justice
+  suffix: Справедливість
   components:
   - type: WarpPoint
     location: Justice
@@ -135,7 +135,7 @@
 - type: entity
   id: WarpPointMedical
   parent: WarpPointNoBomb
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: WarpPoint
     location: Medical
@@ -160,7 +160,7 @@
 - type: entity
   id: WarpPointEpistemics
   parent: WarpPointNoBomb
-  suffix: Epistemics
+  suffix: Епістеміка
   components:
   - type: WarpPoint
     location: Epistemics
@@ -200,7 +200,7 @@
 - type: entity
   id: WarpPointRobotics
   parent: WarpPoint
-  suffix: Robotics
+  suffix: Робототехніка
   components:
   - type: WarpPoint
     location: Robotics
@@ -217,7 +217,7 @@
 - type: entity
   id: WarpPointLogistics
   parent: WarpPoint
-  suffix: Logistics
+  suffix: Логістика
   components:
   - type: WarpPoint
     location: Logistics
@@ -225,7 +225,7 @@
 - type: entity
   id: WarpPointMail
   parent: WarpPoint
-  suffix: Mail
+  suffix: { ent-CrateHolyWaterKit }
   components:
   - type: WarpPoint
     location: Mail
@@ -233,7 +233,7 @@
 - type: entity
   id: WarpPointSalvage
   parent: WarpPoint
-  suffix: Salvage
+  suffix: Порятунок
   components:
   - type: WarpPoint
     location: Salvage
@@ -250,7 +250,7 @@
 - type: entity
   id: WarpPointEngineering
   parent: WarpPoint
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: WarpPoint
     location: Engineering
@@ -331,7 +331,7 @@
 - type: entity
   id: WarpPointReporter
   parent: WarpPoint
-  suffix: Reporter
+  suffix: Репортер
   components:
   - type: WarpPoint
     location: Reporter

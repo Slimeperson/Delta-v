@@ -1,6 +1,6 @@
 - type: listing
   id: UplinkDoorjack
-  name: uplink-doorjack-name
+  name: uplink-desword-name
   description: uplink-doorjack-desc
   productEntity: Doorjack
   discountCategory: rareDiscounts

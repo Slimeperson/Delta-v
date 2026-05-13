@@ -7,7 +7,7 @@
     - to: icon
       steps:
       - tag: GlassShard
-        name: construction-graph-tag-glass-shard
+        name: конструкція-граф-тег-осколок-скла
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1
@@ -29,7 +29,7 @@
     - to: icon
       steps:
       - tag: GlassShard
-        name: construction-graph-tag-glass-shard
+        name: конструкція-граф-тег-осколок-скла
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1

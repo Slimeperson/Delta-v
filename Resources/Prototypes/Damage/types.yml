@@ -3,7 +3,7 @@
 # Usually healed automatically if entity can breathe
 - type: damageType
   id: Asphyxiation
-  name: damage-type-asphyxiation
+  name: пошкодження типу асфіксії
   armorCoefficientPrice: 5
   armorFlatPrice: 50
 
@@ -12,68 +12,68 @@
 # Represents there not enough blood to supply oxygen (or equivalent).
 - type: damageType
   id: Bloodloss
-  name: damage-type-bloodloss
+  name: alerts-light-level-neutral-name
   armorCoefficientPrice: 5
   armorFlatPrice: 50
 
 - type: damageType
   id: Blunt
-  name: damage-type-blunt
+  name: пошкодження типу-тупий
   armorCoefficientPrice: 2
   armorFlatPrice: 10
 
 - type: damageType
   id: Cellular
-  name: damage-type-cellular
+  name: пошкодження-тип-клітинний
   armorCoefficientPrice: 5
   armorFlatPrice: 30
 
 - type: damageType
   id: Caustic
-  name: damage-type-caustic
+  name: пошкодження-тип-їдкий
   armorCoefficientPrice: 5
   armorFlatPrice: 30
 
 - type: damageType
   id: Cold
-  name: damage-type-cold
+  name: пошкодження-тип-холод
   armorCoefficientPrice: 2.5
   armorFlatPrice: 20
 
 - type: damageType
   id: Heat
-  name: damage-type-heat
+  name: пошкодження типу тепла
   armorCoefficientPrice: 2.5
   armorFlatPrice: 20
 
 - type: damageType
   id: Piercing
-  name: damage-type-piercing
+  name: пошкодження типу пірсинг
   armorCoefficientPrice: 2
   armorFlatPrice: 10
 
 # Poison damage. Generally caused by various reagents being metabolised.
 - type: damageType
   id: Poison
-  name: damage-type-poison
+  name: пошкодження типу-отрута
   armorCoefficientPrice: 10
   armorFlatPrice: 60
 
 - type: damageType
   id: Radiation
-  name: damage-type-radiation
+  name: пошкодження типу випромінювання
   armorCoefficientPrice: 2.5
   armorFlatPrice: 16
 
 - type: damageType
   id: Shock
-  name: damage-type-shock
+  name: пошкодження-тип-шок
   armorCoefficientPrice: 2.5
   armorFlatPrice: 20
 
 - type: damageType
   id: Slash
-  name: damage-type-slash
+  name: пошкодження-тип-слеш
   armorCoefficientPrice: 2
   armorFlatPrice: 10
 
@@ -81,14 +81,14 @@
 # Exclusive for structures such as walls, airlocks and others.
 - type: damageType
   id: Structural
-  name: damage-type-structural
+  name: пошкодження-тип-структурний
   armorCoefficientPrice: 1
   armorFlatPrice: 1
 
 # Metaphysical damage. Damage represents supernatural injuries that emphasize the fantasy elements in the game
 - type: damageType
   id: Holy
-  name: damage-type-holy
+  name: пошкодження-вид-святий
   armorCoefficientPrice: 1
   armorFlatPrice: 1
 

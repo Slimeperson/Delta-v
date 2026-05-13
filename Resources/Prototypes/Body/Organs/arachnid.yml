@@ -28,8 +28,8 @@
 - type: entity
   id: OrganArachnidStomach
   parent: OrganAnimalStomach
-  name: arachnid stomach # DeltaV
-  description: "Gross. This is hard to stomach."
+  name: шлунок павукоподібного # DeltaV
+  description: "Валовий. Це важко сприймати».
   components:
   - type: Sprite
     sprite: Mobs/Species/Arachnid/organs.rsi
@@ -56,8 +56,8 @@
 - type: entity
   id: OrganArachnidLungs
   parent: BaseArachnidOrgan
-  name: arachnid lungs # DeltaV
-  description: "Filters oxygen from an atmosphere... just more greedily."
+  name: легені павукоподібних # DeltaV
+  description: "Фільтрує кисень з атмосфери... просто жадібніше».
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   id: OrganArachnidHeart
   parent: BaseArachnidOrgan
-  name: arachnid heart # DeltaV
-  description: "A disgustingly persistent little biological pump made for spiders."
+  name: очі діони
+  description: "Огидно стійкий маленький біологічний насос, створений для павуків».
   components:
   - type: Sprite
     state: heart-on
@@ -121,8 +121,8 @@
 - type: entity
   id: OrganArachnidLiver
   parent: BaseHumanOrgan
-  name: arachnid liver # DeltaV
-  description: "Pairing suggestion: chianti and fava beans."
+  name: печінка павукоподібних # DeltaV
+  description: "Пропозиція поєднання: к’янті та фава».
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -148,8 +148,8 @@
 - type: entity
   id: OrganArachnidKidneys
   parent: BaseHumanOrgan
-  name: arachnid kidneys # DeltaV
-  description: "Filters toxins from the bloodstream."
+  name: нирки павукоподібних # DeltaV
+  description: "Фільтрує токсини з крові».
   categories: [ HideSpawnMenu ]
   components:
   - type: Organ # Shitmed
@@ -171,8 +171,8 @@
 - type: entity
   id: OrganArachnidEyes
   parent: BaseArachnidOrgan
-  name: arachnid eyes # DeltaV
-  description: "Two was already too many."
+  name: очі павукоподібних # DeltaV
+  description: "Двоє — це вже забагато».
   components:
   - type: Sprite
     layers:
@@ -193,8 +193,8 @@
 - type: entity
   id: OrganArachnidTongue
   parent: BaseArachnidOrgan
-  name: arachnid tongue # DeltaV
-  description: "A fleshy muscle mostly used for lying."
+  name: язик павукоподібних # DeltaV
+  description: "М'ясистий м'яз, який переважно використовується для брехні".
   components:
   - type: Sprite
     state: tongue

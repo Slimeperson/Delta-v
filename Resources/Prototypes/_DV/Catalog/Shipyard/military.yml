@@ -1,7 +1,7 @@
 - type: vessel
   id: Bulwark
-  name: NTMI-TR Bulwark
-  description: A compact security shuttle with cells for 2 prisoners and plenty of donuts.
+  name: Оплот NTMI-TR
+  description: Компактний охоронний шатл із камерами для 2 в’язнів і великою кількістю пончиків.
   price: 47000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_bulwark.yml
   categories:

@@ -1,7 +1,7 @@
 - type: entity
   id: PetCarrier
-  name: pet carrier
-  description: Allows large animals to be carried comfortably. It smells vaguely of toilet water and explosives.
+  name: переноска домашніх тварин
+  description: Дозволяє комфортно перевозити великих тварин. Невиразно пахне туалетною водою та вибухівкою.
   parent: BaseStructureDynamic
   components:
   - type: Sprite

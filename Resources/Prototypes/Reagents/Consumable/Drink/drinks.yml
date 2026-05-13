@@ -28,7 +28,7 @@
 
 - type: reagent
   id: HotCocoa
-  name: reagent-name-hot-cocoa
+  name: ім'я-реагенту-гаряче-какао
   parent: BaseDrink
   desc: reagent-desc-hot-cocoa
   physicalDesc: reagent-physical-desc-aromatic
@@ -60,7 +60,7 @@
 
 - type: reagent
   id: CoconutWater
-  name: reagent-name-coconut-water
+  name: назва-реагенту-кокосова-вода
   parent: BaseDrink
   desc: reagent-desc-coconut-water
   physicalDesc: reagent-physical-desc-milky
@@ -74,7 +74,7 @@
 
 - type: reagent
   id: CreamOfCoconut
-  name: reagent-name-cream-of-coconut
+  name: ім'я-реагенту-крем-з-кокоса
   parent: BaseDrink
   desc: reagent-desc-cream-of-coconut
   physicalDesc: reagent-physical-desc-syrupy
@@ -171,7 +171,7 @@
 
 - type: reagent
   id: IcedGreenTea
-  name: reagent-name-iced-green-tea
+  name: reagent-name-холодний-зелений-чай
   parent: BaseDrink
   desc: reagent-desc-iced-green-tea
   physicalDesc: reagent-physical-desc-aromatic
@@ -210,7 +210,7 @@
 - type: reagent
   id: JuiceBerryPoison
   parent: BaseJuice
-  name: reagent-name-juice-berry-poison
+  name: ім'я-реактиву-сік-ягода-отрута
   group: Drinks
   desc: reagent-desc-juice-berry-poison
   physicalDesc: reagent-physical-desc-sickly
@@ -276,7 +276,7 @@
 
 - type: reagent
   id: MilkOat
-  name: reagent-name-milk-oat
+  name: назва-реагенту-молоко-вівсяна
   group: Drinks
   desc: reagent-desc-milk-oat
   physicalDesc: reagent-physical-desc-refreshing
@@ -314,8 +314,8 @@
 
 - type: reagent
   id: Nothing
-  name: reagent-name-nothing
-  desc: reagent-desc-nothing
+  name: назва-реагенту-нічого
+  desc: reagent-desc-нічого
   group: Drinks
   physicalDesc: reagent-physical-desc-nothing
   metabolisms:
@@ -359,7 +359,7 @@
 
 - type: reagent
   id: SodaWater
-  name: reagent-name-soda-water
+  name: реагент-назва-содова-вода
   parent: BaseDrink
   desc: reagent-desc-soda-water
   physicalDesc: reagent-physical-desc-fizzy
@@ -393,7 +393,7 @@
 
 - type: reagent
   id: Tea
-  name: reagent-name-tea
+  name: реагент-назва-чай
   parent: BaseDrink
   desc: reagent-desc-tea
   physicalDesc: reagent-physical-desc-aromatic
@@ -433,7 +433,7 @@
 
 - type: reagent
   id: Water
-  name: reagent-name-water
+  name: Мертвий
   parent: BaseDrink
   desc: reagent-desc-water
   evaporationSpeed: 0.3
@@ -559,7 +559,7 @@
 
 - type: reagent
   id: ArnoldPalmer
-  name: reagent-name-arnold-palmer
+  name: назва-реагенту-арнольд-палмер
   parent: BaseAlcohol
   desc: reagent-desc-arnold-palmer
   physicalDesc: reagent-physical-desc-sweet
@@ -622,7 +622,7 @@
 
 - type: reagent
   id: OrangeLimeSoda
-  name: reagent-name-orange-lime-soda
+  name: назва реагенту-апельсин-лайм-сода
   parent: BaseDrink
   desc: reagent-desc-orange-lime-soda
   physicalDesc: reagent-physical-desc-strong-smelling

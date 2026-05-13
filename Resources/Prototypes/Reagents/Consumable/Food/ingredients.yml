@@ -1,6 +1,6 @@
 - type: reagent
   id: Flour
-  name: reagent-name-flour
+  name: reagent-name-борошно
   group: Foods
   desc: reagent-desc-flour
   physicalDesc: reagent-physical-desc-powdery
@@ -21,9 +21,9 @@
 
 - type: reagent
   id: Cornmeal
-  name: reagent-name-cornmeal
+  name: reagent-name-conmeal
   group: Foods
-  desc: reagent-desc-cornmeal
+  desc: reagent-desc-кукурудзяна мука
   physicalDesc: reagent-physical-desc-powdery
   flavor: corn #so corn doesnt taste chalky
   color: tan
@@ -56,7 +56,7 @@
 
 - type: reagent
   id: Enzyme
-  name: reagent-name-enzyme
+  name: реагент-назва-фермент
   group: Foods
   desc: reagent-desc-enzyme
   physicalDesc: reagent-physical-desc-chalky
@@ -65,7 +65,7 @@
 
 - type: reagent
   id: Egg
-  name: reagent-name-raw-egg
+  name: ім'я-реагенту-сире-яйце
   group: Foods
   desc: reagent-desc-raw-egg
   physicalDesc: reagent-physical-desc-mucus-like
@@ -126,7 +126,7 @@
 
 - type: reagent
   id: Vinegar
-  name: reagent-name-vinegar
+  name: пошкодження-тип-їдкий
   group: Foods
   desc: reagent-desc-vinegar
   physicalDesc: reagent-physical-desc-sour
@@ -239,9 +239,9 @@
 
 - type: reagent
   id: CocoaPowder #Candy and chocolate
-  name: reagent-name-cocoapowder
+  name: reagent-name-cocoappowder
   group: Foods
-  desc: reagent-desc-cocoapowder
+  desc: reagent-desc-cocoappowder
   physicalDesc: reagent-physical-desc-powdery
   flavor: chocolate
   color: "#800000"

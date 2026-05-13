@@ -2,8 +2,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeCommon
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Common
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Загальний
   components:
   - type: EntityTableContainerFill
     containers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeRare
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Rare
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Рідкісний
   components:
   - type: EntityTableContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeExotic
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Exotic
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Екзотика
   components:
   - type: EntityTableContainerFill
     containers:
@@ -173,8 +173,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeStolen
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Stolen
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Вкрадений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -267,8 +267,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeMagazine
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Magazine
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Журнал
   components:
   - type: EntityTableContainerFill
     containers:
@@ -390,8 +390,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeAmmoBoxes
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Ammo
+  name: сейф торговця зброєю
+  suffix: Заповнений, Syndicate, Ammo
   components:
   - type: EntityTableContainerFill
     containers:
@@ -472,8 +472,8 @@
 - type: entity
   parent: SyndicateGunSafeBaseSecure
   id: ArmsdealerGunSafeMelee
-  name: arms dealer gun safe
-  suffix: Filled, Syndicate, Melee
+  name: сейф торговця зброєю
+  suffix: Заповнений, Синдикат, Рукопашний бій
   components:
   - type: EntityTableContainerFill
     containers:

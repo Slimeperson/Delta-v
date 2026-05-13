@@ -3,12 +3,12 @@
 roles-antag-rev-head-name = Головний Революціонер
 roles-antag-rev-head-objective = Ваша мета - захопити станцію, вербуючи людей на свій бік і вбивши всіх членів командування станції.
 
-head-rev-role-greeting =
+head-rev-role-greeting = Ти головний революціонер. Вам доручено усунути всю команду від влади шляхом смерті, стримування або навернення.
     You are a head revolutionary. You are tasked with removing all of Command from power through death, restraint, or conversion.
     The Syndicate has sponsored you with a flash that converts others to your cause. Beware, this won't work on those with eye protection or mindshield implants. Remember that Command and Security are implanted with mindshields as part of the hiring process.
     Viva la revolución!
 
-head-rev-briefing =
+head-rev-briefing = Використовуйте спалахи, щоб навернути людей на вашу справу.
     Use flashes to convert people to your cause.
     Kill, restrain, or convert all members of Command to take over the station.
 
@@ -21,7 +21,7 @@ roles-antag-rev-objective = Ваша мета - забезпечити безп�
 
 rev-break-control = {$name} згадав свою істинну приналежність!
 
-rev-role-greeting =
+rev-role-greeting = Не забудьте встати, потягнутися та випити!
     You are a revolutionary. You are tasked with protecting the head revolutionaries and helping them take over the station.
     The revolution must work together to kill, restrain, or convert all members of Command.
     Viva la revolución!
@@ -63,7 +63,7 @@ rev-headrev-name = [color=#5e9cff]{$name}[/color] завербував {$count} 
 ## Deconverted window
 
 rev-deconverted-title = Деконвертовано!
-rev-deconverted-text =
+rev-deconverted-text = Оскільки останній головний революціонер помер, революція закінчилася.
     As the last head revolutionary has died, the revolution is over.
 
     You are no longer a revolutionary, so be nice.

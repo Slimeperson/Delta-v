@@ -1,6 +1,6 @@
 - type: accessLevel
   id: Orders
-  name: id-card-access-level-orders # Custom access level that allows the approval of orders
+  name: id-card-access-level-orders # Спеціальний рівень доступу, який дозволяє затверджувати замовлення
 
 - type: accessLevel
   id: Funding

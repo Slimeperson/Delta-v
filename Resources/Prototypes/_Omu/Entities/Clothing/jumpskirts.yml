@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargoMascot
-  name: cargo tech's crop top uniform
-  description: A brown crop top and striking pants to deliver smiles and mail!
+  name: укорочений топ від Cargo Tech
+  description: Коричневий укорочений топ і яскраві штани, щоб викликати посмішки та пошту!
   components:
   - type: Sprite
     sprite: _Omu/Clothing/Uniforms/Jumpskirt/cargomascot.rsi

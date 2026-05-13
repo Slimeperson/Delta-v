@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateLivestock
   id: CrateLivestockSteel
-  name: plasteel livestock crate
+  name: Пластовий ящик для худоби
   components:
   - type: Weldable
   - type: ResistLocker
@@ -56,7 +56,7 @@
 - type: entity
   parent: CrateLivestockSteel
   id: CrateLivestockSecure
-  name: secure plasteel livestock crate
+  name: безпечний пластиковий ящик для худоби
   components:
   - type: Lock
   - type: LockVisuals
@@ -91,7 +91,7 @@
 - type: entity
   parent: CrateLivestockSecure
   id: CrateLivestockSecureReinforced
-  name: reinforced secure plasteel livestock crate
+  name: Elegance, Snow Exhibit Waste
   components:
   - type: Icon
     sprite: _DV/Structures/Storage/Crates/livestock_reinforced.rsi
@@ -150,7 +150,7 @@
 - type: entity
   id: CrateLockBoxJustice
   parent: CrateBaseLockBox
-  name: justice lock box
+  name: коробка замка правосуддя
   components:
   - type: Sprite
     layers:

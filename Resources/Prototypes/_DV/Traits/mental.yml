@@ -2,8 +2,8 @@
 
 - type: trait
   id: Paracusia
-  name: trait-paracusia-name
-  description: trait-paracusia-desc
+  name: риса-паракузія-назва
+  description: риса-південний-дес
   category: Mental
   effects:
   - !type:AddCompsEffect
@@ -17,7 +17,7 @@
 
 - type: trait
   id: Depression
-  name: trait-depression-name
+  name: риса-депресія-назва
   description: trait-depression-desc
   category: Mental
   effects:
@@ -36,7 +36,7 @@
 
 - type: trait
   id: Liar
-  name: trait-liar-name
+  name: риса-брехун-назва
   description: trait-liar-desc
   category: Mental
   effects:
@@ -47,7 +47,7 @@
 
 - type: trait
   id: Pacifist
-  name: trait-pacifist-name
+  name: риса-пацифіста-ім'я
   description: trait-pacifist-desc
   category: Mental
   effects:

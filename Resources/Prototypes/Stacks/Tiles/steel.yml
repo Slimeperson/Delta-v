@@ -3,7 +3,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteel
-  name: stack-steel-tile
+  name: стек-сталь-плитка
   spawn: FloorTileItemSteel
 
 - type: stack
@@ -15,41 +15,41 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelDiagonalMini
-  name: stack-steel-diagonal-mini-tile
+  name: стек-сталь-діагональ-міні-плитка
   spawn: FloorTileItemSteelDiagonalMini
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelDiagonal
-  name: stack-steel-diagonal-tile
+  name: стек-сталь-діагональ-плитка
   spawn: FloorTileItemSteelDiagonal
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelHerringbone
-  name: stack-steel-herringbone
+  name: стек-темна-астро-трав'яна підлога
   spawn: FloorTileItemSteelHerringbone
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelMini
-  name: stack-steel-mini-tile
+  name: стек-сталь-міні-плитка
   spawn: FloorTileItemSteelMini
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelMono
-  name: stack-steel-mono-tile
+  name: стек-сталь-моно-плитка
   spawn: FloorTileItemSteelMono
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelPavement
-  name: stack-steel-pavement
+  name: стек-сталь-тротуар
   spawn: FloorTileItemSteelPavement
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelPavementVertical
-  name: stack-steel-vertical-pavement
+  name: стек-клоун-килимова плитка
   spawn: FloorTileItemSteelPavementVertical

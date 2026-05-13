@@ -120,7 +120,7 @@
   name: mop bucket
   id: MopBucketFull
   parent: MopBucket
-  suffix: full
+  suffix: повний
   components:
     - type: Sprite
       layers:

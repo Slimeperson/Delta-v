@@ -1,8 +1,8 @@
 - type: entity
-  name: snubbed .45
+  name: зневажливий .45
   parent: BaseWeaponRevolver
   id: WeaponRevolverSnub
-  description: An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
+  description: Старий і надійний револьвер, модифікований, щоб його було легше приховати. Використовує патрони калібру .45 Magnum.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/webleysnubnose.rsi
@@ -23,10 +23,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: k-38 masterpiece
+  name: к-38 шедевр
   parent: BaseWeaponRevolver
   id: WeaponRevolverK38Master
-  description: A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
+  description: Класична, якщо не сказати застаріла, вогнепальна зброя для правоохоронних органів. Використовує спеціальні патрони .38.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/k38master.rsi
@@ -48,10 +48,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: fitz special
+  name: фітц спец
   parent: BaseWeaponRevolver
   id: WeaponRevolverFitz
-  description: A compact and concealable self defence snub revolver. Uses .38 special ammo.
+  description: Компактний револьвер для самооборони, який можна приховати. Використовує спеціальні патрони .38.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
@@ -73,10 +73,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: lucky 37
+  name: пощастило 37
   parent: BaseWeaponRevolver
   id: WeaponRevolverLucky
-  description: Luck always beats skill, ya weasel. Uses .38 special ammo.
+  description: Удача завжди перемагає вміння, ласка. Використовує спеціальні патрони .38.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
@@ -100,10 +100,10 @@
     price: 750
 
 - type: entity
-  name: faith
+  name: віра
   parent: BaseWeaponRevolver
   id: WeaponRevolverFaith
-  description: Delivers blessings in bullet form. Uses .38 special ammo.
+  description: Доставляє благословення у формі кулі. Використовує спеціальні патрони .38.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi

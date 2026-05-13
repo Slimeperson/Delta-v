@@ -29,7 +29,7 @@
 - type: entity
   parent: LockerQuarterMaster
   id: LockerQuarterMasterFilledHardsuit # I know we don't use Quartermaster but I'm trying to be consistent with LockerQuarterMasterFilled
-  suffix: Filled, Hardsuit
+  suffix: Заповнений, Hardsuit
 
   components:
   - type: EntityTableContainerFill
@@ -44,8 +44,8 @@
 - type: entity
   parent: [SalvageGunSafeBaseSecure, BaseSecurityCargoContraband]
   id: SalvageGunSafeSniperGrand
-  name: mark 1 rifle salvage safe
-  suffix: DO NOT MAP
+  name: марка 1 аварійний сейф гвинтівки
+  suffix: НЕ КАРТА
   components:
   - type: EntityTableContainerFill
     containers:
@@ -60,8 +60,8 @@
 - type: entity
   parent: [SalvageGunSafeBaseSecure, BaseSecurityCargoContraband]
   id: SalvageGunSafeShotgunDoubleBarreled
-  name: double-barreled shotgun salvage safe
-  suffix: DO NOT MAP
+  name: аварійний сейф для двоствольної рушниці
+  suffix: НЕ КАРТА
   components:
   - type: EntityTableContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: [SalvageGunSafeBaseSecure, BaseSecurityCargoContraband]
   id: SalvageGunSafeRevolverSnub
-  name: Snubbed .45 salvage safe
-  suffix: DO NOT MAP
+  name: Аварійний сейф калібру .45
+  suffix: НЕ КАРТА
   components:
   - type: EntityTableContainerFill
     containers:
@@ -90,8 +90,8 @@
 - type: entity
   parent: [SalvageGunSafeBaseSecure, BaseSecurityCargoContraband]
   id: SalvageGunSafeVulcan
-  name: vulcan salvage safe
-  suffix: DO NOT MAP
+  name: vulcan salvage сейф
+  suffix: НЕ КАРТА
   components:
   - type: EntityTableContainerFill
     containers:

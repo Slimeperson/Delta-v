@@ -9,8 +9,8 @@
   id: BaseFish
   parent: [SimpleMobBase, BaseItem]
   abstract: true
-  name: fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  name: риба
+  description: Водонароджена істота з безмежного моря... Або туалет.
   components:
   - type: Fish
     difficulty: 0.029
@@ -53,8 +53,8 @@
   id: BaseFishRare
   parent: BaseFish
   abstract: true
-  name: rare fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  name: рідкісна риба
+  description: Водонароджена істота з безмежного моря... Або туалет.
   components:
   - type: Fish
     difficulty: 0.038
@@ -64,7 +64,7 @@
 - type: entity
   id: FishAlien
   parent: BaseFishRare
-  name: alien fish
+  name: чужа риба
   description: Looks pretty... Abductory.
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   id: FishAngler
   parent: BaseFish
-  name: angler fish
+  name: риба-вудилка
   description: Scariest thing in existence, after bingles.
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   id: FishBass
   parent: BaseFish
-  name: bass fish
+  name: бас риба
   description: Probably the most normal fish in existence. Unless you use it as bass guitar.
   components:
   - type: Sprite
@@ -100,8 +100,8 @@
 - type: entity
   id: FishBingle
   parent: BaseFishRare
-  name: bingle fish
-  description: bingle
+  name: біла риба
+  description: бінгл
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -112,8 +112,8 @@
 - type: entity
   id: FishBlob
   parent: BaseFish
-  name: blob fish
-  description: Unfortuantly, this is not a 5th level bio-hazard threat.
+  name: риба-крапля
+  description: На жаль, це не біологічна загроза 5-го рівня.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -124,7 +124,7 @@
 - type: entity
   id: FishBlueFintuna
   parent: BaseFish
-  name: blue fintuna
+  name: блакитний фінтуна
   description: It's looking straight to you...
   components:
   - type: Sprite
@@ -136,8 +136,8 @@
 - type: entity
   id: FishBoyFisher
   parent: BaseFishRare
-  name: boy fisher
-  description: You like kissing fish, don't you?
+  name: хлопчик рибалка
+  description: Ти любиш цілувати рибок, чи не так?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -148,8 +148,8 @@
 - type: entity
   id: FishCat
   parent: BaseFish
-  name: cat fish
-  description: Ironically this looks nothing like a cat. And it doesn't meow.
+  name: котяча риба
+  description: Ironically this looks nothing like a cat. І не нявкає.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -160,8 +160,8 @@
 - type: entity
   id: FishTropicalClown
   parent: BaseFish
-  name: clown clown fish
-  description: That is almost certanly some kind of joke.
+  name: клоун риба-клоун
+  description: Це майже напевно якийсь жарт.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -177,8 +177,8 @@
 - type: entity
   id: FishNukeDisk
   parent: BaseFishRare
-  name: nuke disk fish
-  description: Erm, Actually, it's a bad idea trying to fit a fish inside a nuclear explosion device.
+  name: ядерна дискова риба
+  description: Насправді, це погана ідея – намагатися вмістити рибу всередину пристрою ядерного вибуху.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -189,8 +189,8 @@
 - type: entity
   id: FishGib
   parent: BaseFishRare
-  name: gib stick fish
-  description: "My face when i open a present and get gibstick:"
+  name: риба паличка gib
+  description: "Моє обличчя, коли я відкриваю подарунок і отримую гігант:"
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -201,8 +201,8 @@
 - type: entity
   id: FishMutant
   parent: BaseFishRare
-  name: mutant fish
-  description: Anomalous fish that looks like it ate some nuclear waste.
+  name: риба-мутант
+  description: Аномальна риба, яка виглядає так, ніби з'їла ядерні відходи.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -213,8 +213,8 @@
 - type: entity
   id: FishNuker
   parent: BaseFishRare
-  name: nuclear operative fish
-  description: Predator of the nuke disk fish.
+  name: ядерно-оперативна риба
+  description: Хижак ядерної дискової риби.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -225,8 +225,8 @@
 - type: entity
   id: FishPuffer
   parent: BaseFish
-  name: puffer fish
-  description: It is poisonous... in many ways.
+  name: риба фугу
+  description: Він отруйний... у багатьох відношеннях.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -237,8 +237,8 @@
 - type: entity
   id: FishSilver
   parent: BaseFish
-  name: silver fish
-  description: Actually contains silver.
+  name: срібна рибка
+  description: Фактично містить срібло.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -249,8 +249,8 @@
 - type: entity
   id: FishTropicalSun
   parent: BaseFish
-  name: tropical sun fish
-  description: It probably looked at the sun for too long...?
+  name: тропічна сонячна риба
+  description: Мабуть, надто довго дивилося на сонце...?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -261,8 +261,8 @@
 - type: entity
   id: FishToxic
   parent: BaseFishRare
-  name: toxic waste fish
-  description: "Looking at this fish, you understand how much it was a bad idea to allow nuclear waste to be dumped into rivers."
+  name: токсичні відходи риби
+  description: "Дивлячись на цю рибу, розумієш, наскільки поганою ідеєю було дозволити скидати ядерні відходи в річки».
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -273,8 +273,8 @@
 - type: entity
   id: FishTropical
   parent: BaseFish
-  name: clown fish
-  description: This fish is always searching for something... Or maybe someone?
+  name: риба-клоун
+  description: Ця риба завжди щось шукає... А може когось?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -290,8 +290,8 @@
 - type: entity
   id: FishIan
   parent: BaseFishRare
-  name: ian fish
-  description: Water-born ian from the sea.
+  name: янська риба
+  description: Вода народжена з моря.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi

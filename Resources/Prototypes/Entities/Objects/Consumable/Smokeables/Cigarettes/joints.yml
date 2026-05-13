@@ -1,8 +1,8 @@
 - type: entity
   id: Joint
   parent: BaseCigar
-  name: joint
-  description: A roll of dried plant matter wrapped in thin paper.
+  name: суглоб
+  description: Рулон висушеної рослинної речовини, загорнутий у тонкий папір.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/joint.rsi
@@ -34,9 +34,9 @@
 - type: entity
   id: JointRainbow
   parent: Joint
-  name: joint
-  suffix: Rainbow
-  description: A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
+  name: суглоб
+  suffix: Веселка
+  description: Рулон висушеної рослинної речовини, загорнутий у тонкий папір. Здається, всередині барвистий.
   components:
   - type: Construction
     graph: smokeableJointRainbow
@@ -62,8 +62,8 @@
 - type: entity
   id: Blunt
   parent: BaseCigar
-  name: blunt
-  description: A roll of dried plant matter wrapped in a dried tobacco leaf.
+  name: тупий
+  description: Рулон сухої рослинної речовини, загорнутий у висушений лист тютюну.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/blunt.rsi
@@ -95,9 +95,9 @@
 - type: entity
   id: BluntRainbow
   parent: Blunt
-  name: blunt
-  suffix: Rainbow
-  description: A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
+  name: тупий
+  suffix: Веселка
+  description: Рулон сухої рослинної речовини, загорнутий у висушений лист тютюну. Здається, всередині барвистий.
   components:
   - type: Construction
     graph: smokeableBluntRainbow

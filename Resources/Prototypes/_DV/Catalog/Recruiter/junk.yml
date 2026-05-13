@@ -30,7 +30,7 @@
 
 - type: listing
   id: UplinkRecruiterSyndicateStamp
-  name: uplink-syndicate-stamp-name
+  name: uplink-syndicate-stamp name
   description: uplink-syndicate-stamp-desc
   productEntity: RubberStampSyndicate
   cost:
@@ -50,7 +50,7 @@
 
 - type: listing
   id: UplinkRecruiterBalloon
-  name: uplink-balloon-name
+  name: назва висхідної кулі
   description: uplink-balloon-desc
   productEntity: BalloonSyn
   cost:
@@ -122,7 +122,7 @@
 - type: listing
   id: UplinkRecruiterFigurineBox
   name: uplink-recruiter-figurinebox-name
-  description: uplink-recruiter-figurinebox-desc
+  description: Містить коробку з дорожніми ключами
   productEntity: BoxSyndicateFigurines
   cost:
     TreatCoin: 2

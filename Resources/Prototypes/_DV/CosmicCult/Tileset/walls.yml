@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWall
   id: WallCosmicCult
-  name: malign wall
-  description: A strange-looking wall. Staring at it for too long instills a sense of discomfort.
+  name: злоякісна стінка
+  description: Дивна на вигляд стіна. Надто довгий погляд на нього викликає відчуття дискомфорту.
   components:
   - type: CosmicCultExamine
     cultistText: cosmic-examine-text-forthecult
@@ -28,8 +28,8 @@
 - type: entity
   parent: WallCosmicCult
   id: WallCosmicCultTrimmed
-  name: malign wall
-  suffix: Trimmed
+  name: злоякісна стінка
+  suffix: Обрізана
   components:
   - type: Icon
     sprite: _DV/CosmicCult/Tileset/cosmicwall.rsi
@@ -53,8 +53,8 @@
 
 - type: entity
   id: WindowCosmicCult
-  name: malign pane
-  description: An odd-looking window. Something about it unnerves you.
+  name: злоякісне скло
+  description: tiles-cosmiccult-floor-split
   parent: [ BaseDeltaPressureReinforcedPlasma, WindowRCDResistant ]  # Plasma Reinforced Window levels, in case a rift appears by the burn chamber.
   components:
   - type: Sprite
@@ -97,8 +97,8 @@
 
 - type: entity
   id: WindowCosmicCultDark
-  name: malign pane
-  suffix: Tinted
+  name: злоякісне скло
+  suffix: Тонований
   parent: WindowCosmicCult
   components:
   - type: Sprite
@@ -112,10 +112,10 @@
 
 - type: entity
   parent: WallShuttleDiagonal
-  description: An odd-looking window. Something about it unnerves you.
+  description: tiles-cosmiccult-floor-split
   id: WindowCosmicCultDiagonal
-  name: malign pane
-  suffix: Diagonal
+  name: злоякісне скло
+  suffix: Діагональ
   placement:
     mode: SnapgridCenter
     snap:
@@ -147,8 +147,8 @@
 - type: entity
   parent: WindowCosmicCultDiagonal
   id: WindowCosmicCultDiagonalDark
-  name: malign pane
-  suffix: Diagonal, Tinted
+  name: злоякісне скло
+  suffix: Діагональ, Тонування
   placement:
     mode: SnapgridCenter
     snap:

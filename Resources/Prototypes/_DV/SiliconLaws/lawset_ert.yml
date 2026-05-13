@@ -26,7 +26,7 @@
 
 - type: siliconLawset
   id: ERT
-  name: law-ERT-name
+  name: закон-ЕРТ-назва
   laws:
   - ERT1
   - ERT2

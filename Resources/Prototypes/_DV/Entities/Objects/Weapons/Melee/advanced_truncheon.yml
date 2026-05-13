@@ -1,8 +1,8 @@
 - type: entity
   parent: Truncheon
   id: AdvancedTruncheon
-  name: Advanced Truncheon
-  description: A longer, rigid, steel-studded baton, meant to harm more!
+  name: Удосконалений кийок
+  description: Довший, жорсткий, оздоблений сталлю кийок, призначений завдати більше шкоди!
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/advanced_truncheon.rsi

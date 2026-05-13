@@ -2,7 +2,7 @@
 - type: entity
   id: KvassTank
   parent: StorageTank
-  suffix: Empty
+  suffix: Порожній
   components:
     - type: Sprite
       sprite: _DV/Structures/Storage/kvass.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: KvassTank
   id: KvassTankFull
-  suffix: Full
+  suffix: Повний
   components:
     - type: SolutionContainerManager
       solutions:
@@ -24,8 +24,8 @@
 - type: entity
   id: GenericTankHighCapacity
   parent: [StorageTankBig, StructureWheeled]
-  name: high-capacity tank
-  suffix: Empty
+  name: бак великої місткості
+  suffix: Порожній
   components:
   - type: StaticPrice
     price: 750
@@ -50,8 +50,8 @@
 - type: entity
   id: TankHighCapacityAmmonia
   parent: [GenericTankHighCapacity, StructureWheeled]
-  name: high-capacity tank
-  suffix: Ammonia
+  name: бак великої місткості
+  suffix: Аміак
   components:
   - type: StaticPrice
     price: 2500

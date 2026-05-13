@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloraLogBase
-  name: log
-  description: Once a tree, always a log.
+  name: журнал
+  description: Раз дерево, завжди колода.
   abstract: true
   components:
   - type: Clickable
@@ -61,9 +61,9 @@
 - type: entity
   parent: N14FloraLogBase
   id: N14FloraLog1
-  suffix: seat
-  name: log
-  description: Once a tree, always a log.
+  suffix: сидіння
+  name: журнал
+  description: Раз дерево, завжди колода.
   components:
   - type: Strap
     position: Stand
@@ -72,7 +72,7 @@
 - type: entity
   parent: N14FloraLogBase
   id: N14FloraLog3
-  suffix: stash
+  suffix: заначка
   components:
   - type: Sprite
     state: timber

@@ -1,8 +1,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorEngineering
-  name: engineering holoprojector
-  description: Displays a warning sign.
+  name: інженерний голопроектор
+  description: Відображає попереджувальний знак.
   components:
   - type: ChargeHolosignProjector
     signProto: HolosignEng
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseItem
   id: HolotapeProjector
-  name: holotape projector
-  description: A handy way to cordon off a particularly hazardous area - let everyone know they shouldn't wander in without a hardhat.
+  name: голографічний проектор
+  description: Зручний спосіб огородити особливо небезпечну зону – повідомте всім, що їм не можна заходити туди без каски.
   components:
   - type: ChargeHolosignProjector
     signProto: HoloTape

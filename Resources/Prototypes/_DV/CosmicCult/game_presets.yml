@@ -2,8 +2,8 @@
   id: CosmicCult
   alias:
     - cosmic
-  name: cosmiccult-title
-  description: cosmiccult-description
+  name: guide-entry-deltav-rule-a1
+  description: космкульт-опис
   showInVote: false
   cooldown: 1
   rules:
@@ -19,8 +19,8 @@
   id: SecretCosmicCult
   alias:
     - secretcosmic
-  name: secret-title
-  description: secret-description
+  name: секрет-титул
+  description: секрет-опис
   showInVote: false
   rules:
     - CosmicCult

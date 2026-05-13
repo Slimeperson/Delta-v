@@ -20,7 +20,7 @@
 
 - type: siliconLawset
   id: SyndicateLawset
-  name: laws-syndicate-name
+  name: закони-синдикат-назва
   laws:
   - SyndicateBoard1
   - SyndicateBoard2

@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingBeltKatanaSheathFilled
   parent: ClothingBeltKatanaSheath
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:
@@ -13,7 +13,7 @@
 - type: entity
   id: ClothingBeltCorpsmanWebbingFilled
   parent: ClothingBeltCorpsmanWebbing
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -28,7 +28,7 @@
 - type: entity
   id: ClothingBeltSecurityBeltCustom
   parent: ClothingBeltSecurity
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -40,7 +40,7 @@
 - type: entity
   id: ClothingBeltSecurityWebbingCustom
   parent: ClothingBeltSecurityWebbing
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -52,7 +52,7 @@
 - type: entity
   id: ClothingBeltFoamSheathFilled
   parent: ClothingBeltFoamSheath
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:
@@ -62,7 +62,7 @@
 - type: entity
   id: ClothingBeltRealFoamSheathFilled
   parent: ClothingBeltFoamSheath
-  suffix: Filled, Real
+  suffix: Заповнений, справжній
   components:
   - type: ContainerFill
     containers:
@@ -72,7 +72,7 @@
 - type: entity
   parent: ClothingBeltPaperwork
   id: ClothingBeltPaperworkFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -86,7 +86,7 @@
 - type: entity
   parent: ClothingBeltMedical
   id: ClothingBeltSurgeonFilled
-  suffix: Filled, Surgical
+  suffix: Наповнений, хірургічний
   components:
   - type: EntityTableContainerFill
     containers:
@@ -114,7 +114,7 @@
 - type: entity
   id: ClothingBeltHolsterArmsdealerFilled
   parent: ClothingBeltHolster
-  suffix: Armsdealer, Filled
+  suffix: Торговець зброєю, Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

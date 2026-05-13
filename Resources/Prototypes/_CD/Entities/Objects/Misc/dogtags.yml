@@ -1,8 +1,8 @@
 - type: entity
   id: CDDogtags
   parent: ClothingNeckBase 
-  name: dogtags
-  description: A set of dogtags, hanging from a small piece of cord for wearing and carrying.
+  name: мітки
+  description: Набір бирок, які висять на невеликому шнурку для носіння та перенесення.
   components:
   - type: Sprite
     sprite: _CD/Objects/Misc/dogtags.rsi

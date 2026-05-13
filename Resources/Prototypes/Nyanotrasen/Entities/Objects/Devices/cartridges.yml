@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: GlimmerMonitorCartridge
-  name: glimmer monitor cartridge
-  description: A cartridge that keeps track of glimmer.
+  name: брауні живлення бар
+  description: Суп від печії названий на честь двох речей; це рожево-рожевий колір і пекучий перець чилі.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi

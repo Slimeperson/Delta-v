@@ -538,7 +538,7 @@
 
 - type: construction
   id: N14TableCounter
-  name: structure-furniture-fancy-counter
+  name: структура-меблі-вишуканий-прилавок
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCounter
@@ -551,7 +551,7 @@
 
 - type: construction
   id: N14TableCounterBend
-  name: structure-furniture-fancy-counter-corner
+  name: структура-меблі-вишуканий-прилавок-кут
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCounterBend
@@ -564,7 +564,7 @@
 
 - type: construction
   id: N14TableCounterIntersect
-  name: structure-furniture-fancy-counter-junction
+  name: структура-меблі-химерний-зустріч
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCounterIntersect
@@ -577,7 +577,7 @@
 
 - type: construction
   id: N14TableCounterCross
-  name: structure-furniture-fancy-counter-cross
+  name: структура-меблі-модні-прилавок-хрест
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCounterCross
@@ -590,7 +590,7 @@
 
 - type: construction
   id: N14TableCounterCraft
-  name: structure-furniture-shoddy-counter
+  name: структура-меблі-нишкова прилавок
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCraftCounter
@@ -603,7 +603,7 @@
 
 - type: construction
   id: N14TableCounterCraftBend
-  name: structure-furniture-shoddy-counter-corner
+  name: конструкція-меблі-низький-прилавок-кут
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCraftCounterBend
@@ -616,7 +616,7 @@
 
 - type: construction
   id: N14TableCounterCraftIntersect
-  name: structure-furniture-shoddy-counter-junction
+  name: структура-меблі-неякісні-зустріч
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCraftCounterIntersect
@@ -629,7 +629,7 @@
 
 - type: construction
   id: N14TableCounterCraftCross
-  name: structure-furniture-shoddy-counter-cross
+  name: construction-graph-tag-diaghud
   graph: N14TableRecipes
   startNode: start
   targetNode: N14WoodCraftCounterCross
@@ -654,7 +654,7 @@
 
 - type: construction
   id: N14TableCounterMetal
-  name: structure-furniture-fancy-steel-counter
+  name: структура-меблі-незвичайна-сталева стійка
   graph: N14TableRecipes
   startNode: start
   targetNode: N14MetalCounter
@@ -667,7 +667,7 @@
 
 - type: construction
   id: N14TableCounterMetalBend
-  name: structure-furniture-fancy-steel-counter-corner
+  name: структура-меблі-вишуканий-сталевий-куточок
   graph: N14TableRecipes
   startNode: start
   targetNode: N14MetalCounterBend
@@ -680,7 +680,7 @@
 
 - type: construction
   id: N14TableMetalCounterIntersect
-  name: structure-furniture-fancy-steel-counter-junction
+  name: структура-меблі-химерна-сталева-зустріч
   graph: N14TableRecipes
   startNode: start
   targetNode: N14MetalCounterIntersect
@@ -693,7 +693,7 @@
 
 - type: construction
   id: N14TableCounterMetalCross
-  name: structure-furniture-fancy-steel-counter-cross
+  name: структура-меблі-незвичайний-сталевий-прилавок-хрест
   graph: N14TableRecipes
   startNode: start
   targetNode: N14MetalCounterCross

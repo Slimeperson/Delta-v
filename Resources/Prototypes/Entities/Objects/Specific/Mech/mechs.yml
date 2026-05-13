@@ -111,8 +111,8 @@
 - type: entity
   id: MechRipley
   parent: BaseMech
-  name: Ripley APLU
-  description: Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
+  name: Ріплі APLU
+  description: Універсальний і легкоброньований, Ripley стане в пригоді майже для будь-якої важкої роботи. "APLU" розшифровується як автономний блок живлення.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -145,7 +145,7 @@
 - type: entity
   id: MechRipleyBattery
   parent: MechRipley
-  suffix: Battery
+  suffix: Акумулятор
   components:
   - type: ContainerFill
     containers:
@@ -183,7 +183,7 @@
 - type: entity
   parent: MechHonker
   id: MechHonkerBattery
-  suffix: Battery
+  suffix: Акумулятор
   components:
   - type: ContainerFill
     containers:
@@ -194,7 +194,7 @@
   parent: BaseMech
   id: MechHamtr
   name: HAMTR
-  description: "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
+  description: "Експериментальний механізм, який використовує інтерфейс мозок-комп’ютер для підключення безпосередньо до мозку хом’яка».
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -233,7 +233,7 @@
 - type: entity
   parent: MechHamtr
   id: MechHamtrBattery
-  suffix: Battery
+  suffix: Акумулятор
   components:
   - type: ContainerFill
     containers:
@@ -246,7 +246,7 @@
   parent: BaseMech
   id: MechVim
   name: Vim
-  description: A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
+  description: Мініатюрний екзокостюм від Nanotrasen, розроблений, щоб незамінні станційні улюбленці прожили трохи довше.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -301,7 +301,7 @@
 - type: entity
   parent: MechVim
   id: MechVimBattery
-  suffix: Battery
+  suffix: Акумулятор
   components:
   - type: ContainerFill
     containers:

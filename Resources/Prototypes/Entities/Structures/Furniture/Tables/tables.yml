@@ -158,7 +158,7 @@
 - type: entity
   id: Table
   parent: TableBase
-  name: table
+  name: стіл
   description: A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
@@ -767,7 +767,7 @@
 - type: entity
   id: TableFancyBlue
   parent: TableFancyBase
-  suffix: Blue
+  suffix: Синій
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/blue.rsi
@@ -812,7 +812,7 @@
 - type: entity
   id: TableFancyBlack
   parent: TableFancyBase
-  suffix: Black
+  suffix: чорний
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/black.rsi
@@ -827,7 +827,7 @@
 - type: entity
   id: TableFancyRed
   parent: TableFancyBase
-  suffix: Red
+  suffix: Червоний
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/red.rsi
@@ -902,7 +902,7 @@
 - type: entity
   id: TableFancyWhite
   parent: TableFancyBase
-  suffix: White
+  suffix: Білий
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/white.rsi
@@ -919,9 +919,9 @@
 - type: entity
   id: TableDebug
   parent: TableBase
-  name: table
+  name: стіл
   description: PUT ON THEM CODERSOCKS!!
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/debug.rsi
@@ -987,7 +987,7 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: metal counter
+  name: металевий лічильник
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite

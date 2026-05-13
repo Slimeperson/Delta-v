@@ -1,7 +1,7 @@
 - type: job
   id: Surgeon
-  name: job-name-surgeon
-  description: job-description-surgeon
+  name: робота-назва-хірург
+  description: loadout-group-security-gloves
   playTimeTracker: JobSurgeon
   requirements:
     - !type:DepartmentTimeRequirement

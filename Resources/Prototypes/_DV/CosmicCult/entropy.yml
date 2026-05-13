@@ -1,12 +1,12 @@
 - type: flavor
   id: entropic
   flavorType: Complex
-  description: flavor-complex-entropy
+  description: аромат-комплекс-ентропія
 
 - type: reagent
   id: Entropy
   group: Toxins
-  name: reagent-name-entropy
+  name: назва-реагенту-ентропія
   desc: reagent-desc-entropy
   flavor: entropic
   color: "#371a47"
@@ -33,7 +33,7 @@
 - type: reagent
   id: AntiEntropy
   group: Narcotics
-  name: reagent-name-anti-entropy
+  name: назва-реагенту-анти-ентропія
   desc: reagent-desc-anti-entropy
   flavor: entropic
   color: "#491365"

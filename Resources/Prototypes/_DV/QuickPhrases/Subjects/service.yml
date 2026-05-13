@@ -6,194 +6,194 @@
 - type: quickPhrase
   id: MeatPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-meat
+  text: фраза-м'ясо
 
 - type: quickPhrase
   id: FlourPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-flour
+  text: фраза-мука
 
 - type: quickPhrase
   id: RicePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-rice
+  text: фраза-рис
 
 - type: quickPhrase
   id: DoughPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-dough
+  text: фраза-тісто
 
 - type: quickPhrase
   id: BreadPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-bread
+  text: фраза-хліб
 
 - type: quickPhrase
   id: MilkPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-milk
+  text: фраза-розташування-верф
 
 - type: quickPhrase
   id: EggPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-egg
+  text: фраза-яйце
 
 - type: quickPhrase
   id: WheatPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-wheat
+  text: фраза-пшениця
 
 - type: quickPhrase
   id: VegetablePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-vegetable
+  text: фраза-овоч
 
 - type: quickPhrase
   id: FruitPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-fruit
+  text: фраза-плід
 
 - type: quickPhrase
   id: SugarPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-sugar
+  text: фраза-цукор
 
 - type: quickPhrase
   id: AlcoholPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-alcohol
+  text: фраза-алкоголь
 
 - type: quickPhrase
   id: NonAlcoholicPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-non-alcoholic
+  text: фразеолог
 
 - type: quickPhrase
   id: JuicePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-juice
+  text: фраза-сок
 
 - type: quickPhrase
   id: MopPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-mop
+  text: фраза-швабра
 
 - type: quickPhrase
   id: BucketPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-bucket
+  text: фразеологізм
 
 - type: quickPhrase
   id: SpaceCleanerPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-space-cleaner
+  text: фраза-простір-очисник
 
 - type: quickPhrase
   id: SoapPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-soap
+  text: фраза-мило
 
 - type: quickPhrase
   id: TrashPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-trash
+  text: фраза-треш
 
 - type: quickPhrase
   id: StagePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-stage
+  text: фраза-етап
 
 - type: quickPhrase
   id: SeedPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-seed
+  text: словосполучення-сем
 
 - type: quickPhrase
   id: PlantPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-plant
+  text: фраза-рослина
 
 - type: quickPhrase
   id: MutagenPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-mutagen
+  text: фраза-мутаген
 
 - type: quickPhrase
   id: RobustPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-robust
+  text: фразеологічний
 
 - type: quickPhrase
   id: WeedPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-weed
+  text: словосполучення-бур'ян
 
 - type: quickPhrase
   id: KnifePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-knife
+  text: фраза-ніж
 
 - type: quickPhrase
   id: MicrowavePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-microwave
+  text: фраза-мікрохвильовка
 
 - type: quickPhrase
   id: GrillPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-grill
+  text: фраза-гриль
 
 - type: quickPhrase
   id: SweetPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-sweet
+  text: фраза-солодкий
 
 - type: quickPhrase
   id: SourPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-sour
+  text: фраза-кислий
 
 - type: quickPhrase
   id: SpicyPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-spicy
+  text: фраза-пряний
 
 - type: quickPhrase
   id: SavoryPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-savory
+  text: фразеологізм
 
 - type: quickPhrase
   id: BitterPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-bitter
+  text: фраза-гірка
 
 - type: quickPhrase
   id: TomatoPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-tomato
+  text: фраза-помідор
 
 - type: quickPhrase
   id: PotatoPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-potato
+  text: фраза-картопля
 
 - type: quickPhrase
   id: OnionPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-onion
+  text: словосполучення-цибуля
 
 - type: quickPhrase
   id: AloePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-aloe
+  text: фраза-алое
 
 - type: quickPhrase
   id: PoppyPhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-poppy
+  text: фраза-мак
 
 - type: quickPhrase
   id: GalaxyThistlePhrase
   parent: BaseServiceSubjectPhrase
-  text: phrase-galaxythistle
+  text: фразеологізм

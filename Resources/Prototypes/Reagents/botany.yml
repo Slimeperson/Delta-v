@@ -2,7 +2,7 @@
   id: EZNutrient
   name: reagent-name-e-z-nutrient
   group: Botanical
-  desc: reagent-desc-e-z-nutrient
+  desc: reagent-desc-e-z-поживна речовина
   flavor: bitter
   color: "#664330"
   physicalDesc: reagent-physical-desc-thick
@@ -50,7 +50,7 @@
 
 - type: reagent
   id: PestKiller
-  name: reagent-name-pest-killer
+  name: реагент-назва-шкідник-кілер
   group: Botanical
   desc: reagent-desc-pest-killer
   flavor: bitter
@@ -76,7 +76,7 @@
   id: PlantBGone
   name: reagent-name-plant-b-gone
   group: Botanical
-  desc: reagent-desc-plant-b-gone
+  desc: reagent-desc-inside-scoop
   flavor: bitter
   color: "#49002E"
   physicalDesc: reagent-physical-desc-bubbling
@@ -175,7 +175,7 @@
 
 - type: reagent
   id: WeedKiller
-  name: reagent-name-weed-killer
+  name: ім'я-реагенту-знищувач бур'янів
   group: Botanical
   desc: reagent-desc-weed-killer
   flavor: bitter
@@ -199,9 +199,9 @@
 
 - type: reagent
   id: Ammonia
-  name: reagent-name-ammonia
+  name: назва реагенту-аміак
   group: Botanical
-  desc: reagent-desc-ammonia
+  desc: reagent-desc-аміак
   physicalDesc: reagent-physical-desc-pungent
   flavor: bitter
   color: "#77b58e"
@@ -288,9 +288,9 @@
 
 - type: reagent
   id: Diethylamine
-  name: reagent-name-diethylamine
+  name: назва реагенту-діетиламін
   group: Botanical
-  desc: reagent-desc-diethylamine
+  desc: reagent-desc-діетиламін
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: bitter
   color: "#a1000b"

@@ -12,12 +12,12 @@
 - type: entity
   parent: [BaseRecruiterObjective, EscapeShuttleObjective]
   id: RecruiterEscapeObjective
-  description: Assist the syndicate with briefing your recruited operatives on their new goals.
+  description: Допоможіть синдикату розповісти найнятим оперативникам про їхні нові цілі.
 
 - type: entity
   parent: BaseRecruiterObjective
   id: RecruiterRecruitingObjective
-  description: Interview the finest nanotrasen rejects and have them sign your contract, in blood, with your recruiter pen.
+  description: Візьміть співбесіду з найкращими відмовниками нанотрасенів і нехай вони підпишуть ваш контракт кров’ю ручкою вашого рекрутера.
   components:
   - type: Objective
     icon:
@@ -26,7 +26,7 @@
   - type: NumberObjective
     min: 2
     max: 5
-    title: objective-recruiting-title
+    title: target-recruiting-title
   - type: RecruitingCondition
 
 - type: entity

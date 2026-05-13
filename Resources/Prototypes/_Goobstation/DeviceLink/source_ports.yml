@@ -14,8 +14,8 @@
 
 - type: sourcePort
   id: RoboticArmOutput
-  name: signal-port-name-output-machine
-  description: signal-port-description-output-machine
+  name: ім'я-сигнального-порту-вихідної-машини
+  description: сигнальний-порт-опис-вихідна-машина
 
 - type: sourcePort
   id: RoboticArmMoved
@@ -73,7 +73,7 @@
 - type: sourcePort
   id: Completed
   name: signal-port-name-machine-completed
-  description: signal-port-description-machine-completed
+  description: barsign-prototype-description-whiskeyechoes
 
 - type: sourcePort
   id: Failed
@@ -85,7 +85,7 @@
 - type: sourcePort
   id: AutomationSlotTool
   name: signal-port-name-automation-slot-tool
-  description: signal-port-description-automation-slot-tool
+  description: Компактний одноразовий шприц, призначений виключно для ін’єкцій підшкірних імплантатів. Голка для введення покрита анестетиком.
 
 # Autodoc
 

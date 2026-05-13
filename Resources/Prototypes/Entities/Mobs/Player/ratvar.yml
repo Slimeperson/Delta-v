@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: MobRatvarBase #can't have the clockwork justiciar be associated with his (im)mortal enemy
-  name: Ratvar
-  description: Your mind aches as it fails to understand the complex mechanics of what is before you.
+  name: Ратвар
+  description: Ваш розум болить, оскільки він не може зрозуміти складну механіку того, що перед вами.
   components:
   - type: Sprite
     sprite: Mobs/Demons/ratvar.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: MobRatvarBase
   id: MobRatvarSpawn
-  suffix: Spawn
+  suffix: Спаун
   categories: [ HideSpawnMenu ] # DeltaV
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
   categories: [ HideSpawnMenu ] # DeltaV
   components:
   - type: AnnounceOnSpawn
-    message: ratvar-has-risen
+    message: ratvar-встав
     sender: ratvar-has-risen-sender
     sound:
       path: /Audio/Misc/ratvar_reveal.ogg

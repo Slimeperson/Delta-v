@@ -70,7 +70,7 @@
   parent: Paper
   id: PaperDyedOrange
   description: 'A piece of orange paper.'
-  suffix: orange
+  suffix: помаранчевий
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

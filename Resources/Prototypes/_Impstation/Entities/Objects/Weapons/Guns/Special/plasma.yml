@@ -1,8 +1,8 @@
 - type: entity
-  name: Adder
+  name: гадюка
   parent: BaseItem
   id: WeaponPlasmaAdder
-  description: While not the intended product of Cybersun's research, the Adder's liquid-ammo platform is a fearsome technology. Uses Echion, produced from advanced synthesizers.
+  description: Хоча платформа для рідких боєприпасів Adder не є запланованим продуктом досліджень Cybersun, вона є страшною технологією. Використовує Echion, виготовлений із передових синтезаторів.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Special/adder.rsi
@@ -63,10 +63,10 @@
     price: 100
 
 - type: entity
-  name: Akurra
+  name: Акурра
   parent: [WeaponPlasmaAdder, BaseGunWieldable]
   id: WeaponPlasmaAkurra
-  description: Critics call the Adder's successor "a beautiful marriage of technology and malice in a single package". Uses Echion, produced from advanced synthesizers.
+  description: Критики називають наступника Adder «прекрасним поєднанням технологій і злоби в одному пакеті». Використовує Echion, виготовлений із передових синтезаторів.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Special/akurra.rsi

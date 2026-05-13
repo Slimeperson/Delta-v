@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialGlass
-  name: glass sheet crate
-  description: 90 sheets of glass, packed with care.
+  name: скляний листовий ящик
+  description: 90 аркушів скла, ретельно упаковані.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,8 +13,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSteel
-  name: steel sheet crate
-  description: 90 sheets of steel.
+  name: обрешітка з листової сталі
+  description: 90 листів сталі.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -25,8 +25,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialTextiles
-  name: textiles crate
-  description: 60 pieces of cloth and 30 pieces of durathread.
+  name: ящик для текстилю
+  description: 60 шматків тканини та 30 шматків дюраніту.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -39,8 +39,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPlastic
-  name: plastic sheet crate
-  description: 90 sheets of plastic.
+  name: листовий пластиковий ящик
+  description: 90 листів пластику.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialWood
-  name: wood crate
-  description: Bunch of wood planks.
+  name: spellbook-voidaapplause-name
+  description: Купа дерев'яних дощок.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialBrass
-  name: brass crate
-  description: 90 sheets of brass.
+  name: латунний ящик
+  description: 90 листів латуні.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -74,8 +74,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPlasteel
-  name: plasteel crate
-  description: 30 sheets of plasteel.
+  name: 3 котушки кабелю НН.
+  description: 30 листів пластмаслі.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: CratePlasma
   id: CrateMaterialPlasma
-  name: solid plasma crate
-  description: 30 sheets of plasma.
+  name: твердий плазмовий ящик
+  description: 30 листів плазми.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialGold
-  name: gold crate
-  description: 30 bars of gold.
+  name: золотий ящик
+  description: 30 злитків золота.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -107,8 +107,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSilver
-  name: silver crate
-  description: 30 bars of silver.
+  name: срібний ящик
+  description: 30 злитків срібла.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -118,8 +118,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialCardboard
-  name: cardboard crate
-  description: 90 pieces of cardboard.
+  name: картонний ящик
+  description: 90 штук картону.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -130,8 +130,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPaper
-  name: paper crate
-  description: 90 sheets of paper.
+  name: паперовий ящик
+  description: 90 аркушів паперу.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -173,8 +173,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialRandom
-  name: surplus materials
-  description: Surplus materials from somewhere.
+  name: надлишки матеріалів
+  description: Зайві матеріали звідкись.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -186,8 +186,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSilo
-  name: material silo crate
-  description: A package including all the materials to create a material silo.
+  name: силосний ящик для матеріалу
+  description: Пакет із усіма матеріалами для створення силосу для матеріалів.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -204,8 +204,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialBasicResource
-  name: basic sheet crate
-  description: 30 sheets of steel, glass, and plastic.
+  name: основна листова обрешітка
+  description: 30 листів сталі, скла та пластику.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: [ClothingHeadsetGrey, BaseChameleon]
   id: ClothingHeadsetChameleon
-  name: passenger headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
-  suffix: Chameleon
+  name: ранець клану павука
+  description: Оновлений модульний домофон, який встановлюється на голову. Приймає ключі шифрування.
+  suffix: Хамелеон
   components:
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag

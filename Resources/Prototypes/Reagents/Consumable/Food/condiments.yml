@@ -1,6 +1,6 @@
 - type: reagent
   id: Astrotame
-  name: reagent-name-astrotame
+  name: назва-реагенту-астротам
   group: Foods
   desc: reagent-desc-astrotame
   physicalDesc: reagent-physical-desc-sugary
@@ -39,9 +39,9 @@
 
 - type: reagent
   id: HorseradishSauce
-  name: reagent-name-horseradish-sauce
+  name: ім'я-реагенту-соус-хрін
   group: Foods
-  desc: reagent-desc-horseradish-sauce
+  desc: reagent-desc-hroni-sauce
   physicalDesc: reagent-physical-desc-overpowering
   flavor: spicy
   color: gray
@@ -79,9 +79,9 @@
 
 - type: reagent
   id: LaughinSyrup
-  name: reagent-name-laughin-syrup
+  name: reagent-name-laughin-syrop
   group: Foods
-  desc: reagent-desc-laughin-syrup
+  desc: reagent-desc-laughin-syrop
   physicalDesc: reagent-physical-desc-funny
   flavor: sweet
   color: "#803280"
@@ -99,9 +99,9 @@
 
 - type: reagent
   id: Mustard
-  name: reagent-name-mustard
+  name: reagent-name-іприт
   group: Foods
-  desc: reagent-desc-mustard
+  desc: reagent-desc-istard
   physicalDesc: reagent-physical-desc-thick
   flavor: mustard
   color: "#ffdb58"
@@ -109,7 +109,7 @@
 
 - type: reagent
   id: Vinaigrette
-  name: reagent-name-vinaigrette
+  name: ім'я-реагенту-вінегрет
   group: Foods
   desc: reagent-desc-vinaigrette
   physicalDesc: reagent-physical-desc-sour
@@ -119,7 +119,7 @@
 
 - type: reagent
   id: Soysauce
-  name: reagent-name-soysauce
+  name: реагент-назва-соєвий соус
   group: Foods
   desc: reagent-desc-soysauce
   physicalDesc: reagent-physical-desc-salty
@@ -136,9 +136,9 @@
 
 - type: reagent
   id: TableSalt
-  name: reagent-name-table-salt
+  name: назва-реактиву-кухонна-сіль
   group: Foods
-  desc: reagent-desc-table-salt
+  desc: реагент-дес-кухонна сіль
   physicalDesc: reagent-physical-desc-grainy
   flavor: salty
   color: "#cfd1d0"
@@ -172,9 +172,9 @@
 
 - type: reagent
   id: Syrup
-  name: reagent-name-syrup
+  name: реагент-назва-сироп
   group: Foods
-  desc: reagent-desc-syrup
+  desc: reagent-desc-сироп
   flavor: sweet
   color: "#fb7125"
   recognizable: true

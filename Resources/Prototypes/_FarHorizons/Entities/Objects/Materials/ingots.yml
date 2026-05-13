@@ -1,8 +1,8 @@
 - type: entity
   parent: IngotBase
   id: IngotPlutonium
-  name: plutonium bar
-  suffix: Full
+  name: злиток плутонію
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -43,8 +43,8 @@
 - type: entity
   parent: IngotPlutonium
   id: IngotPlutonium1
-  name: plutonium bar
-  suffix: Single
+  name: злиток плутонію
+  suffix: щит паладина
   components:
   - type: Sprite
     state: iron

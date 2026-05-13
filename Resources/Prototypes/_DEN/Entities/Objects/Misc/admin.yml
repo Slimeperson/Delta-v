@@ -4,9 +4,9 @@
 - type: entity
   id: AdminToolbelt
   parent: ClothingBeltChiefEngineer
-  name: admin toolbelt
-  description: A magical toolbelt that is NOT a shrunken chief engineer's toolbelt.
-  suffix: Admin
+  name: панель інструментів адміністратора
+  description: Чарівний ремінь для інструментів, який НЕ є зморщеним ременем для інструментів головного інженера.
+  suffix: адмін
   components:
   - type: Item
     size: Normal
@@ -37,9 +37,9 @@
 - type: entity
   id: AdminMaterialBox
   parent: BoxCardboard
-  name: admin material box
-  description: A box of basic materials.
-  suffix: Admin
+  name: скринька матеріалів адмін
+  description: Коробка основних матеріалів.
+  suffix: адмін
   components:
   - type: Item
     size: Normal
@@ -63,9 +63,9 @@
 - type: entity
   id: AdminRCD
   parent: RCDExperimental
-  name: admin RCD
-  description: An RCD with a never-ending supply of compressed matter.
-  suffix: Admin
+  name: адмін УЗО
+  description: УЗО з нескінченним запасом стиснутої речовини.
+  suffix: адмін
   components:
   - type: LimitedCharges
     maxCharges: 100

@@ -197,7 +197,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretSecurityControlPanel
-  suffix: Security
+  suffix: Безпека
   components:
   - type: AccessReader
     access: [["StationAi"], ["Security"]]
@@ -214,7 +214,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretCommandControlPanel
-  suffix: Command
+  suffix: Команда
   components:
   - type: AccessReader
     access: [["StationAi"], ["Command"]]

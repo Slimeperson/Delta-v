@@ -84,7 +84,7 @@ marking-MothRArmClassicLovers = Moth Right Arm (Lovers, Classic)
 marking-MothLLegClassicLovers = Moth Left Leg (Lovers, Classic)
 marking-MothRLegClassicLovers = Moth Right Leg (Lovers, Classic)
 
-marking-MothHeadClassicMoonfly = Moth Head (Moonfly, Classic)
+marking-MothHeadClassicMoonfly = Smite Cranberry
 marking-MothChestClassicMoonfly = Скриня молі (Moonfly, Classic)
 marking-MothLArmClassicMoonfly = Ліва рука метелика (Moonfly, Classic)
 marking-MothRArmClassicMoonfly = Moth Right Arm (Moonfly, Classic)

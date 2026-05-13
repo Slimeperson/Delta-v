@@ -5,8 +5,8 @@
 - type: entity
   parent: StorageBin
   id: Constructor
-  name: constructor
-  description: The machine putting assistants out of a job, it can build anything using supplied materials.
+  name: конструктор
+  description: Машина позбавляє помічників роботи, вона може будувати що завгодно, використовуючи надані матеріали.
   components:
   # Appearance
   - type: Sprite

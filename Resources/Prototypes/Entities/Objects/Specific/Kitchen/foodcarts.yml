@@ -1,9 +1,9 @@
 - type: entity
-  name: food cart
+  name: продуктовий візок
   id: FoodCartBase
   abstract: true
   parent: BaseStructureDynamic
-  description: A cart for food.
+  description: Візок для їжі.
   components:
     - type: Sprite
       netsync: false
@@ -67,10 +67,10 @@
     #      startingItem: PowerCellMedium
 
 - type: entity
-  name: hot food cart
+  name: візок для гарячої їжі
   id: FoodCartHot
   parent: FoodCartBase
-  description: Get out there and slang some dogs.
+  description: Вийди туди і накинь собак.
   components:
     - type: Sprite
       noRot: true
@@ -147,10 +147,10 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
-  name: cold food cart
+  name: кошик для холодної їжі
   id: FoodCartCold
   parent: FoodCartBase
-  description: It's the Ice Cream Man! It's the Ice Cream Man!
+  description: Це Людина-морозиво! Це Людина-морозиво!
   components:
     - type: Sprite
       noRot: true

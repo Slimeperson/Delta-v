@@ -130,7 +130,7 @@
 - type: cargoBounty
   id: BountyGoliathPlates
   reward: 20000
-  description: bounty-description-plates
+  description: баунті-опис-таблиці
   group: SalvageJobTier3
   sprite:
     sprite: Mobs/Aliens/Asteroid/goliath.rsi
@@ -145,7 +145,7 @@
 - type: cargoBounty
   id: BountyHivelordRemains
   reward: 20000
-  description: bounty-description-remains
+  description: баунті-опис-залишки
   group: SalvageJobTier3
   sprite:
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi

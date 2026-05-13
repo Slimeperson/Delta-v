@@ -107,7 +107,7 @@ psionic-eruption-annoy-dangerous = Ваша голова ось-ось вибу�
 psionic-eruption-annoy-critical = Припиніть це! Припиніть це! Припиніть це!
 
 psionic-eruption-nuke-warning = Увага! Переважну псіогенну енергію було виявлено в {$location}.
-psionic-eruption-nuke-sender = ???
+psionic-eruption-nuke-sender = [[0]]([[1]])
 
 psionic-eruption-not-enough-creatures = Вам потрібно принаймні 3 живі істоти поблизу, щоб розв’язати виверження. У вас є лише {$count}.
 

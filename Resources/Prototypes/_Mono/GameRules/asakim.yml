@@ -46,7 +46,7 @@
       roleLoadout:
       - RoleSurvivalStandard # maybe remove this
       briefing:
-        text: asakim-role-briefing
+        text: asakim-role-brifing
         color: "#5085fa"
         sound: "/Audio/_DV/Ambience/Antag/asakimbriefing.ogg"
       components:

@@ -1,7 +1,7 @@
 - type: entity
   id: ClosetBase
   parent: [ BaseStructureDynamic, BasePaperLabelableVisualized ]
-  name: closet
+  name: шафа
   description: A standard-issue Nanotrasen storage unit.
   abstract: true
   components:

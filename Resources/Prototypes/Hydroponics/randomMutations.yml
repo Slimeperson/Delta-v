@@ -8,13 +8,13 @@
     #  appliesToPlant: false
     #  effect: !type:Glow
     - name: Sentient
-      description: mutation-plant-sentient
+      description: мутація-рослина-чуття
       baseOdds: 0.0072
       appliesToProduce: false
       persists: false
       effect: !type:MakeSentient # existing effect.
     - name: Slippery
-      description: mutation-plant-slippery
+      description: мутація-рослина-слизька
       baseOdds: 0.036
       appliesToPlant: false
       effect: !type:Slipify

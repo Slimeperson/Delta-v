@@ -7,54 +7,54 @@
 - type: quickPhrase
   id: WherePhrase
   parent: BaseQuestionPhrase
-  text: phrase-where
+  text: фраза-де
 
 - type: quickPhrase
   id: WhoPhrase
   parent: BaseQuestionPhrase
-  text: phrase-who
+  text: фраза-хто
 
 - type: quickPhrase
   id: WhatPhrase
   parent: BaseQuestionPhrase
-  text: phrase-what
+  text: фраза-що
 
 - type: quickPhrase
   id: WhyPhrase
   parent: BaseQuestionPhrase
-  text: phrase-why
+  text: фраза-чому
 
 - type: quickPhrase
   id: HowPhrase
   parent: BaseQuestionPhrase
-  text: phrase-how
+  text: фраза-хау
 
 - type: quickPhrase
   id: WhenPhrase
   parent: BaseQuestionPhrase
-  text: phrase-when
+  text: фраза-коли
 
 - type: quickPhrase
   id: DoYouHavePhrase
   parent: BaseQuestionPhrase
-  text: phrase-do-you-have
+  text: фраза-до-ти-маєш
 
 - type: quickPhrase
   id: HowDoIPhrase
   parent: BaseQuestionPhrase
-  text: phrase-how-do-i
+  text: фраза-як-зробити-я
 
 - type: quickPhrase
   id: CanIPhrase
   parent: BaseQuestionPhrase
-  text: phrase-can-i
+  text: фраза-can-i
 
 - type: quickPhrase
   id: ShouldIPhrase
   parent: BaseQuestionPhrase
-  text: phrase-should-i
+  text: фраза-треба-я
 
 - type: quickPhrase
   id: WhichPhrase
   parent: BaseQuestionPhrase
-  text: phrase-which
+  text: словосполучення-який

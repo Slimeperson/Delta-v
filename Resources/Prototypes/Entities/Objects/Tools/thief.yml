@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMinorContraband
   id: ThiefBeacon
-  name: thieving beacon
-  description: A device that will teleport everything around it to the thief's vault at the end of the shift.
+  name: злодійський маяк
+  description: Пристрій, який наприкінці зміни телепортує все навколо до сховища злодія.
   components:
     - type: ThiefBeacon
     - type: StealArea
@@ -41,8 +41,8 @@
 
 - type: entity
   id: ToolboxThief
-  name: undetermined thieving toolbox
-  description: This is where your favorite thief's supplies lie. Try to remember which ones.
+  name: невизначений злодійський інструментарій
+  description: золотий злиток
   parent: [ BaseItem, BaseMinorContraband ]
   components:
   - type: Sprite
@@ -67,8 +67,8 @@
 
 - type: entity
   id: SatchelThief
-  name: undetermined thieving satchel
-  description: This is where your favorite thief's supplies lie. Folded for your convenience.
+  name: невизначений злодійський ранець
+  description: Тут лежать припаси вашого улюбленого злодія. У складеному вигляді для вашої зручності.
   parent: ToolboxThief
   components:
   - type: Sprite

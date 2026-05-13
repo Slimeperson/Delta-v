@@ -1,5 +1,5 @@
 - type: entity
-  name: Schoolgirl Uniform Spawner
+  name: Школярка Форми Spawner
   id: SchoolgirlUniformSpawner
   parent: MarkerBase
   components:

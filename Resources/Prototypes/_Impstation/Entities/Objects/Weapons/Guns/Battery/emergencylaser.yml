@@ -1,8 +1,8 @@
 - type: entity
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable, BaseSecurityContraband]
   id: EmergencyWeaponLaserCarbine
-  name: emergency laser rifle
-  description: An emergency laser rifle, for use when getting timely clearance isn't an option. Hand this in to security once the coast is clear.
+  name: аварійна лазерна гвинтівка
+  description: Екстрена лазерна гвинтівка для використання, коли своєчасне отримання дозволу не є варіантом. Віддайте це охороні, коли берег буде вільним.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Battery/emergency_laser_gun.rsi

@@ -1,5 +1,5 @@
 - type: body
-  name: species-name-feroxi
+  name: motorkind
   id: Feroxi
   root: torso
   slots:

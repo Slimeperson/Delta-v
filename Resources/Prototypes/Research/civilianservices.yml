@@ -2,7 +2,7 @@
 
 - type: technology
   id: Hydroponics
-  name: research-technology-basic-hydroponics
+  name: дослідження-технології-основи-гідропоніки
   icon:
     sprite: Structures/Machines/seed_extractor.rsi
     state: seedextractor
@@ -48,7 +48,7 @@
 
 - type: technology
   id: AudioVisualCommunication
-  name: research-technology-audio-visual-communication
+  name: дослідження-технології-аудіо-візуальні-комунікації
   icon:
     sprite: Structures/Wallmounts/camera.rsi
     state: cameracase
@@ -67,7 +67,7 @@
 
 - type: technology
   id: AdvancedEntertainment
-  name: research-technology-advanced-entertainment
+  name: дослідження-технології-передові-розваги
   icon:
     sprite: Structures/Machines/computers.rsi
     state: television
@@ -83,7 +83,7 @@
 
 - type: technology
   id: MeatManipulation
-  name: research-technology-meat-manipulation
+  name: дослідження-технології-маніпуляції з м'ясом
   icon:
     sprite: Structures/Machines/fat_sucker.rsi
     state: display
@@ -123,7 +123,7 @@
 
 - type: technology
   id: BiochemicalStasis
-  name: research-technology-biochemical-stasis
+  name: дослідження-технологія-біохімічний-стаз
   icon:
     sprite: Structures/Machines/stasis_bed.rsi
     state: icon
@@ -138,7 +138,7 @@
 
 - type: technology # Merge with other T2 medical research if possible!
   id: MechanizedTreatment
-  name: research-technology-mechanized-treatment
+  name: дослідження-технологія-механізована-обробка
   icon:
     sprite: Mobs/Silicon/chassis.rsi
     state: medical
@@ -151,7 +151,7 @@
 
 - type: technology
   id: AdvancedCleaning
-  name: research-technology-advanced-cleaning
+  name: дослідження-технології-передове очищення
   icon:
     sprite: Objects/Specific/Janitorial/advmop.rsi
     state: advmop
@@ -188,7 +188,7 @@
 
 - type: technology
   id: AdvancedSpray
-  name: research-technology-advanced-spray
+  name: дослідження-технології-передові-спрей
   icon:
     sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
     state: icon
@@ -213,7 +213,7 @@
 
 - type: technology
   id: PushHorn
-  name: research-technology-clowning-utilities
+  name: дослідження-технології-клоунада-утиліти
   icon:
     sprite: Objects/Fun/push_horn.rsi
     state: icon
@@ -241,7 +241,7 @@
 
 - type: technology
   id: BluespaceChemistry
-  name: research-technology-bluespace-chemistry
+  name: дослідження-технології-bluespace-хімія
   icon:
     sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
     state: beakerbluespace
@@ -254,7 +254,7 @@
 
 - type: technology
   id: LauncherSyringe
-  name: research-technology-launcher-syringe
+  name: дослідження-технологія-пускова установка-шприц
   icon:
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
     state: syringe_gun

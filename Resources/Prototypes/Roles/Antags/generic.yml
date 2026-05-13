@@ -1,6 +1,6 @@
 - type: antag
   id: GenericAntagonist
-  name: roles-antag-generic-solo-antagonist-name
+  name: roles-atag-generic-solo-antagonist-name
   antagonist: true
   objective: never-shown
 

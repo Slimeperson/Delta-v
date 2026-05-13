@@ -50,7 +50,7 @@
 
 - type: entity
   save: false
-  name: Urist McAsakim
+  name: Уріст МакАсакім
   parent: BaseMobSpeciesOrganic
   id: BaseMobAsakim
   abstract: true
@@ -214,16 +214,16 @@
 
 - type: entity
   save: false
-  name: Urist McAsakim
-  suffix: Urisst' MzAsakim
+  name: Уріст МакАсакім
+  suffix: Уриссть МзАсакім
   parent: BaseMobAsakim
   id: MobAsakim
 
 - type: entity
   parent: BaseMobAsakim
   id: MobAsakimRandom
-  name: Urist McAsakim
-  suffix: Random Appearance
+  name: Уріст МакАсакім
+  suffix: Випадкова поява
   components:
   - type: RandomHumanoidAppearance
   - type: RandomMetadata
@@ -234,7 +234,7 @@
   parent: BaseSpeciesDummy
   id: MobAsakimDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy Asakim meant to be used in character setup.
+  description: Манекен Асакіма, призначений для налаштування персонажа.
   components:
   - type: HumanoidAppearance
     species: Asakim

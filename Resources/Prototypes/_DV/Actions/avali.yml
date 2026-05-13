@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionEyeZoom
-  name: Zoom
-  description: Look further away!
+  name: Збільшити
+  description: Подивіться далі!
   components:
   - type: Action
     icon: _Impstation/Interface/Emotes/blink.png

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanBlue
-  name: blue letterman jacket
-  description: It's a blue highschool jacket with a big '14' stitched onto the back.
+  name: синій літермен
+  description: Це синя шкільна куртка з великою цифрою «14» на спині.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_blue.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanRed
-  name: red letterman jacket
-  description: It's a red highschool jacket with a big '14' stitched onto the back.
+  name: червоний піджак
+  description: Це червоний шкільний піджак із великою цифрою «14» на спині.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_red.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKWhiteHoodie
-  name: MNK white hoodie
-  description: A classic MNK produced white hoodie.
+  name: Біла толстовка MNK
+  description: Класичний білий худі виробництва MNK.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/hoodie_white.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackTopCoat
-  name: MNK black top coat
-  description: A sturdy MNK black top coat.
+  name: Чорне верхнє покриття MNK
+  description: Міцне чорне верхнє пальто MNK.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_top_coat.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackJacket
-  name: MNK black jacket
-  description: A light MNK black jacket.
+  name: Чорна куртка MNK
+  description: Легка чорна куртка MNK.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_jacket.rsi
@@ -67,9 +67,9 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterWizardFake
-  name: wizard robes
-  suffix: fake
-  description: A set of blue robes.
+  name: мантії чарівника
+  suffix: підробка
+  description: Набір синіх халатів.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi

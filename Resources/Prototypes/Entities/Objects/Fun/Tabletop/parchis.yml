@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ParchisBoard
-  name: parchís board
-  description: Cross and circle board game famous for destroying countless friendships.
+  name: дошка parchís
+  description: Настільна гра «Хрестик і коло», відома тим, що руйнує незліченну кількість друзів.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/parchis.rsi

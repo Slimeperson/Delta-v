@@ -2,7 +2,7 @@
   abstract: true
   parent: [ DrinkBaseMaterialCardboard, DrinkBase, DrinkBaseOpenable, DrinkVisualsOpenable ]
   id: DrinkCartonBaseFull
-  suffix: Full
+  suffix: Повний
   components:
   - type: Openable
     sound:

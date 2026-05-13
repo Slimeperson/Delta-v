@@ -326,7 +326,7 @@
         Blunt: 5 # The nettle will "wilt" after 5 hits.
 
 - type: entity
-  name: banana
+  name: банан
   parent: FoodProduceBase
   id: FoodBanana
   description: Rich in potassium.
@@ -647,7 +647,7 @@
       Taco: Garlic
 
 - type: entity
-  name: lemon
+  name: лимон
   parent: FoodProduceBase
   id: FoodLemon
   description: When life gives you lemons, be grateful they aren't limes.
@@ -751,7 +751,7 @@
       Taco: Lime
 
 - type: entity
-  name: orange
+  name: помаранчевий
   parent: FoodLemon
   id: FoodOrange
   description: Healthy, very orange.
@@ -822,7 +822,7 @@
       Taco: ExtradimensionalOrange
 
 - type: entity
-  name: pineapple
+  name: ананас
   parent: FoodProduceBase
   id: FoodPineapple
   description: Mmm, tropical.
@@ -1091,7 +1091,7 @@
     - Vegetable
 
 - type: entity
-  name: apple
+  name: яблуко
   parent: FoodProduceBase
   id: FoodApple
   description: It's a little piece of Eden.
@@ -1862,10 +1862,10 @@
       Burger: GlasstleBurger
 
 - type: entity
-  name: fly amanita
+  name: мухомор
   parent: FoodProduceBase
   id: FoodFlyAmanita
-  description: A delicious-looking mushroom like you see in those cartoons.
+  description: Смачний на вигляд гриб, як у тих мультфільмах.
   components:
   - type: FlavorProfile
     flavors:
@@ -1897,10 +1897,10 @@
     - Mushroom
 
 - type: entity
-  name: gatfruit
+  name: гатфрут
   parent: [ FoodProduceBase, BaseSyndicateContraband ]
   id: FoodGatfruit
-  description: A delicious, gun-shaped fruit with a thick wooden stem.
+  description: Смачний плід у формі пістолета з товстою дерев’яною ніжкою.
   components:
   - type: FlavorProfile
     flavors:
@@ -1934,10 +1934,10 @@
       Burger: GatfruitBurger
 
 - type: entity
-  name: capfruit
+  name: капфрут
   parent: FoodProduceBase
   id: FoodRealCapfruit
-  description: A soft but smooth gun-shaped fruit.
+  description: М’який, але гладкий плід у формі пістолета.
   components:
   - type: FlavorProfile
     flavors:
@@ -1973,10 +1973,10 @@
       Burger: CapfruitBurger
 
 - type: entity
-  name: capfruit
+  name: капфрут
   parent: FoodRealCapfruit
   id: FoodFakeCapfruit
-  suffix: Fake
+  suffix: Підробка
   components:
   - type: Produce
     seedId: fakeCapfruit
@@ -1989,8 +1989,8 @@
     - id: RevolverCapGunFake
 
 - type: entity
-  name: rice bushel
-  description: Can be ground into rice, perfect for pudding or sake.
+  name: бушель рису
+  description: Можна подрібнити в рис, ідеально підходить для пудингу або саке.
   id: RiceBushel
   parent: ProduceBaseRuminant
   components:
@@ -2008,8 +2008,8 @@
     seedId: rice
 
 - type: entity
-  name: soybeans
-  description: For those who can't stand seeing good old meat.
+  name: соєві боби
+  description: Для тих, хто терпіти не може бачити старе добре м’ясо.
   id: FoodSoybeans
   parent: ProduceBaseRuminant
   components:
@@ -2038,8 +2038,8 @@
       Burger: SoybeansBurger
 
 - type: entity
-  name: spaceman's trumpet
-  description: A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
+  name: труба космонавта
+  description: Яскрава квітка, яка ледь помітно пахне свіжоскошеною травою. Доторкнувшись до квітки, здається, через деякий час після контакту на шкірі з’являються плями, але на більшість інших поверхонь це явище не впливає.
   id: FoodSpacemansTrumpet
   parent: FoodProduceBase
   components:
@@ -2072,8 +2072,8 @@
       Burger: SpacemansTrumpetBurger
 
 - type: entity
-  name: koibean
-  description: These beans seem a little bit fishy.
+  name: койбі
+  description: Ці боби здаються трохи рибними.
   id: FoodKoibean
   parent: ProduceBaseRuminant
   components:
@@ -2104,10 +2104,10 @@
       Burger: KoibeanBurger
 
 - type: entity
-  name: watermelon
+  name: кавун
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodWatermelon
-  description: Round green object that you can slice and eat.
+  description: Круглий зелений предмет, який можна нарізати та з’їсти.
   components:
   - type: Item
     size: Small
@@ -2167,10 +2167,10 @@
     - Fruit
 
 - type: entity
-  name: watermelon slice
+  name: шматочок кавуна
   parent: ProduceSliceBase
   id: FoodWatermelonSlice
-  description: Juicy green and red slice.
+  description: Соковитий зелено-червоний шматочок.
   components:
   - type: Item
     size: Tiny
@@ -2206,10 +2206,10 @@
       Skewer: WatermelonSliceSkewer
 
 - type: entity
-  name: holymelon
+  name: Картонна коробка Spessman's Smokes
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodHolymelon
-  description: The water within this melon has been blessed by some deity that's particularly fond of watermelon.
+  description: Воду в цій дині благословив якесь божество, яке особливо любить кавун.
   components:
   - type: Item
     size: Small
@@ -2270,10 +2270,10 @@
     - Fruit
 
 - type: entity
-  name: holymelon slice
+  name: скибочка дині
   parent: ProduceSliceBase
   id: FoodHolymelonSlice
-  description: Juicy golden and red slice.
+  description: Соковитий золотисто-червоний шматочок.
   components:
   - type: Item
     size: Tiny
@@ -2310,10 +2310,10 @@
       Skewer: HolymelonSliceSkewer
 
 - type: entity
-  name: grapes
+  name: виноград
   parent: FoodProduceBase
   id: FoodGrape
-  description: The food of emperors, Space France inhabitants (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
+  description: Їжа імператорів, жителів Космічної Франції (зазвичай у вигляді вина) і футбольних мам. Одного разу його можна буде використати у виробництві вина для бармена, якщо він колись закінчиться.
   components:
   - type: FlavorProfile
     flavors:
@@ -2343,10 +2343,10 @@
     - Fruit
 
 - type: entity
-  name: berries
+  name: ягоди
   parent: FoodProduceBase
   id: FoodBerries
-  description: A handful of various types of berries.
+  description: Жменя різних видів ягід.
   components:
   - type: FlavorProfile
     flavors:
@@ -2380,10 +2380,10 @@
       Burger: BerriesBurger
 
 - type: entity
-  name: bungo fruit
+  name: фрукт бунго
   parent: FoodProduceBase
   id: FoodBungo
-  description: The humble bungo fruit.
+  description: Скромний фрукт бунго.
   components:
   - type: FlavorProfile
     flavors:
@@ -2422,7 +2422,7 @@
       Burger: Bungo
 
 - type: entity
-  name: bungo pit
+  name: бунго яма
   parent: FoodInjectableBase
   id: FoodBungoPit
   components:
@@ -2452,8 +2452,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodPeaPod
-  name: pea pod
-  description: A duck's favorite treat!
+  name: стручок гороху
+  description: Улюблені ласощі качки!
   components:
   - type: FlavorProfile
     flavors:
@@ -2484,8 +2484,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodWorldPeas
-  name: cluster of world peas
-  description: It's rumored to bring peace to any who consume it.
+  name: гроно світового гороху
+  description: Подейкують, він приносить мир усім, хто його споживає.
   components:
   - type: FlavorProfile
     flavors:
@@ -2516,10 +2516,10 @@
       Burger: WorldPeaBurger
 
 - type: entity
-  name: pumpkin
+  name: гарбуз
   parent: FoodProduceBase
   id: FoodPumpkin
-  description: A large, orange... berry. Seriously.
+  description: Велика, оранжева... ягода. Серйозно.
   components:
   - type: Item
     size: Small
@@ -2566,10 +2566,10 @@
     - Vegetable
 
 - type: entity
-  name: blue pumpkin
+  name: синій гарбуз
   parent: FoodProduceBase
   id: FoodBluePumpkin
-  description: A large, blue... berry. Seriously.
+  description: Велика, синя... ягода. Серйозно.
   components:
   - type: Item
     size: Small
@@ -2617,8 +2617,8 @@
     - Fruit
 
 - type: entity
-  name: cotton boll
-  description: Moth people's favorite snack, and just as fluffy as them.
+  name: бавовняна коробочка
+  description: станційний маяк
   id: CottonBol
   parent: FoodProduceBase
   components:
@@ -2649,8 +2649,8 @@
       CottonBurger: CottonBol
 
 - type: entity
-  name: pyrotton boll
-  description: This will probably set you on fire.
+  name: піротонова коробочка
+  description: Це, ймовірно, підпалить вас.
   id: PyrottonBol
   parent: FoodProduceBase
   components:
@@ -2685,10 +2685,10 @@
       CottonBurger: PyrottonBol
 
 - type: entity
-  name: cherry
+  name: вишня
   parent: FoodProduceBase
   id: FoodCherry
-  description: Juicy red cherry with a pit inside.
+  description: Соковита червона вишня з кісточкою всередині.
   components:
   - type: FlavorProfile
     flavors:
@@ -2727,7 +2727,7 @@
       Burger: Cherry
 
 - type: entity
-  name: cherry pit
+  name: вишневої кісточки
   parent: FoodInjectableBase
   id: TrashCherryPit
   components:
@@ -2757,8 +2757,8 @@
   - type: BadFood
 
 - type: entity
-  name: anomaly berry
-  description: A strange blue fruit. Something about it doesn't seem right.
+  name: ягода аномалія
+  description: Дивний синій плід. Щось тут не так.
   parent: FoodProduceBase
   id: FoodAnomalyBerry
   components:
@@ -2796,7 +2796,7 @@
 
 - type: entity
   name: bloonion bulb
-  description: A strange floating bulb.. Nothing worth crying over.
+  description: Досвід Beneath The Sink
   parent: BaseStructureDynamic
   id: FoodBloonion
   components:

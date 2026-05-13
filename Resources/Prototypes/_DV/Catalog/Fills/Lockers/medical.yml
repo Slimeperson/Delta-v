@@ -15,7 +15,7 @@
 - type: entity
   parent: LockerPsychologist
   id: LockerPsychologistFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -115,7 +115,7 @@
 - type: entity
   parent: LockerSurgeon
   id: LockerSurgeonFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -186,7 +186,7 @@
 - type: entity
   parent: LockerParamedic
   id: LockerParamedicFilledHardsuit
-  suffix: Filled, Hardsuit
+  suffix: Заповнений, Hardsuit
   components:
   - type: EntityTableContainerFill
     containers:

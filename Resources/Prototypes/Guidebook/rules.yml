@@ -3,14 +3,14 @@
 
 - type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
   id: DefaultRuleset
-  name: guide-entry-rules
+  name: путівник-правила входу
   ruleEntry: true
   priority: 10
   text: "/ServerInfo/Guidebook/ServerRules/DefaultRules.xml"
 
 - type: guideEntry # DeltaV: Nukes all wizden rules except for the following ones
   id: RoleTypes
-  name: guide-entry-rules-role-types
+  name: керівництво-введення-правила-ролі-типи
   ruleEntry: true
   priority: 10
   text: "/ServerInfo/Guidebook/ServerRules/RoleTypes.xml"

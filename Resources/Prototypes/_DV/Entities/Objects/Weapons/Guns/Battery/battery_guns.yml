@@ -401,8 +401,8 @@
 - type: entity
   parent: [ BaseWeaponBattery, BaseGunWieldable ]
   id: WeaponImmolator
-  name: immolator cannon
-  description: A modified laser gun, shooting highly concetrated beams with higher intensity that ignites the target, for the cost of draining more power per shot
+  name: жертвенна гармата
+  description: Модифікована лазерна гармата, яка стріляє висококонцентрованими променями з більшою інтенсивністю, що запалює ціль, за рахунок витрачання більше енергії на постріл
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/immolator.rsi
@@ -431,8 +431,8 @@
 - type: entity
   parent: [ BaseWeaponBattery, BaseGunWieldable ]
   id: WeaponImmolatorMulti
-  name: multi lens immolator cannon
-  description: A large laser cannon, similar to the Immolator Laser, with toggleable firemodes. It is frequently used by military-like forces through Nanotrasen.
+  name: багатолінзова ізоляційна гармата
+  description: Велика лазерна гармата, схожа на Immolator Laser, із перемикаючими режимами вогню. Він часто використовується військовими силами через Nanotrasen.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/multi_lens_immolator.rsi
@@ -467,7 +467,7 @@
 - type: entity
   parent: WeaponDisabler
   id: WeaponDisablerSelfCharge
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one recharges
+  description: Зброя самооборони, яка виснажує органічні цілі, послаблюючи їх, поки вони не впадуть. Цей заряджає
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 50
@@ -475,8 +475,8 @@
 - type: entity
   parent: [ BaseItem, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponSniperGamblagator
-  name: Gamblagator
-  description: A monstrously powerful laser rifle. Outfitted with a scope, it requires special capacitors to be fired.
+  name: Азартний гравець
+  description: Жахливо потужна лазерна гвинтівка. Оснащений прицілом, він вимагає спеціальних конденсаторів для стрільби.
   components:
   - type: Item
     size: Ginormous
@@ -502,7 +502,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: GamblagatorCapacitor
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -524,8 +524,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: WeaponBorgBuccaneersRevolver
-  name: buccaneer's revolver
-  description: A basic sidearm used by synthetic raiders, with low capacity but higher power
+  name: піратський револьвер
+  description: Основна бокова зброя, яка використовується синтетичними рейдерами, має низьку потужність, але більшу потужність
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
@@ -546,8 +546,8 @@
 - type: entity
   parent: BaseWeaponBatterySmall
   id: WeaponLaserTagGun
-  name: laser tag gun
-  description: A somewhat bulky toy laser gun used in laser tag that shoots a mostly harmless laser.
+  name: лазертаг пістолет
+  description: Дещо громіздкий іграшковий лазерний пістолет, який використовується в лазертагу та стріляє переважно нешкідливим лазером.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/laser_tag_gun.rsi
@@ -588,7 +588,7 @@
 - type: entity
   parent: WeaponLaserTagGun
   id: WeaponRiggedLaserTagGun
-  suffix: Rigged
+  suffix: Сфальсифікований
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/laser_tag_gun.rsi
@@ -605,11 +605,11 @@
     fireModes:
     - proto: BulletDisablerPractice
       fireCost: 50
-      name: disable
+      name: відключити
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 150
-      name: lethal
+      name: летальний
       state: lethal
   - type: GenericVisualizer
     visuals:
@@ -619,10 +619,10 @@
           Lethal: { state: mode-lethal }
 
 - type: entity
-  name: microwave emitter
+  name: мікрохвильовий випромінювач
   parent: BaseWeaponBatterySmall
   id: WeaponMicrowaveEmitter
-  description: A handheld device emitting concentrated, low-intensity radiation. Does not cook your food.
+  description: Портативний пристрій, що випромінює концентроване випромінювання низької інтенсивності. Не готує вашу їжу.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/microwave_emitter.rsi

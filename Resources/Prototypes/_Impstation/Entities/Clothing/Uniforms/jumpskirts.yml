@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformHitmanSuitSkirt
-  name: contract killer suitskirt
-  description: The perfect outfit for blending in at any event, office, or space station.
+  name: костюм найманого вбивці
+  description: зовнішня середина дороги (шлях)
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/hitmansuit.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformFuneralSuitSkirt
-  name: funeral suitskirt
-  description: For when no color is allowed and all must be mourned.
+  name: похоронний костюмспідниця
+  description: Бо коли заборонено жоден колір і все треба оплакувати.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/funeralsuit.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformNightclubSuitSkirt
-  name: nightclub suitskirt
-  description: ID please?
+  name: нічний клуб костюмна спідниця
+  description: ID, будь ласка?
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/nightclubsuit.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformMrSpaceWideSkirt
-  name: mr space wide suitskirt
-  description: The unspoken attire for any hotel, motel, or branded inn activities.
+  name: Mr Space широкий костюм
+  description: Невимовний одяг для будь-яких заходів у готелі, мотелі чи фірмовому готелі.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/mrspacewide.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformBrownSuitSkirt
-  name: brown suitskirt
-  description: Not even the worst coffee spills will show up on this puppy, guaranteed.
+  name: коричнева костюмна спідниця
+  description: Гарантовано, що навіть найгірші розлиті кави не виявляться на цьому цуценяті.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/brownsuit.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformCreamSuitSkirt
-  name: cream suitskirt
-  description: A suit fit for a humble, small town gentleman with something to say.
+  name: кремовий костюм
+  description: Костюм, який підходить для скромного джентльмена з маленького містечка, якому є що сказати.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/creamsuit.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformDetectiveSuitSkirt
-  name: detective suitskirt
-  description: Now excuse me, if I may just have a moment of your time...
+  name: детективна спідниця
+  description: А тепер вибачте, якщо я можу отримати хвилинку вашого часу...
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/detectivesuit.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformMiamiViceSkirt
-  name: miami vice suitskirt
-  description: When you need to arrest the clown at twelve o'clock and boogie board at one.
+  name: майамі віце-спідниця
+  description: Коли треба затримати клоуна о дванадцятій годині, а бугі-борд о першій.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/miamivice.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformSeniorBartenderSkirt
-  name: senior bartender suitskirt
-  description: But you are the bartender, you've always been the bartender.
+  name: старший бармен костюмна спідниця
+  description: Але ти бармен, ти завжди був барменом.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/senior_bartender.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformBrosBlazerSkirt
-  name: BROS blazer and jeans skirt
-  description: BROS... Two!
+  name: Блейзер і джинсова спідниця BROS
+  description: БРАТИ... Два!
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/brosblazer.rsi

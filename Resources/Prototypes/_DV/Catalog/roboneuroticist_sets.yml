@@ -56,7 +56,7 @@
 - type: thiefBackpackSet
   id: RoboNeuroticistClown
   name: roboneuroticist-set-clown-name
-  description: roboneuroticist-set-clown-description
+  description: робоневротик-набір-клоун-опис
   sprite:
     entity: ClothingMaskClown
   content:

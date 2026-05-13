@@ -1,7 +1,7 @@
 - type: entity
   id: OrganRatLungs
   parent: OrganHumanLungs
-  suffix: "rat"
+  suffix: "щур"
   components:
   - type: Metabolizer
     metabolizerTypes: [ Rat ]
@@ -9,7 +9,7 @@
 - type: entity
   id: OrganRatStomach
   parent: OrganAnimalStomach
-  suffix: "rat"
+  suffix: "щур"
   components:
   - type: SolutionContainerManager
     solutions:

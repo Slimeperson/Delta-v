@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: MaterialBase
-  description: A raw material.
+  description: Сировина.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCardboard
-  name: cardboard
-  suffix: Full
+  name: картон
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -77,7 +77,7 @@
 - type: entity
   parent: MaterialCardboard
   id: MaterialCardboard1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: cardboard
@@ -87,8 +87,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCloth
-  name: cloth
-  suffix: Full
+  name: тканина
+  suffix: Повний
   components:
   - type: Healing
     damageContainers:
@@ -167,7 +167,7 @@
 - type: entity
   parent: MaterialCloth
   id: MaterialCloth1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: cloth
@@ -178,7 +178,7 @@
   parent: MaterialBase
   id: MaterialDurathread
   name: durathread
-  suffix: Full
+  suffix: Повний
   components:
   - type: Stack
     stackType: Durathread
@@ -220,7 +220,7 @@
 - type: entity
   parent: MaterialDurathread
   id: MaterialDurathread1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: durathread
@@ -230,8 +230,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
-  name: wood
-  suffix: Full
+  name: деревина
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -277,7 +277,7 @@
 - type: entity
   parent: MaterialWoodPlank
   id: MaterialWoodPlank1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -285,8 +285,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBiomass
-  name: biomass
-  suffix: Full
+  name: біомаса
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -306,7 +306,7 @@
 - type: entity
   parent: MaterialBiomass
   id: MaterialBiomass1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -315,7 +315,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideBear
-  name: bear hide
+  name: ведмежа шкура
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideCorgi
-  name: corgi hide
-  description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
+  name: коргі ховатися
+  description: Розкішна шкура використовується тільки в найелітнішому стилі. Кажуть, що це знаходять, коли коргі відправляють на гарну ферму.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -362,8 +362,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDiamond
-  name: refined diamond
-  suffix: Full
+  name: очищений алмаз
+  suffix: Повний
   components:
   - type: Stack
     stackType: Diamond
@@ -400,7 +400,7 @@
 - type: entity
   parent: MaterialDiamond
   id: MaterialDiamond1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -408,8 +408,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCotton
-  name: cotton
-  suffix: Full
+  name: бавовна
+  suffix: Повний
   components:
   - type: Stack
     stackType: Cotton
@@ -457,7 +457,7 @@
 - type: entity
   parent: MaterialCotton
   id: MaterialCotton1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: cotton
@@ -467,8 +467,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPyrotton
-  name: pyrotton
-  suffix: Full
+  name: піротон
+  suffix: Повний
   components:
   - type: Stack
     stackType: Pyrotton
@@ -511,7 +511,7 @@
 - type: entity
   parent: MaterialPyrotton
   id: MaterialPyrotton1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: pyrotton
@@ -521,8 +521,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBananium
-  name: bananium
-  suffix: Full
+  name: банан
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -574,7 +574,7 @@
 - type: entity
   parent: MaterialBananium
   id: MaterialBananium1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: bananium
@@ -584,9 +584,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWebSilk
-  name: silk
-  description: A webby material.
-  suffix: Full
+  name: шовк
+  description: Павутинний матеріал.
+  suffix: Повний
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -643,9 +643,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialToothSpaceCarp
-  name: space carp tooth
-  description: Pretty small but plenty nasty. You like them best when they're not sinking into you.
-  suffix: Full
+  name: космічний короповий зуб
+  description: Досить маленький, але дуже неприємний. Вони тобі найбільше подобаються, коли вони не захоплюються тобою.
+  suffix: Повний
   components:
   - type: Sprite
     sprite: Objects/Materials/Mob/carptooth.rsi
@@ -681,9 +681,9 @@
 - type: entity
   parent: [ MaterialBase, BaseKnife ]
   id: MaterialToothSharkminnow
-  name: sharkminnow tooth
-  description: Looks sharp. Sharp enough to poke someone's eye out. Holy fuck it's big.
-  suffix: Full
+  name: зуб акули
+  description: Виглядає різко. Досить гострий, щоб виколоти комусь око. Боже, він великий.
+  suffix: Повний
   components:
   - type: MeleeWeapon
     damage:
@@ -724,8 +724,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBones
-  name: bones
-  suffix: Full
+  name: кістки
+  suffix: Повний
   components:
   - type: Stack
     stackType: Bones
@@ -763,8 +763,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGunpowder
-  name: gunpowder
-  description: An explosive compound.
+  name: порох
+  description: Вибухова речовина.
   components:
   - type: Stack
     stackType: Gunpowder
@@ -782,9 +782,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGoliathHide
-  name: goliath hide plates
-  description: Pieces of a goliath's rocky hide, these might be able to make your suit a bit more durable to attack from the local fauna.
-  suffix: Full
+  name: голіаф приховати пластини
+  description: Шматки скелястої шкіри голіафа, вони можуть зробити ваш костюм трохи міцнішим для нападу місцевої фауни.
+  suffix: Повний
   components:
   - type: Sprite
     sprite: Objects/Materials/hide.rsi

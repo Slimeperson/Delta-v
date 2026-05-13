@@ -14,7 +14,7 @@
                 sprite: Objects/Fun/crayons.rsi
                 state: red
             - tag: CrayonGreen
-              name: construction-graph-tag-green-crayon
+              name: конструкція-граф-тег-зелений-олівець
               icon:
                 sprite: Objects/Fun/crayons.rsi
                 state: green

@@ -19,7 +19,7 @@
 - type: entity
   parent: PartAnimalBase
   id: HandsAnimal
-  name: animal hands
+  name: ліва рука кіборга
   components:
   - type: Sprite
     layers:
@@ -35,7 +35,7 @@
 - type: entity
   parent: PartAnimalBase
   id: LegsAnimal
-  name: animal legs
+  name: ноги тварини
   components:
   - type: Sprite
     layers:
@@ -51,7 +51,7 @@
 - type: entity
   parent: PartAnimalBase
   id: FeetAnimal
-  name: animal feet
+  name: лапи тварин
   components:
   - type: Sprite
     layers:
@@ -66,7 +66,7 @@
 - type: entity
   parent: [ PartAnimalBase, BaseTorso ]
   id: TorsoAnimal
-  name: animal torso
+  name: тулуб тварини
   components:
   - type: BodyPart
     children: # Shitmed Change - most animals have no hands (primate is unused) so just legs by default
@@ -87,9 +87,9 @@
 - type: entity
   parent: [ PartAnimalBase, BaseLeftHand ]
   id: LeftHandSmartCorgi
-  name: corgi hand
+  name: рука коргі
 
 - type: entity
   parent: [ PartAnimalBase, BaseRightHand ]
   id: RightHandSmartCorgi
-  name: corgi hand
+  name: рука коргі

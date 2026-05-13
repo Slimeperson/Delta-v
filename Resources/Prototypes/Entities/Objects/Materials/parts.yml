@@ -26,8 +26,8 @@
 - type: entity
   parent: PartBase
   id: PartRodMetal
-  name: metal rod
-  suffix: Full
+  name: металевий прут
+  suffix: Повний
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -78,7 +78,7 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal10
-  name: metal rod
+  name: металевий прут
   suffix: 10
   components:
   - type: Sprite
@@ -89,8 +89,8 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal1
-  name: metal rod
-  suffix: Single
+  name: металевий прут
+  suffix: щит паладина
   components:
   - type: Sprite
     state: rods

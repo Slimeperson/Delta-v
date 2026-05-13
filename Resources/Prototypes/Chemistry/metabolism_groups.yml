@@ -1,34 +1,34 @@
 # Default human metabolism groups.
 - type: metabolismGroup
   id: Poison
-  name: metabolism-group-poison
+  name: метаболізм-група-отрута
 
 - type: metabolismGroup
   id: Medicine
-  name: metabolism-group-medicine
+  name: метаболізм-група-медицина
 
 - type: metabolismGroup
   id: Narcotic
-  name: metabolism-group-narcotic
+  name: обмінно-групово-наркотичний
 
 - type: metabolismGroup
   id: Alcohol
-  name: metabolism-group-alcohol
+  name: метаболізм-група-алкоголь
 
 - type: metabolismGroup
   id: Food
-  name: metabolism-group-food
+  name: метаболізатор типу слизу
 
 - type: metabolismGroup
   id: Drink
-  name: metabolism-group-drink
+  name: метаболізм-група-напій
 
 # Used for gases that have effects on being inhaled
 - type: metabolismGroup
   id: Gas
-  name: metabolism-group-gas
+  name: метаболізм-група-газ
 
 # Dummy for the guide
 - type: metabolismGroup
   id: PlantMetabolisms
-  name: metabolism-group-plant-metabolisms
+  name: метаболізм-група-рослинний-метаболізм

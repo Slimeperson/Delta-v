@@ -1,7 +1,7 @@
 - type: job
   id: StationEngineer
-  name: job-name-engineer
-  description: job-description-engineer
+  name: робота-назва-інженера
+  description: посадова інструкція-технічний помічник
   playTimeTracker: JobStationEngineer
   antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Engineering
   requirements:

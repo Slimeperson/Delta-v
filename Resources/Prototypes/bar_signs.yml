@@ -28,7 +28,7 @@
   icon:
     sprite: Structures/Wallmounts/barsign.rsi
     state: officerbeersky
-  description: barsign-prototype-description-officer-beersky
+  description: barsign-prototype-description-office-beersky
 
 - type: barSign
   id: TheOuterSpess
@@ -56,7 +56,7 @@
 
 - type: barSign
   id: EmergencyRumParty
-  name: barsign-prototype-name-emergency-rum-party
+  name: barsign-prototype-name-emergency-rom-party
   icon:
     sprite: Structures/Wallmounts/barsign.rsi
     state: emergencyrumparty

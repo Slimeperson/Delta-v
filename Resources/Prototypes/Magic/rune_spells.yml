@@ -13,7 +13,7 @@
   parent: BaseRuneAction
   id: ActionFlashRune
   name: Flash Rune
-  description: Summons a rune that flashes if used.
+  description: Викликає руну, яка блимає, якщо її використати.
   components:
   - type: Action
     useDelay: 10
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionExplosionRune
-  name: Explosion Rune
-  description: Summons a rune that explodes if used.
+  name: Руна вибуху
+  description: Викликає руну, яка вибухає, якщо її використати.
   components:
   - type: Action
     useDelay: 20
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionIgniteRune
-  name: Ignite Rune
-  description: Summons a rune that ignites if used.
+  name: Запалити руну
+  description: Змінний статор для газової турбіни.
   components:
   - type: Action
     useDelay: 15
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionStunRune
-  name: Stun Rune
-  description: Summons a rune that stuns if used.
+  name: Приголомшлива руна
+  description: Викликає руну, яка приголомшує, якщо її використати.
   components:
   - type: Action
     useDelay: 10

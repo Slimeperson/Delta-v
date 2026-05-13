@@ -274,10 +274,10 @@
     state: berry
 
 - type: entity
-  name: warm berry-pocket
+  name: тепла ягідка-кишенька
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: A relentlessly sweet donk-pocket, now warm and delicious.
+  description: Надзвичайно солодкий кишеню, тепер теплий і смачний.
   components:
   - type: FlavorProfile
     flavors:
@@ -295,10 +295,10 @@
           Quantity: 2
 
 - type: entity
-  name: stonk-pocket
+  name: стонк-кишеня
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: Tasty, but a sad reminder of the great crash of '24.
+  description: М’який, але гладкий плід у формі пістолета.
   components:
   - type: FlavorProfile
     flavors:
@@ -314,7 +314,7 @@
     state: stonk
 
 - type: entity
-  name: warm stonk-pocket
+  name: тепла стонк-кишеня
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -332,10 +332,10 @@
           Quantity: 2
 
 - type: entity
-  name: carp-pocket
+  name: короп-карман
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
+  description: Давно втрачене видання донк покет, створене спеціально для працьовитих рятувальників.
   components:
   - type: FlavorProfile
     flavors:
@@ -351,7 +351,7 @@
     state: carp
 
 - type: entity
-  name: warm carp-pocket
+  name: тепла карпова кишеня
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -369,10 +369,10 @@
           Quantity: 2
 
 - type: entity
-  name: dink-pocket
+  name: динка-кишеня
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
+  description: Небрендовий кишеню з ящіркою, наповнений маринованою морквою та загорнутий морськими водоростями. Найкраще їсти холодним, а ще краще не їсти взагалі.
   components:
   - type: FlavorProfile
     flavors:
@@ -390,10 +390,10 @@
     state: dink
 
 - type: entity
-  name: moth-pocket
+  name: Якщо ви хочете захворіти на рак, зробіть це стильно».
   parent: FoodDonkpocketBase
   id: FoodDonkpocketMoth
-  description: Buzzy edition of donk-pocket that was created during mass protests ab-... Actually who cares? Just donk-pockets for moths.
+  description: Buzzy edition donk-pocket, який був створений під час масових протестів проти... Власне, кого це хвилює? Просто кишені для молі.
   components:
   - type: FlavorProfile
     flavors:
@@ -417,7 +417,7 @@
     - DonkPocket
 
 - type: entity
-  name: warm moth-pocket
+  name: теплий мотиль
   parent: FoodDonkpocketMoth
   id: FoodDonkpocketMothWarm
   components:

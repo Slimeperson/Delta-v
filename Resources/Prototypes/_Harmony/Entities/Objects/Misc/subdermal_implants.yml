@@ -2,8 +2,8 @@
   parent: BaseSubdermalImplant
   id: RadioImplantConspiracy
   categories: [ HideSpawnMenu ]
-  name: conspiracy radio implant
-  description: This implant grants access to the Conspiracy channel without a headset.
+  name: конспірологічний радіоімплант
+  description: Цей імплант надає доступ до каналу Conspiracy без гарнітури.
   components:
   - type: SubdermalImplant
   - type: RadioImplant

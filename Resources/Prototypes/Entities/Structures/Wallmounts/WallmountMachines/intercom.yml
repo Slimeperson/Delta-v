@@ -216,7 +216,7 @@
 - type: entity
   id: IntercomCommand
   parent: BaseIntercomSecure
-  suffix: Command
+  suffix: Команда
   description: An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
@@ -230,7 +230,7 @@
 - type: entity
   id: IntercomEngineering
   parent: Intercom
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: ContainerFill
     containers:
@@ -243,7 +243,7 @@
 - type: entity
   id: IntercomMedical
   parent: Intercom
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: ContainerFill
     containers:
@@ -269,7 +269,7 @@
 - type: entity
   id: IntercomSecurity
   parent: BaseIntercomSecure
-  suffix: Security
+  suffix: Безпека
   description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
@@ -283,7 +283,7 @@
 - type: entity
   id: IntercomService
   parent: Intercom
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: ContainerFill
     containers:
@@ -309,7 +309,7 @@
 - type: entity
   id: IntercomAll
   parent: Intercom
-  suffix: All
+  suffix: все
   components:
   - type: ContainerFill
     containers:

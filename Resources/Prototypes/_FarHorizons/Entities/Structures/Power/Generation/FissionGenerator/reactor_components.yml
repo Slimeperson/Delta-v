@@ -23,8 +23,8 @@
   id: BaseReactorFuelRod
   parent: [ BaseReactorPart, BaseEngineeringContraband ]
   categories: [ HideSpawnMenu ]
-  name: fuel rod
-  description: A fuel rod for a nuclear reactor.
+  name: паливний стрижень
+  description: Твел для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 1
@@ -60,7 +60,7 @@
 - type: entity
   id: CerenkiteReactorFuelRod
   parent: BaseReactorFuelRod
-  name: cerenkite fuel rod # These are your basic, semi-harmless fuel rods
+  name: церенкітовий паливний стрижень # Це ваші основні, напівнешкідливі паливні стрижні
   components:
   - type: ReactorPart
     material: Cerenkite
@@ -68,7 +68,7 @@
 - type: entity
   id: UraniumReactorFuelRod
   parent: BaseReactorFuelRod
-  name: uranium fuel rod
+  name: урановий твел
   components:
   - type: ReactorPart
     material: Uranium
@@ -76,7 +76,7 @@
 - type: entity
   id: PlutoniumReactorFuelRod
   parent: BaseReactorFuelRod
-  name: plutonium fuel rod
+  name: плутонієвий паливний стрижень
   components:
   - type: ReactorPart
     material: Plutonium
@@ -96,8 +96,8 @@
 - type: entity
   id: BananiumReactorFuelRod
   parent: BaseReactorFuelRod
-  name: bananium fuel rod
-  description: A honk rod for a nuclear reactor.
+  name: бананієвий паливний стрижень
+  description: Сигнал для ядерного реактора.
   components:
   - type: ReactorPart
     material: Bananium
@@ -105,7 +105,7 @@
 - type: entity
   id: PlasmaReactorFuelRod
   parent: BaseReactorFuelRod
-  name: plasma fuel rod
+  name: плазмовий паливний стрижень
   components:
   - type: ReactorPart
     material: Plasma
@@ -113,7 +113,7 @@
 - type: entity
   id: UraniumGlassReactorFuelRod
   parent: BaseReactorFuelRod
-  name: uranium glass fuel rod
+  name: паливний стрижень з уранового скла
   components:
   - type: ReactorPart
     material: UraniumGlass
@@ -121,8 +121,8 @@
 - type: entity
   id: MeatReactorFuelRod
   parent: BaseReactorFuelRod
-  name: meat fuel rod
-  description: A fuel rod fo- wait, is it alive?
+  name: м'ясний паливний стрижень
+  description: Паливний стрижень чекає, він живий?
   components:
   - type: ReactorPart
     material: Meaterial
@@ -138,8 +138,8 @@
   id: BaseReactorControlRod
   parent: BaseReactorPart
   categories: [ HideSpawnMenu ]
-  name: control rod
-  description: A control rod assembly for a nuclear reactor.
+  name: тяга керування
+  description: Стрижневий вузол для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 2
@@ -154,7 +154,7 @@
 - type: entity
   id: BohrumReactorControlRod
   parent: BaseReactorControlRod # what the crew start with
-  name: bohrum control rod
+  name: тяга керування bohrum
   components:
   - type: ReactorPart
     material: Bohrum
@@ -166,7 +166,7 @@
 - type: entity
   id: SteelReactorControlRod
   parent: BaseReactorControlRod
-  name: steel control rod
+  name: сталевий стрижень управління
   components:
   - type: ReactorPart
     material: Steel
@@ -177,7 +177,7 @@
 - type: entity
   id: GoldReactorControlRod
   parent: BaseReactorControlRod
-  name: gold control rod
+  name: золота тяга керування
   components:
   - type: ReactorPart
     material: Gold
@@ -189,7 +189,7 @@
 - type: entity
   id: SilverReactorControlRod
   parent: BaseReactorControlRod
-  name: silver control rod
+  name: активована вибухом руна"
   components:
   - type: ReactorPart
     material: Silver
@@ -201,7 +201,7 @@
 - type: entity
   id: BrassReactorControlRod
   parent: BaseReactorControlRod
-  name: brass control rod
+  name: злодій-рюкзак-категорія-хімія-назва
   components:
   - type: ReactorPart
     material: Brass
@@ -213,7 +213,7 @@
 - type: entity
   id: PlasteelReactorControlRod
   parent: BaseReactorControlRod
-  name: plasteel control rod
+  name: Пластовий стрижень управління
   components:
   - type: ReactorPart
     material: Plasteel
@@ -225,7 +225,7 @@
 - type: entity
   id: GlassReactorControlRod
   parent: BaseReactorControlRod
-  name: glass control rod
+  name: шток керування склом
   components:
   - type: ReactorPart
     material: Glass
@@ -237,7 +237,7 @@
 - type: entity
   id: PlasmaGlassReactorControlRod
   parent: BaseReactorControlRod
-  name: plasma glass control rod
+  name: стрижень керування плазмовим склом
   components:
   - type: ReactorPart
     material: PlasmaGlass
@@ -249,7 +249,7 @@
 - type: entity
   id: DiamondReactorControlRod
   parent: BaseReactorControlRod
-  name: diamond control rod
+  name: алмазна керуюча тяга
   components:
   - type: ReactorPart
     material: Diamond
@@ -263,8 +263,8 @@
   id: BaseReactorGasChannel
   parent: BaseReactorPart
   categories: [ HideSpawnMenu ]
-  name: gas channel rod
-  description: A gas channel for a nuclear reactor.
+  name: стрижень газового каналу
+  description: Газовий канал для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 4
@@ -280,7 +280,7 @@
 - type: entity
   id: SteelReactorGasChannel
   parent: BaseReactorGasChannel
-  name: steel gas channel rod
+  name: сталевий газоканальний стрижень
   components:
   - type: ReactorPart
     material: Steel
@@ -291,7 +291,7 @@
 - type: entity
   id: GoldReactorGasChannel
   parent: BaseReactorGasChannel
-  name: gold gas channel rod
+  name: стрижень золотого газового каналу
   components:
   - type: ReactorPart
     material: Gold
@@ -303,7 +303,7 @@
 - type: entity
   id: SilverReactorGasChannel
   parent: BaseReactorGasChannel
-  name: silver gas channel rod
+  name: стрижень срібного газового каналу
   components:
   - type: ReactorPart
     material: Silver
@@ -315,7 +315,7 @@
 - type: entity
   id: BrassReactorGasChannel
   parent: BaseReactorGasChannel
-  name: brass gas channel rod
+  name: латунний стрижень газового каналу
   components:
   - type: ReactorPart
     material: Brass
@@ -327,7 +327,7 @@
 - type: entity
   id: PlasteelReactorGasChannel
   parent: BaseReactorGasChannel
-  name: plasteel gas channel rod
+  name: Пластовий газовий стрижень
   components:
   - type: ReactorPart
     material: Plasteel
@@ -339,7 +339,7 @@
 - type: entity
   id: GlassReactorGasChannel
   parent: BaseReactorGasChannel
-  name: glass gas channel rod
+  name: скляний газовий канальний стрижень
   components:
   - type: ReactorPart
     material: Glass
@@ -351,7 +351,7 @@
 - type: entity
   id: PlasmaGlassReactorGasChannel
   parent: BaseReactorGasChannel
-  name: plasma glass gas channel rod
+  name: стрижень плазмового скла газового каналу
   components:
   - type: ReactorPart
     material: PlasmaGlass
@@ -363,7 +363,7 @@
 - type: entity
   id: DiamondReactorGasChannel
   parent: BaseReactorGasChannel
-  name: diamond gas channel rod
+  name: стрижень алмазного газового каналу
   components:
   - type: ReactorPart
     material: Diamond
@@ -377,8 +377,8 @@
   id: BaseReactorHeatExchanger
   parent: BaseReactorPart
   categories: [ HideSpawnMenu ]
-  name: heat exchanger rod
-  description: A heat exchanger for a nuclear reactor.
+  name: стрижень теплообмінника
+  description: Теплообмінник для ядерного реактора.
   components:
   - type: ReactorPart
     iconStateInserted: "heat"
@@ -392,7 +392,7 @@
 - type: entity
   id: SteelReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: steel heat exchanger rod
+  name: сталевий стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Steel
@@ -403,7 +403,7 @@
 - type: entity
   id: GoldReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: gold heat exchanger rod
+  name: золотий стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Gold
@@ -415,7 +415,7 @@
 - type: entity
   id: SilverReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: silver heat exchanger rod
+  name: срібний стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Silver
@@ -427,7 +427,7 @@
 - type: entity
   id: BrassReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: brass heat exchanger rod
+  name: латунний стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Brass
@@ -439,7 +439,7 @@
 - type: entity
   id: PlasteelReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: plasteel heat exchanger rod
+  name: Пластовий стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Plasteel
@@ -451,7 +451,7 @@
 - type: entity
   id: GlassReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: glass heat exchanger rod
+  name: скляний стрижень теплообмінника
   components:
   - type: ReactorPart
     material: Glass
@@ -463,7 +463,7 @@
 - type: entity
   id: PlasmaGlassReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: plasma glass heat exchanger rod
+  name: плазмовий скляний теплообмінник
   components:
   - type: ReactorPart
     material: PlasmaGlass
@@ -475,7 +475,7 @@
 - type: entity
   id: DiamondReactorHeatExchanger
   parent: BaseReactorHeatExchanger
-  name: diamond heat exchanger rod
+  name: стрижень алмазного теплообмінника
   components:
   - type: ReactorPart
     material: Diamond

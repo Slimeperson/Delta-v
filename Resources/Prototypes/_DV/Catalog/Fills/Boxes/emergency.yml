@@ -1,7 +1,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalBrigmedic
-  suffix: MedSec
+  suffix: МедСек
   components:
   - type: EntityTableContainerFill
     containers:
@@ -38,7 +38,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalHumanoidSilicon
-  suffix: IPC
+  suffix: ABEX
   components:
   - type: EntityTableContainerFill
     containers:
@@ -72,7 +72,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalWaterVapor
-  suffix: Standard H2O
+  suffix: Стандартний H2O
   components:
   - type: EntityTableContainerFill
     containers:
@@ -91,7 +91,7 @@
 - type: entity
   parent: BoxSurvivalEngineering
   id: BoxSurvivalEngineeringWaterVapor
-  suffix: Extended H2O
+  suffix: Розширена H2O
   components:
   - type: EntityTableContainerFill
     containers:
@@ -110,7 +110,7 @@
 - type: entity
   parent: BoxSurvivalSecurity
   id: BoxSurvivalSecurityWaterVapor
-  suffix: Security H2O
+  suffix: Безпека H2O
   components:
   - type: EntityTableContainerFill
     containers:
@@ -129,7 +129,7 @@
 - type: entity
   parent: BoxSurvivalMedical
   id: BoxSurvivalMedicalWaterVapor
-  suffix: Medical H2O
+  suffix: Медична H2O
   components:
   - type: EntityTableContainerFill
     containers:
@@ -148,7 +148,7 @@
 - type: entity
   parent: BoxHug
   id: BoxHugWaterVapor
-  suffix: Emergency H2O
+  suffix: Екстрена H2O
   components:
   - type: EntityTableContainerFill
     containers:
@@ -186,7 +186,7 @@
 - type: entity
   parent: BoxSurvivalSyndicate
   id: BoxSurvivalSyndicateWaterVapor
-  suffix: Syndicate H2O
+  suffix: Синдикат H2O
   components:
   - type: EntityTableContainerFill
     containers:

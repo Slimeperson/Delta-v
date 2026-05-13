@@ -1,2 +1,2 @@
-command-description-rejuvenate =
+command-description-rejuvenate = Омолоджує дані сутності, повертаючи їм повне здоров’я, очищаючи ефекти статусу тощо.
     Rejuvenates the given entities, restoring them to full health, clearing status effects, etc.

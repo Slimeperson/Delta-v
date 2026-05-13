@@ -10,7 +10,7 @@
         icon:
           sprite: Objects/Misc/fire_extinguisher.rsi
           state: fire_extinguisher_open
-        name: construction-graph-tag-fire-extinguisher
+        name: конструкція-граф-тег-вогнегасник
       - tag: FireHelmet
         icon:
           sprite: Clothing/Head/Helmets/firehelmet.rsi
@@ -21,13 +21,13 @@
         icon:
           sprite: Objects/Misc/proximity_sensor.rsi
           state: icon
-        name: construction-graph-tag-proximity-sensor
+        name: конструкція-граф-тег-датчик-наближення
         doAfter: 2
       - tag: BorgArm
         icon:
           sprite: Mobs/Silicon/drone.rsi
           state: l_hand
-        name: construction-graph-tag-borg-arm
+        name: конструкція-граф-тег-борг-рука
         doAfter: 2
   - node: bot
     entity: MobFireBot

@@ -31,7 +31,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapPyroclastic
-  suffix: Pyroclastic
+  suffix: Пірокластичні
   components:
   - type: Sprite
     layers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapElectricity
-  suffix: Electricity
+  suffix: Електрика
   components:
   - type: Sprite
     layers:
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapShadow
-  suffix: Shadow
+  suffix: Тінь
   components:
   - type: Sprite
     layers:
@@ -145,7 +145,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapIce
-  suffix: Ice
+  suffix: лід
   components:
   - type: Sprite
     layers:
@@ -183,7 +183,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapFlora
-  suffix: Flora
+  suffix: Флора
   components:
   - type: Sprite
     layers:
@@ -259,7 +259,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapFlesh
-  suffix: Flesh
+  suffix: Плоть
   components:
   - type: Sprite
     layers:
@@ -297,7 +297,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapGravity
-  suffix: Gravity
+  suffix: Сила тяжіння
   components:
   - type: Sprite
     layers:
@@ -336,7 +336,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapTech
-  suffix: Tech
+  suffix: техн
   components:
   - type: Sprite
     layers:
@@ -374,7 +374,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapRock
-  suffix: Rock
+  suffix: Рок
   components:
   - type: Sprite
     layers:

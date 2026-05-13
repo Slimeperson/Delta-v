@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [BaseItem, BaseXenoArtifact]
   id: BaseXenoArtifactItem
-  name: artifact
-  description: A strange artifact from time unknown. Looks like a good time. Fits in hand perfectly.
+  name: артефакт
+  description: Дивний артефакт невідомих часів. Здається, добре провести час. Ідеально лягає в руку.
   abstract: true
   noSpawn: true
   components:
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseXenoArtifactItem
   id: ComplexXenoArtifactItem
-  suffix: Hand-Sized
+  suffix: Ручного розміру
   components:
   - type: XenoArtifact
     nodeCount:
@@ -78,8 +78,8 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: artifact fragment
-  description: A broken piece of an artifact. You could probably repair it if you had more.
+  name: фрагмент артефакту
+  description: Розбитий шматок артефакту. Можливо, ви могли б його відремонтувати, якби у вас було більше.
   components:
   - type: Sprite
     sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi
@@ -141,7 +141,7 @@
 - type: entity
   parent: ArtifactFragment
   id: ArtifactFragment1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1

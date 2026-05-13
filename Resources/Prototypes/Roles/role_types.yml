@@ -14,31 +14,31 @@
 
 - type: roleType
   id: SoloAntagonist
-  name: role-type-solo-antagonist-name
+  name: роль-тип-соло-антагоніст-назва
   color: '#d82000'
   symbol: "🗡"
 
 - type: roleType
   id: TeamAntagonist
-  name: role-type-team-antagonist-name
+  name: роль-тип-команда-антагоніст-назва
   color: '#d82000'
   symbol: "⚔"
 
 - type: roleType
   id: FreeAgent
-  name: role-type-free-agent-name
+  name: роль-тип-ім'я-вільного-агента
   color: '#ffff00'
   symbol: "☯"
 
 - type: roleType
   id: Familiar
-  name: role-type-familiar-name
+  name: об'єктивний-умова-інший-зрадник-прогрес-титул
   color: '#6495ed'
   symbol: "🗡" # Should never be antag, but just in case.
 
 - type: roleType
   id: Silicon
-  name: role-type-silicon-name
+  name: роль-тип-кремній-назва
   color: '#6495ed'
   symbol: "🗡" # Should never be antag, but just in case.
 

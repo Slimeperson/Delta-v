@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseMachinePowered, ConstructibleMachine]
   id: ReverseEngineeringMachine
-  name: reverse engineering machine
-  description: Destructively analyses pieces of technology in the hopes that we can retrieve information from them.
+  name: машина зворотного проектування
+  description: Деструктивно аналізує фрагменти технології в надії, що ми зможемо отримати з них інформацію.
   components:
   - type: ReverseEngineeringMachine
   - type: Sprite

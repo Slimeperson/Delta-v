@@ -253,7 +253,7 @@ ghost-role-information-syndicate-kobold-reinforcement-name = досліджую�
 ghost-role-information-syndicate-kobold-reinforcement-description = Комусь потрібне підкріплення. Ви, дресирований кобольд, допоможете їм.
 
 ghost-role-information-syndicate-cyborg-assault-name = Syndicate Assault Cyborg
-ghost-role-information-syndicate-cyborg-saboteur-name = Syndicate Saboteur Cyborg
+ghost-role-information-syndicate-cyborg-saboteur-name = fck
 ghost-role-information-syndicate-cyborg-description = Синдикат потребує підкріплення. Ви, холодна силіконова машина для вбивства, допоможете їм.
 
 ghost-role-information-derelict-engineering-cyborg-name = Закинутий інженер-кіборг
@@ -317,7 +317,7 @@ ghost-role-information-lost-challenge-cargo-technican-rules = Ви не воро
 ghost-role-information-disaster-victim-name = Жертва катастрофи
 ghost-role-information-disaster-victim-description = Ви були врятовані в евакуаційній капсулі з іншої станції, яку спіткала жахлива доля. Можливо, вас знайдуть і врятують.
 
-ghost-role-information-syndie-disaster-victim-name = Syndicate Disaster Victim
+ghost-role-information-syndie-disaster-victim-name = xeno techmaint
 ghost-role-information-syndie-disaster-victim-description = Ви звичайний пасажир станції синдикату. На жаль, евакуаційна капсула закинула вас у ворожий сектор...
 
 ghost-role-information-syndie-soldier-name = Солдат Синдикату

@@ -1,4 +1,4 @@
-discord-watchlist-connection-header =
+discord-watchlist-connection-header = { $players ->
     { $players ->
         [one] {$players} player on a watchlist has
         *[other] {$players} players on a watchlist have

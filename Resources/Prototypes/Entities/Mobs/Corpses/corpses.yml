@@ -1,7 +1,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomServiceCorpse
-  suffix: Dead, Service
+  suffix: Мертвий, Служба
   components:
   - type: Loadout
     prototypes:
@@ -20,7 +20,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomEngineerCorpse
-  suffix: Dead, Engineer
+  suffix: Мертвий, інженер
   components:
   - type: Loadout
     prototypes:
@@ -31,7 +31,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomCargoCorpse
-  suffix: Dead, Logistics # DeltaV - Logistics Department replacing Cargo
+  suffix: Dead, Logistics # DeltaV - Відділ логістики замінює Cargo
   components:
   - type: Loadout
     prototypes:
@@ -43,7 +43,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomMedicCorpse
-  suffix: Dead, Medic
+  suffix: Мертвий, медик
   components:
   - type: Loadout
     prototypes:
@@ -55,7 +55,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomScienceCorpse
-  suffix: Dead, Epistemics # DeltaV - Epistemics Department replacing Science
+  suffix: Dead, Epistemics # DeltaV - Відділ епістемології замінює науку
   components:
   - type: Loadout
     prototypes:
@@ -67,7 +67,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomSecurityCorpse
-  suffix: Dead, Security
+  suffix: Мертвий, охорона
   categories: [ HideSpawnMenu ] # DeltaV - Prevent security corpses from being mapped in
   components:
   - type: Loadout
@@ -80,7 +80,7 @@
 - type: entity
   parent: SalvageHumanCorpse
   id: MobRandomCommandCorpse
-  suffix: Dead, Command
+  suffix: Мертвий, командування
   components:
   - type: Loadout
     prototypes:

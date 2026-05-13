@@ -2,7 +2,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothFirecrackerPizza
-  name: firecracker pizza recipe
+  name: рецепт піци петарда
   result: FoodMothPizzaFirecracker
   time: 30
   group: Pizza
@@ -16,7 +16,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothFiveCheesePizza
-  name: quattro formaggi pizza recipe
+  name: Рецепт піци Quattro Formaggi
   result: FoodMothPizzaFiveCheese
   time: 30
   group: Pizza
@@ -31,7 +31,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothPestoPizza
-  name: pesto pizza recipe
+  name: рецепт піци песто
   result: FoodMothPizzaPesto
   time: 30
   group: Pizza
@@ -44,7 +44,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCorncobPizza
-  name: corncob crust pizza recipe
+  name: рецепт піци з кукурудзяної скоринки
   result: FoodPizzaCorncob
   time: 30
   group: Pizza

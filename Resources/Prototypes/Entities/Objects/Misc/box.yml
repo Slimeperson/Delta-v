@@ -38,8 +38,8 @@
 - type: entity
   parent: BoxBase
   id: ToteBase
-  name: circuit tote
-  description: A large tote for carrying circuit boards.
+  name: схема тоталізатор
+  description: Велика сумка для перенесення друкованих плат.
   components:
   - type: Sprite
     layers:

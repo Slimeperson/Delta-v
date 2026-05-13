@@ -191,7 +191,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonCaptain
-  suffix: Captain
+  suffix: Капітан
   components:
   - type: AccessReader
     access: [["Captain"]]
@@ -239,7 +239,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonCommand
-  suffix: Command
+  suffix: Команда
   components:
   - type: AccessReader
     access: [["Command"]]
@@ -255,7 +255,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -263,7 +263,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonDetective
-  suffix: Detective
+  suffix: Детектив
   components:
   - type: AccessReader
     access: [["Detective"]]
@@ -295,7 +295,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: AccessReader
     access: [["Engineering"]]
@@ -303,7 +303,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: AccessReader
     access: [["Medical"]]
@@ -319,7 +319,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonSalvage
-  suffix: Salvage
+  suffix: Порятунок
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -335,7 +335,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonResearch
-  suffix: Research
+  suffix: дослідження
   components:
   - type: AccessReader
     access: [["Research"]]
@@ -343,7 +343,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonService
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: AccessReader
     access: [["Service"]]
@@ -351,7 +351,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonMaintenance
-  suffix: Maintenance
+  suffix: Технічне обслуговування
   components:
   - type: AccessReader
     access: [["Maintenance"]]
@@ -391,7 +391,7 @@
 - type: entity
   parent: LockableButton
   id: LockableButtonChemistry
-  suffix: Chemistry
+  suffix: Хімія
   components:
   - type: AccessReader
     access: [["Chemistry"]]

@@ -58,8 +58,8 @@
 - type: entity
   id: UraniumReinforcedWindowDirectional
   parent: [BaseDeltaPressureReinforcedPlasmaQuarter, WindowDirectionalRCDResistant]
-  name: directional reinforced uranium window
-  description: Don't smudge up the glass down there.
+  name: спрямоване посилене уранове вікно
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:
@@ -114,7 +114,7 @@
 - type: entity
   parent: ReinforcedUraniumWindow
   id: ReinforcedUraniumWindowDiagonal
-  suffix: diagonal
+  suffix: діагональ
   placement:
     mode: SnapgridCenter
     snap:

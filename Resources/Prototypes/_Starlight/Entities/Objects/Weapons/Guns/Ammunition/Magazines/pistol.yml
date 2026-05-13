@@ -1,6 +1,6 @@
 - type: entity
   id: MagazinePistolImprovised
-  name: "Improvised Pistol Magazine (.35)"
+  name: "Імпровізований магазин для пістолета (.35)"
   parent: BaseMagazinePistol
   components:
   - type: Item
@@ -28,7 +28,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunImprovised
-  name: Improvised SMG magazine (.35 auto)
+  name: Імпровізований магазин SMG (.35 auto)
   parent: [ BaseMagazinePistolSubMachineGun, BaseMinorContraband ]
   components:
   - type: BallisticAmmoProvider

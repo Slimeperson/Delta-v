@@ -10,7 +10,7 @@
 
 - type: listing
   id: UplinkRecruiterRealcapfruit
-  name: uplink-recruiter-realcapfruit-name
+  name: uplink-operative-skirt-name
   description: uplink-recruiter-realcapfruit-desc
   productEntity: RealCapfruitSeeds
   cost:
@@ -30,7 +30,7 @@
 
 - type: listing
   id: UplinkRecruiterCyberpen
-  name: uplink-recruiter-cyberpen-name
+  name: uplink-recruiter-cybersunrnd-name
   description: uplink-recruiter-cyberpen-desc
   productEntity: CyberPen
   cost:

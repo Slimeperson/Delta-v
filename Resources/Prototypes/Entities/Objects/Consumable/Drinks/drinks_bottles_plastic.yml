@@ -2,7 +2,7 @@
   abstract: true
   parent: [ DrinkBaseMaterialPlastic, DrinkBase, DrinkBaseOpenable ]
   id: DrinkBottlePlasticBaseFull
-  suffix: Full
+  suffix: Повний
   components:
   - type: Item
     size: Normal

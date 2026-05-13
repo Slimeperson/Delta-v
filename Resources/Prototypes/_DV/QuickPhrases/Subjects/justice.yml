@@ -6,99 +6,99 @@
 - type: quickPhrase
   id: PhraseWitness
   parent: BaseJusticeSubjectPhrase
-  text: phrase-witness
+  text: фраза-свід
 
 - type: quickPhrase
   id: PhraseEvidence
   parent: BaseJusticeSubjectPhrase
-  text: phrase-evidence
+  text: фраза-доказ
 
 - type: quickPhrase
   id: PhraseCase
   parent: BaseJusticeSubjectPhrase
-  text: phrase-case
+  text: словосполучення-відмінок
 
 - type: quickPhrase
   id: PhraseSue
   parent: BaseJusticeSubjectPhrase
-  text: phrase-sue
+  text: фраза-позов
 
 - type: quickPhrase
   id: PhraseCourtroomTimer
   parent: BaseJusticeSubjectPhrase
-  text: phrase-courtroom-timer
+  text: фраза-аномалія
 
 - type: quickPhrase
   id: PhraseBailiff
   parent: BaseJusticeSubjectPhrase
-  text: phrase-bailiff
+  text: фраза-пристав
 
 - type: quickPhrase
   id: PhraseSentence
   parent: BaseJusticeSubjectPhrase
-  text: phrase-sentence
+  text: словосполучення-речення
 
 - type: quickPhrase
   id: PhraseDefendant
   parent: BaseJusticeSubjectPhrase
-  text: phrase-defendant
+  text: фраза-відповідач
 
 - type: quickPhrase
   id: PhrasePlaintiff
   parent: BaseJusticeSubjectPhrase
-  text: phrase-plaintiff
+  text: фраза-позивач
 
 - type: quickPhrase
   id: PhraseVictim
   parent: BaseJusticeSubjectPhrase
-  text: phrase-victim
+  text: фраза-жертва
 
 - type: quickPhrase
   id: PhraseDefense
   parent: BaseJusticeSubjectPhrase
-  text: phrase-defense
+  text: фраза-захист
 
 - type: quickPhrase
   id: PhraseProsecution
   parent: BaseJusticeSubjectPhrase
-  text: phrase-prosecution
+  text: фраза-обвинувачення
 
 - type: quickPhrase
   id: PhraseStatement
   parent: BaseJusticeSubjectPhrase
-  text: phrase-statement
+  text: фраза-висловлювання
 
 - type: quickPhrase
   id: PhraseGavel
   parent: BaseJusticeSubjectPhrase
-  text: phrase-gavel
+  text: фраза-молоток
 
 - type: quickPhrase
   id: PhraseCharge
   parent: BaseJusticeSubjectPhrase
-  text: phrase-charge
+  text: фраза-звинувачення
 
 - type: quickPhrase
   id: PhraseGuilty
   parent: BaseJusticeSubjectPhrase
-  text: phrase-guilty
+  text: словосполучення-вин
 
 - type: quickPhrase
   id: PhraseNotGuilty
   parent: BaseJusticeSubjectPhrase
-  text: phrase-not-guilty
+  text: фраза-не-винен
 
 - type: quickPhrase
   id: PhraseObjection
   parent: BaseJusticeSubjectPhrase
-  text: phrase-objection
+  text: фраза-заперечення
 
 - type: quickPhrase
   id: PhraseNeedMoreTime
   parent: BaseJusticeSubjectPhrase
-  text: phrase-request-time
+  text: фраза-запит-час
 
 - type: quickPhrase
   id: PhraseYourHonor
   parent: BaseJusticeSubjectPhrase
-  text: phrase-your-honor
+  text: фраза-ваша-честь

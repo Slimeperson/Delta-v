@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: ModularReceiver
-  name: modular receiver
-  description: A modular reciever, essential for the production of firearms. This loads and ejects the cartridge. # DeltaV
+  name: модульний приймач
+  description: Модульна ствольна коробка, необхідна для виробництва вогнепальної зброї. Це завантажує та виймає картридж. # DeltaV
   components:
     - type: Item
       storedRotation: -90
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseItem
   id: RifleStock
-  name: rifle stock
-  description: A robust wooden stock, used in the creation of firearms. It's a nice place to put your shoulder when firing. # DeltaV
+  name: суперкомпактний чіп AI
+  description: Міцний дерев'яний приклад, який використовується при створенні вогнепальної зброї. Це гарне місце, щоб підставити плече під час стрільби. # DeltaV
   components:
     - type: Item
       storedRotation: -90

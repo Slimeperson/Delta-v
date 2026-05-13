@@ -1,1 +1,1 @@
-﻿mannitol-effect-enlightened = Ви відчуваєте себе ПРОСВІТЛЕНИМ!
+﻿mannitol-effect-enlightened = Суміш пузириться, і з неї піднімається плазма!

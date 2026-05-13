@@ -9,8 +9,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesNightVisionGoggles
-  name: night vision goggles
-  description: Now you can see in the dark!
+  name: окуляри нічного бачення
+  description: Тепер ви можете бачити в темряві!
   components:
   - type: Sprite
     sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: [ClothingEyesBase,BaseSyndicateContraband]
   id: ClothingEyesNightVisionGogglesSyndie
-  name: syndicate night vision goggles
-  description: A high-tech pair of night vision goggles. Has medical analysis technology.
+  name: окуляри нічного бачення синдикат
+  description: Високотехнологічна пара окулярів нічного бачення. Має технологію медичного аналізу.
   components:
   - type: Sprite
     sprite: _White/Clothing/Eyes/Goggles/snightvision.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesThermal
-  name: thermal vision goggles
-  description: Now you can see everyone!
+  name: тепловізійні окуляри
+  description: Тепер ви можете бачити всіх!
   components:
   - type: Sprite
     sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseSyndicateContraband]
   id: ClothingEyesThermalVisionGogglesSyndie
-  name: thermal vision goggles
-  description: A high-tech pair of thermal goggles.
+  name: тепловізійні окуляри
+  description: Високотехнологічна пара термозахисних окулярів.
   components:
   - type: Sprite
     sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi # Look like standard NVs to avoid gank.

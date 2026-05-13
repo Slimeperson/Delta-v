@@ -1,8 +1,8 @@
 - type: entity
-  name: entropic blade
+  name: ентропійне лезо
   parent: BaseSword
   id: SwordCosmicCult
-  description: An eerie greatsword wrought of indescribable material, forcibly extruded down into reality. Your instincts tell you that it does not belong here.
+  description: Моторошний великий меч, виготовлений із невимовного матеріалу, насильно видавлений у реальність. Ваші інстинкти підказують, що йому тут не місце.
   components:
   - type: CosmicEquipment
   - type: Sprite
@@ -74,10 +74,10 @@
       - state: inhand-right
 
 - type: entity
-  name: vacuous lance
+  name: порожній фурманок
   parent: BaseItem
   id: SpearCosmicCult
-  description: An unnerving spear, wrought of indescribable material. Being near it feels like a prickle of static spreading through your nerves.
+  description: Нестерпний спис, виготовлений з невимовного матеріалу. Перебуваючи поруч з ним, ви відчуваєте, ніби по нервах поширюється статика.
   components:
   - type: CosmicEquipment
   - type: EmbeddableProjectile
@@ -171,7 +171,7 @@
 
 
 - type: entity
-  name: astral razor
+  name: астральна бритва
   parent: BaseItem
   id: ScytheCosmicCult
   components:

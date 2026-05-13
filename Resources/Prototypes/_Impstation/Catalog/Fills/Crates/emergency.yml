@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateCommandSecure
   id: EmergencyLaserCrate
-  name: emergency lasers crate
-  description: A crate of five emergency laser rifles, the cheapest thing we can legally call a gun.
+  name: аварійний лазерний ящик
+  description: Ящик із п’ятьма аварійними лазерними гвинтівками, найдешевшим, що ми можемо законно назвати пістолетом.
   components:
   - type: EntityTableContainerFill
     containers:

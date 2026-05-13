@@ -4,8 +4,8 @@
 - type: entity
   id: RGBStaff
   parent: BaseItem
-  name: RGB staff
-  description: Helps fix the underabundance of RGB gear on the station.
+  name: Сигнал для ядерного реактора.
+  description: Допомагає виправити недостатню кількість обладнання RGB на станції.
   components:
   - type: LimitedCharges
     maxCharges: 25
@@ -40,8 +40,8 @@
 - type: entity
   id: AnimationStaff
   parent: [ BaseItem, BaseMagicalContraband ]
-  name: staff of animation
-  description: Brings inanimate objects to life!
+  name: персонал анімації
+  description: Оживляє неживі предмети!
   components:
   - type: LimitedCharges
     maxCharges: 5

@@ -1,7 +1,7 @@
 - type: job
   id: SecurityCadet
-  name: job-name-cadet
-  description: job-description-cadet
+  name: робота-ім'я-курсант
+  description: посадова інструкція-курсант
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement

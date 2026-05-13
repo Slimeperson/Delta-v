@@ -45,8 +45,8 @@
 - type: entity
   parent: [FragileGrenadeBase, ProjectileGrenadeBase, BaseSecurityContraband]
   id: GrenadeStinger
-  name: stinger grenade
-  description: Nothing to see here, please disperse.
+  name: жало гранати
+  description: Тут нічого не видно, будь ласка, розійдіться.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/stingergrenade.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: [FragileGrenadeBase, ProjectileGrenadeBase, BaseSyndicateContraband]
   id: GrenadeIncendiary
-  name: incendiary grenade
-  description: Guaranteed to light up the mood.
+  name: запальна граната
+  description: Гарантовано підніме настрій.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/pyrogrenade.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: [FragileGrenadeBase, ProjectileGrenadeBase, BaseSyndicateContraband]
   id: GrenadeShrapnel
-  name: shrapnel grenade
-  description: Releases a deadly spray of shrapnel that causes severe bleeding.
+  name: осколки гранати
+  description: Випускає смертоносну бризку осколків, що викликає сильну кровотечу.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/shrapnelgrenade.rsi

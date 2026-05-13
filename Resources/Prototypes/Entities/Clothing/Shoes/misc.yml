@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesFlippers
-  name: flippers
-  description: A pair of rubber flippers that improves swimming ability when worn.
+  name: ласти
+  description: Пара гумових ласт, які під час носіння покращують здатність плавати.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flippers.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesLeather
-  name: leather shoes
-  description: Very stylish pair of boots, made from fine leather.
+  name: шкіряне взуття
+  description: Дуже стильні черевики з тонкої шкіри.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/leather.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSlippers
-  name: slippers
-  description: Fluffy!
+  name: тапочки
+  description: Пухнастий!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/slippers.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersDuck
-  name: ducky slippers
-  description: You wish these made quacking sounds as you walked. It's a good thing they don't, though.
+  name: качачі тапочки
+  description: Вам би хотілося, щоб вони крякали, коли ви ходили. Добре, що вони цього не роблять.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/duck-slippers.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersLizard
-  name: lizard plushie slippers
-  description: An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
+  name: плюшеві тапочки ящірка
+  description: Чарівна пара тапочок, які нагадують людину-ящірку. Поєднайте це з іншим зеленим одягом, і ви станете найкрутішим членом екіпажу на станції!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
-  name: tourist shoes
-  description: These cheap sandals don't look very comfortable.
+  name: туристичне взуття
+  description: Ці дешеві босоніжки виглядають не дуже зручно.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/tourist.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesDameDane
-  name: yakuza shoes
-  description: At last...
+  name: взуття якудза
+  description: Нарешті...
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesSnakeskinBoots
-  name: snakeskin boots
-  description: Boots made of once-valuable snakeskin, everyone around you would have been jealous.
+  name: чоботи зі зміїної шкіри
+  description: Чоботи з колись коштовної зміїної шкіри позаздрили б усі навколо.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/snakeskin.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem, BaseToggleClothing]
   id: ClothingShoesBootsSpeed
-  name: speed boots
-  description: High-tech boots with interwoven bluespace fibers, able to convert electricity into pure speed! # DeltaV illegal ops
+  name: швидкісні черевики
+  description: Високотехнологічні черевики з переплетеними волокнами bluespace, здатні перетворювати електрику на чисту швидкість! # Незаконні операції DeltaV
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/speedboots.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleSpeedBoots
-  name: Toggle Speed Boots
-  description: Toggles the speed boots on and off.
+  name: Перемкнути швидкісні черевики
+  description: Вмикає та вимикає швидкість завантаження.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsMoon
-  name: moon boots
-  description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
+  name: місячні чоботи
+  description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Відправлено з Нідерландів.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/moonboots.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsJump
-  name: jump boots
-  description: High-tech boots that give you the incredible ability to JUMP! With these boots you can jump over lava, chasms and weird chemicals on the floor!
+  name: черевики для стрибків
+  description: Високотехнологічні черевики, які дають вам неймовірну здатність стрибати! З цими черевиками ви можете стрибати через лаву, прірви та дивні хімікати на підлозі!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jumpboots.rsi

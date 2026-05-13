@@ -1,6 +1,6 @@
 - type: species
   id: Feroxi
-  name: species-name-feroxi
+  name: motorkind
   roundStart: true
   prototype: MobFeroxi
   sprites: MobFeroxiSprites

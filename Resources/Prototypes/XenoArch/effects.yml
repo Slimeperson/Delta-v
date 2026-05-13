@@ -146,8 +146,8 @@
 
 - type: entity
   id: BaseXenoArtifactEffect
-  name: effect
-  description: Unknown
+  name: ефект
+  description: Невідомий
   categories: [ HideSpawnMenu ]
   abstract: true
   components:
@@ -158,8 +158,8 @@
 - type: entity
   id: BaseOneTimeXenoArtifactEffect
   parent: BaseXenoArtifactEffect
-  name: one-time-effect
-  description: Unknown
+  name: одноразовий ефект
+  description: Невідомий
   categories: [ HideSpawnMenu ]
   abstract: true
   components:
@@ -396,8 +396,8 @@
       allowMovement: true
       allowSpeech: true
       makeSentient: true
-      name: ghost-role-information-artifact-name
-      description: ghost-role-information-artifact-description
+      name: ghost-role-information-artefact-name
+      description: ghost-role-information-artefact-description
       rules: ghost-role-information-freeagent-rules
       raffle:
         settings: default
@@ -1055,7 +1055,7 @@
   id: XenoArtifactHostileFaunaSpawn
   parent: BaseXenoArtifactEffect
   categories: [ HideSpawnMenu ]
-  description: Create hostile fauna
+  description: Створити ворожу фауну
   components:
   - type: XenoArtifactNode
     maxDurability: 4

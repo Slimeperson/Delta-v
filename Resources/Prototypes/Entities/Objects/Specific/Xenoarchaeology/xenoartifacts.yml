@@ -1,8 +1,8 @@
 - type: entity
   id: BaseXenoArtifact
   parent: BaseMob # we use this since it can technically get inhabited
-  name: artifact
-  description: A strange artifact from time unknown. Looks like a good time.
+  name: артефакт
+  description: Дивний артефакт невідомих часів. Здається, добре провести час.
   abstract: true
   noSpawn: true
   components:
@@ -55,8 +55,8 @@
 
 - type: entity
   id: ActionSentientArtifactActivate
-  name: Activate Artifact
-  description: Activate yourself, causing chaos to those near you.
+  name: Активувати артефакт
+  description: Активізуйте себе, викликаючи хаос у тих, хто поруч.
   components:
   - type: Action
     icon:
@@ -69,34 +69,34 @@
 - type: entity
   id: SimpleXenoArtifact
   parent: ComplexXenoArtifact
-  name: "Simple Artifact"
-  description: "A simple xeno artifact placeholder."
+  name: "Простий артефакт"
+  description: "Простий заповнювач артефакту Xeno."
   components: []
 
 - type: entity
   id: MediumXenoArtifact
   parent: ComplexXenoArtifact
-  name: "Medium Artifact"
-  description: "A medium xeno artifact placeholder."
+  name: "Середній артефакт"
+  description: "Заповнювач артефакту середнього розміру."
   components: []
 
 - type: entity
   id: SimpleXenoArtifactItem
   parent: ComplexXenoArtifactItem
-  name: "Simple Artifact Item"
-  description: "A simple artifact item placeholder."
+  name: "Простий предмет артефакту"
+  description: "Простий заповнювач елемента артефакту."
   components: []
 
 - type: entity
   id: MediumXenoArtifactItem
   parent: ComplexXenoArtifactItem
-  name: "Medium Artifact Item"
-  description: "A medium artifact item placeholder."
+  name: "Середній предмет артефакту"
+  description: "Заповнювач елемента артефакту середнього розміру."
   components: []
 
 - type: entity
   id: VariedXenoArtifactItem
   parent: ComplexXenoArtifactItem
-  name: "Varied Artifact Item"
-  description: "A varied artifact item placeholder."
+  name: "Різноманітний предмет артефакту"
+  description: "Різноманітний заповнювач артефакту."
   components: []

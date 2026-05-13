@@ -458,7 +458,7 @@
   name: waffles
   parent: FoodBakedBase
   id: FoodBakedWaffle
-  description: Mmm, waffles.
+  description: Ммм, вафлі.
   components:
   - type: Sprite
     layers:
@@ -475,10 +475,10 @@
           Quantity: 1
 
 - type: entity
-  name: soy waffles
+  name: Величезна маса вареного м'яса. Їжа для званої вечері або хтось ДУЖЕ голодний.
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoy
-  description: You feel healthier and - more feminine?
+  description: Ви почуваєтеся здоровішою і - жіночнішою?
   components:
   - type: Sprite
     layers:
@@ -495,10 +495,10 @@
           Quantity: 1
 
 - type: entity
-  name: soylent waffles
+  name: соєві вафлі
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoylent
-  description: Not made of people. Honest. # Definitely people
+  description: Не з людей. Чесний. # Однозначно люди
   components:
   - type: Sprite
     layers:
@@ -515,10 +515,10 @@
           Quantity: 1
 
 - type: entity
-  name: roffle waffles
+  name: вафлі roffle
   parent: FoodBakedWaffle
   id: FoodBakedWaffleRoffle
-  description: Waffles from Roffle. Co.
+  description: Вафлі від Roffle. Co.
   components:
   - type: Sprite
     layers:
@@ -537,19 +537,19 @@
 # Misc
 
 - type: entity
-  name: poppy pretzel
+  name: маковий крендель
   parent: FoodBakedBase
   id: FoodBakedPretzel
-  description: It's all twisted up!
+  description: Це все перекручено!
   components:
   - type: Sprite
     state: pretzel
 
 - type: entity
-  name: cannoli
+  name: каннолі
   parent: FoodBakedBase
   id: FoodBakedCannoli
-  description: A Sicilian treat that makes you into a wise guy.
+  description: Сицилійське частування, яке перетворює вас на розумника.
   components:
   - type: Sprite
     state: cannoli
@@ -564,10 +564,10 @@
           Quantity: 1
 
 - type: entity
-  name: dumplings
+  name: пельмені
   parent: FoodBakedBase
   id: FoodBakedDumplings
-  description: Average recipe for meat in doughs.
+  description: Середній рецепт м'яса в тісті.
   components:
   - type: Sprite
     state: dumplings
@@ -592,7 +592,7 @@
   name: chèvre chaud
   parent: FoodBakedBase
   id: FoodBakedChevreChaud
-  description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.
+  description: Диск злегка підталого шевра плюхнувся на кростіні та підсмажився з усіх боків.
   components:
   - type: FlavorProfile
     flavors:
@@ -613,10 +613,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: cotton chèvre chaud
+  name: бавовна chèvre chaud
   parent: FoodBakedChevreChaud
   id: FoodBakedChevreChaudCotton
-  description: A disk of slightly melted chèvre flopped on top of a... cotton crostini, and toasted all-round.
+  description: Диск злегка підталого шевра плюхнувся на... бавовняний кростіні та підсмажився з усіх боків.
   components:
   - type: FlavorProfile
     flavors:
@@ -647,8 +647,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedBrownieBatch
-  name: brownies
-  description: A pan of brownies.
+  name: брауні
+  description: Каструля брауні.
   components:
   - type: Item
     size: Normal
@@ -674,11 +674,11 @@
     slice: FoodBakedBrownie
 
 - type: entity
-  name: brownie
+  name: брауні
   parent: FoodBakedBase
   id: FoodBakedBrownie
-  suffix: Fresh
-  description: A fresh baked brownie.
+  suffix: Свіжий
+  description: Свіжоспечений брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -703,8 +703,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownieBatch
-  name: special brownies
-  description: A pan of "special" brownies.
+  name: спеціальні брауні
+  description: Каструля «особливих» брауні.
   components:
   - type: Item
     size: Normal
@@ -735,8 +735,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownie
-  name: special brownie
-  description: A "special" brownie.
+  name: спеціальний брауні
+  description: «Особливий» брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -762,10 +762,10 @@
     - Slice
 
 - type: entity
-  name: onion rings
+  name: кільцями цибулі
   parent: FoodBakedBase
   id: FoodOnionRings
-  description: You can eat it or propose to your loved ones.
+  description: Ви можете з'їсти його або зробити пропозицію своїм близьким.
   components:
     - type: FlavorProfile
       flavors:
@@ -788,8 +788,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCroissant
-  name: croissant
-  description: Buttery, flaky goodness.
+  name: круасан
+  description: Маслянистий, пластівчастий смак.
   components:
   - type: Item
     size: Small
@@ -822,8 +822,8 @@
 - type: entity
   parent: FoodBakedCroissant
   id: FoodBakedCroissantCotton
-  name: cotton croissant
-  description: Buttery, flaky, fibery goodness.
+  name: бавовняний круасан
+  description: Маслянистий, пластівчастий, волокнистий.
   components:
   - type: Item
     size: Small
@@ -859,8 +859,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedGrilledCheeseSandwich
-  name: grilled cheese sandwich
-  description: Bread and cheese toasted with butter, perfect for a chilly day in space.
+  name: бутерброд з сиром на грилі
+  description: Хліб і сир, підсмажені з маслом, ідеальні для прохолодного дня в космосі.
   components:
   - type: Item
     size: Small
@@ -891,8 +891,8 @@
 - type: entity
   parent: FoodBakedGrilledCheeseSandwich
   id: FoodBakedGrilledCheeseSandwichCotton
-  name: cotton grilled cheese sandwich
-  description: Cotton bread slightly burnt in butter, with melted cheese. Moths find it difficult to resist this combination.
+  name: бутерброд з сиром на грилі
+  description: Бавовняний хліб злегка підпалений на вершковому маслі, з плавленим сиром. Молі важко встояти перед таким поєднанням.
   components:
   - type: FlavorProfile
     flavors:

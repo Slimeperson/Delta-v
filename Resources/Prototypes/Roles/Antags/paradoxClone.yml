@@ -1,6 +1,6 @@
 - type: antag
   id: ParadoxClone
-  name: roles-antag-paradox-clone-name
+  name: roles-atag-paradox-clone-name
   antagonist: true
   objective: roles-antag-paradox-clone-objective
   setPreference: false

@@ -173,7 +173,7 @@
 
 - type: entity
   name: Maint Loot Spawner
-  suffix: Fluff+Clothes
+  suffix: Пух+Одяг
   id: MaintenanceFluffSpawner
   parent: MarkerBase
   components:
@@ -307,7 +307,7 @@
 
 - type: entity
   name: Maint Loot Spawner
-  suffix: Tools+Cells+Mats
+  suffix: Інструменти+Клітини+Килимки
   id: MaintenanceToolSpawner
   parent: MarkerBase
   components:
@@ -368,7 +368,7 @@
 
 - type: entity
   name: Maint Loot Spawner
-  suffix: Scrap+Weapons
+  suffix: Лом+Зброя
   id: MaintenanceWeaponSpawner
   parent: MarkerBase
   components:
@@ -384,7 +384,7 @@
 
 - type: entity
   name: Maint Loot Spawner
-  suffix: Plants
+  suffix: Рослини
   id: MaintenancePlantSpawner
   parent: MarkerBase
   components:
@@ -416,7 +416,7 @@
 - type: entity
   name: Maint Loot Spawner
   id: MaintenanceInsulsSpawner
-  suffix: Insuls, safe
+  suffix: Інсули, безпечні
   parent: MarkerBase
   components:
   - type: Sprite

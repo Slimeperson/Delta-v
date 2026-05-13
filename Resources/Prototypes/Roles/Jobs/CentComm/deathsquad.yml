@@ -1,7 +1,7 @@
 - type: job
   id: DeathSquad
-  name: job-name-deathsquad
-  description: job-description-deathsquad
+  name: робота-назва-ескадрон смерті
+  description: посадова характеристика ескадрону смерті
   playTimeTracker: JobDeathSquad
   setPreference: false
   startingGear: DeathSquadGear

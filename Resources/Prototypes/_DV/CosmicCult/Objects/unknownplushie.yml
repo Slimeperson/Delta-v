@@ -3,8 +3,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCosmicCult
-  name: "unknown plushie"
-  description: A small stuffed doll resembling the indistinct likeness of an unknown cosmic force. That doesn't really make sense, but the marketing department was really insistent about it.
+  name: "невідома плюшка"
+  description: Маленька м'яка лялька, що нагадує невиразну подобу невідомої космічної сили. Це насправді не має сенсу, але відділ маркетингу справді наполягав на цьому.
   components:
   - type: Item
     size: Normal

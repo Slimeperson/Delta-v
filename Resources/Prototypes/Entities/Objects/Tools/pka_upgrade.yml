@@ -1,8 +1,8 @@
 - type: entity
   id: BasePKAUpgrade
   parent: BaseItem
-  name: PKA modkit
-  description: A modkit for a proto-kinetic accelerator.
+  name: Модкіт PKA
+  description: Модкіт для протокінетичного прискорювача.
   abstract: true
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   id: PKAUpgradeDamage
   parent: BasePKAUpgrade
-  name: PKA modkit (damage)
+  name: PKA modkit (пошкодження)
   components:
   - type: Sprite
     layers:
@@ -43,7 +43,7 @@
 - type: entity
   id: PKAUpgradeRange
   parent: BasePKAUpgrade
-  name: PKA modkit (range)
+  name: PKA modkit (діапазон)
   components:
   - type: Sprite
     layers:
@@ -65,7 +65,7 @@
 - type: entity
   id: PKAUpgradeFireRate
   parent: BasePKAUpgrade
-  name: PKA modkit (fire rate)
+  name: PKA modkit (швидкість вогню)
   components:
   - type: Sprite
     layers:

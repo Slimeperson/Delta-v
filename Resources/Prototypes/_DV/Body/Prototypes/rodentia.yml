@@ -1,5 +1,5 @@
 - type: body
-  name: species-name-rodentia
+  name: вид-назва-rodentia
   id: Rodentia
   root: torso
   slots:

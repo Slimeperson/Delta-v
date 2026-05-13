@@ -11,8 +11,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes.
+  name: картридж для записників
+  description: Програму для ведення записів.
   components:
   - type: Sprite
     state: cart-y
@@ -28,8 +28,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NanoTaskCartridge
-  name: NanoTask cartridge
-  description: A program that allows you to keep a list of tasks to do.
+  name: Картридж NanoTask
+  description: Програма, яка дозволяє вести список завдань, які потрібно виконати.
   components:
   - type: Sprite
     state: cart-nav
@@ -45,8 +45,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NewsReaderCartridge
-  name: news cartridge
-  description: A program for reading news.
+  name: новинний картридж
+  description: Корисно для лову гризунів, які проникають на кухню.
   components:
   - type: Sprite
     state: cart-y
@@ -62,8 +62,8 @@
 - type: entity
   parent: BasePDACartridge
   id: CrewManifestCartridge
-  name: crew manifest cartridge
-  description: A program for listing your fellow crewmembers.
+  name: маніфест патрона екіпажу
+  description: Програма для створення списку ваших товаришів по екіпажу.
   components:
     - type: Sprite
       state: cart-y
@@ -79,8 +79,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NetProbeCartridge
-  name: NetProbe cartridge
-  description: A program for getting the address and frequency of network devices.
+  name: Картридж NetProbe
+  description: Програма для отримання адреси і частоти мережевих пристроїв.
   components:
     - type: Sprite
       state: cart-y
@@ -96,8 +96,8 @@
 - type: entity
   parent: BasePDACartridge
   id: LogProbeCartridge
-  name: LogProbe cartridge
-  description: A program for getting access logs from devices.
+  name: Картридж LogProbe
+  description: Програма для отримання логів доступу з пристроїв.
   components:
     - type: Sprite
       state: cart-log
@@ -142,8 +142,8 @@
 - type: entity
   parent: BasePDACartridge
   id: MedTekCartridge
-  name: MedTek cartridge
-  description: A program that provides medical diagnostic tools.
+  name: Картридж MedTek
+  description: Програма, яка надає засоби медичної діагностики.
   components:
     - type: Sprite
       state: cart-med
@@ -160,8 +160,8 @@
 - type: entity
   parent: BasePDACartridge
   id: AstroNavCartridge
-  name: AstroNav cartridge
-  description: A program for navigation that provides GPS coordinates.
+  name: Картридж AstroNav
+  description: Програма для навігації, яка надає GPS координати.
   components:
     - type: Sprite
       state: cart-nav

@@ -3,16 +3,16 @@
 
 - type: metabolizerType
   id: Feroxi
-  name: metabolizer-type-feroxi
+  name: метаболізатор типу ферокси
 
 - type: metabolizerType
   id: FeroxiDehydrated
-  name: metabolizer-type-feroxi-dehydrated
+  name: метаболізатор типу-ферокси-дегідратований
 
 - type: metabolizerType
   id: Harpy
-  name: metabolizer-type-harpy
+  name: метаболізатор типу-гарпія
 
 - type: metabolizerType
   id: Fuel
-  name: metabolizer-type-fuel
+  name: метаболізатор типу палива

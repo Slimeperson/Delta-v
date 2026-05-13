@@ -1,8 +1,8 @@
 - type: entity
   id: MobIPC
   parent: PlayerSiliconHumanoidBase
-  name: Urist McPositronic
-  description: A positronic brain in a metal body.
+  name: Уріст Макпозитронік
+  description: Позитронний мозок у металевому тілі.
   components:
   - type: PowerCellSlot
     cellSlotId: cell_slot
@@ -122,11 +122,11 @@
 
 - type: entity
   save: false
-  name: Urist McPositronic
+  name: Уріст Макпозитронік
   parent: MobHumanDummy
   id: MobIPCDummy
   categories: [ HideSpawnMenu ] # Goobstation
-  description: A dummy IPC meant to be used in character setup.
+  description: Фіктивний IPC, призначений для використання під час налаштування персонажа.
   components:
   - type: HumanoidAppearance
     species: IPC

@@ -85,7 +85,7 @@
 - type: entity
   parent: RollerBed
   id: RollerBedSpawnFolded
-  suffix: folded
+  suffix: складені
   components:
   - type: Foldable
     folded: true
@@ -114,7 +114,7 @@
 - type: entity
   parent: CheapRollerBed
   id: CheapRollerBedSpawnFolded
-  suffix: folded
+  suffix: складені
   components:
   - type: Foldable
     folded: true
@@ -143,7 +143,7 @@
 - type: entity
   parent: EmergencyRollerBed
   id: EmergencyRollerBedSpawnFolded
-  suffix: folded
+  suffix: складені
   components:
   - type: Foldable
     folded: true

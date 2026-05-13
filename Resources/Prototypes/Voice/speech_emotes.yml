@@ -165,7 +165,7 @@
 
 - type: emote
   id: Squeak
-  name: chat-emote-name-squeak
+  name: chat-emote-name-yawn
   category: Vocal
   available: false
   icon: Interface/Emotes/squeak.png
@@ -263,7 +263,7 @@
 
 - type: emote
   id: Thump
-  name: chat-emote-name-thump
+  name: chat-emote-name-tump
   category: Hands
   available: false
   icon: Interface/Emotes/tailslap.png
@@ -364,7 +364,7 @@
 
 - type: emote
   id: Hew
-  name: chat-emote-name-hew
+  name: насіння-лінчжі-назва
   category: Vocal
   icon: Interface/Emotes/hew.png
   chatMessages: ["chat-emote-msg-hew"]
@@ -428,7 +428,7 @@
 
 - type: emote
   id: Buzz-Two
-  name: chat-emote-name-buzztwo
+  name: рецепт бургера з коргі
   category: Vocal
   icon: Interface/Emotes/buzztwo.png
   whitelist:

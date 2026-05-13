@@ -1,6 +1,6 @@
 - type: entity
   id: WardrobeGreyFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeGrey
   components:
   - type: EntityTableContainerFill
@@ -10,7 +10,7 @@
 
 - type: entity
   id: ClosetWallWardrobeGreyFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallGrey
   components:
   - type: EntityTableContainerFill
@@ -36,7 +36,7 @@
 
 - type: entity
   id: WardrobeMixedFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeMixed
   components:
   - type: EntityTableContainerFill
@@ -46,7 +46,7 @@
 
 - type: entity
   id: ClosetWallWardrobeMixedFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallMixed
   components:
   - type: EntityTableContainerFill
@@ -81,7 +81,7 @@
 
 - type: entity
   id: WardrobeYellowFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeYellow
   components:
   - type: EntityTableContainerFill
@@ -91,7 +91,7 @@
 
 - type: entity
   id: ClosetWallWardrobeYellowFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallYellow
   components:
   - type: EntityTableContainerFill
@@ -112,7 +112,7 @@
 
 - type: entity
   id: WardrobeWhiteFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeWhite
   components:
   - type: EntityTableContainerFill
@@ -122,7 +122,7 @@
 
 - type: entity
   id: ClosetWallWardrobeWhiteFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallWhite
   components:
   - type: EntityTableContainerFill
@@ -142,7 +142,7 @@
 
 - type: entity
   id: WardrobeBlueFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeBlue
   components:
   - type: EntityTableContainerFill
@@ -152,7 +152,7 @@
 
 - type: entity
   id: ClosetWallWardrobeBlueFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallBlue
   components:
   - type: EntityTableContainerFill
@@ -171,7 +171,7 @@
 
 - type: entity
   id: WardrobePinkFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobePink
   components:
   - type: EntityTableContainerFill
@@ -181,7 +181,7 @@
 
 - type: entity
   id: ClosetWallWardrobePinkFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallPink
   components:
   - type: EntityTableContainerFill
@@ -200,7 +200,7 @@
 
 - type: entity
   id: WardrobeBlackFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeBlack
   components:
   - type: EntityTableContainerFill
@@ -210,7 +210,7 @@
 
 - type: entity
   id: ClosetWallWardrobeBlackFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallBlack
   components:
   - type: EntityTableContainerFill
@@ -232,7 +232,7 @@
 
 - type: entity
   id: WardrobeGreenFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: WardrobeGreen
   components:
   - type: EntityTableContainerFill
@@ -242,7 +242,7 @@
 
 - type: entity
   id: ClosetWallWardrobeGreenFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetWallGreen
   components:
   - type: EntityTableContainerFill

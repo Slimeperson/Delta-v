@@ -307,10 +307,10 @@ accent-scottish-words-103 = чи
 accent-scottish-words-replace-103 = ми
 
 accent-scottish-words-104 = будь-коли
-accent-scottish-words-replace-104 = e'er
+accent-scottish-words-replace-104 = ID Card
 
 accent-scottish-words-105 = будь-коли
-accent-scottish-words-replace-105 = we'er
+accent-scottish-words-replace-105 = ми
 
 accent-scottish-words-106 = що завгодно
 accent-scottish-words-replace-106 = нічого

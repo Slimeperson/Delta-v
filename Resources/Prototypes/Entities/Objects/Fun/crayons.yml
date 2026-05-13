@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseItem
   id: CrayonInedible
-  name: crayon
-  description: A colourful crayon. A forbidden flavor.
+  name: олівець
+  description: Кольоровий олівець. Заборонений смак.
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi
@@ -34,7 +34,7 @@
   abstract: true
   parent: CrayonInedible
   id: Crayon
-  description: A colourful crayon. Looks tasty. Mmmm...
+  description: Кольоровий олівець. Виглядає смачно. Мммм...
   components:
   - type: Edible
   - type: FlavorProfile
@@ -55,7 +55,7 @@
 - type: entity
   parent: Crayon
   id: CrayonMime
-  name: mime crayon
+  name: мімовий олівець
   components:
   - type: Sprite
     state: mime
@@ -74,7 +74,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRainbow
-  name: rainbow crayon
+  name: райдужний олівець
   components:
   - type: Sprite
     state: rainbow
@@ -90,7 +90,7 @@
   parent: CrayonRainbow
   id: CrayonInfinite # should not be player available to prevent decal spam
   categories: [ DoNotMap ]
-  name: infinite crayon
+  name: нескінченний олівець
   components:
   - type: Crayon
     deleteEmpty: false
@@ -100,8 +100,8 @@
 - type: entity
   parent: CrayonInedible
   id: CrayonBorg
-  name: electric crayon
-  description: Supposedly the most delicious crayon type in all the universes; unfortunately, you cannot eat.
+  name: електричний олівець
+  description: Вважається, що це найсмачніший тип олівців у всіх всесвітах; на жаль, ви не можете їсти.
   components:
   - type: Sprite
     state: electric
@@ -119,7 +119,7 @@
 - type: entity
   parent: Crayon
   id: CrayonWhite
-  name: white crayon
+  name: білий олівець
   components:
   - type: Sprite
     state: white
@@ -138,7 +138,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlack
-  name: black crayon
+  name: чорний олівець
   components:
   - type: Sprite
     state: black
@@ -157,7 +157,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRed
-  name: red crayon
+  name: червоний олівець
   components:
   - type: Sprite
     state: red
@@ -176,7 +176,7 @@
 - type: entity
   parent: Crayon
   id: CrayonOrange
-  name: orange crayon
+  name: помаранчевий олівець
   components:
   - type: Sprite
     state: orange
@@ -195,7 +195,7 @@
 - type: entity
   parent: Crayon
   id: CrayonYellow
-  name: yellow crayon
+  name: жовтий олівець
   components:
   - type: Sprite
     state: yellow
@@ -214,7 +214,7 @@
 - type: entity
   parent: Crayon
   id: CrayonGreen
-  name: green crayon
+  name: зелений олівець
   components:
   - type: Sprite
     state: green
@@ -233,7 +233,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlue
-  name: blue crayon
+  name: синій олівець
   components:
   - type: Sprite
     state: blue
@@ -252,7 +252,7 @@
 - type: entity
   parent: Crayon
   id: CrayonPurple
-  name: purple crayon
+  name: фіолетовий олівець
   components:
   - type: Sprite
     state: purple
@@ -271,8 +271,8 @@
 - type: entity
   parent: BoxCardboard
   id: CrayonBox
-  name: crayon box
-  description: It's a box of crayons.
+  name: коробка для олівців
+  description: Це коробка кольорових олівців.
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi

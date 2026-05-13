@@ -37,8 +37,8 @@
 - type: entity
   id: CrateFoodEmergencyPie
   parent: CratePlastic
-  name: emergency pie delivery
-  description: '"Then let them eat pie."'
+  name: термінова доставка пирога
+  description: '«Тоді нехай їдять пиріг».
   components:
   - type: EntityTableContainerFill
     containers:
@@ -49,8 +49,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroCoDairy
-  name: HydroCo Dairy crate
-  description: A shipment of powdered dairy products from HydroCo. Contains powdered milk and soy milk.
+  name: Молочний ящик HydroCo
+  description: Партія сухих молочних продуктів від HydroCo. Містить сухе молоко та соєве молоко.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -67,8 +67,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroCoJuice
-  name: HydroCo Juice crate
-  description: A variety pack of powdered juice products from HydroCo.
+  name: Ящик для соку HydroCo
+  description: Різноманітна упаковка порошкоподібних сокових продуктів від HydroCo.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: LockerFreezerBase
   id: LockerFreezerMRE
-  suffix: MRE, Alcohol, No Access
+  suffix: ІМН, Алкоголь, Без доступу
   components:
   - type: EntityTableContainerFill
     containers:

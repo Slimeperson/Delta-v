@@ -1,5 +1,5 @@
 - type: guideEntry
   id: Exotic
-  name: guide-entry-exotic
+  name: гід-вхід-екзотика
   text: "/ServerInfo/Funkystation/Guidebook/ChemicalTabs/Exotic.xml"
   filterEnabled: True

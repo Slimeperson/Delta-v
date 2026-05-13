@@ -1,7 +1,7 @@
 - type: job
   id: Clown
-  name: job-name-clown
-  description: job-description-clown
+  name: робота-ім'я-клоун
+  description: посадова характеристика-клоун
   playTimeTracker: JobClown
   startingGear: ClownGear
   icon: "JobIconClown"

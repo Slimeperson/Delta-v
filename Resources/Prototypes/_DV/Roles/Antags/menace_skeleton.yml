@@ -1,6 +1,6 @@
 - type: antag
   id: MenaceSkeleton
-  name: roles-antag-menace-skeleton-name
+  name: ролі-антаг-загроза-ім'я-скелета
   objective: roles-antag-menace-skeleton-objective
   antagonist: true
   requirements:

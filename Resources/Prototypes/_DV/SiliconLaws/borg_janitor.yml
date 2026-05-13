@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: Janitor
-  name: law-janitor-name
+  name: закон-двірник-назва
   laws:
   - Janitor1
   - Janitor2

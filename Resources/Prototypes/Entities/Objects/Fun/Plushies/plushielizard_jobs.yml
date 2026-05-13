@@ -10,8 +10,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobAtmospherictechnician
-  name: atmospheric technician lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as an atmospheric technician. Smells faintly of frezon.
+  name: атмосферний технік плюшева ящірка
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як техніка атмосфери. Слабо пахне фрезоном.
   components:
   - type: Sprite
     state: atmospherictechnician
@@ -19,8 +19,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBartender
-  name: bartender lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a bartender. Its tongue has alcohol stains on it.
+  name: плюшева ящірка бармена
+  description: Скуб — ​​п'ятий Бог Хаосу.
   components:
   - type: Sprite
     state: bartender
@@ -28,8 +28,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBotanist
-  name: botanist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a botanist. There's prickly bits on its feet and it smells faintly of plant fertilizer.
+  name: ботанік ящірка плюшева
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як ботанік. На ногах є колючі шматочки, і він ледь пахне добривом для рослин.
   components:
   - type: Sprite
     state: botanist
@@ -37,8 +37,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBoxer
-  name: boxer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a boxer. The threads on its gloves are starting to come loose.
+  name: плюшева ящірка-боксер
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як боксера. Нитки на його рукавичках починають розв’язуватися.
   components:
   - type: Sprite
     state: boxer
@@ -46,8 +46,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCaptain
-  name: captain lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the captain. There's bits of pie on its face.
+  name: капітан ящірка плюшевий
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку в ролі капітана. На обличчі є шматочки пирога.
   components:
   - type: Sprite
     state: captain
@@ -55,8 +55,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCargotechnician
-  name: cargo technician lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a cargo technician. Crumbs of packing peanuts are stuck to its scales.
+  name: вантажний технік ящірка плюшева
+  description: білий лицар
   components:
   - type: Sprite
     state: cargotechnician
@@ -64,8 +64,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChaplain
-  name: chaplain lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chaplain. It smells faintly of incense.
+  name: плюшева ящірка капелана
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як капелана. Ледь пахне ладаном.
   components:
   - type: Sprite
     state: chaplain
@@ -73,8 +73,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChef
-  name: chef lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chef. It smells faintly of spices, with spots of oil on its apron.
+  name: шеф-кухар ящірка плюшевий
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як шеф-кухаря. Він ледь помітно пахне прянощами, на фартусі — плями олії.
   components:
   - type: Sprite
     state: chef
@@ -82,8 +82,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChemist
-  name: chemist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chemist. Parts of the plushie are stained with chemicals.
+  name: хімік ящірка плюшева
+  description: Чарівна м'яка іграшка, яка нагадує людину-ящірку як хіміка. Частини плюшу забарвлені хімікатами.
   components:
   - type: Sprite
     state: chemist
@@ -91,8 +91,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChiefengineer
-  name: chief engineer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the chief engineer. It's covered in metal shavings and welding splatter.
+  name: головний інженер ящірка плюшева
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку в ролі головного інженера. Він покритий металевою стружкою та бризками від зварювання.
   components:
   - type: Sprite
     state: chiefengineer
@@ -100,8 +100,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChiefmedicalofficer
-  name: chief medical officer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the chief medical officer. The plushie's tail has been sewn off and on again, probably from practicing surgery.
+  name: головний лікар ящірка плюшева
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку в ролі головного лікаря. Плюшеві хвостик був пришитий і знову пришитий, ймовірно, під час хірургічної практики.
   components:
   - type: Sprite
     state: chiefmedicalofficer
@@ -109,8 +109,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobClown
-  name: clown lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a clown. Its nose squeaks when you press it.
+  name: плюшева ящірка-клоун
+  description: Чарівна м'яка іграшка, яка нагадує людину-ящірку як клоуна. Його носик скрипить, коли на нього натискаєш.
   components:
   - type: Sprite
     state: clown
@@ -127,8 +127,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobDetective
-  name: detective lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a detective. Seems ready for a mystery.
+  name: плюшева ящірка-детектив
+  description: Чарівна м'яка іграшка, яка нагадує людину-ящірку в ролі детектива. Здається, готовий до таємниці.
   components:
   - type: Sprite
     state: detective
@@ -136,8 +136,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobHeadofpersonnel
-  name: head of personnel lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the head of personnel. While it seems thrilled on the outside, it's probably just as bored as you are.
+  name: начальник відділу персоналу ящірка плюшева
+  description: Чарівна м'яка іграшка, яка нагадує людину-ящірку як керівника персоналу. Хоча зовні це виглядає в захваті, воно, ймовірно, так само нудьгує, як і ви.
   components:
   - type: Sprite
     state: headofpersonnel
@@ -145,8 +145,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobHeadofsecurity
-  name: head of security lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the head of security. It seems to have been ripped and re-stitched a few times.
+  name: голова служби безпеки ящірка плюшева
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку в ролі голови служби безпеки. Здається, він був розірваний і перешитий кілька разів.
   components:
   - type: Sprite
     state: headofsecurity
@@ -154,8 +154,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobJanitor
-  name: janitor lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a janitor. It smells faintly of cleaning supplies.
+  name: двірник ящірка плюшева
+  description: Чарівна м'яка іграшка, яка нагадує людину-ящірку як двірник. Слабо пахне миючими засобами.
   components:
   - type: Sprite
     state: janitor
@@ -163,8 +163,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobLawyer
-  name: lawyer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a lawyer. Its lawyer pin is barely hanging on from hours of fidgeting.
+  name: адвокат ящірка плюшева
+  description: Статуетка із зображенням детектива в їхньому культовому плащі.
   components:
   - type: Sprite
     state: lawyer
@@ -172,8 +172,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobLibrarian
-  name: archivist lizard plushie # DeltaV - renamed from librarian
-  description: An adorable stuffed toy that resembles a lizardperson as an archivist. The color of the plushie has faded from years of desk-watching. # DeltaV - renamed from librarian
+  name: архівіст lizard plushie # DeltaV - перейменовано на librarian
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як архіваріуса. Колір плюшу потьмянів від багатьох років перегляду за столом. # DeltaV - перейменовано з бібліотекаря
   components:
   - type: Sprite
     state: librarian
@@ -181,8 +181,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMedicaldoctor
-  name: medical doctor lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a medical doctor. Seems to be well-washed.
+  name: плюшевий лікар ящірка
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку як лікаря. Здається, добре вимитий.
   components:
   - type: Sprite
     state: medicaldoctor
@@ -190,8 +190,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMedicalintern
-  name: medical intern lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a medical intern. It smells faintly of antiseptic.
+  name: плюшева ящірка-інтерн
+  description: Чарівна м’яка іграшка, яка нагадує людину-ящірку в ролі лікаря-інтерна. Слабо пахне антисептиком.
   components:
   - type: Sprite
     state: medicalintern

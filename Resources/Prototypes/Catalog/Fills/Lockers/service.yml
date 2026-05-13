@@ -1,6 +1,6 @@
 - type: entity
   id: LockerBoozeFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerBooze
   components:
   - type: EntityTableContainerFill
@@ -35,7 +35,7 @@
 
 - type: entity
   id: ClosetChefFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerKitchen # DeltaV - Use DV secure lockers/sprites
   components:
   - type: EntityTableContainerFill
@@ -72,7 +72,7 @@
 
 - type: entity
   id: ClosetJanitorFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerJanitor # DeltaV - Use DV secure lockers/sprites
   components:
   - type: EntityTableContainerFill
@@ -105,7 +105,7 @@
 
 - type: entity
   id: ClosetLegalFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: ClosetLegal
   components:
   - type: EntityTableContainerFill
@@ -123,7 +123,7 @@
 
 - type: entity
   id: LockerBotanistFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerBotanist
   components:
   - type: EntityTableContainerFill
@@ -153,7 +153,7 @@
 
 - type: entity
   id: LockerBotanistLoot
-  suffix: Loot
+  suffix: Бабло
   parent: LockerBotanist
   components:
   - type: EntityTableContainerFill
@@ -178,7 +178,7 @@
 - type: entity
   id: ClosetJanitorBombFilled
   parent: ClosetJanitorBomb
-  suffix: Ask Before Mapping, Filled # DeltaV - Some maps may have these
+  suffix: Запитувати перед картографуванням, заповнений # DeltaV - деякі карти можуть мати це
   #categories: [ DoNotMap ] # DeltaV - Some maps may have these
   components:
   - type: EntityTableContainerFill

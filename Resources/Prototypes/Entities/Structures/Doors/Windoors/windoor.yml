@@ -433,7 +433,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureSecurityLocked
-  suffix: Security, Locked
+  suffix: Охорона, зачинено
   components:
   - type: ContainerFill
     containers:

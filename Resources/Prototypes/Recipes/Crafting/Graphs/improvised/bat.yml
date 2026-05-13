@@ -25,7 +25,7 @@
         - to: bat
           completed:
           - !type:AdminLog
-            message: "Construction"
+            message: "Будівництво"
             impact: High
           steps:
             - tool: Slicing

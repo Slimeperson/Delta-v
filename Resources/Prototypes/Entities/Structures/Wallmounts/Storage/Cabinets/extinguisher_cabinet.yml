@@ -45,7 +45,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: ExtinguisherCabinetOpen
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Openable
     opened: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: ExtinguisherCabinetFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:

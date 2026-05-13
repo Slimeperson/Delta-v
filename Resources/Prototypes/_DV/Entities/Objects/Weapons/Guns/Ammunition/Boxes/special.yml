@@ -60,7 +60,7 @@
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialRubber
   name: ammunition box (.38 special rubber)
-  description: A cardboard box of .38 special rounds. Intended to hold less-lethal rubber ammunition.
+  description: Картонна коробка зі спеціальними патронами .38. Призначений для зберігання менш летальних гумових боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialRubber
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialIncendiary
-  name: ammunition box (.38 special incendiary)
-  description: A cardboard box of .38 special rounds. Intended to hold self-igniting incendiary ammunition.
+  name: ящик для боєприпасів (.38 спеціальний запальний)
+  description: Картонна коробка зі спеціальними патронами .38. Призначений для зберігання самозаймистих боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialIncendiary
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialUranium
-  name: ammunition box (.38 special uranium)
-  description: A cardboard box of .38 special rounds. Intended to hold exotic uranium-core ammunition.
+  name: ящик для боєприпасів (спеціальний уран .38)
+  description: Картонна коробка зі спеціальними патронами .38. Призначений для зберігання екзотичних боєприпасів з урановим сердечником.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialUranium
@@ -107,8 +107,8 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialMindbreaker
-  name: ammunition box (.38 special mindbreaker)
-  description: A cardboard box of .38 special rounds. Intended to hold psionic-removing mindbreaker ammunition.
+  name: ящик для патронів (.38 special mindbreaker)
+  description: Картонна коробка зі спеціальними патронами .38. Призначений для зберігання псіотехнічних боєприпасів для злому розуму.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialMindbreaker
@@ -123,8 +123,8 @@
 - type: entity
   parent: MagazineBoxSpecialMindbreaker
   id: MagazineBoxSpecialHoly
-  name: ammunition box (.38 special holy)
-  description: A cardboard box of .38 special rounds. Intended to hold anti-paranormal entity ammunition.
+  name: ящик для патронів (.38 special holy)
+  description: Картонна коробка зі спеціальними патронами .38. Призначений для зберігання боєприпасів проти паранормальних істот.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialHoly

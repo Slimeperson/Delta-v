@@ -2,7 +2,7 @@
 - type: entity
   name: Salvage Seed Spawner
   id: SalvageSeedSpawnerLow
-  suffix: Low
+  suffix: Низький
   parent: MarkerBase
   components:
     - type: Sprite

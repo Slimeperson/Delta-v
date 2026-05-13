@@ -1,7 +1,7 @@
 - type: entity
   id: RandomFoodBakedWhole
-  name: random baked food spawner
-  suffix: Whole
+  name: спавнер випадкової запеченої їжі
+  suffix: Цілий
   parent: MarkerBase
   placement:
     mode: AlignTileAny

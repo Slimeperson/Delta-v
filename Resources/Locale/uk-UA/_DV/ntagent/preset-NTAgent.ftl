@@ -1,11 +1,11 @@
-NTAgent-role-greeting-human =
+NTAgent-role-greeting-human = Ви агент внутрішніх справ компанії NanoTrasen.
     You're an Internal Affairs Agent for NanoTrasen.
     Perform tasks delivered by your handler.
     Keep crew and property damage to a minimum.
     Don't reveal your new promotion. You're not above station's Command.
     If you're caught, Central Command will deny everything.
 
-NTAgent-briefing =
+NTAgent-briefing = Вам було імплантовано радіоімплантер CentComm разом із NanoLink.
     You've been implanted with a CentComm Radio Implanter, alongside NanoLink.
     Use :y to talk through CentComm channels.
 

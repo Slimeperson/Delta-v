@@ -1,7 +1,7 @@
 - type: entity
-  name: Atmos Fix Vacuum Marker
+  name: Вакуумний маркер Atmos Fix
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: "Вакуум, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: Кисневий маркер Atmos Fix
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: "Кисень @ газовий шахтний тиск, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: Маркер азоту Atmos Fix
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: "Боксер
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: Плазмовий маркер Atmos Fix
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: "Плазма при газовому шахтному тиску, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   name: Atmos Fix Instant Plasmafire Marker
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: "МИТТЄВИЙ ПЛАЗМОГАН"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: Маркер морозильника Atmos Fix
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a bit of wiggle room to get set up."
+  description: "Змініть температуру повітря на 235 К, для морозильної камери з невеликим простором для налаштування».
   parent: MarkerBase
   components:
     - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: AtmosFixNitrogenMarker
   id: AtmosFixVoxMarker
-  suffix: Vox Atmosphere
-  description: "Nitrogen @ 101 kPa, 20C"
+  suffix: Атмосфера Vox
+  description: "Азот при 101 кПа, 20C"
   components:
   - type: AtmosFixMarker
     mode: 7
@@ -112,8 +112,8 @@
 - type: entity
   parent: MarkerBase
   id: AtmosFixAirMarker
-  name: Atmos Fix Air Marker
-  description: "Oxygen (21%) and nitrogen (79%) @ gas miner pressure, T20C"
+  name: Повітряний маркер Atmos Fix
+  description: "Кисень (21%) і азот (79%) при тиску газової шахти, T20C"
   components:
   - type: Sprite
     layers:

@@ -50,7 +50,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: clothing-boots-sidearm
+        name: одяг-чоботи-зброя
         priority: 4
         whitelist:
           tags:
@@ -63,7 +63,7 @@
 - type: entity
   abstract: true
   id: ClothingShoesBootsSecFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:
@@ -74,7 +74,7 @@
   abstract: true
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBaseWinterBoots
-  description: Fluffy boots to help survive even the coldest of winters.
+  description: Пухнасті черевики, які допоможуть пережити навіть найхолоднішу зиму.
   components:
   - type: TemperatureProtection
     heatingCoefficient: 1.025

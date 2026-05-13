@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BluespaceLifelineImplant
-  name: bluespace lifeline implant
-  description: This implant teleports the user's body to a safe place, forcing them to leave the current location so they won't be able to come back.
+  name: імплантат Bluespace Lifeline
+  description: Цей імплантат телепортує тіло користувача в безпечне місце, змушуючи його покинути поточне місцезнаходження, щоб він не міг повернутися.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant

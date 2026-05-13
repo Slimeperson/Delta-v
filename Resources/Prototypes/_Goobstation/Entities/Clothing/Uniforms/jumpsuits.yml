@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformJumpsuitLawyerBlack # Not contraband. It's just a suit, dude :godo:
   id: ClothingUniformJumpsuitDevil
-  name: devilish suit
-  description: A stylish black suit made of materials not from this dimension. Warm to the touch.
+  name: диявольський костюм
+  description: Стильний чорний костюм з матеріалів не з цього виміру. Теплий на дотик.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi

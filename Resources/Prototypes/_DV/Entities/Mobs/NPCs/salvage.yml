@@ -2,7 +2,7 @@
   name: Syndicate Guard
   parent: BaseMobHuman
   id: MobRadioGuard
-  description: "Mindwiped and hypno-indoctrinated into perfect loyalty by the Syndicate. They will throw their life away to defend their objective."
+  description: "Одурені та гіпно навчені Синдикатом до цілковитої відданості. Вони відкинуть своє життя, щоб захистити свою мету».
   components:
     - type: NpcFactionMember
       factions:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: EchionSynth
-  name: Echion Synthesizer
-  description: An exotic catalyst conveniently contained in a portable container. Fluctuates space-time on a microscopic scale when powered to generate Echion.
+  name: Синтезатор Echion
+  description: Екзотичний каталізатор зручно помістити в портативний контейнер. Коливається простір-час у мікроскопічному масштабі, коли генерує Ехіон.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Specific/Syndicate/echionsynth.rsi

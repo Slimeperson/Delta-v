@@ -1,7 +1,7 @@
 - type: job
   id: Prisoner
-  name: job-name-prisoner
-  description: job-description-prisoner
+  name: робота-ім'я-в'язень
+  description: посадова характеристика-в'язень
   playTimeTracker: JobPrisoner
   startingGear: PrisonerGear
   alwaysUseSpawner: true

@@ -2,7 +2,7 @@
   parent: BaseAction
   id: ActionRetractableItemArmBlade
   name: Arm Blade
-  description: Shed your flesh and reform it into a fleshy blade.
+  description: Павук Поліморф
   components:
   - type: Action
     useDelay: 2
@@ -23,7 +23,7 @@
 - type: entity
   id: ActionChangelingDevour
   name: "[color=red]Devour[/color]"
-  description: Consume the essence of your victims and subsume their identity and mind into your own.
+  description: Випустіть імпульс енергії вашої ненормальної природи
   components:
   - type: Action
     icon: { sprite : Interface/Actions/changeling.rsi, state: "devour" }
@@ -36,7 +36,7 @@
 - type: entity
   id: ActionChangelingTransform
   name: "[color=red]Transform[/color]"
-  description: Transform and assume the identities of those you have devoured.
+  description: Трансформуйте та прийміть особистість тих, кого ви поглинули.
   components:
   - type: Action
     icon: { sprite : Interface/Actions/changeling.rsi, state: "transform" }
@@ -46,5 +46,5 @@
 - type: entity
   parent: ActionIntrinsicStore
   id: ActionChangelingStore
-  name: DNA Store
-  description: Opens the ability store.
+  name: Магазин ДНК
+  description: Відкриває сховище здібностей.

@@ -1,6 +1,6 @@
 ﻿- type: microwaveMealRecipe
   id: RecipePoachedPears
-  name: poached pears recipe
+  name: смак-комплекс-груша
   result: FoodMealPoachedPears
   time: 10
   solids:
@@ -12,7 +12,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePearsBelleHelene
-  name: pears belle helene recipe
+  name: груші belle helene рецепт
   result: FoodMealPearsBelleHelene
   time: 10
   solids:
@@ -25,7 +25,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePearMuffin
-  name: pear muffin recipe
+  name: рецепт грушевих кексів
   result: FoodBakedMuffinPear
   time: 10
   solids:
@@ -38,7 +38,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePearCheeseTart
-  name: pear and cheese tart recipe
+  name: рецепт пирога з груші та сиру
   result: FoodTartPearCheese
   time: 15
   solids:

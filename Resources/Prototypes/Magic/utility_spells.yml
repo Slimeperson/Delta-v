@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionChargeSpell
-  name: Charge
-  description: Adds a charge back to your wand
+  name: Зарядити
+  description: Повертає заряд до вашої палички
   components:
   - type: Action
     useDelay: 30

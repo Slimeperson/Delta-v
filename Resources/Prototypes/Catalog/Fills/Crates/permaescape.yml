@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateEmptySpawner
   id: CratePermaEscapeSpawner
-  name: Perma Escape Crate Spawner
+  name: Створювач Perma Escape Crate
   components:
   - type: EntityTableSpawner
     table: !type:GroupSelector
@@ -36,7 +36,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeDigging
-  suffix: Digging
+  suffix: Копання
   components:
   - type: EntityTableContainerFill
     containers:
@@ -91,7 +91,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeGun
-  suffix: Gun
+  suffix: ВН кабельний ящик
   components:
   - type: EntityTableContainerFill
     containers:
@@ -115,7 +115,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeBureaucracy
-  suffix: Bureaucracy
+  suffix: Бюрократія
   components:
   - type: EntityTableContainerFill
     containers:
@@ -148,7 +148,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeLights
-  suffix: Glowsticks
+  suffix: Світяться палички
   components:
   - type: EntityTableContainerFill
     containers:
@@ -188,7 +188,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeMats
-  suffix: Materials
+  suffix: Матеріали
   components:
   - type: EntityTableContainerFill
     containers:
@@ -201,7 +201,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeGiftsFromSyndicate
-  suffix: Syndicate gifts
+  suffix: Подарунки синдикату
   components:
   - type: EntityTableContainerFill
     containers:
@@ -243,7 +243,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeMerc
-  suffix: Mercenary
+  suffix: Найманець
   components:
   - type: EntityTableContainerFill
     containers:
@@ -276,7 +276,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeComs
-  suffix: Comms
+  suffix: Комунікації
   components:
   - type: EntityTableContainerFill
     containers:
@@ -308,7 +308,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePermaEscapeTowercap
-  suffix: Towercap
+  suffix: Баштова шапка
   components:
   - type: EntityTableContainerFill
     containers:

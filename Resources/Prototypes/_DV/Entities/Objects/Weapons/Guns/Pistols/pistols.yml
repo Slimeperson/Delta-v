@@ -12,7 +12,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -21,7 +21,7 @@
           tags:
             - MagazinePistol
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -37,7 +37,7 @@
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
   description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
-  suffix: Mercenary
+  suffix: Найманець
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi
@@ -50,7 +50,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -59,7 +59,7 @@
           tags:
             - MagazinePistol
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -87,7 +87,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolSpecialMindbreaker
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -96,7 +96,7 @@
           tags:
             - MagazinePistolSpecial
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeSpecialMindbreaker
         priority: 1
         whitelist:
@@ -156,7 +156,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -166,7 +166,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -198,7 +198,7 @@
   parent: WeaponPistolViper
   id: WeaponPistolViperAppraisal
   name: appraisal tool
-  suffix: Gun
+  suffix: ВН кабельний ящик
   description: A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items. It will also tell you if a crate contains a completed bounty.
   components:
   - type: Item
@@ -231,7 +231,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolRubber
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -240,7 +240,7 @@
           tags:
             - MagazinePistol
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistolRubber
         priority: 1
         whitelist:
@@ -255,7 +255,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolRubber
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -264,7 +264,7 @@
           tags:
             - MagazinePistol
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistolRubber
         priority: 1
         whitelist:
@@ -290,7 +290,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineUniversalMagnum
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -299,7 +299,7 @@
           tags:
           - MagazineUniversalMagnum
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeMagnum
         priority: 1
         whitelist:
@@ -314,7 +314,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineUniversalMagnumIncendiary
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -323,7 +323,7 @@
           tags:
           - MagazineUniversalMagnum
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeMagnumIncendiary
         priority: 1
         whitelist:
@@ -338,7 +338,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineUniversalMagnumRubber
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -347,7 +347,7 @@
           tags:
           - MagazineUniversalMagnum
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeMagnumRubber
         priority: 1
         whitelist:

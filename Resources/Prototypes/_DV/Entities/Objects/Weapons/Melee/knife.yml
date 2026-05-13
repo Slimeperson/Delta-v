@@ -1,8 +1,8 @@
 - type: entity
   parent: KitchenKnife
   id: PrisonKnife
-  name: dull bread knife
-  description: A slightly dulled bread knife
+  name: тупий хлібний ніж
+  description: Трохи затуплений хлібний ніж
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/prison_knife.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: Airlock
   id: AirlockJustice
-  suffix: Justice
+  suffix: Справедливість
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/justice.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockRobotics
-  suffix: Robotics
+  suffix: Робототехніка
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/roboticist.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockJusticeGlass
-  suffix: Justice
+  suffix: Справедливість
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/justice.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockRoboticsGlass
-  suffix: Robotics
+  suffix: Робототехніка
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/roboticist.rsi

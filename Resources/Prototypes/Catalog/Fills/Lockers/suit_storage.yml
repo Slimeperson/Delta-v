@@ -24,7 +24,7 @@
 - type: entity
   id: SuitStorageEVAAlternate
   parent: SuitStorageBase
-  suffix: EVA, Large Helmet
+  suffix: EVA, великий шолом
   components:
   - type: EntityTableContainerFill
     containers:
@@ -44,7 +44,7 @@
 - type: entity
   id: SuitStorageEVAEmergency
   parent: SuitStorageBase
-  suffix: Emergency EVA
+  suffix: Аварійна EVA
   components:
   - type: EntityTableContainerFill
     containers:
@@ -63,7 +63,7 @@
 - type: entity
   id: SuitStorageEVAPrisoner
   parent: SuitStorageBase
-  suffix: Prisoner EVA
+  suffix: Ув'язнена ЄВА
   components:
   - type: EntityTableContainerFill
     containers:
@@ -83,7 +83,7 @@
 - type: entity
   id: SuitStorageEVASyndicate
   parent: SuitStorageBase
-  suffix: Syndicate EVA
+  suffix: Синдикат EVA
   components:
   - type: EntityTableContainerFill
     containers:
@@ -103,7 +103,7 @@
 - type: entity
   id: SuitStorageEVAPirate
   parent: SuitStorageBase
-  suffix: Pirate EVA
+  suffix: Пірат EVA
   components:
   - type: EntityTableContainerFill
     containers:
@@ -122,7 +122,7 @@
 - type: entity
   id: SuitStorageNTSRA
   parent: SuitStorageBase
-  suffix: Ancient EVA
+  suffix: Стародавня ЄВА
   components:
   - type: EntityTableContainerFill
     containers:
@@ -143,7 +143,7 @@
 - type: entity
   id: SuitStorageEngi
   parent: SuitStorageBase
-  suffix: Station Engineer
+  suffix: Інженер станції
   components:
   - type: EntityTableContainerFill
     containers:
@@ -156,7 +156,7 @@
 - type: entity
   id: SuitStorageAtmos
   parent: SuitStorageBase
-  suffix: Atmospheric Technician
+  suffix: Атмосферний технік
   components:
   - type: EntityTableContainerFill
     containers:
@@ -169,7 +169,7 @@
 - type: entity
   id: SuitStorageSec
   parent: SuitStorageBase
-  suffix: Security
+  suffix: Безпека
   categories: [ HideSpawnMenu ] # DeltaV
   components:
   - type: EntityTableContainerFill
@@ -192,7 +192,7 @@
 - type: entity
   id: SuitStorageCE
   parent: SuitStorageBase
-  suffix: Chief Engineer
+  suffix: Головний інженер
   components:
   - type: EntityTableContainerFill
     containers:
@@ -205,7 +205,7 @@
 - type: entity
   id: SuitStorageCMO
   parent: SuitStorageBase
-  suffix: Chief Medical Officer
+  suffix: Головний лікар
   components:
   - type: EntityTableContainerFill
     containers:
@@ -218,7 +218,7 @@
 - type: entity
   id: SuitStorageRD
   parent: SuitStorageBase
-  suffix: Mystagogue # DeltaV - Epistemics Department replacing Science
+  suffix: Mystagogue # DeltaV - Відділ епістемології замінює науку
   components:
   - type: EntityTableContainerFill
     containers:
@@ -231,7 +231,7 @@
 - type: entity
   id: SuitStorageHOS
   parent: SuitStorageBase
-  suffix: Head of Security
+  suffix: Начальник служби безпеки
   components:
   - type: EntityTableContainerFill
     containers:
@@ -244,7 +244,7 @@
 - type: entity
   id: SuitStorageWarden
   parent: SuitStorageBase
-  suffix: Warden
+  suffix: наглядач
   components:
   - type: EntityTableContainerFill
     containers:
@@ -257,7 +257,7 @@
 - type: entity
   id: SuitStorageCaptain
   parent: SuitStorageBase
-  suffix: Captain
+  suffix: Капітан
   components:
   - type: EntityTableContainerFill
     containers:
@@ -270,7 +270,7 @@
 - type: entity
   id: SuitStorageSalv
   parent: SuitStorageBase
-  suffix: Salvage
+  suffix: Порятунок
   components:
   - type: EntityTableContainerFill
     containers:
@@ -303,7 +303,7 @@
 - type: entity
   id: SuitStoragePirateCap
   parent: SuitStorageBase
-  suffix: Pirate Captain
+  suffix: Піратський капітан
   components:
   - type: EntityTableContainerFill
     containers:
@@ -322,7 +322,7 @@
 - type: entity
   id: SuitStorageWizard
   parent: SuitStorageBase
-  suffix: Wizard
+  suffix: майстер
   components:
   - type: EntityTableContainerFill
     containers:

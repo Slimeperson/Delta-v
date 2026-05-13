@@ -3,9 +3,9 @@
 
 - type: reagent
   id: Absinthe
-  name: reagent-name-absinthe
+  name: reagent-name-absint
   parent: BaseAlcohol
-  desc: reagent-desc-absinthe
+  desc: reagent-desc-absint
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: absinthe
   color: "#33EE00"
@@ -65,7 +65,7 @@
 
 - type: reagent
   id: Beer
-  name: reagent-name-beer
+  name: ім'я-реагенту-сік-синього-гарбуза
   parent: BaseAlcohol
   desc: reagent-desc-beer
   physicalDesc: reagent-physical-desc-bubbly
@@ -129,9 +129,9 @@
 
 - type: reagent
   id: DeadRum
-  name: reagent-name-dead-rum
+  name: reagent-name-dead-rom
   parent: BaseAlcohol
-  desc: reagent-desc-dead-rum
+  desc: reagent-desc-dead-rom
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: deadrum #Delta-V Flavor additions
   color: "#664300"
@@ -152,7 +152,7 @@
 
 - type: reagent
   id: Ethanol
-  name: reagent-name-ethanol
+  name: назва реагенту етанол
   parent: BaseAlcohol
   desc: reagent-desc-ethanol
   physicalDesc: reagent-physical-desc-strong-smelling
@@ -309,9 +309,9 @@
 
 - type: reagent
   id: Rum
-  name: reagent-name-rum
+  name: reagent-name-rom
   parent: BaseAlcohol
-  desc: reagent-desc-rum
+  desc: reagent-desc-rom
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: rum
   color: "#f09f42"
@@ -383,7 +383,7 @@
   id: Vermouth
   name: reagent-name-vermouth
   parent: BaseAlcohol
-  desc: reagent-desc-vermouth
+  desc: reagent-desc-вермут
   physicalDesc: reagent-physical-desc-aromatic
   flavor: vermouth
   color: "#91FF91"
@@ -420,9 +420,9 @@
 
 - type: reagent
   id: Whiskey
-  name: reagent-name-whiskey
+  name: reagent-name-whisky
   parent: BaseAlcohol
-  desc: reagent-desc-whiskey
+  desc: reagent-desc-whisky
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: whiskey
   color: "#ee7732"
@@ -502,7 +502,7 @@
 
 - type: reagent
   id: AlienBrainHemorrhage
-  name: reagent-name-alien-brain-hemorrhage
+  name: reagent-name-alien-brain-hemorhage
   parent: BaseAlcohol
   desc: reagent-desc-alien-brain-hemorrhage
   physicalDesc: reagent-physical-desc-creamy
@@ -603,7 +603,7 @@
 
 - type: reagent
   id: AtomicBomb
-  name: reagent-name-atomic-bomb
+  name: назва-реагенту-атомна-бомба
   parent: BaseAlcohol
   desc: reagent-desc-atomic-bomb
   physicalDesc: reagent-physical-desc-cloudy
@@ -629,7 +629,7 @@
 
 - type: reagent
   id: B52
-  name: reagent-name-b52
+  name: назва-реагенту-b52
   parent: BaseAlcohol
   desc: reagent-desc-b52
   physicalDesc: reagent-physical-desc-bubbly
@@ -682,7 +682,7 @@
 
 - type: reagent
   id: Barefoot
-  name: reagent-name-barefoot
+  name: reagent-name-bosofoot
   parent: BaseAlcohol
   desc: reagent-desc-barefoot
   physicalDesc: reagent-physical-desc-creamy
@@ -721,9 +721,9 @@
 
 - type: reagent
   id: BlackRussian
-  name: reagent-name-black-russian
+  name: reagent-name-black-rus
   parent: BaseAlcohol
-  desc: reagent-desc-black-russian
+  desc: reagent-desc-black-рос
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: blackrussian
   color: "#360000"
@@ -759,7 +759,7 @@
 
 - type: reagent
   id:  Booger
-  name: reagent-name-booger
+  name: двірник кіборг
   parent: BaseAlcohol
   desc: reagent-desc-booger
   physicalDesc: reagent-physical-desc-slimy
@@ -812,9 +812,9 @@
 
 - type: reagent
   id: CoconutRum
-  name: reagent-name-coconut-rum
+  name: reagent-name-coconut-rom
   parent: BaseAlcohol
-  desc: reagent-desc-coconut-rum
+  desc: reagent-desc-coconut-rom
   physicalDesc: reagent-physical-desc-milky
   flavor: coconutrum
   color: "#cccbc8"
@@ -998,7 +998,7 @@
 
 - type: reagent
   id: Eggnog
-  name: reagent-name-eggnog
+  name: ratvar-встав
   parent: BaseAlcohol
   desc: reagent-desc-eggnog
   physicalDesc: reagent-physical-desc-creamy
@@ -1013,7 +1013,7 @@
 
 - type: reagent
   id: ElectricShark
-  name: reagent-name-electric-shark
+  name: назва-реагенту-електрична-акула
   parent: BaseAlcohol
   desc: reagent-desc-electric-shark
   physicalDesc: reagent-physical-desc-tropical
@@ -1044,7 +1044,7 @@
 
 - type: reagent
   id: GargleBlaster
-  name: reagent-name-gargle-blaster
+  name: ghost-role-information-kobold-description
   parent: BaseAlcohol
   desc: reagent-desc-gargle-blaster
   physicalDesc: reagent-physical-desc-volatile
@@ -1180,7 +1180,7 @@
   id: Hooch
   name: reagent-name-hooch
   parent: BaseAlcohol
-  desc: reagent-desc-hooch
+  desc: Нефункціональна копія старого вантажного робота.
   physicalDesc: reagent-physical-desc-pungent # DeltaV: Desc changed
   flavor: hooch
   color: "#706a58" # DeltaV: color changed
@@ -1295,7 +1295,7 @@
 
 - type: reagent
   id: JungleBird
-  name: reagent-name-jungle-bird
+  name: ім'я-реагенту-пташка-джунглів
   parent: BaseAlcohol
   desc: reagent-desc-jungle-bird
   physicalDesc: reagent-physical-desc-tropical
@@ -1310,7 +1310,7 @@
 
 - type: reagent
   id: Kalimotxo
-  name: reagent-name-kalimotxo
+  name: візитний спаунер двірника
   parent: BaseAlcohol
   desc: reagent-desc-kalimotxo
   physicalDesc: reagent-physical-desc-bubbly

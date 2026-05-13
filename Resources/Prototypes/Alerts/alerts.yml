@@ -43,7 +43,7 @@
   icons:
   - sprite: /Textures/Interface/Alerts/breathing.rsi
     state: not_enough_oxy
-  name: alerts-low-oxygen-name
+  name: сповіщення про низький рівень кисню
   description: alerts-low-oxygen-desc
 
 - type: alert
@@ -73,7 +73,7 @@
   - sprite: /Textures/Interface/Alerts/pressure.rsi
     state: lowpressure2
   maxSeverity: 2
-  name: alerts-low-pressure-name
+  name: сповіщення-низький-назва-тиску
   description: alerts-low-pressure-desc
 
 - type: alert
@@ -85,14 +85,14 @@
   - sprite: /Textures/Interface/Alerts/pressure.rsi
     state: highpressure2
   maxSeverity: 2
-  name: alerts-high-pressure-name
+  name: назва сповіщень про високий тиск
   description: alerts-high-pressure-desc
 
 - type: alert
   id: Fire
   icons: [ /Textures/Interface/Alerts/Fire/fire.png ]
   clickEvent: !type:ResistFireAlertEvent
-  name: alerts-on-fire-name
+  name: назва сповіщень про пожежу
   description: alerts-on-fire-desc
 
 
@@ -107,7 +107,7 @@
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold3
   maxSeverity: 3
-  name: alerts-too-cold-name
+  name: сповіщення-занадто холодне ім'я
   description: alerts-too-cold-desc
 
 - type: alert
@@ -121,13 +121,13 @@
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot3
   maxSeverity: 3
-  name: alerts-too-hot-name
+  name: сповіщення-занадто гаряче-ім'я
   description: alerts-too-hot-desc
 
 - type: alert
   id: Weightless
   icons: [ /Textures/Interface/Alerts/Weightless/weightless.png ]
-  name: alerts-weightless-name
+  name: сповіщення-weightless-name
   description: alerts-weightless-desc
 
 - type: alert
@@ -136,7 +136,7 @@
   - sprite: /Textures/Interface/Alerts/walking.rsi
     state: walking
   name: alerts-walking-name
-  description: alerts-walking-desc
+  description: насіння-томатів-назва
   clientHandled: true
 
 - type: alert
@@ -153,14 +153,14 @@
   icons:
   - sprite: /Textures/Interface/Alerts/stunnable.rsi
     state: knocked-down
-  name: alerts-knockdown-name
+  name: сповіщення-нокдаун-назва
   description: alerts-knockdown-desc
 
 - type: alert
   id: Handcuffed
   clickEvent: !type:RemoveCuffsAlertEvent
   icons: [ /Textures/Interface/Alerts/Handcuffed/Handcuffed.png ]
-  name: alerts-handcuffed-name
+  name: ім'я в наручниках
   description: alerts-handcuffed-desc
 
 - type: alert
@@ -169,7 +169,7 @@
   icons:
   - sprite: /Textures/Interface/Alerts/ensnared.rsi
     state: ensnared
-  name: alerts-ensnared-name
+  name: сповіщення-займане ім'я
   description: alerts-ensnared-desc
 
 - type: alert
@@ -178,7 +178,7 @@
   clickEvent: !type:UnbuckleAlertEvent
   icons: [ /Textures/Interface/Alerts/Buckle/buckled.png ]
   name: alerts-buckled-name
-  description: alerts-buckled-desc
+  description: рецепт регенеративної сітки
 
 - type: alert
   id: HumanCrit
@@ -212,7 +212,7 @@
     state: health3
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health4
-  name: alerts-health-name
+  name: ім'я сповіщень-здоров'я
   description: alerts-health-desc
   minSeverity: 0
   maxSeverity: 4
@@ -231,7 +231,7 @@
     state: health3
   - sprite: /Textures/Interface/Alerts/borg_alive.rsi
     state: health4
-  name: alerts-health-name
+  name: ім'я сповіщень-здоров'я
   description: alerts-health-desc
   minSeverity: 0
   maxSeverity: 4
@@ -280,7 +280,7 @@
     state: battery9
   - sprite: /Textures/Interface/Alerts/battery.rsi
     state: battery10
-  name: alerts-battery-name
+  name: сповіщення-battery-name
   description: alerts-battery-desc
   minSeverity: 0
   maxSeverity: 10
@@ -292,7 +292,7 @@
   icons:
   - sprite: /Textures/Interface/Alerts/battery.rsi
     state: battery-none
-  name: alerts-no-battery-name
+  name: сповіщення-no-battery-name
   description: alerts-no-battery-desc
   clientHandled: true # the power cell battery is read on the client so that we don't have to periodically network the charge
 
@@ -312,7 +312,7 @@
     state: internal1
   - sprite: /Textures/Interface/Alerts/internals.rsi
     state: internal2
-  name: alerts-internals-name
+  name: сповіщення-внутрішнє ім'я
   description: alerts-internals-desc
   minSeverity: 0
   maxSeverity: 2
@@ -354,7 +354,7 @@
     state: stamina5
   - sprite: /Textures/Interface/Alerts/stamina.rsi
     state: stamina6
-  name: alerts-stamina-name
+  name: сповіщення-stamina-name
   description: alerts-stamina-desc
   minSeverity: 0
   maxSeverity: 6
@@ -366,7 +366,7 @@
   - sprite: /Textures/Interface/Alerts/hunger.rsi
     state: starving
   name: alerts-starving-name
-  description: alerts-starving-desc
+  description: плитка-брудна-сталева-підлога
 
 - type: alert
   id: Thirsty
@@ -395,7 +395,7 @@
 - type: alert
   id: VowOfSilence
   icons: [ /Textures/Interface/Alerts/Abilities/silenced.png ]
-  name: alerts-vow-silence-name
+  name: сповіщення-обітниця-мовчання-ім'я
   clickEvent: !type:BreakVowAlertEvent
   description: alerts-vow-silence-desc-delta # DeltaV
 
@@ -410,7 +410,7 @@
   id: Pulled
   icons: [ /Textures/Interface/Alerts/Pull/pulled.png ]
   clickEvent: !type:StopBeingPulledAlertEvent
-  name: alerts-pulled-name
+  name: construction-graph-tag-station-ai-core-electronics
   description: alerts-pulled-desc
 
 - type: alert
@@ -445,7 +445,7 @@
     state: bleed9
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: alerts-bleed-name
+  name: назва сповіщень-витоку
   description: alerts-bleed-desc
   minSeverity: 0
   maxSeverity: 10
@@ -485,7 +485,7 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health0
   name: Debug1
-  description: Debug
+  description: Налагодження
 
 - type: alert
   id: Debug2
@@ -493,7 +493,7 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health1
   name: Debug2
-  description: Debug
+  description: Налагодження
 
 - type: alert
   id: Debug3
@@ -501,7 +501,7 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health2
   name: Debug3
-  description: Debug
+  description: Налагодження
 
 - type: alert
   id: Debug4
@@ -509,7 +509,7 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health3
   name: Debug4
-  description: Debug
+  description: Налагодження
 
 - type: alert
   id: Debug5
@@ -517,7 +517,7 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health4
   name: Debug5
-  description: Debug
+  description: Налагодження
 
 - type: alert
   id: Debug6
@@ -525,4 +525,4 @@
   - sprite: /Textures/Interface/Alerts/human_critical.rsi
     state: critical
   name: Debug6
-  description: Debug
+  description: Налагодження

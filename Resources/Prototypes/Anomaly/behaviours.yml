@@ -35,26 +35,26 @@
   pulseFrequencyModifier: 3
   pulsePowerModifier: 0.5
   earnPointModifier: 0.05
-  description: anomaly-behavior-safe
+  description: аномалій поведінки безпечний
 
 - type: anomalyBehavior
   id: Slow
   pulseFrequencyModifier: 2
   earnPointModifier: 0.5
-  description: anomaly-behavior-slow
+  description: аномалія-поведінка-повільна
 
 - type: anomalyBehavior
   id: Light
   pulsePowerModifier: 0.5
   earnPointModifier: 0.5
-  description: anomaly-behavior-light
+  description: аномалія-поведінка-світло
 
 # Balanced x1 point production
 
 - type: anomalyBehavior
   id: Balanced
   earnPointModifier: 1
-  description: anomaly-behavior-balanced
+  description: аномалія-поведінка-збалансований
 
 - type: anomalyBehavior
   id: DelayedForce
@@ -66,14 +66,14 @@
 - type: anomalyBehavior
   id: Rapid
   earnPointModifier: 1.15
-  description: anomaly-behavior-rapid
+  description: аномалія-поведінка-швидка
   pulseFrequencyModifier: 0.5
   pulsePowerModifier: 0.5
 
 - type: anomalyBehavior
   id: BalancedSecret
   earnPointModifier: 1.2
-  description: anomaly-behavior-secret
+  description: аномалія-поведінка-секрет
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 2
@@ -83,7 +83,7 @@
   id: Reflect
   earnPointModifier: 1.1
   particleSensivity: 0.5
-  description: anomaly-behavior-reflect
+  description: аномалія-поведінка-відображати
   components:
   - type: Reflect
     reflectProb: 0.5
@@ -94,13 +94,13 @@
   id: NonSensivity
   earnPointModifier: 0.8
   particleSensivity: 0.5
-  description: anomaly-behavior-nonsensivity
+  description: аномалія-поведінка-нечутливість
   
 - type: anomalyBehavior
   id: Sensivity
   earnPointModifier: 1.2
   particleSensivity: 1.5
-  description: anomaly-behavior-sensivity
+  description: аномалія-поведінка-чутливість
 
 # Hard x2 point production
 
@@ -108,18 +108,18 @@
   id: Fast
   earnPointModifier: 1.9
   pulseFrequencyModifier: 0.5
-  description: anomaly-behavior-fast
+  description: назва реагенту транквіназа
 
 - type: anomalyBehavior
   id: Strenght
   pulsePowerModifier: 1.5
   earnPointModifier: 1.4
-  description: anomaly-behavior-strenght
+  description: аномалія-поведінка-сила
 
 - type: anomalyBehavior
   id: Inconstancy
   earnPointModifier: 1.7
-  description: anomaly-behavior-inconstancy
+  description: аномалія-поведінка-непостійність
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnPulse: true
@@ -128,7 +128,7 @@
 - type: anomalyBehavior
   id: InconstancyParticle
   earnPointModifier: 1.8
-  description: anomaly-behavior-inconstancy
+  description: аномалія-поведінка-непостійність
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnParticleHit: true
@@ -137,7 +137,7 @@
 - type: anomalyBehavior
   id: Jumping
   earnPointModifier: 1.8
-  description: anomaly-behavior-moving
+  description: аномалія-поведінка-переміщення
   components:
   - type: ChaoticJump
     jumpMinInterval: 15
@@ -149,7 +149,7 @@
 - type: anomalyBehavior
   id: FullUnknown
   earnPointModifier: 1.9
-  description: anomaly-behavior-secret
+  description: аномалія-поведінка-секрет
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 4
@@ -158,7 +158,7 @@
 - type: anomalyBehavior
   id: Invisibility
   earnPointModifier: 1.6
-  description: anomaly-behavior-invisibility
+  description: аномалія-поведінка-невидимість
   components:
   - type: Stealth
     maxVisibility: 1.2
@@ -171,7 +171,7 @@
 - type: anomalyBehavior
   id: JumpingUnknown
   earnPointModifier: 1.9
-  description: anomaly-behavior-moving
+  description: аномалія-поведінка-переміщення
   components:
   - type: ChaoticJump
     jumpMinInterval: 15
@@ -187,7 +187,7 @@
   id: FastUnknown
   earnPointModifier: 1.9
   pulseFrequencyModifier: 0.5
-  description: anomaly-behavior-fast
+  description: назва реагенту транквіназа
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 3
@@ -196,7 +196,7 @@
 - type: anomalyBehavior
   id: InconstancyParticleUnknown
   earnPointModifier: 1.95
-  description: anomaly-behavior-inconstancy
+  description: аномалія-поведінка-непостійність
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnParticleHit: true
@@ -208,7 +208,7 @@
 - type: anomalyBehavior
   id: InvisibilityJumping
   earnPointModifier: 1.95
-  description: anomaly-behavior-invisibility
+  description: аномалія-поведінка-невидимість
   components:
   - type: ChaoticJump
     jumpMinInterval: 15

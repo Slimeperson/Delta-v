@@ -70,7 +70,7 @@
 
 - type: construction
   id: LightSwitchDirectionalRecipe
-  name: construction-recipe-light-switch-directional
+  name: конструкція-рецепт-світло-перемикач-спрямований
   graph: LightSwitchDirectionalGraph
   startNode: start
   targetNode: LightSwitchDirectionalNode
@@ -85,7 +85,7 @@
 
 - type: construction
   id: SignalSwitchDirectionalRecipe
-  name: construction-recipe-signal-switch-directional
+  name: конструкція-рецепт-сигнал-перемикач-напрямок
   graph: SignalSwitchDirectionalGraph
   startNode: start
   targetNode: SignalSwitchDirectionalNode
@@ -99,7 +99,7 @@
 
 - type: construction
   id: SignalButtonDirectionalRecipe
-  name: construction-recipe-signal-button-directional
+  name: конструкція-рецепт-сигнальна-кнопка-напрямок
   graph: SignalButtonDirectionalGraph
   startNode: start
   targetNode: SignalButtonDirectionalNode

@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomBoards
-  name: random device & board spawner
+  name: спаунер випадкових пристроїв і дошок
   components:
   - type: Sprite
     layers:

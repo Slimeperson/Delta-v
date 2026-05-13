@@ -3,7 +3,7 @@
   abstract: true
   parent: [ DrinkBaseMaterialMetal, DrinkBase, DrinkBaseOpenable, DrinkVisualsOpenable ]
   id: DrinkCanBaseFull
-  suffix: Full
+  suffix: Повний
   components:
   - type: SolutionContainerManager
     solutions:
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ DrinkBaseOpenableOpen, DrinkColaCan ]
   id: DrinkColaCanEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: SolutionContainerManager
     solutions:

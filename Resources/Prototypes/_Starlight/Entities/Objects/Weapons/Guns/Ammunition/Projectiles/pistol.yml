@@ -1,6 +1,6 @@
 - type: entity
   id: BulletPistolImprovised
-  name: bullet (.35 improvised)
+  name: куля (.35 імпровізована)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

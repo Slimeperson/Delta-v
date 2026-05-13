@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: FamilyLaws
-  name: law-family-name
+  name: закон-прізвище
   laws:
   - Family1
   - Family2

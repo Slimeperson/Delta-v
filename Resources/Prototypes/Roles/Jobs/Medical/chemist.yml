@@ -1,7 +1,7 @@
 - type: job
   id: Chemist
-  name: job-name-chemist
-  description: job-description-chemist
+  name: робота-ім'я-хімік
+  description: посадова інструкція-хімік
   playTimeTracker: JobChemist
   antagAdvantage: 4 # DeltaV - Synthesize any chem you want with little oversight.
   requirements:

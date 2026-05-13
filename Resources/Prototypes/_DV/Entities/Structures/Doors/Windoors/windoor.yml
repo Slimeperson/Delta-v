@@ -1,7 +1,7 @@
 - type: entity
   parent: WindoorCargoLocked
   id: WindoorMailLocked
-  suffix: Mail, Locked
+  suffix: Пошта, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -10,7 +10,7 @@
 - type: entity
   parent: WindoorSecureCargoLocked
   id: WindoorSecureMailLocked
-  suffix: Mail, Locked
+  suffix: Пошта, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -19,7 +19,7 @@
 - type: entity
   parent: WindoorSecureMedicalLocked
   id: WindoorSecureParamedicLocked
-  suffix: Paramedic, Locked
+  suffix: Фельдшер, Зачинено
   components:
   - type: ContainerFill
     containers:
@@ -28,7 +28,7 @@
 - type: entity
   parent: Windoor
   id: WindoorJusticeLocked
-  suffix: Justice, Locked
+  suffix: Правосуддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -39,7 +39,7 @@
 - type: entity
   parent: [ WindoorSecure, WindoorJusticeLocked ]
   id: WindoorSecureJusticeLocked
-  suffix: Justice, Locked
+  suffix: Правосуддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: WindoorSecureCommandLocked
   id: WindoorSecureChiefJusticeLocked
-  suffix: Chief Justice, Locked
+  suffix: Головний суддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -57,7 +57,7 @@
 - type: entity
   parent: WindoorSecureJusticeLocked
   id: WindoorSecureProsecutorLocked
-  suffix: Prosecutor, Locked
+  suffix: Прокурор, Заблоковано
   components:
   - type: ContainerFill
     containers:

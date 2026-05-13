@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobFeroxi
-  name: Urist McFin
+  name: Уріст Макфін
   save: false
   abstract: true
   components:
@@ -107,18 +107,18 @@
 - type: entity
   parent: MobHumanDummy
   id: MobFeroxiDummy
-  name: Feroxi Dummy
+  name: Манекен Feroxi
   save: false
   categories: [ HideSpawnMenu ]
-  description: A dummy feroxi meant to be used in character setup.
+  description: Манекен ферокси, призначений для налаштування персонажа.
   components:
   - type: HumanoidAppearance
     species: Feroxi
 
 - type: entity
   id: ActionSharkVisionToggle
-  name: Toggle Blood in the Water
-  description: Enables you to sense blood and those who are bleeding.
+  name: Перемкнути «Кров у воді».
+  description: Дозволяє відчувати кров і тих, хто кровоточить.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -134,8 +134,8 @@
 - type: entity
   id: ActionSharkVisionPulse
   parent: ActionSharkVisionToggle
-  name: Sense Blood in the Water
-  description: Enables you to sense blood and those who are bleeding.
+  name: Відчуття Кров у воді
+  description: Дозволяє відчувати кров і тих, хто кровоточить.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

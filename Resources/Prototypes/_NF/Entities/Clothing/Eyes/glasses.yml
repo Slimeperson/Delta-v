@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesPilot
-  name: pilot goggles
-  description: I'm sorry, but you can't pilot a ship without cool glasses. Those are the Rules. Has a GPS built in them too.
+  name: пілотські окуляри
+  description: Вибачте, але без крутих окулярів кораблем керувати не можна. Такі Правила. У них також вбудований GPS.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Eyes/Glasses/pilot.rsi

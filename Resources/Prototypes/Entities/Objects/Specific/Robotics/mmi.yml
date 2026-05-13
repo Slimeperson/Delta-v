@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MMI
-  name: man-machine interface
-  description: A machine able to facilitate communication between a biological brain and electronics, enabling crew to continue to provide value after work-related incidents.
+  name: людино-машинний інтерфейс
+  description: Машина, здатна полегшити зв’язок між біологічним мозком і електронікою, дозволяючи команді продовжувати надавати цінність після інцидентів, пов’язаних з роботою.
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/mmi.rsi
@@ -16,7 +16,7 @@
     context: human
   - type: MMI
     brainSlot:
-      name: positronic-brain-slot-component-slot-name-brain
+      name: позитронний-мозок-слот-компонент-слот-назва-мозок
       whitelist:
         components:
         - Brain
@@ -65,11 +65,11 @@
 - type: entity
   parent: MMI
   id: MMIFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: MMI
     brainSlot:
-      name: positronic-brain-slot-component-slot-name-brain
+      name: позитронний-мозок-слот-компонент-слот-назва-мозок
       startingItem: OrganHumanBrain
       whitelist:
         components:
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseItem
   id: PositronicBrain
-  name: positronic brain
-  description: An artificial brain capable of spontaneous neural activity.
+  name: позитронний мозок
+  description: Штучний мозок, здатний до спонтанної нейронної активності.
   components:
     - type: Sprite
       sprite: Objects/Specific/Robotics/mmi.rsi

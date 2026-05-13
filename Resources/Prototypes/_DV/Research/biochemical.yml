@@ -4,7 +4,7 @@
 
 - type: technology
   id: Cloning
-  name: research-technology-cloning
+  name: дослідження-технології-клонування
   icon:
     sprite: Structures/Machines/cloning.rsi
     state: pod_0

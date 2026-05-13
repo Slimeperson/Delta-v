@@ -1,8 +1,8 @@
 - type: entity
-  name: makeshift pistol
+  name: саморобний пістолет
   parent: BaseWeaponPistol
   id: WeaponPistolMakeshiftCrafted
-  description: Little more than a space eoka. Very unreliable.
+  description: Трохи більше, ніж космічна еока. Дуже ненадійний.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pistols/makeshift_pistol_crafted.rsi
@@ -25,7 +25,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistolSpent
         priority: 1
         whitelist:
@@ -50,10 +50,10 @@
         prob: 0.80
 
 - type: entity
-  name: improvised pistol
+  name: саморобний пістолет
   parent: BaseWeaponSniper
   id: WeaponPistolImprovised
-  description: A cobbled together pistol with an internal magazine. More reliable, but still liable to blow up in your face.
+  description: Збірний пістолет з внутрішнім магазином. Більш надійний, але все одно може вибухнути прямо в обличчя.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pistols/improvised_pistol.rsi
@@ -114,10 +114,10 @@
         prob: 0.80
 
 - type: entity
-  name: forged pistol
+  name: кований пістолет
   parent: BaseWeaponPistol
   id: WeaponPistolForged
-  description: A reliable magazine-fed pistol made by the best tider blacksmiths.
+  description: Надійний пістолет з магазинним живленням, виготовлений найкращими ковалями.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
@@ -150,14 +150,14 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: null
         whitelist:
           tags:
             - MagazinePistolImprovised
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: null
         priority: 1
         whitelist:

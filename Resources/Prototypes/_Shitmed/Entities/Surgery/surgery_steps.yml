@@ -8,7 +8,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenIncisionScalpel
-  name: Cut with a scalpel
+  name: Вирізати скальпелем
   components:
   - type: SurgeryStep
     tool:
@@ -30,7 +30,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampBleeders
-  name: Clamp the bleeders
+  name: Затисніть кровопускачі
   components:
   - type: SurgeryStep
     tool:
@@ -50,7 +50,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractSkin
-  name: Retract the skin
+  name: Втягніть шкіру
   components:
   - type: SurgeryStep
     tool:
@@ -69,7 +69,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawBones
-  name: Saw through bones
+  name: Пиляти кістки
   components:
   - type: SurgeryStep
     tool:
@@ -90,7 +90,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPriseOpenBones
-  name: Prise the bones open
+  name: Розкрийте кістки
   components:
   - type: SurgeryStep
     tool:
@@ -143,7 +143,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseBones
-  name: Close bones
+  name: Закрити кістки
   components:
   - type: SurgeryStep
     tool:
@@ -163,7 +163,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendRibcage
-  name: Mend ribcage
+  name: Виправити грудну клітку
   components:
   - type: SurgeryStep
     tool:
@@ -183,7 +183,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseIncision
-  name: Close incision
+  name: Закритий розріз
   components:
   - type: SurgeryStep
     tool:
@@ -212,7 +212,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertFeature
-  name: Insert part
+  name: Вставити частину
   components:
   - type: SurgeryStep
     tool:
@@ -229,7 +229,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealWounds
-  name: Seal wounds
+  name: Ущільнення ран
   components:
   - type: SurgeryStep
     tool:
@@ -256,7 +256,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawFeature
-  name: Saw through bones
+  name: Пиляти кістки
   components:
   - type: SurgeryStep
     tool:
@@ -276,7 +276,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampInternalBleeders
-  name: Clamp internal bleeders
+  name: Затисніть внутрішні кровопускачі
   components:
   - type: SurgeryStep
     tool:
@@ -296,7 +296,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveFeature
-  name: Amputate part
+  name: Ампутувати частину
   components:
   - type: SurgeryStep
     tool:
@@ -327,7 +327,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCarefulIncisionScalpel
-  name: Make a careful incision
+  name: Зробіть акуратний надріз
   components:
   - type: SurgeryStep
     tool:
@@ -348,7 +348,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBruteTissue
-  name: Repair damaged tissue
+  name: Відновлення пошкодженої тканини
   components:
   - type: SurgeryStep
     tool:
@@ -369,7 +369,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBurnTissue
-  name: Repair burnt tissue
+  name: морська плитка повна
   components:
   - type: SurgeryStep
     tool:
@@ -395,7 +395,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealTendWound
-  name: Seal the wound
+  name: Заклеїти рану
   components:
   - type: SurgeryStep
     tool:
@@ -418,7 +418,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertItem
-  name: Insert item into cavity
+  name: Вставте предмет в порожнину
   components:
   - type: SurgeryStep
     duration: 4
@@ -437,7 +437,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveItem
-  name: Remove item from cavity
+  name: Вийміть предмет із порожнини
   components:
   - type: SurgeryStep
     duration: 4
@@ -453,7 +453,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveOrgan
-  name: Remove organ
+  name: Видаліть орган
   components:
   - type: SurgeryStep
     tool:
@@ -476,7 +476,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertOrgan
-  name: Add organ
+  name: Додайте орган
   components:
   - type: SurgeryStep
     tool:
@@ -499,7 +499,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenOrganSlot
-  name: Carve out a cavity
+  name: Вирізати порожнину
   components:
   - type: SurgeryStep
     tool:
@@ -522,7 +522,7 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLungs
-  name: Add lungs
+  name: Додайте легені
   #components: # DeltaV: This works regardless of origin body and is useless anyway.
   #- type: SurgeryDamageChangeEffect
   #  damage:
@@ -534,13 +534,13 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertStomach
-  name: Add stomach
+  name: Додайте живіт
   # no effect its just for minmaxing metabolism
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLiver
-  name: Add liver
+  name: Додайте печінку
   #components: # DeltaV: This works regardless of origin body and needs rework, nor does it make any sense.
   #- type: SurgeryDamageChangeEffect
   #  damage:
@@ -552,12 +552,12 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertEyes
-  name: Add eyes
+  name: Додайте очі
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertHeart
-  name: Add heart
+  name: Додайте серце
   # DeltaV - no more funny rot surgery
   # components:
   # - type: SurgerySpecialDamageChangeEffect
@@ -567,7 +567,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealOrganWound
-  name: Seal wounds
+  name: Ущільнення ран
   components:
   - type: SurgeryStep
     tool:
@@ -587,7 +587,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLobotomize
-  name: Lobotomize patient
+  name: Невимовний одяг для будь-яких заходів у готелі, мотелі чи фірмовому готелі.
   components:
   - type: SurgeryStep
     tool:
@@ -616,7 +616,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendBrainTissue
-  name: Mend brain tissue
+  name: Відновити мозкову тканину
   components:
   - type: SurgeryStep
     tool:

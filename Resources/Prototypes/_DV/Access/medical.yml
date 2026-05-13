@@ -1,6 +1,6 @@
 - type: accessLevel
   id: Psychologist
-  name: id-card-access-level-psychologist
+  name: id-card-access-level-clown
 
 - type: accessLevel
   id: Surgery

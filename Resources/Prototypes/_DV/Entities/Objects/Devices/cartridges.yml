@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CrimeAssistCartridge
-  name: CrimeAssist cartridge
-  description: A cartridge that helps identify crimes and see appropriate punishment.
+  name: Картридж CrimeAssist
+  description: Патрон, який допомагає розпізнавати злочини та бачити відповідне покарання.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseItem
   id: SecWatchCartridge
-  name: SecWatch cartridge
-  description: A cartridge that tracks the status of currently wanted individuals.
+  name: Картридж SecWatch
+  description: Картридж, який відстежує статус розшукуваних осіб.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseItem
   id: MailMetricsCartridge
-  name: MailMetrics cartridge
-  description: A cartridge that tracks statistics related to mail deliveries.
+  name: Картридж MailMetrics
+  description: Картридж, який відстежує статистику доставки пошти.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: BaseItem
   id: StockTradingCartridge
-  name: StockTrading cartridge
-  description: A cartridge that tracks the intergalactic stock market.
+  name: Картридж StockTrading
+  description: Картридж, який відстежує міжгалактичний фондовий ринок.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseItem
   id: NanoChatCartridge
-  name: NanoChat cartridge
-  description: Lets you message other people!
+  name: Картридж NanoChat
+  description: Дозволяє надсилати повідомлення іншим людям!
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cartridge.rsi

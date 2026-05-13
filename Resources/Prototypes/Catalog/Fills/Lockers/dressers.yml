@@ -1,7 +1,7 @@
 - type: entity
   id: DresserCaptainFilled
   parent: Dresser
-  suffix: Filled, Captain
+  suffix: Заповнено, капітане
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -22,7 +22,7 @@
 - type: entity
   id: DresserChiefEngineerFilled
   parent: Dresser
-  suffix: Filled, Chief Engineer
+  suffix: Заповнений, головний інженер
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -39,7 +39,7 @@
 - type: entity
   id: DresserChiefMedicalOfficerFilled
   parent: Dresser
-  suffix: Filled, Chief Medical Officer
+  suffix: Заповнений, головний лікар
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -59,7 +59,7 @@
 - type: entity
   id: DresserHeadOfPersonnelFilled
   parent: Dresser
-  suffix: Filled, Head Of Personnel
+  suffix: Начальник відділу кадрів
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -76,7 +76,7 @@
 - type: entity
   id: DresserHeadOfSecurityFilled
   parent: Dresser
-  suffix: Filled, Head Of Security
+  suffix: Заповнений, начальник служби безпеки
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -98,7 +98,7 @@
 - type: entity
   id: DresserQuarterMasterFilled
   parent: Dresser
-  suffix: Filled, Quarter Master
+  suffix: Заповнений, кварталіст
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -117,7 +117,7 @@
 - type: entity
   id: DresserResearchDirectorFilled
   parent: Dresser
-  suffix: Filled, Research Director
+  suffix: Заповнений, науковий керівник
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill
@@ -135,7 +135,7 @@
 - type: entity
   id: DresserWardenFilled
   parent: Dresser
-  suffix: Filled, Warden
+  suffix: Заповнений, наглядач
   categories: [ HideSpawnMenu ] # DeltaV - Replaced with bigger dresser in Resources/Prototypes/_DV/Catalog/Fills/Lockers/dressers.yml
   components:
   - type: EntityTableContainerFill

@@ -10,27 +10,27 @@
         icon:
           sprite: Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
-        name: construction-graph-tag-pipe
+        name: конструкція-граф-тег-труба
       - tag: ModularBreech
         icon:
           sprite: _DV/Objects/Misc/modular_breech.rsi
           state: base
-        name: construction-graph-tag-modular-breech
+        name: construction-graph-tag-modular-reech
       - tag: ModularTrigger
         icon:
           sprite: _DV/Objects/Misc/modular_trigger.rsi
           state: base
-        name: construction-graph-tag-modular-trigger
+        name: конструкція-граф-тег-модульний-тригер
       - tag: RifleStock
         icon:
           sprite: Objects/Misc/rifle_stock.rsi
           state: icon
-        name: construction-graph-tag-rifle-stock
+        name: конструкція-граф-тега-приклада
       - tag: Bayonet
         icon:
           sprite: _DV/Objects/Misc/bayonet.rsi
           state: base
-        name: construction-graph-tag-bayonet
+        name: будівництво-граф-мітка-багнет
       - material: WoodPlank
         amount: 3
         doAfter: 10
@@ -49,27 +49,27 @@
         icon:
           sprite: Structures/Piping/Atmospherics/pipe.rsi
           state: pipeHalf
-        name: construction-graph-tag-half-pipe
+        name: конструкція-граф-тег-полутруба
       - tag: ModularBreech
         icon:
           sprite: _DV/Objects/Misc/modular_breech.rsi
           state: base
-        name: construction-graph-tag-modular-breech
+        name: construction-graph-tag-modular-reech
       - tag: ModularTrigger
         icon:
           sprite: _DV/Objects/Misc/modular_trigger.rsi
           state: base
-        name: construction-graph-tag-modular-trigger
+        name: конструкція-граф-тег-модульний-тригер
       - tag: RifleStock # why the hell does a pistol need a rifle stock??
         icon:
           sprite: Objects/Misc/rifle_stock.rsi
           state: icon
-        name: construction-graph-tag-rifle-stock
+        name: конструкція-граф-тега-приклада
       - tag: Bayonet
         icon:
           sprite: _DV/Objects/Misc/bayonet.rsi
           state: base
-        name: construction-graph-tag-bayonet
+        name: будівництво-граф-мітка-багнет
       - material: WoodPlank
         amount: 2
         doAfter: 10

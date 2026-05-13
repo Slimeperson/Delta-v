@@ -1,9 +1,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvival
-  name: survival box
-  description: It's a box with basic internals inside.
-  suffix: Standard
+  name: ящик для виживання
+  description: Це коробка з основними внутрішніми елементами всередині.
+  suffix: Стандартний
   components:
   - type: EntityTableContainerFill
     containers:
@@ -24,7 +24,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalNitrogen
-  suffix: Standard N2
+  suffix: Стандарт N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,9 +47,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalEngineering
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
-  suffix: Extended
+  name: Коробка, повна шприців.
+  description: Це коробка з основними внутрішніми елементами всередині. На цьому позначено, що він містить бак збільшеної ємності.
+  suffix: Розширений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -70,7 +70,7 @@
 - type: entity
   parent: BoxSurvivalEngineering
   id: BoxSurvivalEngineeringNitrogen
-  suffix: Extended N2
+  suffix: Розширений N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -93,9 +93,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalSecurity
-  name: survival box
-  description: It's a box with basic internals inside.
-  suffix: Security
+  name: ящик для виживання
+  description: Це коробка з основними внутрішніми елементами всередині.
+  suffix: Безпека
   components:
   - type: EntityTableContainerFill
     containers:
@@ -116,7 +116,7 @@
 - type: entity
   parent: BoxSurvivalSecurity
   id: BoxSurvivalSecurityNitrogen
-  suffix: Security N2
+  suffix: Безпека N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -139,9 +139,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalMedical
-  name: survival box
-  description: It's a box with basic internals inside.
-  suffix: Medical
+  name: ящик для виживання
+  description: Це коробка з основними внутрішніми елементами всередині.
+  suffix: Медичний
   components:
   - type: EntityTableContainerFill
     containers:
@@ -162,7 +162,7 @@
 - type: entity
   parent: BoxSurvivalMedical
   id: BoxSurvivalMedicalNitrogen
-  suffix: Medical N2
+  suffix: Медичний N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -185,9 +185,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxHug
-  name: box of hugs
-  description: A special box for sensitive people.
-  suffix: Emergency
+  name: коробка обіймів
+  description: Спеціальний ящик для чутливих людей.
+  suffix: Надзвичайна ситуація
   components:
   - type: Sprite
     layers:
@@ -214,7 +214,7 @@
 - type: entity
   parent: BoxHug
   id: BoxHugNitrogen
-  suffix: Emergency N2
+  suffix: Надзвичайна ситуація N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMime
-  suffix: Mime, Emergency
+  suffix: Мім, надзвичайна ситуація
   components:
   - type: EntityTableContainerFill
     containers:
@@ -249,7 +249,7 @@
 - type: entity
   parent: BoxSurvivalNitrogen
   id: BoxMimeNitrogen
-  suffix: Mime, Emergency N2
+  suffix: Мім, НС N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -271,7 +271,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMimeMoth
-  suffix: Mime, Emergency moth
+  suffix: Мім, надзвичайна моль
   components:
   - type: EntityTableContainerFill
     containers:
@@ -287,9 +287,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalSyndicate
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
-  suffix: Syndicate
+  name: Коробка, повна шприців.
+  description: Це коробка з основними внутрішніми елементами всередині. На цьому позначено, що він містить бак збільшеної ємності.
+  suffix: Синдикат
   components:
   - type: EntityTableContainerFill
     containers:
@@ -309,7 +309,7 @@
 - type: entity
   parent: BoxSurvivalSyndicate
   id: BoxSurvivalSyndicateNitrogen
-  suffix: Syndicate N2
+  suffix: Синдикат N2
   components:
   - type: EntityTableContainerFill
     containers:
@@ -332,8 +332,8 @@
 - type: entity
   parent: BoxCardboardSmall # Cannot fit 3x3 boxes into already-filled ERT backpacks.
   id: BoxSurvivalMilitaryDouble
-  suffix: Military O2
-  description: It's a box with basic internals inside. This one is labelled to contain an double extended-capacity tank.
+  suffix: Військовий O2
+  description: Це коробка з основними внутрішніми елементами всередині. На ньому позначено подвійний резервуар збільшеної ємності.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -350,7 +350,7 @@
 - type: entity
   parent: BoxSurvivalMilitaryDouble
   id: BoxSurvivalMilitaryDoubleNitrogen
-  suffix: Military N2
+  suffix: Військовий N2
   components:
   - type: EntityTableContainerFill
     containers:

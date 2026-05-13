@@ -1,6 +1,6 @@
 - type: guideEntry
   id: Chemicals
-  name: guide-entry-chemicals
+  name: путівник-запис-хім
   text: "/ServerInfo/Guidebook/Chemicals.xml"
   children:
   - Elements
@@ -18,54 +18,54 @@
 
 - type: guideEntry
   id: Elements
-  name: guide-entry-elements
+  name: направляючі-вхідні елементи
   text: "/ServerInfo/Guidebook/ChemicalTabs/Elements.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Narcotics
-  name: guide-entry-narcotics
+  name: гід-вхід-наркотики
   text: "/ServerInfo/Guidebook/ChemicalTabs/Narcotics.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Pyrotechnic
-  name: guide-entry-pyrotechnics
+  name: гід-вхід-піротехніка
   text: "/ServerInfo/Guidebook/ChemicalTabs/Pyrotechnic.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Toxins
-  name: guide-entry-toxins
+  name: направляючий-вхід-токсини
   text: "/ServerInfo/Guidebook/ChemicalTabs/Toxins.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Foods
-  name: guide-entry-foods
+  name: гід-вхід-їжа
   text: "/ServerInfo/Guidebook/ChemicalTabs/Foods.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Botanical
-  name: guide-entry-botanical
+  name: путівник-вхід-ботан
   text: "/ServerInfo/Guidebook/Medical/Botanicals.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Biological
-  name: guide-entry-biological
+  name: путівник-вступно-біологічний
   text: "/ServerInfo/Guidebook/ChemicalTabs/Biological.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Special
-  name: guide-entry-special
+  name: гід-вхід-спец
   text: "/ServerInfo/Guidebook/ChemicalTabs/Special.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Others
-  name: guide-entry-others
+  name: гід-вхід-інші
   text: "/ServerInfo/Guidebook/ChemicalTabs/Other.xml"
   filterEnabled: True

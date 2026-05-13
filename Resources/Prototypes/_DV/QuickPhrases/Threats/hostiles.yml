@@ -8,59 +8,59 @@
 - type: quickPhrase
   id: HostileEnemyPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-enemy
+  text: словосполучення-ворог-ворог
 
 - type: quickPhrase
   id: HostilePhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile
+  text: словосполучення-вороже
 
 - type: quickPhrase
   id: HostileAttackerPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-attacker
+  text: фраза-ворожий-нападник
 
 - type: quickPhrase
   id: HostileLifeformPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-lifeform
+  text: словосполучення-вороже-життя
 
 - type: quickPhrase
   id: HostileEntityPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-entity
+  text: фраза-ворожий-суб'єкт
 
 - type: quickPhrase
   id: HostileBombPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-bomb
+  text: фраза-ворожа-бомба
 
 - type: quickPhrase
   id: HostileCriminalPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-criminal
+  text: словосполучення-ворожий-злочинний
 
 - type: quickPhrase
   id: HostileIntruderPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-intruder
+  text: фраза-ворожий-зловмисник
 
 - type: quickPhrase
   id: HostileInfiltratorPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-infiltrator
+  text: фраза-ворожий-проник
 
 - type: quickPhrase
   id: HostileFugitivePhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-fugitive
+  text: словосполучення-ворожий-втікач
 
 - type: quickPhrase
   id: HostileWeaponPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-weapon
+  text: фраза-ворожа-зброя
 
 - type: quickPhrase
   id: HostileGunPhrase
   parent: BaseHostileThreatPhrase
-  text: phrase-hostile-gun
+  text: фраза-ворожий-гармата

@@ -1,7 +1,7 @@
 #Entities found at entities/objects/specific/medical
 - type: entity
   id: MedkitFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: Medkit
   components:
   - type: EntityTableContainerFill
@@ -17,7 +17,7 @@
 
 - type: entity
   id: MedkitBurnFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitBurn
   components:
   - type: EntityTableContainerFill
@@ -31,7 +31,7 @@
 
 - type: entity
   id: MedkitBruteFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitBrute
   components:
   - type: EntityTableContainerFill
@@ -46,7 +46,7 @@
 
 - type: entity
   id: MedkitToxinFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitToxin
   components:
   - type: EntityTableContainerFill
@@ -61,7 +61,7 @@
 
 - type: entity
   id: MedkitOxygenFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitO2
   components:
   - type: EntityTableContainerFill
@@ -78,7 +78,7 @@
 
 - type: entity
   id: MedkitRadiationFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitRadiation
   components:
   - type: EntityTableContainerFill
@@ -92,7 +92,7 @@
 
 - type: entity
   id: MedkitAdvancedFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitAdvanced
   components:
   - type: EntityTableContainerFill
@@ -106,7 +106,7 @@
 
 - type: entity
   id: MedkitCombatFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: MedkitCombat
   components:
   - type: EntityTableContainerFill
@@ -122,7 +122,7 @@
 
 - type: entity
   id: StimkitFilled
-  suffix: Stimkit, Filled
+  suffix: Стімкіт, Заповнений
   parent: Medkit
   components:
   - type: EntityTableContainerFill

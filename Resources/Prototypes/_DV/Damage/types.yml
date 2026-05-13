@@ -1,11 +1,11 @@
 - type: damageType
   id: Ion
-  name: damage-type-ion
+  name: пошкодження типу-іон
   armorCoefficientPrice: 1
   armorFlatPrice: 1
 
 - type: damageType
   id: Shadow
-  name: damage-type-shadow
+  name: пошкодження-тип-тінь
   armorCoefficientPrice: 1
   armorFlatPrice: 1

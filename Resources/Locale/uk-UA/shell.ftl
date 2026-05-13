@@ -24,7 +24,7 @@ shell-need-minimum-arguments = Потрібно щонайменше {$minimum}�
 shell-need-minimum-one-argument = Потрібно хоча б 1 аргумент!
 shell-need-exactly-zero-arguments = Ця команда приймає нуль аргументів.
 
-shell-argument-uid = PB-[[0]]
+shell-argument-uid = PB-[0]
 
 ## Guards
 

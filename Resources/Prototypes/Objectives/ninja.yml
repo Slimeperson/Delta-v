@@ -22,14 +22,14 @@
   - type: NumberObjective
     min: 15
     max: 40
-    title: objective-condition-doorjack-title
-    description: objective-condition-doorjack-description
+    title: object-condition-doorjack-title
+    description: object-condition-doorjack-description
   - type: DoorjackCondition
 
 - type: entity
   parent: BaseNinjaObjective
   id: StealResearchObjective
-  description: Your gloves can be used to hack a research server and steal its precious data. If epistemics has been slacking you'll have to get to work. # DeltaV - Epistemics Department replacing Science
+  description: Ваші рукавички можна використати для злому дослідницького сервера та викрадення його цінних даних. Якщо епістемія заслабла, вам доведеться братися за роботу. # DeltaV - Департамент епістемології замінює науку
   components:
   - type: Objective
     icon:
@@ -38,13 +38,13 @@
   - type: NumberObjective
     min: 9
     max: 13
-    title: objective-condition-steal-research-title
+    title: об'єктивний-умова-викрадення-назви дослідження
   - type: StealResearchCondition
 
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: SpiderChargeObjective
-  description: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
+  description: Цю бомбу можна підірвати в певному місці. Зверніть увагу, що бомба більше ніде не працюватиме!
   components:
   - type: Objective
     icon:
@@ -59,8 +59,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseSurviveObjective]
   id: NinjaSurviveObjective
-  name: Survive
-  description: You wouldn't be a very good ninja if you died, now would you?
+  name: Вижити
+  description: Ви б не були дуже хорошим ніндзя, якби померли, чи не так?
   components:
   - type: Objective
     icon:
@@ -70,8 +70,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: TerrorObjective
-  name: Call in a threat
-  description: Use your gloves on a communication console in order to bring another threat to the station.
+  name: Викликати погрозу
+  description: Використовуйте свої рукавички на пульті зв'язку, щоб принести чергову загрозу станції.
   components:
   - type: Objective
     icon:
@@ -81,8 +81,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: MassArrestObjective
-  name: Set everyone to wanted
-  description: Use your gloves to hack a criminal records console, setting the entire station to be wanted!
+  name: Налаштуйте всіх на бажані
+  description: Використовуйте свої рукавички, щоб зламати консоль судимостей, оголосивши всю станцію в розшук!
   components:
   - type: Objective
     icon:

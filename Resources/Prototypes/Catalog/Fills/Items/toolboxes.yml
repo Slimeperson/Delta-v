@@ -1,8 +1,8 @@
 - type: entity
   id: ToolboxEmergencyFilled
-  name: emergency toolbox
+  name: аварійний ящик для інструментів
   parent: ToolboxEmergency
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ToolboxElectricalFilled
-  name: electrical toolbox
-  suffix: Filled
+  name: електричний ящик для інструментів
+  suffix: Заповнений
   parent: ToolboxElectrical
   components:
   - type: EntityTableContainerFill
@@ -37,7 +37,7 @@
 
 - type: entity
   id: ToolboxElectricalTurretFilled
-  name: electrical toolbox
+  name: електричний ящик для інструментів
   suffix: Syndicate, Turret, Filled
   parent: ToolboxElectricalTurret
   components:
@@ -65,8 +65,8 @@
 
 - type: entity
   id: ToolboxArtisticFilled
-  name: artistic toolbox
-  suffix: Filled
+  name: художній інструментарій
+  suffix: Заповнений
   parent: ToolboxArtistic
   components:
   - type: EntityTableContainerFill
@@ -90,8 +90,8 @@
 
 - type: entity
   id: ToolboxMechanicalFilled
-  name: mechanical toolbox
-  suffix: Filled
+  name: механічний ящик для інструментів
+  suffix: Заповнений
   parent: ToolboxMechanical
   components:
   - type: EntityTableContainerFill
@@ -111,8 +111,8 @@
 
 - type: entity
   id: ToolboxMechanicalFilledAllTools
-  name: mechanical toolbox
-  suffix: Filled, all tools
+  name: механічний ящик для інструментів
+  suffix: Заповнений, всі інструменти
   parent: ToolboxMechanical
   components:
   - type: EntityTableContainerFill
@@ -129,7 +129,7 @@
 - type: entity
   parent: ToolboxSyndicate
   id: ToolboxSyndicateFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -148,9 +148,9 @@
 
 - type: entity
   id: ToolboxGoldFilled
-  name: golden toolbox
+  name: золотий ящик для інструментів
   parent: ToolboxGolden
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -163,7 +163,7 @@
 - type: entity
   parent: Foolbox
   id: FoolboxFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

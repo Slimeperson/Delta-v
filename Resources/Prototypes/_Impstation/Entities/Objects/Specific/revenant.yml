@@ -2,8 +2,8 @@
   parent: Crayon
   id: CrayonBlood
   categories: [ HideSpawnMenu ]
-  name: bloody crayon
-  description: A bloody crayon. Looks scary. Oooo...
+  name: кривавий олівець
+  description: кут дороги4
   components:
   - type: Sprite
     state: red

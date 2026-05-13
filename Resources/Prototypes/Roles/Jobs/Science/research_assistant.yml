@@ -1,7 +1,7 @@
 ﻿- type: job
   id: ResearchAssistant
-  name: job-name-research-assistant
-  description: job-description-research-assistant
+  name: робота-назва-науковий-асистент
+  description: посадова інструкція-науковий співробітник
   playTimeTracker: JobResearchAssistant
   requirements:
     - !type:DepartmentTimeRequirement

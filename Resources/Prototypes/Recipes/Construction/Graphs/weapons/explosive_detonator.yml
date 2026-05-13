@@ -19,7 +19,7 @@
       steps:
       - component: PayloadTrigger
         store: payloadTrigger
-        name: construction-graph-component-payload-trigger
+        name: конструкція-граф-компонент-корисного навантаження-тригер
         doAfter: 0.5
 
   - node: detonatorWithTrigger
@@ -48,7 +48,7 @@
     - !type:PlaySound
       sound: /Audio/Machines/button.ogg
     - !type:AdminLog
-      message: "A detonator cap was crafted"
+      message: "Виготовили капсуль-детонатор»
     edges:
     - to: detonatorWithTrigger
       steps:

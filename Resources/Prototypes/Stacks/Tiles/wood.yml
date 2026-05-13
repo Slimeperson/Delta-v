@@ -3,7 +3,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWood
-  name: stack-wood-floor
+  name: стек-дерев'яна підлога
   spawn: FloorTileItemWood
 
 - type: stack
@@ -15,5 +15,5 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWoodLarge
-  name: stack-large-wood-floor
+  name: стек-великий-дерев'яна підлога
   spawn: FloorTileItemWoodLarge

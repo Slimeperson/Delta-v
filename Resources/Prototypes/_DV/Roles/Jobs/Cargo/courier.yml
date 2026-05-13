@@ -1,7 +1,7 @@
 - type: job
   id: Courier
-  name: job-name-courier
-  description: job-description-courier
+  name: робота-ім'я-кур'єр
+  description: >ОНОВИТИ"
   startingGear: CourierGear
   playTimeTracker: JobCourier
   icon: "JobIconCourier"

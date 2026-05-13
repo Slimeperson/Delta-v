@@ -47,7 +47,7 @@
 
 - type: rcd
   id: FloorSteel
-  name: rcd-component-floor-steel
+  name: RCD-component-floor-steel
   category: WallsAndFlooring
   sprite: /Textures/Interface/Radial/RCD/metal_tile.png
   mode: ConstructTile

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionAnomalyPulse
-  name: Anomaly pulse
-  description: Release a pulse of energy of your abnormal nature
+  name: Arm Blade
+  description: Випустіть імпульс енергії вашої ненормальної природи
   components:
   - type: Action
     useDelay: 30

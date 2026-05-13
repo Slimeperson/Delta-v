@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: FountainLargeRound
-  name: large round fountain
-  description: A fountain full of yummy water's.
+  name: великий круглий фонтан
+  description: Фонтан, повний смачної води.
   components:
   - type: Sprite
     noRot: true
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseStructure
   id: FountainLargeRoundTop
-  name: large round fountain top
-  description: Sprinkel!
+  name: велика кругла вершина фонтану
+  description: Спринкель!
   components:
   - type: SpriteFade
   - type: Sprite

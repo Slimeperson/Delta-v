@@ -13,8 +13,8 @@
 - type: entity
   parent: [BaseFugitiveObjective, BaseLivingObjective]
   id: FugitiveEscapeObjective
-  name: Evade law enforcement
-  description: You will never atone for your crimes, make sure of it by blending into the crowd.
+  name: Ухилятися від правоохоронних органів
+  description: Ви ніколи не спокутуєте свої злочини, переконайтеся в цьому, злившись з натовпом.
   components:
   - type: Objective
     icon:

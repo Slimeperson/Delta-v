@@ -1,8 +1,8 @@
 - type: entity
   parent: LockerJanitor
   id: HydraLocker
-  name: cleanade launcher locker
-  description: For the janitor on a mission, this locker contains a hydra launcher and 2 boxes of cleanade ammo.
+  name: шафка для запуску cleanade
+  description: Для прибиральника на місії ця шафка містить пускову установку Hydra та 2 коробки патронів Cleanade.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: CratePlastic
   id: CleanadeGrenadeCrate
-  name: cleanade grenade crate
-  description: A crate of cleanade grenades. Contains 2 boxes of cleanade grenades for the hydra launcher.
+  name: ящик для чистої гранати
+  description: Ящик чистих гранат. Містить 2 ящики чистих гранат для пускової установки Hydra.
   components:
   - type: EntityTableContainerFill
     containers:

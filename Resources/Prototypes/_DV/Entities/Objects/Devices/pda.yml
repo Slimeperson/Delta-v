@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: CorpsmanPDA
-  name: corpsman PDA
-  description: Red and Sterile. Has a built-in health analyzer.
+  name: санітар КПК
+  description: Червоний і стерильний. Має вбудований аналізатор працездатності.
   components:
   - type: CartridgeLoader
     preinstalled:
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClearPDA
   id: PrisonerPDA
-  name: prisoner PDA
-  description: Clear, so you can make sure there's nothing being smuggled inside.
+  name: ув'язнений КПК
+  description: Чисто, щоб ви могли переконатися, що всередині нічого не провозять контрабандою.
   components:
   - type: Pda
     id: PrisonerJobIDCard
@@ -72,7 +72,7 @@
 - type: entity
   parent: PrisonerPDA
   id: GladiatorPDA
-  name: gladiator PDA
+  name: Гладіатор КПК
   components:
   - type: Pda
     id: GladiatorIDCard
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: PrisonGuardPDA
-  name: prison guard PDA
-  description: Red to hide the stains of prisoner blood.
+  name: тюремний охоронець КПК
+  description: Червоний, щоб приховати плями крові в'язнів.
   components:
   - type: Pda
     id: PrisonGuardIDCard
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseJusticePDA
   id: ChiefJusticePDA
-  name: chief justice PDA
-  description: Whosoever bears this PDA is the law.
+  name: головний суддя КПК
+  description: Хто носить цей КПК, той закон.
   components:
   - type: Pda
     id: ChiefJusticeIDCard
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseJusticePDA
   id: ClerkPDA
-  name: clerk PDA
-  description: It has the stamp to prove it's been officially notarized!
+  name: службовець КПК
+  description: Є штамп, який підтверджує, що він офіційно завірений!
   components:
   - type: Pda
     id: ClerkIDCard
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseJusticePDA
   id: ProsecutorPDA
-  name: prosecutor PDA
-  description: Sharp. Looks like it could prosecute you all on its own.
+  name: прокурор КПК
+  description: Гострий. Схоже, це може притягнути вас до відповідальності самостійно.
   components:
   - type: Pda
     id: ProsecutorIDCard
@@ -200,8 +200,8 @@
 - type: entity
   parent: [BaseServicePDA, BasePDA]
   id: MartialArtistPDA
-  name: martial artist PDA
-  description: Smells like straw.
+  name: КПК майстра бойових мистецтв
+  description: Пахне соломою.
   components:
   - type: Pda
     id: MartialArtistIDCard
@@ -227,8 +227,8 @@
 - type: entity
   parent: BasePDA
   id: CourierPDA
-  name: courier PDA
-  description: Smells like unopened letters.
+  name: кур'єр КПК
+  description: Пахне нерозкритими листами.
   components:
   - type: Pda
     id: CourierIDCard
@@ -253,8 +253,8 @@
 - type: entity
   parent: CourierPDA
   id: MailCarrierPDA
-  name: mail carrier PDA
-  description: Smells like unopened letters.
+  name: КПК пошти
+  description: Пахне нерозкритими листами.
   components:
   - type: Pda
     id: MailCarrierIDCard
@@ -267,8 +267,8 @@
 - type: entity
   parent: CargoPDA
   id: CargoAssistantPDA
-  name: cargo assistant PDA
-  description: It smells like cardboard.
+  name: вантажний помічник КПК
+  description: Пахне картоном.
   components:
   - type: Pda
     id: CargoAssistantIDCard
@@ -289,8 +289,8 @@
 - type: entity
   parent: SciencePDA
   id: PsionicMantisPDA
-  name: psionic mantis PDA
-  description: Smells like illegal substances.
+  name: псіонічний богомол КПК
+  description: Пахне забороненими речовинами.
   components:
   - type: Pda
     id: ForensicMantisIDCard
@@ -319,8 +319,8 @@
 - type: entity
   parent: PassengerPDA
   id: TouristPDA
-  name: tourist PDA
-  description: You came to the station for a relaxing vacation. Bon voyage!
+  name: туристичний КПК
+  description: Ви приїхали на вокзал для спокійного відпочинку. доброго шляху!
   components:
   - type: Pda
     id: TouristIDCard
@@ -332,8 +332,8 @@
 - type: entity
   parent: PassengerPDA
   id: OffDutyCrewPDA
-  name: off-duty crew PDA
-  description: You saved your PTO to come here with zero responsibility. Surely they won't need your help while you're here?
+  name: позаштатний екіпаж КПК
+  description: Ви зберегли свій PTO, щоб прийти сюди без відповідальності. Напевно їм не знадобиться ваша допомога, поки ви тут?
   components:
   - type: Pda
     id: OffDutyCrewIDCard
@@ -345,8 +345,8 @@
 - type: entity
   parent: PassengerPDA
   id: StudentPDA
-  name: student PDA
-  description: Whether you came here to study various aspects of space architecture, unfathomably hot burn chambers, psionic activity, or are just on spring break, you're a real space student now.
+  name: Ми повинні залишитися в живих будь-якою ціною.
+  description: Незалежно від того, чи прийшли ви сюди, щоб вивчити різні аспекти космічної архітектури, неймовірно гарячі опікові камери, псіонічну діяльність, чи просто на весняних канікулах, тепер ви справжній космічний студент.
   components:
   - type: Pda
     id: StudentIDCard
@@ -360,8 +360,8 @@
 - type: entity
   parent: BartenderPDA
   id: MixologistPDA
-  name: mixologist PDA
-  description: There are those who tend the bar, and then there are those who synthesize intoxicating art.
+  name: міксолог КПК
+  description: Є ті, хто обслуговує бар, а є й ті, хто синтезує п’янке мистецтво.
   components:
   - type: Pda
     id: MixologistIDCard
@@ -375,8 +375,8 @@
 - type: entity
   parent: ChefPDA
   id: BakerPDA
-  name: baker PDA
-  description: For those about to loaf, we salute you.
+  name: пекар КПК
+  description: Для тих, хто збирається коровай, ми вас вітаємо.
   components:
   - type: Pda
     id: BakerIDCard
@@ -388,8 +388,8 @@
 - type: entity
   parent: ChefPDA
   id: ButcherPDA
-  name: butcher PDA
-  description: It's as fearsome of a job title as you want it to be.
+  name: м'ясник КПК
+  description: Ця посада настільки страшна, наскільки вам хочеться.
   components:
   - type: Pda
     id: ButcherIDCard
@@ -401,8 +401,8 @@
 - type: entity
   parent: ChefPDA
   id: PizzaioloPDA
-  name: pizzaiolo PDA
-  description: Hey paesanos! It's a-time to cook-a-da-pizza!
+  name: піцайоло КПК
+  description: Гей, паесанос! Настав час приготувати піцу-а-да-піцу!
   components:
   - type: Pda
     id: PizzaioloIDCard
@@ -416,8 +416,8 @@
 - type: entity
   parent: MedicalInternPDA
   id: PracticalNursePDA
-  name: practical nurse PDA
-  description: For those who practically nurse people to good health.
+  name: практична медсестра КПК
+  description: Для тих, хто практично доглядає за здоров'ям людей.
   components:
   - type: Pda
     id: PracticalNurseIDCard
@@ -429,8 +429,8 @@
 - type: entity
   parent: MedicalInternPDA
   id: ResidentPDA
-  name: resident PDA
-  description: No, it's for training your way up the medical ladder. Not evil.
+  name: резидент КПК
+  description: Ні, це для того, щоб тренуватися, щоб піднятися по медичних сходах. Не зла.
   components:
   - type: Pda
     id: ResidentIDCard
@@ -444,8 +444,8 @@
 - type: entity
   parent: MedicalPDA
   id: ClinicianPDA
-  name: clinician PDA
-  description: Why do you have to be so clinical about everything!?
+  name: клініцист КПК
+  description: Чому ти маєш так клінічно говорити про все!?
   components:
   - type: Pda
     id: ClinicianIDCard
@@ -459,8 +459,8 @@
 - type: entity
   parent: MedicalPDA
   id: CryogenicsSpecialistPDA
-  name: cryogenics specialist PDA
-  description: Cold to the touch, it seems to have a thin layer of frost on it.
+  name: фахівець з кріогеніки КПК
+  description: Холодна на дотик, здається, що на ній тонкий шар інею.
   components:
   - type: Pda
     id: CryogenicsSpecialistIDCard
@@ -478,8 +478,8 @@
 - type: entity
   parent: ChemistryPDA
   id: PharmacistPDA
-  name: pharmacist PDA
-  description: Conveniently has a small compartment for your daily medications!
+  name: провізор КПК
+  description: Зручно має невелике відділення для щоденних ліків!
   components:
   - type: Pda
     id: PharmacistIDCard
@@ -499,8 +499,8 @@
 - type: entity
   parent: PsychologistPDA
   id: PsychiatristPDA
-  name: psychiatrist PDA
-  description: Sterile-smelling and neutrally colored.
+  name: психіатр КПК
+  description: Стерильний запах і нейтрального кольору.
   components:
   - type: Pda
     id: PsychiatristIDCard
@@ -512,8 +512,8 @@
 - type: entity
   parent: PsychologistPDA
   id: TherapistPDA
-  name: therapist PDA
-  description: Covered in a rubberized case in a reassuring shade of brown.
+  name: терапевт КПК
+  description: Покритий прогумованим футляром заспокійливого коричневого відтінку.
   components:
   - type: Pda
     id: TherapistIDCard
@@ -525,8 +525,8 @@
 - type: entity
   parent: PsychologistPDA
   id: SocialWorkerPDA
-  name: social worker PDA
-  description: Dented and scratched. It's been well-used.
+  name: соціальний працівник КПК
+  description: Вм'ятини та подряпини. Його добре використовували.
   components:
   - type: Pda
     id: SocialWorkerIDCard
@@ -540,8 +540,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SurgeonPDA
-  name: surgeon PDA
-  description: Smells faintly like burnt flesh and anesthesia.
+  name: хірург КПК
+  description: Смертно пахне паленим м’ясом і наркозом.
   components:
   - type: Pda
     id: SurgeonIDCard
@@ -561,7 +561,7 @@
 - type: entity
   parent: AtmosPDA
   id: LifeSupportTechPDA
-  name: life support technician PDA
+  name: технік життєзабезпечення КПК
   components:
   - type: Pda
     id: LifeSupportTechIDCard
@@ -573,7 +573,7 @@
 - type: entity
   parent: AtmosPDA
   id: PlasmaScientistPDA
-  name: plasma scientist PDA
+  name: плазмовий вчений КПК
   components:
   - type: Pda
     id: PlasmaScientistIDCard
@@ -587,8 +587,8 @@
 - type: entity
   parent: EngineerPDA
   id: ElectricianPDA
-  name: electrician PDA
-  description: Where do they get the batteries for these things?
+  name: електрик КПК
+  description: Де вони беруть батареї для цих речей?
   components:
   - type: Pda
     id: ElectricianIDCard
@@ -600,8 +600,8 @@
 - type: entity
   parent: EngineerPDA
   id: MechanicPDA
-  name: mechanic PDA
-  description: We love wrenches!
+  name: механік КПК
+  description: Ми любимо гайкові ключі!
   components:
   - type: Pda
     id: MechanicIDCard
@@ -615,8 +615,8 @@
 - type: entity
   parent: CargoPDA
   id: DeckWorkerPDA
-  name: deck worker PDA
-  description: Ideally you're not just swabbing it.
+  name: палубний робітник КПК
+  description: В ідеалі ви не просто берете тампон.
   components:
   - type: Pda
     id: DeckWorkerIDCard
@@ -628,7 +628,7 @@
 - type: entity
   parent: CargoPDA
   id: InventoryAssociatePDA
-  name: inventory associate PDA
+  name: інвентаризація асоційованого КПК
   components:
   - type: Pda
     id: InventoryAssociateIDCard
@@ -642,7 +642,7 @@
 - type: entity
   parent: SalvagePDA
   id: ProspectorPDA
-  name: prospector PDA
+  name: проспектор КПК
   components:
   - type: Pda
     id: ProspectorIDCard
@@ -654,7 +654,7 @@
 - type: entity
   parent: SalvagePDA
   id: ExcavatorPDA
-  name: excavator PDA
+  name: плитка-низька пустельна підлога
   components:
   - type: Pda
     id: ExcavatorIDCard
@@ -668,8 +668,8 @@
 - type: entity
   parent: SciencePDA
   id: LabTechPDA
-  name: lab technician PDA
-  description: Part of it is melted after a close interaction with a hotplate.
+  name: лаборант КПК
+  description: Частина його розплавляється після тісної взаємодії з конфоркою.
   components:
   - type: Pda
     id: LabTechIDCard
@@ -681,7 +681,7 @@
 - type: entity
   parent: SciencePDA
   id: XenoarchPDA
-  name: xenoarchaeologist PDA
+  name: ксеноархеолог КПК
   components:
   - type: Pda
     id: XenoarchIDCard
@@ -693,8 +693,8 @@
 - type: entity
   parent: SciencePDA
   id: RoboticistPDA
-  name: roboticist PDA
-  description: Surprisingly, it doesn't talk to you.
+  name: робототехнік КПК
+  description: Дивно, але він не розмовляє з вами.
   components:
   - type: Pda
     id: RoboticistIDCard
@@ -708,8 +708,8 @@
 - type: entity
   parent: ClownPDA
   id: JesterPDA
-  name: jester PDA
-  description: Doesn't actually jingle when you move.
+  name: блазень КПК
+  description: Насправді не дзвонить під час руху.
   components:
   - type: Pda
     id: JesterIDCard
@@ -721,8 +721,8 @@
 - type: entity
   parent: ClownPDA
   id: FoolPDA
-  name: fool PDA
-  description: Found alone on a hill.
+  name: дурень КПК
+  description: Знайдений один на пагорбі.
   components:
   - type: Pda
     id: FoolIDCard
@@ -736,8 +736,8 @@
 - type: entity
   parent: JanitorPDA
   id: HygieneTechnicianPDA
-  name: hygiene technician PDA
-  description: It sounded better than it is or so Jeffrey said.
+  name: технік гігієни КПК
+  description: Це звучало краще, ніж є, або так сказав Джеффрі.
   components:
   - type: Pda
     id: HygieneTechnicianIDCard
@@ -749,8 +749,8 @@
 - type: entity
   parent: SyndiPDA
   id: RoboNeuroticistPDA
-  name: robo-neuroticist PDA
-  description: An elite PDA for an elite Operative. Bits of wire and grease poke from the chassis.
+  name: робо-невротик КПК
+  description: Елітний КПК для елітного оперативника. Шматки дроту та мастила вириваються з шасі.
   components:
   - type: Pda
     id: RoboNeuroticistIDCard
@@ -760,7 +760,7 @@
 - type: entity
   parent: PassengerPDA
   id: RecruiterPDA
-  suffix: Recruiter
+  suffix: Вербувальник
   components:
   - type: Pda
     id: RecruiterIDCard
@@ -770,8 +770,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityCyborgPDA
-  name: security cyborg PDA
-  description: A smaller PDA that allows security cyborg's to collect information. Even comes with Sec Watch!
+  name: безпека кіборг КПК
+  description: alerts-ensnared-desc
   components:
   - type: CartridgeLoader
     preinstalled:
@@ -795,8 +795,8 @@
 - type: entity
   parent: CentcomPDA
   id: CentcomInternPDA
-  name: CentCommIntern PDA
-  description: Brand new light green PDA that smells of fresh plastic.
+  name: КПК CentCommIntern
+  description: Новенький світло-зелений КПК, що пахне свіжим пластиком.
   components:
   - type: Pda
     id: CentcomInternIDCard

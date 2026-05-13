@@ -23,7 +23,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: robot
-    name: cyborg
+    name: кіборг
   - type: InteractionPopup
     interactSuccessString: petting-success-generic-cyborg
     interactFailureString: petting-failure-generic-cyborg
@@ -70,8 +70,8 @@
 - type: entity
   id: BorgChassisGeneric
   parent: BorgChassisSelectable
-  name: generic cyborg
-  suffix: type picked
+  name: родовий кіборг
+  suffix: вибраний тип
   components:
   - type: BorgSwitchableType
     selectedBorgType: generic
@@ -79,7 +79,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BorgChassisSelectable
-  name: salvage cyborg
+  name: рятувальний кіборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: mining
@@ -87,7 +87,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BorgChassisSelectable
-  name: engineer cyborg
+  name: інженер кіборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: engineering
@@ -95,7 +95,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BorgChassisSelectable
-  name: janitor cyborg
+  name: двірник кіборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: janitor
@@ -103,7 +103,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BorgChassisSelectable
-  name: medical cyborg
+  name: медичний кіборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: medical
@@ -111,7 +111,7 @@
 - type: entity
   id: BorgChassisService
   parent: BorgChassisSelectable
-  name: service cyborg
+  name: службовий кіборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: service
@@ -119,8 +119,8 @@
 - type: entity
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
-  name: syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules.
+  name: синдикат штурмового кіборга
+  description: Економна, підла машина для вбивств із доступом до різноманітних смертоносних модулів.
   components:
     - type: Sprite
       layers:
@@ -151,8 +151,8 @@
 - type: entity
   id: BorgChassisSyndicateMedical
   parent: [BaseBorgChassisSyndicate, ShowMedicalIcons]
-  name: syndicate medical cyborg
-  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+  name: синдикат медичного кіборга
+  description: Бойовий медичний кіборг. Має обмежений атакувальний потенціал, але компенсує його своїми можливостями підтримки.
   components:
     - type: Sprite
       layers:
@@ -193,8 +193,8 @@
 - type: entity
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
-  name: syndicate saboteur cyborg
-  description: A streamlined engineering cyborg, equipped with a cloaking device and light weaponry. # DeltaV
+  name: синдикат диверсант кіборг
+  description: Обтічний інженерний кіборг, оснащений пристроєм маскування та легким озброєнням. # DeltaV
   components:
     - type: Sprite
       layers:
@@ -229,8 +229,8 @@
 - type: entity
   id: BorgChassisDerelict
   parent: BaseBorgChassisDerelict
-  name: derelict cyborg
-  description: A man-machine hybrid that assists in station activity. This one is in a state of great disrepair.
+  name: покинутий кіборг
+  description: Гібрид людини і машини, який допомагає в діяльності станції. Цей знаходиться в дуже занедбаному стані.
   components:
   - type: Sprite
     layers:
@@ -261,8 +261,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: EngineeringBorgChassisDerelict
-  name: derelict engineer cyborg
-  description: A man-machine hybrid that assists the engineering department. This one seems to have chunks of strange crystals pockmarking its surface.
+  name: покинутий інженер-кіборг
+  description: Гібрид людини та машини, який допомагає інженерному відділу. Здається, на його поверхні є шматки дивних кристалів.
   components:
   - type: Sprite
     layers:
@@ -291,8 +291,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: JanitorBorgChassisDerelict
-  name: derelict janitor cyborg
-  description: A man-machine hybrid that assists the service department. It's a bigger mess than anything it can clean up.
+  name: покинутий двірник кіборг
+  description: Гібрид людини і машини, який допомагає сервісному відділу. Це більший безлад, ніж усе, що він може прибрати.
   components:
   - type: Sprite
     layers:
@@ -325,8 +325,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MedicalBorgChassisDerelict
-  name: derelict medical cyborg
-  description: A man-machine hybrid that assists the medical department. This one's needles don't look very sanitary.
+  name: покинутий медичний кіборг
+  description: Гібрид людини і машини, який допомагає медичному відділу. Голки цього виглядають не зовсім гігієнічно.
   components:
   - type: Sprite
     layers:
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MiningBorgChassisDerelict
-  name: derelict salvage cyborg
-  description: A man-machine hybrid that assists the cargo department. This one has seen the wrong side of a gibtonite chunk.
+  name: покинутий врятований кіборг
+  description: Гібрид людини і машини, який допомагає вантажному відділу. Цей побачив неправильну сторону шматка гібтоніту.
   components:
   - type: Sprite
     layers:
@@ -402,8 +402,8 @@
 - type: entity
   parent: BaseBorgChassisSyndicateDerelict
   id: SyndicateAssaultBorgChassisDerelict
-  name: derelict syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules. This one is more rust-orange than blood-red.
+  name: покинутий синдикат штурмовий кіборг
+  description: Економна, підла машина для вбивств із доступом до різноманітних смертоносних модулів. Цей більше іржаво-помаранчевий, ніж криваво-червоний.
   components:
   - type: Sprite
     layers:

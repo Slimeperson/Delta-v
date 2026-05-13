@@ -1,8 +1,8 @@
 - type: entity
-  name: moproach
+  name: докоряти
   parent: MobMothroach
   id: MobMoproach
-  description: This little mothroach has mopshoes on its feet! How adorable!
+  description: У цього маленького молотка на ногах черевики! Як мило!
   components:
   - type: GhostRole
     name: ghost-role-information-moproach-name

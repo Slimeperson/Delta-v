@@ -8,10 +8,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: devilish pen
+  name: диявольське перо
   parent: [BaseAdvancedPen, BaseMagicalContraband]
   id: PenDevil
-  description: A devilishly sharp pen with a strangely warm body. Not quite as sharp as a devil's tongue, nor as silver coated.
+  description: Диявольськи гостре перо з дивно теплим корпусом. Не такий гострий, як диявольський язик, і не посріблений.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/bureaucracy.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccessConfigurator
-  name: access configurator
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  name: конфігуратор доступу
+  description: Використовується для зміни вимог до рівня доступу для шлюзів та інших пристроїв, що замикаються.
   components:
     - type: EmitSoundOnLand
       sound:
@@ -103,9 +103,9 @@
 - type: entity
   parent: AccessConfigurator
   id: AccessConfiguratorUniversal
-  name: universal access configurator
-  suffix: Admin
-  description: A modified access configurator used only by the mythical Administrator.
+  name: конфігуратор універсального доступу
+  suffix: адмін
+  description: Змінений конфігуратор доступу, який використовується лише міфічним адміністратором.
   components:
   - type: Sprite
     sprite: Objects/Tools/universal_access_configurator.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: AccessConfigurator
   id: AccessConfiguratorXenoborg
-  name: xenoborg access configurator
-  description: A modified access configurator used by the xenoborgs.
+  name: конфігуратор доступу xenoborg
+  description: Модифікований конфігуратор доступу, який використовується ксеноборгами.
   components:
   - type: Sprite
     sprite: Objects/Tools/access_configurator.rsi

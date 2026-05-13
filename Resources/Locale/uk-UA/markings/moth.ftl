@@ -162,7 +162,7 @@ marking-MothChestDeathhead-deathhead_chest = груди
 marking-MothChestDeathhead = Скриня метелика (Голова смерті)
 
 marking-MothHeadDeathhead-deathhead_head = Голова
-marking-MothHeadDeathhead = Moth Head (Death's-Head)
+marking-MothHeadDeathhead = Vox Chest Tattoo (Nightling)
 
 marking-MothLLegDeathhead-deathhead_l_leg = Ліва нога
 marking-MothLLegDeathhead = Ліва нога метелика (голова смерті)

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetOtherBase
-  description: A sheet of material, used often on the station in various applications.
+  description: Аркуш матеріалу, який часто використовується на станції в різних додатках.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/other.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPaper
-  name: paper
-  suffix: Full
+  name: папір
+  suffix: Повний
   components:
   - type: Stack
     stackType: Paper
@@ -66,8 +66,8 @@
 - type: entity
   parent: SheetPaper
   id: SheetPaper1
-  name: paper
-  suffix: Single
+  name: папір
+  suffix: щит паладина
   components:
   - type: Sprite
     state: paper
@@ -77,8 +77,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlasma
-  name: plasma
-  suffix: Full
+  name: плазма
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -129,8 +129,8 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma1
-  name: plasma
-  suffix: Single
+  name: плазма
+  suffix: щит паладина
   components:
   - type: Sprite
     state: plasma
@@ -140,8 +140,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlastic
-  name: plastic
-  suffix: Full
+  name: пластик
+  suffix: Повний
   components:
   - type: Tag
     tags:
@@ -190,7 +190,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic10
-  name: plastic
+  name: пластик
   suffix: 10
   components:
   - type: Sprite
@@ -201,8 +201,8 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic1
-  name: plastic
-  suffix: Single
+  name: пластик
+  suffix: щит паладина
   components:
   - type: Sprite
     state: plastic
@@ -212,8 +212,8 @@
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
   id: SheetUranium
-  name: uranium
-  suffix: Full
+  name: уран
+  suffix: Повний
   components:
   - type: Material
   - type: Edible
@@ -257,8 +257,8 @@
 - type: entity
   parent: SheetUranium
   id: SheetUranium1
-  name: uranium
-  suffix: Single
+  name: уран
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -266,8 +266,8 @@
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
-  name: meat sheet
-  suffix: Full
+  name: м'ясний лист
+  suffix: Повний
   components:
     - type: Sprite
       sprite: Objects/Materials/Sheets/meaterial.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: MaterialSheetMeat
   id: MaterialSheetMeat1
-  suffix: Single
+  suffix: щит паладина
   components:
     - type: Sprite
       state: meat

@@ -63,10 +63,10 @@
   - type: PhysicalComposition
 
 - type: entity
-  name: paper
+  name: папір
   parent: BasePaper
   id: Paper
-  description: 'A piece of white paper.'
+  description: 'Аркуш білого паперу».
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -91,10 +91,10 @@
   - type: PaperVisuals
 
 - type: entity
-  name: paper scrap
+  name: лом паперу
   parent: BasePaper
   id: PaperScrap
-  description: 'A crumpled up piece of white paper.'
+  description: 'Зім’ятий аркуш білого паперу».
   components:
   - type: Tag
     tags:
@@ -107,10 +107,10 @@
     - state: scrap
 
 - type: entity
-  name: office paper
+  name: офісний папір
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: 'Звичайний аркуш офісного паперу».
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -119,10 +119,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: роздруківка аналізатора артефактів
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: The readout of a device forgotten to time.
+  description: Зчитування пристрою, забутого на час.
   components:
   - type: Sprite
     layers:
@@ -146,10 +146,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
+  name: думки капітана
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
+  description: "Сторінка журналу капітана. У розкішній лаванді».
   components:
   - type: Sprite
     layers:
@@ -172,10 +172,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: cargo invoice
+  name: вантажна накладна
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: 'Єдина одиниця бюрократії».
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   id: PaperNanoTaskItem
   parent: Paper
-  name: NanoTask item
-  description: A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
+  name: Елемент NanoTask
+  description: Роздрукований елемент NanoTask. Можна вставити в КПК, щоб додати його до ваших завдань.
   components:
   - type: Tag
     tags:
@@ -242,8 +242,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: маніфест винагороди
+  description: Паперова етикетка, яка позначає ящик як такий, що містить нагороду. Продавши ящик із цією міткою, ви отримаєте винагороду.
   components:
   - type: Sprite
     layers:
@@ -283,8 +283,8 @@
 - type: entity
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
-  name: salvage job shipment label
-  description: A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
+  name: Книга в хорошому стані, тверда палітурка, темно-зелений лісовий фон. У центрі обкладинки сумний опосум сидить на гілці з віддаленим і самотнім виразом обличчя. Над опосумом жирним золотим шрифтом написано назву «Fallen Ambitions – The Tragic Tale of Morty the Possum».
+  description: Паперова етикетка, що позначає ящик як такий, що містить вантаж для виконання рятувальної роботи. Продаж ящика з цим виконає роботу.
   components:
   - type: Sprite
     layers:
@@ -316,10 +316,10 @@
     price: 0
 
 - type: entity
-  name: character sheet
+  name: лист характеру
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: 'Аркуш для ваших персонажів Carps і Crypts.'
   components:
   - type: Paper
     contentSize: 10000
@@ -357,7 +357,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: ядерні коди автентифікації
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -365,15 +365,15 @@
 - type: entity
   parent: NukeCodePaper
   id: NukeCodePaperStation
-  suffix: Station Only
+  suffix: Лише вокзал
   components:
   - type: NukeCodePaper
 
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: syndicate codeword
-  description: A leaked codeword to possibly get in touch with the Syndicate.
+  name: кодове слово синдикату
+  description: Витік кодового слова для можливого зв’язку з Синдикатом.
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -381,8 +381,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: syndicate codewords registry
-  description: A registry of all active Syndicate codewords.
+  name: реєстр кодових слів синдикату
+  description: Реєстр усіх активних кодових слів Syndicate.
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -390,10 +390,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: envelope
+  name: конверт
   parent: BaseItem
   id: Envelope
-  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
+  description: 'Маленький конверт, щоб уберегтися від цікавих документів.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -423,7 +423,7 @@
   - type: ItemSlots
     slots:
       letter_slot:
-        name: envelope-letter-slot
+        name: конверт-лист-слот
         insertSound: /Audio/Effects/packetrip.ogg
         ejectSound: /Audio/Effects/packetrip.ogg
         whitelist:

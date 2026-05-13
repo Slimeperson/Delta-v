@@ -69,7 +69,7 @@
 - type: entity
   parent: Holopad
   id: HolopadJusticeCJ
-  suffix: Chief Justice
+  suffix: Головний суддя
   components:
   - type: Label
     currentLabel: holopad-command-cj
@@ -104,7 +104,7 @@
 - type: entity
   parent: Holopad
   id: HolopadJusticeProsecutor
-  suffix: Prosecutor
+  suffix: Прокурор
   components:
   - type: Label
     currentLabel: holopad-justice-prosecutor
@@ -114,7 +114,7 @@
 - type: entity
   parent: Holopad
   id: HolopadJusticeClerk
-  suffix: Clerk
+  suffix: Клерк
   components:
   - type: Label
     currentLabel: holopad-justice-clerk
@@ -189,7 +189,7 @@
 - type: entity
   parent: Holopad
   id: HolopadSecurityCorpsman
-  suffix: Corpsman
+  suffix: Корпусник
   components:
   - type: Label
     currentLabel: holopad-security-corpsman

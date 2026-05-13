@@ -1,8 +1,8 @@
 - type: entity
   id: Cigar
   parent: BaseCigar
-  name: cigar
-  description: "A brown roll of tobacco and... well, you're not quite sure."
+  name: сигара
+  description: "Коричневий згорток тютюну і... ну, ти не зовсім впевнений».
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
@@ -23,7 +23,7 @@
 - type: entity
   id: CigarSpent
   parent: Cigar
-  suffix: spent
+  suffix: витрачено
   components:
   - type: Sprite
     state: burnt-icon
@@ -42,8 +42,8 @@
 - type: entity
   id: CigarGold
   parent: Cigar
-  name: premium Havanian cigar
-  description: A cigar fit for only the best of the best.
+  name: преміальна гаванська сигара
+  description: Сигара підходить лише найкращим із найкращих.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
@@ -58,7 +58,7 @@
 - type: entity
   id: CigarGoldSpent
   parent: CigarGold
-  suffix: spent
+  suffix: витрачено
   components:
   - type: Sprite
     state: burnt-icon

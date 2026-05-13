@@ -10,13 +10,13 @@
               amount: 5
               doAfter: 1
             - tag: SuitEVA
-              name: construction-graph-tag-eva-suit
+              name: конструкція-граф-тег-ева-костюм
               icon:
                 sprite: Clothing/OuterClothing/Suits/eva.rsi
                 state: icon
               doAfter: 1
             - tag: HelmetEVA
-              name: construction-graph-tag-eva-helmet
+              name: конструкція-граф-тег-ева-шолом
               icon:
                 sprite: Clothing/Head/Helmets/eva.rsi
                 state: icon
@@ -28,13 +28,13 @@
                 state: red
               doAfter: 1
             - tag: CrayonBlack
-              name: construction-graph-tag-black-crayon
+              name: конструкція-граф-тег-чорний-олівець
               icon:
                 sprite: Objects/Fun/crayons.rsi
                 state: black
               doAfter: 1
             - tag: MimeBelt
-              name: construction-graph-tag-suspenders
+              name: конструкція-граф-тег-підвіски
               icon:
                 sprite: Clothing/Belt/suspenders_red.rsi
                 state: icon

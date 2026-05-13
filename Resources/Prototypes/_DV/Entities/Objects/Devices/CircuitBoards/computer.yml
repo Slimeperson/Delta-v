@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShipyardComputerCircuitboard
-  name: shipyard computer board
-  description: A computer printed circuit board for a shipyard computer.
+  name: комп'ютерна плата верфі
+  description: Комп'ютерна друкована плата для комп'ютера верфі.
   components:
   - type: Sprite
     state: cpu_supply
@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MiningShuttleConsoleCircuitboard
-  name: mining shuttle console board
-  description: A printed circuit board for a mining shuttle console.
+  name: консольна дошка майнінг шаттл
+  description: Друкована плата для консолі Майнінг Шаттл.
   components:
   - type: Sprite
     state: cpu_supply
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestJusticeComputerCircuitboard
-  name: justice request computer board
-  description: A computer printed circuit board for a justice request computer.
+  name: правосуддя запит комп'ютерна плата
+  description: Комп'ютерна друкована плата для комп'ютера запиту справедливості.
   components:
   - type: Sprite
     sprite: _DV/Objects/Misc/module.rsi

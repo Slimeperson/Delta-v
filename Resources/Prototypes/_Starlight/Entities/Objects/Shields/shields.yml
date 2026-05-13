@@ -1,8 +1,8 @@
 - type: entity
-  name: paladin shield
+  name: щит паладина
   parent: BaseItem
   id: PaladinShield
-  description: A shield for a true paladin! Good at deflecting hits with swords and absorbing the impact from bats, but not much else.
+  description: Щит для справжнього паладина! Добре вміє відбивати удари мечами та поглинати удари кажанів, але нічого іншого.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/paladin_shield.rsi
@@ -69,10 +69,10 @@
                   max: 13
 
 - type: entity
-  name: paladin greatshield
+  name: паладин великий щит
   parent: PaladinShield
   id: PaladinShieldGreat
-  description: You're up against the wall and I! AM! THE! FUCKING! WALL!
+  description: Ти до стіни і я! AM! THE! БЛЯК! СТІНА!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/paladin_greatshield.rsi
@@ -135,10 +135,10 @@
                   max: 3
 
 - type: entity
-  name: forged buckler shield
+  name: кований щит-щит
   parent: PaladinShield
   id: ForgedShieldBuckler
-  description: Made from the best plasteel the tidersmiths could offer. Decent all-arounder, however being made out of solid metal makes it get hot real fast.
+  description: Виготовлений із найкращої пластмаси, яку могли запропонувати майстри тидерів. Пристойний універсал, однак, виготовлений із міцного металу, він дуже швидко нагрівається.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/forged_buckler_shield.rsi
@@ -193,10 +193,10 @@
                   max: 4
 
 - type: entity
-  name: forged tower shield
+  name: кований баштовий щит
   parent: ForgedShieldBuckler
   id: ForgedShieldTower
-  description: Tall and menacing. A bit on the heavy side, however.
+  description: Високий і грізний. Трохи на важкій стороні, однак.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/forged_tower_shield.rsi
@@ -246,10 +246,10 @@
                   max: 2
 
 - type: entity
-  name: improvised shield
+  name: імпровізований щит
   parent: PaladinShield
   id: ImprovisedShield
-  description: Steel welded together in a interlocking pattern to hold up better to various kinds of blows. Don't expect it to do well in a gunfight, however.
+  description: Сталь, зварена між собою у вигляді зчеплення, щоб краще витримувати різного роду удари. Однак не очікуйте, що це вдасться під час перестрілки.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/improvised_shield.rsi

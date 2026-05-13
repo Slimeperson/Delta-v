@@ -4,7 +4,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothCottonSoup
-  name: cotton soup recipe
+  name: рецепт бавовняного супу
   result: FoodMothCottonSoup
   time: 10
   group: Moth
@@ -20,7 +20,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothCheeseSoup
-  name: cheese soup recipe
+  name: рецепт сирного супу
   result: FoodMothCheeseSoup
   time: 10
   group: Soup
@@ -35,7 +35,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothSeedSoup
-  name: seed soup recipe
+  name: рецепт супу з насіння
   result: FoodMothSeedSoup
   time: 10
   group: Soup
@@ -50,7 +50,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothBeanStew
-  name: bean stew recipe
+  name: рецепт піци з кукурудзяної скоринки
   result: FoodMothBeanStew
   time: 10
   group: Soup
@@ -66,7 +66,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothOatStew
-  name: oat stew recipe
+  name: рецепт рагу з вівса
   result: FoodMothOatStew
   time: 10
   group: Soup
@@ -81,7 +81,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothHeartburnSoup
-  name: heartburn soup recipe
+  name: станція-маяк-евакуація
   result: FoodMothHeartburnSoup
   time: 10
   group: Soup
@@ -98,7 +98,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothMothicSalad
-  name: mothic salad recipe
+  name: рецепт мотилевого салату
   result: FoodMothSaladBase
   time: 10
   group: Salad
@@ -110,7 +110,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothCapreseSalad
-  name: caprese salad recipe
+  name: рецепт салату капрезе
   result: FoodMothCapreseSalad
   time: 10
   group: Salad
@@ -123,7 +123,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothFleetSalad
-  name: fleet salad recipe
+  name: Рецепт салату флот
   result: FoodMothFleetSalad
   time: 10
   group: Salad
@@ -137,7 +137,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothCottonSalad
-  name: cotton salad recipe
+  name: рецепт бавовняного салату
   result: FoodMothCottonSalad
   time: 10
   group: Moth
@@ -150,7 +150,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothKachumbariSalad
-  name: kachumbari salad recipe
+  name: Рецепт салату Качумбарі
   result: FoodMothKachumbariSalad
   time: 10
   group: Salad
@@ -166,7 +166,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothCheesecakeBalls
-  name: cheesecake balls recipe
+  name: рецепт чізкейкових кульок
   result: FoodMothCheesecakeBalls
   time: 10
   group: BarsAndCookies
@@ -179,7 +179,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothMothmallow
-  name: mothmallow recipe
+  name: рецепт молі
   result: FoodMothMothmallow
   time: 10
   group: Moth
@@ -194,7 +194,7 @@
 #Eventually use the pastry dough
 - type: microwaveMealRecipe
   id: RecipeMothMoffin
-  name: moffin recipe
+  name: рецепт мофіну
   result: FoodMothMoffin
   time: 5
   group: Moth

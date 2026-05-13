@@ -36,8 +36,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerDeathSquad
-  name: Death Squad Agent
-  suffix: ERTRole, Death Squad
+  name: Агент загону смерті
+  suffix: ERTROle, Загін смерті
   components:
     - type: Sprite
       sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -78,8 +78,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeader
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
-  name: ERT leader
-  suffix: ERTRole, Basic
+  name: Лідер ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -110,8 +110,8 @@
   id: RandomHumanoidSpawnerERTLeaderEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
-  suffix: ERTRole, EVA
+  name: Лідер ERT
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -131,7 +131,7 @@
   id: RandomHumanoidSpawnerERTLeaderArmed
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeaderEVA
-  suffix: ERTRole, Armed, EVA
+  suffix: ERTROle, Armed, EVA
   components:
     - type: RandomHumanoidSpawner
       settings: ERTLeaderArmed
@@ -150,8 +150,8 @@
   id: RandomHumanoidSpawnerERTChaplain
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT chaplain
-  suffix: ERTRole, Basic
+  name: капелан ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -165,8 +165,8 @@
   components:
     - type: BibleUser
     - type: GhostRole
-      name: ghost-role-information-ert-chaplain-name
-      description: ghost-role-information-ert-chaplain-description
+      name: ghost-role-information-ert-capelan-name
+      description: ghost-role-information-ert-capelan-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -183,8 +183,8 @@
   id: RandomHumanoidSpawnerERTChaplainEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTChaplain
-  name: ERT chaplain
-  suffix: ERTRole, EVA
+  name: капелан ERT
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -206,8 +206,8 @@
   id: RandomHumanoidSpawnerERTJanitor
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT janitor
-  suffix: ERTRole, Basic
+  name: Двірник ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -238,7 +238,7 @@
   id: RandomHumanoidSpawnerERTJanitorEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTJanitor
-  suffix: ERTRole, EVA
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -260,8 +260,8 @@
   id: RandomHumanoidSpawnerERTEngineer
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT engineer
-  suffix: ERTRole, Basic
+  name: Інженер ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -274,7 +274,7 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-engineer-name
+      name: ghost-role-information-ert-ім'я-інженера
       description: ghost-role-information-ert-engineer-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
@@ -292,7 +292,7 @@
   id: RandomHumanoidSpawnerERTEngineerEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTEngineer
-  suffix: ERTRole, EVA
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -311,7 +311,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTEngineerEVA
   id: RandomHumanoidSpawnerERTEngineerArmed
-  suffix: ERTRole, Armed, EVA
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTEngineerArmed
@@ -334,8 +334,8 @@
   id: RandomHumanoidSpawnerERTSecurity
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT security
-  suffix: ERTRole, Basic
+  name: Безпека ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -348,7 +348,7 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-security-name
+      name: настінна шафка для хірурга
       description: ghost-role-information-ert-security-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
@@ -366,8 +366,8 @@
   id: RandomHumanoidSpawnerERTSecurityEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTSecurity
-  name: ERT security
-  suffix: ERTRole, EVA
+  name: Безпека ERT
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -380,7 +380,7 @@
   parent: ERTSecurity
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-security-name
+      name: настінна шафка для хірурга
       description: ghost-role-information-ert-security-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
@@ -394,8 +394,8 @@
   id: RandomHumanoidSpawnerERTSecurityArmedRifle
   parent: RandomHumanoidSpawnerERTSecurityEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
-  name: ERT security rifleman
-  suffix: ERTRole, Armed, EVA
+  name: Стрілець безпеки ERT
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTSecurityArmedRifle
@@ -415,8 +415,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedGrenade
-  name: ERT security grenadier
-  suffix: ERTRole, Armed, EVA
+  name: Охоронний гренадер ERT
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTSecurityArmedGrenade
@@ -436,8 +436,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedVanguard
-  name: ERT security vanguard
-  suffix: ERTRole, Armed, EVA
+  name: Авангард безпеки ERT
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTSecurityArmedVanguard
@@ -457,8 +457,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedShotgun
-  name: ERT security breacher
-  suffix: ERTRole, Armed, EVA
+  name: Порушник безпеки ERT
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTSecurityArmedShotgun
@@ -481,8 +481,8 @@
   id: RandomHumanoidSpawnerERTMedical
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT medic
-  suffix: ERTRole, Basic
+  name: лікар ERT
+  suffix: ERTROle, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -513,7 +513,7 @@
   id: RandomHumanoidSpawnerERTMedicalEVA
   categories: [ HideSpawnMenu ] # Delta V - We have our own spawners
   parent: RandomHumanoidSpawnerERTMedical
-  suffix: ERTRole, EVA
+  suffix: ЕРТРоль, ЄВА
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -532,7 +532,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTMedicalEVA
   id: RandomHumanoidSpawnerERTMedicalArmed
-  suffix: ERTRole, Armed, EVA
+  suffix: ERTROle, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
     settings: ERTMedicalArmed
@@ -553,8 +553,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNUnit
-  name: CBURN Agent
-  suffix: ERTRole
+  name: Агент CBURN
+  suffix: ERTROle
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -585,7 +585,7 @@
 ## Central Command
 
 - type: entity
-  name: CentComm official
+  name: Офіційна особа CentComm
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -613,7 +613,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: syndicate agent
+  name: агент синдикату
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -634,7 +634,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNukeOp
-  name: Nuclear Operative
+  name: Ядерний оператор
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -654,7 +654,7 @@
 - type: entity
   id: RandomHumanoidSpawnerCluwne
   name: Cluwne
-  suffix: spawns a cluwne
+  suffix: створює cluwn
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi

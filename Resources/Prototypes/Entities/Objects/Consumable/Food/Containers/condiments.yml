@@ -274,7 +274,7 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSalt
-  name: salt
+  name: сіль
   description: Salt. From space oceans, presumably.
   components:
   - type: SolutionContainerManager
@@ -321,7 +321,7 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSugar
-  name: sugar
+  name: цукор
   description: Tasty spacey sugar!
   components:
   - type: SolutionContainerManager

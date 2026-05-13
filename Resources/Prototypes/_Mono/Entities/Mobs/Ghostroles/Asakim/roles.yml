@@ -6,8 +6,8 @@
 - type: entity
   parent: MobAsakim
   id: MobAsakimGhostrole
-  name: asakim warrior
-  suffix: Asakim
+  name: Перевірте кров
+  suffix: Асакім
   components:
   - type: RandomHumanoidAppearance
     randomizeName: True

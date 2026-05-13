@@ -2,7 +2,7 @@
   parent: OreBase
   id: BluespaceOre
   name: bluespace ore
-  suffix: Full
+  suffix: Повний
   components:
   - type: Stack
     stackType: BluespaceOre
@@ -19,7 +19,7 @@
 - type: entity
   parent: BluespaceOre
   id: BluespaceOre1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1

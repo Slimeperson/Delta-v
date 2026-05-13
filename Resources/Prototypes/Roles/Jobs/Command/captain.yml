@@ -1,7 +1,7 @@
 - type: job
   id: Captain
-  name: job-name-captain
-  description: job-description-captain
+  name: робота-ім'я-капітан
+  description: посадова інструкція-капітан
   playTimeTracker: JobCaptain
   requirements:
     - !type:DepartmentTimeRequirement

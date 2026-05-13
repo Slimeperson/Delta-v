@@ -12,8 +12,8 @@
 - type: entity
   parent: [ BaseRoboNeuroticistObjective, BaseSurviveObjective ]
   id: RoboNeuroticistSurviveObjective
-  name: Survive
-  description: As precious as they are, your cyborgs are less valuable than your own life.
+  name: Вижити
+  description: Якими б цінними вони не були, ваші кіборги менш цінні, ніж ваше власне життя.
   components:
   - type: Objective
     icon:
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ BaseRoboNeuroticistObjective, BaseSurviveObjective ]
   id: RoboNeuroticistBorgObjective
-  name: Conspiracy to Convert
-  description: The crew of this station is yours to command, turn them into cyborgs till your have reaped your fill.
+  name: Змова на навернення
+  description: Ви можете командувати екіпажем цієї станції, перетворюйте їх на кіборгів, поки не наїстеся.
   components:
   - type: Objective
     icon:
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ BaseRoboNeuroticistObjective, BaseKillObjective ]
   id: RoboNeuroticistKillObjective
-  name: Condemn them to Metal
-  description: Your dossier indicates that there is one very appealing neural pattern on the crew. Turn them into a Cyborg.
+  name: Приректи їх на метал
+  description: Ваше досьє вказує на те, що в екіпажі є одна дуже приваблива нервова схема. Перетворіть їх на кіборга.
   components:
   - type: Objective
     unique: true
@@ -43,7 +43,7 @@
       sprite: Objects/Weapons/Guns/Pistols/viper.rsi
       state: icon
   - type: TargetObjective
-    title: objective-roboneuroticist-kill-title
+    title: object-roboneuroticist-kill-title
   - type: PickRandomPerson
     filters:
     - !type:BodyMindFilter
@@ -67,8 +67,8 @@
 - type: entity
   parent: BaseRoboNeuroticistObjective
   id: RoboNeuroticistUploadAILawObjective
-  name: Subvert the Station AI
-  description: The AI is causing us problems. Update its laws so it wont be an annoyance. We have given you a board in your backpack!
+  name: Підірвати ШІ станції
+  description: ШІ створює нам проблеми. Оновіть його закони, щоб це не дратувало. Ми подарували тобі дошку в рюкзак!
   components:
   - type: Objective
     unique: true

@@ -2,8 +2,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateSurvivalPodStorage
-  name: survival pod storage
-  suffix: Filled
+  name: зберігання контейнерів для виживання
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

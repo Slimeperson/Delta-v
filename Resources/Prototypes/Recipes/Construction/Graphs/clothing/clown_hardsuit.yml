@@ -10,19 +10,19 @@
               amount: 5
               doAfter: 1
             - tag: SuitEVA
-              name: construction-graph-tag-eva-suit
+              name: конструкція-граф-тег-ева-костюм
               icon:
                 sprite: Clothing/OuterClothing/Suits/eva.rsi
                 state: icon
               doAfter: 1
             - tag: HelmetEVA
-              name: construction-graph-tag-eva-helmet
+              name: конструкція-граф-тег-ева-шолом
               icon:
                 sprite: Clothing/Head/Helmets/eva.rsi
                 state: icon
               doAfter: 1
             - tag: CrayonPurple
-              name: construction-graph-tag-purple-crayon
+              name: food-sequence-content-chilly
               icon:
                 sprite: Objects/Fun/crayons.rsi
                 state: purple
@@ -40,7 +40,7 @@
                 state: yellow
               doAfter: 1
             - tag: ClownRecorder
-              name: construction-graph-tag-clown-recorder
+              name: конструкція-граф-тег-клоун-реєстратор
               icon:
                 sprite: Objects/Fun/clownrecorder.rsi
                 state: icon

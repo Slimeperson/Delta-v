@@ -2,7 +2,7 @@
 - type: entity
   parent: DefaultStationBeaconCommand
   id: DefaultStationBeaconConferenceRoom
-  suffix: Conference Room
+  suffix: Конференц-зал
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-conference-room
@@ -10,7 +10,7 @@
 - type: entity
   parent: DefaultStationBeaconCommand
   id: DefaultStationBeaconCommandBar
-  suffix: Command Bar
+  suffix: Панель команд
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-command-bar
@@ -19,7 +19,7 @@
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconVirology
-  suffix: Virology
+  suffix: Вірусологія
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-virology
@@ -27,7 +27,7 @@
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconMetempsychosis
-  suffix: Cloning #Metempsychosis
+  suffix: Клонування #метемпсихоз
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-cloning
@@ -35,7 +35,7 @@
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconExam
-  suffix: Exam
+  suffix: екзамен
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-exam
@@ -43,7 +43,7 @@
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconMedicalOutpost
-  suffix: Medical Outpost
+  suffix: Медична застава
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-med-outpost
@@ -51,7 +51,7 @@
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconPsychologist
-  suffix: Psych
+  suffix: Псих
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-psych
@@ -60,7 +60,7 @@
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconProber
-  suffix: Prober
+  suffix: Зондувальник
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-glimmer-prober
@@ -68,7 +68,7 @@
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconMantis
-  suffix: Mantis
+  suffix: Богомол
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-forensic-mantis
@@ -77,7 +77,7 @@
 - type: entity
   parent: DefaultStationBeaconSupply
   id: DefaultStationBeaconMailroom
-  suffix: Mailroom
+  suffix: Поштова кімната
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-mailroom
@@ -103,7 +103,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconJanitorsOffice
-  suffix: Janitor's Office
+  suffix: Двірник
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-janitor-office
@@ -111,7 +111,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconReporter
-  suffix: Reporter
+  suffix: Репортер
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-reporter
@@ -119,7 +119,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconShop
-  suffix: Shop
+  suffix: Корпус, замкнено
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-shop
@@ -127,7 +127,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconClown
-  suffix: Clown
+  suffix: Клоун
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-clown
@@ -135,7 +135,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconMime
-  suffix: Mime
+  suffix: Мім
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-mime
@@ -143,7 +143,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconMusician
-  suffix: Musician
+  suffix: Музикант
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-musician
@@ -151,7 +151,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconBoxing
-  suffix: Boxing Ring
+  suffix: Боксерський ринг
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-boxing-ring
@@ -159,7 +159,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconBarbershop
-  suffix: Barbershop
+  suffix: Перукарня
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-barbershop
@@ -167,7 +167,7 @@
 - type: entity
   parent: DefaultStationBeaconService
   id: DefaultStationBeaconZoo
-  suffix: Zoo
+  suffix: Зоопарк
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-zoo
@@ -176,7 +176,7 @@
 - type: entity
   parent: DefaultStationBeaconAI
   id: DefaultStationBeaconCameraServerRoom
-  suffix: Camera Servers
+  suffix: Сервери камер
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-camera-servers
@@ -186,7 +186,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconPark
-  suffix: Park
+  suffix: Парк
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-park
@@ -194,7 +194,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconLaserTag
-  suffix: Laser Tag
+  suffix: Лазертаг
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-laser-tag
@@ -202,7 +202,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconPool
-  suffix: Pool
+  suffix: Басейн
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-pool
@@ -210,7 +210,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconLaundromat
-  suffix: Laundromat
+  suffix: Пральня
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-laundromat
@@ -218,7 +218,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconArcade
-  suffix: Arcade
+  suffix: Аркада
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-arcade
@@ -226,7 +226,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconRestroom
-  suffix: Restroom
+  suffix: туалет
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-restroom
@@ -235,7 +235,7 @@
 - type: entity
   parent: DefaultStationBeaconSecurity
   id: DefaultStationBeaconCorpsman
-  suffix: Corpsman
+  suffix: Корпусник
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-corpsman
@@ -243,7 +243,7 @@
 - type: entity
   parent: DefaultStationBeaconSecurity
   id: DefaultStationBeaconSolitary
-  suffix: Solitary Confinement
+  suffix: Одиночна камера
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-security-solitary
@@ -251,7 +251,7 @@
 - type: entity
   parent: DefaultStationBeaconSecurity
   id: DefaultStationBeaconBombTraining
-  suffix: Bomb Training
+  suffix: Бомбове навчання
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-bomb-training
@@ -259,7 +259,7 @@
 - type: entity
   parent: DefaultStationBeaconSecurity
   id: DefaultStationBeaconPermaBrigDisposals
-  suffix: Perma Disposals
+  suffix: Постійна утилізація
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-perma-disposals
@@ -268,7 +268,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconJustice
-  suffix: Justice
+  suffix: Справедливість
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-justice
@@ -277,7 +277,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconChiefJustice
-  suffix: Chief Justice
+  suffix: Головний суддя
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-chiefjustice
@@ -285,7 +285,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconProsecutor
-  suffix: Prosecutor
+  suffix: Прокурор
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-prosecutor
@@ -293,7 +293,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconClerk
-  suffix: Clerk
+  suffix: Клерк
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-clerk
@@ -301,7 +301,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconAttorney
-  suffix: Attorney
+  suffix: Велика плоска упаковка, яка використовується для зберігання надзвичайно великої машини.
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-attorney

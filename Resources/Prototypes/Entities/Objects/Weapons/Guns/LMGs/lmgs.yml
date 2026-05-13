@@ -2,7 +2,7 @@
   name: BaseWeaponLightMachineGun
   parent: BaseItem
   id: BaseWeaponLightMachineGun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineLightRifleBox
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -50,7 +50,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: палата
         priority: 1
         whitelist:
           tags:
@@ -65,10 +65,10 @@
     delay: 1
 
 - type: entity
-  name: L6 SAW
+  name: L6 ПИЛА
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
-  description: Developed by Waffle Corp, the L6 Squad Automatic Weapon is a deadly light machine gun often used by the Gorlex Marauders. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 ammo belts.
+  description: Автоматична зброя L6 Squad, розроблена компанією Waffle Corp, — це смертоносний легкий кулемет, який часто використовують Мародери Gorlex. Незважаючи на громіздкість і громіздкість, його важкий ствол і велика ємність боєприпасів роблять його ідеальним для придушення бійців градом куль. Харчується від патронів калібру .30.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -86,10 +86,10 @@
     price: 10000
 
 - type: entity
-  name: L6C ROW
+  name: L6C РЯД
   id: WeaponLightMachineGunL6C
   parent: BaseItem
-  description: A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: L6 SAW для використання кіборгами. Створює боєприпаси калібру .30 на льоту від внутрішнього виробника боєприпасів, які повільно самозаряджаються.
   components:
     - type: Gun
       minAngle: 4

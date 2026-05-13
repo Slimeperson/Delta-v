@@ -1,7 +1,7 @@
 - type: listing
   id: UplinkAdderBundle
-  name: uplink-adder-name
-  description: uplink-adder-desc
+  name: ім'я-додавача висхідної лінії
+  description: Рецепт мозкового торта
   icon: { sprite: /Textures/_Impstation/Objects/Weapons/Guns/Special/adder.rsi, state: icon }
   productEntity: AdderBox
   discountCategory: rareDiscounts
@@ -28,8 +28,8 @@
 
 - type: listing
   id: uplinkFlamethrower
-  name: uplink-flamethrower-name
-  description: uplink-flamethrower-desc
+  name: uplink-вогнемет-ім'я
+  description: uplink-вогнемет-desc
   productEntity: WeaponFlamerXiuhcoatl
   discountCategory: veryRareDiscounts
   discountDownTo:

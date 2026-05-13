@@ -1,7 +1,7 @@
 - type: entity
   id: BasaltOne
-  name: basalt
-  description: Rock.
+  name: базальтовий
+  description: Рок.
   placement:
     mode: SnapgridCenter
   components:
@@ -67,7 +67,7 @@
 - type: entity
   id: BasaltRandom
   parent: BasaltOne
-  suffix: Random
+  suffix: Випадковий
   components:
     - type: RandomSprite
       available:

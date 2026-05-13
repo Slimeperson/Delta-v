@@ -1,7 +1,7 @@
 - type: job
   id: Visitor
-  name: job-name-visitor
-  description: job-description-visitor
+  name: job-name-visiter
+  description: посадовий опис відвідувача
   playTimeTracker: JobVisitor
   canBeAntag: false
   icon: JobIconVisitor

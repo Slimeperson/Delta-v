@@ -3,7 +3,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileGold
-  name: stack-gold-floor
+  name: стопка-золото-пол
   spawn: FloorTileItemGold
 
 - type: stack
@@ -15,23 +15,23 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMarble
-  name: stack-white-marble-floor
+  name: стек-біла-мармурова-підлога
   spawn: FloorTileItemWhiteMarble
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkMarble
-  name: stack-dark-marble-floor
+  name: stack-xeno-steel-corner
   spawn: FloorTileItemDarkMarble
 
 - type: stack
   parent: BaseTileStack
   id: FloorTilePlasmaMarble
-  name: stack-plasma-marble-floor
+  name: стек-плазма-мармурова підлога
   spawn: FloorTileItemPlasmaMarble
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileUraniumMarble
-  name: stack-uranium-marble-floor
+  name: стек-уран-мармурова підлога
   spawn: FloorTileItemUraniumMarble

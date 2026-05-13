@@ -1,7 +1,7 @@
 - type: entity
   id: PartAvali
   parent: BasePart
-  name: "avali body part"
+  name: "avali частина тіла"
   abstract: true
   components:
   - type: Sprite
@@ -13,50 +13,50 @@
 
 - type: entity
   id: TorsoAvali
-  name: "avali torso"
+  name: "авали торс"
   parent: [PartAvali, BaseTorso]
 
 - type: entity
   id: HeadAvali
-  name: "avali head"
+  name: "Авалі голова"
   parent: [PartAvali, BaseHead]
 
 - type: entity
   id: LeftArmAvali
-  name: "left avali arm"
+  name: "ліва рука авала"
   parent: [PartAvali, BaseLeftArm]
 
 - type: entity
   id: RightArmAvali
-  name: "right avali arm"
+  name: "права авала рука"
   parent: [PartAvali, BaseRightArm]
 
 - type: entity
   id: LeftHandAvali
-  name: "left avali hand"
+  name: "ліва рука"
   parent: [PartAvali, BaseLeftHand]
 
 - type: entity
   id: RightHandAvali
-  name: "right avali hand"
+  name: "права авала рука"
   parent: [PartAvali, BaseRightHand]
 
 - type: entity
   id: LeftLegAvali
-  name: "left avali leg"
+  name: "ліва авала нога"
   parent: [PartAvali, BaseLeftLeg]
 
 - type: entity
   id: RightLegAvali
-  name: "right avali leg"
+  name: "права авала нога"
   parent: [PartAvali, BaseRightLeg]
 
 - type: entity
   id: LeftFootAvali
-  name: "left avali foot"
+  name: "ліва авала нога"
   parent: [PartAvali, BaseLeftFoot]
 
 - type: entity
   id: RightFootAvali
-  name: "right avali foot"
+  name: "права авала нога"
   parent: [PartAvali, BaseRightFoot]

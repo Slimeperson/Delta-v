@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseNTAgentObjective
   id: NTAgentObjective
-  name: Do your task.
-  description: If contacted by Central, complete their objectives too.
+  name: Виконайте своє завдання.
+  description: Якщо до вас звернеться Центральний центр, також виконайте їхні цілі.
   components:
   - type: Objective
     icon:
@@ -35,7 +35,7 @@
 - type: entity
   parent: BaseNTAgentObjective
   id: FrameRandomPersonObjective
-  description: We would like if they got into legal trouble. Ensure they end up in prison.
+  description: Ми хотіли б, якби вони потрапили в проблеми з законом. Переконайтеся, що вони потраплять у в'язницю.
   components:
   - type: Objective
     icon:
@@ -44,7 +44,7 @@
     difficulty: 1.75
     unique: false
   - type: TargetObjective
-    title: objective-condition-frame-person-title
+    title: об'єктивна-умова-каркас-особа-титул
   - type: PickRandomPerson
     filters:
     # Can't have multiple objectives to kill the same person.
@@ -58,7 +58,7 @@
 - type: entity
   parent: BaseNTAgentObjective
   id: FireRandomPersonObjective
-  description: We need them fired for several reasons, but we legally can't find one. Make one up.
+  description: Нам потрібно їх звільнити з кількох причин, але юридично ми не можемо знайти. Придумайте один.
   components:
   - type: Objective
     icon:
@@ -67,7 +67,7 @@
     difficulty: 1.75
     unique: false
   - type: TargetObjective
-    title: objective-condition-fired-person-title
+    title: об'єктивний-умова-звільнена-особа-назва
   - type: PickRandomPerson
     filters:
     # Can't have multiple objectives to kill the same person.
@@ -81,27 +81,27 @@
 - type: entity
   parent: BaseNTAgentTestDepartment
   id: TestSecurityObjective
-  name: Audit Security.
-  description: Test their response time, their knowledge of law or whatever else. Send the results to Central.
+  name: Аудит безпеки.
+  description: Перевірте час відповіді, знання закону чи будь-що інше. Результати відправити в Централ.
 
 - type: entity
   parent: BaseNTAgentTestDepartment
   id: TestEngineeringObjective
-  name: Audit Engineering.
-  description: Test their response time to sabotage, structural damage or whatever else. Send the results to Central.
+  name: Інженерний аудит.
+  description: Перевірте час реагування на саботаж, структурні пошкодження чи щось інше. Результати відправити в Централ.
 
 - type: entity
   parent: BaseNTAgentTestDepartment
   id: TestMedicalObjective
-  name: Audit Medical.
-  description: Test their response time, their medical knowledge or whatever else. Send the results to Central.
+  name: Аудит медичний.
+  description: Перевірте час відповіді, медичні знання чи будь-що інше. Результати відправити в Централ.
 
 # defunding
 - type: entity
   parent: BaseNTAgentObjective
   id: DefundDepartmentObjective
-  name: Defund any department.
-  description: Embezzle or waste any department's funds.
+  name: Дефінансувати будь-який відділ.
+  description: Розкрадати або витрачати кошти будь-якого відділу.
   components:
   - type: Objective
     icon:

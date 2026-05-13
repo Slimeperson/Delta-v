@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkHealthViolationGlass
-  suffix: health code violation
-  description: Allegedly it's a cocktail. The warning cone motif seems apt.
+  suffix: порушення санітарного кодексу
+  description: Нібито коктейль. Мотив попереджувального конуса здається доречним.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -18,8 +18,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGunmetalGlass
-  suffix: gunmetal
-  description: A cloudy mix of rum, cream, and... is that welding fuel? Probably tasty.
+  suffix: зброя
+  description: Каламутна суміш рому, вершків і... це паливо для зварювання? Мабуть смачно.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -35,8 +35,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLemonDropGlass
-  suffix: lemon drop
-  description: A martini glass filled with a translucent mix of refreshing lemony goodness.
+  suffix: лимонна крапля
+  description: Келих для мартіні, наповнений напівпрозорою сумішшю освіжаючих лимонних смаків.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -52,8 +52,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGreenGrassGlass
-  suffix: green grass
-  description: An odd green cocktail, topped with oranges, ice, and a plastic straw. Curious.
+  suffix: зелена трава
+  description: Дивний зелений коктейль з апельсинами, льодом і пластиковою соломинкою. Цікаво.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -69,8 +69,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkArsonistsBrewGlass
-  suffix: arsonist's brew
-  description: It's probably not concerning that it's glowing faintly. Or bubbling. Or smoking. No, not at all.
+  suffix: вариво підпалювача
+  description: Напевно, це не хвилює, що він слабко світиться. Або булькає. Або курити. Ні, ні в якому разі.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -86,8 +86,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkKvassGlass
-  suffix: kvass
-  description: A cool refreshing drink with a taste of socialism.
+  suffix: квас
+  description: Прохолодний освіжаючий напій зі смаком соціалізму.
   components:
     - type: SolutionContainerManager
       solutions:
@@ -103,8 +103,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMothamphetamineGlass
-  suffix: mothamphetamine
-  description: A strangely... Fuzzy drink. It has a chaotic aura.
+  suffix: мотамфетамін
+  description: Дивний... нечіткий напій. Має хаотичну ауру.
   components:
     - type: SolutionContainerManager
       solutions:
@@ -120,7 +120,7 @@
 - type: entity
   parent: DrinkGlass
   id: DoubleIceCreamGlass
-  suffix: double ice cream
+  suffix: подвійне морозиво
   components:
   - type: SolutionContainerManager
     solutions:
@@ -136,7 +136,7 @@
 - type: entity
   parent: DrinkGlass
   id: LemonLimeBittersGlass
-  suffix: lemon lime bitters
+  suffix: лимонно-лаймовий біттер
   components:
   - type: SolutionContainerManager
     solutions:
@@ -152,7 +152,7 @@
 - type: entity
   parent: DrinkGlass
   id: OldFashionedGlass
-  suffix: old fashioned
+  suffix: старомодний
   components:
   - type: SolutionContainerManager
     solutions:
@@ -168,7 +168,7 @@
 - type: entity
   parent: DrinkGlass
   id: MnatsaCollinsGlass
-  suffix: mnatsa collins
+  suffix: мнаца коллінз
   components:
   - type: SolutionContainerManager
     solutions:
@@ -184,7 +184,7 @@
 - type: entity
   parent: DrinkGlass
   id: AffogatoGlass
-  suffix: affogato
+  suffix: аффогато
   components:
   - type: SolutionContainerManager
     solutions:
@@ -200,7 +200,7 @@
 - type: entity
   parent: DrinkGlass
   id: FiveOClockGlass
-  suffix: fiveoclock
+  suffix: п'ятої години
   components:
   - type: SolutionContainerManager
     solutions:

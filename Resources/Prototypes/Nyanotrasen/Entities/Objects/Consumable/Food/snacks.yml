@@ -1,10 +1,10 @@
 # Snacks and Entrees
 
 - type: entity
-  name: squeaking stir fry
+  name: скреготіння розмішувати
   parent: FoodMealBase
   id: FoodMothSqueakingFry
-  description: A mothic classic made with cheese curds and tofu (amongst other things).
+  description: Класичний мотелик, виготовлений із сирної маси та тофу (серед іншого).
   components:
   - type: FlavorProfile
     flavors:
@@ -34,10 +34,10 @@
 #Tastes like cheese, tofu and veggies
 
 - type: entity
-  name: toasted seeds
+  name: підсмажене насіння
   parent: FoodBakingBase
   id: FoodMothToastedSeeds
-  description: While they're far from filling, toasted seeds are a popular snack amongst the moths. Some more exotic flavours may be added for some extra pep.
+  description: Незважаючи на те, що вони далеко не ситні, підсмажені насіння є популярною закускою серед молі. Для додаткового бадьорості можна додати деякі екзотичні смаки.
   components:
   - type: FlavorProfile
     flavors:
@@ -59,10 +59,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: engine fodder
+  name: двигун кормовий
   parent: FoodBakingBase
   id: FoodMothEngineFodder
-  description: A common snack for moth engineers, made of seeds, nuts, chocolate, popcorn, and potato chips	designed to be dense with calories and easy to snack on when an extra boost is needed.
+  description: Звичайна закуска для інженерів-молі, виготовлена ​​з насіння, горіхів, шоколаду, попкорну та картопляних чіпсів, розроблена так, щоб вона була насиченою калоріями та легкою для перекусу, коли потрібен додатковий заряд.
   components:
   - type: FlavorProfile
     flavors:
@@ -90,10 +90,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: fueljack's lunch
+  name: обід паливника
   parent: FoodBakingBase
   id: FoodMothFueljackLunch
-  description: A dish made from fried vegetables. Popular amongst the brave moths that faces the dangers of space.
+  description: Блюдо зі смажених овочів. Популярний серед відважних метеликів, які стикаються з небезпеками космосу.
   components:
   - type: FlavorProfile
     flavors:
@@ -115,10 +115,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: sweet chili cabbage wrap
+  name: загортання капусти чилі
   parent: FoodMealBase
   id: FoodMothChiliCabbageWrap
-  description: Grilled cheese and salad in a cabbage wrap, topped with delicious sweet chili sauce.
+  description: Смажений сир і салат у капустяній загортці, заправлені смачним солодким соусом чилі.
   components:
   - type: FlavorProfile
     flavors:
@@ -146,10 +146,10 @@
 #Tastes like cheese, salad, sweet chili
 
 - type: entity
-  name: baked cheese wheel
+  name: Велика соломинка не входить.
   parent: FoodBakingBase
   id: FoodMothBakedCheese
-  description: A baked cheese wheel, melty and delicious...
+  description: Запечене сирне колесо, розплавлене та смачне...
   components:
   - type: FlavorProfile
     flavors:
@@ -173,10 +173,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: baked cheese platter
+  name: запечена сирна тарілка
   parent: FoodBakingBase
   id: FoodMothBakedCheesePlatter
-  description: A favourite for sharing. Usually served with crispy bread slices for dipping, because the only thing better than good cheese is good cheese on bread.
+  description: Улюблене для спільного використання. Зазвичай подається з хрусткими скибочками хліба для занурення, адже єдине, що краще хорошого сиру – це хороший сир на хлібі.
   components:
   - type: FlavorProfile
     flavors:
@@ -201,10 +201,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: borito pie
+  name: борито пиріг
   parent: FoodMealBase
   id: FoodBoritoPie
-  description: For when you are bored of normal meals while sitting in brig.
+  description: Коли тобі набридла звичайна їжа, сидячи в тюрмі.
   components:
   - type: FlavorProfile
     flavors:

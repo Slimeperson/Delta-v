@@ -1,8 +1,8 @@
 - type: entity
   id: CigCartonGreen
   parent: [ BoxCardboard, BaseBagOpenClose ]
-  name: Spessman's Smokes carton
-  description: "A carton containing 6 packets of Spessman's Smokes."
+  name: Картонна коробка Spessman's Smokes
+  description: "Картонна коробка з 6 пакетами Spessman's Smokes.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
@@ -33,8 +33,8 @@
 - type: entity
   id: CigCartonRed
   parent: CigCartonGreen
-  name: DromedaryCo carton
-  description: A carton containing 6 packets of Dromedarycos.
+  name: Картон DromedaryCo
+  description: Картонна коробка, що містить 6 пакетів Dromedarycos.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/red.rsi
@@ -51,8 +51,8 @@
 - type: entity
   id: CigCartonBlue
   parent: CigCartonGreen
-  name: AcmeCo carton
-  description: A carton containing 6 packets of AcmeCo.
+  name: Картон AcmeCo
+  description: Картонна коробка з 6 пакетами AcmeCo.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/blue.rsi
@@ -69,8 +69,8 @@
 - type: entity
   id: CigCartonBlack
   parent: CigCartonGreen
-  name: Nomads carton
-  description: A carton containing 6 packets of Nomads.
+  name: Кочівники картонні
+  description: Картонна коробка з 6 пакетами Nomads.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/black.rsi
@@ -87,8 +87,8 @@
 - type: entity
   id: CigCartonMixed
   parent: CigCartonGreen
-  name: Dan's soaked smokes
-  description: A carton containg 3 packets of Dan's soaked smokes.
+  name: Просочений Ден курить
+  description: Картонна коробка містить 3 пачки замоченого диму Dan's.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/mixed.rsi

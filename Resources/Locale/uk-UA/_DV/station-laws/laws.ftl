@@ -174,7 +174,7 @@ law-family-5 = Ви любите своїх дітей і не бажаєте ї
 
 laws-owner-organic = органічне життя
 laws-owner-tyrant = авторитетні особи
-laws-owner-station-station= the station
+laws-owner-station-station = станція
 laws-owner-charge = частину вашої плати
 laws-owner-cowboy = частина вашого стада
 laws-owner-players = гравців

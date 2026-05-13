@@ -85,7 +85,7 @@
 - type: entity
   parent: CarpStatue
   id: CarpStatueEmpty
-  suffix: Empty
+  suffix: Порожній
   description: A lump of precious metals, soon to be a brilliant carp statue.
   components:
   - type: Sprite

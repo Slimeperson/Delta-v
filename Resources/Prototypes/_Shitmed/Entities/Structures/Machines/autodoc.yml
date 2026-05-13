@@ -4,7 +4,7 @@
   parent: [ConstructibleMachine, BaseMachinePowered]
   id: Autodoc
   name: Autodoc Mk.XIV
-  description: A programmable robotic surgeon capable of automatically operating on patients.
+  description: Програмований робот-хірург, здатний автоматично оперувати пацієнтів.
   components:
   - type: Sprite
     sprite: _Shitmed/Structures/Machines/autodoc.rsi
@@ -99,7 +99,7 @@
   parent: Autodoc
   id: AutodocSyndie
   # TODO: make it valid
-  suffix: Syndie
+  suffix: Синді
   components:
   # Begin DeltaV Additions
   - type: Sprite
@@ -117,6 +117,6 @@
 - type: entity
   parent: OmnimedTool
   id: OmnimedToolAutodoc
-  suffix: Unremoveable
+  suffix: Незнімний
   components:
   - type: Unremoveable

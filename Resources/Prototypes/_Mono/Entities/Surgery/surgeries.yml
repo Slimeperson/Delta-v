@@ -1,8 +1,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryCorticalBorerRemoval
-  name: Remove Cortical Borer
-  description: Removal the Cortical Borer infestation from the body.
+  name: Видаліть кортикальний борер
+  description: Видалення інвазії Cortical Borer з тіла.
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery

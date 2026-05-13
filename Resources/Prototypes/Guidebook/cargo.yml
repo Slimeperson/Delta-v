@@ -1,6 +1,6 @@
 - type: guideEntry
   id: Cargo
-  name: guide-entry-cargo
+  name: гід-вхід-вантаж
   text: "/ServerInfo/Guidebook/Cargo/Cargo.xml"
   children:
   - CargoBounties
@@ -14,5 +14,5 @@
 
 - type: guideEntry
   id: Salvage
-  name: guide-entry-salvage
+  name: гід-вхід-рятування
   text: "/ServerInfo/Guidebook/Cargo/Salvage.xml"

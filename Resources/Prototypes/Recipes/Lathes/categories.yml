@@ -5,7 +5,7 @@
 
 - type: latheCategory
   id: Clothing
-  name: lathe-category-clothing
+  name: токар-категорія-одяг
 
 - type: latheCategory
   id: Lights
@@ -13,7 +13,7 @@
 
 - type: latheCategory
   id: Machines
-  name: lathe-category-machines
+  name: насіння-лисички-ім
 
 - type: latheCategory
   id: Parts
@@ -21,20 +21,20 @@
 
 - type: latheCategory
   id: Tools
-  name: lathe-category-tools
+  name: сповіщення-battery-name
 
 - type: latheCategory
   id: Weapons
-  name: lathe-category-weapons
+  name: токарний-категорія-зброя
 
 # Biogen
 - type: latheCategory
   id: Food
-  name: lathe-category-food
+  name: токарний-категорія-харч
 
 - type: latheCategory
   id: Chemicals
-  name: lathe-category-chemicals
+  name: токарний-категорія-хім
 
 - type: latheCategory
   id: Materials
@@ -51,27 +51,27 @@
 
 - type: latheCategory
   id: General
-  name: lathe-category-general
+  name: токар-розряд-заг
 
 - type: latheCategory
   id: Medical
-  name: lathe-category-medical
+  name: токар-категорія-медичний
 
 - type: latheCategory
   id: Research
-  name: lathe-category-research
+  name: токарний-категорія-дослідження
 
 - type: latheCategory
   id: Security
-  name: lathe-category-security
+  name: токарний-категорія-безпека
 
 - type: latheCategory
   id: Service
-  name: lathe-category-service
+  name: токар-категорія-сервіс
 
 - type: latheCategory
   id: Supply
-  name: lathe-category-supply
+  name: насіння-галактиста-назва
 
 # Cutter machine
 - type: latheCategory
@@ -84,7 +84,7 @@
 
 - type: latheCategory
   id: Concrete
-  name: lathe-category-concrete-tile
+  name: токарний-категорія-бетонна-плитка
 
 - type: latheCategory
   id: Dark
@@ -104,20 +104,20 @@
 
 - type: latheCategory
   id: White
-  name: lathe-category-white-tile
+  name: конструкція-рецепт-стіл-незвичайний-білий
 
 - type: latheCategory
   id: Wood
-  name: lathe-category-wood-tile
+  name: конструкція-рецепт-штори-тканина
 
 - type: latheCategory
   id: Marble
-  name: lathe-category-marble
+  name: верстат-категорія-мармур
 
 # Science
 - type: latheCategory
   id: Mech
-  name: lathe-category-mechs
+  name: верстат-категорія-мех
 
 - type: latheCategory
   id: Modules
@@ -147,11 +147,11 @@
 
 - type: latheCategory
   id: Carpets
-  name: lathe-category-carpets
+  name: верстат-категорія-килими
 
 - type: latheCategory
   id: Coats
-  name: lathe-category-coats
+  name: токарний-категорія-пальто
 
 - type: latheCategory
   id: Command
@@ -163,8 +163,8 @@
 
 - type: latheCategory
   id: Jumpsuits
-  name: lathe-category-jumpsuits
+  name: alerts-pacified-name
 
 - type: latheCategory
   id: Neck
-  name: lathe-category-neck
+  name: верстат-розряд-шийка

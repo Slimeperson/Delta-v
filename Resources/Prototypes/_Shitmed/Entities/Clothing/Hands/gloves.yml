@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesNitrile
   id: ClothingHandsGlovesMechanicalSurgical
-  name: mechanical surgical gloves
-  description: A pair of mechanically supported gloves that support the wearer's precision, allowing them to move through surgeries faster with more confidence
+  name: механічні хірургічні рукавички
+  description: Пара рукавичок з механічною підтримкою, які підтримують точність користувача, дозволяючи йому виконувати операції швидше з більшою впевненістю
   components:
   - type: Sprite
     sprite: _Shitmed/Clothing/Hands/Gloves/mechanical_surgery_gloves.rsi

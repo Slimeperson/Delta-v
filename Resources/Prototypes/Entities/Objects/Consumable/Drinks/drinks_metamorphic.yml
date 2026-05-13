@@ -1035,7 +1035,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIcedTeaGlass
-  suffix: iced tea
+  suffix: холодний чай
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1115,7 +1115,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIrishSlammer
-  suffix: grenade penguin
+  suffix: граната пінгвін
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1682,7 +1682,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRootBeerGlass
-  suffix: root beer
+  suffix: корінь пива
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1780,7 +1780,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkScrewdriverCocktailGlass
-  suffix: screwdriver
+  suffix: викрутка
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2052,7 +2052,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTequilaSunriseGlass
-  suffix: tequila sunrise
+  suffix: Текіла Схід сонця
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2241,8 +2241,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated.
+  name: глечик для води
+  description: Залишайтеся гідратованим.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2258,7 +2258,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWatermelonJuice
-  suffix: watermelon juice
+  suffix: кавунового соку
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2274,7 +2274,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWatermelonWakeup
-  suffix: watermelon wakeup
+  suffix: кавун пробудження
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2290,7 +2290,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeyColaGlass
-  suffix: whiskey cola
+  suffix: віскі кола
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2306,7 +2306,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeyGlass
-  suffix: whiskey
+  suffix: віскі
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2322,7 +2322,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeySodaGlass
-  suffix: whiskey soda
+  suffix: соди віскі
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2338,7 +2338,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiteRussianGlass
-  suffix: white russian
+  suffix: білий росіянин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2354,7 +2354,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWineGlass
-  suffix: wine
+  suffix: вино
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2386,7 +2386,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCaipirinha
-  suffix: caipirinha
+  suffix: кайпірінья
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2402,7 +2402,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDaiquiri
-  suffix: daiquiri
+  suffix: дайкірі
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2418,7 +2418,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDeathInTheAfternoon
-  suffix: death in the afternoon
+  suffix: смерть у другій половині дня
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2434,7 +2434,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEmpress75
-  suffix: empress 75
+  suffix: імператриця 75
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2450,7 +2450,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEspressoMartini
-  suffix: espresso martini
+  suffix: еспресо мартіні
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2466,7 +2466,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMayojito
-  suffix: mayojito
+  suffix: майохіто
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2482,7 +2482,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMimeosa
-  suffix: mimeosa
+  suffix: мімеоза
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2498,7 +2498,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMimosa
-  suffix: mimosa
+  suffix: мімоза
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2514,7 +2514,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMoscowMule
-  suffix: moscow mule
+  suffix: московський мул
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2530,7 +2530,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTheSunAlsoRises
-  suffix: the sun also rises
+  suffix: сонце також сходить
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2546,7 +2546,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeySour
-  suffix: whiskey sour
+  suffix: віскі кислий
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2562,7 +2562,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBloodGlass
-  suffix: blood
+  suffix: кров
   components:
     - type: SolutionContainerManager
       solutions:
@@ -2578,8 +2578,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBacchusBlessing
-  suffix: bacchus blessing
-  description: You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
+  suffix: благословення вакха
+  description: Ви не думали, що рідина може бути настільки огидною. Ви впевнені в цьому...?
   components:
   - type: SolutionContainerManager
     solutions:

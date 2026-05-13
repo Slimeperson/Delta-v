@@ -2,7 +2,7 @@
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleShipyard
-  suffix: External, Shipyard, Glass, Docking
+  suffix: Зовнішня, Верфь, Скло, Док
   components:
   - type: PriorityDock
     tag: DockShipyard
@@ -54,7 +54,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockChiefJusticeLocked
-  suffix: Chief Justice, Locked
+  suffix: Головний суддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -63,7 +63,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockChiefJusticeGlassLocked
-  suffix: Chief Justice, Locked
+  suffix: Головний суддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -72,7 +72,7 @@
 - type: entity
   parent: AirlockJustice
   id: AirlockJusticeLocked
-  suffix: Justice, Locked
+  suffix: Правосуддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: AirlockJusticeGlass
   id: AirlockJusticeGlassLocked
-  suffix: Justice, Locked
+  suffix: Правосуддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -90,7 +90,7 @@
 - type: entity
   parent: AirlockJustice
   id: AirlockProsecutorLocked
-  suffix: Prosecutor, Locked
+  suffix: Прокурор, Заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -99,7 +99,7 @@
 - type: entity
   parent: AirlockJusticeGlass
   id: AirlockProsecutorGlassLocked
-  suffix: Prosecutor, Locked
+  suffix: Прокурор, Заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -136,7 +136,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintJusticeLocked
-  suffix: Justice, Locked
+  suffix: Правосуддя, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -147,7 +147,7 @@
 - type: entity
   parent: AirlockMaintJusticeLocked
   id: AirlockMaintProsecutorLocked
-  suffix: Prosecutor, Locked
+  suffix: Прокурор, Заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -174,7 +174,7 @@
 - type: entity
   parent: AirlockMedical
   id: AirlockParamedicLocked
-  suffix: Paramedic, Locked
+  suffix: Фельдшер, Зачинено
   components:
   - type: ContainerFill
     containers:
@@ -368,7 +368,7 @@
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockParamedicGlassLocked
-  suffix: Paramedic, Locked
+  suffix: Фельдшер, Зачинено
   components:
   - type: ContainerFill
     containers:
@@ -488,7 +488,7 @@
 - type: entity
   parent: AirlockMaintMedLocked
   id: AirlockMaintParamedicLocked
-  suffix: Paramedic, Locked
+  suffix: Фельдшер, Зачинено
   components:
   - type: ContainerFill
     containers:
@@ -607,7 +607,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecSecurityLocked
-  suffix: Security, Locked
+  suffix: Охорона, зачинено
   components:
   - type: ContainerFill
     containers:

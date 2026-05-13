@@ -1,8 +1,8 @@
 - type: entity
   parent: RollerBed
   id: HoverBedHolo
-  name: holographic hoverbed
-  description: Used to frictionlessly carry around patients and is easily stored in a compacted form.
+  name: інженерний обережний знак
+  description: Використовується для легкого перенесення пацієнтів і легко зберігається в ущільненому вигляді.
   components:
   - type: Item
     size: Small
@@ -80,7 +80,7 @@
 - type: entity
   parent: HoverBedHolo
   id: HoverBedHoloSpawnFolded
-  suffix: folded
+  suffix: складені
   components:
   - type: Foldable
     folded: true

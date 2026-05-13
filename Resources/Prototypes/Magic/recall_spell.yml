@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionItemRecall
-  name: Mark Item
-  description: Mark a held item to later summon into your hand.
+  name: газова турбіна плоский пакет
+  description: Позначте утримуваний предмет, щоб пізніше викликати його в руку.
   components:
   - type: Action
     useDelay: 10

@@ -1,7 +1,7 @@
 - type: job
   id: PrisonGuard
-  name: job-name-guard
-  description: job-description-guard
+  name: робота-ім'я-охоронець
+  description: посадова інструкція-охоронець
   playTimeTracker: JobPrisonGuard
   requirements:
     - !type:OverallPlaytimeRequirement

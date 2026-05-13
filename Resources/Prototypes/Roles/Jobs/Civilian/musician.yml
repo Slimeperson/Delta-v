@@ -1,7 +1,7 @@
 - type: job
   id: Musician
-  name: job-name-musician
-  description: job-description-musician
+  name: робота-ім'я-музикант
+  description: посадова характеристика-муз
   playTimeTracker: JobMusician
   startingGear: MusicianGear
   icon: "JobIconMusician"

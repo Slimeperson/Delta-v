@@ -1,9 +1,9 @@
 - type: entity
   parent: CrateEngineering
   id: CrateEngineEssentials
-  name: engine essentials crate
-  description: Everything you need to power the station, in a superposition of containing both a singularity and a tesla.
-  suffix: 1 per map MAX
+  name: ящик з основними речами двигуна
+  description: Все, що вам потрібно для живлення станції, у суперпозиції, яка містить і сингулярність, і тесла.
+  suffix: 1 на карту МАКС
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,8 +47,8 @@
 - type: entity
   id: CrateEngineeringTEG
   parent: CrateEngineeringSecure
-  name: TEG parts
-  description: TEG and 2 circulators.
+  name: Частини ТЕГ
+  description: ТЕГ і 2 циркуляційних насоса.
   components:
   - type: EntityTableContainerFill
     containers:

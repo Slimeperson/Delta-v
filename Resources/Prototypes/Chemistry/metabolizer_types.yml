@@ -3,23 +3,23 @@
 
 - type: metabolizerType
   id: Animal
-  name: metabolizer-type-animal
+  name: метаболізатор типу тварин
 
 - type: metabolizerType
   id: Bloodsucker
-  name: metabolizer-type-bloodsucker
+  name: метаболізатор типу-кровосос
 
 - type: metabolizerType
   id: Dragon
-  name: metabolizer-type-dragon
+  name: метаболізатор типу дракона
 
 - type: metabolizerType
   id: Human
-  name: metabolizer-type-human
+  name: метаболізатор типу людини
 
 - type: metabolizerType
   id: Slime
-  name: metabolizer-type-slime
+  name: метаболізатор типу слизу
 
 - type: metabolizerType
   id: Vox
@@ -27,20 +27,20 @@
 
 - type: metabolizerType
   id: Rat
-  name: metabolizer-type-rat
+  name: метаболізатор типу щурів
 
 - type: metabolizerType
   id: Plant
-  name: metabolizer-type-plant
+  name: рослина-метаболізатор
 
 - type: metabolizerType
   id: Dwarf
-  name: metabolizer-type-dwarf
+  name: метаболізатор типу-карлик
 
 - type: metabolizerType
   id: Moth
-  name: metabolizer-type-moth
+  name: Метаболізатор типу молі
 
 - type: metabolizerType
   id: Arachnid
-  name: metabolizer-type-arachnid
+  name: метаболізатор типу павукоподібних

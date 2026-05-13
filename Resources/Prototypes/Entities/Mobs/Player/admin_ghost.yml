@@ -1,7 +1,7 @@
 - type: entity
   parent: [MobObserverBase, InventoryBase]
   id: AdminObserver
-  name: admin observer
+  name: адмін спостерігач
   categories: [ HideSpawnMenu ]
   components:
   - type: Eye
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: Інтерфейс керування сонячною енергією
+  description: Переглянути інтерфейс керування сонячною енергією.
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: Інтерфейс зв'язку
+  description: Переглянути комунікаційний інтерфейс.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: Інтерфейс масового сканера
+  description: Перегляньте інтерфейс масового сканера.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: Інтерфейс замовлення вантажу
+  description: Перегляньте інтерфейс замовлення вантажів.
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -192,8 +192,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: Інтерфейс моніторингу екіпажу
+  description: Перегляньте інтерфейс моніторингу екіпажу.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
@@ -206,8 +206,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: Інтерфейс запису станції
+  description: Перегляньте інтерфейс записів станцій.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }
@@ -220,8 +220,8 @@
 # Begin CD - Character Records
 - type: entity
   id: ActionAGhostShowCharacterRecords
-  name: Character Records Interface
-  description: View all of the character records
+  name: Інтерфейс записів символів
+  description: Переглянути всі записи персонажів
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

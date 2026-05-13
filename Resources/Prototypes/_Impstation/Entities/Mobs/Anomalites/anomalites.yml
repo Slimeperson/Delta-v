@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomaliteCore
-  name: anomalite core
-  description: It's empty.
+  name: ядро аномаліту
+  description: Він порожній.
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: [ BaseMob, MobDamageable, MobPolymorphable, MobAtmosExposed, MobCombat, MobBloodstream, MobFlammable ]
   id: BaseAnomalite
-  name: anomalite
+  name: аномаліта
   abstract: true
   categories: [ HideSpawnMenu ]
   components:
@@ -180,8 +180,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomalitePyroclastic
-  suffix: Pyroclastic
-  description: A flickering little sprite, born from the leftover energies of an anomaly core.
+  suffix: Пірокластичні
+  description: Мерехтливий маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/fire.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteGravity
-  suffix: Gravity
-  description: A strange little sprite, born from the leftover energies of an anomaly core.
+  suffix: Сила тяжіння
+  description: Дивний маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/grav.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteIce
-  suffix: Ice
-  description: A chilly little sprite, born from the leftover energies of an anomaly core.
+  suffix: лід
+  description: Маленький холодний спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/ice.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteFlesh
-  suffix: Flesh
-  description: A gristly little sprite, born from the leftover energies of an anomaly core.
+  suffix: Плоть
+  description: Хрустливий маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/flesh.rsi
@@ -382,8 +382,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteRock
-  suffix: Rock
-  description: A sturdy little sprite, born from the leftover energies of an anomaly core.
+  suffix: Рок
+  description: Міцний маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/rock.rsi
@@ -426,8 +426,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteLiquid
-  suffix: Liquid
-  description: A sopping little sprite, born from the leftover energies of an anomaly core.
+  suffix: Рідина
+  description: Пронизливий маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/reagent.rsi
@@ -487,7 +487,7 @@
   parent: [ BaseAnomalite ]
   id: MobAnomaliteBluespace
   suffix: Bluespace
-  description: A non-euclidean little sprite, born from the leftover energies of an anomaly core.
+  description: Маленький неевклідів спрайт, що народився із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/bluespace.rsi
@@ -529,8 +529,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteElectricity
-  suffix: Electricity
-  description: A shocking little sprite, born from the leftover energies of an anomaly core.
+  suffix: Електрика
+  description: Шокуючий маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/electric.rsi
@@ -572,8 +572,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteFlora
-  suffix: Flora
-  description: A blossoming little sprite, born from the leftover energies of an anomaly core.
+  suffix: Флора
+  description: Квітучий маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/flower.rsi
@@ -615,8 +615,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteShadow
-  suffix: Shadow
-  description: A dark little sprite, born from the leftover energies of an anomaly core.
+  suffix: Тінь
+  description: Темний маленький спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/shadow.rsi
@@ -664,8 +664,8 @@
 - type: entity
   parent: [ BaseAnomalite ]
   id: MobAnomaliteTech
-  suffix: Tech
-  description: A cybernetic little sprite, born from the leftover energies of an anomaly core.
+  suffix: техн
+  description: Маленький кібернетичний спрайт, народжений із залишків енергії ядра аномалії.
   components:
   - type: Icon
     sprite: _Impstation/Mobs/Anomalites/tech.rsi

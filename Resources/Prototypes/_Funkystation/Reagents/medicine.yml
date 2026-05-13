@@ -1,7 +1,7 @@
 # burn
 - type: reagent
   id: Oxandrolone
-  name: reagent-name-oxandrolone
+  name: reagent-name-exotic
   group: Medicine
   desc: reagent-desc-oxandrolone
   physicalDesc: reagent-physical-desc-translucent
@@ -50,7 +50,7 @@
 # brute
 - type: reagent
   id: SalicylicAcid
-  name: reagent-name-salicylicacid
+  name: назва реагенту-саліцилова кислота
   group: Medicine
   desc: reagent-desc-salicylicacid
   physicalDesc: reagent-physical-desc-mucus-like
@@ -92,7 +92,7 @@
 # airloss
 - type: reagent
   id: Salbutamol
-  name: reagent-name-salbutamol
+  name: назва реагенту-сальбутамол
   group: Medicine
   desc: reagent-desc-salbutamol
   physicalDesc: reagent-physical-desc-cloudy
@@ -129,7 +129,7 @@
 
 - type: reagent
   id: Convermol
-  name: reagent-name-convermol
+  name: Роль медика Nukeops
   group: Medicine
   desc: reagent-desc-convermol
   physicalDesc: reagent-physical-desc-abrasive
@@ -172,7 +172,7 @@
 # pyro
 - type: reagent
   id: Pyroxadone
-  name: reagent-name-pyroxadone
+  name: реагент-назва-піроксадон
   group: Medicine
   desc: reagent-desc-pyroxadone
   physicalDesc: reagent-physical-desc-fizzy
@@ -231,9 +231,9 @@
 
 - type: reagent
   id: Natusixadone
-  name: reagent-name-natusixadone
+  name: назва-реагенту-натусіксадон
   group: Medicine
-  desc: reagent-desc-natusixadone
+  desc: steal-target-groups-clothing-neck-goldmedal
   physicalDesc: reagent-physical-desc-bubbling
   flavor: medicine
   color: "#acbb27"

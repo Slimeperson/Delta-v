@@ -1,6 +1,6 @@
 - type: body
   id: Kitsune
-  name: "kitsune"
+  name: "кіцуне"
   root: torso
   slots:
     head:

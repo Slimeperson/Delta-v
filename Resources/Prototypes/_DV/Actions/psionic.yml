@@ -10,8 +10,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionDispel
-  name: Dispel
-  description: Dispel summoned entities such as familiars or forcewalls.
+  name: Розвіяти
+  description: Розсіювати покликаних сутностей, таких як фамільяри або силові стіни.
   components:
   - type: Action
     icon:
@@ -29,8 +29,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionMassSleep
-  name: Mass Sleep
-  description: Put targets in a small area to sleep.
+  name: Масовий сон
+  description: Покладіть мішені на невелику територію для сну.
   components:
   - type: Action
     icon:
@@ -44,7 +44,7 @@
   parent: BasePsionicAction
   id: ActionMindSwapPsionic
   name: Mind Swap
-  description: Swap minds with the target. Either can change back after 20 seconds.
+  description: Поміняйтеся думками з метою. Будь-яка з них може повернутися через 20 секунд.
   components:
   - type: Action
     icon:
@@ -62,8 +62,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionMindSwapReturn
-  name: Reverse Mind Swap
-  description: Return to your original body.
+  name: Зворотний обмін думками
+  description: Поверніться до свого початкового тіла.
   components:
   - type: Action
     icon:
@@ -77,8 +77,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionNoosphericZap
-  name: Noospheric Zap
-  description: Shocks the target and leaves them stunned and stuttering.
+  name: Ноосферний зап
+  description: Шокує ціль і залишає її приголомшеною та заїкається.
   components:
   - type: Action
     icon:
@@ -94,8 +94,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionPyrokinesis
-  name: Pyrokinesis
-  description: Light a flammable target on fire.
+  name: Пірокінез
+  description: Підпалити легкозаймисту мішень.
   components:
   - type: Action
     icon:
@@ -111,8 +111,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionMetapsionicPulse
-  name: Metapsionic Pulse
-  description: Send a mental pulse through a specified area to see if there are any psychics.
+  name: Метапсіонний пульс
+  description: Надішліть ментальний імпульс через вказану область, щоб побачити, чи є екстрасенси.
   components:
   - type: Action
     icon:
@@ -129,8 +129,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionEruption
-  name: Psionic Eruption
-  description: Unleash a powerful psionic eruption destroying you and everything around you.
+  name: Псіонічне виверження
+  description: Дайте волю потужному псіонічному виверженню, що знищить вас і все навколо.
   components:
   - type: Action
     icon:
@@ -144,8 +144,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionPsionicRegeneration
-  name: Psionic Regeneration
-  description: Push your natural metabolism to the limit to power your body's regenerative capability.
+  name: Псіонічна регенерація
+  description: Доведіть свій природний метаболізм до межі, щоб активізувати регенераційну здатність вашого тіла.
   components:
   - type: Action
     icon:
@@ -159,8 +159,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionTelegnosis
-  name: Telegnosis
-  description: Create a telegnostic projection to remotely observe things.
+  name: Телегноз
+  description: Створіть телегностичну проекцію, щоб дистанційно спостерігати за речами.
   components:
   - type: Action
     icon:
@@ -174,8 +174,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionPsionicInvisibility
-  name: Psionic Invisibility
-  description: Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+  name: object-condition-culttier-title
+  description: Зробіть себе невидимим для будь-якої сутності, яка потенційно може бути психічною. Борги, тварини і так далі не впливають.
   components:
   - type: Action
     icon:
@@ -189,8 +189,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionPrecognition
-  name: Precognition
-  description: See into the future to get a hint about the next random event.
+  name: Передбачення
+  description: Зазирніть у майбутнє, щоб отримати підказку про наступну випадкову подію.
   components:
   - type: Action
     icon:
@@ -205,8 +205,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionPsychokineticScream
-  name: Psychokinetic Scream
-  description: Emit a blood-curdling scream that shatters all lights in the area.
+  name: Психокінетичний крик
+  description: Видайте крик, від якого холоне кров, і розбийте всі вогні в цьому місці.
   components:
   - type: Action
     icon: { sprite: _DV/Actions/shatterlights.rsi, state: shatter-lights }
@@ -217,8 +217,8 @@
 - type: entity
   parent: BasePsionicAction
   id: ActionFracturedForm
-  name: Swap Form
-  description: Switch to one of your alternate forms, if you have one. This can also be done by sleeping.
+  name: Форма обміну
+  description: Перейдіть на одну з альтернативних форм, якщо вона у вас є. Це також можна зробити за допомогою сну.
   components:
   - type: Action
     icon:

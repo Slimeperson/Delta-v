@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltChampion
-  name: championship belt
-  description: Proves to the world that you are the strongest!
+  name: чемпіонський пояс
+  description: Доведи світові, що ти найсильніший!
   components:
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltSuspendersRed
-  name: red suspenders
-  description: For holding your pants up.
+  name: червоні підтяжки
+  description: За те, що тримав штани.
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_red.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingBeltSuspendersRed
   id: ClothingBeltSuspendersBlack
-  name: black suspenders
+  name: чорні підтяжки
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_black.rsi

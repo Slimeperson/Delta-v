@@ -1,7 +1,7 @@
 - type: job
   id: Quartermaster
   name: job-name-qm
-  description: job-description-qm
+  description: посадовий опис-qm
   playTimeTracker: JobQuartermaster
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:

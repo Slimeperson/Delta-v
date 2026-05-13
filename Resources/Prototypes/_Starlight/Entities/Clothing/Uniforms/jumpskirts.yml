@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtClown
-  name: clown skirt
-  description: HONK!
+  name: спідниця-клоун
+  description: СВИДНІТЬ!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/clown.rsi

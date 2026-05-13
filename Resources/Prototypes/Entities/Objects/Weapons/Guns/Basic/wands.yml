@@ -17,10 +17,10 @@
     capacity: 5
 
 - type: entity
-  name: wand of carp polymorph
+  name: паличка коропа поліморф
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
-  description: For when you need a carp filet quick and the clown is looking juicy.
+  description: Для тих випадків, коли філе коропа потрібно швидко, а клоун виглядає соковитим.
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCarp
@@ -28,10 +28,10 @@
     count: 5
 
 - type: entity
-  name: wand of monkey polymorph
+  name: паличка поліморфа мавпи
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
-  description: For when you need a monkey friend.
+  description: Коли вам потрібен друг-мавпа.
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltMonkey
@@ -39,10 +39,10 @@
     count: 5
 
 - type: entity
-  name: wand of fireball
+  name: паличка вогняної кулі
   parent: WeaponWandBase
   id: WeaponWandFireball
-  description: Great big balls of fire!
+  description: Великі вогняні кулі!
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
     count: 5
 
 - type: entity
-  name: wand of the locker
-  description: Stuff nerds at a distance!
+  name: паличка шафки
+  description: Забивай ботанів на відстані!
   parent: WeaponWandBase
   id: WeaponWandLocker
   components:
@@ -97,10 +97,10 @@
           False: { visible: False }
 
 - type: entity
-  name: magical wand of instant death
+  name: чарівна паличка миттєвої смерті
   parent: WeaponWandBase
   id: WeaponWandDeath
-  description: Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+  description: Лише найкращі та найрозумніші з дослідницької команди Space Wizards працювали разом, щоб створити цю красу.
   components:
   - type: Sprite
     layers:
@@ -117,10 +117,10 @@
     count: 3
 
 - type: entity
-  name: wand of entrance
+  name: паличка входу
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
-  description: For when you need a get-away route.
+  description: Коли вам потрібен маршрут для від’їзду.
   components:
   - type: Sprite
     layers:

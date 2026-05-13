@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: Salvage
-  name: law-salvage-name
+  name: закон-рятувальна-ім'я
   laws:
   - Salvage1
   - Salvage2

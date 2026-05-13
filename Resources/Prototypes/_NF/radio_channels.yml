@@ -1,6 +1,6 @@
 - type: radioChannel
   id: Traffic
-  name: chat-radio-traffic
+  name: чат-радіо-трафік
   keycode: 'd'
   frequency: 1022
   color: "#CC6633"

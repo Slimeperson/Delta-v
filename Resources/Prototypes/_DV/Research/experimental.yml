@@ -1,6 +1,6 @@
 - type: technology
   id: ArtifactDisplayCases
-  name: research-technology-artifact-display
+  name: дослідження-технології-артефакт-дисплей
   icon:
     sprite: _DV/Structures/Storage/display_cases.rsi
     state: display_case_icon
@@ -12,7 +12,7 @@
 
 - type: technology
   id: PsionicProsthetics
-  name: research-technology-psionic-prosthetics
+  name: дослідження-технології-псіотехніка-протезування
   icon:
     sprite: _DV/Interface/Actions/actions_psionics.rsi
     state: dispel
@@ -26,7 +26,7 @@
 
 - type: technology
   id: DirectedRadiation
-  name: research-technology-directed-radiation
+  name: дослідження-технології-спрямованого-випромінювання
   icon:
     sprite: _DV/Objects/Weapons/Guns/Battery/microwave_emitter.rsi
     state: icon

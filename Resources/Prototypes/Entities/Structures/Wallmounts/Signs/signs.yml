@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalBar
-  name: bar sign
+  name: бар знак
   description: A direction sign, pointing out which way the bar is.
   components:
   - type: Sprite
@@ -349,7 +349,7 @@
 - type: entity
   parent: BaseSign
   id: SignBar
-  name: bar sign
+  name: бар знак
   description: A sign indicating the bar.
   components:
   - type: Sprite
@@ -385,7 +385,7 @@
   parent: BaseSign
   id: SignBarbershop
   name: barbershop sign
-  description: A sign indicating the barbershop.
+  description: Вивіска, що вказує на перукарню.
   components:
   - type: Sprite
     state: barbershop
@@ -393,8 +393,8 @@
 - type: entity
   parent: BaseSign
   id: SignBio
-  name: bio sign
-  description: A sign indicating the biology lab.
+  name: біо знак
+  description: Знак, що вказує на лабораторію біології.
   components:
   - type: Sprite
     state: bio
@@ -402,8 +402,8 @@
 - type: entity
   parent: BaseSign
   id: SignBiohazard
-  name: biohazard sign
-  description: A sign indicating a biohazard.
+  name: знак біологічної небезпеки
+  description: Знак, що вказує на біологічну небезпеку.
   components:
   - type: Sprite
     state: biohazard
@@ -411,8 +411,8 @@
 - type: entity
   parent: BaseSign
   id: SignBridge
-  name: bridge sign
-  description: A sign indicating the bridge.
+  name: знак міст
+  description: Знак, що вказує на міст.
   components:
   - type: Sprite
     state: bridge
@@ -420,8 +420,8 @@
 - type: entity
   parent: BaseSign
   id: SignCanisters
-  name: canisters sign
-  description: A sign warning the viewer about pressurised canisters.
+  name: каністри знак
+  description: Табличка, що попереджає глядача про балончики під тиском.
   components:
   - type: Sprite
     state: canisters
@@ -429,8 +429,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargo
-  name: logistics sign # DeltaV - Logistics Department replacing Cargo
-  description: A sign indicating the logistics area. # DeltaV - Logistics Department replacing Cargo
+  name: знак логістики # DeltaV - Відділ логістики замінює Cargo
+  description: Знак, що позначає логістичну зону. # DeltaV - відділ логістики замість Cargo
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - Logistics Department replacing Cargo
@@ -439,8 +439,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargoDock
-  name: cargo dock sign
-  description: A sign indicating a cargo dock.
+  name: вантажний док знак
+  description: Знак, що вказує на вантажний док.
   components:
   - type: Sprite
     state: cargo_dock
@@ -448,8 +448,8 @@
 - type: entity
   parent: BaseSign
   id: SignChapel
-  name: chapel sign
-  description: A sign indicating the chapel.
+  name: знак каплиці
+  description: Знак, що вказує на каплицю.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV: Epi-themed chapel sprite
@@ -458,8 +458,8 @@
 - type: entity
   parent: BaseSign
   id: SignChem
-  name: chemistry sign
-  description: A sign indicating the chemistry lab.
+  name: знак хімії
+  description: Знак, що вказує на хімічну лабораторію.
   components:
   - type: Sprite
     state: chem
@@ -467,8 +467,8 @@
 - type: entity
   parent: BaseSign
   id: SignCloning
-  name: cloning sign
-  description: A sign indicating the cloning lab.
+  name: знак клонування
+  description: Знак, що вказує на лабораторію клонування.
   components:
   - type: Sprite
     state: cloning
@@ -476,8 +476,8 @@
 - type: entity
   parent: BaseSign
   id: SignConference
-  name: conference room sign
-  description: Where work happens.
+  name: знак конференц-залу
+  description: Де відбувається робота.
   components:
   - type: Sprite
     state: conference_room
@@ -485,8 +485,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryo
-  name: cryosleep sign
-  description: Just like that? You're gonna chicken out?
+  name: ознака кріосну
+  description: Просто так? Ти збираєшся скинутись?
   components:
   - type: Sprite
     state: cryo
@@ -495,8 +495,8 @@
 - type: entity
   parent: BaseSign
   id: SignDisposalSpace
-  name: disposal sign
-  description: A sign indicating a disposal area.
+  name: знак утилізації
+  description: Знак, що вказує на місце утилізації.
   components:
   - type: Sprite
     state: deathsposal
@@ -504,8 +504,8 @@
 - type: entity
   parent: BaseSign
   id: SignDoors
-  name: doors sign
-  description: A sign indicating doors.
+  name: знак дверей
+  description: Знак, що вказує на двері.
   components:
   - type: Sprite
     state: doors
@@ -513,8 +513,8 @@
 - type: entity
   parent: BaseSign
   id: SignRestroom
-  name: restroom sign
-  description: A sign indicating where you go to... What do you do here again?
+  name: знак туалету
+  description: Знак, який вказує, куди ви йдете... Що ви знову тут робите?
   components:
   - type: Sprite
     state: restroom
@@ -522,8 +522,8 @@
 - type: entity
   parent: BaseSign
   id: SignMaterials
-  name: materials sign
-  description: An omen to the juicy vault of steel, glass, and plastic that lays before you.
+  name: знак матеріалів
+  description: Знак соковитого склепіння зі сталі, скла та пластику, що лежить перед вами.
   components:
   - type: Sprite
     state: mats
@@ -531,8 +531,8 @@
 - type: entity
   parent: BaseSign
   id: SignEngine
-  name: power sign
-  description: Where the powa happens.
+  name: знак влади
+  description: Де відбувається powa.
   components:
   - type: Sprite
     state: engine
@@ -540,8 +540,8 @@
 - type: entity
   parent: BaseSign
   id: SignEngineering
-  name: engineering sign
-  description: A sign indicating the engineering area.
+  name: інженерний знак
+  description: Знак, що позначає інженерну зону.
   components:
   - type: Sprite
     state: eng
@@ -549,8 +549,8 @@
 - type: entity
   parent: BaseSign
   id: SignEscapePods
-  name: escape pods sign
-  description: A sign indicating the escape pods.
+  name: знак рятувальних контейнерів
+  description: Знак, що вказує на рятувальні капсули.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/signs.rsi # Nyanotrasen - Give pods sign directional sprites
@@ -560,8 +560,8 @@
 - type: entity
   parent: BaseSign
   id: SignEVA
-  name: EVA sign
-  description: A sign indicating an EVA area. EVA equipment may be required beyond this point.
+  name: Єва знак
+  description: Знак, що вказує на зону EVA. Після цього може знадобитися обладнання EVA.
   components:
   - type: Sprite
     state: eva
@@ -569,8 +569,8 @@
 - type: entity
   parent: BaseSign
   id: SignElectrical
-  name: electrical sign
-  description: A sign indicating an electrical hazard.
+  name: електричний знак
+  description: лікар
   components:
   - type: Sprite
     state: electrical
@@ -578,8 +578,8 @@
 - type: entity
   parent: BaseSign
   id: SignExamroom
-  name: examination room sign
-  description: A sign indicating a medical examination room.
+  name: знак екзаменаційної кімнати
+  description: Табличка, яка вказує на кабінет медичного огляду.
   components:
   - type: Sprite
     state: examroom
@@ -587,8 +587,8 @@
 - type: entity
   parent: BaseSign
   id: SignFire
-  name: fire sign
-  description: A sign indicating a fire hazard.
+  name: вогняний знак
+  description: Знак, що вказує на небезпеку пожежі.
   components:
   - type: Sprite
     state: fire
@@ -596,8 +596,8 @@
 - type: entity
   parent: BaseSign
   id: SignGravity
-  name: gravity sign
-  description: A sign indicating the gravity generator.
+  name: Цей плакат попереджає вас про атлетичного екзоморфа, здатного відтягнути будь-кого, кого спіймають; тож не попадися!"
+  description: Знак, що вказує на генератор сили тяжіння.
   components:
   - type: Sprite
     state: gravi
@@ -605,8 +605,8 @@
 - type: entity
   parent: BaseSign
   id: SignHead
-  name: head sign
-  description: An official sign indicating the dwellings of a Nanotrasen-certified head of department.
+  name: знак голови
+  description: Офіційна табличка із зазначенням житла начальника відділу, сертифікованого Нанотрасеном.
   components:
   - type: Sprite
     state: commander
@@ -614,8 +614,8 @@
 - type: entity
   parent: BaseSign
   id: SignHydro1
-  name: hydro sign
-  description: A sign indicating a hydroponics area.
+  name: гідро знак
+  description: Знак, що вказує на зону гідропоніки.
   components:
   - type: Sprite
     state: hydro
@@ -623,8 +623,8 @@
 - type: entity
   parent: BaseSign
   id: SignInterrogation
-  name: interrogation sign
-  description: A sign indicating an interrogation room.
+  name: знак допиту
+  description: Знак, що вказує на кімнату для допитів.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite security signs
@@ -633,8 +633,8 @@
 - type: entity
   parent: BaseSign
   id: SignJanitor
-  name: janitor sign
-  description: A sign labelling an area where the janitor works.
+  name: знак двірника
+  description: Знак, що позначає територію, де працює двірник.
   components:
   - type: Sprite
     state: janitor
@@ -642,8 +642,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaundromat
-  name: laundromat sign
-  description: A sign indicating the laundromat.
+  name: знак пральні
+  description: Знак, що вказує на пральню.
   components:
   - type: Sprite
     state: laundromat
@@ -651,8 +651,8 @@
 - type: entity
   parent: BaseSign
   id: SignLawyer
-  name: law sign
-  description: A sign indicating the presence of the (typically absent) rule of law.
+  name: знак закону
+  description: Знак, що вказує на наявність (як правило, відсутню) норми права.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite security signs
@@ -661,8 +661,8 @@
 - type: entity
   parent: BaseSign
   id: SignLibrary
-  name: library sign
-  description: A sign indicating the library.
+  name: знак бібліотеки
+  description: Знак, що вказує на бібліотеку.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite library sign
@@ -671,8 +671,8 @@
 - type: entity
   parent: BaseSign
   id: SignMail
-  name: mail sign
-  description: A sign indicating mail.
+  name: поштовий знак
+  description: Знак, що вказує на пошту.
   components:
   - type: Sprite
     state: mail
@@ -680,8 +680,8 @@
 - type: entity
   parent: BaseSign
   id: SignMedical
-  name: medbay sign
-  description: A sign indicating the medical bay.
+  name: знак медбаю
+  description: Знак, що вказує на медичну бухту.
   components:
   - type: Sprite
     state: medbay
@@ -689,8 +689,8 @@
 - type: entity
   parent: BaseSign
   id: SignMorgue
-  name: morgue sign
-  description: A sign indicating the morgue.
+  name: знак моргу
+  description: Знак, що вказує на морг.
   components:
   - type: Sprite
     state: morgue
@@ -698,8 +698,8 @@
 - type: entity
   parent: BaseSign
   id: SignNews
-  name: news sign
-  description: A sign indicating where the Reporter works.
+  name: новинний знак
+  description: Табличка, яка вказує, де працює Репортер.
   components:
   - type: Sprite
     state: news
@@ -707,8 +707,8 @@
 - type: entity
   parent: BaseSign
   id: SignNosmoking
-  name: no smoking sign
-  description: A sign indicating that smoking is not allowed in the vicinity.
+  name: знак заборони куріння
+  description: Табличка, яка вказує, що поблизу заборонено палити.
   components:
   - type: Sprite
     state: nosmoking
@@ -716,8 +716,8 @@
 - type: entity
   parent: BaseSign
   id: SignGenpop
-  name: genpop sign
-  description: A sign indicating the genpop prison.
+  name: SciDrobe
+  description: Знак, що вказує на генпопську тюрму.
   components:
   - type: Sprite
     state: genpop
@@ -725,8 +725,8 @@
 - type: entity
   parent: BaseSign
   id: SignPrison
-  name: prison sign
-  description: A sign indicating the prison.
+  name: знак в'язниці
+  description: Знак, що вказує на в'язницю.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite security signs
@@ -735,8 +735,8 @@
 - type: entity
   parent: BaseSign
   id: SignPsychology
-  name: psychology sign
-  description: A sign labelling an area where the Psychologist works.
+  name: знак психології
+  description: Знак, що позначає територію, де працює психолог.
   components:
   - type: Sprite
     state: psychology
@@ -744,8 +744,8 @@
 - type: entity
   parent: BaseSign
   id: SignReception
-  name: reception sign
-  description: A sign indicating the reception.
+  name: знак прийому
+  description: Знак, що вказує на прийом.
   components:
   - type: Sprite
     state: reception
@@ -753,8 +753,8 @@
 - type: entity
   parent: BaseSign
   id: SignRND
-  name: research and development sign
-  description: A sign indicating the research and development lab.
+  name: екстрений костюм EVA
+  description: Знак, що вказує на лабораторію досліджень і розробок.
   components:
   - type: Sprite
     state: rnd
@@ -762,8 +762,8 @@
 - type: entity
   parent: BaseSign
   id: SignRobo
-  name: robo sign
-  description: A sign indicating the robotics lab.
+  name: знак robo
+  description: Знак, що вказує на лабораторію робототехніки.
   components:
   - type: Sprite
     state: robo
@@ -771,8 +771,8 @@
 - type: entity
   parent: BaseSign
   id: SignSalvage
-  name: salvage sign
-  description: A sign indicating the salvage area.
+  name: знак порятунку
+  description: Знак, що вказує на місце ліквідації.
   components:
   - type: Sprite
     state: salvage
@@ -780,8 +780,8 @@
 - type: entity
   parent: BaseSign
   id: SignScience
-  name: epistemics sign # DeltaV - Epistemics Department replacing Science
-  description: A sign indicating the epistemics area. # DeltaV - Epistemics Department replacing Science
+  name: знак епістеміки # DeltaV - Відділ епістеміки замінює науку
+  description: Знак, що вказує на епістемічну зону. # DeltaV - Департамент епістемології замінює науку
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - Epistemics Department replacing Science
@@ -790,8 +790,8 @@
 - type: entity
   parent: BaseSign
   id: SignServer
-  name: server sign
-  description: Ever heard of Big Data? This is it, chump. The biggest.
+  name: знак сервера
+  description: Ви коли-небудь чули про великі дані? Ось воно, болван. Найбільший.
   components:
   - type: Sprite
     state: data
@@ -799,8 +799,8 @@
 - type: entity
   parent: BaseSign
   id: SignCans
-  name: canisters sign
-  description: A sign indicating the auspicious presence of gas canisters.
+  name: каністри знак
+  description: Знак, що вказує на сприятливу наявність газових балончиків.
   components:
   - type: Sprite
     state: cans
@@ -808,8 +808,8 @@
 - type: entity
   parent: BaseSign
   id: SignShipDock
-  name: evac sign
-  description: A sign indicating the where the evac shuttle will (likely) arrive.
+  name: знак евакуації
+  description: Знак, який вказує, куди (ймовірно) прибуде шатл для евакуації.
   components:
   - type: Sprite
     state: dock
@@ -817,8 +817,8 @@
 - type: entity
   parent: BaseSign
   id: SignSpace
-  name: space sign
-  description: A sign warning that the area ahead is nothing but cold, empty space.
+  name: тонкий
+  description: Знак, який попереджає, що територія попереду — це не що інше, як холодне порожнє місце.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/signs.rsi # Nyanotrasen - Give space sign directional sprites
@@ -828,8 +828,8 @@
 - type: entity
   parent: BaseSign
   id: SignSurgery
-  name: surgery sign
-  description: A sign indicating the operating theater.
+  name: знак операції
+  description: Знак, що вказує на операційну.
   components:
   - type: Sprite
     state: surgery
@@ -837,8 +837,8 @@
 - type: entity
   parent: BaseSign
   id: SignTelecomms
-  name: telecomms sign
-  description: A sign indicating the telecommunications room.
+  name: телекомунікаційний знак
+  description: Табличка, яка вказує на приміщення телекомунікацій.
   components:
   - type: Sprite
     state: telecoms
@@ -846,8 +846,8 @@
 - type: entity
   parent: BaseSign
   id: SignToxins
-  name: toxins sign
-  description: A sign indicating the toxin lab.
+  name: знак токсинів
+  description: Знак, що вказує на лабораторію токсинів.
   components:
   - type: Sprite
     state: toxins
@@ -855,8 +855,8 @@
 - type: entity
   parent: BaseSign
   id: SignVault
-  name: vault sign
-  description: A sign indicating the vault. Who knows what secrets lie inside?
+  name: знак склепіння
+  description: Знак, що вказує на сховище. Хто знає, які секрети ховаються всередині?
   components:
   - type: Sprite
     state: vault
@@ -864,8 +864,8 @@
 - type: entity
   parent: BaseSign
   id: SignVirology
-  name: virology sign
-  description: A sign indicating the virology lab.
+  name: ознака вірусології
+  description: Знак, що вказує на вірусологічну лабораторію.
   components:
   - type: Sprite
     state: virology
@@ -873,8 +873,8 @@
 - type: entity
   parent: BaseSign
   id: SignCorrosives
-  name: corrosives warning sign
-  description: A sign indicating a corrosive materials hazard.
+  name: попереджувальний знак корозії
+  description: Знак, що вказує на небезпеку корозійних матеріалів.
   components:
   - type: Sprite
     state: corrosives
@@ -882,8 +882,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryogenics
-  name: cryogenics warning sign
-  description: A sign indicating a cryogenic materials hazard. Bring a jacket!
+  name: кріогенний попереджувальний знак
+  description: Знак, що вказує на небезпеку кріогенних матеріалів. Бери з собою куртку!
   components:
   - type: Sprite
     state: cryogenics
@@ -891,8 +891,8 @@
 - type: entity
   parent: BaseSign
   id: SignDanger
-  name: danger warning sign
-  description: A sign warning against some danger.
+  name: попереджувальний знак про небезпеку
+  description: Знак, що попереджає про якусь небезпеку.
   components:
   - type: Sprite
     state: danger
@@ -900,8 +900,8 @@
 - type: entity
   parent: BaseSign
   id: SignExplosives
-  name: explosives warning sign
-  description: A sign indicating an explosive materials hazard.
+  name: попереджувальний знак вибухових речовин
+  description: Знак, що вказує на небезпеку вибухонебезпечних матеріалів.
   components:
   - type: Sprite
     state: explosives
@@ -909,8 +909,8 @@
 - type: entity
   parent: BaseSign
   id: SignFlammable
-  name: flammable warning sign
-  description: A sign indicating a flammable materials hazard.
+  name: горючий попереджувальний знак
+  description: Знак, що вказує на небезпеку легкозаймистих матеріалів.
   components:
   - type: Sprite
     state: flammable
@@ -918,8 +918,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaser
-  name: laser warning sign
-  description: A sign indicating a laser hazard.
+  name: знак попередження про лазер
+  description: Знак, що вказує на небезпеку лазера.
   components:
   - type: Sprite
     state: laser
@@ -927,8 +927,8 @@
 - type: entity
   parent: BaseSign
   id: SignMagnetics
-  name: magnetics warning sign
-  description: A sign indicating a magnetic materials hazard.
+  name: магнітний попереджувальний знак
+  description: Знак, що вказує на небезпеку магнітних матеріалів.
   components:
   - type: Sprite
     state: magnetics
@@ -936,8 +936,8 @@
 - type: entity
   parent: BaseSign
   id: SignMemetic
-  name: memetic warning sign
-  description: A sign indicating a memetic hazard.
+  name: меметичний попереджувальний знак
+  description: Знак, що вказує на меметичну небезпеку.
   components:
   - type: Sprite
     state: memetic
@@ -945,8 +945,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecure
-  name: secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: безпечний знак
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: secure
@@ -954,8 +954,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecurearea
-  name: secure area sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: знак безпечної зони
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: securearea
@@ -964,8 +964,8 @@
 - type: entity
   parent: BaseSign
   id: SignShock
-  name: shock sign
-  description: A sign indicating an electrical hazard.
+  name: знак шоку
+  description: лікар
   components:
   - type: Sprite
     state: shock
@@ -973,8 +973,8 @@
 - type: entity
   parent: BaseSign
   id: SignOptical
-  name: optical warning sign
-  description: A sign indicating an optical radiation hazard.
+  name: оптичний попереджувальний знак
+  description: Знак, що вказує на небезпеку оптичного випромінювання.
   components:
   - type: Sprite
     state: optical
@@ -982,8 +982,8 @@
 - type: entity
   parent: BaseSign
   id: SignOxidants
-  name: oxidants warning sign
-  description: A sign indicating an oxidizing agent hazard.
+  name: попереджувальний знак окислювачів
+  description: Знак, що вказує на небезпеку окислювача.
   components:
   - type: Sprite
     state: oxidants
@@ -991,8 +991,8 @@
 - type: entity
   parent: BaseSign
   id: SignRadiation
-  name: radiation warning sign
-  description: A sign indicating an ionizing radiation hazard.
+  name: радіаційний попереджувальний знак
+  description: Знак, що вказує на небезпеку іонізуючого випромінювання.
   components:
   - type: Sprite
     state: radiation
@@ -1000,8 +1000,8 @@
 - type: entity
   parent: BaseSign
   id: SignXenobio
-  name: xenobio sign
-  description: A sign indicating the xenobiology lab.
+  name: знак ксенобіо
+  description: Знак, що вказує на ксенобіологічну лабораторію.
   components:
   - type: Sprite
     state: xenobio
@@ -1009,8 +1009,8 @@
 - type: entity
   parent: BaseSign
   id: SignZomlab
-  name: zombie lab sign
-  description: The final remains of a shut-down Nanotrasen research project that aimed to harness the powers of Romerol. I wonder how that went...
+  name: знак лабораторії зомбі
+  description: Останні залишки закритого дослідницького проекту Nanotrasen, який мав на меті використати сили Ромероля. Цікаво, як це було...
   components:
   - type: Sprite
     state: zomlab
@@ -1018,8 +1018,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureMedRed
-  name: red secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: червоний безпечний знак
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: medium_secure_red
@@ -1027,8 +1027,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureSmall
-  name: small secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: маленький безпечний знак
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: small_secure
@@ -1036,8 +1036,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureSmallRed
-  name: small red secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: маленький червоний безпечний знак
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: small_secure_red
@@ -1045,8 +1045,8 @@
 - type: entity
   parent: BaseSign
   id: SignBlankMed
-  name: blank sign
-  description: A blank sign.
+  name: пустий знак
+  description: гарнітура
   components:
   - type: Sprite
     state: medium_blank
@@ -1054,8 +1054,8 @@
 - type: entity
   parent: BaseSign
   id: SignMagneticsMed
-  name: magnetics sign
-  description: A sign indicating the use of magnets.
+  name: магнітний знак
+  description: Знак, що вказує на використання магнітів.
   components:
   - type: Sprite
     state: medium_magnetics
@@ -1063,8 +1063,8 @@
 - type: entity
   parent: BaseSign
   id: SignDangerMed
-  name: danger sign
-  description: A sign warning against some form of danger.
+  name: знак небезпеки
+  description: Знак, що попереджає про певну небезпеку.
   components:
   - type: Sprite
     state: medium_danger
@@ -1072,8 +1072,8 @@
 - type: entity
   parent: BaseSign
   id: ExplosivesSignMed
-  name: explosives sign
-  description: A sign indicating explosive materials.
+  name: знак вибухових речовин
+  description: Знак, що позначає вибухові речовини.
   components:
   - type: Sprite
     state: medium_explosives
@@ -1081,8 +1081,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryogenicsMed
-  name: cryogenics sign
-  description: A sign indicating cryogenic materials.
+  name: кріогенний знак
+  description: Знак, що позначає кріогенні матеріали.
   components:
   - type: Sprite
     state: medium_cryogenics
@@ -1090,8 +1090,8 @@
 - type: entity
   parent: BaseSign
   id: SignElectricalMed
-  name: electrical sign
-  description: A sign indicating an electrical hazard.
+  name: електричний знак
+  description: лікар
   components:
   - type: Sprite
     state: medium_electrical
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: BaseSign
   id: SignBiohazardMed
-  name: biohazard sign
-  description: A sign indicating a biohazard.
+  name: знак біологічної небезпеки
+  description: Знак, що вказує на біологічну небезпеку.
   components:
   - type: Sprite
     state: medium_biohazard
@@ -1108,8 +1108,8 @@
 - type: entity
   parent: BaseSign
   id: SignRadiationMed
-  name: radiation sign
-  description: A sign indicating an ionizing radiation hazard.
+  name: знак радіації
+  description: Знак, що вказує на небезпеку іонізуючого випромінювання.
   components:
   - type: Sprite
     state: medium_radiation
@@ -1117,8 +1117,8 @@
 - type: entity
   parent: BaseSign
   id: SignFlammableMed
-  name: flammable sign #when flammable component is done, this sign needs it
-  description: A sign indicating flammable materials.
+  name: горючий знак #коли легкозаймистий компонент готовий, цей знак потребує його
+  description: Знак, що вказує на легкозаймисті матеріали.
   components:
   - type: Sprite
     state: medium_flammable
@@ -1126,8 +1126,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaserMed
-  name: laser sign
-  description: A sign indicating a laser hazard.
+  name: лазерний знак
+  description: Знак, що вказує на небезпеку лазера.
   components:
   - type: Sprite
     state: medium_laser
@@ -1135,8 +1135,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureMed
-  name: secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: безпечний знак
+  description: Сильно броньований костюм із зеленими акцентами, який захищає від надмірних пошкоджень.
   components:
   - type: Sprite
     state: medium_secure
@@ -1145,8 +1145,8 @@
 - type: entity
   parent: BaseSign
   id: SignVox
-  name: vox area sign
-  description: A sign indicating that the area ahead is intended for Vox crew members and does not have an oxygen atmosphere.
+  name: знак області vox
+  description: Знак, який вказує, що зона попереду призначена для членів екіпажу Vox і не має кисневої атмосфери.
   components:
   - type: Sprite
     state: vox
@@ -1156,8 +1156,8 @@
 - type: entity
   parent: BaseSign
   id: WarningAir
-  name: air warning sign
-  description: WARNING! Air flow tube. Ensure the flow is disengaged before working.
+  name: повітряний попереджувальний знак
+  description: УВАГА! Трубка потоку повітря. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_air
@@ -1165,8 +1165,8 @@
 - type: entity
   parent: BaseSign
   id: WarningCO2
-  name: CO2 warning sign
-  description: WARNING! CO2 flow tube. Ensure the flow is disengaged before working.
+  name: CO2 попереджувальний знак
+  description: УВАГА! Трубка потоку CO2. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_co2
@@ -1174,8 +1174,8 @@
 - type: entity
   parent: BaseSign
   id: WarningN2
-  name: N2 warning sign
-  description: WARNING! N2 flow tube. Ensure the flow is disengaged before working.
+  name: Попереджувальний знак N2
+  description: УВАГА! Проточна трубка N2. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_n2
@@ -1183,8 +1183,8 @@
 - type: entity
   parent: BaseSign
   id: WarningN2O
-  name: N2O warning sign
-  description: WARNING! N2O flow tube. Ensure the flow is disengaged before working.
+  name: Попереджувальний знак N2O
+  description: УВАГА! Проточна трубка N2O. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_n2o
@@ -1192,8 +1192,8 @@
 - type: entity
   parent: BaseSign
   id: WarningO2
-  name: O2 warning sign
-  description: WARNING! O2 flow tube. Ensure the flow is disengaged before working.
+  name: Попереджувальний знак O2
+  description: УВАГА! Проточна трубка O2. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_o2
@@ -1201,8 +1201,8 @@
 - type: entity
   parent: BaseSign
   id: WarningPlasma
-  name: plasma waste sign
-  description: WARNING! Plasma flow tube. Ensure the flow is disengaged before working.
+  name: знак відходів плазми
+  description: УВАГА! Плазмова трубка. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_plasma
@@ -1210,8 +1210,8 @@
 - type: entity
   parent: BaseSign
   id: WarningTritium
-  name: tritium waste sign
-  description: WARNING! Tritium flow tube. Ensure the flow is disengaged before working.
+  name: Карта марафону"
+  description: УВАГА! Тритієва проточна трубка. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_tritium
@@ -1219,8 +1219,8 @@
 - type: entity
   parent: BaseSign
   id: WarningWaste
-  name: atmos waste sign
-  description: WARNING! Waste flow tube. Ensure the flow is disengaged before working.
+  name: знак відходів atmos
+  description: УВАГА! Проточна трубка для відходів. Перед роботою переконайтеся, що потік відключено.
   components:
   - type: Sprite
     state: atmos_waste
@@ -1228,8 +1228,8 @@
 - type: entity
   parent: BaseSign
   id: SignSmoking
-  name: no smoking sign
-  description: A warning sign which reads 'NO SMOKING'.
+  name: знак заборони куріння
+  description: Попереджувальний знак із написом «ПАЛИТИ ЗАБОРОНЕНО».
   components:
   - type: Sprite
     state: nosmoking2
@@ -1237,8 +1237,8 @@
 - type: entity
   parent: BaseSign
   id: SignSomethingOld
-  name: old sign
-  description: Technical information of some sort, shame it's too worn-out to read.
+  name: старий знак
+  description: Якась технічна інформація, шкода, що вона занадто застаріла для читання.
   components:
   - type: Sprite
     state: something-old1
@@ -1246,8 +1246,8 @@
 - type: entity
   parent: BaseSign
   id: SignSomethingOld2
-  name: old sign
-  description: Looks like a planet crashing by some station above it. It's kinda scary.
+  name: старий знак
+  description: Схоже, що планета розбивається біля якоїсь станції над нею. Це якось страшно.
   components:
   - type: Sprite
     state: something-old2
@@ -1255,8 +1255,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecurity
-  name: security sign
-  description: A sign depicting the security insignia.
+  name: знак безпеки
+  description: Знак із зображенням знаків охорони.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite security signs
@@ -1265,8 +1265,8 @@
 - type: entity
   parent: BaseSign
   id: SignDetective
-  name: Detective sign
-  description: A sign depicting the detective's office.
+  name: Знак детектива
+  description: Табличка із зображенням кабінету детектива.
   components:
   - type: Sprite
     sprite: _DV/Structures/Wallmounts/signs.rsi # DeltaV - resprite detective signs
@@ -1275,8 +1275,8 @@
 - type: entity
   parent: BaseSign
   id: SignPlaque
-  name: golden plaque
-  description: A prestigious golden plaque.
+  name: золота табличка
+  description: Престижна золота табличка.
   components:
   - type: Sprite
     state: goldenplaque
@@ -1284,8 +1284,8 @@
 - type: entity
   parent: BaseSign
   id: SignKiddiePlaque
-  name: kiddie plaque
-  description: A modest plaque.
+  name: дитяча табличка
+  description: Скромна табличка.
   components:
   - type: Sprite
     state: kiddieplaque
@@ -1293,8 +1293,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen1
-  name: nanotrasen sign 1
-  description: Part 1.
+  name: нанотрасен знак 1
+  description: Частина 1.
   components:
   - type: Sprite
     state: nanotrasen_sign1
@@ -1303,8 +1303,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen2
-  name: nanotrasen sign 2
-  description: Part 2.
+  name: нанотрасен знак 2
+  description: Частина 2.
   components:
   - type: Sprite
     state: nanotrasen_sign2
@@ -1313,8 +1313,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen3
-  name: nanotrasen sign 3
-  description: Part 3.
+  name: нанотрасен знак 3
+  description: Частина 3.
   components:
   - type: Sprite
     state: nanotrasen_sign3
@@ -1323,8 +1323,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen4
-  name: nanotrasen sign 4
-  description: Part 4.
+  name: нанотрасен знак 4
+  description: Частина 4.
   components:
   - type: Sprite
     state: nanotrasen_sign4
@@ -1333,8 +1333,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen5
-  name: nanotrasen sign 5
-  description: Part 5.
+  name: нанотрасен знак 5
+  description: Частина 5.
   components:
   - type: Sprite
     state: nanotrasen_sign5
@@ -1343,8 +1343,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedOne
-  name: one sign
-  description: A sign with a digit, one is written on it.
+  name: один знак
+  description: Знак із цифрою, на ній написано одиницю.
   components:
   - type: Sprite
     state: one
@@ -1352,8 +1352,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedTwo
-  name: two sign
-  description: A sign with a digit, two is written on it.
+  name: два знаки
+  description: Знак, на якому написана цифра, двійка.
   components:
   - type: Sprite
     state: two
@@ -1361,8 +1361,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedThree
-  name: three sign
-  description: A sign with a digit, three is written on it.
+  name: три знаки
+  description: На ньому написано знак із цифрою три.
   components:
   - type: Sprite
     state: three
@@ -1370,8 +1370,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedFour
-  name: four sign
-  description: A sign with a digit, four is written on it.
+  name: чотири знаки
+  description: Капелюх з коробки.
   components:
   - type: Sprite
     state: four
@@ -1379,8 +1379,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedFive
-  name: five sign
-  description: A sign with a digit, five is written on it.
+  name: знак п'яти
+  description: На ньому написано знак із цифрою п’ять.
   components:
   - type: Sprite
     state: five
@@ -1388,8 +1388,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedSix
-  name: six sign
-  description: A sign with a digit, six is written on it.
+  name: шість знаків
+  description: На ньому написано знак із цифрою шість.
   components:
   - type: Sprite
     state: six
@@ -1397,8 +1397,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedSeven
-  name: seven sign
-  description: A sign with a digit, seven is written on it.
+  name: знак сім
+  description: На ньому написано знак із цифрою сім.
   components:
   - type: Sprite
     state: seven
@@ -1406,8 +1406,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedEight
-  name: eight sign
-  description: A sign with a digit, eight is written on it.
+  name: знак восьми
+  description: На ньому написано знак із цифрою вісім.
   components:
   - type: Sprite
     state: eight
@@ -1415,8 +1415,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedNine
-  name: nine sign
-  description: A sign with a digit, nine is written on it.
+  name: знак дев'ять
+  description: На ньому написано знак із цифрою дев’ять.
   components:
   - type: Sprite
     state: nine
@@ -1424,8 +1424,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedZero
-  name: zero sign
-  description: A sign with a digit, zero is written on it.
+  name: знак нуль
+  description: На ньому написаний знак з цифрою, нулем.
   components:
   - type: Sprite
     state: zero
@@ -1433,8 +1433,8 @@
 - type: entity
   parent: BaseSign
   id: SignSurvival
-  name: survival sign
-  description: A sign. "Survival" is written on it.
+  name: знак виживання
+  description: Знак. На ньому написано «Виживання».
   components:
   - type: Sprite
     state: survival
@@ -1442,8 +1442,8 @@
 - type: entity
   parent: BaseSign
   id: SignNTMine
-  name: mine sign
-  description: A sign. "Mine" is written on it.
+  name: Пожежний шолом Atmos, здатний зберегти прохолоду в будь-якій ситуації.
+  description: Знак. На ньому написано «Моє».
   components:
   - type: Sprite
     state: ntmining

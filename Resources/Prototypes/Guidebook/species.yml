@@ -1,6 +1,6 @@
 - type: guideEntry
   id: Species
-  name: guide-entry-species
+  name: довідник-вхід-вид
   text: "/ServerInfo/Guidebook/Mobs/Species.xml"
   children:
     - Arachnid
@@ -29,45 +29,45 @@
 
 - type: guideEntry
   id: Arachnid
-  name: species-name-arachnid
+  name: вид-назва-павукоподібні
   text: "/ServerInfo/Guidebook/Mobs/Arachnid.xml"
 
 - type: guideEntry
   id: Diona
-  name: species-name-diona
+  name: фраза-розташування-півн
   text: "/ServerInfo/Guidebook/Mobs/Diona.xml"
 
 - type: guideEntry
   id: Dwarf
-  name: species-name-dwarf
+  name: вид-назва-карлик
   text: "/ServerInfo/Guidebook/Mobs/Dwarf.xml"
 
 - type: guideEntry
   id: Human
-  name: species-name-human
+  name: вид-назва-людина
   text: "/ServerInfo/Guidebook/Mobs/Human.xml"
 
 - type: guideEntry
   id: Moth
-  name: species-name-moth
+  name: вид-назва-молі
   text: "/ServerInfo/Guidebook/Mobs/Moth.xml"
 
 - type: guideEntry
   id: Reptilian
-  name: species-name-reptilian
+  name: вид-назва-рептилій
   text: "/ServerInfo/Guidebook/Mobs/Reptilian.xml"
 
 - type: guideEntry
   id: SlimePerson
-  name: species-name-slime
+  name: вид-назва-слиз
   text: "/ServerInfo/Guidebook/Mobs/SlimePerson.xml"
 
 - type: guideEntry
   id: Vox
-  name: species-name-vox
+  name: вид-назва-вокс
   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
 
 - type: guideEntry
   id: IPC
-  name: species-name-ipc
+  name: Вид-назва-ipc
   text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"

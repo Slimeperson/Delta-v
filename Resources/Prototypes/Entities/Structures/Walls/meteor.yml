@@ -24,7 +24,7 @@
   id: MeteorRockCoal
   parent: MeteorRock
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
     - type: OreVein
       oreChance: 1.0
@@ -46,7 +46,7 @@
   id: MeteorRockGold
   parent: MeteorRock
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
     - type: OreVein
       oreChance: 1.0
@@ -112,7 +112,7 @@
   id: MeteorRockQuartz
   parent: MeteorRock
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
     - type: OreVein
       oreChance: 1.0
@@ -134,7 +134,7 @@
   id: MeteorRockSilver
   parent: MeteorRock
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
     - type: OreVein
       oreChance: 1.0
@@ -156,7 +156,7 @@
   id: MeteorRockTin
   parent: MeteorRock
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
     - type: OreVein
       oreChance: 1.0
@@ -178,7 +178,7 @@
   id: MeteorRockUranium
   parent: MeteorRock
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
     - type: OreVein
       oreChance: 1.0
@@ -200,7 +200,7 @@
   id: MeteorRockBananium
   parent: MeteorRock
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
     - type: OreVein
       oreChance: 1.0

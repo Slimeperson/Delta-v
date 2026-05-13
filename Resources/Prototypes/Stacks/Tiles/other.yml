@@ -3,19 +3,19 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileMono
-  name: stack-mono-tile
+  name: стек-моно-плитка
   spawn: FloorTileItemMono
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileMetalDiamond
-  name: stack-steel-tile
+  name: стек-сталь-плитка
   spawn: FloorTileItemMetalDiamond
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackBoxing
-  name: stack-boxing-ring-tile
+  name: стек-бокс-кільце-плитка
   spawn: FloorTileItemBoxing
 
 - type: stack

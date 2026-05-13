@@ -6,8 +6,8 @@
   id: CableStack
   abstract: true
   parent: BaseItem
-  name: cable stack
-  suffix: Full
+  name: кабельний стек
+  suffix: Повний
   components:
   - type: Tag
     tags:
@@ -73,9 +73,9 @@
 - type: entity
   id: CableHVStack
   parent: CableStack
-  name: HV cable coil
-  suffix: Full
-  description: HV cables for connecting engines to heavy duty machinery, SMESes, and substations.
+  name: Котушка високовольтного кабелю
+  suffix: Повний
+  description: Високовольтні кабелі для підключення двигунів до важкої техніки, SMES і підстанцій.
   components:
   - type: Stack
     stackType: CableHV
@@ -131,9 +131,9 @@
 - type: entity
   parent: CableStack
   id: CableMVStack
-  name: MV cable coil
-  suffix: Full
-  description: MV cables for connecting substations to APCs, and also powering a select few things like emitters.
+  name: Котушка кабелю середнього напруги
+  suffix: Повний
+  description: Кабелі середньої напруги для підключення підстанцій до БТР, а також для живлення деяких речей, наприклад випромінювачів.
   components:
   - type: Stack
     stackType: CableMV
@@ -187,9 +187,9 @@
 - type: entity
   parent: CableStack
   id: CableApcStack
-  name: LV cable coil
-  description: Low-Voltage stack of wires for connecting APCs to machines and other purposes.
-  suffix: Full
+  name: Котушка кабелю НН
+  description: Низьковольтний пакет проводів для підключення БТР до машин та інших цілей.
+  suffix: Повний
   components:
   - type: Sprite
     state: coillv-30

@@ -2,7 +2,7 @@
   name: BaseSMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -47,7 +47,7 @@
             - MagazinePistolSubMachineGun
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         priority: 1
         whitelist:
           tags:
@@ -201,7 +201,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: Журнал
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -211,7 +211,7 @@
               - MagazinePistolSubMachineGun
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: Chamber
+          name: палата
           priority: 1
           whitelist:
             tags:
@@ -262,7 +262,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -272,7 +272,7 @@
             - MagazinePistolSubMachineGunTopMounted
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         priority: 1
         whitelist:
           tags:
@@ -288,12 +288,12 @@
   name: Drozd
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
-  suffix: Non-Lethal
+  suffix: Нелетальний
   components:
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: Журнал
           startingItem: MagazinePistolSubMachineGunRubber
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -302,7 +302,7 @@
             tags:
               - MagazinePistolSubMachineGun
         gun_chamber:
-          name: Chamber
+          name: палата
           startingItem: CartridgePistolRubber
           priority: 1
           whitelist:
@@ -310,11 +310,11 @@
               - CartridgePistol
 
 - type: entity
-  name: brown briefcase
+  name: коричневий портфель
   parent: [BaseWeaponSubMachineGun]
   id: WeaponSubMachineGunBriefcase
-  description: Useful for carrying items in your hands.
-  suffix: Gun
+  description: Корисно для носіння предметів у ваших руках.
+  suffix: ВН кабельний ящик
   components:
   - type: Item
     size: Ginormous

@@ -1,9 +1,9 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothRandom
-  name: moth plushie
-  suffix: Random
-  description: A cute little mothperson that you can hold in the palm of your hand.
+  name: смаковий комплекс-кайпірінья
+  suffix: Випадковий
+  description: Мила маленька людина-мотиль, яку можна тримати на долоні.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothMusician
-  name: moth musician plushie
-  description: A plushie depicting an adorable mothperson with a tiny synthesizer and tiny glasses.
+  name: моль музикант плюшевий
+  description: Плюш із зображенням чарівної людини-молі з маленьким синтезатором і крихітними окулярами.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothBartender
-  name: moth bartender plushie
-  description: A plushie depicting an adorable mothperson with a tiny tophat and tiny kevlar vest. It smells like cigarettes.
+  name: моль бармен плюш
+  description: Плюш із зображенням чарівної людини-молі з крихітним капелюшком і крихітним кевларовим жилетом. Пахне цигарками.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi

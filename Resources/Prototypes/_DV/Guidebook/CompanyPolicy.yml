@@ -1,7 +1,7 @@
 # Main Company Policy Directory
 - type: guideEntry
   id: companyPolicies
-  name: Company Policy
+  name: guide-entry-deltav-Rules
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/Preface.xml
 
   priority: 1
@@ -21,47 +21,47 @@
 
 - type: guideEntry
   id: policyCodeOfConduct
-  name: Code Of Conduct
+  name: Кодекс поведінки
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/CodeofConduct.xml
 
 
 - type: guideEntry
   id: policyAppearanceStandards
-  name: Appearance Standards
+  name: Стандарти зовнішнього вигляду
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/AppearanceStandards.xml
 
 
 - type: guideEntry
   id: policyRightsAndResponsibilities
-  name: Rights And Responsibilities
+  name: Права та обов'язки
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/RightsandResponsibilities.xml
 
 
 - type: guideEntry
   id: policySelfDefence
-  name: Self-defence
+  name: Самозахист
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/SelfDefence.xml
 
 
 - type: guideEntry
   id: policyDangersFromOurCompetitors
-  name: Dangers From Our Competitors
+  name: Небезпеки від наших конкурентів
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/DangersFromOurCompetitors.xml
 
 
 - type: guideEntry
   id: policyPotentialThreats
-  name: Potential Threats
+  name: Потенційні загрози
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/PotentialThreats.xml
 
 
 - type: guideEntry
   id: policyContactingCentralCommand
-  name: Contacting Central Command
+  name: Зв'язок із центральним командуванням
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/ContactingCentralCommand.xml
 
 
 - type: guideEntry
   id: policyConclusion
-  name: Conclusion
+  name: Висновок
   text: /ServerInfo/Guidebook/_DV/SpaceLaw/CompanyPolicy/Conclusion.xml

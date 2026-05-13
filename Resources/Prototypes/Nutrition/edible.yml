@@ -10,7 +10,7 @@
       variation: 0.2
       volume: -1
     collection: eating # I think this *should* grab the sound specifier...
-  message: edible-nom
+  message: їстівно-ном
   otherMessage: edible-nom-other
   verb: edible-verb-food
   noun: edible-noun-food
@@ -26,7 +26,7 @@
       variation: 0.25
       volume: -2
     path: /Audio/Items/drink.ogg
-  message: edible-slurp
+  message: їстівний-слп
   otherMessage: edible-slurp-other
   verb: edible-verb-drink
   noun: edible-noun-drink
@@ -42,7 +42,7 @@
       variation: 0.2
       volume: -1
     path: /Audio/Items/pill.ogg
-  message: edible-swallow
+  message: їстівна-ластівка
   otherMessage: edible-gulp-other
   verb: edible-verb-pill
   noun: edible-noun-pill

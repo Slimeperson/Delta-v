@@ -2,7 +2,7 @@
 
 - type: technology
   id: AerialExtraction
-  name: research-technology-aerial-extraction
+  name: дослідження-технології-повітряні-добування
   icon:
     sprite: Objects/Tools/fulton.rsi
     state: extraction_pack
@@ -17,7 +17,7 @@
 
 - type: technology
   id: EngineerHardsuit
-  name: research-technology-engineering-eva
+  name: дослідження-технології-екзотичні-боєприпаси
   icon:
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
     state: icon
@@ -32,7 +32,7 @@
 
 - type: technology
   id: MatterEnergyConversion
-  name: research-technology-matter-energy-conversion
+  name: дослідження-технології-перетворення речовини-енергії
   icon:
     sprite: Objects/Tools/rcd.rsi
     state: icon
@@ -44,7 +44,7 @@
 
 - type: technology
   id: AtmosHardsuit
-  name: research-technology-atmos-eva
+  name: дослідження-технології-атмо-ева
   icon:
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
     state: icon

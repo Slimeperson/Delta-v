@@ -7,94 +7,94 @@
 - type: quickPhrase
   id: SpeciesHumanPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-human
+  text: вид-назва-людина
 
 - type: quickPhrase
   id: SpeciesDionaPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-diona
+  text: фраза-розташування-півн
 
 - type: quickPhrase
   id: SpeciesArachnidPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-arachnid
+  text: вид-назва-павукоподібні
 
 - type: quickPhrase
   id: SpeciesMothPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-moth
+  text: вид-назва-молі
 
 - type: quickPhrase
   id: SpeciesReptilianPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-reptilian
+  text: вид-назва-рептилій
 
 - type: quickPhrase
   id: SpeciesSlimePersonPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-slime
+  text: вид-назва-слиз
 
 - type: quickPhrase
   id: SpeciesVulpkaninPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-vulpkanin
+  text: вид-назва-вулпканін
 
 - type: quickPhrase
   id: SpeciesFelinidPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-felinid
+  text: вид-назва-фелінід
 
 - type: quickPhrase
   id: SpeciesHarpyPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-harpy
+  text: вид-назва-гарпія
 
 - type: quickPhrase
   id: SpeciesOniPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-oni
+  text: видова назва-оні
 
 - type: quickPhrase
   id: SpeciesSkeletonPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-skeleton
+  text: вид-назва-скелет
 
 - type: quickPhrase
   id: SpeciesVoxPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-vox
+  text: вид-назва-вокс
 
 - type: quickPhrase
   id: SpeciesRodentiaPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-rodentia
+  text: вид-назва-rodentia
 
 - type: quickPhrase
   id: SpeciesFeroxiPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-feroxi
+  text: motorkind
 
 - type: quickPhrase
   id: SpeciesKitsunePhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-kitsune
+  text: вид-назва-кіцуне
 
 - type: quickPhrase
   id: SpeciesIPCPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-ipc
+  text: Вид-назва-ipc
 
 - type: quickPhrase
   id: SpeciesKThavenPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-thaven
+  text: вид-назва-тавен
 
 - type: quickPhrase
   id: SpeciesChitnidePhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-chitinid
+  text: вид-назва-хітинід
 
 - type: quickPhrase
   id: SpeciesAvaliPhrase
   parent: BaseCrewSpeciesPhrase
-  text: species-name-avali
+  text: видова-назва-авали

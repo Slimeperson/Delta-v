@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseAction
   id: ActionRevenantHaunt
-  name: Haunt
-  description: Gives essence and stolen essence for every witness.
+  name: привид
+  description: Дає сутність і вкрадену сутність для кожного свідка.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantBloodWriting
-  name: Blood Writing
-  description: Costs 2 Essence per glyph.
+  name: Написання крові
+  description: Коштує 2 есенції за гліф.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantAnimate
-  name: Animate
-  description: Costs 50 Essence.
+  name: силова стінка
+  description: Коштує 50 Есенція.
   components:
   - type: Action
     itemIconStyle: NoItem

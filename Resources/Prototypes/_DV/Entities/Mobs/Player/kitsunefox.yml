@@ -1,8 +1,8 @@
 - type: entity
-  name: Kitsune
+  name: Кіцуне
   parent: [SimpleMobBase, StripableInventoryBase, BaseMobKitsune]
   id: MobKitsuneFox
-  description: A Kitsune's fox form.
+  description: Форма лисиці Кіцуне.
   components:
   - type: KitsuneFox
   - type: MovementSpeedModifier

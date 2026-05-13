@@ -7,13 +7,13 @@
     - to: prescmedhud
       steps:
       - tag: HudMedical
-        name: construction-graph-tag-medhud
+        name: конструкція-граф-тег-медхуд
         icon:
           sprite: Clothing/Eyes/Hud/med.rsi
           state: icon
         doAfter: 5
       - component: VisionCorrection
-        name: construction-graph-tag-glasses
+        name: конструкція-меблі-низький-прилавок-кут
         icon:
           sprite: Clothing/Eyes/Glasses/glasses.rsi
           state: icon
@@ -33,13 +33,13 @@
     - to: prescsechud
       steps:
       - tag: HudSecurity
-        name: construction-graph-tag-sechud
+        name: конструкція-граф-тег-сечуд
         icon:
           sprite: Clothing/Eyes/Hud/sec.rsi
           state: icon
         doAfter: 5
       - component: VisionCorrection
-        name: construction-graph-tag-glasses
+        name: конструкція-граф-теги-окуляри
         icon:
           sprite: Clothing/Eyes/Glasses/glasses.rsi
           state: icon
@@ -65,7 +65,7 @@
           state: icon
         doAfter: 5
       - component: VisionCorrection
-        name: construction-graph-tag-glasses
+        name: конструкція-граф-теги-окуляри
         icon:
           sprite: Clothing/Eyes/Glasses/glasses.rsi
           state: icon

@@ -1,6 +1,6 @@
 - type: entity
   id: RandomDrinkSoda
-  name: random soda spawner
+  name: випадковий породжувач газованої води
   parent: MarkerBase
   placement:
     mode: AlignTileAny

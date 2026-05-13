@@ -1,7 +1,7 @@
 - type: entity
   parent: ActionForceWall
   id: ActionForceWallBookOfMysteries
-  name: Force Wall
+  name: Силова стіна
   components:
   - type: AutoRecharge
     rechargeDuration: 90

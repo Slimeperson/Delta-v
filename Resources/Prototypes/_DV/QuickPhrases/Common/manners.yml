@@ -7,69 +7,69 @@
 - type: quickPhrase
   id: HelloPhrase
   parent: BaseMannerPhrase
-  text: phrase-hello
+  text: фраза-привіт
 
 - type: quickPhrase
   id: ByePhrase
   parent: BaseMannerPhrase
-  text: phrase-bye
+  text: фраза-до побачення
 
 - type: quickPhrase
   id: CyaPhrase
   parent: BaseMannerPhrase
-  text: phrase-cya
+  text: фраза-cya
 
 - type: quickPhrase
   id: PleasePhrase
   parent: BaseMannerPhrase
-  text: phrase-please
+  text: фраза-будь ласка
 
 - type: quickPhrase
   id: TyPhrase
   parent: BaseMannerPhrase
-  text: phrase-ty
+  text: фразе-ти
 
 - type: quickPhrase
   id: NpPhrase
   parent: BaseMannerPhrase
-  text: phrase-np
+  text: фраза-np
 
 - type: quickPhrase
   id: YwPhrase
   parent: BaseMannerPhrase
-  text: phrase-yw
+  text: фраза-yw
 
 - type: quickPhrase
   id: SorryPhrase
   parent: BaseMannerPhrase
-  text: phrase-sorry
+  text: фраза-вибачте
 
 - type: quickPhrase
   id: DwPhrase
   parent: BaseMannerPhrase
-  text: phrase-dw
+  text: фраза-dw
 
 - type: quickPhrase
   id: YesPhrase
   parent: BaseMannerPhrase
-  text: phrase-yes
+  text: фраза-так
 
 - type: quickPhrase
   id: NoPhrase
   parent: BaseMannerPhrase
-  text: phrase-no
+  text: фраза-ні
 
 - type: quickPhrase
   id: MaybePhrase
   parent: BaseMannerPhrase
-  text: phrase-maybe
+  text: фраза-можливо
 
 - type: quickPhrase
   id: OkPhrase
   parent: BaseMannerPhrase
-  text: phrase-ok
+  text: фраза-добре
 
 - type: quickPhrase
   id: KindaPhrase
   parent: BaseMannerPhrase
-  text: phrase-kinda
+  text: фраза-рід

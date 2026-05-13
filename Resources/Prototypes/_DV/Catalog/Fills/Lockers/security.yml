@@ -1,7 +1,7 @@
 - type: entity
   parent: SecurityGunSafeHandgunDV
   id: GunSafePistolUniversal
-  name: mk32 gun safe
+  name: Сейф для зброї mk32
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: pistol
@@ -17,7 +17,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeSniperGrand
-  name: mark 1 rifle gun safe
+  name: Заповнений, Синдикат, Загальний
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: sniper
@@ -33,7 +33,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeVulcanRifle
-  name: vulcan gun safe
+  name: сейф для зброї вулкан
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: vulcan
@@ -49,7 +49,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeAdjutantShotgun
-  name: adjutant gun safe
+  name: ад'ютант збройовий сейф
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: rifle
@@ -65,7 +65,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeEnergyGun
-  name: energy gun safe
+  name: безпечний для енергетичної зброї
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: energy
@@ -78,7 +78,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeEnergyGunMini
-  name: miniature energy gun safe
+  name: мініатюрний сейф для енергетичної зброї
   components:
   - type: EntityTableContainerFill
     containers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeM90Rifle
-  name: m-90 rifle gun safe
+  name: сейф для гвинтівки м-90
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: m90
@@ -105,7 +105,7 @@
 - type: entity
   parent: SecurityGunSafeSuperweaponBaseSecureDV
   id: GunSafeRocketLauncher
-  name: RPG gun safe
+  name: Сейф для зброї РПГ
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: rpg
@@ -120,7 +120,7 @@
 - type: entity
   parent: SecurityGunSafeSuperweaponBaseSecureDV
   id: GunSafeBeamDevastator
-  name: devastator gun safe
+  name: збройовий сейф девастатор
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: devastator
@@ -132,7 +132,7 @@
 - type: entity
   parent: SecurityGunSafeSuperweaponBaseSecureDV
   id: GunSafeGamblagator
-  name: gamblagator gun safe
+  name: збройовий сейф
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: gamblagator
@@ -144,7 +144,7 @@
 - type: entity
   parent: SecurityGunSafeSuperweaponBaseSecureDV
   id: GunSafeAdvancedLaser
-  name: advanced laser gun safe
+  name: вдосконалений лазерний сейф
   components:
   - type: EntityTableContainerFill
     containers:
@@ -177,8 +177,8 @@
 - type: entity
   parent: SecurityGunSafeNonlethalDV
   id: GunSafeNonLethalShotgun
-  name: non-lethal shotgun safe
-  suffix: Security, Locked
+  name: нелетальний сейф для рушниці
+  suffix: Охорона, зачинено
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: shotgun
@@ -198,7 +198,7 @@
 - type: entity
   parent: SecurityGunSafeBaseSecureDV
   id: GunSafeSubMachineGunPatos
-  name: patos gun safe
+  name: patos збройовий сейф
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: smg

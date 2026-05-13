@@ -22,7 +22,7 @@
               amount: 5
               doAfter: 5
             - tag: Radio
-              name: construction-graph-tag-radio
+              name: будівництво-граф-тег-радіо
               icon:
                 sprite: Objects/Devices/communication.rsi
                 state: walkietalkie

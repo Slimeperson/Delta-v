@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   categories: [ HideSpawnMenu ]
-  name: solar panel
+  name: сонячна панель
   placement:
     mode: SnapgridCenter
   components:
@@ -60,8 +60,8 @@
 - type: entity
   id: SolarPanelPlasma
   parent: SolarPanelBasePhysSprite
-  name: solar panel plasma
-  description: A few sheets of plasma glass that generate electricity when hit by photons.
+  name: плазма сонячної панелі
+  description: Кілька аркушів плазмового скла, які генерують електрику під дією фотонів.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -140,7 +140,7 @@
 - type: entity
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
-  name: solar panel
+  name: сонячна панель
   description: A few sheets of glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
@@ -177,7 +177,7 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: solar panel
+  name: сонячна панель
   description: A broken solar panel.
   suffix: Broken
   components:

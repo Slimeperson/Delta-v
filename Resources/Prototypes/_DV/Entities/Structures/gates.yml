@@ -13,39 +13,39 @@
   - BaseLogicItemAnchored
   - LogicGateOr
   id: LogicGateOrAnchored
-  suffix: Or, Anchored
+  suffix: Роль привида
 
 - type: entity
   parent:
   - BaseLogicItemAnchored
   - LogicGateAnd
   id: LogicGateAndAnchored
-  suffix: And, Anchored
+  suffix: І, Якір
 
 - type: entity
   parent:
   - BaseLogicItemAnchored
   - LogicGateXor
   id: LogicGateXorAnchored
-  suffix: Xor, Anchored
+  suffix: Xor, Прикріплений
 
 - type: entity
   parent:
   - BaseLogicItemAnchored
   - LogicGateNor
   id: LogicGateNorAnchored
-  suffix: Nor, Anchored
+  suffix: Ні, Прикріплений
 
 - type: entity
   parent:
   - BaseLogicItemAnchored
   - LogicGateNand
   id: LogicGateNandAnchored
-  suffix: Nand, Anchored
+  suffix: Нанд, закріплений
 
 - type: entity
   parent:
   - BaseLogicItemAnchored
   - LogicGateXnor
   id: LogicGateXnorAnchored
-  suffix: Xnor, Anchored
+  suffix: Xnor, прив'язаний

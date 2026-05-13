@@ -1,7 +1,7 @@
 - type: job
   id: CentralCommandOfficial
   name: job-name-centcommoff
-  description: job-description-centcommoff
+  description: посадовий опис-centcommoff
   playTimeTracker: JobCentralCommandOfficial
   setPreference: false
   startingGear: CentcommGear

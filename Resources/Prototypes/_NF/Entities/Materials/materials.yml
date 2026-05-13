@@ -1,8 +1,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideRosyMothroach
-  name: rosy maple mothroach hide
-  description: A thin layer of rosy maple mothroach hide.
+  name: рожевий клен mothroach шкура
+  description: Тонкий шар рожево-кленової шкірки.
   components:  
   - type: Sprite
     sprite: _NF/Objects/Materials/rosymothroach.rsi

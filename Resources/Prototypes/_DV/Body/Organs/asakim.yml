@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCyberneticEyes
   id: OrganAsakimEyes
-  name: asakim eyes
+  name: асаким очима
   components:
   - type: Organ
     onAdd:

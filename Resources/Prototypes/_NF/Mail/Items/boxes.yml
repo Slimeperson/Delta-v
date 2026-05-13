@@ -1,10 +1,10 @@
 # Mail-only boxes. If/when something uses these outside of the mail, move the entry into Catalog/Fills.
 
 - type: entity
-  name: scented soap sampler pack
+  name: пакет пробників ароматного мила
   parent: BoxCardboard
   id: BoxSoapsAssorted
-  description: A box of various scented soaps. Ooh, lavender.
+  description: Коробка різноманітного ароматного мила. Ох, лаванда.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -30,10 +30,10 @@
       - state: box
 
 - type: entity
-  name: scented soap sampler pack
+  name: пакет пробників ароматного мила
   parent: BoxCardboard
   id: BoxSoapsAssortedOmega
-  description: A box of various scented soaps. Ooh, bluespace.
+  description: Коробка різноманітного ароматного мила. Ох, синій простір.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -59,8 +59,8 @@
       - state: box
 
 - type: entity
-  name: Build-a-Buddy kit
-  suffix: Human
+  name: Набір Build-a-Buddy
+  suffix: Машинна друкована плата для конденсатора.
   parent: BoxHug
   id: BoxBuildABuddyHuman
   description: "\"Henry the Human\" Build-a-Buddy kit. Some assembly required."
@@ -128,8 +128,8 @@
 #        amount: 1
 
 - type: entity
-  name: Build-a-Buddy kit
-  suffix: Reptilian
+  name: Набір Build-a-Buddy
+  suffix: Рептилія
   parent: BoxBuildABuddyHuman
   id: BoxBuildABuddyReptilian
   description: "\"Randy the Reptilian\" Build-a-Buddy kit. Some assembly required."
@@ -160,8 +160,8 @@
           amount: 1
 
 - type: entity
-  name: Build-a-Buddy kit
-  suffix: Slime
+  name: Набір Build-a-Buddy
+  suffix: слиз
   parent: BoxBuildABuddyHuman
   id: BoxBuildABuddySlime
   description: "\"Steven the Slime\" Build-a-Buddy kit. Some assembly required."
@@ -192,8 +192,8 @@
           amount: 1
 
 - type: entity
-  name: Build-a-Buddy kit
-  suffix: Vulpkanin
+  name: Набір Build-a-Buddy
+  suffix: reagent-name-coffeeground
   parent: BoxBuildABuddyHuman
   id: BoxBuildABuddyVulpkanin
   description: "\"Valerie the Vulpkanin\" Build-a-Buddy kit. Some assembly required."

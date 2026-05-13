@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: ClothingNeckStethoscope
-  name: stethoscope
-  description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+  name: стетоскоп
+  description: Застарілий медичний апарат для прослуховування звуків людського тіла. Це також створює враження, що ви знаєте, що робите.
   components:
   - type: Item
     size: Small
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseAction
   id: ActionStethoscope
-  name: Listen with stethoscope
+  name: Слухайте за допомогою стетоскопа
   components:
   - type: Action
     icon:
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
-  name: bling
-  description: Damn, it feels good to be a gangster.
+  name: блиск
+  description: Блін, як добре бути гангстером.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
-  name: lawyer badge
-  description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+  name: значок адвоката
+  description: Значок, який свідчить про те, що власник є «законним» юристом, який склав іспит на право адвоката NT, необхідний для юридичної практики.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: Dinkystar
-  name: star sticker
-  description: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
+  name: наклейка зірка
+  description: Чудова маленька зірка лише для найзавзятіших офіцерів безпеки! Він навіть не липкий.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/dinkystar.rsi

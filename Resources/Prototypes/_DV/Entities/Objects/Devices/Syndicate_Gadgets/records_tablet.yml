@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: HandheldStationMapRecordsTablet
-  name: station map
-  description: Displays a readout of the current station.
-  suffix: Records Tablet
+  name: карта станції
+  description: Відображає зчитування поточної станції.
+  suffix: Планшет для записів
   components:
   - type: CharacterRecordConsole
     consoleType: Generic

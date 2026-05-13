@@ -165,9 +165,9 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: beaker
+  name: мензурка
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: Використовується для вмісту помірної кількості хімікатів і розчинів.
   id: Beaker
   components:
   - type: Spillable
@@ -184,7 +184,7 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  suffix: cryoxadone
+  suffix: кріоксадон
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
@@ -201,7 +201,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallArith
-  suffix: arithrazine
+  suffix: аритразин
   components:
   - type: Label
     currentLabel: reagent-name-arithrazine
@@ -216,7 +216,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallSigy
-  suffix: sigynate
+  suffix: сигінат
   components:
   - type: Label
     currentLabel: reagent-name-sigynate
@@ -231,7 +231,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallPhal
-  suffix: phalanximine
+  suffix: фаланксимін
   components:
   - type: Label
     currentLabel: reagent-name-phalanximine
@@ -246,7 +246,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallDiph
-  suffix: diphenhydramine
+  suffix: димедрол
   components:
   - type: Label
     currentLabel: reagent-name-diphenhydramine
@@ -261,7 +261,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallBruiz
-  suffix: bruizine
+  suffix: синяк
   components:
   - type: Label
     currentLabel: reagent-name-bruizine
@@ -276,7 +276,7 @@
 - type: entity
   parent: Beaker
   id: BeakerSmallLace
-  suffix: lacerinol
+  suffix: лацеринол
   components:
   - type: Label
     currentLabel: reagent-name-lacerinol
@@ -289,9 +289,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: великий стакан
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: Використовується для зберігання великої кількості хімікатів або розчинів.
   id: LargeBeaker
   components:
   - type: Spillable
@@ -323,9 +323,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: кріостазний стакан
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: Використовується для зберігання хімічних речовин або розчинів без реакції.
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -343,9 +343,9 @@
         canReact: false
 
 - type: entity
-  name: bluespace beaker
+  name: склянка bluespace
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: На основі експериментальної технології bluespace.
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -367,9 +367,9 @@
       - BluespaceBeaker
 
 - type: entity
-  name: dropper
+  name: крапельниця
   parent: BaseItem
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: Використовується для перенесення невеликої кількості хімічного розчину між контейнерами.
   id: Dropper
   components:
   - type: Sprite
@@ -419,8 +419,8 @@
 - type: entity
   parent: Dropper
   id: BorgDropper
-  name: hydraulic pipette
-  description: State-of-the-art hydraulic dropper built for cyborgs. It features a higher capacity than hand-powered droppers, able to hold 15 units of liquid.
+  name: гідравлічна піпетка
+  description: Найсучасніша гідравлічна крапельниця, створена для кіборгів. Він має більшу місткість, ніж крапельниці з ручним приводом, здатний утримувати 15 одиниць рідини.
   components:
   - type: Sprite
     sprite: _DV/Objects/Specific/Chemistry/dropper.rsi # DeltaV - Resprited some medical items
@@ -437,9 +437,9 @@
     sprite: _DV/Objects/Specific/Chemistry/dropper.rsi # DeltaV - Resprited some medical items
 
 - type: entity
-  name: syringe
+  name: шприц
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: Використовується для взяття зразків крові з мобів або для введення в них реагентів.
   id: BaseSyringe
   abstract: true
   components:
@@ -493,9 +493,9 @@
     - Trash
 
 - type: entity
-  name: mini syringe
+  name: міні шприц
   parent: Syringe
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: Звичайний шприц, модифікований для розміщення всередині пістолета.
   id: MiniSyringe
   components:
   - type: Sprite
@@ -567,8 +567,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: шприц bluespace
+  description: Введення за допомогою передової технології bluespace.
   components:
   - type: Sprite
     layers:
@@ -604,8 +604,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: кріостазний шприц
+  description: Шприц, який використовується для зберігання хімічних речовин або розчинів без реакції.
   components:
   - type: Sprite
     layers:
@@ -633,10 +633,10 @@
     - Trash
 
 - type: entity
-  name: pill
+  name: reagent-name-exotic
   parent: BaseItem
   id: Pill
-  description: It's not a suppository.
+  description: Це не супозиторії.
   components:
   - type: Sprite
     sprite: _DV/Objects/Specific/Chemistry/pills.rsi # DeltaV - Resprited some medical items
@@ -683,10 +683,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: каністра для таблеток
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 10 pills.
+  description: Вміщує до 10 таблеток.
   components:
   - type: Item
     size: Tiny

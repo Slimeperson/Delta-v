@@ -40,7 +40,7 @@
 
 - type: siliconLawset
   id: EightfoldLaws
-  name: law-eightfold-name
+  name: закон-восьмеричне ім'я
   laws:
   - Eightfold1
   - Eightfold2

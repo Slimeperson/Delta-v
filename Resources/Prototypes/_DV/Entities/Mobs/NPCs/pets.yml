@@ -1,8 +1,8 @@
 - type: entity
-  name: Siobhan
+  name: Шівон
   parent: MobArcticFox
   id: MobArcticFoxSiobhan
-  description: Her name is pronounced "Shivahn", but she is known as Shivs by her associates. A fluffy, adorable arctic fox.
+  description: Її ім'я вимовляється як "Шіван", але її друзі знають її як Шівс. Пухнастий чарівний песець.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -20,17 +20,17 @@
     - VimPilot
 
 - type: entity
-  name: Laika
+  name: Лайка
   parent: MobSecDog
   id: MobSecDogLaika
-  description: Much like her namesake, Laika is a specimen of indeterminate breed, fresh off the streets and ready to tussle.
+  description: Подібно до своєї тезки, Лайка є особиною невизначеної породи, щойно з вулиць і готова до боротьби.
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Laika"
-    description: "Security's resident she-dog. Badger the officers for headpats and nip at the heels of violent offenders."
+    name: "Лайка"
+    description: "Собака-резидент служби безпеки. Зловживайте офіцерів за погладжування голови та чіпайте п’яти жорстоких злочинців».
     job: RoleLaika # determines the playtime requirement
   - type: GhostTakeoverAvailable
   - type: InteractionPopup
@@ -61,7 +61,7 @@
   parent: MobCarp
   id: MobCarpLegal
   name: Carpy the Legal Carp
-  description: Has a degree in fish law.
+  description: Має вищу освіту в галузі рибного права.
   components:
   - type: NpcFactionMember
     factions:
@@ -92,8 +92,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Carpy the Legal Carp"
-    description: "The real brains behind the Justice department. Your honour my client is not fishy!"
+    name: "Карпі, юридичний короп"
+    description: "Справжні мізки за Міністерством юстиції. Ваша честь, мій клієнт не підозрює!»
     job: RoleCarpy
   - type: GhostTakeoverAvailable
   -  type: Body
@@ -111,10 +111,10 @@
         type: StrippableBoundUserInterface
 
 - type: entity
-  name: legal carp stamp
+  name: правовий короп штамп
   parent: RubberStampBase
   id: RubberStampCarpy
-  description: A stamp specially designed for legal carps, to mark documents that aren't fishy.
+  description: Штамп, спеціально розроблений для легальних коропів, щоб позначати документи, які не є рибними.
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-carpy
@@ -125,10 +125,10 @@
       state: stamp-notary
 
 - type: entity
-  name: legal carp pen
+  name: юридичний короппер
   parent: LuxuryPen
   id: LuxuryPenCarpy
-  description: The pen is mightier than the sword. This pen is also sharper thank to its carp tooth nib!
+  description: Перо сильніше за меч. Це перо також гостріше завдяки наконечнику з короповими зубами!
   components:
   - type: MeleeWeapon
     angle: 0
@@ -142,10 +142,10 @@
 
 
 - type: entity
-  name: Silvia
+  name: Сільвія
   id: MobCobraSilvia
   parent: MobSpaceBasic
-  description: With needle-sharp fangs and an alluring gaze, will you let her bite you?
+  description: З гострими, як голки, іклами та привабливим поглядом ти дозволиш їй вкусити себе?
   components:
     - type: HTN
       rootTask:
@@ -282,8 +282,8 @@
 - type: entity
   parent: MobBaseScurret
   id: MobScurretBaba
-  name: Baba
-  description: Wawa?
+  name: Баба
+  description: Вава?
   components:
   - type: Sprite
     layers:

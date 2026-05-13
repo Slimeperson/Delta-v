@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: MedicalPod
-  name: emergency medical pod
-  description: A pod used for preservation of high value corpses. Something awful happened here.
+  name: екстреної медичної допомоги
+  description: Коробка, що використовується для збереження трупів високої цінності. Something awful happened here.
   components:
   - type: Transform
     noRot: true

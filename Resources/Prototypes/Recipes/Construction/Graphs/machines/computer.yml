@@ -24,7 +24,7 @@
           steps:
             - component: ComputerBoard
               store: board
-              name: construction-graph-component-any-computer-circuit-board
+              name: конструкція-граф-компонент-будь-якої-комп'ютерної-плати
               icon:
                 sprite: "Objects/Misc/module.rsi"
                 state: "id_mod"

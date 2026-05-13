@@ -1,5 +1,5 @@
 - type: entity
-  name: Salvage Parts Spawner
+  name: Spawner запасних частин
   id: SalvagePartsSpawnerLow
   suffix: 90%
   parent: MarkerBase
@@ -16,7 +16,7 @@
       offset: 0.0
 
 - type: entity
-  name: Salvage Parts Spawner
+  name: Spawner запасних частин
   id: SalvagePartsSpawnerMid
   suffix: 50%
   parent: MarkerBase

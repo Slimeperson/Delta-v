@@ -61,8 +61,8 @@
 - type: entity
   parent: CableBase
   id: CableHV
-  name: HV power cable
-  description: An orange high voltage power cable.
+  name: Силовий кабель ВН
+  description: Помаранчевий кабель живлення високої напруги.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/hv_cable.rsi
@@ -111,7 +111,7 @@
 - type: entity
   id: CableHVUncuttable
   parent: CableHV
-  suffix: uncuttable
+  suffix: нерозрізний
   components:
   - type: Cable
     cuttingQuality: null
@@ -119,8 +119,8 @@
 - type: entity
   parent: CableBase
   id: CableMV
-  name: MV power cable
-  description: A medium voltage power cable.
+  name: Силовий кабель середнього напруги
+  description: Банер жовтого кольору. Нагадує качок і підставки з лимонами.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/mv_cable.rsi
@@ -165,7 +165,7 @@
 - type: entity
   id: CableMVUncuttable
   parent: CableMV
-  suffix: uncuttable
+  suffix: нерозрізний
   components:
   - type: Cable
     cuttingQuality: null
@@ -173,8 +173,8 @@
 - type: entity
   parent: CableBase
   id: CableApcExtension
-  name: LV power cable
-  description: A cable used to connect machines to an APC. #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
+  name: Силовий кабель НН
+  description: Кабель, який використовується для підключення машин до БТР. #APC більше не обмежені зоною, тому потрібен цей кабель, щоб підключити речі до APC. У майбутньому цей опис має бути динамічним.
   components:
   - type: Sprite
     color: Green
@@ -219,7 +219,7 @@
 - type: entity
   id: CableApcExtensionUncuttable
   parent: CableApcExtension
-  suffix: uncuttable
+  suffix: нерозрізний
   components:
   - type: Cable
     cuttingQuality: null
@@ -228,8 +228,8 @@
 - type: entity
   id: CableDet
   parent: [ CablePhysBase, BaseSecurityContraband ]
-  name: explosive cord
-  description: Spaghetti for people who hate walls.
+  name: вибуховий шнур
+  description: Спагетті для тих, хто ненавидить стіни.
   components:
   - type: Cable
     cableDroppedOnCutPrototype: CableDetStack1

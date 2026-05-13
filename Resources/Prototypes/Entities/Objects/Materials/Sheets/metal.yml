@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetMetalBase
-  description: A sheet of metal, used often on the station in various applications.
+  description: Лист металу, який часто використовується на станції в різних цілях.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetSteel
-  name: steel
-  suffix: Full
+  name: сталь
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -82,7 +82,7 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel10
-  name: steel
+  name: сталь
   suffix: 10
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel1
-  name: steel
-  suffix: Single
+  name: сталь
+  suffix: щит паладина
   components:
   - type: Sprite
     state: steel
@@ -106,9 +106,9 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetBrass
-  name: brass
-  description: A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
-  suffix: Full
+  name: латунь
+  description: Лист латуні, який в основному використовувався любителями годинникового механізму та залишками ратваріанських культів.
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -147,7 +147,7 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass10
-  name: brass
+  name: латунь
   suffix: 10
   components:
   - type: Sprite
@@ -159,8 +159,8 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass1
-  name: brass
-  suffix: Single
+  name: латунь
+  suffix: щит паладина
   components:
   - type: Sprite
     state: brass
@@ -171,8 +171,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetPlasteel
-  name: plasteel
-  suffix: Full
+  name: пласталь
+  suffix: Повний
   components:
   - type: Material
   - type: PhysicalComposition
@@ -210,7 +210,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel10
-  name: plasteel
+  name: пласталь
   suffix: 10
   components:
   - type: Sprite
@@ -222,8 +222,8 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel1
-  name: plasteel
-  suffix: Single
+  name: пласталь
+  suffix: щит паладина
   components:
   - type: Sprite
     state: plasteel

@@ -2,5 +2,5 @@
 - type: entity
   parent: OrganAnimalHeart
   id: OrganRatHeart
-  name: rat heart
-  description: Contrary to popular belief, this won't actually make you immortal.
+  name: щуряче серце
+  description: Всупереч поширеній думці, насправді це не зробить вас безсмертним.

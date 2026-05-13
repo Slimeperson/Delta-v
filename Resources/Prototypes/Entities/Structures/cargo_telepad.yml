@@ -1,8 +1,8 @@
 - type: entity
   id: CargoTelepad
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: cargo telepad
-  description: Beam in the pizzas and dig in.
+  name: вантажний телепад
+  description: Нанесіть піцу і закопайте її.
   components:
   - type: InteractionOutline
   - type: Physics

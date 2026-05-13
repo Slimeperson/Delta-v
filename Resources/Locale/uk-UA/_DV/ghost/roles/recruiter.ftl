@@ -1,6 +1,6 @@
 ghost-role-information-recruiter-name = Рекрутер синдикату
 ghost-role-information-recruiter-description = Синдикату потрібно найняти нових людей, і ви найкращі в бізнесі.
-ghost-role-information-recruiter-rules =
+ghost-role-information-recruiter-rules = yeasay
     Interview people and have the best candidates sign a contract in blood.
         Set up shop in maints or use your ship as a portable hiring office!
 

@@ -17,7 +17,7 @@
 - type: listing
   id: UplinkRevolverPython
   name: uplink-revolver-python-name
-  description: deltav-uplink-revolver-python-desc # DeltaV - Description changed to indicate it isn't loaded with AP by default
+  description: злодій-рюкзак-категорія-інструменти-назва
   productEntity: WeaponRevolverPython # DeltaV - No longer loaded with AP by default
   discountCategory: rareDiscounts
   discountDownTo:
@@ -44,7 +44,7 @@
 # Poor accuracy, slow to fire, cheap option
 - type: listing
   id: UplinkRifleMosin
-  name: uplink-rifle-mosin-name
+  name: підмінник-рука-лезо-ім'я
   description: uplink-rifle-mosin-desc
   productEntity: WeaponSniperMosin
   cost:
@@ -69,8 +69,8 @@
 # Deltav changes begin
 - type: listing
   id: UplinkHypereutacticBlade
-  name: uplink-hypereutactic-blade-name
-  description: uplink-hypereutactic-blade-desc
+  name: uplink-hyperevtactic-blade-name
+  description: uplink-hyperevtactic-blade-desc
   icon: { sprite: /Textures/Objects/Weapons/Melee/hypereutactic_blade.rsi, state: icon }
   discountCategory: veryRareDiscounts
   discountDownTo:
@@ -162,7 +162,7 @@
 
 - type: listing
   id: UplinkDisposableTurret
-  name: uplink-disposable-turret-name
+  name: стрижень алмазного газового каналу
   description: uplink-disposable-turret-desc
   productEntity: ToolboxElectricalTurretFilled
   discountCategory: usualDiscounts
@@ -214,7 +214,7 @@
 - type: listing
   id: UplinkHushpup
   name: uplink-hushpup-name
-  description: uplink-hushpup-desc
+  description: По 2 котушки для кожного типу кабелю.
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledHushpup
   discountCategory: rareDiscounts
@@ -269,8 +269,8 @@
 
 - type: listing
   id: UplinkGrenadeLauncherBundle
-  name: uplink-grenade-launcher-bundle-name
-  description: uplink-grenade-launcher-bundle-desc
+  name: uplink-granade-launcher-bundle-name
+  description: uplink-granade-launcher-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
@@ -299,8 +299,8 @@
 
 - type: listing
   id: UplinkExplosiveGrenade
-  name: uplink-explosive-grenade-name
-  description: uplink-explosive-grenade-desc
+  name: uplink-explosive-granade-name
+  description: Обрешітка УЗО
   productEntity: ExGrenade
   discountCategory: usualDiscounts
   discountDownTo:
@@ -312,8 +312,8 @@
 
 - type: listing
   id: UplinkExplosiveGrenadeFlash
-  name: uplink-flash-grenade-name
-  description: uplink-flash-grenade-desc
+  name: uplink-flash-granade-name
+  description: uplink-flash-granade-desc
   productEntity: GrenadeFlashBang
   cost:
     Telecrystal: 1
@@ -322,8 +322,8 @@
 
 - type: listing
   id: UplinkSmokeGrenade
-  name: uplink-smoke-grenade-name
-  description: uplink-smoke-grenade-desc
+  name: uplink-smoke-granade-name
+  description: uplink-smoke-granade-desc
   productEntity: SmokeGrenade
   cost:
     Telecrystal: 1
@@ -345,8 +345,8 @@
 
 - type: listing
   id: UplinkSingularityGrenade
-  name: uplink-supermatter-grenade-name # DeltaV - use old name
-  description: uplink-supermatter-grenade-desc # DeltaV - use old desc
+  name: uplink-supermatter-grenade-name # DeltaV - використовувати стару назву
+  description: uplink-supermatter-grenade-desc # DeltaV - використовувати старий опис
   productEntity: SingularityGrenade
   discountCategory: usualDiscounts
   discountDownTo:
@@ -358,8 +358,8 @@
 
 - type: listing
   id: UplinkWhiteholeGrenade
-  name: uplink-whitehole-grenade-name
-  description: uplink-whitehole-grenade-desc
+  name: uplink-whitehole-granade-name
+  description: uplink-whitehole-granade-desc
   productEntity: WhiteholeGrenade
   discountCategory: usualDiscounts
   discountDownTo:
@@ -371,8 +371,8 @@
 
 - type: listing
   id: UplinkGrenadePenguin
-  name: uplink-penguin-grenade-name
-  description: uplink-penguin-grenade-desc
+  name: uplink-penguin-granade-name
+  description: uplink-penguin-granade-desc
   productEntity: MobGrenadePenguin
   discountCategory: usualDiscounts
   discountDownTo:
@@ -433,8 +433,8 @@
 
 - type: listing
   id: UplinkEmpGrenade
-  name: uplink-emp-grenade-name
-  description: uplink-emp-grenade-desc
+  name: uplink-emp-granade-name
+  description: uplink-emp-granade-desc
   productEntity: EmpGrenade
   discountCategory: usualDiscounts
   discountDownTo:
@@ -491,8 +491,8 @@
 
 - type: listing
   id: UplinkClusterGrenade
-  name: uplink-cluster-grenade-name
-  description: uplink-cluster-grenade-desc
+  name: баунті-опис-факел
+  description: ящик для сонячних батарей
   productEntity: ClusterGrenade
   discountCategory: usualDiscounts
   discountDownTo:
@@ -504,8 +504,8 @@
 
 - type: listing
   id: UplinkGrenadeShrapnel
-  name: uplink-shrapnel-grenade-name
-  description: uplink-shrapnel-grenade-desc
+  name: uplink-shrapnel-granade-name
+  description: uplink-shrapnel-granade-desc
   productEntity: GrenadeShrapnel
   discountCategory: rareDiscounts
   discountDownTo:
@@ -517,8 +517,8 @@
 
 - type: listing
   id: UplinkGrenadeIncendiary
-  name: uplink-incendiary-grenade-name
-  description: uplink-incendiary-grenade-desc
+  name: uplink-incendiary-granade-name
+  description: uplink-incendiary-granade-desc
   productEntity: GrenadeIncendiary
   discountCategory: rareDiscounts
   discountDownTo:
@@ -545,8 +545,8 @@
 
 - type: listing
   id: UplinkPistol9mmMagazine
-  name: uplink-pistol-magazine-delta-name # DeltaV - to make it clear that these arent the same as normal pistol mags
-  description: uplink-pistol-magazine-delta-desc # DeltaV - 20 round capacity
+  name: uplink-pistol-magazine-delta-name # DeltaV - щоб було зрозуміло, що це не те саме, що звичайні журнали для пістолетів
+  description: uplink-pistol-magazine-delta-desc # DeltaV - місткість 20 патронів
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: base-icon }
   productEntity: MagazinePistolHighCapacity
   cost:
@@ -592,7 +592,7 @@
 # For the Cobra
 - type: listing
   id: UplinkMagazinePistolCaselessRifle
-  name: uplink-pistol-magazine-caseless-name
+  name: Гладкі помаранчеві нитки, що містяться всередині, зменшують шанси, що вас викинуть з хімічної лабораторії».
   description: uplink-pistol-magazine-caseless-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolCaselessRifle
@@ -617,7 +617,7 @@
 - type: listing
   id: UplinkMosinAmmo
   name: uplink-mosin-ammo-name
-  description: uplink-mosin-ammo-desc
+  description: Ящик, наповнений очищами.
   productEntity: MagazineBoxLightRifle
   cost:
     Telecrystal: 1
@@ -957,7 +957,7 @@
 
 - type: listing
   id: UplinkDecoyKit
-  name: uplink-decoy-kit-name
+  name: права слизова рука"
   description: uplink-decoy-kit-desc
   icon: { sprite: /Textures/Objects/Tools/Decoys/operative_decoy.rsi, state: folded }
   productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
@@ -971,7 +971,7 @@
 
 - type: listing
   id: UplinkSyndicateBombFake
-  name: uplink-exploding-syndicate-bomb-fake-name
+  name: голова метелика"
   description: uplink-exploding-syndicate-bomb-fake-desc
   productEntity: SyndicateBombFake
   discountCategory: usualDiscounts
@@ -990,7 +990,7 @@
 
 - type: listing
   id: UplinkSyndicateBombFakeNukie
-  name: uplink-exploding-syndicate-bomb-fake-name
+  name: голова метелика"
   description: uplink-exploding-syndicate-bomb-fake-desc
   productEntity: SyndicateBombFake
   discountCategory: usualDiscounts
@@ -1050,7 +1050,7 @@
 
 - type: listing
   id: UplinkSyndicateWeaponModule
-  name: uplink-syndicate-weapon-module-name
+  name: ліва діона нога"
   description: uplink-syndicate-weapon-module-desc
   productEntity: BorgModuleSyndicateWeapon
   discountCategory: usualDiscounts
@@ -1063,7 +1063,7 @@
 
 - type: listing
   id: UplinkSyndicateMartyrModule
-  name: uplink-syndicate-martyr-module-name
+  name: дослідження-технології-псіотехніка-протезування
   description: uplink-syndicate-martyr-module-desc
   productEntity: BorgModuleMartyr
   icon: { sprite: /Textures/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
@@ -1158,8 +1158,8 @@
 
 - type: listing
   id: UplinkAntimovCircuitBoard
-  name: uplink-overlord-law-name # DeltaV: Changed antimov to overlord, for traitors only
-  description: uplink-overlord-law-desc # DeltaV: Changed antimov to overlord
+  name: uplink-overlord-law-name # DeltaV: змінено antimov на overlord, лише для зрадників
+  description: uplink-overlord-law-desc # DeltaV: змінено antimov на overlord
   productEntity: OverlordCircuitBoard # DeltaV: replaced antimov with overlord
   discountCategory: usualDiscounts
   discountDownTo:
@@ -1252,7 +1252,7 @@
 
 - type: listing
   id: UplinkSingarityBeacon
-  name: uplink-singularity-beacon-name
+  name: uplink-singularity-beacon name
   description: uplink-singularity-beacon-desc
   productEntity: SingularityBeacon
   discountCategory: usualDiscounts
@@ -1591,7 +1591,7 @@
 
 - type: listing
   id: UplinkUplinkImplanter # uplink uplink real
-  name: uplink-uplink-implanter-name
+  name: назва імплантатора висхідної лінії зв’язку
   description: uplink-uplink-implanter-desc
   icon: { sprite: /Textures/Objects/Devices/communication.rsi, state: old-radio }
   productEntity: UplinkImplanter
@@ -1630,7 +1630,7 @@
 - type: listing
   id: UplinkFakeMindshield
   name: uplink-fake-mindshield-name
-  description: uplink-fake-mindshield-desc
+  description: loadout-group-atmospheric-technician-комбінезон
   icon: { sprite: Interface/Actions/actions_fakemindshield.rsi, state: icon-on }
   productEntity: FakeMindShieldImplanter
   discountDownTo:
@@ -1735,7 +1735,7 @@
 
 - type: listing
   id: UplinkClothingOuterVestWeb
-  name: uplink-clothing-outer-vest-web-name
+  name: uplink-clothing-oper-vest-web-name
   description: uplink-clothing-outer-vest-web-desc
   productEntity: ClothingOuterVestWeb
   discountCategory: usualDiscounts
@@ -1749,7 +1749,7 @@
 - type: listing
   id: UplinkClothingOuterVestWebElite
   name: uplink-clothing-outer-vest-web-elite-name
-  description: uplink-clothing-outer-vest-web-elite-desc
+  description: uplink-clothing-oper-vest-web-elite-desc
   productEntity: ClothingOuterVestWebElite
   discountCategory: usualDiscounts
   discountDownTo:
@@ -1818,7 +1818,7 @@
 - type: listing
   id: UplinkClothingOuterArmorRaid
   name: uplink-syndie-raid-name
-  description: uplink-syndie-raid-desc
+  description: uplink-doorjack-desc
   icon: { sprite: /Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
   productEntity: ClothingBackpackSyndicateRaidBundle
   cost:
@@ -1833,8 +1833,8 @@
 
 - type: listing
   id: UplinkHardsuitSyndieElite
-  name: uplink-hardsuit-syndieelite-delta-name # DeltaV change elite to thermal
-  description: uplink-hardsuit-syndieelite-desc-deltav # DeltaV - changed description
+  name: uplink-hardsuit-syndieelite-delta-name # DeltaV змінює elite на heat
+  description: uplink-hardsuit-syndieelite-desc-deltav # DeltaV - змінено опис
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
@@ -1854,8 +1854,8 @@
 
 - type: listing
   id: UplinkClothingOuterHardsuitJuggernaut
-  name: uplink-clothing-outer-hardsuit-juggernaut-name
-  description: uplink-clothing-outer-hardsuit-juggernaut-desc
+  name: uplink-clothing-oper-hardsuit-juggernaut-name
+  description: uplink-clothing-oper-hardsuit-juggernaut-desc
   icon: { sprite: /Textures/Structures/Storage/Crates/syndicate.rsi, state: icon }
   productEntity: CrateCybersunJuggernautBundle
   discountCategory: veryRareDiscounts # DeltaV
@@ -1949,7 +1949,7 @@
 
 - type: listing
   id: UplinkSyndicateStamp
-  name: uplink-syndicate-stamp-name
+  name: uplink-syndicate-stamp name
   description: uplink-syndicate-stamp-desc
   productEntity: RubberStampSyndicate
   # Begin DeltaV Removals
@@ -2040,7 +2040,7 @@
 
 - type: listing
   id: UplinkBalloon
-  name: uplink-balloon-name
+  name: назва висхідної кулі
   description: uplink-balloon-desc
   productEntity: BalloonSyn
   cost:
@@ -2139,8 +2139,8 @@
 
 - type: listing
   id: uplinkHolyHandGrenade
-  name: uplink-holy-hand-grenade-name
-  description: uplink-holy-hand-grenade-desc
+  name: uplink-holy-hand-granade-name
+  description: uplink-holy-hand-granade-desc
   productEntity: HolyHandGrenade
   discountCategory: rareDiscounts
   discountDownTo:
@@ -2407,7 +2407,7 @@
 - type: listing
   id: uplinkBriefcaseGun
   name: uplink-briefcase-gun-name
-  description: uplink-briefcase-gun-desc
+  description: uplink-brifcase-gun-desc
   productEntity: WeaponSubMachineGunBriefcase
   discountCategory: veryRareDiscounts
   discountDownTo:

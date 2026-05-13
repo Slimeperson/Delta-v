@@ -1,8 +1,8 @@
 - type: entity
-  name: stamp box [CJ]
+  name: коробка для марок [CJ]
   parent: BoxCardboard
   id: BoxCJStamps
-  description: A box filled with CJ's Stamps. Ready to dispense justice!
+  description: Коробка, наповнена марками CJ. Готовий вершити правосуддя!
   components:
   - type: Item
     size: Small
@@ -27,10 +27,10 @@
       - state: stamp
 
 - type: entity
-  name: circuit tote [CJ]
+  name: тоталізатор [CJ]
   parent: ToteBase
   id: BoxCJCircuitboards
-  description: A Tote filled with CJ's Circuit boards.
+  description: Сумка, наповнена друкованими платами CJ.
   components:
   - type: EntityTableContainerFill
     containers:

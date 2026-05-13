@@ -3,11 +3,11 @@ bwoink-admin-title = Довідка адміністратора
 
 bwoink-system-starmute-message-no-other-users = *СИСТЕМА: Нікому отримати повідомлення. Звернись у дискорді.
 
-bwoink-system-messages-being-relayed-to-discord =
+bwoink-system-messages-being-relayed-to-discord = Усі повідомлення передаються адміністраторам гри через Discord.
     All messages are relayed to game administrators via Discord.
     Issues may be handled without a response.
 
-bwoink-system-introductory-message =
+bwoink-system-introductory-message = Детально опишіть проблему, з якою ви зіткнулися. Припустімо, що адміністратор гри, який вирішує проблему, не знає з перших рук про те, що сталося.
     Please describe the issue that you have encountered in detail. Assume that the game administrator who is resolving the problem does not have first-hand knowledge of what has occurred.
     Event related querys should be directed to Curator Help.
     Any bugs and other related issues should be reported through Discord or Github.

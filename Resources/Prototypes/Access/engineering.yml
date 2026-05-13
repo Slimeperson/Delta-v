@@ -4,7 +4,7 @@
 
 - type: accessLevel
   id: Engineering
-  name: id-card-access-level-engineering
+  name: id-card-access-level engineering
 
 - type: accessLevel
   id: Atmospherics

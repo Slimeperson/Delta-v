@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: hi-viz жилет
+  description: Жилет підвищеної видимості, який використовується в робочих зонах.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: жилет
+  description: Товстий жилет з гумовою водонепроникною оболонкою.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: tank harness
-  description: A simple harness that can hold a gas tank.
+  name: джгут танка
+  description: Простий джгут, який може вмістити бензобак.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi

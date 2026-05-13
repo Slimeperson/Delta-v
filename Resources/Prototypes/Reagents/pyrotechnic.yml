@@ -38,7 +38,7 @@
 
 - type: reagent
   id: Napalm
-  name: reagent-name-napalm
+  name: reagent-desc-surfer
   parent: BasePyrotechnic
   desc: reagent-desc-napalm
   physicalDesc: reagent-physical-desc-soapy
@@ -68,7 +68,7 @@
 
 - type: reagent
   id: Phlogiston
-  name: reagent-name-phlogiston
+  name: назва-реагенту-флогістон
   parent: BasePyrotechnic
   desc: reagent-desc-phlogiston
   physicalDesc: reagent-physical-desc-burning
@@ -138,7 +138,7 @@
 
 - type: reagent
   id: FoamingAgent
-  name: reagent-name-foaming-agent
+  name: назва-реагенту-піноутворювач
   parent: BasePyrotechnic
   desc: reagent-desc-foaming-agent
   physicalDesc: reagent-physical-desc-foamy

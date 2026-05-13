@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateHydroSecure
   id: CrateHydroponicsSeedsExotic
-  name: exotic seeds crate
-  description: Any entrepreneuring botanist's dream. Contains many different exotic seeds. Requires Hydroponics access to open.
+  name: ящик з екзотичним насінням
+  description: Мрія будь-якого ботаніка-підприємця. Містить багато різних екзотичних насіння. Для відкриття потрібен доступ до гідропоніки.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -26,8 +26,8 @@
 - type: entity
   parent: CrateHydroSecure
   id: CrateHydroponicsSeedsMedicinal
-  name: medicinal seeds crate
-  description: The wannabe chemist's dream. The power of medicine is at your fingertips! Requires Hydroponics access to open.
+  name: ящик з лікарським насінням
+  description: Мрія майбутнього хіміка. Сила медицини у вас під рукою! Для відкриття потрібен доступ до гідропоніки.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,8 +47,8 @@
 - type: entity
   parent: CrateHydroponics
   id: CrateHydroponicsTools
-  name: hydroponics equipment crate
-  description: Supplies for growing a great garden! Contains some spray bottles of plant chemicals, a hatchet, a mini-hoe, scythe, as well as a pair of leather gloves and a botanist's apron.
+  name: ящик для обладнання для гідропоніки
+  description: Матеріали для вирощування чудового саду! Містить кілька пляшечок з розпилювачами рослинних хімікатів, сокиру, міні-мотику, косу, а також пару шкіряних рукавичок і фартух ботаніка.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -70,8 +70,8 @@
 - type: entity
   parent: CrateHydroponics
   id: CrateHydroponicsSeeds
-  name: seeds crate
-  description: Big things have small beginnings. Contains twenty-four different seeds.
+  name: ящик для насіння
+  description: Великі речі починаються з малого. Містить двадцять чотири різні насіння.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -105,8 +105,8 @@
 - type: entity
   parent: CrateHydroponics
   id: CrateHydroponicsTray
-  name: hydroponics tray crate
-  description: Contains a hydroponics tray flatpack.
+  name: лоток для гідропоніки
+  description: Містить лоток для гідропоніки.
   components:
   - type: EntityTableContainerFill
     containers:

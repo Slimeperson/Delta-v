@@ -62,7 +62,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatSpace
-  name: Space Cat Spawner
+  name: Спаунер космічних котів
   components:
   - type: Sprite
     layers:
@@ -75,7 +75,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCockroach
-  name: Cockroach Spawner
+  name: Спаунер тарганів
   components:
   - type: Sprite
     layers:
@@ -105,7 +105,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCow
-  name: Cow Spawner
+  name: Корова Spawner
   components:
   - type: Sprite
     layers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFrog
-  name: Frog Spawner
+  name: Жаба Спаун
   components:
   - type: Sprite
     layers:
@@ -147,7 +147,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobGoat
-  name: Goat Spawner
+  name: Коза Spawner
   components:
   - type: Sprite
     layers:
@@ -175,7 +175,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLizard
-  name: Lizard Spawner
+  name: Фокс Рено Спаунер
   components:
   - type: Sprite
     layers:
@@ -203,7 +203,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMouse
-  name: Mouse Spawner
+  name: Спаунер миші
   components:
   - type: Sprite
     layers:

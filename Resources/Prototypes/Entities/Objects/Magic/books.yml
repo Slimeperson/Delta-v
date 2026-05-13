@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseMagicalContraband ]
   id: BaseSpellbook
-  name: spellbook
+  name: книга заклинань
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: [ BaseItem, StorePresetSpellbook, BaseMagicalContraband ]
   id: WizardsGrimoire
-  name: wizard's grimoire
-  suffix: Wizard
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
+  name: гримуар чарівника
+  suffix: майстер
+  description: Важкий фоліант, що містить складні таємничі формули для приготування магічних заклинань і заклинання надприродного обладнання. Десятиліття досліджень пішли на дослідження цієї колекції містичних таємниць; тепер використовуй їх, щоб зіпсувати комусь день.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -54,7 +54,7 @@
 - type: entity
   parent: WizardsGrimoire
   id: WizardsGrimoireNoRefund
-  suffix: Wizard, no refunding
+  suffix: Майстер, без повернення
   components:
     - type: Store
       refundAllowed: false
@@ -63,8 +63,8 @@
 - type: entity
   parent: WizardsGrimoire
   id: WizardsGrimoireDebug
-  suffix: Wizard, DEBUG
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
+  suffix: Майстер, DEBUG
+  description: Важкий фоліант, що містить складні таємничі формули для приготування магічних заклинань і заклинання надприродного обладнання. На внутрішній стороні обкладинки хтось написав «ЛИШЕ ДЛЯ ЕКСПЕРИМЕНТАЛЬНОГО ВИКОРИСТАННЯ».
   components:
     - type: Store
       ownerOnly: false # For ease of debugging.
@@ -74,7 +74,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SpawnSpellbook
-  name: spawn spellbook
+  name: spawn книга заклинань
   components:
     - type: Spellbook
       spellActions:
@@ -83,7 +83,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ForceWallSpellbook
-  name: force wall spellbook
+  name: Силова стіна книга заклинань
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: BaseSpellbook
   id: BlinkBook
-  name: blink spellbook
+  name: мерехтіння книга заклинань
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -127,7 +127,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SmiteBook
-  name: smite spellbook
+  name: вразити книгу заклинань
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: BaseSpellbook
   id: KnockSpellbook
-  name: knock spellbook
+  name: стук книга заклинань
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseSpellbook
   id: FireballSpellbook
-  name: fireball spellbook
+  name: книга заклинань вогненної кулі
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -196,7 +196,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ScrollRunes
-  name: scroll of runes
+  name: сувій рун
   components:
   - type: Item
     size: Normal

@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingBackpack, BaseChameleon]
   id: ClothingBackpackChameleon
-  name: backpack
-  description: You wear this on your back and put items into it.
-  suffix: Chameleon
+  name: рюкзак
+  description: Ви носите це на спині і кладете в нього предмети.
+  suffix: Хамелеон
   components:
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
@@ -22,8 +22,8 @@
 - type: entity
   parent: [Clothing, ClothingSlotBase]
   id: ClothingBackpackWaterTank
-  name: backpack water tank
-  description: Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
+  name: рюкзак для води
+  description: Утримує велику кількість рідини. Постачання для розпилювальних насадок у ваших руках, а збоку є проріз для зазначених розпилювальних насадок.
   components:
   - type: Tag
     tags:
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBagPet
-  name: pet bag
-  description: A small bag designed for use by pets and small animals.
+  name: сумка для тварин
+  description: Невелика сумка, призначена для домашніх тварин і маленьких тварин.
   components:
   - type: Sprite
     sprite: Clothing/Back/Specific/petbag.rsi
@@ -105,7 +105,7 @@
   parent: Clothing
   id: ClothingBackpackHarmpack
   name: H.A.R.M.P.A.C.K.
-  description: Now you can reload, punch, and eat a snack - simultaneously.
+  description: Зовні на цьому циліндричному костюмі грубо написано «Скуб».
   components:
   - type: Sprite
     sprite: Clothing/Back/Specific/harmpack.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingBackpack
   id: XenoborgMaterialBag
-  name: silicon storage square
-  description: A knockoff version of a bluespace bag, can vacumn up select materials, unfit for use by humanoids due to harmful emissions.
+  name: костюм чумного лікаря
+  description: Підробна версія мішка bluespace може пилососити вибрані матеріали, непридатні для використання гуманоїдами через шкідливі викиди.
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/silicon_storage_cube.rsi

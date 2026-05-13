@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBarSign
   parent: [ BaseWallmountGlass, BaseWallmountMachine ]
-  name: bar sign
+  name: бар знак
   abstract: true
   components:
   - type: WallMount
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSign
-  name: bar sign
-  suffix: Random
+  name: бар знак
+  suffix: Випадковий
 
 # Missing appearance components & various other sprite issues.
 #- type: entity
@@ -273,7 +273,7 @@
   parent: BaseBarSign
   id: BarSignMaltroach
   name: The Maltroach
-  description: Squeak!
+  description: Писк!
   components:
   - type: BarSign
     current: Maltroach

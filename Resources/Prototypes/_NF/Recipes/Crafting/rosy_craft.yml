@@ -1,9 +1,9 @@
 - type: construction
-  name: construction-recipe-maple-mothroach-cloak
+  name: конструкція-рецепт-клен-mothroach-плащ
   id: ClothingNeckCloakRosyRecipe
   graph: ClothingNeckCloakRosyGraph
   startNode: start
   targetNode: ClothingNeckCloakRosy
   category: construction-category-clothing
-  description: construction-recipe-description-maple-mothroach-cloak
+  description: конструкція-рецепт-опис-клен-горлак-плащ
   objectType: Item

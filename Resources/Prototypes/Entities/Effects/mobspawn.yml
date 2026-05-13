@@ -1,6 +1,6 @@
 - type: entity
   id: MobSpawnCrabQuartz
-  name: mobspawner quartzcrab
+  name: мобспавнер кварцкраб
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Transform
@@ -30,7 +30,7 @@
 - type: entity
   id: MobSpawnCrabIron
   parent: MobSpawnCrabQuartz
-  name: mobspawner ironcrab
+  name: мобспавнер ironcrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   id: MobSpawnCrabCoal
   parent: MobSpawnCrabQuartz
-  name: mobspawner coalcrab
+  name: mobspawner вугільний краб
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   id: MobSpawnCrabSilver
   parent: MobSpawnCrabQuartz
-  name: mobspawner silvercrab
+  name: salvage-biome-mod-caves
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite

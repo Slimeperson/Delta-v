@@ -7,7 +7,7 @@
   icon:
     sprite: Objects/Materials/Sheets/other.rsi
     state: plastic
-  name: stack-biogenerator-plastic1
+  name: стек-біогенератор-пластик1
   completetime: 1
   materials:
     Biomass: 2
@@ -20,7 +20,7 @@
   icon:
     sprite: Objects/Materials/Sheets/other.rsi
     state: plastic_2
-  name: stack-biogenerator-plastic10
+  name: стек-біогенератор-пластик10
   completetime: 1
   materials:
     Biomass: 20
@@ -33,7 +33,7 @@
   icon:
     sprite: Objects/Materials/Sheets/other.rsi
     state: plastic_3
-  name: stack-biogenerator-plastic30
+  name: стек-біогенератор-пластик30
   completetime: 1
   materials:
     Biomass: 60

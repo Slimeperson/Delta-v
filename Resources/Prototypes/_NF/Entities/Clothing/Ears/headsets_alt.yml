@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadsetAlt # DeltaV - Removed ClothingHeadsetCommon
   id: ClothingHeadsetAltPilot
-  name: pilot over-ear headset
+  name: пілотна накладна гарнітура
   components:
   - type: Sprite
     sprite: _NF/Clothing/Ears/Headsets/pilot.rsi

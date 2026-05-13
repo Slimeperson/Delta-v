@@ -21,8 +21,8 @@
 - type: entity
   parent: [ClothingShoesBootsJump, BaseMajorContraband]
   id: ClothingShoesRealJordans
-  name: gorlex sneakers # DeltaV - Removed Ref. to Air Jordans
-  description: State-of-the-art Gorlex sneakers that give you moves you could only dream of. # DeltaV - Removed Ref. to Air Jordans
+  name: кросівки gorlex # DeltaV - Видалено Ref. до Air Jordans
+  description: Сучасні кросівки Gorlex, які дають вам рухи, про які ви могли тільки мріяти. # DeltaV - Видалено посилання. до Air Jordans
   components:
   - type: Sprite
     sprite: _DV/Clothing/Shoes/Boots/jordans.rsi # DeltaV - New Sprites
@@ -60,9 +60,9 @@
 - type: entity
   parent: ClothingShoesRealJordans
   id: ClothingShoesRealJordansAutographed
-  name: gorlex sneakers # DeltaV - Removed Ref. to Air Jordans
-  suffix: Signed # DeltaV
-  description: These aren't just any pair of Gorlex sneakers, these were signed by Operative November herself. They must be worth a FORTUNE. # DeltaV - Removed Ref. to Air Jordans
+  name: кросівки gorlex # DeltaV - Видалено Ref. до Air Jordans
+  suffix: Підписано # DeltaV
+  description: Це не просто пара кросівок Gorlex, їх підписала сама Operative November. They must be worth a FORTUNE. # DeltaV - Видалено посилання. до Air Jordans
   components:
   - type: Sprite
     sprite: _DV/Clothing/Shoes/Boots/jordans.rsi # DeltaV - New Sprites

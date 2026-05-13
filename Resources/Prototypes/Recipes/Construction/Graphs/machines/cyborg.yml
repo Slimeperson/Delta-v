@@ -16,14 +16,14 @@
         store: part-container
 
       - component: Flash
-        name: construction-graph-component-flash
+        name: конструкція-граф-компонент-флеш
         store: part-container
         icon:
           sprite: Objects/Weapons/Melee/flash.rsi
           state: flash
 
       - component: Flash
-        name: construction-graph-component-second-flash
+        name: конструкція-граф-компонент-другий-флеш
         store: part-container
         icon:
           sprite: Objects/Weapons/Melee/flash.rsi

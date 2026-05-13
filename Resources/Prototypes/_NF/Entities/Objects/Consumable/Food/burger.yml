@@ -4,10 +4,10 @@
 # Custom Burger Example
 
 - type: entity
-  name: rosy mothroachburger
+  name: рожевий мотроахбургер
   parent: FoodBurgerMothRoach
   id: FoodBurgerRosyMothRoach
-  description: The last lamp it saw was the one inside the microwave.
+  description: Останньою лампою, яку він побачив, була лампа в мікрохвильовій печі.
   components:
   - type: FlavorProfile
     flavors:

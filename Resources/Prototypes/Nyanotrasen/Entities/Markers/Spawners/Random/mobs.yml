@@ -2,7 +2,7 @@
   name: NPC Carp Spawner
   id: CarpSpawnerMundane
   parent: MarkerBase
-  suffix: No Ghost Takeover
+  suffix: Без захоплення привидами
   components:
     - type: Sprite
       layers:
@@ -81,7 +81,7 @@
   name: Xeno Spawner
   id: XenoAISpawner
   parent: MarkerBase
-  suffix: No Ghost Takeover
+  suffix: Без захоплення привидами
   components:
     - type: Sprite
       layers:
@@ -103,7 +103,7 @@
       rareChance: 0.10
 
 - type: entity
-  name: Argocyte Spawner
+  name: Спаунер аргоцитів
   id: ArgocyteAISpawner
   parent: MarkerBase
   components:
@@ -148,7 +148,7 @@
       rareChance: 0.10
 
 - type: entity
-  name: Space Creature Spawner
+  name: Спаунер космічних істот
   id: SpaceCreatureAISpawner
   parent: MarkerBase
   components:
@@ -165,7 +165,7 @@
         - MobSpiderSpace
 
 - type: entity
-  name: Arena Spawner
+  name: Створювач арени
   id: ArenaSpawner
   parent: MarkerBase
   components:

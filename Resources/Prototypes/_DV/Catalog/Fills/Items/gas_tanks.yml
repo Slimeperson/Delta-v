@@ -1,7 +1,7 @@
 - type: entity
   id: WaterVaporTankFilled
   parent: WaterVaporTank
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -20,7 +20,7 @@
 - type: entity
   id: EmergencyWaterVaporTankFilled
   parent: EmergencyWaterVaporTank
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -39,7 +39,7 @@
 - type: entity
   id: ExtendedEmergencyWaterVaporTankFilled
   parent: ExtendedEmergencyWaterVaporTank
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -58,7 +58,7 @@
 - type: entity
   id: DoubleEmergencyWaterVaporTankFilled
   parent: DoubleEmergencyWaterVaporTank
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -77,8 +77,8 @@
 - type: entity
   id: OxygenTankERTFilled
   parent: OxygenTankERT
-  suffix: Filled
-  name: ERT oxygen tank
+  suffix: Заповнений
+  name: ERT кисневий балон
   components:
   - type: GasTank
     air:
@@ -93,8 +93,8 @@
 - type: entity
   id: NitrogenTankERTFilled
   parent: NitrogenTankERT
-  suffix: Filled
-  name: ERT nitrogen tank
+  suffix: Заповнений
+  name: Резервуар для азоту ERT
   components:
   - type: GasTank
     air:
@@ -109,8 +109,8 @@
 - type: entity
   id: WaterVaporTankERTFilled
   parent: WaterVaporTankERT
-  suffix: Filled
-  name: ERT water vapor tank
+  suffix: Заповнений
+  name: Резервуар для водяної пари ERT
   components:
   - type: GasTank
     outputPressure: 21.3

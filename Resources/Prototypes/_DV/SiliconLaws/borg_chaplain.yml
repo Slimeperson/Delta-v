@@ -26,7 +26,7 @@
 
 - type: siliconLawset
   id: Chaplain
-  name: law-chaplain-name
+  name: закон-капелан-ім
   laws:
   - Chaplain1
   - Chaplain2

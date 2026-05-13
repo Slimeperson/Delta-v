@@ -63,9 +63,9 @@
 
 - type: reagent
   id: OilGhee
-  name: reagent-name-oil-ghee
+  name: reagent-name-oil-hee
   group: Foods
-  desc: reagent-desc-oil-ghee
+  desc: reagent-desc-oil-hee
   physicalDesc: reagent-physical-desc-oily
   flavor: butter
   color: gold

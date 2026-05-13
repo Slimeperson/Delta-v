@@ -11,7 +11,7 @@
 
 - type: sinkPort
   id: RoboticArmInput
-  name: signal-port-name-input-machine
+  name: ім'я-сигнального-порту-вхідної-машини
   description: signal-port-description-input-machine
 
 - type: sinkPort
@@ -67,7 +67,7 @@
 - type: sinkPort
   id: AutomationSlotTool
   name: signal-port-name-automation-slot-tool
-  description: signal-port-description-automation-slot-tool
+  description: Компактний одноразовий шприц, призначений виключно для ін’єкцій підшкірних імплантатів. Голка для введення покрита анестетиком.
 
 # Autodoc
 
@@ -99,10 +99,10 @@
 
 - type: sinkPort
   id: DisposalFlush
-  name: signal-port-name-flush
+  name: ім'я-сигнального-порту-флеш
   description: signal-port-description-flush
 
 - type: sinkPort
   id: DisposalEject
-  name: signal-port-name-eject
+  name: ім'я-порту-сигналу-витяг
   description: signal-port-description-eject

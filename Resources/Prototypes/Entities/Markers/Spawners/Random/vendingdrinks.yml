@@ -1,7 +1,7 @@
 - type: entity
   id: RandomVendingDrinks
-  name: random vending machine spawner
-  suffix: Drinks
+  name: спавнер випадкового торгового автомата
+  suffix: Напої
   parent: MarkerBase
   components:
   - type: Sprite

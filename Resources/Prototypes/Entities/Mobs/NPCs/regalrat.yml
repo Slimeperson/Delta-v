@@ -1,8 +1,8 @@
 - type: entity
-  name: rat king
+  name: щурячий король
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: Він щур. Він робить da roolz.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -136,7 +136,7 @@
 - type: entity
   id: MobRatKingBuff
   parent: MobRatKing
-  suffix: Buff
+  suffix: Бафф
   components:
   - type: Sprite
     sprite: Mobs/Animals/buffrat.rsi
@@ -171,10 +171,10 @@
     - MinorAntagonists
 
 - type: entity
-  name: rat servant
+  name: пацюк слуга
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: Він маленький щур. Він не робить da roolz.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: Carriable # DeltaV
@@ -351,8 +351,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: Підняти армію
+  description: Витратьте трохи голоду, щоб викликати союзного щура, який допоможе захистити вас.
   components:
   - type: Action
     useDelay: 4
@@ -365,8 +365,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of ammonia into the air.
+  name: Домен щурячого короля
+  description: Витратьте трохи голоду, щоб випустити в повітря хмару аміаку.
   components:
   - type: Action
     useDelay: 6
@@ -379,8 +379,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: Залишся
+  description: Накажи своїй армії стояти на місці.
   components:
   - type: Action
     useDelay: 1
@@ -398,8 +398,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: Слідуйте
+  description: Накажи своїй армії слідувати за тобою.
   components:
   - type: Action
     useDelay: 1
@@ -417,8 +417,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderCheeseEm
-  name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  name: Сир "Ем".
+  description: Наказуйте своїй армії атакувати будь-кого, на кого ви вкажете.
   components:
   - type: Action
     useDelay: 1
@@ -436,8 +436,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: Пухкий
+  description: Наказуйте своїй армії діяти за власним бажанням.
   components:
   - type: Action
     useDelay: 1

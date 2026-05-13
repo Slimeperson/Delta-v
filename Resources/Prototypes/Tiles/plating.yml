@@ -14,7 +14,7 @@
 - type: tile
   id: Plating
   parent: BasePlating
-  name: tiles-plating
+  name: облицювання плиткою
   sprite: /Textures/_DV/Tiles/plating.png #Delta V - Resprite Tile
 
 - type: tile
@@ -37,7 +37,7 @@
 - type: tile
   id: FloorHullReinforced
   parent: BasePlating
-  name: tiles-hull-reinforced
+  name: плитково-корпусні армовані
   sprite: /Textures/Tiles/hull_reinforced.png
   footstepSounds:
     collection: FootstepHull
@@ -48,7 +48,7 @@
 - type: tile
   id: PlatingDamaged
   parent: BasePlating
-  name: tiles-plating
+  name: облицювання плиткою
   sprite: /Textures/Tiles/plating_damaged.png
   variants: 3
   placementVariants:
@@ -59,25 +59,25 @@
 - type: tile
   id: PlatingAsteroid
   parent: BasePlating
-  name: tiles-asteroid-plating
+  name: плитка-астероїд-обшивка
   sprite: /Textures/Tiles/Asteroid/asteroid_plating.png
 
 - type: tile
   id: PlatingBrass
   parent: BasePlating
-  name: tiles-brass-plating
+  name: плитка-латунування
   sprite: /Textures/Tiles/Misc/clockwork/clockwork_floor.png
 
 - type: tile
   id: PlatingSnow
-  name: tiles-snow-plating
+  name: плитка снігова
   parent: BasePlating
   sprite: /Textures/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
   friction: 0.75 #a little less then actual snow
 
 - type: tile
   id: PlatingIronsand
-  name: tiles-ironsand-plating
+  name: сповіщення-низький-назва-тиску
   sprite: /Textures/Tiles/Asteroid/ironsand_plating.png
   baseTurf: Lattice
   isSubfloor: true
@@ -88,7 +88,7 @@
 
 - type: tile
   id: Lattice
-  name: tiles-lattice
+  name: плитка-решетка
   sprite: /Textures/Tiles/lattice.png
   baseTurf: Space
   isSubfloor: true
@@ -105,7 +105,7 @@
 - type: tile
   id: TrainLattice
   parent: Lattice
-  name: tiles-lattice-train
+  name: плитка-решетка-шлейф
   sprite: /Textures/Tiles/latticeTrain.png
   footstepSounds:
     collection: FootstepPlating

@@ -1,8 +1,8 @@
 - type: entity
-  name: ore bag
+  name: рудний мішок
   id: OreBag
   parent: BaseStorageItem
-  description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
+  description: Міцна сумка для рятувальників і шахтарів для транспортування великої кількості руди. Намагнічує будь-яку довколишню руду, якщо її прикріпити до пояса.
   components:
   - type: MagnetPickup
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   parent: OreBag
   id: BorgOreBag
-  name: integrated ore bag
-  description: A large ore bag built into the frame of a mining cyborg.
+  name: інтегрований рудний мішок
+  description: Великий мішок для руди, вбудований у раму майнерського кіборга.
   components:
     - type: Storage
       grid:

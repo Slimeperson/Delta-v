@@ -1,7 +1,7 @@
 ﻿zombie-title = зомбі
 zombie-description = Нежить випущена на станцію! Працюйте з екіпажем, щоб вижити під час спалаху та захистити станцію.
 
-zombieteors-title = Zombieteors
+zombieteors-title = невідповідність
 zombieteors-description = Нежить була випущена на станцію серед катастрофічного метеоритного дощу! Працюйте зі своєю командою та робіть усе можливе, щоб вижити!
 
 zombie-not-enough-ready-players = Недостатньо гравців, готових до гри! Було підготовлено {$readyPlayersCount}гравців із {$minimumPlayers}необхідних. Не вдається запустити Zombies.

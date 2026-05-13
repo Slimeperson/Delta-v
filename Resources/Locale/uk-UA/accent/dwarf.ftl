@@ -205,7 +205,7 @@ accent-dwarf-words-68 = привіт
 accent-dwarf-words-replace-68 = ой
 
 accent-dwarf-words-69 = що
-accent-dwarf-words-replace-69 = wot
+accent-dwarf-words-replace-69 = #
 
 accent-dwarf-words-70 = де
 accent-dwarf-words-replace-70 = Сресрекікіт
@@ -307,10 +307,10 @@ accent-dwarf-words-103 = чи
 accent-dwarf-words-replace-103 = ми
 
 accent-dwarf-words-104 = будь-коли
-accent-dwarf-words-replace-104 = e'er
+accent-dwarf-words-replace-104 = ID Card
 
 accent-dwarf-words-105 = будь-коли
-accent-dwarf-words-replace-105 = we'er
+accent-dwarf-words-replace-105 = ми
 
 accent-dwarf-words-106 = що завгодно
 accent-dwarf-words-replace-106 = нічого

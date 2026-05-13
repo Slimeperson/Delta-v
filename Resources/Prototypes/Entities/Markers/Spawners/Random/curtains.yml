@@ -1,5 +1,5 @@
 - type: entity
-  name: random curtain spawner
+  name: спаунер випадкових завіс
   id: CurtainSpawner
   parent: MarkerBase
   components:

@@ -1,7 +1,7 @@
 - type: job
   id: MedicalBorg
-  name: job-name-medical-borg
-  description: job-description-medical-borg
+  name: робота-назва-медичний-борг
+  description: посадова-інструкція-медичний-борг
   playTimeTracker: JobMedicalBorg
   requirements:
     - !type:OverallPlaytimeRequirement

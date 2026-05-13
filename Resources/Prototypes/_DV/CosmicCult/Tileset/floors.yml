@@ -11,7 +11,7 @@
 
 - type: tile
   id: FloorCosmicSmooth
-  name: tiles-cosmiccult-floor-smooth
+  name: плитка-космічна-підлога-гладка
   sprite: /Textures/_DV/CosmicCult/Tileset/cosmicfloor/tile_smooth.png
   baseTurf: Plating
   isSubfloor: false
@@ -22,7 +22,7 @@
 
 - type: tile
   id: FloorCosmicHalf
-  name: tiles-cosmiccult-floor-half
+  name: плитка-космічна-культ-підлога-пол
   sprite: /Textures/_DV/CosmicCult/Tileset/cosmicfloor/tile_half.png
   baseTurf: Plating
   isSubfloor: false
@@ -44,7 +44,7 @@
 
 - type: tile
   id: FloorCosmicNotched
-  name: tiles-cosmiccult-floor-notched
+  name: плитка-космічна-культ-підлога-зубчаста
   sprite: /Textures/_DV/CosmicCult/Tileset/cosmicfloor/tile_notched.png
   baseTurf: Plating
   isSubfloor: false
@@ -55,7 +55,7 @@
 
 - type: tile
   id: FloorCosmicCorruption
-  name: tiles-cosmiccult-floor-malign
+  name: Нульовий відблиск
   sprite: /Textures/_DV/CosmicCult/Tileset/cosmicfloor/tile_malign.png
   variants: 4
   placementVariants:
@@ -72,7 +72,7 @@
 
 - type: tile
   id: FloorCosmicVoid
-  name: tiles-cosmiccult-floor-void
+  name: плитка-космічний-культ-підлога-порожнеча
   sprite: /Textures/_DV/CosmicCult/Tileset/cosmicfloor/floor_void.png
   baseTurf: Plating
   isSubfloor: false
@@ -83,8 +83,8 @@
 
 - type: entity
   id: FloorCosmicDecay
-  name: entropic decay
-  description: Just one look at this sends a chill running down your spine.
+  name: ентропійний розпад
+  description: Лише один погляд на це викликає мороз по спині.
   placement:
     mode: SnapgridCenter
     snap:
@@ -143,8 +143,8 @@
 
 - type: entity
   id: FloorCosmicDecayAlt
-  suffix: DO NOT MAP
-  name: "???"
+  suffix: НЕ КАРТА
+  name: "Ви на короткий час нівелюєте будь-яку вхідну шкоду.
   placement:
     mode: SnapgridCenter
     snap:

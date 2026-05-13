@@ -1,6 +1,6 @@
 - type: job
   id: Passenger
-  name: job-name-passenger # DeltaV - This is used everywhere for fallbacks so I didnt want to change it, but it says Assistant now
+  name: job-name-passenger # DeltaV – це використовується скрізь для резервних варіантів, тому я не хотів це змінювати, але зараз написано Assistant
   description: job-description-assistant # DeltaV - Passenger to Assistant
   playTimeTracker: JobPassenger
   startingGear: PassengerGear

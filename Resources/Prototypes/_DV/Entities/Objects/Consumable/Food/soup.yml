@@ -1,8 +1,8 @@
 - type: entity
-  name: scrambled eggs
+  name: яєчня
   parent: FoodBowlBase
   id: FoodMealScrambledEggs
-  description: Some cooked eggs with salt. Yummy!
+  description: Кілька варених яєць з сіллю. смакота!
   components:
   - type: FlavorProfile
     flavors:
@@ -30,16 +30,16 @@
 
 - type: foodSequenceElement
   id: ScrambledEggs
-  name: food-sequence-content-scrambled-eggs
+  name: food-sequence-content-scrambled- eggs
   sprites:
   - sprite: _DV/Objects/Consumable/Food/scrambledeggs.rsi
     state: scrambled-eggs
 
 - type: entity
-  name: blue tomato soup
+  name: синій томатний суп
   parent: FoodBowlBase
   id: FoodSoupTomatoBlue
-  description: It's hard to avoid spilling this tomato soup...
+  description: Важко не пролити цей томатний суп...
   components:
   - type: FlavorProfile
     flavors:
@@ -67,10 +67,10 @@
     - Soup
 
 - type: entity
-  name: purple tomato soup
+  name: фіолетовий томатний суп
   parent: FoodBowlBase
   id: FoodSoupTomatoPurple
-  description: Do they make purple tomatoes?
+  description: Вони роблять фіолетові помідори?
   components:
   - type: FlavorProfile
     flavors:

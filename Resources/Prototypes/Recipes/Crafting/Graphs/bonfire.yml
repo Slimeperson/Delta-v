@@ -26,7 +26,7 @@
     - to: bonfireStake
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - material: WoodPlank

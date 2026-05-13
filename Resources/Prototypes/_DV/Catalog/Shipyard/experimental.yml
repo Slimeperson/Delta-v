@@ -1,7 +1,7 @@
 - type: vessel
   id: Saucer
-  name: NTEX-RE Saucer
-  description: A high-tech research vessel with a unique interior propulsion system.
+  name: Блюдце NTEX-RE
+  description: Високотехнологічне дослідницьке судно з унікальною внутрішньою пропульсивною системою.
   price: 50000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_saucer.yml
   categories:

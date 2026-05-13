@@ -1,7 +1,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteJustice
-  name: justice door remote
+  name: правосуддя дверний пульт
   components:
   - type: Sprite
     layers:
@@ -17,8 +17,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseEngineeringContraband]
   id: DoorRemoteFirefight
-  name: fire-fighting door remote
-  description: A gadget which can open and bolt FireDoors remotely.
+  name: пульт протипожежних дверей
+  description: Гаджет, який може дистанційно відкривати та закривати FireDoors.
   components:
     - type: Sprite
       layers:
@@ -34,7 +34,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCentcommContraband]
   id: DoorRemoteOmni
-  name: omni door remote
+  name: універсальний дверний пульт
   components:
   - type: Sprite
     layers:

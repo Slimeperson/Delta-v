@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeFries
-  name: space fries recipe
+  name: рецепт картоплі фрі
   result: FoodMealFries
   secretRecipe: true
   time: 15
@@ -16,7 +16,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCheesyFries
-  name: cheesy fries recipe
+  name: рецепт сирної картоплі фрі
   result: FoodMealFriesCheesy
   secretRecipe: true
   time: 10
@@ -33,7 +33,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCarrotFries
-  name: carrot fries recipe
+  name: фраза-аптечка
   result: FoodMealFriesCarrot
   secretRecipe: true
   time: 15
@@ -49,7 +49,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNachos # Renamed to tortilla chips (nachos have cheese)
-  name: nachos recipe
+  name: рецепт начос
   result: FoodMealNachos
   secretRecipe: true
   time: 10
@@ -65,7 +65,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNachosCheesy
-  name: cheesy nachos recipe
+  name: рецепт сирного начосу
   result: FoodMealNachosCheesy
   secretRecipe: true
   time: 10
@@ -82,7 +82,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNachosCuban
-  name: cuban nachos recipe
+  name: Рецепт кубинського начосу
   result: FoodMealNachosCuban
   secretRecipe: true
   time: 10
@@ -99,7 +99,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFriedChicken
-  name: fried chicken recipe
+  name: рецепт смаженої курки
   result: FoodMeatChickenFried
   secretRecipe: true
   time: 30

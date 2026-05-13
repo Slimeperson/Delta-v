@@ -16,8 +16,8 @@
 - type: entity
   parent: SkeletonBaseObjective
   id: SkeletonMilkObjective
-  name: Milk Them Dry
-  description: You need milk to stay alive and fix up your bones. Get as much of it as you can!
+  name: Висушіть їх молоком
+  description: Тобі потрібне молоко, щоб залишитися живим і поправити свої кістки. Отримайте якомога більше!
   components:
   - type: Objective
     icon:
@@ -28,14 +28,14 @@
   parent: SkeletonBaseObjective
   id: SkeletonHauntObjective
   name: Rattle and Haunt
-  description: You're a spooky scary skeleton, scare the daylights out of them!
+  description: Ти моторошний страшний скелет, налякай їх!
   components:
   - type: Objective
     icon:
       sprite: Mobs/Species/Skeleton/parts.rsi
       state: skull_icon
   - type: TargetObjective
-    title: objective-skeleton-haunt-title
+    title: object-skeleton-haunt-title
   - type: PickRandomPerson
     filters:
     - !type:ObjectiveImmuneFilter
@@ -47,15 +47,15 @@
 - type: entity
   parent: SkeletonBaseObjective
   id: SkeletonFrameObjective
-  name: Frame for Entombment
-  description: You believe you've narrowed down someone who might have been responsible for your entombment. Frame them for a crime.
+  name: Рама для поховання
+  description: Ви вважаєте, що звузили коло тих, хто міг бути відповідальним за ваше поховання. Підставити їх за злочин.
   components:
   - type: Objective
     icon:
       sprite: Objects/Misc/handcuffs.rsi
       state: handcuff
   - type: TargetObjective
-    title: objective-skeleton-frame-title
+    title: object-skeleton-frame-title
   - type: PickRandomPerson
     filters:
     - !type:BodyMindFilter
@@ -66,8 +66,8 @@
 - type: entity
   parent: SkeletonBaseObjective
   id: SkeletonBoneObjective
-  name: Bonevelent Ruler
-  description: You believe you were previous the undisputed ruler of this station. Establish your claim and sway the station under your eternal rule.
+  name: Лінійка Боневелента
+  description: Ви вважаєте, що раніше були беззаперечним володарем цієї станції. Встановіть свою претензію та керуйте станцією під своїм вічним правлінням.
   components:
   - type: Objective
     icon:
@@ -77,8 +77,8 @@
 - type: entity
   parent: SkeletonBaseObjective
   id: SkeletonDripObjective
-  name: Burial Wealth
-  description: You are an immortal and undying being, and you should look the part. Amass only the most resplendent clothing.
+  name: Багатство поховання
+  description: Ви безсмертна і невмируча істота, і ви повинні виглядати так само. Збирайте тільки найяскравіший одяг.
   components:
   - type: Objective
     icon:

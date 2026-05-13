@@ -7,25 +7,25 @@
     - to: repairedPinpointer
       steps:
       - tag: MothershipPinpointerPiece
-        name: construction-graph-tag-core-pinpointer-piece
+        name: конструкція-граф-тег-ядро-пінпоінтер-кусок
         icon:
           sprite: Objects/Devices/pinpointer.rsi
           state: pinpointer-xenoborg-piece-1
         doAfter: 4
       - tag: MothershipPinpointerPiece
-        name: construction-graph-tag-core-pinpointer-piece
+        name: конструкція-граф-тег-ядро-пінпоінтер-кусок
         icon:
           sprite: Objects/Devices/pinpointer.rsi
           state: pinpointer-xenoborg-piece-1
         doAfter: 4
       - tag: MothershipPinpointerPiece
-        name: construction-graph-tag-core-pinpointer-piece
+        name: конструкція-граф-тег-ядро-пінпоінтер-кусок
         icon:
           sprite: Objects/Devices/pinpointer.rsi
           state: pinpointer-xenoborg-piece-1
         doAfter: 4
       - tag: MothershipPinpointerPiece
-        name: construction-graph-tag-core-pinpointer-piece
+        name: конструкція-граф-тег-ядро-пінпоінтер-кусок
         icon:
           sprite: Objects/Devices/pinpointer.rsi
           state: pinpointer-xenoborg-piece-1

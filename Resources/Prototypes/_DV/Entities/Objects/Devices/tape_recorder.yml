@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: TapeRecorder
-  name: tape recorder
-  description: Anything said into this device can and will be used against you in a court of space law.
+  name: магнітофон
+  description: Усе, що сказано в цей пристрій, може і буде використано проти вас у суді космічного права.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/tape_recorder.rsi
@@ -65,7 +65,7 @@
 - type: entity
   parent: TapeRecorder
   id: TapeRecorderFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseItem
   id: CassetteTape
-  name: cassette tape
-  description: A magnetic tape that can hold up to two minutes of content on either side.
+  name: касетна стрічка
+  description: Магнітна стрічка, яка може вмістити до двох хвилин вмісту з обох сторін.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/cassette_tapes.rsi
@@ -109,7 +109,7 @@
         tape_greyscale: Rainbow
 
 - type: entity
-  suffix: Interview with Garry Smosh
+  suffix: Інтерв'ю з Гаррі Смошем
   parent: CassetteTape
   id: CassetteTapeInterview
   components:
@@ -118,41 +118,41 @@
   - type: TapeCassette
     recordedData:
       - timestamp: 2
-        name: Phil Dervin
-        message: "Its 11:43am, present in the room are Phil Dervin, Detective first class, Officer Belview and Grarry Smosh, Suspect of one count of secure tresspass, four counts of assault, two counts of theft and 85 counts of disturbing the peace."
+        name: Філ Дервін
+        message: "Зараз об 11:43 ранку, у кімнаті присутні Філ Дервін, детектив першого класу, офіцер Белв’ю та Ґрері Смош, підозрювані за одним пунктом звинувачення у незаконному проникненні, чотирьох пунктах нападу, двох пунктах звинувачення у крадіжці та 85 пунктах звинувачення у порушенні спокою».
       - timestamp: 6
-        name: Phil Dervin
-        message: "Mr Smosh, do you understand the charges you have been accused of?"
+        name: Філ Дервін
+        message: "Пане Смош, чи розумієте ви звинувачення, у яких вас звинувачують?»
       - timestamp: 14
-        name: Grarry Smosh
-        message: "I don't care what you say, i ain't done anything."
+        name: Грері Смош
+        message: "Мені байдуже, що ви говорите, я нічого не зробив».
       - timestamp: 18
-        name: Phil Dervin
-        message: "Sir, you were caught redhanded in the Captains bedroom. In the middle of an attempt at stealing his whiskey reserve no less."
+        name: Філ Дервін
+        message: "Сер, вас спіймали на гарячому в спальні капітанів. Посеред спроби викрасти його запас віскі не менше».
       - timestamp: 23
-        name: Phil Dervin
-        message: "You are lucky he didn't shoot you for that."
+        name: Філ Дервін
+        message: "Тобі пощастило, що він не застрелив тебе за це».
       - timestamp: 28
-        name: Grarry Smosh
-        message: "I didn't see no signs saying i couldn't be there."
+        name: Грері Смош
+        message: "Я не бачив жодних знаків про те, що я не можу бути там».
       - timestamp: 34
-        name: Phil Dervin
-        message: "The Captains bedroom? I don't think we need a sign telling people to stay out - it's common sense."
+        name: Філ Дервін
+        message: "Спальня капітанів? Я не думаю, що нам потрібен знак, який закликає людей триматися подалі – це здоровий глузд».
       - timestamp: 38
-        name: Phil Dervin
-        message: "Anyway that's besides the point, even if it were not off limits there is still the matter of the restricted items we found on your person and the subsequent attempt at evading arrest."
+        name: Філ Дервін
+        message: "У будь-якому випадку, це не суть справи, навіть якщо це не було заборонено, все одно є питання заборонених предметів, які ми знайшли у вас, і подальшої спроби ухилитися від арешту».
       - timestamp: 42
-        name: Grarry Smosh
-        message: "I ain't done nothing."
+        name: Грері Смош
+        message: "Я нічого не зробив».
       - timestamp: 46
-        name: Officer Belview
-        message: "You slipped 3 officers, stole a stun baton and beat Ian with it. The HOP was very upset at that last part."
+        name: Офіцер Белвью
+        message: "Ви підскочили 3 офіцерам, вкрали електрошокову палицю та побили нею Ієна. HOP був дуже засмучений цією останньою частиною».
       - timestamp: 50
-        name: Grarry Smosh
-        message: "Which one of you gave the HOP a disabler?"
+        name: Грері Смош
+        message: "Хто з вас дав HOP дисейблер?"
       - timestamp: 54
-        name: Phil Dervin
-        message: "The Warden did, turned out to be a good idea eh?"
+        name: Філ Дервін
+        message: "Наглядач так і зробив, виявилося гарною ідеєю, еге ж?»
       - timestamp: 58
-        name: Officer Belview
-        message: "I would say so."
+        name: Офіцер Белвью
+        message: "Я б так сказав».

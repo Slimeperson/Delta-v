@@ -1,7 +1,7 @@
 - type: entity
   id: ChemDispenserEmpty
   name: chemical dispenser
-  suffix: Empty
+  suffix: Порожній
   parent: ReagentDispenserBase
   description: An industrial grade chemical dispenser.
   components:
@@ -51,7 +51,7 @@
 
 - type: entity
   id: ChemDispenser
-  suffix: Filled
+  suffix: Заповнений
   parent: ChemDispenserEmpty
   components:
   - type: ReagentDispenser

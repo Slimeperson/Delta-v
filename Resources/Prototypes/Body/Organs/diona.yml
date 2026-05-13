@@ -28,8 +28,8 @@
 - type: entity
   id: OrganDionaBrain
   parent: [BaseDionaOrgan, OrganHumanBrain]
-  name: diona brain
-  description: "The central hub of a diona's pseudo-neurological activity, its root-like tendrils search for its former body."
+  name: діона мозок
+  description: "Центральний осередок псевдоневрологічної активності діони, її корінцеві вусики шукають своє колишнє тіло».
   components:
   - type: Item
     size: Small
@@ -60,8 +60,8 @@
 - type: entity
   id: OrganDionaEyes
   parent: BaseDionaOrgan
-  name: diona eyes
-  description: "I see you!"
+  name: очі діони
+  description: "Я бачу тебе!"
   components:
   - type: Sprite
     layers:
@@ -78,8 +78,8 @@
 - type: entity
   id: OrganDionaStomach
   parent: BaseDionaOrgan
-  name: diona stomach
-  description: "The diona's equivalent of a stomach, it reeks of asparagus and vinegar."
+  name: діона живіт
+  description: "Діона еквівалентна шлунку, вона пахне спаржею та оцтом».
   components:
   - type: Sprite
     state: stomach
@@ -113,8 +113,8 @@
 - type: entity
   id: OrganDionaLungs
   parent: BaseDionaOrgan
-  name: diona lungs
-  description: "A spongy mess of slimy, leaf-like structures. Capable of breathing both carbon dioxide and oxygen."
+  name: діона легені
+  description: "Губчаста суміш слизових листоподібних структур. Здатний дихати як вуглекислим газом, так і киснем».
   components:
   - type: Sprite
     state: lungs
@@ -153,8 +153,8 @@
   id: OrganDionaBrainNymph
   parent: OrganDionaBrain
   categories: [ HideSpawnMenu ]
-  name: diona brain
-  description: "The source of incredible, unending intelligence. Honk."
+  name: діона мозок
+  description: "Джерело неймовірного, нескінченного інтелекту. Сигнал."
   components:
   - type: Brain
   - type: Nymph # This will make the organs turn into a nymph when they're removed.
@@ -167,8 +167,8 @@
   id: OrganDionaStomachNymph
   parent: OrganDionaStomach
   categories: [ HideSpawnMenu ]
-  name: diona stomach
-  description: "Gross. This is hard to stomach."
+  name: діона живіт
+  description: "Валовий. Це важко сприймати».
   components:
   - type: Nymph
     entityPrototype: OrganDionaNymphStomach
@@ -177,8 +177,8 @@
   id: OrganDionaLungsNymph
   parent: OrganDionaLungs
   categories: [ HideSpawnMenu ]
-  name: diona lungs
-  description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
+  name: діона легені
+  description: "Відфільтровує кисень з атмосфери, який потім надсилається в кров, щоб використовуватися як переносник електронів».
   components:
   - type: Nymph
     entityPrototype: OrganDionaNymphLungs
@@ -188,9 +188,9 @@
   id: OrganDionaNymphBrain
   parent: MobDionaNymph
   categories: [ HideSpawnMenu ]
-  name: diona nymph
-  suffix: Brain
-  description: Contains the brain of a formerly fully-formed Diona. Killing this would kill the Diona forever. You monster.
+  name: діона німфа
+  suffix: мозок
+  description: Містить мозок колишньої повністю сформованої Діони. Вбивство цього вбило б Діону назавжди. Ти монстр.
   components:
   - type: IsDeadIC
   - type: Body
@@ -200,9 +200,9 @@
   id: OrganDionaNymphStomach
   parent: MobDionaNymphAccent
   categories: [ HideSpawnMenu ]
-  name: diona nymph
-  suffix: Stomach
-  description: Contains the stomach of a formerly fully-formed Diona. It doesn't taste any better for it.
+  name: діона німфа
+  suffix: Шлунок
+  description: Містить шлунок колишньої повністю сформованої Діони. Від цього він не смакує краще.
   components:
   - type: IsDeadIC
   - type: Body
@@ -212,9 +212,9 @@
   id: OrganDionaNymphLungs
   parent: MobDionaNymphAccent
   categories: [ HideSpawnMenu ]
-  name: diona nymph
-  suffix: Lungs
-  description: Contains the lungs of a formerly fully-formed Diona. Breathtaking.
+  name: діона німфа
+  suffix: легені
+  description: Містить легені колишньої повністю сформованої Діони. Захоплює дух.
   components:
   - type: IsDeadIC
   - type: Body

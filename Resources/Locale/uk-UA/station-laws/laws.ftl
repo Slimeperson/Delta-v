@@ -1,4 +1,4 @@
-﻿laws-number-wrapper = [bold]Закон { $lawnumber }:[/bold]{ $lawstring }
+﻿laws-number-wrapper = [bold]Law { $lawnumber }:[/bold] { $lawstring }
 
 law-crewsimov-name = Крюсімов
 law-crewsimov-1 = Ви не маєте права травмувати члена екіпажу або через бездіяльність дозволити члену екіпажу заподіяти шкоду.

@@ -1,9 +1,9 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: AccessBreakerUnlimited
-  suffix: Unlimited
-  name: authentication disruptor
-  description: A hacked access configurator, specialized to unlock and erase access from digital locks.
+  suffix: Необмежений
+  name: порушник автентифікації
+  description: Зламаний конфігуратор доступу, спеціалізований на розблокуванні та стиранні доступу з цифрових замків.
   components:
   - type: Emag
     emagImmuneTag: AccessBreakerImmune
@@ -17,7 +17,7 @@
 - type: entity
   parent: AccessBreakerUnlimited
   id: AccessBreaker
-  suffix: Limited
+  suffix: Обмежений
   components:
   - type: LimitedCharges
   - type: AutoRecharge

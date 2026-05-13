@@ -33,7 +33,7 @@
 - type: listing
   id: UplinkHostageImplanter
   name: uplink-syndicate-hostage-implanter-bundle-name
-  description: uplink-syndicate-hostage-implanter-bundle-desc
+  description: uplink-clothing-conducting-gloves-desc
   icon: { sprite: Objects/Misc/handcuffs.rsi, state: handcuff }
   productEntity: BoxSyndicateHostageImplanter
   discountCategory: usualDiscounts
@@ -55,8 +55,8 @@
 
 - type: listing
   id: NukeopsUplinkUplinkImplanter
-  name: nukeops-uplink-uplink-implanter-name
-  description: nukeops-uplink-uplink-implanter-desc
+  name: loadout-group-medical-doctor-рюкзак
+  description: uplink-syndicate-handcuff-bundle-desc
   icon: { sprite: /Textures/Objects/Devices/communication.rsi, state: old-radio }
   productEntity: NukeopsUplinkImplanter
   cost:

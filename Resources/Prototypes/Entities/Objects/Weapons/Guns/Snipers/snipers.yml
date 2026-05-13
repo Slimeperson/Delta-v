@@ -2,7 +2,7 @@
   name: BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -39,10 +39,10 @@
     price: 500
 
 - type: entity
-  name: Kardashev-Mosin
+  name: Статуетка із зображенням детектива в їхньому культовому плащі.
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 5 rounds of .30 rifle. # DeltaV - Loads 5 rounds
+  description: Справжня реліквія, Кардашев-Мосін брав участь майже в кожному збройному конфлікті з моменту свого створення 670 років тому. Затворна конструкція рушниці залишається практично ідентичною оригінальній конструкції, незалежно від того, чи використовується вона для полювання, снайперської стрільби чи нескінченної окопної війни. Заряджає 5 патронів до гвинтівки .30. # DeltaV - Завантажує 5 патронів
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -98,10 +98,10 @@
     price: 500
 
 - type: entity
-  name: Hristov
+  name: Христов
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+  description: Бо коли вам абсолютно, точно потрібно змусити когось пошкодувати про свій життєвий вибір з безпечної відстані. Використовує протиматеріальні боєприпаси .60.
   components:
   - type: Item
     size: Huge
@@ -210,7 +210,7 @@
 - type: entity
   parent: WeaponPistolFlintlock
   id: WeaponPistolFlintlockEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: BallisticAmmoProvider
     proto: null

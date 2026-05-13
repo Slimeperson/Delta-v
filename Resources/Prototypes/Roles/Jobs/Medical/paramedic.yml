@@ -1,7 +1,7 @@
 - type: job
   id: Paramedic
-  name: job-name-paramedic
-  description: job-description-paramedic
+  name: робота-назва-фельдшер
+  description: відділення-Мед
   playTimeTracker: JobParamedic
   antagAdvantage: 5 # DeltaV - Reduced TC: External Access, JoL, Crew Monitor
   requirements:

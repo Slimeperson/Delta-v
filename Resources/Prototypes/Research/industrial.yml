@@ -2,7 +2,7 @@
 
 - type: technology
   id: SalvageEquipment
-  name: research-technology-salvage-equipment
+  name: дослідження-технології-рятування обладнання
   icon:
     sprite: Objects/Tools/handdrill.rsi
     state: handdrill
@@ -19,7 +19,7 @@
 
 - type: technology
   id: SpaceScanning
-  name: research-technology-space-scanning
+  name: дослідження-технології-космічне сканування
   icon:
     sprite: Objects/Tools/handheld_mass_scanner.rsi
     state: icon
@@ -46,7 +46,7 @@
 
 - type: technology
   id: MechanicalCompression
-  name: research-technology-mechanical-compression
+  name: дослідження-технологія-механічне-стиснення
   icon:
     sprite: Structures/Machines/flatpacker.rsi
     state: base
@@ -58,7 +58,7 @@
 
 - type: technology
   id: IndustrialEngineering
-  name: research-technology-industrial-engineering
+  name: науково-технологічний-промисловий-інженерний
   icon:
     sprite: Structures/Machines/protolathe_hypercon.rsi
     state: building
@@ -86,7 +86,7 @@
 
 - type: technology
   id: PowerGeneration
-  name: research-technology-power-generation
+  name: дослідження-технології-генерування електроенергії
   icon:
     sprite: Structures/Power/Generation/portable_generator.rsi
     state: portgen0
@@ -103,7 +103,7 @@
 
 - type: technology
   id: AtmosphericTech
-  name: research-technology-atmospheric-tech
+  name: дослідження-технології-атмосферні-тех
   icon:
     sprite: Structures/Piping/Atmospherics/thermomachine.rsi
     state: freezerOff
@@ -117,7 +117,7 @@
 
 - type: technology
   id: RipleyAPLU
-  name: research-technology-ripley-aplu
+  name: дослідження-технології-ріплі-аплю
   icon:
     sprite: Objects/Specific/Mech/mecha.rsi
     state: ripley
@@ -138,7 +138,7 @@
 
 - type: technology
   id: Shuttlecraft
-  name: research-technology-shuttlecraft
+  name: дослідження-технологія-човник
   icon:
     sprite: Structures/Shuttles/gyroscope.rsi
     state: base
@@ -153,7 +153,7 @@
 
 - type: technology
   id: AdvancedAtmospherics
-  name: research-technology-advanced-atmospherics
+  name: дослідження-технології-передові-атмосфери
   icon:
     sprite: Objects/Devices/Holoprojectors/atmos.rsi
     state: icon
@@ -170,7 +170,7 @@
 
 - type: technology
   id: AdvancedToolsTechnology
-  name: research-technology-advanced-tools
+  name: науково-технологічні передові інструменти
   icon:
     sprite: Objects/Tools/welder_experimental.rsi
     state: icon
@@ -188,7 +188,7 @@
 
 - type: technology
   id: MassExcavation
-  name: research-technology-excavation
+  name: дослідження-технологія-розкопки
   icon:
     sprite: Objects/Tools/handdrilldiamond.rsi
     state: handdrill
@@ -219,7 +219,7 @@
 
 - type: technology
   id: OptimizedMicrogalvanism
-  name: research-technology-optimized-microgalvanism
+  name: barsign-prototype-name-the-birdcage
   icon:
     sprite: Objects/Power/power_cells.rsi
     state: microreactor

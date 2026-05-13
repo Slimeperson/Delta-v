@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseItem
   id: BaseFigurine
-  name: figurine
-  description: A small miniature.
+  name: статуетка
+  description: Маленька мініатюра.
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHeadOfPersonnel
-  name: head of personnel figure
-  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  name: начальник відділу кадрів
+  description: Статуетка, що зображує славного главу всього персоналу, як завжди далеко від свого офісу.
   components:
   - type: Sprite
     state: hop
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurinePassenger
-  name: passenger figure
-  description: A figurine depicting an every day, run-of-the-mill passenger. No funny business here.
+  name: фігура пасажира
+  description: Статуетка із зображенням повсякденного, звичайного пасажира. Тут немає смішного.
   components:
   - type: Sprite
     state: passenger
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineGreytider
-  name: greytider figure
-  description: A figurine depicting a dubious-looking passenger. Greytide worldwide!
+  name: сірий тидер
+  description: Фігурка із зображенням сумнівного на вигляд пасажира. Greytide у всьому світі!
   components:
   - type: Sprite
     state: passenger_greytide
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineClown
-  name: clown figure
-  description: A figurine depicting a clown. You shudder to think of what people have probably done to this figurine before.
+  name: фігура клоуна
+  description: Статуетка із зображенням клоуна. Ви здригаєтесь, коли думаєте про те, що люди, ймовірно, робили з цією фігуркою раніше.
   components:
   - type: Sprite
     state: clown
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHoloClown
-  name: holoclown figure
-  description: A figurine depicting a holoclown. Even more annoying than a clown and no less real.
+  name: фігура голоклоуна
+  description: Статуетка із зображенням голоклоуна. Ще більше дратує, ніж клоун, і не менш реально.
   components:
   - type: Sprite
     state: holoclown
@@ -94,8 +94,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMime
-  name: mime figure
-  description: A figurine depicting that silent bastard you are all too familiar with.
+  name: фігура пантоміми
+  description: Статуетка, що зображує того мовчазного виродка, з яким ви надто знайомі.
   components:
   - type: Sprite
     state: mime
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMusician
-  name: musician figure
-  description: A figurine depicting a Musician, his music was electrifying.
+  name: фігура музиканта
+  description: Статуетка, що зображує Музиканта, музика якого електризувала.
   components:
   - type: Sprite
     state: musician
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineBoxer
-  name: boxer figure
-  description: A figurine depicting a Boxer holding their red gloves.
+  name: фігура боксера
+  description: Статуетка із зображенням боксера з червоними рукавичками.
   components:
   - type: Sprite
     state: boxer
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineCaptain
-  name: captain figure
-  description: A figurine depicting the standard outfit of a captain belonging to a civilian-sector Nanotrasen vessel.
+  name: фігура капітана
+  description: Статуетка, що зображує стандартне спорядження капітана цивільного судна Nanotrasen.
   components:
   - type: Sprite
     state: captain
@@ -138,8 +138,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHeadOfSecurity
-  name: head of security figure
-  description: A figurine depicting the glorious head of the Security department.
+  name: начальник охорони діяч
+  description: Статуетка із зображенням славетного начальника відділу охорони.
   components:
   - type: Sprite
     state: hos
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineWarden
-  name: warden figure
-  description: A figurine depicting a Warden, ready to jail someone at any moment.
+  name: постать наглядача
+  description: Статуетка із зображенням Наглядача, готового в будь-який момент посадити когось.
   components:
   - type: Sprite
     state: warden
@@ -160,8 +160,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineDetective
-  name: detective figure
-  description: A figurine depicting a Detective wearing their iconic trench coat.
+  name: фігура детектива
+  description: Статуетка із зображенням детектива в їхньому культовому плащі.
   components:
   - type: Sprite
     state: detective
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineSecurity
-  name: security officer figure
-  description: A figurine depicting a Security Officer holding a stunbaton, ready to defend the station.
+  name: постать офіцера охорони
+  description: Статуетка із зображенням офіцера безпеки з електрошокером, готового захищати станцію.
   components:
   - type: Sprite
     state: security
@@ -182,7 +182,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineLawyer
-  name: lawyer figure
+  name: діяч юриста
   description: A figurine depicting a Lawyer sporting a freshly tailored suit.
   components:
   - type: Sprite

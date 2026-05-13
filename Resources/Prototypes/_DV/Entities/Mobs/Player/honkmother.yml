@@ -1,8 +1,8 @@
 - type: entity #Delta-V - Spawns the Honkmother without her signature spawn animation.
   abstract: true
   id: MobHonkmotherBase
-  name: Honkmother
-  description: A glorious and holy entity. Your mind shatters upon witnessing her beauty. The end has come and it is nothing but pure comedy.
+  name: Хонкматері
+  description: Славна і свята сутність. Ваш розум розбивається, побачивши її красу. Настав кінець, і це не що інше, як чиста комедія.
   components:
   - type: Sprite
     sprite: Mobs/Demons/honkmother.rsi #Delta-V - THE HONKMOTHER HAS ARRIVED, AND BOY, SHE IS UGLY.
@@ -16,7 +16,7 @@
 - type: entity
   parent: MobHonkmotherBase
   id: MobHonkmotherSpawn
-  suffix: Spawn
+  suffix: Спаун
   categories: [ HideSpawnMenu ] #Delta-V - Prevents in-game staff from accidentally spawning in a God and scaring the shit out of the crew.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
   categories: [ HideSpawnMenu ] #Delta-V - Prevents in-game staff from accidentally spawning in a God and scaring the shit out of the crew.
   components:
   - type: AnnounceOnSpawn
-    message: honkmother-has-risen #Delta-V - Honki must announce their presence to the entire goddamn server.
+    message: honkmother-has-risen #Delta-V - Honki повинні оголосити про свою присутність всьому клятому серверу.
     sender: honkmother-has-risen-sender
     sound:
       path: /Audio/Items/airhorn.ogg #Delta-V - Temp Honkmother Spawn sound until I can be bothered to make an abomination that actually works for the honki.

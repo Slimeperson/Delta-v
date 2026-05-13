@@ -1,6 +1,6 @@
 - type: reagent
   id: LiquidPie
-  name: reagent-name-liquidpie
+  name: reagent-name-quidpie
   group: Foods
   desc: reagent-desc-liquidpie
   physicalDesc: reagent-physical-desc-sticky

@@ -4,7 +4,7 @@ bounty-console-skip-button-text = Пропустити
 bounty-console-time-label = Час: [color=orange]{$time}[/color]
 bounty-console-reward-label = Нагорода: [color=limegreen]${$reward}[/color]
 bounty-console-manifest-label = Маніфест: [color=gray]{$item}[/color]
-bounty-console-manifest-entry =
+bounty-console-manifest-entry = { $сума ->
     { $amount ->
         [1] {$item}
         *[other] {$item} x{$amount}

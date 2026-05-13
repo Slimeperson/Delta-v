@@ -1,8 +1,8 @@
 - type: entity
   parent: CrayonRainbow
   id: CrayonMagic
-  name: magic crayon
-  description: Specially blended with bluespace crystals and certified non-toxic.
+  name: чарівний олівець
+  description: Спеціально змішаний з кристалами bluespace і сертифікований нетоксичний.
   components:
   - type: Sprite
     sprite: _NF/Objects/Fun/magic_crayon.rsi

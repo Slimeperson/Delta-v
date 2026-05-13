@@ -2,7 +2,7 @@
   id: BaseThruster
   parent: BaseStructureDynamic
   name: thruster
-  description: A thruster that allows a shuttle to move.
+  description: Рушій, який дозволяє човнику рухатися.
   abstract: true
   components:
     - type: Fixtures
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: підрулювач
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -118,7 +118,7 @@
 
 - type: entity
   id: ThrusterLarge
-  name: large thruster
+  name: великий підрулювач
   parent: [ BaseThruster]
   placement:
     mode: AlignTileAny
@@ -182,7 +182,7 @@
 - type: entity
   id: ThrusterUnanchored
   parent: Thruster
-  suffix: Unanchored
+  suffix: Без прив'язки
   components:
     - type: Transform
       anchored: false
@@ -192,7 +192,7 @@
 - type: entity
   id: DebugThruster
   parent: BaseThruster
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Thruster
     requireSpace: false
@@ -217,8 +217,8 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
-  name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  name: гіроскоп
+  description: Збільшує потенційний кут повороту човника.
   components:
   - type: Thruster
     thrusterType: Angular
@@ -281,7 +281,7 @@
 - type: entity
   id: GyroscopeUnanchored
   parent: Gyroscope
-  suffix: Unanchored
+  suffix: Без прив'язки
   components:
     - type: Transform
       anchored: false
@@ -291,7 +291,7 @@
 - type: entity
   id: DebugGyroscope
   parent: BaseThruster
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Thruster
     thrusterType: Angular
@@ -318,8 +318,8 @@
 - type: entity
   id: RustedThruster
   parent: BaseStructureDynamic
-  name: rusted thruster
-  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+  name: іржавий підрулювач
+  description: Неремонтний підрулювач, зламаний від зносу. Корисні тільки для утилізації.
   components:
     - type: Fixtures
       fixtures:

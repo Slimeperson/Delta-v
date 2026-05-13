@@ -1,5 +1,5 @@
 ﻿cmd-showaccessreaders-desc = Перемикає/перемикає відображення дозволів читання на карті
-cmd-showaccessreaders-help =
+cmd-showaccessreaders-help = Інформація про накладання:
     Overlay Info:
     -Disabled | The access reader is disabled
     +Unrestricted | The access reader has no restrictions

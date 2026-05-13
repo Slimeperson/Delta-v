@@ -1,6 +1,6 @@
 - type: stack
   id: Oilpack
-  name: stack-oil-pack
+  name: стек-маслопакет
   icon: { sprite: "/Textures/_DV/Objects/Medical/Oilpack.rsi", state: icon }
   spawn: Oilpack
   maxCount: 5
@@ -14,7 +14,7 @@
 
 - type: stack
   id: PurifyingSalts
-  name: stack-purifying-salts
+  name: стек-очищення-солі
   icon: { sprite: "/Textures/_DV/Objects/Medical/purifyingsalts.rsi", state: icon }
   spawn: PurifyingSalts
   maxCount: 10

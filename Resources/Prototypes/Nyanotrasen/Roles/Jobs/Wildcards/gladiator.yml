@@ -1,7 +1,7 @@
 - type: job
   id: Gladiator
-  name: job-name-gladiator
-  description: job-description-gladiator
+  name: станція-маяк-хімія
+  description: посадова характеристика-гладіатор
   playTimeTracker: JobGladiator
   startingGear: NyanoGladiatorGear
   alwaysUseSpawner: true

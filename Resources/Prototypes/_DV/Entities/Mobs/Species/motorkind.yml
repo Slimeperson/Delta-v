@@ -3,7 +3,7 @@
 
 - type: entity
   save: false
-  name: Urist McQueen
+  name: Уріст Макквін
   parent: PlayerSiliconHumanoidBase
   id: BaseMobMotorkind
   abstract: true

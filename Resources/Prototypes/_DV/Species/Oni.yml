@@ -1,6 +1,6 @@
 - type: species
   id: Oni
-  name: species-name-oni
+  name: видова назва-оні
   roundStart: true
   prototype: MobOni
   dollPrototype: MobOniDummy

@@ -1,7 +1,7 @@
 - type: entity
   id: BaseSubdermalImplant
-  name: implant
-  description: A microscopic chip that's injected under the skin.
+  name: імплант
+  description: Мікроскопічний чіп, який вводять під шкіру.
   abstract: true
   components:
   - type: SubdermalImplant
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: SadTromboneImplant
-  name: sad trombone implant
-  description: This implant plays a sad tune when the user dies.
+  name: сумний імплантат тромбона
+  description: Цей імплантат грає сумну мелодію, коли користувач помирає.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: LightImplant
-  name: light implant
-  description: This implant emits light from the user's skin on activation.
+  name: легкий імплантат
+  description: Цей імплантат випромінює світло від шкіри користувача під час активації.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BikeHornImplant
-  name: bike horn implant
-  description: This implant lets the user honk anywhere at any time.
+  name: імплантат велосипедного клаксона
+  description: Цей імплантат дозволяє користувачеві сигналити в будь-якому місці в будь-який час.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: TrackingImplant
-  name: tracking implant
-  description: This implant has a tracking device attached to the suit sensor network.
+  name: зелена кристалічна світлова трубка
+  description: Цей імплантат має пристрій відстеження, приєднаний до мережі датчиків костюма.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: StorageImplant
-  name: storage implant
-  description: This implant grants hidden storage within a person's body using bluespace technology.
+  name: імплант зберігання
+  description: Цей імплантат забезпечує приховане зберігання в тілі людини за допомогою технології bluespace.
   categories: [ HideSpawnMenu ]
   components:
     - type: StorageImplant
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FreedomImplant
-  name: freedom implant
-  description: This implant lets the user break out of hand restraints up to three times before ceasing to function anymore.
+  name: імплант свободи
+  description: Цей імплантат дозволяє користувачеві до трьох разів вирватися з обмежень для рук, перш ніж він припинить працювати.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioSyndicateImplant # DeltaV - Renamed
-  name: radio implant
-  description: This implant grants access to the Syndicate channel without a headset.
+  name: радіоімплант
+  description: Цей імплант надає доступ до каналу Syndicate без гарнітури.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -169,8 +169,8 @@
 - type: entity
   parent: [ BaseSubdermalImplant, StorePresetUplink ]
   id: UplinkImplant
-  name: uplink implant
-  description: This implant lets the user access a hidden Syndicate uplink at will.
+  name: імплантат висхідної лінії зв'язку
+  description: Цей імплантат дозволяє користувачеві за бажанням отримати доступ до прихованого висхідного каналу Syndicate.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: EmpImplant
-  name: EMP implant
-  description: This implant creates an electromagnetic pulse when activated.
+  name: Імплантат EMP
+  description: При активації цей імплантат створює електромагнітний імпульс.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -207,8 +207,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: ScramImplant
-  name: scram implant
-  description: This implant randomly teleports the user within a large radius when activated.
+  name: scram імплант
+  description: Цей імплантат випадково телепортує користувача у великому радіусі, коли його активовано.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -220,8 +220,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DnaScramblerImplant
-  name: DNA scrambler implant
-  description: This implant lets the user randomly change their appearance and name once.
+  name: Імплантат скремблера ДНК
+  description: Цей імплантат дозволяє користувачеві один раз випадково змінювати свій зовнішній вигляд і ім’я.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -238,8 +238,8 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseSubdermalImplant
   id: ChameleonControllerImplant
-  name: chameleon controller implant
-  description: This implant allows you to instantly change the appearance of all worn chameleon clothing.
+  name: імплантат контролера хамелеон
+  description: Цей імплантат дозволяє миттєво змінити зовнішній вигляд всього одягу хамелеона.
   components:
   - type: ChameleonControllerImplant
   - type: SubdermalImplant
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: VoiceMaskImplant
-  name: voice mask implant
-  description: This implant allows you to change your voice at will.
+  name: імплантат голосової маски
+  description: Цей імплантат дозволяє змінювати свій голос за бажанням.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -275,8 +275,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MicroBombImplant
-  name: micro-bomb implant
-  description: This implant detonates the user upon activation or upon death.
+  name: імплант мікробомби
+  description: Цей імплантат підриває користувача після активації або смерті.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -306,8 +306,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MacroBombImplant
-  name: macro-bomb implant
-  description: This implant creates a large explosion on death after a preprogrammed countdown.
+  name: імплантат макробомби
+  description: Цей імплантат створює потужний вибух після смерті після попередньо запрограмованого зворотного відліку.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -348,8 +348,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathAcidifierImplant
-  name: death-acidifier implant
-  description: This implant melts the user and their equipment upon death.
+  name: імплантат підкислювача смерті
+  description: Цей імплантат розплавляє користувача та його обладнання після смерті.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -373,8 +373,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathRattleImplant
-  name: death rattle implant
-  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  name: смертельний імплантат
+  description: Цей імплантат повідомлятиме радіоканал Syndicate, якщо користувач потрапить у критичний стан або помре.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -392,8 +392,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FakeMindShieldImplant
-  name: fake mindshield implant
-  description: This implant allows the implanter to produce a fake signal that NT security huds use to identify individuals implanted with a mindshield.
+  name: підроблений імплантат щита розуму
+  description: Цей імплантат дозволяє імплантатору виробляти фальшивий сигнал, який використовують хади безпеки NT для ідентифікації осіб, імплантованих із щитом розуму.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -407,8 +407,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MindShieldImplant
-  name: mindshield implant
-  description: This implant will shield the brain from external influences and prevent mind control devices. # DeltaV - mindshield does not enforce loyalty
+  name: імплант розумового щита
+  description: Цей імплантат захистить мозок від зовнішніх впливів і запобіжить пристроям контролю розуму. # DeltaV - Mindshield не вимагає лояльності
   categories: [ HideSpawnMenu ]
   components:
    - type: SubdermalImplant
@@ -417,8 +417,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: DeathRattleImplantCentcomm
-  name: centcomm death rattle implant
-  description: This implant will inform the Centcomm radio channel should the user fall into critical condition or die.
+  name: centcomm смертельний імплантат
+  description: Цей імплантат повідомлятиме радіоканал Centcomm, якщо користувач потрапить у критичний стан або помре.
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
@@ -427,8 +427,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplantCentcomm
-  name: centcomm radio implant
-  description: This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
+  name: радіоімплантат centcomm
+  description: Цей імплант надає доступ до каналу Centcomm без гарнітури. Дозволено лише для співробітників Centcomm.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant

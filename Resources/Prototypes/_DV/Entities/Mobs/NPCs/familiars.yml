@@ -1,8 +1,8 @@
 - type: entity
   parent: SimpleSpaceMobBase
   id: MobIfritFamiliar
-  name: Ifrit
-  description: The mystagogue's guardian.
+  name: Іфрит
+  description: Охоронець містогога.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -106,15 +106,15 @@
     makeSentient: true
     allowMovement: true
     allowSpeech: true
-    name: "Ifrit"
+    name: "Іфрит"
     description: ghost-role-information-ifritDV-description
     job: RoleIfrit
 
 - type: entity
   parent: WelderExperimental
   id: WelderIfrit
-  name: ifrit hand
-  description: The welding hand of an ifrit.
+  name: іфрит рука
+  description: Рука зварювання ифрита.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Tools/ifrit_hand.rsi

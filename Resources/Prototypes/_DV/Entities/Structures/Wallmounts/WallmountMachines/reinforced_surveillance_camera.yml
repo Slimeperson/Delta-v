@@ -49,7 +49,7 @@
 - type: entity
   parent: [ReinforcedSurveillanceCameraBase, SurveillanceCameraEngineering]
   id: ReinforcedSurveillanceCameraEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -69,7 +69,7 @@
 - type: entity
   parent: [ReinforcedSurveillanceCameraBase, SurveillanceCameraSecurity]
   id: ReinforcedSurveillanceCameraSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -89,7 +89,7 @@
 - type: entity
   parent: [ReinforcedSurveillanceCameraBase, SurveillanceCameraScience]
   id: ReinforcedSurveillanceCameraScience
-  suffix: Epistemics
+  suffix: Епістеміка
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -129,7 +129,7 @@
 - type: entity
   parent: [ReinforcedSurveillanceCameraBase, SurveillanceCameraCommand]
   id: ReinforcedSurveillanceCameraCommand
-  suffix: Command
+  suffix: Команда
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -169,7 +169,7 @@
 - type: entity
   parent: [ReinforcedSurveillanceCameraBase, SurveillanceCameraMedical]
   id: ReinforcedSurveillanceCameraMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: DeviceNetwork
     deviceNetId: Wired

@@ -1,7 +1,7 @@
 - type: job
   id: SecurityOfficer
-  name: job-name-security
-  description: job-description-security
+  name: безпека імені вакансії
+  description: посадова інструкція-безпека
   playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:DepartmentTimeRequirement

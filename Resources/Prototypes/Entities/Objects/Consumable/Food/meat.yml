@@ -1554,7 +1554,7 @@
   parent: FoodMeatBase
   id: FoodMeatSnailCooked
   name: boiled snail
-  description: Improved with salt.
+  description: Поліпшується сіллю.
   components:
   - type: Tag
     tags:
@@ -1591,8 +1591,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatAnomalyCooked
-  name: anomalous steak
-  description: A gigantic mass of cooked meat. A meal for a dinner party, or someone REALLY hungry.
+  name: аномальний стейк
+  description: Величезна маса вареного м'яса. Їжа для званої вечері або хтось ДУЖЕ голодний.
   components:
   - type: Tag
     tags:
@@ -1629,8 +1629,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCooked
-  name: dragon steak
-  description: Pouring ketchup on this is considered a capital crime on most stations.
+  name: стейк дракона
+  description: На більшості станцій поливання кетчупом вважається кримінальним злочином.
   components:
   - type: Tag
     tags:
@@ -1675,8 +1675,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutlet
-  name: raw cutlet
-  description: A raw meat cutlet.
+  name: сира котлета
+  description: Котлета з сирого м'яса.
   components:
   - type: Tag
     tags:
@@ -1710,8 +1710,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutlet
-  name: raw bear cutlet
-  description: A very manly cutlet of raw bear meat.
+  name: шматочок шоколадного торта
+  description: Дуже мужня котлета з сирого м'яса ведмедя.
   components:
   - type: Tag
     tags:
@@ -1750,8 +1750,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutlet
-  name: raw penguin cutlet
-  description: A cutlet of raw penguin meat. Can be used as a substitute for fish in recipes.
+  name: сира котлета з пінгвіна
+  description: Котлета з сирого м'яса пінгвіна. Можна використовувати як замінник риби в рецептах.
   components:
   - type: Tag
     tags:
@@ -1788,8 +1788,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutlet
-  name: raw chicken cutlet
-  description: A cutlet of raw chicken. Remember to wash your hands!
+  name: сира куряча котлета
+  description: Котлета з сирої курки. Не забувайте мити руки!
   components:
   - type: Tag
     tags:
@@ -1824,8 +1824,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutlet
-  name: raw duck cutlet
-  description: A cutlet of raw duck. Remember to wash your hands!
+  name: сира качина котлета
+  description: Котлета з сирої качки. Не забувайте мити руки!
   components:
   - type: Tag
     tags:
@@ -1860,8 +1860,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutlet
-  name: raw lizard cutlet
-  description: Delicious dino cutlet.
+  name: сира котлета з ящірки
+  description: Смачна котлета з динозаврів.
   components:
   - type: Tag
     tags:
@@ -1901,8 +1901,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutlet
-  name: raw spider cutlet
-  description: A cutlet of raw spider meat. So Kafkaesque.
+  name: сира котлета з павука
+  description: Котлета з сирого м'яса павука. Так кафкіанський.
   components:
   - type: Tag
     tags:
@@ -1938,8 +1938,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutlet
-  name: raw xeno cutlet
-  description: A slab of raw xeno meat, dripping with acid.
+  name: сира ксено котлета
+  description: Плитка сирого м’яса ксено, полита кислотою.
   components:
   - type: FlavorProfile
     flavors:
@@ -1977,8 +1977,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatTomatoCutlet
-  name: raw killer tomato cutlet
-  description: A cutlet from a slab of tomato.
+  name: котлета з сирих вбивць
+  description: Котлета з пластинки помідора.
   components:
   - type: Item
     size: Tiny
@@ -1998,8 +1998,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSalamiSlice
-  name: salami slice
-  description: A slice of cured salami.
+  name: скибочка салямі
+  description: Шматочок в'яленої салямі.
   components:
   - type: Item
     size: Tiny
@@ -2025,8 +2025,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutlet
-  name: raw dragon cutlet
-  description: A raw dragon meat cutlet.
+  name: сира котлета дракона
+  description: Котлета з сирого м'яса дракона.
   components:
   - type: Tag
     tags:
@@ -2065,8 +2065,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutletCooked
-  name: cutlet
-  description: A cooked meat cutlet. Needs some seasoning.
+  name: котлета
+  description: Варена м'ясна котлета. Потрібні приправи.
   components:
   - type: Tag
     tags:
@@ -2106,8 +2106,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutletCooked
-  name: bear cutlet
-  description: A very manly cutlet of cooked bear meat.
+  name: ведмежа котлета
+  description: Дуже мужня котлета з вареного ведмедя.
   components:
   - type: Tag
     tags:
@@ -2150,8 +2150,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutletCooked
-  name: penguin cutlet
-  description: A cutlet of cooked penguin meat.
+  name: котлета з пінгвіна
+  description: Котлета з вареного м'яса пінгвіна.
   components:
   - type: Tag
     tags:
@@ -2192,8 +2192,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutletCooked
-  name: chicken cutlet
-  description: A cutlet of cooked chicken. Remember to wash your hands!
+  name: куряча котлета
+  description: Котлета з вареної курки. Не забувайте мити руки!
   components:
   - type: Tag
     tags:
@@ -2234,8 +2234,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutletCooked
-  name: duck cutlet
-  description: A cutlet of cooked duck. Remember to wash your hands!
+  name: качина котлета
+  description: Котлета з вареної качки. Не забувайте мити руки!
   components:
   - type: Tag
     tags:
@@ -2276,8 +2276,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutletCooked
-  name: lizard cutlet
-  description: Delicious cooked dino cutlet.
+  name: котлета з ящірки
+  description: Смачно приготовлена ​​котлета Діно.
   components:
   - type: Tag
     tags:
@@ -2319,8 +2319,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutletCooked
-  name: spider cutlet
-  description: A cutlet of cooked spider meat. Finally edible.
+  name: котлета з павука
+  description: Котлета з вареного м'яса павука. Нарешті їстівний.
   components:
   - type: Tag
     tags:
@@ -2360,8 +2360,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutletCooked
-  name: xeno cutlet
-  description: A cutlet of cooked xeno, dripping with... tastiness?
+  name: ксено котлета
+  description: Котлета з вареного ксено, просочена... смаком?
   components:
   - type: Tag
     tags:
@@ -2401,8 +2401,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutletCooked
-  name: dragon cutlet
-  description: It's a meal for kings!
+  name: котлета дракона
+  description: Це їжа для королів!
   components:
   - type: Tag
     tags:

@@ -1,4 +1,4 @@
--entity-heater-setting-name =
+-entity-heater-setting-name = { $setting ->
     { $setting ->
         [off] off
         [low] low

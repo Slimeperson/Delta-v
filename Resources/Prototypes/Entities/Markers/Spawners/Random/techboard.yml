@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomBoard
-  name: random board spawner
+  name: спавнер випадкової дошки
   parent: MarkerBase
   components:
   - type: Sprite

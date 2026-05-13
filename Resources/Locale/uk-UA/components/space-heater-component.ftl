@@ -4,7 +4,7 @@ comp-space-heater-ui-mode = Режим
 comp-space-heater-ui-status-disabled = Вимкнено
 comp-space-heater-ui-status-enabled = Увімкнено
 comp-space-heater-ui-increase-temperature-range = +
-comp-space-heater-ui-decrease-temperature-range = -
+comp-space-heater-ui-decrease-temperature-range = Chiff Lead
 
 comp-space-heater-mode-Auto = Авто
 comp-space-heater-mode-Heat = Тепло

@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseNinjaObjective, BaseTeachLessonObjective ]
   id: BaseNinjaTeachLessonObjective
-  description: This fool has spoken out against the Spider Clan. Teach them the error of their ways.
+  description: Цей дурень виступив проти клану павука. Навчіть їх помилковості їхніх шляхів.
   components:
   - type: Objective
     unique: true
@@ -12,7 +12,7 @@
       sprite: Objects/Weapons/Throwable/throwing_star.rsi
       state: icon
   - type: TargetObjective
-    title: objective-condition-teach-person-title
+    title: об'єктивна-умова-навчити-людини-назви
 
 - type: entity
   parent: BaseNinjaTeachLessonObjective
@@ -35,14 +35,14 @@
 - type: entity
   parent: [ BaseNinjaObjective, BaseKillObjective ]
   id: NinjaKillRandomHeadObjective
-  description: The Spider Clan is in need of more saboteur cyborgs. This head's brain will be perfect.
+  description: Клану Павуків потрібно більше кіборгів-диверсантів. Мозок цієї голови буде ідеальним.
   components:
   - type: Objective
     icon:
       sprite: Objects/Weapons/Melee/energykatana.rsi
       state: icon
   - type: TargetObjective
-    title: objective-ninja-kill-head-title
+    title: object-ninja-kill-head-title
   - type: PickRandomPerson
     filters:
     - !type:BodyMindFilter

@@ -2,7 +2,7 @@
   parent: FaxMachineBase
   id: FaxMachineListeningSyndie
   name: listening post long range fax machine
-  suffix: Syndicate
+  suffix: Синдикат
   components:
   - type: Sprite
     sprite: _DV/Structures/Machines/syndicate_fax_machine.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCommand
-  suffix: Command
+  suffix: Команда
   components:
   - type: PageSender
     autoLinkDepartments: [Command]
@@ -30,7 +30,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: PageSender
     autoLinkDepartments: [Engineering]
@@ -40,7 +40,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineEpistemics
-  suffix: Epistemics
+  suffix: Епістеміка
   components:
   - type: PageSender
     autoLinkDepartments: [Epistemics]
@@ -50,7 +50,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineLogistics
-  suffix: Logistics
+  suffix: Логістика
   components:
   - type: PageSender
     autoLinkDepartments: [Logistics]
@@ -60,7 +60,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineJustice
-  suffix: Justice
+  suffix: Справедливість
   components:
   - type: PageSender
     autoLinkDepartments: [Justice]
@@ -70,7 +70,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: PageSender
     autoLinkDepartments: [Security]
@@ -80,7 +80,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: PageSender
     autoLinkDepartments: [Medical]
@@ -102,7 +102,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineAtmosphericTechnician
-  suffix: Atmospheric Technician
+  suffix: Атмосферний технік
   components:
   - type: PageSender
     autoLinkJobs: [AtmosphericTechnician]
@@ -142,7 +142,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineBrigmedic
-  suffix: Corpsman
+  suffix: Корпусник
   components:
   - type: PageSender
     autoLinkJobs: [Brigmedic]
@@ -192,7 +192,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineChiefEngineer
-  suffix: Chief Engineer
+  suffix: Головний інженер
   components:
   - type: PageSender
     autoLinkJobs: [ChiefEngineer]
@@ -202,7 +202,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineChiefJustice
-  suffix: Chief Justice
+  suffix: Головний суддя
   components:
   - type: PageSender
     autoLinkJobs: [ChiefJustice]
@@ -212,7 +212,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineChiefMedicalOfficer
-  suffix: Chief Medical Officer
+  suffix: Головний лікар
   components:
   - type: PageSender
     autoLinkJobs: [ChiefMedicalOfficer]
@@ -222,7 +222,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineClerk
-  suffix: Clerk
+  suffix: Клерк
   components:
   - type: PageSender
     autoLinkJobs: [Clerk]
@@ -252,7 +252,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineDetective
-  suffix: Detective
+  suffix: Детектив
   components:
   - type: PageSender
     autoLinkJobs: [Detective]
@@ -262,7 +262,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineHeadOfPersonnel
-  suffix: Head Of Personnel
+  suffix: Начальник відділу персоналу
   components:
   - type: PageSender
     autoLinkJobs: [HeadOfPersonnel]
@@ -272,7 +272,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineHeadOfSecurity
-  suffix: Head Of Security
+  suffix: Начальник служби безпеки
   components:
   - type: PageSender
     autoLinkJobs: [HeadOfSecurity]
@@ -342,7 +342,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineParamedic
-  suffix: Paramedic
+  suffix: Фельдшер
   components:
   - type: PageSender
     autoLinkJobs: [Paramedic]
@@ -352,7 +352,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineProsecutor
-  suffix: Prosecutor
+  suffix: Прокурор
   components:
   - type: PageSender
     autoLinkJobs: [Prosecutor]
@@ -372,7 +372,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineQuartermaster
-  suffix: Logistics Officer
+  suffix: Офіцер з логістики
   components:
   - type: PageSender
     autoLinkJobs: [Quartermaster]
@@ -382,7 +382,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineReporter
-  suffix: Reporter
+  suffix: Репортер
   components:
   - type: PageSender
     autoLinkJobs: [Reporter]
@@ -422,7 +422,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineStationEngineer
-  suffix: Station Engineer
+  suffix: Інженер станції
   components:
   - type: PageSender
     autoLinkJobs: [StationEngineer]
@@ -442,7 +442,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineWarden
-  suffix: Warden
+  suffix: наглядач
   components:
   - type: PageSender
     autoLinkJobs: [Warden]

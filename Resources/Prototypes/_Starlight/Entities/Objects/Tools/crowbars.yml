@@ -1,8 +1,8 @@
 - type: entity
-  name: makeshift crowbar
+  name: імпровізований лом
   parent: BaseItem
   id: CrowbarMakeshift
-  description: Barely better than nothing. Could be made into something greater with a welder, though..
+  description: Ледве краще, ніж нічого. Хоча за допомогою зварювальника можна зробити щось більше.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -35,10 +35,10 @@
       - Crowbar
 
 - type: entity
-  name: improvised crowbar
+  name: імпровізований лом
   parent: CrowbarMakeshift
   id: CrowbarImprovised
-  description: A few pieces of metal welded together and sharpened at the edges. Not the best tool, but it'll do.
+  description: Кілька шматочків металу, зварених разом і заточених по краях. Не найкращий засіб, але підійде.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/improvised_crowbar.rsi

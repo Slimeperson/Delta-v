@@ -1,1 +1,1 @@
-﻿handheld-teleporter-instability-fizzle = Портал шипиться, коли ви намагаєтеся його розмістити, руйнуючи обидва кінці!
+﻿handheld-teleporter-instability-fizzle = Не вдалося розібрати '[[0]]' як хвилини

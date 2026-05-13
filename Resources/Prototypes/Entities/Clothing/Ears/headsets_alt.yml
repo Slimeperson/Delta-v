@@ -2,8 +2,8 @@
   abstract: true
   parent: ClothingHeadset
   id: ClothingHeadsetAlt
-  name: headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: гарнітура
+  description: Оновлений модульний домофон, який встановлюється на голову. Приймає ключі шифрування.
   components:
   - type: Sprite
     state: icon_alt
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCargo
-  name: logistics officer's over-ear headset # DeltaV - Logistics Department replacing Cargo
+  name: накладна гарнітура для логістика # DeltaV - відділ логістики замість Cargo
   components:
   - type: ContainerFill
     containers:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentCom
-  name: CentComm over-ear headset
+  name: Накладні навушники CentComm
   components:
   - type: ContainerFill
     containers:
@@ -45,7 +45,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltCommand
-  name: command over-ear headset
+  name: командна накладна гарнітура
   components:
   - type: ContainerFill
     containers:
@@ -59,7 +59,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltEngineering
-  name: chief engineer's over-ear headset
+  name: накладна гарнітура головного інженера
   components:
   - type: ContainerFill
     containers:
@@ -75,7 +75,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltMedical
-  name: chief medical officer's over-ear headset
+  name: накладна гарнітура головного медичного лікаря
   components:
   - type: ContainerFill
     containers:
@@ -93,7 +93,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltSecurity
-  name: head of security's over-ear headset
+  name: накладна гарнітура начальника охорони
   components:
   - type: ContainerFill
     containers:
@@ -109,7 +109,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltScience
-  name: mystagogue's over-ear headset # DeltaV - Epistemics Department replacing Science
+  name: накладна гарнітура mystagogue # DeltaV - Департамент епістемології замінює науку
   components:
   - type: ContainerFill
     containers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicate
-  name: blood-red over-ear headset
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  name: криваво-червона накладна гарнітура
+  description: Оновлений модульний домофон синдикату, який встановлюється на голову та приймає ключі шифрування (є 5 слотів для ключів).
   components:
   - type: Headset
   - type: EncryptionKeyHolder
@@ -143,7 +143,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltFreelancer
-  name: freelancer's over-ear headset
+  name: накладна гарнітура фрілансера
   components:
     - type: Headset
     - type: EncryptionKeyHolder
@@ -160,7 +160,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseMagicalContraband]
   id: ClothingHeadsetAltWizard
-  name: wizard's over-ear headset
+  name: накладна гарнітура майстра
   components:
     - type: Headset
     - type: EncryptionKeyHolder

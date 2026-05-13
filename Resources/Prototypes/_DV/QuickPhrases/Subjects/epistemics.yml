@@ -6,87 +6,87 @@
 - type: quickPhrase
   id: AnomalyPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-anomaly
+  text: фраза-аномалія
 
 - type: quickPhrase
   id: APEPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-ape
+  text: фраза-мавпа
 
 - type: quickPhrase
   id: AnomalyVesselPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-anomaly-vessel
+  text: фраза-аномалія-посудина
 
 - type: quickPhrase
   id: ArtifactPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-artifact
+  text: фраза-артефакт
 
 - type: quickPhrase
   id: ArtifactContainerPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-artifact-container
+  text: фраза-артефакт-контейнер
 
 - type: quickPhrase
   id: RoboticsPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-robotics
+  text: фраза-робототехніка
 
 - type: quickPhrase
   id: CircuitBoardPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-circuit-board
+  text: фраза-плата
 
 - type: quickPhrase
   id: ResearchPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-research
+  text: фраза-день
 
 - type: quickPhrase
   id: ResearchConsolePhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-research-console
+  text: фраза-висловлювання
 
 - type: quickPhrase
   id: OraclePhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-oracle
+  text: фраза-м'ясо
 
 - type: quickPhrase
   id: SophiePhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-sophie
+  text: фраза-софі
 
 - type: quickPhrase
   id: GlimmerPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-glimmer
+  text: фраза-мерехтіння
 
 - type: quickPhrase
   id: PsionicsPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-psionic
+  text: фраза-псіон
 
 - type: quickPhrase
   id: LotophagolOilPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-lotophagol-oil
+  text: фраза-лотофагол-олія
 
 - type: quickPhrase
   id: MindbreakPhase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-mindbreak-phase
+  text: фраза-роздум-фаза
 
 - type: quickPhrase
   id: ProtolathePhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-protolathe
+  text: фраза-протолате
 
 - type: quickPhrase
   id: CircuitImprinterPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-circuit-imprinter
+  text: фраза-мультиінструмент
 
 - type: quickPhrase
   id: EpistemicsBluespacePhrase
@@ -96,9 +96,9 @@
 - type: quickPhrase
   id: EpiUpgradePhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-upgrade
+  text: фраза-upgrade
 
 - type: quickPhrase
   id: ChassisPhrase
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-chassis
+  text: фраза-шасі

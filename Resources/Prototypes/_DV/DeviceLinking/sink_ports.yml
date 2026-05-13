@@ -5,20 +5,20 @@
 
 - type: sinkPort
   id: Pause
-  name: tape-recorder-menu-stopped-button
+  name: кнопка-меню-магнітофона-стоп
   description: signal-port-description-pause
 
 - type: sinkPort
   id: Record
-  name: tape-recorder-menu-recording-button
-  description: signal-port-description-record
+  name: кнопка-меню-запису-магнітофона
+  description: сигнальний-порт-опис-запис
 
 - type: sinkPort
   id: Playback
-  name: tape-recorder-menu-playing-button
+  name: кнопка-програвання-меню-магнітофона
   description: signal-port-description-playback
 
 - type: sinkPort
   id: Rewind
-  name: tape-recorder-menu-rewinding-button
+  name: кнопка-перемотування-меню-магнітофона
   description: signal-port-description-rewind

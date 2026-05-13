@@ -10,8 +10,8 @@
 
 - type: entity
   id: ActionTechnokineticPulse
-  name: Technokinetic Pulse
-  description: Unleash a burst of Technokinetic energy, disabling or destroying nearby electronics.
+  name: Технокінетичний пульс
+  description: Дайте волю вибуху технокінетичної енергії, вимикаючи або знищуючи сусідню електроніку.
   components:
   - type: Action
     icon: { sprite: _DV/Actions/technokineticpulse.rsi, state: technokinetic-pulse }

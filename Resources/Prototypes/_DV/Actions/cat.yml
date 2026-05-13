@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionCatJump
-  name: Pounce
-  description: Being nature's most fearsome predator, you pounce forward in the direction of your gaze.
+  name: Накинутися
+  description: Будучи найстрашнішим хижаком у природі, ви кидаєтеся вперед у напрямку вашого погляду.
   components:
   - type: Action
     useDelay: 3

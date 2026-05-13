@@ -24,7 +24,7 @@
 
 - type: construction
   id: CrateFreezer
-  name: construction-recipe-crate-freezer
+  name: будівництво-рецепт-ящик-морозилка
   graph: CrateFreezer
   startNode: start
   targetNode: done
@@ -41,7 +41,7 @@
 
 - type: construction
   id: BigBox
-  name: construction-recipe-big-box
+  name: будівництво-рецепт-великий ящик
   graph: BaseBigBox
   startNode: start
   targetNode: basebigbox
@@ -50,7 +50,7 @@
 
 - type: construction
   id: BoxCardboard
-  name: construction-recipe-box-cardboard
+  name: конструкція-рецепт-коробка-картон
   graph: BoxCardboard
   startNode: start
   targetNode: boxcardboard
@@ -59,7 +59,7 @@
 
 - type: construction
   id: BoxCardboardSmall
-  name: construction-recipe-box-cardboard-small
+  name: конструкція-рецепт-коробка-картонна-мал
   graph: BoxCardboardSmall
   startNode: start
   targetNode: boxcardboardsmall
@@ -68,7 +68,7 @@
 
 - type: construction
   id: ToteBase
-  name: construction-recipe-box-tote
+  name: конструкція-рецепт-коробка-тоталізатор
   graph: ToteBase
   startNode: start
   targetNode: totebase

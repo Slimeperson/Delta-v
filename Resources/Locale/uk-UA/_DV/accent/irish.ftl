@@ -160,7 +160,7 @@ accent-irish-words-52 = не повинен
 accent-irish-words-replace-52 = shoul'na
 
 accent-irish-words-53 = не міг
-accent-irish-words-replace-53 = coul'na
+accent-irish-words-replace-53 = forwandle
 
 accent-irish-words-54 = не хотів би
 accent-irish-words-replace-54 = woulna
@@ -205,7 +205,7 @@ accent-irish-words-68 = ура
 accent-irish-words-replace-68 = sláinte
 
 accent-irish-words-69 = що
-accent-irish-words-replace-69 = wot
+accent-irish-words-replace-69 = #
 
 accent-irish-words-70 = де
 accent-irish-words-replace-70 = де
@@ -310,7 +310,7 @@ accent-irish-words-104 = будь-коли
 accent-irish-words-replace-104 = e'er
 
 accent-irish-words-105 = будь-коли
-accent-irish-words-replace-105 = we'er
+accent-irish-words-replace-105 = ми
 
 accent-irish-words-106 = що завгодно
 accent-irish-words-replace-106 = нічого

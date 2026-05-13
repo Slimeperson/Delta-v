@@ -6,7 +6,7 @@
 
 - type: antag
   id: Devil
-  name: roles-antag-devil-name
+  name: ролі-антаг-ім'я-диявола
   antagonist: true
   setPreference: true
   objective: roles-antag-devil-description

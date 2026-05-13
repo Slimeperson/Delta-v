@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ChemMasterFlatpack
-  name: chemmaster 4000 flatpack
-  description: A flatpack used for constructing a ChemMaster 4000.
+  name: Chemmaster 4000 плоский пакет
+  description: Плоский пакет, який використовується для виготовлення ChemMaster 4000.
   components:
   - type: Flatpack
     entity: ChemMaster
@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseFlatpack
   id: MedBioFabricatorFlatpack
-  name: medical biofabricator flatpack
-  description: A flatpack used for constructing a medical biofabricator.
+  name: Контейнер порошкоподібного виноградного соку виробництва HydroCo. Відповідно до інструкції, розмішування з водою у співвідношенні 1:1 дозволить відновити сік.
+  description: Плоский пакет, який використовується для виготовлення медичного біофабрикатора.
   components:
   - type: Flatpack
     entity: MedicalBiofabricator
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AutoclaveFlatpack
-  name: autoclave flatpack
-  description: A flatpack used for constructing an Autoclave.
+  name: автоклавний плоский пакет
+  description: Плоский пакет, який використовується для виготовлення автоклава.
   components:
   - type: Flatpack
     entity: Autoclave
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CirculatorFlatpack
-  name: Circulator flatpack
-  description: A flatpack used for constructing a circulator of the thermoelectric generator.
+  name: Циркуляційний плоский пакет
+  description: Плоский пакет, який використовується для виготовлення циркулятора термоелектричного генератора.
   components:
   - type: Flatpack
     entity: TegCirculator
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TegFlatpack
-  name: TEG flatpack
-  description: A flatpack used for constructing a thermoelectric generator.
+  name: Зоопарк
+  description: Плоский пакет, який використовується для виготовлення термоелектричного генератора.
   components:
   - type: Flatpack
     entity: TegCenter
@@ -59,7 +59,7 @@
   parent: BaseFlatpack
   id: AutodocSyndieFlatpack
   name: syndie autodoc flatpack
-  description: A flatpack used for constructing a syndicate Autodoc.
+  description: Flatpack, який використовується для створення синдикату Autodoc.
   components:
   - type: Flatpack
     entity: AutodocSyndie
@@ -67,8 +67,8 @@
 - type: entity
   parent: BaseFlatpack
   id: OperatingTableFlatpack
-  name: operating table flatpack
-  description: A flatpack used for constructing an operating table.
+  name: операційний стіл плоский
+  description: Плоский пакет, який використовується для виготовлення операційного столу.
   components:
   - type: Flatpack
     entity: OperatingTable
@@ -77,8 +77,8 @@
   abstract: true
   parent: BaseStructureDynamic
   id: HeavyFlatpackBase
-  name: heavy flatpack
-  description: A large flatpack used to store a worryingly large machine.
+  name: важкий плоский пакет
+  description: Велика плоска упаковка, яка використовується для зберігання надзвичайно великої машини.
   components:
   - type: Sprite
     sprite: Objects/Devices/flatpack.rsi

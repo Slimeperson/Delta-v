@@ -2,8 +2,8 @@
   parent: BaseWallmount
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: відвідування спаунера юристів centcom
+  description: Термінал керування електричними системами області.
   placement:
     mode: SnapgridCenter
   components:
@@ -163,8 +163,8 @@
   parent: BaseWallmountMetallic
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: Рама БТР
+  description: Термінал керування електричними системами області, без електроніки.
   placement:
     mode: SnapgridCenter
   components:
@@ -202,7 +202,7 @@
 - type: entity
   parent: BaseAPC
   id: APCConstructed
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: WiresPanel
     open: true
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseAPC
   id: APCBasic
-  suffix: Basic, 50kW
+  suffix: Базовий, 50кВт
   components:
   - type: Battery
     maxCharge: 50000
@@ -222,7 +222,7 @@
 - type: entity
   parent: BaseAPC
   id: APCHighCapacity
-  suffix: High Capacity, 100kW
+  suffix: Висока потужність, 100 кВт
   components:
   - type: Battery
     maxCharge: 100000
@@ -233,7 +233,7 @@
 - type: entity
   parent: BaseAPC
   id: APCSuperCapacity
-  suffix: Super Capacity, 150kW
+  suffix: Супер потужність, 150 кВт
   components:
   - type: Battery
     maxCharge: 150000
@@ -244,7 +244,7 @@
 - type: entity
   parent: BaseAPC
   id: APCHyperCapacity
-  suffix: Hyper Capacity, 200kW
+  suffix: Гіперємність, 200 кВт
   components:
   - type: Battery
     maxCharge: 200000
@@ -255,7 +255,7 @@
 - type: entity
   parent: BaseAPC
   id: APCXenoborg
-  suffix: Basic, 50kJ, Xenoborg
+  suffix: Базовий, 50кДж, Ксеноборг
   components:
   - type: Battery
     maxCharge: 50000

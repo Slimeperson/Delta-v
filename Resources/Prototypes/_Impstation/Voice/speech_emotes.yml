@@ -11,7 +11,7 @@
 
 - type: emote
   id: Coo
-  name: chat-emote-name-coo
+  name: Вставте предмет в порожнину
   category: Vocal
   available: false
   icon: _Impstation/Interface/Emotes/coo.png

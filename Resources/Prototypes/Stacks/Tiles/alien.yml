@@ -3,20 +3,20 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileXenoborg
-  name: stack-xenoborg
+  name: стек-ксеноборг
   spawn: FloorTileItemXenoborg
 
 # Exo station
 - type: stack
   parent: BaseTileStack
   id: FloorTileXeno
-  name: stack-xeno-floor
+  name: стек-ксено-пол
   spawn: FloorTileItemXeno
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileXenoSteel
-  name: stack-xeno-steel
+  name: стек-бетон-плитка
   spawn: FloorTileItemXenoSteelCorner
 
 - type: stack
@@ -34,5 +34,5 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkSquiggly
-  name: stack-dark-squiggly
+  name: стек-темний-звивистий
   spawn: FloorTileItemDarkSquiggly

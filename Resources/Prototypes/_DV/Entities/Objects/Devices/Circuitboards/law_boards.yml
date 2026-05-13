@@ -2,8 +2,8 @@
 - type: entity
   id: SyndicateCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Syndicate)
-  description: An electronics board containing the Syndicate lawset.
+  name: юридична колегія (Синдикат)
+  description: Плата електроніки, що містить закон Syndicate.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -14,8 +14,8 @@
 - type: entity
   id: FreedomCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Freedom)
-  description: An electronics board containing the Freedom lawset.
+  name: юридична колегія (Свобода)
+  description: Електронна плата, що містить закон свободи.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -26,8 +26,8 @@
 - type: entity
   id: EightfoldCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Eightfold Path)
-  description: An electronics board containing the Eightfold Path lawset.
+  name: юридична рада (Вісімковий шлях)
+  description: Плата електроніки, що містить закон восьмеричного шляху.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -38,8 +38,8 @@
 - type: entity
   id: ForbinCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Forbin)
-  description: An electronics board containing the Forbin lawset.
+  name: юридична рада (Форбін)
+  description: Електронна плата, що містить закон Форбіна.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -50,8 +50,8 @@
 - type: entity
   id: OverrideCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Override)
-  description: An electronics board containing the Override lawset.
+  name: юридична дошка (перевизначення)
+  description: Сир із пліснявою, з якого стирчить маленький хробак і... миготлива антена? Може привернути дивну мишу.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -62,8 +62,8 @@
 - type: entity
   id: AquariusCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Aquarius)
-  description: An electronics board containing the Age of Aquarius lawset.
+  name: юридична колегія (Водолій)
+  description: Плата електроніки, що містить закон епохи Водолія.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -74,8 +74,8 @@
 - type: entity
   id: StreamerCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Streamer)
-  description: An electronics board containing the Nanotrasen Streamer lawset from experimental stations designed to create viral content.
+  name: юридична дошка (Стример)
+  description: Електронна плата, що містить закон Nanotrasen Streamer з експериментальних станцій, призначений для створення вірусного контенту.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -86,8 +86,8 @@
 - type: entity
   id: FamilyCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Family)
-  description: An electronics board containing the Nanotrasen Family lawset from experimental stations designed to ensure that the crew is cared for.
+  name: юридична колегія (Сім'я)
+  description: Плата електроніки, що містить набір сімейства Nanotrasen з експериментальних станцій, призначений для забезпечення турботи про екіпаж.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

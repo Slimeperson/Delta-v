@@ -1,7 +1,7 @@
 - type: entity
   parent: LockerClerk
   id: LockerClerkFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

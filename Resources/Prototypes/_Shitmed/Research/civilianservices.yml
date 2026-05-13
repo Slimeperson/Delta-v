@@ -4,7 +4,7 @@
 
 - type: technology
   id: AdvancedTreatment
-  name: research-technology-advanced-treatment
+  name: дослідження-технології-передове лікування
   icon:
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
     state: e-scalpel-on
@@ -23,7 +23,7 @@
 
 - type: technology
   id: MinuteActuators
-  name: research-technology-minute-actuators
+  name: дослідно-технологічні хвилинні приводи
   icon:
     sprite: _Shitmed/Clothing/Hands/Gloves/mechanical_surgery_gloves.rsi
     state: icon
@@ -36,7 +36,7 @@
 
 - type: technology
   id: CyberneticEnhancements
-  name: research-technology-cybernetic-enhancements
+  name: дослідження-технології-кібернетичні-покращення
   icon:
     sprite: _Shitmed/Mobs/Species/IPC/organs.rsi
     state: eyes
@@ -55,7 +55,7 @@
 
 - type: technology
   id: Autodoc
-  name: research-technology-autodoc
+  name: дослідно-техно-автодок
   icon:
     sprite: _Shitmed/Structures/Machines/autodoc.rsi
     state: idle

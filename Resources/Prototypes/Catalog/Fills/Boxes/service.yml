@@ -1,8 +1,8 @@
 - type: entity
-  name: cleanades box
+  name: box cleanades
   parent: BoxCardboard
   id: BoxCleanerGrenades
-  description: A box full of cleanades.
+  description: Ящик, наповнений очищами.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,10 +15,10 @@
       - state: flashbang
 
 - type: entity
-  name: NT "AgriChem Is Fun" kit
+  name: Набір НТ «AgriChem Is Fun».
   parent: BoxCardboard
   id: BoxAgrichem
-  description: For the budding botanist ready to learn about maximizing farm output. This faded box must be at least 50 years old.
+  description: Для початківців ботаніків, готових дізнатися про максимізацію продуктивності ферми. Цій вицвілій коробці має бути не менше 50 років.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -45,7 +45,7 @@
 - type: entity
   parent: BoxLightbulb
   id: BoxLightbulbColorfulMixed
-  name: mixed colorful lightbulb box
+  name: змішана барвиста коробка лампочки
   components:
   - type: EntityTableContainerFill
     containers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: BoxLighttube
   id: BoxLighttubeColorfulMixed
-  name: mixed colorful lighttube box
+  name: змішана кольорова коробка Lighttube
   components:
   - type: EntityTableContainerFill
     containers:

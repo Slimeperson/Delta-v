@@ -2,7 +2,7 @@
 
 ghost-role-information-theunknown-name = Невідомий
 ghost-role-information-theunknown-description = Космічний культ переміг. Фрагмент космічної сили виходить у реальний простір.
-ghost-role-information-theunknown-rules = ...
+ghost-role-information-theunknown-rules = Ajum
 
 # COLOSSUS
 
@@ -14,7 +14,7 @@ terror-colossus = До уваги екіпажу, здається, хтось �
 
 ghost-role-colossus-charactermenu = Ви повинні завершити все. Посіяй невимовний хаос усім перед собою.
 ghost-role-colossus-objective = Викличте Опудало Ентропії та наполягайте до кінця всього.
-ghost-role-colossus-briefing =
+ghost-role-colossus-briefing = Ви ентропійний Колос!
     You are an Entropic Colossus!
     Your objectives are listed in the character menu.
     Read more about your role in the guidebook entry.

@@ -17,7 +17,7 @@
         - to: doubleUnfrosted
           steps:
             - tag: CakeBase
-              name: construction-graph-tag-cake-base # DeltaV - Add localisations for tiered cake construction
+              name: construction-graph-tag-cake-base # DeltaV - Додайте локалізації для багаторівневої побудови торта
               icon:
                 sprite: Objects/Consumable/Food/Baked/cake.rsi
                 state: plain
@@ -38,7 +38,7 @@
         - to: tripleUnfrosted
           steps:
             - tag: CakeBase
-              name: construction-graph-tag-cake-base # DeltaV - Add localisations for tiered cake construction
+              name: construction-graph-tag-cake-base # DeltaV - Додайте локалізації для багаторівневої побудови торта
               icon:
                 sprite: Objects/Consumable/Food/Baked/cake.rsi
                 state: plain

@@ -131,7 +131,7 @@ reagent-name-insuzine = інсузин
 reagent-desc-insuzine = Швидко відновлює мертві тканини, спричинені ураженням електричним струмом, але трохи охолоджує. Повністю заморожує пацієнта при передозуванні.
 
 reagent-name-opporozidone = оппорозидон
-reagent-desc-opporozidone= A difficult to synthesize cryogenic drug used to regenerate rotting tissue and brain matter.
+reagent-desc-opporozidone = Важко синтезувати кріогенний препарат, який використовується для регенерації гниючої тканини та речовини мозку.
 
 reagent-name-arcryox = акріокс
 reagent-desc-arcryox = Огидно блакитна кріогенна речовина, яка здатна загоювати важкі рани навіть на мертвих. Однак він має проблеми зі стабілізацією стану пацієнтів.

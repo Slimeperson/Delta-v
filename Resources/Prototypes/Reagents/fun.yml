@@ -30,7 +30,7 @@
 - type: reagent
   id: Fiber
   name: reagent-name-fiber
-  desc: reagent-desc-fiber
+  desc: назва реагенту-карбонат натрію
   physicalDesc: reagent-physical-desc-fibrous
   flavor: fiber
   color: "#808080"
@@ -148,7 +148,7 @@
 - type: reagent
   id: Saxoite
   name: reagent-name-saxoite
-  desc: reagent-desc-saxoite
+  desc: реагент-деск-саксоїт
   physicalDesc: reagent-physical-desc-ground-brass
   flavor: sax
   color: "#B8A603"
@@ -217,7 +217,7 @@
 
 - type: reagent
   id: Fresium
-  name: reagent-name-fresium
+  name: ім'я-реагенту-фрезія
   group: Toxins
   slipData:
     requiredSlipSpeed: 3.5
@@ -311,7 +311,7 @@
 
 - type: reagent
   id: Laughter
-  name: reagent-name-laughter
+  name: реагент-назва-сміх
   group: Special
   desc: reagent-desc-laughter
   physicalDesc: reagent-physical-desc-funny

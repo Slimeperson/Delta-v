@@ -124,7 +124,7 @@
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
   name: camera
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -137,7 +137,7 @@
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
   name: camera
-  suffix: Security
+  suffix: Безпека
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -176,7 +176,7 @@
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
   name: camera
-  suffix: Command
+  suffix: Команда
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -189,7 +189,7 @@
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
   name: camera
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -202,7 +202,7 @@
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
   name: camera
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: DeviceNetwork
     deviceNetId: Wired

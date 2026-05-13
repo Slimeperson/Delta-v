@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMakeshift
-  name: makeshift helmet
-  description: Cobbled together steel held together with lv cables in the vauge shape of a helmet. Barely does anything.
+  name: імпровізований шолом
+  description: Зібрана сталь, скріплена кабелями LV у формі шолома. Ледве щось робить.
   components:
   - type: Armor
     modifiers:
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetImprovised
-  name: improvised helmet
-  description: Interlocking steel plates provides some decent protection, but is still barely better than nothing.
+  name: імпровізований шолом
+  description: З’єднані сталеві пластини забезпечують пристойний захист, але це все одно трохи краще, ніж нічого.
   components:
   - type: Armor
     modifiers:
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetForged
-  name: forged helmet
-  description: A high-quality helmet made by some of the best Tidersmiths, it is finally worthwhile to have it on your head.
+  name: кований шолом
+  description: Продукт високої якості, додаткова шкіряна підкладка та заміна пластмаси на сталь забезпечують легкість та ефективність броні.
   components:
   - type: Armor
     modifiers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPaladin
-  name: paladin helmet
-  description: No true paladin can go without their helmet!
+  name: шолом паладина
+  description: Будь паладином, яким хочеш бути! Замахніться мечами в головах на наляканого офіцера безпеки! Боріться з МОНСТРАМИ, які зовсім не віддушинні істоти! Отримай лазерний постріл і помри! Чекати що?
   components:
   - type: Armor
     modifiers:

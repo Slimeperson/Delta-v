@@ -10,7 +10,7 @@
 - type: itemSize
   id: Small
   weight: 2
-  name: item-component-size-Small
+  name: Moth Head (Royal, Classic)
   defaultShape:
   - 0,0,0,1
 
@@ -18,7 +18,7 @@
 - type: itemSize
   id: Normal
   weight: 4
-  name: item-component-size-Normal
+  name: Moth Left Arm (Royal, Classic)
   defaultShape:
   - 0,0,1,1
 
@@ -42,6 +42,6 @@
 - type: itemSize
   id: Ginormous
   weight: 32
-  name: item-component-size-Ginormous
+  name: чат-радіо-мед
   defaultShape:
   - 0,0,5,5

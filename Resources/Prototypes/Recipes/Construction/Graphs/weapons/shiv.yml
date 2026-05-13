@@ -8,7 +8,7 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - material: Cloth
@@ -26,11 +26,11 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tag: GlassShard
-        name: construction-graph-tag-glass-shard
+        name: конструкція-граф-тег-осколок-скла
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1
@@ -51,7 +51,7 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - material: Cloth
@@ -69,11 +69,11 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tag: ReinforcedGlassShard
-        name: construction-graph-tag-reinforced-glass-shard
+        name: конструкція-граф-тег-посилений-склом-осколок
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1
@@ -94,7 +94,7 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - material: Cloth
@@ -112,11 +112,11 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tag: PlasmaGlassShard
-        name: construction-graph-tag-plasma-glass-shard
+        name: конструкція-граф-тег-плазма-скло-осколок
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1
@@ -137,7 +137,7 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - material: Cloth
@@ -155,11 +155,11 @@
     - to: icon
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tag: UraniumGlassShard
-        name: construction-graph-tag-uranium-glass-shard
+        name: будівельний-граф-тег-урановий-скляний-осколок
         icon:
           sprite: Objects/Materials/Shards/shard.rsi
           state: shard1

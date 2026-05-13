@@ -26,7 +26,7 @@ examinable-solution-on-examine-volume-puddle = Калюжа { $fillLevel ->
     [empty] forming multiple small pools.
 }
 
--solution-vague-fill-level =
+-solution-vague-fill-level = { $fillLevel ->
     { $fillLevel ->
         [full] [color=white]Full[/color]
         [mostlyfull] [color=#DFDFDF]Mostly Full[/color]

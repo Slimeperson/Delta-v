@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeCandySpear
-  name: candy spear recipe
+  name: рецепт цукерок
   result: SpearCandy
   secretRecipe: true
   time: 20

@@ -19,7 +19,7 @@
 
 - type: reagent
   id: Stelloxadone
-  name: reagent-name-stelloxadone
+  name: назва-реагенту-стелоксадон
   group: Medicine
   desc: reagent-desc-stelloxadone
   physicalDesc: reagent-physical-desc-murky

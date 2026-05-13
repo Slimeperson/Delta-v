@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack # DeltaV - NFClothingBackpack > ClothingBackpack
   id: ClothingBackpackClippy
-  name: Clippy's backpack
-  description: Made from a real Clippy.
+  name: Рюкзак Clippy
+  description: Зроблено зі справжнього Clippy.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Backpacks/clippy.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingBackpack # DeltaV - NFClothingBackpack > ClothingBackpack
   id: ClothingBackpackPilot
-  name: pilot backpack
-  description: A backpack for a True Ace.
+  name: пілотський рюкзак
+  description: Рюкзак для True Ace.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Backpacks/pilot.rsi

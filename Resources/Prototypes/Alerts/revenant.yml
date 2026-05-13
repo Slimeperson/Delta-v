@@ -5,7 +5,7 @@
   - sprite: /Textures/Interface/Alerts/essence_counter.rsi
     state: essence0
   alertViewEntity: AlertEssenceSpriteView
-  name: alerts-revenant-essence-name
+  name: сповіщення-revenant-essence-name
   description: alerts-revenant-essence-desc
 
 - type: alert

@@ -38,10 +38,10 @@
       80: 0.5
       
 - type: entity
-  name: shadow cat
+  name: тіньовий кіт
   parent: [ BaseShadowMob, MobCombat ] # DeltaV - Add MobCombat as a parent
   id: MobCatShadow
-  description: A lovely piece of darkness. Hope he doesn't bring you a curse.
+  description: Чудовий шматок темряви. Сподіваюся, він не принесе вам прокляття.
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleRubber
-  name: ammunition box (.20 rifle rubber)
-  description: A cardboard box of .20 rifle rounds. Intended to hold less-lethal rubber ammunition.
+  name: коробка для боєприпасів (.20 гвинтівкова гума)
+  description: Картонна коробка з патронами калібру .20. Призначений для зберігання менш летальних гумових боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleRubber

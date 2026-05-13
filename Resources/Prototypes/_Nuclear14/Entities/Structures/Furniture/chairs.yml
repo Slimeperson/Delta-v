@@ -1,8 +1,8 @@
 - type: entity
   parent: ChairWood
   id: N14ChairArmchair
-  name: armchair
-  description: A padded armchair.
+  name: крісло
+  description: М'яке крісло.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: StoolBase # DeltaV - so it can swivel
   id: N14ChairBarRetro
-  name: retro chair
+  name: ретро крісло
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -26,8 +26,8 @@
 - type: entity
   id: N14ChairDinerBench
   parent: ChairBase # DeltaV
-  name: diner chair
-  description: A cozy diner chair.
+  name: обідній стілець
+  description: Затишне обіднє крісло.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -35,7 +35,7 @@
 
 - type: entity
   id: N14ChairOfficeErgonomic
-  name: ergonomic office chair
+  name: ергономічне офісне крісло
   parent: OfficeChairBase # DeltaV - furniture rework
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   parent: N14ChairBarRetro
   id: N14ChairCaptain
-  name: captain chair
-  description: A chair fit for a captain.
+  name: капітанське крісло
+  description: Крісло для капітана.
   components:
   - type: Sprite
     state: captain_chair

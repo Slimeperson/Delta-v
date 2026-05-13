@@ -1,7 +1,7 @@
 - type: job
   id: Mime
-  name: job-name-mime
-  description: job-description-mime-delta # DeltaV
+  name: робота-назва-мім
+  description: опис роботи-мім-дельта # DeltaV
   playTimeTracker: JobMime
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseAction
   id: ActionMimeInvisibleWall
-  name: Create Invisible Wall
-  description: Create an invisible wall in front of you, if placeable there.
+  name: Створіть невидиму стіну
+  description: Створіть невидиму стіну перед собою, якщо її можна там розмістити.
   components:
   - type: Action
     priority: -1

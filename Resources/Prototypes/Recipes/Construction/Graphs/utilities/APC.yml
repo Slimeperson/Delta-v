@@ -15,7 +15,7 @@
         - to: apc
           steps:
             - component: ApcElectronics
-              name: construction-graph-component-apc-electronics
+              name: конструкція-граф-компонент-apc-електроніка
               icon:
                 sprite: "Objects/Misc/module.rsi"
                 state: "charger_APC"

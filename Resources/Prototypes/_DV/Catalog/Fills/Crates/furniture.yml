@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFurnitureDecorativePlants
-  name: potted plants
-  description: Spruce up your place with a little foliage. Contains four pre-seeded plant pots.
+  name: кімнатні рослини
+  description: Прикрасьте своє місце невеликою кількістю листя. Містить чотири горщики з попередньо висіяними рослинами.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -19,8 +19,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFurnitureDecorativePlantsPlastic
-  name: potted plastic plants
-  description: Spruce up your place with a little foliage. Contains four pre-potted plastic plants.
+  name: горщикові пластикові рослини
+  description: Прикрасьте своє місце невеликою кількістю листя. Містить чотири пластикові рослини в горщиках.
   components:
   - type: EntityTableContainerFill
     containers:

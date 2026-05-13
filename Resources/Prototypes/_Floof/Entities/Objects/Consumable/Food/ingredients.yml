@@ -7,10 +7,10 @@
 # Baking
 
 - type: entity
-  name: frosting
+  name: глазур
   parent: FoodBakingBase
   id: FoodFrosting
-  description: Soft, creamy, and sweet. Used for topping cakes.
+  description: М'який, вершковий і солодкий. Використовується для начинки тортів.
   components:
   - type: Stack
     stackType: Frosting

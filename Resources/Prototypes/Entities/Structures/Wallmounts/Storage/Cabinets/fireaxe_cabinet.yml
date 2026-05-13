@@ -47,7 +47,7 @@
 - type: entity
   parent: FireAxeCabinet
   id: FireAxeCabinetOpen
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Openable
     opened: true
@@ -57,7 +57,7 @@
 - type: entity
   parent: FireAxeCabinet
   id: FireAxeCabinetFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:

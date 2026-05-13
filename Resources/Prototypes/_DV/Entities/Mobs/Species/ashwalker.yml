@@ -2,7 +2,7 @@
   save: false
   parent: MobReptilian
   id: MobAshWalker
-  name: Urist McAsh
+  name: Уріст МакЕш
   suffix: ""
   components:
   - type: Body

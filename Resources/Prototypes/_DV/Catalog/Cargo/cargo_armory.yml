@@ -50,8 +50,8 @@
 
 - type: cargoProduct
   id: ArmoryArmingSword
-  name: Arming Sword Crate
-  description: Contains two Plasteel Arming Swords. Requires Armory access to open.
+  name: Ящик для озброєння меча
+  description: Містить два озброєні пластиковими мечами. Щоб відкрити, потрібен доступ до Збройової палати.
   icon:
     sprite: _NF/Objects/Weapons/Melee/armingsword.rsi
     state: icon

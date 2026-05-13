@@ -1,7 +1,7 @@
 - type: job
   id: MartialArtist
-  name: job-name-martialartist
-  description: job-description-martialartist
+  name: фраза-мультиінструмент
+  description: посадова інструкція-боєборець
   playTimeTracker: JobMartialArtist
   requirements:
     - !type:OverallPlaytimeRequirement

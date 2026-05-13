@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallStore
-  name: store wall
+  name: стіна магазину
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/store.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallSuperstore
-  name: store wall
+  name: стіна магазину
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/superstore.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: N14WallStore
   id: N14WallConcreteLight
-  name: concrete wall
-  suffix: light
+  name: бетонна стіна
+  suffix: рецепт супу з фрикадельками
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/concrete.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: N14WallConcreteLight
   id: N14WallConcreteDark
-  suffix: dark
+  suffix: темний
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/concretedark.rsi

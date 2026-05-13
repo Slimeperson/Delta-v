@@ -78,7 +78,7 @@
   parent: BaseCartridgePistol
   id: CartridgePistolSpent
   name: cartridge (.35 auto)
-  suffix: spent
+  suffix: витрачено
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccursedScythe
-  name: accursed scythe
-  description: a deadly scythe radiating terrible energy
+  name: проклята коса
+  description: смертоносна коса, що випромінює страшну енергію
   components:
   - type: Sharp
   - type: Execution

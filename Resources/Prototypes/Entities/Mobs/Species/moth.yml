@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McFluff
+  name: Уріст Макфлафф
   parent: BaseMobSpeciesOrganic
   id: BaseMobMoth
   abstract: true

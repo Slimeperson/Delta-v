@@ -1,8 +1,8 @@
 - type: entity
   id: OrganVoxBrain
   parent: OrganHumanBrain
-  name: cortical stack
-  description: "A peculiarly advanced bio-electronic device that seems to hold the memories and identity of a Vox."
+  name: кірковий стек
+  description: "Особливо просунутий біоелектронний пристрій, який, здається, зберігає спогади та особистість Вокса».
   components:
   - type: Item
     size: Small

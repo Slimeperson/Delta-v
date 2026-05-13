@@ -52,7 +52,7 @@ gas-turbine-insert-fail-speed = Не можна вставляти деталі 
 comp-turbine-ui-tab-main = Елементи управління
 comp-turbine-ui-tab-parts = Запчастини
 
-comp-turbine-ui-rpm = RPM
+comp-turbine-ui-rpm = Відсутні вимоги для застосування цього заклинання!
 
 comp-turbine-ui-overspeed = ПЕРЕВИЩЕННЯ ШВИДКОСТІ
 comp-turbine-ui-overtemp = ПЕРЕТЕП
@@ -70,7 +70,7 @@ comp-turbine-ui-stator = Статор турбіни
 comp-turbine-ui-stator-potential = потенціал
 comp-turbine-ui-stator-supply = Постачання
 
-comp-turbine-ui-power = { POWERWATTS($power)}
+comp-turbine-ui-power = EY TCHEL TORT TU [[0]]
 
 comp-turbine-ui-locked-message = Елементи керування заблоковано.
 comp-turbine-ui-footer-left = Небезпека: машини, що швидко рухаються.

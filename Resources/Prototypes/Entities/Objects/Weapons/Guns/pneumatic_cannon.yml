@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: імпровізована пневматична гармата
   parent: [BaseStorageItem, BaseMinorContraband]
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: Імпровізовано, використовуючи лише трубу, кілька застібок і пневматичну гармату. Не приймає баки без достатньої кількості газу.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -50,7 +50,7 @@
   - type: ItemSlots
     slots:
       gas_tank:
-        name: pneumatic-cannon-component-itemslot-name
+        name: pneumatic-cannon-component-itemsslot-name
         whitelist:
           components:
           - GasTank
@@ -67,9 +67,9 @@
 - type: entity
   parent: BaseStorageItem
   id: LauncherCreamPie
-  name: pie cannon
-  suffix: Empty
-  description: Load cream pie for optimal results.
+  name: пиріжкова гармата
+  suffix: Порожній
+  description: Завантажте кремовий пиріг для отримання оптимальних результатів.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -109,10 +109,10 @@
   - type: PacifismAllowedGun # DeltaV - Allow pacifist to use the pie cannon.
 
 - type: entity
-  name: experimental pie cannon
+  name: експериментальна пиріжкова гармата
   parent: BaseWeaponBattery
   id: BorgLauncherCreamPie
-  description: Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
+  description: Доставте щедру порцію вершків прямо екіпажу! Автоматично випікає пироги з часом.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -142,10 +142,10 @@
     size: Normal
 
 - type: entity
-  name: syringe gun
+  name: шприц-пістолет
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: Заповніть отруєними шприцами для оптимального задоволення.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -184,7 +184,7 @@
 - type: entity
   parent: WeaponImprovisedPneumaticCannon
   id: WeaponImprovisedPneumaticCannonGun
-  suffix: Gun
+  suffix: ВН кабельний ящик
   components:
   - type: PneumaticCannon
     throwItems: false

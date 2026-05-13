@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AACTablet
-  name: AAC tablet
-  description: An "augmentative and alternative communication" device that allows speech-impaired individuals to communicate.
+  name: планшет AAC
+  description: Пристрій «допоміжної й альтернативної комунікації», який дозволяє спілкуватися особам із вадами мовлення.
   components:
   - type: Sprite
     sprite: _DV/Objects/Devices/tablets.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: beaker box
+  name: мензурка коробка
   parent: BoxCardboard
   id: BoxBeaker
-  description: A box full of beakers.
+  description: Ящик, повний склянок.
   components:
   - type: Storage
     grid:

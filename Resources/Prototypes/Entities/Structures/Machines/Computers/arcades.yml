@@ -198,7 +198,7 @@
 - type: entity
   id: SpaceVillainArcadeFilled
   parent: SpaceVillainArcade
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: SpaceVillainArcade
     rewardMinAmount: 5

@@ -122,7 +122,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: Handles AI interactions across holocards + AI cores
+  description: Обробляє ШІ-взаємодії між голокартами + ядра ШІ
   components:
   - type: ItemSlots
   - type: Tag
@@ -148,12 +148,12 @@
 # Items
 - type: entity
   id: Intellicard
-  name: intellicard
-  description: A storage device for AIs.
+  name: інтелікарта
+  description: Пристрій зберігання для ШІ.
   parent:
   - BaseItem
   - AiHolder
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: ContainerComp
     proto: AiHeldIntellicard
@@ -190,12 +190,12 @@
 # Empty AI core
 - type: entity
   id: PlayerStationAiEmpty
-  name: AI core
-  description: The latest in Artificial Intelligences.
+  name: ядро ШІ
+  description: Останні новинки штучного інтелекту.
   parent:
   - BaseStructure
   - AiHolder
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Anchorable
     flags:
@@ -346,7 +346,7 @@
 - type: entity
   id: PlayerStationAi
   parent: PlayerStationAiEmpty
-  suffix: Job spawn
+  suffix: Породження роботи
   components:
   - type: ContainerSpawnPoint
     containerId: station_ai_mind_slot
@@ -356,8 +356,8 @@
 - type: entity
   parent: BaseStructure
   id: PlayerStationAiAssembly
-  name: AI core assembly
-  description: An unfinished computer core for housing an artifical intelligence.
+  name: Збірка ядра ШІ
+  description: Незавершене комп’ютерне ядро ​​для розміщення штучного інтелекту.
   components:
   - type: Anchorable
     flags:
@@ -544,8 +544,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: AI eye
-  description: The AI's viewer.
+  name: ШІ око
+  description: Переглядач ШІ.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: NoFTL
@@ -572,8 +572,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: AI hologram
-  description: A holographic representation of an AI.
+  name: AI голограма
+  description: Голографічне зображення ШІ.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform
@@ -600,7 +600,7 @@
 - type: entity
   id: PlayerBorgBattery
   parent: BorgChassisSelectable
-  suffix: Battery
+  suffix: Акумулятор
   components:
   - type: ContainerFill
     containers:
@@ -620,7 +620,7 @@
 - type: entity
   id: PlayerBorgSyndicateAssaultBattery
   parent: BorgChassisSyndicateAssault
-  suffix: Battery, Module, Operative
+  suffix: Акумулятор, Модуль, Оперативний
   components:
   - type: NukeOperative
   - type: ContainerFill
@@ -644,11 +644,11 @@
 - type: entity
   id: PlayerBorgSyndicateAssaultGhostRole
   parent: PlayerBorgSyndicateAssaultBattery
-  suffix: Ghost role
+  suffix: Роль привида
   components:
     - type: GhostRole
       name: ghost-role-information-syndicate-cyborg-assault-name
-      description: ghost-role-information-syndicate-cyborg-description
+      description: Bluespace
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -658,7 +658,7 @@
 - type: entity
   id: PlayerBorgSyndicateSaboteurBattery
   parent: BorgChassisSyndicateSaboteur
-  suffix: Battery, Module, Operative
+  suffix: Акумулятор, Модуль, Оперативний
   components:
   - type: NukeOperative
   - type: ContainerFill
@@ -685,11 +685,11 @@
 - type: entity
   id: PlayerBorgSyndicateSaboteurGhostRole
   parent: PlayerBorgSyndicateSaboteurBattery
-  suffix: Ghost role
+  suffix: Роль привида
   components:
     - type: GhostRole
       name: ghost-role-information-syndicate-cyborg-saboteur-name
-      description: ghost-role-information-syndicate-cyborg-description
+      description: Bluespace
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -699,7 +699,7 @@
 - type: entity
   parent: MarkerBase
   id: PlayerBorgSyndicateInvasionGhostRoleSpawner
-  name: syndicate invasion borg spawner
+  name: Ратвар
   components:
   - type: Sprite
     layers:
@@ -716,7 +716,7 @@
 - type: entity
   parent: EngineeringBorgChassisDerelict
   id: PlayerEngineeringBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -741,7 +741,7 @@
 - type: entity
   parent: PlayerEngineeringBorgDerelict
   id: PlayerEngineeringBorgDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
   - type: GhostRole
     name: ghost-role-information-derelict-engineering-cyborg-name
@@ -756,7 +756,7 @@
 - type: entity
   parent: BorgChassisDerelict
   id: PlayerBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -778,7 +778,7 @@
 - type: entity
   parent: PlayerBorgDerelict
   id: PlayerBorgDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
     - type: GhostRole
       name: ghost-role-information-derelict-cyborg-name
@@ -793,7 +793,7 @@
 - type: entity
   parent: JanitorBorgChassisDerelict
   id: PlayerJanitorBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -817,7 +817,7 @@
 - type: entity
   parent: PlayerJanitorBorgDerelict
   id: PlayerJanitorBorgDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
   - type: GhostRole
     name: ghost-role-information-derelict-janitor-cyborg-name
@@ -832,7 +832,7 @@
 - type: entity
   parent: MedicalBorgChassisDerelict
   id: PlayerMedicalBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -857,7 +857,7 @@
 - type: entity
   parent: PlayerMedicalBorgDerelict
   id: PlayerMedicalBorgDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
   - type: GhostRole
     name: ghost-role-information-derelict-medical-cyborg-name
@@ -872,7 +872,7 @@
 - type: entity
   parent: MiningBorgChassisDerelict
   id: PlayerMiningBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -896,7 +896,7 @@
 - type: entity
   parent: PlayerMiningBorgDerelict
   id: PlayerMiningBorgDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
   - type: GhostRole
     name: ghost-role-information-derelict-mining-cyborg-name
@@ -911,7 +911,7 @@
 - type: entity
   parent: SyndicateAssaultBorgChassisDerelict
   id: PlayerSyndicateAssaultBorgDerelict
-  suffix: Battery, Module
+  suffix: Акумулятор, модуль
   components:
   - type: ContainerFill
     containers:
@@ -934,7 +934,7 @@
 - type: entity
   parent: PlayerSyndicateAssaultBorgDerelict
   id: PlayerBorgSyndicateDerelictGhostRole
-  suffix: Ghost role
+  suffix: Роль привида
   components:
   - type: GhostRole
     name: ghost-role-information-derelict-syndicate-assault-cyborg-name

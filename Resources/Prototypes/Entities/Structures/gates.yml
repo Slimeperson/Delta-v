@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LogicEmptyCircuit
-  name: empty circuit
-  description: Something seems to be missing.
+  name: порожній контур
+  description: Здається, чогось не вистачає.
   components:
   - type: Sprite
     drawdepth: ThinPipe
@@ -29,9 +29,9 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGateOr
-  name: logic gate
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
-  suffix: Or
+  name: логічні ворота
+  description: Логічний вентиль з двома входами та одним виходом. Техніки можуть змінити його режим роботи за допомогою викрутки.
+  suffix: Або
   components:
   - type: Sprite
     layers:
@@ -88,7 +88,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateAnd
-  suffix: And
+  suffix: І
   components:
   - type: Sprite
     layers:
@@ -134,7 +134,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateNor
-  suffix: Nor
+  suffix: ні
   components:
   - type: Sprite
     layers:
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: edge detector
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  name: детектор краю
+  description: Розділяє наростаючі та спадаючі фронти на унікальні імпульси та визначає, наскільки ви різкі.
   components:
   - type: Sprite
     layers:
@@ -227,8 +227,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: power sensor
-  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+  name: датчик потужності
+  description: Генерує сигнали у відповідь на зміни мережі живлення. Можна змінювати напругу кабелю.
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseLogicItem
   id: MemoryCell
-  name: memory cell
-  description: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
+  name: комірка пам'яті
+  description: Схема D-Latch, яка зберігає сигнал, який можна змінити залежно від вхідних і активних портів.
   components:
   - type: Sprite
     layers:
@@ -295,8 +295,8 @@
 - type: entity
   parent: BaseLogicItem
   id: RandomGate
-  name: random gate
-  description: A logic gate that outputs a random signal when input changes.
+  name: випадкові ворота
+  description: Логічний вентиль, який виводить випадковий сигнал, коли вхід змінюється.
   components:
   - type: Sprite
     layers:

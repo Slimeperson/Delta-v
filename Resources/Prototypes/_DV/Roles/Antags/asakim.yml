@@ -1,6 +1,6 @@
 - type: antag
   id: Asakim
-  name: roles-antag-asakim-name
+  name: roles-atag-asakim-name
   objective: roles-antag-asakim-objective
   antagonist: true
   requirements:

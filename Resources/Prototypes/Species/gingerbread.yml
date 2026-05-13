@@ -1,6 +1,6 @@
 - type: species
   id: Gingerbread
-  name: species-name-human
+  name: вид-назва-людина
   roundStart: false
   prototype: MobGingerbread
   sprites: MobGingerbreadSprites

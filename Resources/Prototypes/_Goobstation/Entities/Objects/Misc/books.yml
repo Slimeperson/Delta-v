@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseGuidebook, BaseMagicalContraband]
   id: GuidebookCodexUmbra
-  suffix: guidebook
+  suffix: путівник
   name: Codex Umbra
   description: An old book tightly wound in dark leather. It details various contracts and their effects.
   components:

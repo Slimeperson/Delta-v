@@ -8,8 +8,8 @@
 - type: entity
   parent: BaseItem
   id: CosmicCenser
-  name: ardent censer
-  description: Cleanses and sanctifies the air around it. If used on another being, it would irreversibly wipe their memories.
+  name: палке кадило
+  description: Очищає і освячує повітря навколо себе. Якщо його використати на іншій істоті, він безповоротно зітре їхні спогади.
   components:
   - type: Item
     size: Small

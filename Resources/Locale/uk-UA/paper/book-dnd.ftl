@@ -10,12 +10,12 @@ book-cnc-sheet = Таблиця символів C&C 5e
     --------------------------------------------------------------------------------------
     SECTION 2: ABILITIES
     --------------------------------------------------------------------------------------
-Strength = 10 (+0) 10 База
-Dexterity = 10 (+0) 10 База
-Constitution = 10 (+0) 10 База
-Intelligence = 10 (+0) 10 База
-Wisdom = 10 (+0) 10 База
-Charisma = 10 (+0) 10 База
+    Strength     = 10 (+0) 10 База
+    Dexterity    = 10 (+0) 10 База
+    Constitution = 10 (+0) 10 База
+    Intelligence = 10 (+0) 10 База
+    Wisdom       = 10 (+0) 10 База
+    Charisma     = 10 (+0) 10 База
 
     Proficiency Bonus =
     Perception (passive wisdom) =
@@ -29,12 +29,12 @@ Charisma = 10 (+0) 10 База
     SECTION 3:  SAVING THROWS
     --------------------------------------------------------------------------------------
 
-( )Strength = +0
-( )Dexterity = +0
-( )Constitution = +0
-( )Intelligence = +0
-( )Wisdom = +0
-( )Charisma = +0
+    ( )Strength     = +0
+    ( )Dexterity    = +0
+    ( )Constitution = +0
+    ( )Intelligence = +0
+    ( )Wisdom       = +0
+    ( )Charisma     = +0
 
 
     --------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 - type: guideEntry
   id: Antagonists
-  name: guide-entry-antagonists
+  name: керівництво-вхід-антагоністи
   text: "/ServerInfo/Guidebook/Antagonist/Antagonists.xml"
   children:
   - Traitors
@@ -20,12 +20,12 @@
 
 - type: guideEntry
   id: Traitors
-  name: guide-entry-traitors
+  name: керівництво-вступ-зрадники
   text: "/ServerInfo/Guidebook/Antagonist/Traitors.xml"
 
 - type: guideEntry
   id: NuclearOperatives
-  name: guide-entry-nuclear-operatives
+  name: путівник-вхід-ядерні-оператори
   text: "/ServerInfo/Guidebook/Antagonist/Nuclear Operatives.xml"
 
 - type: guideEntry
@@ -35,27 +35,27 @@
 
 - type: guideEntry
   id: Revolutionaries
-  name: guide-entry-revolutionaries
+  name: керівництво-вступ-революціонери
   text: "/ServerInfo/Guidebook/Antagonist/Revolutionaries.xml"
 
 - type: guideEntry
   id: MinorAntagonists
-  name: guide-entry-minor-antagonists
+  name: керівництво-запис-мінор-антагоністи
   text: "/ServerInfo/Guidebook/Antagonist/MinorAntagonists.xml"
 
 - type: guideEntry
   id: SpaceNinja
-  name: guide-entry-space-ninja
+  name: керівництво-вхід-простір-ніндзя
   text: "/ServerInfo/Guidebook/Antagonist/SpaceNinja.xml"
 
 - type: guideEntry
   id: Thieves
-  name: guide-entry-thieves
+  name: гід-вхід-злодії
   text: "/ServerInfo/Guidebook/Antagonist/Thieves.xml"
 
 - type: guideEntry
   id: Wizard
-  name: guide-entry-wizard
+  name: керівництво-запис-майстер
   text: "/ServerInfo/Guidebook/Antagonist/Wizard.xml"
 
 - type: guideEntry

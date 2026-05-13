@@ -2,7 +2,7 @@
 
 - type: trait
   id: Narcolepsy
-  name: trait-narcolepsy-name
+  name: риса-сліпота-ім
   description: trait-narcolepsy-desc
   category: Medical
   effects:
@@ -39,8 +39,8 @@
 
 - type: trait
   id: Unrevivable
-  name: trait-unrevivable-name
-  description: trait-unrevivable-desc
+  name: риса-невідроджувана-ім'я
+  description: риса-брехун-назва
   category: Medical
   effects:
   - !type:AddCompsEffect

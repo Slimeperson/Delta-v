@@ -1,5 +1,5 @@
 ent-KvassTank = КВАС
-.desc = Прохолодний освіжаючий напій зі смаком соціалізму.
+    .desc = Прохолодний освіжаючий напій зі смаком соціалізму.
 
 ent-KvassTankFull = Дозволяє комфортно перевозити великих тварин.
-.desc = { ent-KvassTank.desc }
+    .desc = { ent-KvassTank.desc }

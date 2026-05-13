@@ -3,9 +3,9 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-400c "Svalinn machine gun" machine board
-  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun".
-  suffix: DO NOT MAP, Machine Board
+  name: Плата емітера правого борту PA
+  description: Машинна друкована плата для LSE-400c "Кулемет Свалін".
+  suffix: НЕ КАРТА, Machine Board
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -20,9 +20,9 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-1200c "Perforator" machine board
-  description: A machine printed circuit board for an LSE-1200c "Perforator".
-  suffix: DO NOT MAP, Machine Board
+  name: Машинна плата LSE-1200c "Перфоратор".
+  description: Машинна друкована плата для LSE-1200c "Перфоратор".
+  suffix: НЕ КАРТА, Machine Board
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -37,9 +37,9 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-320g "Friendship" machine board
-  description: A machine printed circuit board for an EXP-320g "Friendship".
-  suffix: DO NOT MAP, Machine Board
+  name: EXP-320g Машинна дошка "Дружба".
+  description: Машинна друкована плата для EXP-320g "Дружба".
+  suffix: НЕ КАРТА, Machine Board
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -54,9 +54,9 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-2100g "Duster" machine board
-  description: A machine printed circuit board for an EXP-2100g "Duster".
-  suffix: DO NOT MAP, Machine Board
+  name: EXP-2100g Плата машини "Дастер".
+  description: Машинна друкована плата для EXP-2100g "Дастер".
+  suffix: НЕ КАРТА, Machine Board
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -72,9 +72,9 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: PTK-800 "Matter Dematerializer" machine board
-  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer".
-  suffix: DO NOT MAP, Machine Board
+  name: Плата машини ПТК-800 "Дематеріалізатор матерії".
+  description: Машинна друкована плата для ПТК-800 "Дематеріалізатор речовини".
+  suffix: НЕ КАРТА, Machine Board
   categories: [ DoNotMap ]
   components:
   - type: Sprite

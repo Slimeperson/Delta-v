@@ -24,7 +24,7 @@
 
 - type: technology
   id: WeaponizedLaserManipulation
-  name: research-technology-weaponized-laser-manipulation
+  name: дослідження-технології-зброї-лазерної-маніпуляції
   icon:
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
     state: icon
@@ -89,7 +89,7 @@
 
 - type: technology
   id: ExplosiveTechnology
-  name: research-technology-explosive-technology
+  name: дослідження-технології-вибухові-технології
   icon:
     sprite: Objects/Devices/payload.rsi
     state: payload-explosive-armed
@@ -110,7 +110,7 @@
 
 - type: technology
   id: SpecialMeans
-  name: research-technology-special-means
+  name: науково-технічні-спец.-засоби
   icon:
     sprite: Clothing/Back/Backpacks/electropack.rsi
     state: icon
@@ -124,7 +124,7 @@
 
 - type: technology
   id: ConcentratedLaserWeaponry
-  name: research-technology-concentrated-laser-weaponry
+  name: дослідницька-технологія-концентрована-лазерна-зброя
   icon:
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
     state: icon
@@ -151,7 +151,7 @@
 
 - type: technology
   id: KineticModifications
-  name: research-technology-kinetic-modifications
+  name: дослідження-технологія-кінетичні-модифікації
   icon:
     sprite: Objects/Tools/upgrade.rsi
     state: display
@@ -165,7 +165,7 @@
 
 - type: technology
   id: BasicShuttleArmament
-  name: research-technology-basic-shuttle-armament
+  name: дослідження-технології-основне-шаттл-озброєння
   icon:
     sprite: Structures/Power/cage_recharger.rsi
     state: full
@@ -202,7 +202,7 @@
 
 - type: technology
   id: PortableMicrofusionWeaponry
-  name: research-technology-portable-microfusion-weaponry
+  name: дослідження-технології-портативна-мікрофузійна-зброя
   icon:
     sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
     state: icon
@@ -216,7 +216,7 @@
 
 - type: technology
   id: ThermalWeaponry
-  name: research-technology-thermal-weaponry
+  name: дослідження-технології-теплової зброї
   icon:
     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
     state: icon
@@ -229,7 +229,7 @@
 
 - type: technology
   id: AdvancedShuttleWeapon
-  name: research-technology-advanced-shuttle-weapon
+  name: дослідницька-технологія-передова-човникова-зброя
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Grenade/grenade_cartridge.rsi
     state: icon

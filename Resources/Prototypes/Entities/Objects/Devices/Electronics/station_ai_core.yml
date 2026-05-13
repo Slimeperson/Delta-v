@@ -1,8 +1,8 @@
 - type: entity
   id: StationAiCoreElectronics
   parent: BaseElectronics
-  name: station AI core electronics
-  description: An electronics board used in station AI cores.
+  name: базова електроніка станції AI
+  description: Плата електроніки, яка використовується в ядрах ШІ станції.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

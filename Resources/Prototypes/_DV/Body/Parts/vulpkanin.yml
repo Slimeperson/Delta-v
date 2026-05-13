@@ -13,49 +13,49 @@
 - type: entity
   parent: [ PartVulpkaninBase, BaseTorso ]
   id: TorsoVulpkanin
-  name: "vulpkanin torso"
+  name: "вульпканін торс"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseHead ]
   id: HeadVulpkanin
-  name: "vulpkanin head"
+  name: "вульпканина голова"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseLeftArm ]
   id: LeftArmVulpkanin
-  name: "left vulpkanin arm"
+  name: "ліва вульпканіна рука"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseRightArm ]
   id: RightArmVulpkanin
-  name: "right vulpkanin arm"
+  name: "права вульпканина рука"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseLeftHand ]
   id: LeftHandVulpkanin
-  name: "left vulpkanin hand"
+  name: "ліва вульпканина рука"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseRightHand ]
   id: RightHandVulpkanin
-  name: "right vulpkanin hand"
+  name: "частина кузова мотоцикла"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseLeftLeg ]
   id: LeftLegVulpkanin
-  name: "left vulpkanin leg"
+  name: "ліва вульпканина нога"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseRightLeg ]
   id: RightLegVulpkanin
-  name: "right vulpkanin leg"
+  name: "права вульпканина нога"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseLeftFoot ]
   id: LeftFootVulpkanin
-  name: "left vulpkanin foot"
+  name: "ліва вульпканина стопа"
 
 - type: entity
   parent: [ PartVulpkaninBase, BaseRightFoot ]
   id: RightFootVulpkanin
-  name: "right vulpkanin foot"
+  name: "права вульпканина стопа"

@@ -328,7 +328,7 @@
 - type: entity
   parent: GasThermoMachineFreezer
   id: GasThermoMachineFreezerEnabled
-  suffix: Enabled
+  suffix: Увімкнено
   components:
   - type: GasThermoMachine
   - type: ApcPowerReceiver
@@ -373,7 +373,7 @@
 - type: entity
   parent: GasThermoMachineHeater
   id: GasThermoMachineHeaterEnabled
-  suffix: Enabled
+  suffix: Увімкнено
   components:
   - type: GasThermoMachine
   - type: ApcPowerReceiver

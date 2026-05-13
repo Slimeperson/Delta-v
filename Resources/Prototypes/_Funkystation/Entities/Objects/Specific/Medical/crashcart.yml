@@ -5,8 +5,8 @@
 - type: entity
   id: CrashCart
   parent: [BaseStructureDynamic, StructureWheeled]
-  name: crash cart
-  description: Meds on the move for when the patient decides to tombstone.
+  name: аварійний візок
+  description: Медики в русі, коли пацієнт вирішить надгробку.
   components:
   - type: Sprite
     noRot: true
@@ -116,9 +116,9 @@
 - type: entity
   parent: CrashCart
   id: CrashCartFilled
-  name: crash cart
-  description: Meds on the move for when the patient decides to tombstone.
-  suffix: Filled
+  name: аварійний візок
+  description: Медики в русі, коли пацієнт вирішить надгробку.
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

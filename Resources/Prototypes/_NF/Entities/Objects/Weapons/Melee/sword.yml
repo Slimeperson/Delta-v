@@ -3,8 +3,8 @@
 - type: entity
   parent: CaptainSabre
   id: PlasteelArmingSword
-  name: plasteel arming sword
-  description: An ancient design manufactured with modern materials and machines for a very specific target demographic.
+  name: Пластовий озброєний меч
+  description: Старовинний дизайн, виготовлений із застосуванням сучасних матеріалів і машин для дуже конкретної демографічної групи.
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Melee/armingsword.rsi

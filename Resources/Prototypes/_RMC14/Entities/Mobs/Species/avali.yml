@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McRaptor # DeltaV - we ain't marines here
+  name: Urist McRaptor # DeltaV - ми тут не морські піхотинці
   parent: BaseMobSpeciesOrganic # DeltaV - set proper parent
   id: BaseMobAvali # DeltaV - rename base entity
   abstract: true # DeltaV - define MobAvali elsewhere

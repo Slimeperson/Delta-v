@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ArtifactDisplayCaseMachineCircuitBoard
-  name: artifact display case machine board
+  name: артефактна вітрина машина плата
   components:
   - type: Sprite
     state: science

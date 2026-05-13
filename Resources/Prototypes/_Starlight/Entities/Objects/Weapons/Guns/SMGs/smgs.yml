@@ -1,8 +1,8 @@
 - type: entity
-  name: makeshift SMG
+  name: імпровізований SMG
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunMakeshift
-  description: Held together with cloth and dreams, it rattles ominously with every shot.
+  description: Зібраний разом із тканиною та мріями, він зловісно брязкає з кожним пострілом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: null
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -43,7 +43,7 @@
             - MagazineSMGImprovised
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: null
         priority: 1
         whitelist:
@@ -70,10 +70,10 @@
         prob: 1
 
 - type: entity
-  name: improvised SMG
+  name: імпровізований SMG
   parent: WeaponSubMachineGunMakeshift
   id: WeaponSubMachineGunImprovised
-  description: It's tightly held together by cloth, steel and determination.
+  description: Він міцно скріплений тканиною, сталлю та рішучістю.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/improvised_smg.rsi
@@ -123,10 +123,10 @@
         prob: 0.80
 
 - type: entity
-  name: forged SMG
+  name: ковані SMG
   parent: WeaponSubMachineGunImprovised
   id: WeaponSubMachineGunForged
-  description: The best a tider could get, steel and plasteel welded together for a pretty decent SMG, though the heavy bolt on it does slow the shooting down.
+  description: Найкраще, що може отримати тидер: сталь і пласталь, зварені разом для досить пристойного SMG, хоча важкий болт на ньому уповільнює стрільбу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/forged_smg.rsi

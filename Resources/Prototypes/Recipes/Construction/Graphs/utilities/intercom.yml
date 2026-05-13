@@ -39,7 +39,7 @@
       steps:
       - tag: IntercomElectronics
         store: board
-        name: construction-graph-tag-intercom-electronics
+        name: будівництво-граф-тег-домофон-електроніка
         icon:
           sprite: "Objects/Misc/module.rsi"
           state: "id_mod"

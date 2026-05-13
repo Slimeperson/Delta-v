@@ -104,7 +104,7 @@ accent-anglish-words-35 = протиотрута
 accent-anglish-replacement-35 = ненавидіти
 
 accent-anglish-words-36 = антиматерія
-accent-anglish-replacement-36= unbeing
+accent-anglish-replacement-36 = небуття
 
 accent-anglish-words-37 = антитоксин
 accent-anglish-replacement-37 = gainatter
@@ -1276,7 +1276,7 @@ accent-anglish-replacement-802 = взятися
 accent-anglish-words-803 = процедура
 accent-anglish-replacement-803 = форсетування
 
-accent-anglish-words-426 = SOP
+accent-anglish-words-426 = [[0]]([[1]])
 accent-anglish-replacement-426 = SUF
 
 accent-anglish-words-427 = продовжити
@@ -1490,7 +1490,7 @@ accent-anglish-words-496 = вибуховий
 accent-anglish-replacement-496 = blasttinder
 
 accent-anglish-words-497 = вибухові речовини
-accent-anglish-replacement-497 = blasttinders
+accent-anglish-replacement-497 = Ritahrecra
 
 accent-anglish-words-498 = викрити
 accent-anglish-replacement-498 = знімати саван
@@ -1787,7 +1787,7 @@ accent-anglish-words-594 = персоналу
 accent-anglish-replacement-594 = персонал
 
 accent-anglish-words-595 = людина
-accent-anglish-replacement-595 = wight
+accent-anglish-replacement-595 = Блок контролю температури
 
 accent-anglish-words-596 = особистий
 accent-anglish-replacement-596 = самостійно
@@ -1907,7 +1907,7 @@ accent-anglish-words-634 = логіка
 accent-anglish-replacement-634 = дотепність
 
 accent-anglish-words-635 = лоботомія
-accent-anglish-replacement-635 = lapdeal
+accent-anglish-replacement-635 = -
 
 accent-anglish-words-636 = мастило
 accent-anglish-replacement-636 = гладкість
@@ -3001,7 +3001,7 @@ accent-anglish-replacement-1002 = фоксфолк
 accent-anglish-words-1003 = діона
 accent-anglish-replacement-1003 = Вудвайт
 
-accent-anglish-words-1004 = IPC
+accent-anglish-words-1004 = ABEX
 accent-anglish-replacement-1004 = wileman
 
 accent-anglish-words-1005 = МПК

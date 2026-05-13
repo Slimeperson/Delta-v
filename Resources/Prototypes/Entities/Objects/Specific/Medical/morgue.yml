@@ -1,8 +1,8 @@
 - type: entity
   id: BodyBag
   parent: [ BaseDeployFoldable, BasePaperLabelableVisualized ]
-  name: body bag
-  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+  name: сумка для тіла
+  description: Пластиковий пакет, призначений для зберігання та транспортування трупів, щоб зупинити розкладання тіла.
   components:
   - type: Item
     size: Small
@@ -87,10 +87,10 @@
 
 - type: entity
   id: BodyBagFolded
-  name: body bag
-  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+  name: сумка для тіла
+  description: Пластиковий пакет, призначений для зберігання та транспортування трупів, щоб зупинити розкладання тіла.
   parent: BodyBag
-  suffix: folded
+  suffix: складені
   components:
   - type: Foldable
     folded: true
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseItem
   id: Ash
-  name: ash
-  description: This used to be something, but now it's not.
+  name: попіл
+  description: Раніше це було щось, а зараз ні.
   components:
   - type: Item
     size: Tiny
@@ -132,8 +132,8 @@
 - type: entity
   parent: Ash
   id: Ectoplasm
-  name: ectoplasm
-  description: Much less deadly in this form.
+  name: ектоплазма
+  description: Набагато менш смертоносний у такому вигляді.
   components:
     - type: Sprite
       sprite: _DV/Mobs/Ghosts/revenant.rsi # DeltaV - Custom revenant sprite

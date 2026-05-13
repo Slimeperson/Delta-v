@@ -13,7 +13,7 @@
           state: icon
         doAfter: 5
       - component: VisionCorrection
-        name: construction-graph-tag-glasses
+        name: конструкція-граф-теги-окуляри
         icon:
           sprite: Clothing/Eyes/Glasses/glasses.rsi
           state: icon
@@ -39,7 +39,7 @@
           state: icon
         doAfter: 5
       - component: VisionCorrection
-        name: construction-graph-tag-glasses
+        name: конструкція-граф-теги-окуляри
         icon:
           sprite: Clothing/Eyes/Glasses/glasses.rsi
           state: icon

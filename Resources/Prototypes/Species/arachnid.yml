@@ -1,6 +1,6 @@
 - type: species
   id: Arachnid
-  name: species-name-arachnid
+  name: вид-назва-павукоподібні
   roundStart: true
   prototype: MobArachnid
   sprites: MobArachnidSprites

@@ -1,22 +1,22 @@
--create-3rd-person =
+-create-3rd-person = {$chance ->
     { $chance ->
         [1] Creates
         *[other] create
     }
 
--cause-3rd-person =
+-cause-3rd-person = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     }
 
--satiate-3rd-person =
+-satiate-3rd-person = {$chance ->
     { $chance ->
         [1] Satiates
         *[other] satiate
     }
 
-entity-effect-guidebook-spawn-entity =
+entity-effect-guidebook-spawn-entity = {$chance ->
     { $chance ->
         [1] Creates
         *[other] create
@@ -25,49 +25,49 @@ entity-effect-guidebook-spawn-entity =
         *[other] {$amount} {MAKEPLURAL($entname)}
     }
 
-entity-effect-guidebook-destroy =
+entity-effect-guidebook-destroy = {$chance ->
     { $chance ->
         [1] Destroys
         *[other] destroy
     } the object
 
-entity-effect-guidebook-break =
+entity-effect-guidebook-break = {$chance ->
     { $chance ->
         [1] Breaks
         *[other] break
     } the object
 
-entity-effect-guidebook-explosion =
+entity-effect-guidebook-explosion = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } an explosion
 
-entity-effect-guidebook-emp =
+entity-effect-guidebook-emp = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } an electromagnetic pulse
 
-entity-effect-guidebook-flash =
+entity-effect-guidebook-flash = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } a blinding flash
 
-entity-effect-guidebook-foam-area =
+entity-effect-guidebook-foam-area = {$chance ->
     { $chance ->
         [1] Creates
         *[other] create
     } large quantities of foam
 
-entity-effect-guidebook-smoke-area =
+entity-effect-guidebook-smoke-area = {$chance ->
     { $chance ->
         [1] Creates
         *[other] create
     } large quantities of smoke
 
-entity-effect-guidebook-satiate-thirst =
+entity-effect-guidebook-satiate-thirst = {$chance ->
     { $chance ->
         [1] Satiates
         *[other] satiate
@@ -76,7 +76,7 @@ entity-effect-guidebook-satiate-thirst =
         *[other] thirst at {NATURALFIXED($relative, 3)}x the average rate
     }
 
-entity-effect-guidebook-satiate-hunger =
+entity-effect-guidebook-satiate-hunger = {$chance ->
     { $chance ->
         [1] Satiates
         *[other] satiate
@@ -85,7 +85,7 @@ entity-effect-guidebook-satiate-hunger =
         *[other] hunger at {NATURALFIXED($relative, 3)}x the average rate
     }
 
-entity-effect-guidebook-health-change =
+entity-effect-guidebook-health-change = {$chance ->
     { $chance ->
         [1] { $healsordeals ->
                 [heals] Heals
@@ -99,7 +99,7 @@ entity-effect-guidebook-health-change =
                  }
     } { $changes }
 
-entity-effect-guidebook-even-health-change =
+entity-effect-guidebook-even-health-change = {$chance ->
     { $chance ->
         [1] { $healsordeals ->
             [heals] Evenly heals
@@ -113,7 +113,7 @@ entity-effect-guidebook-even-health-change =
         }
     } { $changes }
 
-entity-effect-guidebook-status-effect-old =
+entity-effect-guidebook-status-effect-old = { $type ->
     { $type ->
         [update]{ $chance ->
                     [1] Causes
@@ -133,7 +133,7 @@ entity-effect-guidebook-status-effect-old =
                 } {NATURALFIXED($time, 3)} {MANY("second", $time)} of {LOC($key)}
     }
 
-entity-effect-guidebook-status-effect =
+entity-effect-guidebook-status-effect = { $type ->
     { $type ->
         [update]{ $chance ->
                     [1] Causes
@@ -156,7 +156,7 @@ entity-effect-guidebook-status-effect =
         *[other] after a {NATURALFIXED($delay, 3)} second delay
     }
 
-entity-effect-guidebook-status-effect-indef =
+entity-effect-guidebook-status-effect-indef = { $type ->
     { $type ->
         [update]{ $chance ->
                     [1] Causes
@@ -179,7 +179,7 @@ entity-effect-guidebook-status-effect-indef =
         *[other] after a {NATURALFIXED($delay, 3)} second delay
     }
 
-entity-effect-guidebook-knockdown =
+entity-effect-guidebook-knockdown = { $type ->
     { $type ->
         [update]{ $chance ->
                     [1] Causes
@@ -199,13 +199,13 @@ entity-effect-guidebook-knockdown =
                 } {NATURALFIXED($time, 3)} {MANY("second", $time)} of knockdown
     }
 
-entity-effect-guidebook-set-solution-temperature-effect =
+entity-effect-guidebook-set-solution-temperature-effect = {$chance ->
     { $chance ->
         [1] Sets
         *[other] set
     } the solution temperature to exactly {NATURALFIXED($temperature, 2)}k
 
-entity-effect-guidebook-adjust-solution-temperature-effect =
+entity-effect-guidebook-adjust-solution-temperature-effect = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Adds
@@ -221,7 +221,7 @@ entity-effect-guidebook-adjust-solution-temperature-effect =
                 *[-1] at least {NATURALFIXED($mintemp, 2)}k
             }
 
-entity-effect-guidebook-adjust-reagent-reagent =
+entity-effect-guidebook-adjust-reagent-reagent = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Adds
@@ -237,7 +237,7 @@ entity-effect-guidebook-adjust-reagent-reagent =
         *[-1] from
     } the solution
 
-entity-effect-guidebook-adjust-reagent-group =
+entity-effect-guidebook-adjust-reagent-group = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Adds
@@ -253,7 +253,7 @@ entity-effect-guidebook-adjust-reagent-group =
             *[-1] from
         } the solution
 
-entity-effect-guidebook-adjust-temperature =
+entity-effect-guidebook-adjust-temperature = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Adds
@@ -269,37 +269,37 @@ entity-effect-guidebook-adjust-temperature =
             *[-1] from
         } the body it's in
 
-entity-effect-guidebook-chem-cause-disease =
+entity-effect-guidebook-chem-cause-disease = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } the disease { $disease }
 
-entity-effect-guidebook-chem-cause-random-disease =
+entity-effect-guidebook-chem-cause-random-disease = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } the diseases { $diseases }
 
-entity-effect-guidebook-jittering =
+entity-effect-guidebook-jittering = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } jittering
 
-entity-effect-guidebook-clean-bloodstream =
+entity-effect-guidebook-clean-bloodstream = {$chance ->
     { $chance ->
         [1] Cleanses
         *[other] cleanse
     } the bloodstream of other chemicals
 
-entity-effect-guidebook-cure-disease =
+entity-effect-guidebook-cure-disease = {$chance ->
     { $chance ->
         [1] Cures
         *[other] cure
     } diseases
 
-entity-effect-guidebook-eye-damage =
+entity-effect-guidebook-eye-damage = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Deals
@@ -312,13 +312,13 @@ entity-effect-guidebook-eye-damage =
             }
     } eye damage
 
-entity-effect-guidebook-vomit =
+entity-effect-guidebook-vomit = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } vomiting
 
-entity-effect-guidebook-create-gas =
+entity-effect-guidebook-create-gas = {$chance ->
     { $chance ->
         [1] Creates
         *[other] create
@@ -327,55 +327,55 @@ entity-effect-guidebook-create-gas =
         *[other] moles
     } of { $gas }
 
-entity-effect-guidebook-drunk =
+entity-effect-guidebook-drunk = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } drunkness
 
-entity-effect-guidebook-electrocute =
+entity-effect-guidebook-electrocute = {$chance ->
     { $chance ->
         [1] Electrocutes
         *[other] electrocute
     } the metabolizer for {NATURALFIXED($time, 3)} {MANY("second", $time)}
 
-entity-effect-guidebook-emote =
+entity-effect-guidebook-emote = {$chance ->
     { $chance ->
         [1] Will force
         *[other] force
     } the metabolizer to [bold][color=white]{$emote}[/color][/bold]
 
-entity-effect-guidebook-extinguish-reaction =
+entity-effect-guidebook-extinguish-reaction = {$chance ->
     { $chance ->
         [1] Extinguishes
         *[other] extinguish
     } fire
 
-entity-effect-guidebook-flammable-reaction =
+entity-effect-guidebook-flammable-reaction = {$chance ->
     { $chance ->
         [1] Increases
         *[other] increase
     } flammability
 
-entity-effect-guidebook-ignite =
+entity-effect-guidebook-ignite = {$chance ->
     { $chance ->
         [1] Ignites
         *[other] ignite
     } the metabolizer
 
-entity-effect-guidebook-make-sentient =
+entity-effect-guidebook-make-sentient = {$chance ->
     { $chance ->
         [1] Makes
         *[other] make
     } the metabolizer sentient
 
-entity-effect-guidebook-make-polymorph =
+entity-effect-guidebook-make-polymorph = {$chance ->
     { $chance ->
         [1] Polymorphs
         *[other] polymorph
     } the metabolizer into a { $entityname }
 
-entity-effect-guidebook-modify-bleed-amount =
+entity-effect-guidebook-modify-bleed-amount = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Induces
@@ -387,7 +387,7 @@ entity-effect-guidebook-modify-bleed-amount =
                  }
     } bleeding
 
-entity-effect-guidebook-modify-blood-level =
+entity-effect-guidebook-modify-blood-level = {$chance ->
     { $chance ->
         [1] { $deltasign ->
                 [1] Increases
@@ -399,76 +399,76 @@ entity-effect-guidebook-modify-blood-level =
                  }
     } blood level
 
-entity-effect-guidebook-paralyze =
+entity-effect-guidebook-paralyze = {$chance ->
     { $chance ->
         [1] Paralyzes
         *[other] paralyze
     } the metabolizer for at least {NATURALFIXED($time, 3)} {MANY("second", $time)}
 
-entity-effect-guidebook-movespeed-modifier =
+entity-effect-guidebook-movespeed-modifier = {$chance ->
     { $chance ->
         [1] Modifies
         *[other] modify
     } movement speed by {NATURALFIXED($sprintspeed, 3)}x for at least {NATURALFIXED($time, 3)} {MANY("second", $time)}
 
-entity-effect-guidebook-reset-narcolepsy =
+entity-effect-guidebook-reset-narcolepsy = {$chance ->
     { $chance ->
         [1] Temporarily staves
         *[other] temporarily stave
     } off narcolepsy
 
-entity-effect-guidebook-wash-cream-pie-reaction =
+entity-effect-guidebook-wash-cream-pie-reaction = {$chance ->
     { $chance ->
         [1] Washes
         *[other] wash
     } off cream pie from one's face
 
-entity-effect-guidebook-cure-zombie-infection =
+entity-effect-guidebook-cure-zombie-infection = {$chance ->
     { $chance ->
         [1] Cures
         *[other] cure
     } an ongoing zombie infection
 
-entity-effect-guidebook-cause-zombie-infection =
+entity-effect-guidebook-cause-zombie-infection = {$chance ->
     { $chance ->
         [1] Gives
         *[other] give
     } an individual the zombie infection
 
-entity-effect-guidebook-innoculate-zombie-infection =
+entity-effect-guidebook-innoculate-zombie-infection = {$chance ->
     { $chance ->
         [1] Cures
         *[other] cure
     } an ongoing zombie infection, and provides immunity to future infections
 
-entity-effect-guidebook-reduce-rotting =
+entity-effect-guidebook-reduce-rotting = {$chance ->
     { $chance ->
         [1] Regenerates
         *[other] regenerate
     } {NATURALFIXED($time, 3)} {MANY("second", $time)} of rotting
 
-entity-effect-guidebook-area-reaction =
+entity-effect-guidebook-area-reaction = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } a smoke or foam reaction for {NATURALFIXED($duration, 3)} {MANY("second", $duration)}
 
-entity-effect-guidebook-add-to-solution-reaction =
+entity-effect-guidebook-add-to-solution-reaction = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause
     } {$reagent} to be added to its internal solution container
 
-entity-effect-guidebook-artifact-unlock =
+entity-effect-guidebook-artifact-unlock = {$chance ->
     { $chance ->
         [1] Helps
         *[other] help
         } unlock an alien artifact.
 
-entity-effect-guidebook-artifact-durability-restore =
+entity-effect-guidebook-artifact-durability-restore = Відновлює {$restored} міцність у активних вузлах чужорідних артефактів.
     Restores {$restored} durability in active alien artifact nodes.
 
-entity-effect-guidebook-plant-attribute =
+entity-effect-guidebook-plant-attribute = {$chance ->
     { $chance ->
         [1] Adjusts
         *[other] adjust
@@ -477,43 +477,43 @@ entity-effect-guidebook-plant-attribute =
     *[false] [color=green]{$amount}[/color]
     }
 
-entity-effect-guidebook-plant-cryoxadone =
+entity-effect-guidebook-plant-cryoxadone = {$chance ->
     { $chance ->
         [1] Ages back
         *[other] age back
     } the plant, depending on the plant's age and time to grow
 
-entity-effect-guidebook-plant-phalanximine =
+entity-effect-guidebook-plant-phalanximine = {$chance ->
     { $chance ->
         [1] Restores
         *[other] restore
     } viability to a plant rendered nonviable by a mutation
 
-entity-effect-guidebook-plant-diethylamine =
+entity-effect-guidebook-plant-diethylamine = {$chance ->
     { $chance ->
         [1] Increases
         *[other] increase
     } the plant's lifespan and/or base health with 10% chance for each
 
-entity-effect-guidebook-plant-robust-harvest =
+entity-effect-guidebook-plant-robust-harvest = {$chance ->
     { $chance ->
         [1] Increases
         *[other] increase
     } the plant's potency by {$increase} up to a maximum of {$limit}. Causes the plant to lose its seeds once the potency reaches {$seedlesstreshold}. Trying to add potency over {$limit} may cause decrease in yield at a 10% chance
 
-entity-effect-guidebook-plant-seeds-add =
+entity-effect-guidebook-plant-seeds-add = {$chance ->
     { $chance ->
         [1] Restores the
         *[other] restore the
     } seeds of the plant
 
-entity-effect-guidebook-plant-seeds-remove =
+entity-effect-guidebook-plant-seeds-remove = {$chance ->
     { $chance ->
         [1] Removes the
         *[other] remove the
     } seeds of the plant
 
-entity-effect-guidebook-plant-mutate-chemicals =
+entity-effect-guidebook-plant-mutate-chemicals = {$chance ->
     { $chance ->
         [1] Mutates
         *[other] mutate

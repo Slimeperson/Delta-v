@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  name: космічний дракон
+  description: Літаючий левіафан, близький до космічних коропів.
   abstract: true
   components:
   - type: Body # Shitmed
@@ -18,7 +18,7 @@
     allowSpeech: true
     makeSentient: true
     name: ghost-role-information-space-dragon-name
-    description: deltav-ghost-role-information-space-dragon-description # DeltaV - Dragons despawn in 10 minutes
+    description: deltav-ghost-role-information-space-dragon-description # DeltaV - Дракони зникають через 10 хвилин
     rules: ghost-role-information-space-dragon-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -197,8 +197,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: dragon's lung
-  description: For dragon's breathing.
+  name: легені дракона
+  description: ghost-role-information-syndicate-cyborg-assault-name
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -217,7 +217,7 @@
 - type: entity
   parent: BaseMobDragon
   id: MobDragonDungeon
-  suffix: Dungeon
+  suffix: Підземелля
   components:
   - type: GhostRole
     description: ghost-role-information-space-dragon-dungeon-description
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: Викликати Карп Ріфт
+  description: Викликає карповий рифт, який періодично породжує коропів.
   components:
   - type: Action
     icon:
@@ -260,7 +260,7 @@
   parent: BaseAction
   id: ActionDevour
   name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  description: Спробуйте зламати конструкцію щелепами або проковтнути істоту.
   components:
   - type: Action
     icon: { sprite : Interface/Actions/devour.rsi, state: icon }
@@ -282,7 +282,7 @@
   parent: BaseAction
   id: ActionDragonsBreath
   name: "[color=orange]Dragon's Breath[/color]"
-  description: Spew out flames at anyone foolish enough to attack you!
+  description: Викидайте полум'я на будь-кого, хто настільки дурний, щоб напасти на вас!
   components:
   - type: Action
     # TODO: actual sprite and iconOn

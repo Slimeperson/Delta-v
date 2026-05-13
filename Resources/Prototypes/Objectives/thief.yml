@@ -546,8 +546,8 @@
 - type: entity
   parent: [BaseThiefObjective, BaseLivingObjective]
   id: EscapeThiefShuttleObjective
-  name: Escape to CentComm alive and unrestrained via the escape shuttle.
-  description: You don't want your illegal activities to be discovered by anyone, do you?
+  name: Втікайте до CentComm живим і нестримним за допомогою евакуаційного човника.
+  description: Ви ж не хочете, щоб вашу незаконну діяльність хтось виявив?
   components:
   - type: Objective
     difficulty: 1.3

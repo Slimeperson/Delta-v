@@ -1,7 +1,7 @@
 - type: material
   id: Biomass
   stackEntity: MaterialBiomass1
-  name: materials-biomass
+  name: матеріали-біомаса
   unit: materials-unit-piece
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube }
   color: "#8A9A5B"
@@ -13,7 +13,7 @@
 - type: material
   id: Cardboard
   stackEntity: MaterialCardboard1
-  name: materials-cardboard
+  name: матеріали-картон
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cardboard }
   color: "#70736c"
   price: 0.025
@@ -26,7 +26,7 @@
 - type: material
   id: Cloth
   stackEntity: MaterialCloth1
-  name: materials-cloth
+  name: матеріали-тканина
   unit: materials-unit-roll
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cloth }
   color: "#e7e7de"
@@ -40,7 +40,7 @@
 - type: material
   id: Durathread
   stackEntity: MaterialDurathread1
-  name: materials-durathread
+  name: матеріали-тривалість
   # not exactly a sheet but its sprite suggests it cant be rolled like cloth
   unit: materials-unit-sheet
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: durathread }
@@ -57,7 +57,7 @@
 - type: material
   id: Paper
   stackEntity: SheetPaper1
-  name: materials-paper
+  name: матеріали-папір
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: paper }
   color: "#d9d9d9"
   price: 0.01 # it's paper bro what do you expect?
@@ -70,7 +70,7 @@
 - type: material
   id: Plasma
   stackEntity: SheetPlasma1
-  name: materials-plasma
+  name: матеріалів-плазм
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plasma }
   color: "#7e009e"
   price: 0.35 # $35 for 1 unit
@@ -87,7 +87,7 @@
 - type: material
   id: Plastic
   stackEntity: SheetPlastic1
-  name: materials-plastic
+  name: матеріали-пластик
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plastic }
   color: "#d9d9d9"
   price: 0.20 # $20 for 1 unit
@@ -101,7 +101,7 @@
 - type: material
   id: Wood
   stackEntity: MaterialWoodPlank1
-  name: materials-wood
+  name: матеріали-дерево
   unit: materials-unit-plank
   icon: { sprite: Objects/Materials/materials.rsi, state: wood }
   color: "#966F33"
@@ -115,7 +115,7 @@
 - type: material
   id: Uranium
   stackEntity: SheetUranium1
-  name: materials-uranium
+  name: матеріалів-уран
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: uranium }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
@@ -131,7 +131,7 @@
 - type: material
   id: Bananium
   stackEntity: MaterialBananium1
-  name: materials-bananium
+  name: матеріали-банан
   unit: materials-unit-bunch
   icon: { sprite: Objects/Materials/materials.rsi, state: bananium }
   color: "#32a852"
@@ -149,7 +149,7 @@
 
 - type: material
   id: Meaterial # you can't take this pun from me
-  name: materials-meat
+  name: матеріали-м'ясо
   unit: materials-unit-slab
   icon: { sprite: Objects/Materials/Sheets/meaterial.rsi, state: meat }
   color: "#c53648"
@@ -162,7 +162,7 @@
 
 - type: material
   id: WebSilk
-  name: materials-web
+  name: матеріали-веб
   unit: materials-unit-web
   icon: { sprite: Objects/Materials/silk.rsi, state: icon }
   color: "#eeeeee" #eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -176,7 +176,7 @@
 
 - type: material
   id: Cotton
-  name: materials-cotton
+  name: матеріали-бавовна
   unit: materials-unit-boll
   icon: { sprite: Objects/Materials/materials.rsi, state: cotton }
   color: "#cccccc"
@@ -190,7 +190,7 @@
 
 - type: material
   id: Bones
-  name: materials-bones
+  name: матеріали-кістки
   unit: materials-unit-piece
   icon: { sprite: Objects/Materials/materials.rsi, state: bones }
   color: "#896f5e"
@@ -204,7 +204,7 @@
 - type: material
   id: Coal
   stackEntity: Coal1
-  name: materials-coal
+  name: reagent-name-sodium-polyacrylate
   unit: materials-unit-piece
   icon: { sprite: Objects/Materials/ore.rsi, state: coal }
   color: "#404040"
@@ -217,7 +217,7 @@
 
 - type: material
   id: Gunpowder
-  name: materials-gunpowder
+  name: матеріали-порох
   unit: materials-unit-piece
   icon: { sprite: Objects/Misc/reagent_fillings.rsi, state: powderpile }
   color: "#A9A9A9"
@@ -229,7 +229,7 @@
 - type: material
   id: Diamond
   stackEntity: MaterialDiamond1
-  name: materials-diamond
+  name: матеріали-алмаз
   unit: materials-unit-piece
   icon: { sprite: Objects/Materials/materials.rsi, state: diamond }
   color: "#80ffff"

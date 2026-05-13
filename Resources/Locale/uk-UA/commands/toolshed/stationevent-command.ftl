@@ -1,8 +1,8 @@
-command-description-stationevent-simulate =
+command-description-stationevent-simulate = Враховуючи прототип BasicStationEventScheduler, N раундів, N гравців, середнє значення кінця раунду та stddev кінця раунду, моделює N кількість раундів, у яких відбудуться події, і друкує випадки кожної наступної події.
     Given a BasicStationEventScheduler prototype, N Rounds, N Players, mean round end, and stddev of round end, Simulates N number of rounds in which events will occur and prints the occurrences of every event after.
-command-description-stationevent-lsprob =
+command-description-stationevent-lsprob = Враховуючи прототип BasicStationEventScheduler, перелічує ймовірність різних подій станції, що відбуваються з усього пулу з поточними умовами.
     Given a BasicStationEventScheduler prototype, lists the probability of different station events occuring out of the entire pool with current conditions.
-command-description-stationevent-lsprobtheoretical =
+command-description-stationevent-lsprobtheoretical = Враховуючи прототип BasicStationEventScheduler, кількість гравців і час раунду, перераховує ймовірність виникнення різних подій на станції на основі вказаної кількості гравців і часу раунду.
     Given a BasicStationEventScheduler prototype, player count, and round time, lists the probability of different station events occuring based on the specified number of players and round time.
-command-description-stationevent-prob =
+command-description-stationevent-prob = Враховуючи прототип BasicStationEventScheduler і прототип події, повертає ймовірність виникнення однієї події станції з усього пулу з поточними умовами.
     Given a BasicStationEventScheduler prototype and an event prototype, returns the probability of a single station event occuring out of the entire pool with current conditions.

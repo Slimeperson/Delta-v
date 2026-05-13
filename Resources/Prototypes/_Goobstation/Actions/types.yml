@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateBluespaceLifeline
-  name: Activate Bluespace Lifeline
-  description: Activates your bluespace lifeline implant, teleporting you far-far away from this station. You won't be able to come back.
+  name: Активуйте Bluespace Lifeline
+  description: Активує ваш імплант Bluespace Lifeline, телепортуючи вас далеко-далеко від цієї станції. Ти не зможеш повернутися.
   components:
   - type: Action
     checkCanInteract: false

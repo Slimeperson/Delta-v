@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: IcyFountainLargeRound
-  name: large round icy fountain
-  description: A fountain full of yummy water that was iced over.
+  name: великий круглий крижаний фонтан
+  description: Фонтан, наповнений смачною водою, яка була покрита льодом.
   components:
   - type: Sprite
     noRot: true
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseStructure
   id: IcyFountainLargeRoundTop
-  name: large round icy fountain top
-  description: Sparkling ice!
+  name: великий круглий крижаний фонтан у верхній частині
+  description: Ігристий лід!
   components:
   - type: SpriteFade
   - type: Sprite

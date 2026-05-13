@@ -1,2 +1,2 @@
-﻿station-event-gas-leak-start-announcement = Увага екіпажу, на станції витік газу. Ми радимо вам уникати цієї зони та тим часом носити внутрішні костюми.
+﻿station-event-gas-leak-start-announcement = NanoTrasen
 station-event-gas-leak-end-announcement = Джерело витоку газу ліквідовано. Просимо бути обережними в місцях, де залишився газ.

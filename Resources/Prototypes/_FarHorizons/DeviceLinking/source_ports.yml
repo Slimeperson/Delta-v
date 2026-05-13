@@ -9,7 +9,7 @@
 - type: sourcePort
   id: GasTurbineDataSender
   name: signal-port-name-gas-turbine-data-sender
-  description: signal-port-description-gas-turbine-data-sender
+  description: сигнал-порт-опис-газової-турбіни-відправник-даних
   defaultLinks: [ GasTurbineDataReceiver ]
 
 - type: sourcePort

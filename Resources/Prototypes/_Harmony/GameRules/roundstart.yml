@@ -31,7 +31,7 @@
         components:
         - AntagImmune
       briefing:
-        text: conspirator-role-greeting
+        text: змовник-роль-привітання
         color: "#724F29"
         sound: /Audio/_Harmony/Misc/conspirator_greeting.ogg
       components:

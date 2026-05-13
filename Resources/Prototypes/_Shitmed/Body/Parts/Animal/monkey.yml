@@ -18,7 +18,7 @@
 - type: entity
   parent: [PartMonkey, BaseTorso]
   id: TorsoMonkey
-  name: "monkey torso"
+  name: "торс мавпи"
   components:
   - type: Sprite
     state: "torso_m"
@@ -33,7 +33,7 @@
 - type: entity
   parent: [PartMonkey, BaseHead]
   id: HeadMonkey
-  name: "monkey head"
+  name: "голова мавпи"
   components:
   - type: Sprite
     state: "head_m"
@@ -48,7 +48,7 @@
 - type: entity
   parent: [PartMonkey, BaseLeftArm]
   id: LeftArmMonkey
-  name: "left monkey arm"
+  name: "ліва рука мавпи"
   components:
   - type: Sprite
     state: "l_arm"
@@ -56,7 +56,7 @@
 - type: entity
   parent: [PartMonkey, BaseRightArm]
   id: RightArmMonkey
-  name: "right monkey arm"
+  name: "права рука мавпи"
   components:
   - type: Sprite
     state: "r_arm"
@@ -64,7 +64,7 @@
 - type: entity
   parent: [PartMonkey, BaseLeftHand]
   id: LeftHandMonkey
-  name: "left monkey hand"
+  name: "ліва рука мавпи"
   components:
   - type: Sprite
     state: "l_hand"
@@ -72,7 +72,7 @@
 - type: entity
   parent: [PartMonkey, BaseRightHand]
   id: RightHandMonkey
-  name: "right monkey hand"
+  name: "права рука мавпи"
   components:
   - type: Sprite
     state: "r_hand"
@@ -80,7 +80,7 @@
 - type: entity
   parent: [PartMonkey, BaseLeftLeg]
   id: LeftLegMonkey
-  name: "left monkey leg"
+  name: "ліва мавпяча нога"
   components:
   - type: Sprite
     state: "l_leg"
@@ -88,7 +88,7 @@
 - type: entity
   parent: [PartMonkey, BaseRightLeg]
   id: RightLegMonkey
-  name: "right monkey leg"
+  name: "flavor-complex-arnold-palmer
   components:
   - type: Sprite
     state: "r_leg"
@@ -96,7 +96,7 @@
 - type: entity
   parent: [PartMonkey, BaseLeftFoot]
   id: LeftFootMonkey
-  name: "left monkey foot"
+  name: "ліва мавпяча лапка"
   components:
   - type: Sprite
     state: "l_foot"
@@ -104,7 +104,7 @@
 - type: entity
   parent: [PartMonkey, BaseRightFoot]
   id: RightFootMonkey
-  name: "right monkey foot"
+  name: "права мавпяча лапка"
   components:
   - type: Sprite
     state: "r_foot"

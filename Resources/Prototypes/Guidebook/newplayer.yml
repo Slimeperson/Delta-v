@@ -1,6 +1,6 @@
 - type: guideEntry
   id: NewPlayer
-  name: guide-entry-newplayer
+  name: направляючий-вхід-токсини
   priority: 0
   text: "/ServerInfo/Guidebook/NewPlayer/NewPlayer.xml"
   children:
@@ -9,14 +9,14 @@
 
 - type: guideEntry
   id: Controls
-  name: guide-entry-controls
+  name: керівництво-вхід-контроль
   text: "/ServerInfo/Guidebook/NewPlayer/Controls/Controls.xml"
   children:
   - Radio
 
 - type: guideEntry
   id: Radio
-  name: guide-entry-radio
+  name: гід-вхід-радіо
   text: "/ServerInfo/Guidebook/NewPlayer/Controls/Radio.xml"
 
 - type: guideEntry

@@ -18,7 +18,7 @@
 
 - type: listing
   id: PAIMIDIPlayer
-  name: pai-midi-player-name
+  name: pai-midi-ім'я-програвача
   description: pai-midi-player-desc
   productAction: ActionPAIPlayMidi
   cost:

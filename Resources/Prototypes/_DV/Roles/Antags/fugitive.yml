@@ -1,6 +1,6 @@
 - type: antag
   id: Fugitive
-  name: roles-antag-fugitive-name
+  name: roles-atag-fugitive-name
   antagonist: true
   objective: roles-antag-fugitive-objective
   requirements:

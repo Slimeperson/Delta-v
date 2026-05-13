@@ -8,7 +8,7 @@
 - type: entity
   id: UndeterminedVoidsuitEngineer
   name: engineer voidsuit selector
-  description: A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.
+  description: Невеликий пульт дистанційного керування, який використовує технологію bluespace, щоб скинути його в костюмі пустоти або жорсткому костюмі на ваш вибір.
   parent: BaseItem
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: job
   id: Clerk
-  name: job-name-clerk
-  description: job-description-clerk
+  name: робота-назва-діловод
+  description: посадова інструкція-діловод
   playTimeTracker: JobClerk
   antagAdvantage: 2 # DeltaV - Reduced TC: Security Radio and Access
   requirements:

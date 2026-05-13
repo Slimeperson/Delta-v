@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionFoxfire
-  name: Create Foxfire
-  description: Form a cool, gently glowing wisp of flame
+  name: Створіть Foxfire
+  description: Створіть прохолодний, ніжно сяючий вогник
   components:
   - type: LimitedCharges
     maxCharges: 3
@@ -16,7 +16,7 @@
   parent: BaseAction
   id: ActionKitsuneMorph
   name: Kitsune Shapeshift
-  description: Shift into your fox form
+  description: Перейдіть у форму лисиці
   components:
   - type: Action
     icon: { sprite: Mobs/Animals/fox.rsi, state: fox }

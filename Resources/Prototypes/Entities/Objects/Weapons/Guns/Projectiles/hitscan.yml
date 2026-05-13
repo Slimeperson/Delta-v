@@ -172,7 +172,7 @@
   parent: BasicHitscan
   id: DebugLaser
   name: debug laser ray
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -194,7 +194,7 @@
   parent: DebugLaser
   id: DebugLaserGib
   name: debug gibbing ray
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage

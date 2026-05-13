@@ -15,18 +15,18 @@
         icon:
             sprite: Objects/Fun/bikehorn.rsi
             state: icon
-        name: construction-graph-tag-clown-bike-horn
+        name: конструкція-граф-тег-клоун-велосипедний клаксон
         doAfter: 2
       - tag: ProximitySensor
         icon:
           sprite: Objects/Misc/proximity_sensor.rsi
           state: icon
-        name: construction-graph-tag-proximity-sensor
+        name: конструкція-граф-тег-датчик-наближення
       - tag: BorgArm
         icon:
           sprite: Mobs/Silicon/drone.rsi
           state: l_hand
-        name: construction-graph-tag-borg-arm
+        name: конструкція-граф-тег-борг-рука
         doAfter: 2
   - node: bot
     entity: MobHonkBot
@@ -48,18 +48,18 @@
         icon:
           sprite: Objects/Fun/cluwnehorn.rsi
           state: icon
-        name: construction-graph-tag-clowne-horn
+        name: конструкція-граф-тег-клоун-рог
         doAfter: 2
       - tag: ProximitySensor
         icon:
           sprite: Objects/Misc/proximity_sensor.rsi
           state: icon
-        name: construction-graph-tag-proximity-sensor
+        name: конструкція-граф-тег-датчик-наближення
       - tag: BorgArm
         icon:
           sprite: Mobs/Silicon/drone.rsi
           state: l_hand
-        name: construction-graph-tag-borg-arm
+        name: конструкція-граф-тег-борг-рука
         doAfter: 2
   - node: bot
     entity: MobJonkBot

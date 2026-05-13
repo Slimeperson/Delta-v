@@ -1,8 +1,8 @@
 - type: entity
   parent: Paper
   id: PaperWrittenNoteFromMumGeneric
-  name: note from mom
-  suffix: Lunchbox, Generic
+  name: записка від мами
+  suffix: Ланчбокс, Generic
   components:
   - type: Paper
     content: book-text-lunchbox-generic
@@ -10,8 +10,8 @@
 - type: entity
   parent: PaperWrittenNoteFromMumGeneric
   id: PaperWrittenNoteFromMumHealthy
-  name: note from mom
-  suffix: Lunchbox, Healthy
+  name: записка від мами
+  suffix: Ланчбокс, Healthy
   components:
   - type: Paper
     content: book-text-lunchbox-healthy
@@ -19,8 +19,8 @@
 - type: entity
   parent: PaperWrittenNoteFromMumGeneric
   id: PaperWrittenNoteFromMumUnhealthy
-  name: note from mom
-  suffix: Lunchbox, Unhealthy
+  name: записка від мами
+  suffix: Ланчбокс, нездоровий
   components:
   - type: Paper
     content: book-text-lunchbox-unhealthy
@@ -28,8 +28,8 @@
 - type: entity
   parent: Paper
   id: PaperWrittenGorlexGirlfriendsSubscriptionNotice
-  name: "subscription notice"
-  description: "Thank you for your purchase"
+  name: "повідомлення про підписку"
+  description: "Дякуємо за покупку"
   components:
   - type: Paper
     content: book-text-gorlex-girlfriends-subscription-notice
@@ -40,8 +40,8 @@
 - type: entity
   parent: Paper
   id: PaperWrittenCentcommChadsSubscriptionNotice
-  name: "subscription notice"
-  description: "Thank you for your purchase"
+  name: "повідомлення про підписку"
+  description: "Дякуємо за покупку"
   components:
   - type: Paper
     content: book-text-centcomm-chads-subscription-notice
@@ -52,7 +52,7 @@
 - type: entity
   parent: Paper
   id: PaperSalvageGunSafeNotice
-  name: Salvage gun safe notice
+  name: Застереження щодо безпечної зброї
   components:
   - type: Paper
     content: paper-salvage-gun-safe-notice
@@ -60,7 +60,7 @@
 - type: entity
   parent: Paper
   id: PaperViralCarePackageManual
-  name: viral care package manual
+  name: інструкція по догляду за вірусами
   components:
   - type: Paper
     content: paper-viral-care-package-manual

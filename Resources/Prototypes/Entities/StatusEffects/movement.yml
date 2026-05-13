@@ -2,7 +2,7 @@
   parent: MobStatusEffectBase
   id: StatusEffectSlowdown
   abstract: true
-  name: slowdown
+  name: сповільнення
   components:
   - type: StatusEffect
     whitelist:
@@ -19,7 +19,7 @@
   parent: MobStatusEffectBase
   id: StatusEffectSpeed
   abstract: true
-  name: speed
+  name: швидкість
   components:
   - type: StatusEffect
     whitelist:
@@ -32,33 +32,33 @@
 - type: entity
   parent: StatusEffectSpeed
   id: ReagentSpeedStatusEffect
-  name: reagent speed
+  name: швидкість реагенту
 
 - type: entity
   parent: StatusEffectSlowdown
   id: VomitingSlowdownStatusEffect
-  name: vomiting slowdown
+  name: уповільнення блювоти
 
 - type: entity
   parent: StatusEffectSlowdown
   id: TaserSlowdownStatusEffect
-  name: shot by taser slowdown
+  name: постріл уповільнення електрошокера
 
 - type: entity
   parent: StatusEffectSlowdown
   id: FlashSlowdownStatusEffect
-  name: affected by flash slowdown
+  name: впливає уповільнення спалаху
 
 - type: entity
   parent: StatusEffectSlowdown
   id: StatusEffectStaminaLow
-  name: stamina low
+  name: витривалість низька
 
 # Makes you more slippery, or perhaps less slippery.
 - type: entity
   parent: MobStatusEffectBase
   id: StatusEffectFriction
-  name: friction
+  name: тертя
   components:
   - type: FrictionStatusEffect
 
@@ -67,7 +67,7 @@
 - type: entity
   parent: MobStatusEffectBase
   id: StatusEffectStunned
-  name: stunned
+  name: приголомшений
   components:
   - type: StatusEffect
     whitelist:

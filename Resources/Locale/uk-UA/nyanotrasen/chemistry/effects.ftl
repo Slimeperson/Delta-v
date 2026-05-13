@@ -1,4 +1,4 @@
-reagent-effect-guidebook-change-glimmer-reaction-effect =
+reagent-effect-guidebook-change-glimmer-reaction-effect = {$chance ->
     { $chance ->
         [1] Modifies
         *[other] modify
@@ -8,7 +8,7 @@ reagent-effect-guidebook-change-glimmer-reaction-effect =
 
 ## Disease System support
 
-reagent-effect-guidebook-chem-miasma-pool =
+reagent-effect-guidebook-chem-miasma-pool = {$chance ->
     { $chance ->
         [1] Causes
         *[other] cause

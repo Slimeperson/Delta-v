@@ -1,7 +1,7 @@
 - type: entity
   id: BookshelfFilled
   parent: Bookshelf
-  suffix: random filled
+  suffix: довільне заповнення
   components:
   - type: StorageFill
     contents:

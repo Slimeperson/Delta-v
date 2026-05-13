@@ -3,7 +3,7 @@
 - type: job
   id: ChiefMedicalOfficer
   name: job-name-cmo
-  description: job-description-cmo
+  description: посадовий опис-cmo
   playTimeTracker: JobChiefMedicalOfficer
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:

@@ -1,7 +1,7 @@
 - type: entity
   id: PuddleRandomBlood
   parent: PuddleTemporary
-  suffix: Random, Body Fluids
+  suffix: Випадкові, рідини організму
   components:
   - type: RandomFillSolution
     solution: puddle
@@ -26,7 +26,7 @@
 - type: entity
   id: PuddleRandomDrinks
   parent: PuddleTemporary
-  suffix: Random, Drinks
+  suffix: Випадкові, Напої
   components:
   - type: RandomFillSolution
     solution: puddle
@@ -69,7 +69,7 @@
 - type: entity
   id: PuddleRandomChems
   parent: PuddleTemporary
-  suffix: Random, Chems
+  suffix: Випадкові, Chems
   components:
   - type: RandomFillSolution
     solution: puddle
@@ -112,7 +112,7 @@
 - type: entity
   id: PuddleRandomKitchen
   parent: PuddleTemporary
-  suffix: Random, Kitchen
+  suffix: Рандом, Кухня
   components:
   - type: RandomFillSolution
     solution: puddle
@@ -147,7 +147,7 @@
 - type: entity
   id: PuddleRandomMisc
   parent: PuddleTemporary
-  suffix: Random, Misc
+  suffix: Випадкове, Різне
   components:
   - type: RandomFillSolution
     solution: puddle
@@ -182,8 +182,8 @@
 - type: entity
   parent: MarkerBase
   id: PuddleRandomAll
-  name: Random Puddle Spawner
-  suffix: All
+  name: Випадковий спавнер калюж
+  suffix: все
   components:
   - type: Sprite
     sprite: Fluids/puddle.rsi

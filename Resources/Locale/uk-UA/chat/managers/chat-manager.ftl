@@ -55,10 +55,10 @@ chat-manager-rate-limit-admin-announcement = Гравець { $player } пере
 ## Speech verbs for chat
 
 chat-speech-verb-suffix-exclamation = !
-chat-speech-verb-suffix-exclamation-strong = !!
-chat-speech-verb-suffix-question = ?
+chat-speech-verb-suffix-exclamation-strong = багато прикрашений
+chat-speech-verb-suffix-question = ChemMaster 4000
 chat-speech-verb-suffix-stutter = -
-chat-speech-verb-suffix-mumble = ..
+chat-speech-verb-suffix-mumble = Ваш імплантат висхідної лінії зв’язку активовано, увійдіть до нього з гарячої панелі.
 
 chat-speech-verb-name-none = Жодного
 chat-speech-verb-name-default = За замовчуванням
@@ -109,7 +109,7 @@ chat-speech-verb-skeleton-1 = брязкає
 chat-speech-verb-skeleton-2 = клацає
 chat-speech-verb-skeleton-3 = скрегоче
 
-chat-speech-verb-name-vox = Vox
+chat-speech-verb-name-vox = {
 chat-speech-verb-vox-1 = верещить
 chat-speech-verb-vox-2 = кричить
 chat-speech-verb-vox-3 = каркає

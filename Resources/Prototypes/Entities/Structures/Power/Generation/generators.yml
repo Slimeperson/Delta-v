@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseMachine
   id: BaseGenerator
-  description: A high efficiency thermoelectric generator.
-  name: generator
+  description: Високоефективний термоелектричний генератор.
+  name: генератор
   placement:
     mode: SnapgridCenter
   components:

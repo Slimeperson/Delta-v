@@ -2,7 +2,7 @@
 - type: entity
   parent: GasMixer
   id: GasMixerEnabled
-  suffix: Enabled
+  suffix: Увімкнено
   components:
   - type: GasMixer
     targetPressure: 310
@@ -11,13 +11,13 @@
 - type: entity
   parent: [GasMixerFlipped, GasMixerEnabled]
   id: GasMixerEnabledFlipped
-  suffix: Enabled, Flipped
+  suffix: Увімкнено, перевернуто
 
 # Gas Filters
 - type: entity
   parent: GasFilter
   id: GasFilterEnabled
-  suffix: Enabled
+  suffix: Увімкнено
   components:
   - type: GasFilter
     startOnMapInit: true
@@ -25,13 +25,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabled]
   id: GasFilterEnabledFlipped
-  suffix: Enabled, Flipped
+  suffix: Увімкнено, перевернуто
 
 # Oxygen
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledOxygen
-  suffix: Enabled, Oxygen
+  suffix: Увімкнено, Кисень
   components:
   - type: GasFilter
     filteredGas: Oxygen
@@ -39,13 +39,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabledOxygen]
   id: GasFilterEnabledOxygenFlipped
-  suffix: Enabled, Oxygen, Flipped
+  suffix: Увімкнено, кисень, перевернуто
 
 # Nitrogen
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledNitrogen
-  suffix: Enabled, Nitrogen
+  suffix: Увімкнено, азот
   components:
   - type: GasFilter
     filteredGas: Nitrogen
@@ -53,13 +53,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabledNitrogen]
   id: GasFilterEnabledNitrogenFlipped
-  suffix: Enabled, Nitrogen, Flipped
+  suffix: Увімкнено, азот, перевернуто
 
 # Plasma
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledPlasma
-  suffix: Enabled, Plasma
+  suffix: Увімкнено, Плазма
   components:
   - type: GasFilter
     filteredGas: Plasma
@@ -67,13 +67,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabledPlasma]
   id: GasFilterEnabledPlasmaFlipped
-  suffix: Enabled, Plasma, Flipped
+  suffix: Увімкнено, Плазма, Перевернуто
 
 # Carbon Dioxide
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledCarbonDioxide
-  suffix: Enabled, CarbonDioxide
+  suffix: Увімкнено, вуглекислий газ
   components:
   - type: GasFilter
     filteredGas: CarbonDioxide
@@ -81,13 +81,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabledCarbonDioxide]
   id: GasFilterEnabledCarbonDioxideFlipped
-  suffix: Enabled, CarbonDioxide, Flipped
+  suffix: Увімкнено, вуглекислий газ, перевернуто
 
 # Tritium
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledTritium
-  suffix: Enabled, Tritium
+  suffix: Увімкнено, тритій
   components:
   - type: GasFilter
     filteredGas: Tritium
@@ -95,13 +95,13 @@
 - type: entity
   parent: [GasFilterFlipped, GasFilterEnabledTritium]
   id: GasFilterEnabledTritiumFlipped
-  suffix: Enabled, Tritium, Flipped
+  suffix: Увімкнено, тритій, перевернуто
 
 # Water Vapor
 - type: entity
   parent: GasFilterEnabled
   id: GasFilterEnabledWaterVapor
-  suffix: Enabled, Water Vapor
+  suffix: Відкрий, міст
   components:
   - type: GasFilter
     filteredGas: WaterVapor

@@ -10,7 +10,7 @@
         amount: 15
         doAfter: 8
       - tag: Magboots
-        name: construction-graph-tag-magboots
+        name: конструкція-граф-теги-чарівники
         icon:
           sprite: Clothing/Shoes/Boots/magboots.rsi
           state: icon

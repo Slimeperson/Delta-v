@@ -108,7 +108,7 @@
 # Utility
 - type: listing
   id: SpellbookPolymorphSpider
-  name: spellbook-polymorph-spider-name
+  name: книга заклинань-поліморф-ім'я-павука
   description: spellbook-polymorph-spider-desc
   productAction: ActionPolymorphWizardSpider
   cost:
@@ -135,8 +135,8 @@
 # Taking an Eldritch spell, good proof of concept and a way to celebrate everything magic.
 - type: listing
   id: SpellbookVoidApplause
-  name: spellbook-voidapplause-name
-  description: spellbook-voidapplause-desc
+  name: spellbook-voidaapplause-name
+  description: spellbook-voidaapplause-desc
   productAction: ActionVoidApplause
   cost:
     WizCoin: 1
@@ -175,7 +175,7 @@
 - type: listing
   id: SpellbookJaunt
   name: spellbook-ethereal-jaunt-name
-  description: spellbook-ethereal-jaunt-description
+  description: стрижень алмазного газового каналу
   productAction: ActionPolymorphJaunt
   productUpgradeId: SpellbookJauntUpgrade
   cost:
@@ -202,7 +202,7 @@
 # Equipment
 - type: listing
   id: SpellbookWandDoor
-  name: spellbook-wand-polymorph-door-name
+  name: сталевий стрижень теплообмінника
   description: spellbook-wand-polymorph-door-description
   productEntity: WeaponWandPolymorphDoor
   cost:

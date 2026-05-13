@@ -1,7 +1,7 @@
 - type: department
   id: Logistics # DeltaV - Logistics Department replacing Cargo
-  name: department-Logistics # DeltaV
-  description: department-Logistics-description # DeltaV
+  name: відділ-логістика # DeltaV
+  description: відділ-Логістика-опис # DeltaV
   color: "#A46106"
   roles:
   - CargoTechnician
@@ -12,8 +12,8 @@
 
 - type: department
   id: Civilian
-  name: department-Civilian
-  description: department-Civilian-description
+  name: відділу-цивіль
+  description: відділ-цивільно-опис
   color: "#9FED58"
   weight: -10
   roles:
@@ -40,8 +40,8 @@
 
 - type: department
   id: CentralCommand
-  name: department-CentralCommand
-  description: department-CentralCommand-description
+  name: відділ-Центр
+  description: відділ-ЦК-опис
   color: "#0c344d"
   roles:
   - CentralCommandOfficial
@@ -58,8 +58,8 @@
 
 - type: department
   id: Command
-  name: department-Command
-  description: department-Command-description
+  name: відділ-Команд
+  description: відділ-Наказ-опис
   color: "#334E6D"
   roles:
   - Captain
@@ -85,8 +85,8 @@
 
 - type: department
   id: Engineering
-  name: department-Engineering
-  description: department-Engineering-description
+  name: кафедри-техн
+  description: відділ-Інженерно-опис
   color: "#EFB341"
   roles:
   - AtmosphericTechnician
@@ -96,8 +96,8 @@
 
 - type: department
   id: Medical
-  name: department-Medical
-  description: department-Medical-description
+  name: відділення-Мед
+  description: відділ-Мед.-опис
   color: "#52B4E9"
   roles:
   - Chemist
@@ -111,8 +111,8 @@
 
 - type: department
   id: Security
-  name: department-Security
-  description: department-Security-description
+  name: гід-вхід-екзотика
+  description: відділ-Охорона-опис
   color: "#DE3A3A"
   weight: 20
   roles:
@@ -127,8 +127,8 @@
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
-  name: department-Epistemics # DeltaV
-  description: department-Epistemics-description # DeltaV
+  name: відділ-Епістеміка # DeltaV
+  description: відділ-Епістеміка-опис # DeltaV
   color: "#D381C9"
   roles:
   - ResearchDirector
@@ -141,8 +141,8 @@
 
 - type: department
   id: Silicon
-  name: department-Silicon
-  description: department-Silicon-description
+  name: відділ-Силікон
+  description: відділ-Кремній-опис
   color: "#D381C9"
   roles:
   - Borg
@@ -153,8 +153,8 @@
 
 - type: department
   id: Specific
-  name: department-Specific
-  description: department-Specific-description
+  name: відділ-спец
+  description: відділ-Конкретний-опис
   color: "#9FED58"
   weight: 10
   roles:

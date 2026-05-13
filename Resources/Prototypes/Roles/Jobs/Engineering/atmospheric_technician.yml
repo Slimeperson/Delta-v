@@ -1,7 +1,7 @@
 - type: job
   id: AtmosphericTechnician
   name: job-name-atmostech
-  description: job-description-atmostech
+  description: посадова інструкція-атмостех
   playTimeTracker: JobAtmosphericTechnician
   antagAdvantage: 4 # DeltaV - Reduced TC: External Access + Fireaxe + Free Hardsuit
   requirements:

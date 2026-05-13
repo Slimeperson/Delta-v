@@ -7,159 +7,159 @@
 - type: quickPhrase
   id: SpeciesDogPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-dog
+  text: фраза-вид-собака
 
 - type: quickPhrase
   id: SpeciesCatPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-cat
+  text: фраза-вид-кат
 
 - type: quickPhrase
   id: SpeciesOpossumPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-opossum
+  text: фраза-безпека-критично
 
 - type: quickPhrase
   id: SpeciesLizardPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-lizard
+  text: словосполучення-вид-ящірка
 
 - type: quickPhrase
   id: SpeciesBatPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-bat
+  text: словосполучення-вид-кажан
 
 - type: quickPhrase
   id: SpeciesSlimePhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-slime
+  text: фраза-вид-слиз
 
 - type: quickPhrase
   id: SpeciesMousePhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-mouse
+  text: фраза-вид-миша
 
 - type: quickPhrase
   id: SpeciesMothroachPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-mothroach
+  text: словосполучення-вид-mothroach
 
 - type: quickPhrase
   id: SpeciesCockroachPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-cockroach
+  text: робота-назва-вчений
 
 - type: quickPhrase
   id: SpeciesSpiderPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-spider
+  text: фраза-вид-павук
 
 - type: quickPhrase
   id: SpeciesBirdPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-bird
+  text: словосполучення-вид-птах
 
 - type: quickPhrase
   id: SpeciesParrotPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-parrot
+  text: фраза-вид-папуга
 
 - type: quickPhrase
   id: SpeciesSnakePhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-snake
+  text: фраза-вид-змія
 
 - type: quickPhrase
   id: SpeciesPigPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-pig
+  text: фраза-вид-свиня
 
 - type: quickPhrase
   id: SpeciesMonkeyPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-monkey
+  text: фраза-вид-мавпа
 
 - type: quickPhrase
   id: SpeciesKoboldPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-kobold
+  text: фраза-вид-кобольд
 
 - type: quickPhrase
   id: SpeciesFerretPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-ferret
+  text: словосполучення-вид-тхір
 
 - type: quickPhrase
   id: SpeciesCarpPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-carp
+  text: фраза-вид-короп
 
 - type: quickPhrase
   id: SpeciesXenoPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-xeno
+  text: фраза-вид-ксено
 
 - type: quickPhrase
   id: SpeciesHamsterPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-hamster
+  text: фраза-вид-хом'як
 
 - type: quickPhrase
   id: SpeciesIfritPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-ifrit
+  text: фраза-вид-іфрит
 
 - type: quickPhrase
   id: SpeciesRaccoonPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-raccoon
+  text: фраза-вид-єнот
 
 - type: quickPhrase
   id: SpeciesRounyPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-rouny
+  text: фраза-вид-роуни
 
 - type: quickPhrase
   id: SpeciesFoxPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-fox
+  text: фраза-вид-лисиця
 
 - type: quickPhrase
   id: SpeciesCrabPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-crab
+  text: фраза-вид-краб
 
 - type: quickPhrase
   id: SpeciesKangarooPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-kangaroo
+  text: фраза-вид-кенгуру
 
 - type: quickPhrase
   id: SpeciesCowPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-cow
+  text: фраза-вид-корова
 
 - type: quickPhrase
   id: SpeciesDuckPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-duck
+  text: фраза-вид-качка
 
 - type: quickPhrase
   id: SpeciesBearPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-bear
+  text: фраза-вид-ведмідь
 
 - type: quickPhrase
   id: SpeciesPenguinPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-penguin
+  text: фраза-вид-пінгвін
 
 - type: quickPhrase
   id: SpeciesGoatPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-goat
+  text: словосполучення-вид-коза
 
 - type: quickPhrase
   id: SpeciesChickenPhrase
   parent: BaseAnimalSpeciesPhrase
-  text: phrase-species-chicken
+  text: робота-назва-двірник

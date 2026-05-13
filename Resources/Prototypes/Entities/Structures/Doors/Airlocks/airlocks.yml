@@ -1,7 +1,7 @@
 - type: entity
   parent: Airlock
   id: AirlockFreezer
-  suffix: Freezer
+  suffix: Морозильна камера
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/freezer.rsi # DeltaV - Resprite Doors
@@ -11,7 +11,7 @@
 - type: entity
   parent: Airlock
   id: AirlockEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/engineering.rsi # DeltaV - Resprite Doors
@@ -39,7 +39,7 @@
 - type: entity
   parent: Airlock
   id: AirlockSalvage
-  suffix: Salvage
+  suffix: Порятунок
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/salvage.rsi # DeltaV - Resprite Doors
@@ -59,7 +59,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/medical.rsi # DeltaV - Resprite Doors
@@ -69,7 +69,7 @@
 - type: entity
   parent: AirlockMedical
   id: AirlockVirology
-  suffix: Virology
+  suffix: Вірусологія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/virology.rsi # DeltaV - Resprite Doors
@@ -77,7 +77,7 @@
 - type: entity
   parent: AirlockMedical
   id: AirlockChemistry
-  suffix: Chemistry
+  suffix: Хімія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/chemistry.rsi # DeltaV - Reprite Doors
@@ -95,7 +95,7 @@
 - type: entity
   parent: Airlock
   id: AirlockCommand
-  suffix: Command
+  suffix: Команда
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/command.rsi # DeltaV - Resprite Doors
@@ -107,7 +107,7 @@
 - type: entity
   parent: Airlock
   id: AirlockSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/security.rsi # DeltaV - Resprite Doors
@@ -125,7 +125,7 @@
 - type: entity
   parent: AirlockSecurity # if you get syndie door somehow it counts as sec
   id: AirlockSyndicate
-  suffix: Syndicate
+  suffix: Синдикат
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/syndicate.rsi # DeltaV - Resprite Doors
@@ -184,7 +184,7 @@
   parent: Airlock
   id: AirlockHatchSyndicate
   name: airtight hatch
-  suffix: Syndicate
+  suffix: Синдикат
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_syndicate.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockEngineeringGlass
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/engineering.rsi # DeltaV - Resprite Doors
@@ -203,7 +203,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockMaintGlass
-  suffix: Maintenance
+  suffix: Технічне обслуговування
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/maint.rsi # DeltaV - Resprite Doors
@@ -229,7 +229,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockSalvageGlass
-  suffix: Salvage
+  suffix: Порятунок
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/salvage.rsi # DeltaV - Resprite Doors
@@ -249,7 +249,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockMedicalGlass
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/medical.rsi # DeltaV - Resprite Doors
@@ -259,7 +259,7 @@
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockChemistryGlass
-  suffix: Chemistry
+  suffix: Хімія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/chemistry.rsi # DeltaV - Resprite Doors
@@ -268,7 +268,7 @@
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockVirologyGlass
-  suffix: Virology
+  suffix: Вірусологія
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/virology.rsi # DeltaV - Resprite Doors
@@ -286,7 +286,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockCommandGlass
-  suffix: Command
+  suffix: Команда
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/command.rsi # DeltaV - Resprite Doors
@@ -298,7 +298,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockSecurityGlass
-  suffix: Security
+  suffix: Безпека
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/security.rsi # DeltaV - Resprite Doors
@@ -308,7 +308,7 @@
 - type: entity
   parent: AirlockSecurityGlass # see standard
   id: AirlockSyndicateGlass
-  suffix: Syndicate
+  suffix: Синдикат
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/syndicate.rsi # DeltaV - Resprite Doors
@@ -334,7 +334,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockStandardGlass
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/basic.rsi

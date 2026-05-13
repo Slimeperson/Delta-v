@@ -52,7 +52,7 @@
   name: incomplete baseball bat
   parent: BaseItem
   id: IncompleteBaseBallBat
-  description: A few planks of wood stuck together.
+  description: Кілька дерев’яних дощок злиплися разом.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/incomplete_bat.rsi

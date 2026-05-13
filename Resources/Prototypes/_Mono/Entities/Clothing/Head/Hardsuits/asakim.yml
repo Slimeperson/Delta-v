@@ -9,8 +9,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ShowMedicalIcons] # DeltaV - no contraband
   id: ClothingHelmetHardsuitAsakim
-  name: combat harness helmet # DeltaV - simple names
-  description: Part of an advanced combat harness. # DeltaV - no fracture
+  name: каска бойова упряж # DeltaV - прості назви
+  description: Частина вдосконаленої бойової збруї. # DeltaV - немає перелому
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/asakim.rsi

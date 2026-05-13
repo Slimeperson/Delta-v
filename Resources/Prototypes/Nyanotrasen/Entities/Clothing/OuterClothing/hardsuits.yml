@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitRd
   id: ClothingOuterHardsuitMystagogue
-  name: mystagogue's hardsuit
-  description: A heavy-duty hardsuit specialized for research that includes a built-in psionic one-way nullification system in the helmet and a detection system in the core suit. Modified bluespace embedded into the plating allows it to be folded into a smaller space than one would expect.
+  name: гладіаторські обладунки
+  description: Потужний хардкостюм, спеціалізований для досліджень, який включає вбудовану псіонічну односторонню систему нульування в шоломі та систему виявлення в основному костюмі. Модифікований bluespace, вбудований у покриття, дозволяє скласти його в менший простір, ніж можна було очікувати.
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Hardsuits/rd.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitMystagogue, ClothingOuterStorageFoldableBaseOpened]
   id: ClothingOuterHardsuitMystagogueLabcoat
-  name: mystagogue's hardsuit
+  name: гладіаторські обладунки
   components:
   - type: ContainerContainer
     containers:
@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingOuterHardsuitERTBase
   id: ClothingOuterHardsuitERTCentcomm
-  name: CentComm hardsuit
+  name: Комбінезон CentComm
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Hardsuits/ERTSuits/ertcentcomm.rsi

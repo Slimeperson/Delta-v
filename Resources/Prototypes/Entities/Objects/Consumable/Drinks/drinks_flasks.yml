@@ -47,7 +47,7 @@
 - type: entity
   parent: FlaskBase
   id: DrinkMREFlask
-  suffix: Full
+  suffix: Повний
   name: MRE flask
   description: An old military flask, filled with the finest contents for soldiers.
   components:

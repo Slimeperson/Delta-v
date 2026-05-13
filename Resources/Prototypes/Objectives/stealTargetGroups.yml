@@ -2,7 +2,7 @@
 
 - type: stealTargetGroup
   id: Hypospray
-  name: steal-target-groups-hypospray
+  name: Ви ж не хочете, щоб вашу незаконну діяльність хтось виявив?
   sprite:
     sprite: Objects/Specific/Medical/hypospray.rsi
     state: hypo
@@ -16,14 +16,14 @@
 
 - type: stealTargetGroup
   id: ClothingOuterHardsuitRd
-  name: steal-target-groups-clothing-outer-hardsuit-rd
+  name: steal-target-groups-clothing-oper-hardsuit-rd
   sprite:
     sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
     state: icon
 
 - type: stealTargetGroup
   id: HandTeleporter
-  name: steal-target-groups-hand-teleporter
+  name: викрасти-цільові групи-ручний телепорт
   sprite:
     sprite: Objects/Devices/hand_teleporter.rsi
     state: icon
@@ -44,7 +44,7 @@
 
 - type: stealTargetGroup
   id: ClothingHandsKnuckleDustersQM
-  name: steal-target-groups-clothing-hands-knuckledusters-qm
+  name: roles-antag-generic-free-agent-name
   sprite:
     sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
     state: goldenknuckleduster
@@ -65,7 +65,7 @@
 
 - type: stealTargetGroup
   id: JetpackCaptainFilled
-  name: steal-target-groups-jetpack-captain-filled
+  name: steal-target-groups-jetpack captain-filled
   sprite:
     sprite: Objects/Tanks/Jetpacks/captain.rsi
     state: icon
@@ -79,14 +79,14 @@
 
 - type: stealTargetGroup
   id: NukeDisk
-  name: steal-target-groups-nuke-disk
+  name: викрасти-цільові-групи-ядерний-диск
   sprite:
     sprite: Objects/Misc/nukedisk.rsi
     state: icon
 
 - type: stealTargetGroup
   id: WeaponEnergyMagnum
-  name: steal-target-groups-weapon-energy-magnum
+  name: викрасти-цільові-групи-зброя-енергія-магнум
   sprite:
     sprite: Objects/Weapons/Guns/Battery/energy_magnum.rsi
     state: icon
@@ -95,7 +95,7 @@
 
 - type: stealTargetGroup
   id: HeadCloak
-  name: steal-target-groups-heads-cloaks
+  name: викрасти-цільові-групи-голови-плащі
   sprite:
     sprite: Clothing/Neck/Cloaks/cap.rsi
     state: icon
@@ -109,7 +109,7 @@
 
 - type: stealTargetGroup
   id: Stamp
-  name: steal-target-groups-stamps
+  name: викрасти-цільові-групи-штампи
   sprite:
     sprite: Objects/Misc/stamps.rsi
     state: stamp-cap
@@ -123,42 +123,42 @@
 
 - type: stealTargetGroup
   id: OfficerHandgun
-  name: steal-target-groups-officer-handguns
+  name: викрасти-цільові-групи-офіцер-пістолети
   sprite:
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
     state: base
 
 - type: stealTargetGroup
   id: EncryptionKey
-  name: steal-target-groups-encryption-keys
+  name: викрасти-цільові-групи-ключі-шифрування
   sprite:
     sprite: Objects/Devices/encryption_keys.rsi
     state: crypt_gray
 
 - type: stealTargetGroup
   id: TechnologyDisk
-  name: steal-target-groups-technology-disks
+  name: викрасти-цільові-групи-технології-диски
   sprite:
     sprite: Objects/Misc/module.rsi
     state: datadisk_base
 
 - type: stealTargetGroup
   id: Mail
-  name: steal-target-groups-mail
+  name: викрасти пошту цільових груп
   sprite:
     sprite: Nyanotrasen/Objects/Specific/Mail/mail.rsi # DeltaV
     state: icon
 
 - type: stealTargetGroup
   id: IDCard
-  name: steal-target-groups-id-cards
+  name: викрасти ідентифікаційні картки цільових груп
   sprite:
     sprite: Objects/Misc/id_cards.rsi
     state: default
 
 - type: stealTargetGroup
   id: LAMP
-  name: steal-target-groups-lamps
+  name: викрасти-цільові-групи-лампи
   sprite:
     sprite: Objects/Tools/lantern.rsi
     state: lantern
@@ -195,14 +195,14 @@
 
 - type: stealTargetGroup
   id: ClothingOuterHardsuitVoidParamed
-  name: steal-target-groups-clothing-outer-hardsuit-void-paramed
+  name: steal-target-groups-clothing-oper-hardsuit-void-paramed
   sprite:
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
     state: icon
 
 - type: stealTargetGroup
   id: MedicalTechFabCircuitboard
-  name: steal-target-groups-medical-tech-fab-circuitboard
+  name: викрасти-цільові-групи-медичні-технічні-фабрики-схеми
   sprite:
     sprite: Objects/Misc/module.rsi
     state: medical
@@ -216,14 +216,14 @@
 
 - type: stealTargetGroup
   id: ResearchAndDevelopmentServerMachineCircuitboard
-  name: steal-target-groups-research-and-development-server-machine-circuitboard
+  name: викрасти-цільові-групи-дослідження-та-розробка-сервер-машина-схемна плата
   sprite:
     sprite: Objects/Misc/module.rsi
     state: science
 
 - type: stealTargetGroup
   id: FireAxe
-  name: steal-target-groups-fire-axe
+  name: викрасти-цільові-групи-пожежна сокира
   sprite:
     sprite: Objects/Weapons/Melee/fireaxe.rsi
     state: icon
@@ -265,7 +265,7 @@
 
 - type: stealTargetGroup
   id: Bible
-  name: steal-target-groups-bible
+  name: викрасти-цільові-групи-біблію
   sprite:
     sprite: Objects/Specific/Chapel/bible.rsi
     state: icon
@@ -286,7 +286,7 @@
 
 - type: stealTargetGroup
   id: CaptainSword
-  name: steal-target-groups-captain-sword
+  name: викрасти-цільові групи-капітан-меч
   sprite:
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
     state: icon
@@ -295,7 +295,7 @@
 
 - type: stealTargetGroup
   id: NuclearBomb
-  name: steal-target-groups-nuclear-bomb
+  name: викрасти цільові групи ядерної бомби
   sprite:
     sprite: Objects/Devices/nuke.rsi
     state: nuclearbomb_base
@@ -316,7 +316,7 @@
 
 - type: stealTargetGroup
   id: XenoArtifact
-  name: steal-target-groups-xeno-artifact
+  name: викрасти-цільові-групи-ксено-артефакт
   sprite:
     sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
     state: ano28
@@ -374,7 +374,7 @@
 
 - type: stealTargetGroup
   id: AnimalNamedCat
-  name: steal-target-groups-animal-named-cat
+  name: викрасти-цільові-групи-тварина-на ім'я-кіт
   sprite:
     sprite: Mobs/Pets/bingus.rsi
     state: bingus

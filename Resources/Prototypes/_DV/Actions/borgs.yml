@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionFabricateLollipop
-  name: Fabricate Lollipop
-  description: Fabricate a lollipop that contains a small dose of Omnizine.
+  name: Виготовити Lollipop
+  description: аромат-основа-застарілий
   components:
   - type: Action
     icon: { sprite: _DV/Objects/Consumable/Food/candy.rsi, state: lollipop }
@@ -14,8 +14,8 @@
 - type: entity
   parent: BaseAction
   id: ActionFabricateGumball
-  name: Fabricate Gumball
-  description: Fabricate a gumball full of sugar and medicine to treat small injuries.
+  name: Виготовити Гамбола
+  description: Виготовте гумову кульку, наповнену цукром і ліками, щоб лікувати невеликі травми.
   components:
   - type: Action
     icon: { sprite: _DV/Objects/Consumable/Food/candy.rsi, state: gumball }
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionOpenCartridges
-  name: Open Programs
-  description: View software installed on you
+  name: Відкрийте програми
+  description: Перегляньте встановлене на вас програмне забезпечення
   components:
   - type: Action
     itemIconStyle: NoItem

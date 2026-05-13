@@ -27,7 +27,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -36,7 +36,7 @@
           tags:
             - MagazineLightRifle
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
@@ -90,7 +90,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -99,7 +99,7 @@
           tags:
             - MagazineCaselessRifle
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeCaselessRifle
         priority: 1
         whitelist:
@@ -122,7 +122,7 @@
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleTenebra
   description: A mass-produced and minimalist rifle in bullpup design. Uses .20 rifle ammo.
-  suffix: Mercenary
+  suffix: Найманець
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/tenebra.rsi
@@ -147,7 +147,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -156,7 +156,7 @@
           tags:
             - MagazineRifle
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeRifle
         priority: 1
         whitelist:
@@ -251,7 +251,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineRifleRubber
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -260,7 +260,7 @@
           tags:
           - MagazineRifle
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeRifleRubber
         priority: 1
         whitelist:
@@ -303,7 +303,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineLaser
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -313,7 +313,7 @@
           - MagazineLaser
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeLaser
         priority: 1
         whitelist:

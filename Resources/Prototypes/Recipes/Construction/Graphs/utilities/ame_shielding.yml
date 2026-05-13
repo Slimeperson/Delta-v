@@ -13,7 +13,7 @@
             - !type:AmeShieldIntegrity
           completed:
             - !type:AdminLog  # I don't like logging it like this. The log should include the user, AMEShielding EntityID, and AMEPart EntityID, and there should also be a start of attempt log.
-              message: "An AME shielding was deconstructed"
+              message: "recipes-secret-door-desc
             - !type:SpawnPrototype
               prototype: AmePartFlatpack
               amount: 1

@@ -1,9 +1,9 @@
 - type: entity
-  name: space shrimp
+  name: космічна креветка
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobSpaceShrimp
-  description: Shrimply cursed...
-  suffix: METEM MACHINE ONLY #for now, only to be used as a very rare result for the metempsychosis machine. If fishing ever gets added, this suffix can be removed.
+  description: Креветки прокляті...
+  suffix: ЛИШЕ МАШИНА МЕТЕМ #наразі, лише для використання як дуже рідкісний результат для машини метемпсихозу. Якщо колись буде додано риболовлю, цей суфікс можна видалити.
   components:
   - type: MeleeWeapon
     soundHit:

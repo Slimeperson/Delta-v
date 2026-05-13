@@ -53,8 +53,8 @@
 - type: entity
   id: WeaponWaterPistol
   parent: WeaponWaterGunBase
-  name: water pistol
-  description: The dinkiest of water-based weaponry. You swear the trigger doesn't do anything.
+  name: водяний пістолет
+  description: Найдебільніша зброя на водній основі. Ви клянетеся, що тригер нічого не робить.
   components:
   - type: Item
     shape:
@@ -75,8 +75,8 @@
 - type: entity
   id: WeaponWaterBlaster
   parent: WeaponWaterGunBase
-  name: water blaster
-  description: With this bad boy, you'll be the coolest kid at the summer barbecue.
+  name: водоструйний пристрій
+  description: З цим поганим хлопчиком ти будеш найкрутішою дитиною на літньому барбекю.
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil
@@ -114,8 +114,8 @@
 - type: entity
   id: WeaponWaterBlasterSuper
   parent: WeaponWaterGunBase
-  name: super water blaster
-  description: No! No! Not in the eyes!
+  name: суперводний бластер
+  description: ні! ні! Не в очі!
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil

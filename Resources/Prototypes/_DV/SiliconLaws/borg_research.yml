@@ -30,7 +30,7 @@
 
 - type: siliconLawset
   id: Research
-  name: law-research-name
+  name: закон-дослідження-ім
   laws:
   - Research1
   - Research2

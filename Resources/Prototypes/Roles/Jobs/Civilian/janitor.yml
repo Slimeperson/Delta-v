@@ -1,7 +1,7 @@
 - type: job
   id: Janitor
-  name: job-name-janitor
-  description: job-description-janitor
+  name: робота-назва-двірник
+  description: посадова інструкція-двірник
   playTimeTracker: JobJanitor
   startingGear: JanitorGear
   icon: "JobIconJanitor"

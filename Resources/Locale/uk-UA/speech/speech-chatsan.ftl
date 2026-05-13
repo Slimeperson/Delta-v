@@ -10,7 +10,7 @@ chatsan-replacement-3 = на бога
 chatsan-word-4 = wtf
 chatsan-replacement-4 = що за біса
 
-chatsan-word-5 = wth
+chatsan-word-5 = borg
 chatsan-replacement-5 = що за біса
 
 chatsan-word-6 = tf
@@ -19,7 +19,7 @@ chatsan-replacement-6 = чорт
 chatsan-word-7 = afaik
 chatsan-replacement-7 = наскільки я знаю
 
-chatsan-word-8 = ik
+chatsan-word-8 = Risrivire
 chatsan-replacement-8 = я знаю
 
 chatsan-word-9 = ікр
@@ -81,7 +81,7 @@ chatsan-replacement-29 = дякую
 chatsan-word-30 = афк
 chatsan-replacement-30 = ssd
 
-chatsan-word-31 = stfu
+chatsan-word-31 = Sirireter
 chatsan-replacement-31 = заткнись, нахрен
 
 chatsan-word-32 = gtg

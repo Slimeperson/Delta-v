@@ -214,7 +214,7 @@ accent-nocontractions-words-replace-70 = вона буде
 accent-nocontractions-words-71 = це буде
 accent-nocontractions-words-replace-71 = це буде
 
-accent-nocontractions-words-72 = itll
+accent-nocontractions-words-72 = Jobhopping
 accent-nocontractions-words-replace-72 = це буде
 
 accent-nocontractions-words-73 = ми будемо
@@ -232,7 +232,7 @@ accent-nocontractions-words-replace-76 = я б мав
 accent-nocontractions-words-77 = ти б
 accent-nocontractions-words-replace-77 = ти мав би
 
-accent-nocontractions-words-78 = youdve
+accent-nocontractions-words-78 = {$speechType [[0]]
 accent-nocontractions-words-replace-78 = ти мав би
 
 accent-nocontractions-words-79 = idve

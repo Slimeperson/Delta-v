@@ -27,7 +27,7 @@
       mindRoles:
       - MindRoleCosmicColossus
       briefing:
-        text: ghost-role-colossus-briefing
+        text: ghost-role-colossus-brifing
         color: CadetBlue
         sound: /Audio/_DV/CosmicCult/antag_cosmic_AI_briefing.ogg
       components:

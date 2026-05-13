@@ -23,15 +23,15 @@
     # dragon can only spawn 3 rifts so keep objective the same
     min: 3
     max: 3
-    title: objective-carp-rifts-title
-    description: deltav-objective-carp-rifts-description  # DeltaV - Dragons do not despawn
+    title: object-carp-rifts-title
+    description: deltav-objective-carp-rifts-description # DeltaV - Дракони не зникають
   - type: CarpRiftsCondition
 
 - type: entity
   parent: [BaseDragonObjective, BaseSurviveObjective]
   id: DragonSurviveObjective
-  name: Survive
-  description: You have to stay alive to maintain control.
+  name: Вижити
+  description: Ви повинні залишитися в живих, щоб зберегти контроль.
   components:
   - type: Objective
     icon:

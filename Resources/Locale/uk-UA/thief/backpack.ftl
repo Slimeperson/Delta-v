@@ -1,6 +1,6 @@
 thief-backpack-window-title = злодійський комплект
 
-thief-backpack-window-description =
+thief-backpack-window-description = Усередині знаходяться ваші інструменти торгівлі, які розчиняться, коли ви будете готові.
     Inside are your tools of the trade, which will dissolve when you're ready.
     Choose {$maxCount} different {$maxCount ->
         [1] set
@@ -16,7 +16,7 @@ thief-backpack-button-deselect = Виберіть [X]
 # Sets
 
 thief-backpack-category-chameleon-name = набір хамелеон
-thief-backpack-category-chameleon-description =
+thief-backpack-category-chameleon-description = Ви всі і ніхто; ти майстер маскування.
     You are everyone and no one; you are a master of disguise.
     Includes: A full set of chameleon clothing,
     a chameleon projector, and an Agent ID.
@@ -24,41 +24,41 @@ thief-backpack-category-chameleon-description =
 
 thief-backpack-category-tools-name = набір зламника
 # Delta V: C4 replaced with breaching charges and description changed
-thief-backpack-category-tools-description =
+thief-backpack-category-tools-description = Що це за звук? Кілька вкрадених розбійних зарядів стукають у їхні двері.
     What's that sound? A few stolen breachin' charges knockin' at their door. 
     No obstacle can stop you!
     Includes: Three breaching charges, a multitool, remote signaller, jaws of life,
     advanced welder, engineering goggles, and insulated gloves.
 
 thief-backpack-category-chemistry-name = набір анатомії
-thief-backpack-category-chemistry-description =
+thief-backpack-category-chemistry-description = Ви досягли максимальної фізичної продуктивності... з невеликою допомогою.
     You've reached peak physical performance... with a little help.
     Includes: Storage implanter, DNA scrambler implanter,
     ephedrine bottle, syringe, empty shaker, and omega soap
 
 thief-backpack-category-syndie-name = синді набір
-thief-backpack-category-syndie-description =
+thief-backpack-category-syndie-description = Брелоки з дезавуйованого минулого чи вкрадені у необережного агента?
     Trinkets from a disavowed past, or stolen from a careless agent?
     You've made some connections. Whiskey, echo...
     Includes: An Emag, Access Breaker, Interdyne cigs, a Syndicate codeword,
     a Radio Jammer, a lighter and some strange red crystals.
 
 thief-backpack-category-sleeper-name = спальний комплект
-thief-backpack-category-sleeper-description =
+thief-backpack-category-sleeper-description = Поки ми не закриємо очі назавжди, користуйтеся своїми незаконними рецептами
     Until we close our eyes for good, use your illegal prescriptions
     to keep others asleep.
     Includes: Sleepy nitrous oxide tank, two nocturine bottles,
     and a hypopen.
 
 thief-backpack-category-communicator-name = комплект комунікатора
-thief-backpack-category-communicator-description =
+thief-backpack-category-communicator-description = Гроші - це сила, а секрети - це гроші. Використовуйте свій срібний язик
     Money is power, and secrets are money. Use your silver tongue
     and wealth to subvert the station.
     Includes: Master key for all station channels, a CyberSun pen,
     voice mask implanter, and 20k spesos inside a briefcase.
 
 thief-backpack-category-smuggler-name = комплект контрабандиста
-thief-backpack-category-smuggler-description =
+thief-backpack-category-smuggler-description = Усім злодіям потрібно десь сховати свій товар у темряві.
     All thieves need somewhere to stash their goods in the dark.
     Don't forget to link your fulton.
     Includes: Fulton beacon, 10 fultons, 3 smoke grenades,

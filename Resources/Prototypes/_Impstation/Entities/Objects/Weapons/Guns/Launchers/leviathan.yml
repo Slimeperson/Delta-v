@@ -1,8 +1,8 @@
 - type: entity
-  name: Leviathan
+  name: Левіафан
   parent: [ BaseWeaponLauncher, BaseGunWieldable ]
   id: WeaponLauncherBazooka
-  description: Rumor has it, the original commissioner of the Leviathan continuously escalated their demands resulting in the sheer, destructive behemoth before you. Its manual strongly recommends the use of powered armor when operating this weapon.
+  description: Ходять чутки, початковий уповноважений Левіафана постійно підвищував свої вимоги, в результаті чого перед вами постає чистий руйнівний бегемот. Його інструкція настійно рекомендує використовувати механічну броню під час експлуатації цієї зброї.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Launchers/leviathan.rsi

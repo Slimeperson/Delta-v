@@ -4,15 +4,15 @@
 - type: entity
   parent: MobPurpleSnake
   id: MobPurpleSnakeGhost
-  suffix: Player
+  suffix: гравець
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRole
     allowMovement: true
     allowSpeech: false
     makeSentient: true
-    name: salvage snake
-    description: You are a salvage snake hunting for a meal.
+    name: рятівна змія
+    description: Ви рятувальна змія, яка полює за їжею.
     rules: deltav-ghost-role-information-salvageantag-rules
     mindRoles:
       - MindRoleGhostRoleSoloAntagonist
@@ -21,15 +21,15 @@
 - type: entity
   parent: MobSmallPurpleSnake
   id: MobSmallPurpleSnakeGhost
-  suffix: Player, Small
+  suffix: Гравець, Малий
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRole
     allowMovement: true
     allowSpeech: false
     makeSentient: true
-    name: salvage snake
-    description: You are a salvage snake hunting for a meal.
+    name: рятівна змія
+    description: Ви рятувальна змія, яка полює за їжею.
     rules: deltav-ghost-role-information-salvageantag-rules
     mindRoles:
       - MindRoleGhostRoleSoloAntagonist
@@ -40,7 +40,7 @@
 - type: entity
   abstract: true
   id: BaseMobXenoPlayer
-  suffix: Player
+  suffix: гравець
   components:
   - type: GhostRole
     allowMovement: true
@@ -63,34 +63,34 @@
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoPraetorianNPC] # Reverse order so suffix works
   id: MobXenoPraetorian
-  name: Praetorian
+  name: Преторіанець
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoDroneNPC] # Reverse order so suffix works
   id: MobXenoDrone
-  name: Drone
+  name: Дрон
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoQueenNPC] # Reverse order so suffix works
   id: MobXenoQueen
-  name: Queen
+  name: Королева
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoRavagerNPC] # Reverse order so suffix works
   id: MobXenoRavager
-  name: Ravager
+  name: Спустошитель
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoRunnerNPC] # Reverse order so suffix works
   id: MobXenoRunner
-  name: Runner
+  name: бігун
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoRounyNPC] # Reverse order so suffix works
   id: MobXenoRouny
-  name: Rouny
+  name: Руни
 
 - type: entity
   parent: [BaseMobXenoPlayer, MobXenoSpitterNPC] # Reverse order so suffix works
   id: MobXenoSpitter
-  name: Spitter
+  name: Плювач

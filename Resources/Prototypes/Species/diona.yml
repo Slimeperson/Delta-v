@@ -1,6 +1,6 @@
 - type: species
   id: Diona
-  name: species-name-diona
+  name: фраза-розташування-півн
   roundStart: true
   prototype: MobDiona
   sprites: MobDionaSprites

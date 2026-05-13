@@ -2,28 +2,28 @@
 
 - type: candyFlavor
   id: berry
-  name: berry
+  name: ягода
   color: '#800080'
   flavors:
   - berry
 
 - type: candyFlavor
   id: ginger
-  name: ginger
+  name: імбир
   color: '#fbdba0'
   flavors:
   - gingersoda
 
 - type: candyFlavor
   id: bananashake
-  name: banana shake
+  name: банановий коктейль
   color: '#ffe135'
   flavors:
   - bananahonk
 
 - type: candyFlavor
   id: vanilla
-  name: vanilla
+  name: ваніль
   color: '#f9e5bc'
   flavors:
   - creamy
@@ -31,77 +31,77 @@
 
 - type: candyFlavor
   id: orange
-  name: orange
+  name: помаранчевий
   color: '#fa7000'
   flavors:
   - orange
 
 - type: candyFlavor
   id: watermelon
-  name: watermelon
+  name: кавун
   color: '#009345'
   flavors:
   - watermelon
 
 - type: candyFlavor
   id: pineapple
-  name: pineapple
+  name: ананас
   color: '#e6ae25'
   flavors:
   - pineapple
 
 - type: candyFlavor
   id: rootbeer
-  name: root beer
+  name: корінь пива
   color: '#290e05'
   flavors:
   - rootbeersoda
 
 - type: candyFlavor
   id: lemon
-  name: lemon
+  name: лимон
   color: '#fef250'
   flavors:
   - lemondrop
 
 - type: candyFlavor
   id: cola
-  name: cola
+  name: кола
   color: '#3c3024'
   flavors:
   - cola
 
 - type: candyFlavor
   id: icedtea
-  name: iced tea
+  name: холодний чай
   color: '#e0a779'
   flavors:
   - icedtea
 
 - type: candyFlavor
   id: peppermint
-  name: peppermint
+  name: м'ята перцева
   color: '#47e7ad'
   flavors:
   - minty
 
 - type: candyFlavor
   id: spearmint
-  name: spearmint
+  name: м'ята колосиста
   color: '#47e75b'
   flavors:
   - minty
 
 - type: candyFlavor
   id: apple
-  name: apple
+  name: яблуко
   color: '#dd1533'
   flavors:
   - apple
 
 - type: candyFlavor
   id: honey
-  name: honey
+  name: мед
   color: '#e79a3f'
   flavors:
   - honey
@@ -115,28 +115,28 @@
 
 - type: candyFlavor
   id: grape
-  name: grape
+  name: виноград
   color: '#6c3461'
   flavors:
   - grape
 
 - type: candyFlavor
   id: bubbletea
-  name: bubble tea
+  name: пухирчастий чай
   color: '#d2b18c'
   flavors:
   - bubbletea
 
 - type: candyFlavor
   id: mystery
-  name: mystery flavor
+  name: таємничий аромат
   color: '#202020'
   flavors:
   - spaceshroom # it's a "mysterious" flavor
 
 - type: candyFlavor
   id: creamystrawberry
-  name: creamy strawberry
+  name: вершково-полуничний
   color: '#f8d9df'
   flavors:
   - creamy
@@ -144,7 +144,7 @@
 
 - type: candyFlavor
   id: strawberryyogurt
-  name: strawberry yogurt
+  name: полуничний йогурт
   color: '#f8d9df'
   flavors:
   - sour
@@ -153,7 +153,7 @@
 
 - type: candyFlavor
   id: sourapple
-  name: sour apple # mouth-puckering!
+  name: кисле яблуко # морщить рот!
   color: '#68aa2e'
   flavors:
   - sour
@@ -161,14 +161,14 @@
 
 - type: candyFlavor
   id: bubblegum
-  name: bubble gum
+  name: жувальна гумка
   color: '#f988d9'
   flavors:
   - candybubblegum
 
 - type: candyFlavor
   id: chilibungo
-  name: chili bungo # don't ask, i found chili mango lollipops on google, and bungos supposedly taste similar to mango
+  name: чилі бунго # не питай, я знайшов у гуглі льодяники чилі манго, а бунго нібито на смак схожий на манго
   color: '#813c23'
   flavors:
   - spicy
@@ -176,21 +176,21 @@
 
 - type: candyFlavor
   id: tequilasunrise
-  name: tequila sunrise
+  name: Текіла Схід сонця
   color: '#ffe48c'
   flavors:
   - tequilasunrise
 
 - type: candyFlavor
   id: mime
-  name: mime
+  name: мім
   color: '#eeeeee'
   flavors:
   - nothing
 
 - type: candyFlavor
   id: honeylemonginger
-  name: honey lemon ginger
+  name: мед лимонний імбир
   color: '#e6d781'
   flavors:
   - sour
@@ -201,28 +201,28 @@
 
 - type: candyFlavor
   id: foof
-  name: foof
+  name: фуф
   color: '#ff00ff'
   flavors:
   - pinkdrink
 
 - type: candyFlavor
   id: feline
-  name: cat-flavored
+  name: зі смаком кота
   color: '#7c4511'
   flavors:
   - cat
 
 - type: candyFlavor
   id: blellow
-  name: blellow
+  name: дути
   color: '#737373'
   flavors:
   - blellow
 
 - type: candyFlavor
   id: stale
-  name: stale
+  name: несвіжий
   color: '#96818e'
   flavors:
   - terrible
@@ -230,7 +230,7 @@
 
 - type: candyFlavor
   id: weh
-  name: weh # sorry, doesn't actually make you weh!
+  name: weh # вибачте, насправді це не робить вас weh!
   color: '#59b23a'
   flavors:
   - weh

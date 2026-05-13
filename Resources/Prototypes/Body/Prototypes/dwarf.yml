@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Dwarf
-  name: "dwarf"
+  name: "павукоподібний"
   root: torso
   slots:
     head:

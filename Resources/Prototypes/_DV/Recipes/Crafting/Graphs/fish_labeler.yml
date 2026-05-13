@@ -15,7 +15,7 @@
         icon:
           sprite: Objects/Fun/Plushies/carp.rsi
           state: carpplush
-        name: construction-graph-tag-carp-plushie
+        name: конструкція-граф-тег-карп-плюшевий
         doAfter: 2
   - node: fishlabeler
     entity: FishLabeler

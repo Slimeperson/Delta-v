@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: Druid
-  name: law-druid-name
+  name: закон-капелан-ім
   laws:
   - Druid1
   - Druid2

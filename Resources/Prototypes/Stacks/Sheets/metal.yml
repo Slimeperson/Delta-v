@@ -1,20 +1,20 @@
 - type: stack
   parent: BaseSheetStack
   id: Steel
-  name: stack-steel
+  name: стек-сталь
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: steel }
   spawn: SheetSteel1
 
 - type: stack
   parent: BaseSheetStack
   id: Plasteel
-  name: stack-plasteel
+  name: стек-пласт
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: plasteel }
   spawn: SheetPlasteel1
 
 - type: stack
   parent: BaseSheetStack
   id: Brass
-  name: stack-brass
+  name: стек-латун
   icon: { sprite: /Textures/_DV/Objects/Materials/Sheets/metal.rsi, state: brass } # DeltaV - new brass textures
   spawn: SheetBrass1

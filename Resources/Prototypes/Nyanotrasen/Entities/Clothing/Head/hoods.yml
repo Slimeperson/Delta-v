@@ -4,8 +4,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMailCarrier
   categories: [ HideSpawnMenu ]
-  name: mail carrier's winter coat hood
-  description: A hood for keeping the humble mailman's head warm while making all those deliveries.
+  name: зимовий капюшон листоноші
+  description: Капюшон для збереження голови скромного листоноші в теплі під час доставки.
   components:
   - type: Sprite
     sprite: _DV/Clothing/Head/Hoods/Coat/hoodmail.rsi

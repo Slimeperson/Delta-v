@@ -4,8 +4,8 @@
 
 - type: vessel
   id: NTCCBaron
-  name: NTCC Baron Valiant
-  description: A small passenger shuttle with seating space for 1 pilot and 4 passengers to get from A to B, ideal for shuttle transport between stations in the same sector. That is able to travel to ATS.
+  name: NTCC Барон Валіант
+  description: Невеликий пасажирський шатл із місцем для сидіння для 1 пілота та 4 пасажирів, щоб дістатися від A до B, ідеально підходить для шатлового транспорту між станціями в одному секторі. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_baron_bus.yml
   categories:
@@ -14,7 +14,7 @@
 - type: vessel
   id: NTCCVector
   name: NTCC Viscount Vector
-  description: A medium-sized base shuttle with an empty hold, best used for refitting and the bare essentials to make it legally a shuttle.
+  description: Базовий шаттл середнього розміру з порожнім трюмом, який найкраще використовувати для переобладнання та найнеобхіднішого, щоб зробити його юридично шатлом.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_viscount_base.yml
   categories:
@@ -23,7 +23,7 @@
 - type: vessel
   id: NTCCArsenal
   name: NTCC Marquess Arsenal
-  description: A medium-sized armory shuttle, able to supply any station in need of arms at the behest of CentComm. That is able to travel to ATS.
+  description: Збройовий шаттл середнього розміру, здатний постачати будь-яку станцію, яка потребує зброї за наказом CentComm. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_armory.yml
   categories:
@@ -31,8 +31,8 @@
 
 - type: vessel
   id: NTCCPillar
-  name: NTCC Marquess Pillar
-  description: A medium-sized base shuttle with an empty hold, best used for refitting and the bare essentials to make it legally a shuttle.
+  name: Стовп маркіза NTCC
+  description: Базовий шаттл середнього розміру з порожнім трюмом, який найкраще використовувати для переобладнання та найнеобхіднішого, щоб зробити його юридично шатлом.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_base.yml
   categories:
@@ -40,8 +40,8 @@
 
 - type: vessel
   id: NTCCSteward
-  name: NTCC Marquess Steward
-  description: A medium-sized passenger shuttle with seating space for 20 passengers. That is able to travel to ATS.
+  name: NTCC Marques Steward
+  description: Пасажирський шатл середнього розміру на 20 місць. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_bus.yml
   categories:
@@ -50,7 +50,7 @@
 - type: vessel
   id: NTCCCaravan
   name: NTCC Marquess Caravan
-  description: A medium-sized cargo shuttle with decent space, including a secure hold. That is able to travel to ATS.
+  description: Вантажний шатл середнього розміру з пристойним простором, включаючи надійне кріплення. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_cargo.yml
   categories:
@@ -59,7 +59,7 @@
 - type: vessel
   id: NTCCHarmony
   name: NTCC Marquess Harmony
-  description: A medium-sized chappel shuttle for all your beliefs needs.
+  description: Трансфер до каплиці середнього розміру для всіх ваших потреб.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_chapel.yml
   categories:
@@ -67,8 +67,8 @@
 
 - type: vessel
   id: NTCCRegent
-  name: NTCC Marquess Regent
-  description: A medium-sized office shuttle with an executive office, that has all the needs for a CC official in a hurry.
+  name: NTCC Marques Regent
+  description: Офісний шатл середнього розміру з кабінетом керівника, який має все необхідне для посадовця ЦК, який поспішає.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_office.yml
   categories:
@@ -76,8 +76,8 @@
 
 - type: vessel
   id: NTCCScholar
-  name: NTCC Marquess Scholar
-  description: A medium-sized science shuttle with the basic equipment to conduct most basic experiments.
+  name: Вчений NTCC Marquess
+  description: Науковий човник середнього розміру з основним обладнанням для проведення найпростіших експериментів.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_science.yml
   categories:
@@ -85,8 +85,8 @@
 
 - type: vessel
   id: NTCCFoundation
-  name: NTCC Sovereign Foundation
-  description: A large-sized base ship with an empty hold, best used for refitting and the bare essentials to make it legally a ship.
+  name: NTCI-MI NT-7-Проспектор
+  description: Великий базовий корабель із порожнім трюмом, який найкраще використовувати для переобладнання та найнеобхіднішого, щоб зробити його юридично кораблем.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_base.yml
   categories:
@@ -94,8 +94,8 @@
 
 - type: vessel
   id: NTCCTribunal
-  name: NTCC Sovereign Tribunal
-  description: A large-sized court ship with all the facilities to hold a legal court anywhere.
+  name: Ящик для соку HydroCo
+  description: Велике судове судно з усіма можливостями для проведення судового засідання будь-де.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_court.yml
   categories:
@@ -103,8 +103,8 @@
 
 - type: vessel
   id: NTCCMasquerade
-  name: NTCC Sovereign Masquerade
-  description: A large-sized theater ship with all the facilities to entertain any station it would travel to.
+  name: Суверенний маскарад NTCC
+  description: Великий театральний корабель із усіма зручностями для розваги будь-якої станції, куди він прямуватиме.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_stage.yml
   categories:
@@ -112,8 +112,8 @@
 
 - type: vessel
   id: NTCCSymposium
-  name: NTCC Sovereign Symposium
-  description: A large-sized theater ship with all the facilities hosts the greatest trivia shows on any station it would travel to.
+  name: Суверенний симпозіум NTCC
+  description: Величезний корабель-театр із усіма зручностями влаштовує найкращі вікторини на будь-якій станції, куди він подорожував би.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_trivia.yml
   categories:
@@ -122,7 +122,7 @@
 - type: vessel
   id: NTCCRevelation
   name: NTCC Sovereign Revelation
-  description: A large-sized science ship with all the facilities and cutting-edge equipment to conduct even the most taxing experiments.
+  description: Великий науковий корабель із усіма зручностями та передовим обладнанням для проведення навіть найважчих експериментів.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_science.yml
   categories:
@@ -131,7 +131,7 @@
 - type: vessel
   id: NTCCDeliverance
   name: NTCC Sovereign Deliverance
-  description: A large-sized medical evacuation transport ship with just the bare necessities to keep people alive until they are transported to proper facilities. That is able to travel to ATS.
+  description: Великий медичний евакуаційний транспортний корабель із найнеобхіднішим для підтримки життя людей, доки їх не транспортують до відповідних закладів. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_medevac.yml
   categories:

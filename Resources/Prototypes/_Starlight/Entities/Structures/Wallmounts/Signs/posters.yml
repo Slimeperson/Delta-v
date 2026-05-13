@@ -1,8 +1,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCalendar
-  name: nanotrasen brand calendar
-  description: An outdated calendar bearing NanoTrasen's branding.
+  name: календар бренду nanotrasen
+  description: Застарілий календар із брендом NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCleanHands
-  name: clean hands sign
-  description: Wash your hands. Or else.
+  name: чисті руки знак
+  description: Мийте руки. Або інакше.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitEyeChart
-  name: eye exam chart
-  description: Is that third letter a P or an F?
+  name: таблиця огляду очей
+  description: Це третя буква П чи Ф?
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandYoutoolpia
-  name: youtoolpia sign
-  description: A dream that went up in plasma fire.
+  name: знак youtoolpia
+  description: Мрія, яка згоріла у вогні плазми.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi

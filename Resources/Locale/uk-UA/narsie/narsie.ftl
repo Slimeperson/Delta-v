@@ -1,2 +1,2 @@
 narsie-has-risen = НАР'СІЄ ВСТАЛО
-narsie-has-risen-sender = ???
+narsie-has-risen-sender = [[0]]([[1]])

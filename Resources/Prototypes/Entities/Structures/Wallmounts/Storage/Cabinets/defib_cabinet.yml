@@ -56,7 +56,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: DefibrillatorCabinetOpen
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Openable
     opened: true
@@ -64,7 +64,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: DefibrillatorCabinetFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:

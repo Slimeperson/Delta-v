@@ -62,7 +62,7 @@
   parent: BluespaceBeaker
   id: BottomlessLube
   name: bottomless lube beaker
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   description: This anomalous beaker infinitely produces space lube and as such is to be closely guarded such that it doesn't fall in the wrong hands.
   components:
   - type: SolutionContainerManager

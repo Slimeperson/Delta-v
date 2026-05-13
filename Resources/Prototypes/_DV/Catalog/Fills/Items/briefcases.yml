@@ -1,7 +1,7 @@
 - type: entity
   parent: CybersunBriefcase
   id: BriefcaseRecruiterLawyerkit
-  suffix: Cybersun, Lawyer
+  suffix: uplink-recruiter-syndiehat-desc
   components:
   - type: EntityTableContainerFill
     containers:
@@ -17,7 +17,7 @@
 - type: entity
   parent: CybersunBriefcase
   id: BriefcaseRecruiterSurgeonKit
-  suffix: Cybersun, Surgeon
+  suffix: Кіберсонце, хірург
   components:
   - type: EntityTableContainerFill
     containers:
@@ -31,7 +31,7 @@
 - type: entity
   parent: CybersunBriefcase
   id: BriefcaseRecruiterArmsdealer
-  suffix: Cybersun, Armsdealer
+  suffix: Cybersun, торговець зброєю
   components:
   - type: EntityTableContainerFill
     containers:

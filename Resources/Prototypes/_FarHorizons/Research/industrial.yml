@@ -1,6 +1,6 @@
 - type: technology
   id: NuclearPowerGeneration
-  name: research-technology-nuclear-power
+  name: дослідження-технології-ядерної енергетики
   icon:
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/reactor_parts.rsi
     state: default_rod
@@ -29,7 +29,7 @@
 
 - type: technology
   id: NuclearPowerRecycling
-  name: research-technology-nuclear-recycling
+  name: дослідження-технології-ядерна-переробка
   icon:
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/reactor_parts.rsi
     state: nuclear_waste

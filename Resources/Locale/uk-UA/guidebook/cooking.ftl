@@ -1,6 +1,6 @@
 guidebook-microwave-ingredients-header = Інгредієнти
 guidebook-microwave-cook-time-header = Час приготування
-guidebook-microwave-cook-time =
+guidebook-microwave-cook-time = {$time ->
     { $time ->
         [0] Instant
         [1] [bold]1[/bold] second

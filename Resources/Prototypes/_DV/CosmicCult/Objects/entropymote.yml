@@ -3,9 +3,9 @@
 - type: entity
   parent: [ MaterialBase ]
   id: MaterialCosmicCultEntropy
-  name: mote of entropy
-  description: A solidified mote of entropic essence. Feels numbing to the touch.
-  suffix: Full
+  name: порошинка ентропії
+  description: Затверділа частинка ентропійної сутності. Відчуває оніміння на дотик.
+  suffix: Повний
   components:
   - type: Stack
     count: 6
@@ -38,7 +38,7 @@
 - type: entity
   parent: MaterialCosmicCultEntropy
   id: MaterialCosmicCultEntropy1
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -47,7 +47,7 @@
   categories: [ HideSpawnMenu ]
   parent: MaterialCosmicCultEntropy
   id: MaterialCosmicCultEntropy2
-  suffix: Two
+  suffix: Два
   components:
   - type: Stack
     count: 2
@@ -56,7 +56,7 @@
   categories: [ HideSpawnMenu ]
   parent: MaterialCosmicCultEntropy
   id: MaterialCosmicCultEntropy3
-  suffix: Three
+  suffix: Пам'ятник
   components:
   - type: Stack
     count: 3
@@ -65,7 +65,7 @@
   categories: [ HideSpawnMenu ]
   parent: MaterialCosmicCultEntropy
   id: MaterialCosmicCultEntropy4
-  suffix: Four
+  suffix: чотири
   components:
   - type: Stack
     count: 4
@@ -74,14 +74,14 @@
   categories: [ HideSpawnMenu ]
   parent: MaterialCosmicCultEntropy
   id: MaterialCosmicCultEntropy5
-  suffix: Five
+  suffix: П'ять
   components:
   - type: Stack
     count: 5
 
 - type: stack
   id: Entropy
-  name: stack-entropy
+  name: стек-ентропія
   icon: { sprite: _DV/CosmicCult/Objects/entropymote.rsi, state: mote }
   spawn: MaterialCosmicCultEntropy1
   maxCount: 6

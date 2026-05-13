@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: pear
+  name: груша
   parent: FoodProduceBase
   id: FoodPear
-  description: It's peary good.
+  description: Це грушево добре.
   components:
   - type: FlavorProfile
     flavors:

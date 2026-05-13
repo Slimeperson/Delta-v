@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatPilot
-  name: pilot's helmet
-  description: Can't hear the voices in my headset with these earflaps over my ears. And it feels good.
+  name: пілотський шолом
+  description: Я не чую голосів у моїй гарнітурі з цими навушниками на вухах. І це добре.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/pilot.rsi

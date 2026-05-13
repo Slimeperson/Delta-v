@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGeneric
   id: WoodenBarrel
-  name: wooden barrel
-  description: A musty old wooden barrel.
+  name: дерев'яна бочка
+  description: Затхла стара дерев'яна бочка.
   components:
   - type: Sprite
     sprite: _DV/Objects/Storage/barrel.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: StorageTank
   id: WoodenKeg
-  name: wooden keg
-  description: A musty old wooden keg, with a tap attached to the front.
+  name: дерев'яна бочка
+  description: Затхла стара дерев’яна бочка з краном, прикріпленим спереду.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -129,8 +129,8 @@
 
 - type: entity
   parent: WoodenKeg
-  name: root beer keg
-  description: A musty old wooden keg, with a tap attached to the front. Smells like root beer.
+  name: корінь пивна бочка
+  description: Затхла стара дерев’яна бочка з краном, прикріпленим спереду. Пахне кореневим пивом.
   id: WoodenKegRootBeer
   components:
   - type: Label
@@ -144,8 +144,8 @@
 
 - type: entity
   parent: WoodenKeg
-  name: beer keg
-  description: A musty old wooden keg, with a tap attached to the front. Smells like beer.
+  name: Увімкнено, вуглекислий газ, перевернуто
+  description: Затхла стара дерев’яна бочка з краном, прикріпленим спереду. Пахне пивом.
   id: WoodenKegBeer
   components:
   - type: Label

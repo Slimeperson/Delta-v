@@ -3,7 +3,7 @@
 - type: entity
   id: PartHuman
   parent: [BaseItem, BasePart]
-  name: "human body part"
+  name: "частина тіла людини"
   abstract: true
   components:
   - type: Icon # Shitmed Change
@@ -20,7 +20,7 @@
 
 - type: entity
   id: TorsoHuman
-  name: "human torso"
+  name: "людський торс"
   parent: [PartHuman, BaseTorso]
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 
 - type: entity
   id: HeadHuman
-  name: "human head"
+  name: "людська голова"
   parent: [PartHuman, BaseHead]
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: LeftArmHuman
-  name: "left human arm"
+  name: "ліва рука людини"
   parent: [PartHuman, BaseLeftArm]
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: RightArmHuman
-  name: "right human arm"
+  name: "права рука людини"
   parent: [PartHuman, BaseRightArm]
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: LeftHandHuman
-  name: "left human hand"
+  name: "ліва рука людини"
   parent: [PartHuman, BaseLeftHand]
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: RightHandHuman
-  name: "right human hand"
+  name: "права рука людини"
   parent: [PartHuman, BaseRightHand]
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: LeftLegHuman
-  name: "left human leg"
+  name: "ліва людська нога"
   parent: [PartHuman, BaseLeftLeg]
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 
 - type: entity
   id: RightLegHuman
-  name: "right human leg"
+  name: "права нога людини"
   parent: [PartHuman, BaseRightLeg]
   components:
   - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: LeftFootHuman
-  name: "left human foot"
+  name: "ліва людська нога"
   parent: [PartHuman, BaseLeftFoot]
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 
 - type: entity
   id: RightFootHuman
-  name: "right human foot"
+  name: "права нога людини"
   parent: [PartHuman, BaseRightFoot]
   components:
   - type: Sprite

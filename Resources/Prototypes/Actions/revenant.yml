@@ -1,14 +1,14 @@
 - type: entity
   parent: ActionIntrinsicStore
   id: ActionRevenantShop
-  name: Shop
-  description: Opens the ability shop.
+  name: Корпус, замкнено
+  description: дорога маленький кут горизонтальний 1
 
 - type: entity
   parent: BaseAction
   id: ActionRevenantDefile
-  name: Defile
-  description: Costs 30 Essence.
+  name: Дефіле
+  description: Коштує 30 Есенція.
   components:
   - type: Action
     itemIconStyle: NoItem # Imp
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantOverloadLights
-  name: Overload Lights
-  description: Costs 40 Essence.
+  name: Індикатори перевантаження
+  description: Коштує 40 Есенція.
   components:
   - type: Action
     itemIconStyle: NoItem # Imp
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantMalfunction
-  name: Malfunction
-  description: Costs 60 Essence.
+  name: Несправність
+  description: Коштує 60 Есенція.
   components:
   - type: Action
     itemIconStyle: NoItem # Imp

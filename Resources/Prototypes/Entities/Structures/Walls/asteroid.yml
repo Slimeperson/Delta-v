@@ -7,8 +7,8 @@
 - type: entity
   id: AsteroidRock
   parent: BaseWall
-  name: asteroid rock
-  description: A rocky asteroid.
+  name: астероїдна скеля
+  description: Скелястий астероїд.
   components:
   - type: Transform
     noRot: true
@@ -127,7 +127,7 @@
   id: AsteroidRockCoal
   parent: AsteroidRock
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -158,7 +158,7 @@
   id: AsteroidRockGold
   parent: AsteroidRock
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -234,7 +234,7 @@
   id: AsteroidRockQuartz
   parent: AsteroidRock
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -265,7 +265,7 @@
   id: AsteroidRockSilver
   parent: AsteroidRock
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -297,7 +297,7 @@
   id: AsteroidRockTin
   parent: AsteroidRock
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -328,7 +328,7 @@
   id: AsteroidRockUranium
   parent: AsteroidRock
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -359,7 +359,7 @@
   id: AsteroidRockBananium
   parent: AsteroidRock
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -454,7 +454,7 @@
 - type: entity
   id: AsteroidRockMining
   parent: AsteroidRock
-  name: asteroid rock
+  name: астероїдна скеля
   suffix: higher ore yield .33
   description: An asteroid.
   components:
@@ -467,7 +467,7 @@
   parent: AsteroidRock
   name: ironrock
   suffix: Low Ore Yield
-  description: A rocky asteroid.
+  description: Скелястий астероїд.
   components:
   - type: IconSmooth
     key: walls
@@ -536,7 +536,7 @@
   id: IronRockCoal
   parent: IronRock
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -559,7 +559,7 @@
   id: IronRockGold
   parent: IronRock
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -605,7 +605,7 @@
   id: IronRockQuartz
   parent: IronRock
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -628,7 +628,7 @@
   id: IronRockSilver
   parent: IronRock
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -651,7 +651,7 @@
   id: IronRockIron
   parent: IronRock
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -674,7 +674,7 @@
   id: IronRockUranium
   parent: IronRock
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -697,7 +697,7 @@
   id: IronRockBananium
   parent: IronRock
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -861,7 +861,7 @@
   id: WallRockCoal
   parent: WallRock
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: EntityRemap
     mask:
@@ -891,7 +891,7 @@
   id: WallRockGold
   parent: WallRock
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: EntityRemap
     mask:
@@ -974,7 +974,7 @@
   id: WallRockQuartz
   parent: WallRock
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: EntityRemap
     mask:
@@ -1004,7 +1004,7 @@
   id: WallRockSilver
   parent: WallRock
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: EntityRemap
     mask:
@@ -1035,7 +1035,7 @@
   id: WallRockTin
   parent: WallRock
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: EntityRemap
     mask:
@@ -1065,7 +1065,7 @@
   id: WallRockUranium
   parent: WallRock
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: EntityRemap
     mask:
@@ -1096,7 +1096,7 @@
   id: WallRockBananium
   parent: WallRock
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: EntityRemap
     mask:
@@ -1208,7 +1208,7 @@
   id: WallRockBasaltCoal
   parent: WallRockBasalt
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1231,7 +1231,7 @@
   id: WallRockBasaltGold
   parent: WallRockBasalt
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1300,7 +1300,7 @@
   id: WallRockBasaltQuartz
   parent: WallRockBasalt
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1323,7 +1323,7 @@
   id: WallRockBasaltSilver
   parent: WallRockBasalt
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1346,7 +1346,7 @@
   id: WallRockBasaltTin
   parent: WallRockBasalt
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1369,7 +1369,7 @@
   id: WallRockBasaltUranium
   parent: WallRockBasalt
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1393,7 +1393,7 @@
   id: WallRockBasaltBananium
   parent: WallRockBasalt
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1484,7 +1484,7 @@
   id: WallRockSnowCoal
   parent: WallRockSnow
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1507,7 +1507,7 @@
   id: WallRockSnowGold
   parent: WallRockSnow
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1576,7 +1576,7 @@
   id: WallRockSnowQuartz
   parent: WallRockSnow
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1599,7 +1599,7 @@
   id: WallRockSnowSilver
   parent: WallRockSnow
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1622,7 +1622,7 @@
   id: WallRockSnowTin
   parent: WallRockSnow
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1645,7 +1645,7 @@
   id: WallRockSnowUranium
   parent: WallRockSnow
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1669,7 +1669,7 @@
   id: WallRockSnowBananium
   parent: WallRockSnow
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1760,7 +1760,7 @@
   id: WallRockSandCoal
   parent: WallRockSand
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1783,7 +1783,7 @@
   id: WallRockSandGold
   parent: WallRockSand
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1852,7 +1852,7 @@
   id: WallRockSandQuartz
   parent: WallRockSand
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1875,7 +1875,7 @@
   id: WallRockSandSilver
   parent: WallRockSand
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1898,7 +1898,7 @@
   id: WallRockSandTin
   parent: WallRockSand
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1921,7 +1921,7 @@
   id: WallRockSandUranium
   parent: WallRockSand
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -1944,7 +1944,7 @@
   id: WallRockSandBananium
   parent: WallRockSand
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2035,7 +2035,7 @@
   id: WallRockChromiteCoal
   parent: WallRockChromite
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2058,7 +2058,7 @@
   id: WallRockChromiteGold
   parent: WallRockChromite
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2127,7 +2127,7 @@
   id: WallRockChromiteQuartz
   parent: WallRockChromite
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2150,7 +2150,7 @@
   id: WallRockChromiteSilver
   parent: WallRockChromite
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2173,7 +2173,7 @@
   id: WallRockChromiteTin
   parent: WallRockChromite
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2196,7 +2196,7 @@
   id: WallRockChromiteUranium
   parent: WallRockChromite
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2220,7 +2220,7 @@
   id: WallRockChromiteBananium
   parent: WallRockChromite
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2311,7 +2311,7 @@
   id: WallRockAndesiteCoal
   parent: WallRockAndesite
   description: An ore vein rich with coal.
-  suffix: Coal
+  suffix: вугілля
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2334,7 +2334,7 @@
   id: WallRockAndesiteGold
   parent: WallRockAndesite
   description: An ore vein rich with gold.
-  suffix: Gold
+  suffix: золото
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2403,7 +2403,7 @@
   id: WallRockAndesiteQuartz
   parent: WallRockAndesite
   description: An ore vein rich with quartz.
-  suffix: Quartz
+  suffix: Кварц
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2426,7 +2426,7 @@
   id: WallRockAndesiteSilver
   parent: WallRockAndesite
   description: An ore vein rich with silver.
-  suffix: Silver
+  suffix: Срібло
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2449,7 +2449,7 @@
   id: WallRockAndesiteTin
   parent: WallRockAndesite
   description: An ore vein rich with iron.
-  suffix: Iron
+  suffix: Залізо
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2472,7 +2472,7 @@
   id: WallRockAndesiteUranium
   parent: WallRockAndesite
   description: An ore vein rich with uranium.
-  suffix: Uranium
+  suffix: Уран
   components:
   - type: OreVein
     oreChance: 1.0
@@ -2496,7 +2496,7 @@
   id: WallRockAndesiteBananium
   parent: WallRockAndesite
   description: An ore vein rich with bananium.
-  suffix: Bananium
+  suffix: Бананіум
   components:
   - type: OreVein
     oreChance: 1.0

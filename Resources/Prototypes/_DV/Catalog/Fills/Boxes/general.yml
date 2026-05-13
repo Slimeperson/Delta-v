@@ -1,8 +1,8 @@
 - type: entity
-  name: Prisoner encryption key box
+  name: Набір, що містить Прокляту Косу та набір броні Провісника.
   parent: BoxCardboard
   id: BoxEncryptionKeyPrisoner
-  description: A box of spare encryption keys.
+  description: печінка павукоподібних # DeltaV
   components:
   - type: EntityTableContainerFill
     containers:
@@ -21,8 +21,8 @@
 - type: entity
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyTraffic
-  name: traffic encryption key box
-  description: A box of spare encryption keys.
+  name: Fill, Chameleon, NT
+  description: печінка павукоподібних # DeltaV
   components:
   - type: EntityTableContainerFill
     containers:
@@ -31,10 +31,10 @@
         amount: 4
 
 - type: entity
-  name: justice encryption key box
+  name: ящик для шифрування справедливості
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyJustice
-  description: A box of spare encryption keys.
+  description: печінка павукоподібних # DeltaV
   components:
   - type: EntityTableContainerFill
     containers:
@@ -43,10 +43,10 @@
         amount: 4
 
 - type: entity
-  name: syndicate radio implanter box
+  name: коробка радіоімплантатора Syndicate
   parent: BoxCardboard
   id: BoxSyndicateRadioImplanter
-  description: Contains cranial radio implants favored by Syndicate agents.
+  description: Містить краніальні радіоімплантати, улюблені агентами Синдикату.
   components:
   - type: Sprite
     layers:
@@ -59,10 +59,10 @@
         amount: 2
 
 - type: entity
-  name: syndicate hostage implanter box
+  name: коробка для імплантації заручників синдикату
   parent: BoxCardboard
   id: BoxSyndicateHostageImplanter
-  description: Contains hostage implants.
+  description: Містить імпланти-заручники.
   components:
   - type: Sprite
     layers:
@@ -82,10 +82,10 @@
         amount: 6
 
 - type: entity
-  name: syndicate handcuff box
+  name: синдикат наручник
   parent: BoxCardboard
   id: BoxSyndicateHandcuffBundle
-  description: Contains a large amount of handcuffs
+  description: Містить велику кількість наручників
   components:
   - type: Sprite
     layers:
@@ -107,8 +107,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSyndicateStunBundle
-  name: syndicate stun box
-  description: A box of two basic stun weapons.
+  name: синдикат електрошокера
+  description: Коробка з двома основними електрошокерами.
   components:
   - type: Sprite
     layers:
@@ -128,7 +128,7 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSyndicateFigurines
-  name: syndicate figurines box
+  name: коробка фігурок синдикату
   components:
   - type: Sprite
     layers:
@@ -146,7 +146,7 @@
         - id: ToyFigurineNukieElite
         - id: ToyFigurineNukieCommander
         - id: ToyFigurineFootsoldier
-  description: A box of a full set of syndicate figurines!
+  description: Коробка повного набору фігурок синдика!
 
 - type: entity
   parent: BoxCardboard
@@ -185,8 +185,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSyndicateFirebugsFestival
-  name: firebug's festival box
-  description: A box containing bottles of Firebug's Favorite. The front of it shows a chitinid operative in a thermal suit giving a thumbs up
+  name: фестивальна коробка firebug
+  description: Коробка з пляшками Firebug's Favorite. На передній частині зображено хітинідного оперативника в термокостюмі, який показує великий палець
   components:
   - type: Sprite
     layers:
@@ -204,7 +204,7 @@
   parent: BoxCardboard
   id: BoxSyndicateSydicatC4
   name: Syndicat C4 Bundle Box
-  description: A box containing a Syndicat radio, a C4, an advanced remote signaler, and a multitool.
+  description: Коробка, що містить радіо Syndicat, C4, вдосконалений дистанційний сигналізатор і мультитул.
   components:
   - type: Sprite
     layers:

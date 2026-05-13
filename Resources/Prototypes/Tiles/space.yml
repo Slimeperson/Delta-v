@@ -1,6 +1,6 @@
 - type: tile
   id: Space
-  name: tiles-space
+  name: плитки-простір
   friction: 0
   isSubfloor: true
   isSpace: true

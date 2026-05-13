@@ -11,7 +11,7 @@
 - type: tile
   id: FloorPlanetDirt
   parent: BaseFloorPlanet
-  name: tiles-dirt-planet-floor
+  name: плитка-бруд-планета-підлога
   sprite: /Textures/Tiles/dirt.png # DeltaV - Was /Textures/Tiles/Planet/dirt.rsi/dirt.png, this breaks.
   variants: 4
   placementVariants:
@@ -24,7 +24,7 @@
 - type: tile
   id: FloorDesert
   parent: BaseFloorPlanet
-  name: tiles-desert-floor
+  name: плитка-пустеля-підлога
   sprite: /Textures/Tiles/Planet/Desert/desert.png
   variants: 6
   placementVariants:
@@ -37,7 +37,7 @@
 
 - type: tile
   id: FloorLowDesert
-  name: tiles-low-desert-floor
+  name: плитка-низька пустельна підлога
   sprite: /Textures/Tiles/Planet/Desert/low_desert.png
   variants: 6
   placementVariants:
@@ -52,7 +52,7 @@
 - type: tile
   id: FloorPlanetGrass
   parent: BaseFloorPlanet
-  name: tiles-grass-planet-floor
+  name: плитка-трава-планета-підлога
   sprite: /Textures/Tiles/Planet/Grass/grass.png
   variants: 4
   placementVariants:
@@ -77,7 +77,7 @@
 # Lava
 - type: tile
   id: FloorBasalt
-  name: tiles-basalt-floor
+  name: плитка-базальт-підлога
   parent: BaseFloorPlanet
   sprite: /Textures/Tiles/Planet/basalt.png
 
@@ -85,7 +85,7 @@
 - type: tile
   id: FloorSnow
   parent: BaseFloorPlanet
-  name: tiles-snow
+  name: плитка-сніг
   sprite: /Textures/Tiles/Planet/Snow/snow.png
   variants: 13
   placementVariants:
@@ -115,7 +115,7 @@
 # Ice
 - type: tile
   id: FloorIce
-  name: tiles-ice
+  name: плитки-лід
   sprite: /Textures/Tiles/Planet/Snow/ice.png
   isSubfloor: true
   friction: 0.05
@@ -128,7 +128,7 @@
 - type: tile
   id: FloorSnowDug
   parent: BaseFloorPlanet
-  name: tiles-snow-dug
+  name: черепиця-сніг-копана
   sprite: /Textures/Tiles/Planet/Snow/snow_dug.png
   edgeSpritePriority: 1
   edgeSprites:

@@ -1,2 +1,2 @@
-command-description-addaccesslog =
+command-description-addaccesslog = Додає журнал доступу до цієї сутності. Зауважте, що це обійде стандартне обмеження журналу та призупинить перевірку.
     Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.

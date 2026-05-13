@@ -1,7 +1,7 @@
 ﻿nukeops-title = Ядерні оператори
 nukeops-description = Оперативники націлилися на станцію. Спробуйте утримати їх від озброєння та детонації ядерної бомби, захистивши ядерний диск!
 
-nukeops-welcome =
+nukeops-welcome = Ви ядерний оперативник. Ваша мета — підірвати {$station} і переконатися, що це не що інше, як купа уламків. Ваші боси, Синдикат, надали вам інструменти, необхідні для виконання завдання.
     You are a nuclear operative. Your goal is to blow up {$station}, and ensure that it is nothing but a pile of rubble. Your bosses, the Syndicate, have provided you with the tools you'll need for the task.
     Operation {$name} is a go! Death to Nanotrasen!
 nukeops-briefing = Ваші цілі прості. Доставте корисний вантаж і вийдіть, перш ніж корисний вантаж вибухне. Розпочати місію.

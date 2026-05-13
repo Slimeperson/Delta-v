@@ -4,7 +4,7 @@ cmd-lslaws-help = lslaws [username]
 cmd-lslaws-error-bad-player = Неможливо знайти законну сутність, приєднану до цього користувача.
 
 cmd-lswatchlisted-desc = Друкує огляд усіх підключених гравців зі списками спостереження
-cmd-lswatchlisted-help = lswatchled
+cmd-lswatchlisted-help = lwatched
 
 cmd-getping-desc = Друкує поточний пінг вказаного гравця
 cmd-getping-help = отримання <ім'я користувача>

@@ -69,8 +69,8 @@
 - type: entity
   parent: CrateSecgear
   id: CrateWatchdogImplants
-  name: watchdog implant crate
-  description: Crate with three Watchdog implanters.
+  name: сторожовий імплантат
+  description: Вантажний шатл середнього розміру з пристойним простором, включаючи надійне кріплення. Тобто здатний подорожувати до ATS.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -81,8 +81,8 @@
 - type: entity
   id: CrateNT3
   parent: CrateWeaponSecure
-  name: NT-3 crate
-  description: Contains the refurbished NT-3, along with two magazine boxes filled with .40 anti-material ammunition and a blueprint for the ammunition.
+  name: Ящик НТ-3
+  description: Містить відремонтований NT-3 разом із двома ящиками для магазинів, наповненими антиматеріальними патронами калібру .40, і схемою боєприпасів.
   components:
   - type: EntityTableContainerFill
     containers:

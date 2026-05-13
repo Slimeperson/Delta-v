@@ -144,7 +144,7 @@
     earliestStart: 1
     duration: 1
   - type: PrecognitionResult # DeltaV - Precogniton
-    message: psionic-power-precognition-bluespace-locker-result-message
+    message: psionic-power-precognition-cargo-gifts-base-result-message
   - type: BluespaceLockerRule
 # Random APC Power off
 - type: entity
@@ -156,7 +156,7 @@
     duration: 1
     minimumPlayers: 15
   - type: PrecognitionResult # DeltaV - Precogniton
-    message: psionic-power-precognition-breaker-flip-result-message
+    message: вантаж-подарунок-піца-мал
   - type: BreakerFlipRule
 # Bureaucratic Error
 - type: entity
@@ -281,7 +281,7 @@
       roleLoadout:
       - RoleSurvivalSpaceNinja
       briefing:
-        text: ninja-role-greeting
+        text: ніндзя-роль-привітання
         color: Green
         sound: /Audio/Misc/ninja_greeting.ogg
       components:
@@ -378,7 +378,7 @@
       roleLoadout:
       - RoleSurvivalExtended
       briefing:
-        text: wizard-role-greeting
+        text: майстер-роль-привітання
         color: Turquoise
         # TODO: Need Wizard Start sound
         #sound: "/Audio/Ambience/Antag/wizard_start.ogg"

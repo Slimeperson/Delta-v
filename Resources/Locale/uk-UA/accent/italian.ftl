@@ -40,7 +40,7 @@ accent-italian-words-11 = добре
 accent-italian-words-replace-11 = molto bene
 
 accent-italian-words-12 = сірий приплив
-accent-italian-words-replace-12 = curva
+accent-italian-words-replace-12 = v1.3
 
 accent-italian-words-13 = сірий тидер
 accent-italian-words-replace-13 = охороняється

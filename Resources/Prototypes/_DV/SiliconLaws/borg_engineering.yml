@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: Engineer
-  name: law-engineer-name
+  name: юрист-інженер-ім
   laws:
   - Engineer1
   - Engineer2

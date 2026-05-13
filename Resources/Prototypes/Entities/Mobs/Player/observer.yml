@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: Моби без фізичних тіл
   components:
   - type: Sprite
     noRot: true
@@ -35,8 +35,8 @@
   - BaseMob
   id: MobObserverBase
   abstract: true
-  name: observer
-  description: Boo!
+  name: спостерігач
+  description: бу!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -142,8 +142,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: бу!
+  description: Налякайте членів вашої команди через нудьгу!
   components:
   - type: Action
     icon: Interface/Actions/scream.png
@@ -156,8 +156,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: Увімкнути освітлення
+  description: Увімкніть відтворення світла, щоб краще спостерігати за темними ділянками.
   components:
   - type: Action
     icon: Interface/VerbIcons/light.svg.192dpi.png
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: ghost-role-information-closet-skeleton-name
+  description: Перемикає поле зору, щоб бачити те, що бачать гравці.
   components:
   - type: Action
     icon: Interface/VerbIcons/vv.svg.192dpi.png
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: Переключити привидів
+  description: Перемкніть видимість інших привидів.
   components:
   - type: Action
     icon: { sprite: Mobs/Ghosts/ghost_human.rsi, state: icon }
@@ -192,8 +192,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: Перемкнути слух привидів
+  description: Перемикання між прослуховуванням усіх повідомлень і прослуховуванням лише радіо й повідомлень поблизу.
   components:
   - type: Action
     icon:

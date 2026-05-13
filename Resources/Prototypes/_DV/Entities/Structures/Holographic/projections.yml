@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseHolosign
   id: HolosignEng
-  name: engineering caution sign
-  description: What's the worst that could lie beyond?
+  name: інженерний обережний знак
+  description: Що найгірше може бути за межами?
   components:
   - type: Sprite
     sprite: _DV/Structures/Holo/eng.rsi
@@ -47,8 +47,8 @@
 - type: entity
   id: HoloTape
   parent: BaseHolosign
-  name: holotape
-  description: A projection of holographic caution tape. Maybe don't wander past.
+  name: голографічна стрічка
+  description: Проекція голографічної попереджувальної стрічки. Може, не блукайте повз.
   components:
   - type: Sprite
     sprite: _DV/Structures/Holo/holotape.rsi

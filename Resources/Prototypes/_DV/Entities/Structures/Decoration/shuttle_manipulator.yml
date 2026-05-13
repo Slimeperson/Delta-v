@@ -1,8 +1,8 @@
 - type: entity
   id: ShuttleManipulator
   parent: BaseStructure
-  name: station holograph
-  description: A three-dimensional hologram projection of a space station.
+  name: станційний голограф
+  description: Тривимірна голограма проекції космічної станції.
   components:
   - type: Sprite
     sprite: _DV/Structures/Decoration/shuttle_manipulator.rsi

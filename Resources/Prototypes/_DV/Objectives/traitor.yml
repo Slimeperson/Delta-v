@@ -143,13 +143,13 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseTeachLessonObjective]
   id: TeachLessonRandomPersonObjective
-  description: Kill them, and show everyone we mean business. They only need to die once.
+  description: Убийте їх і покажіть усім, що ми серйозні. Їм потрібно померти лише раз.
   components:
   - type: Objective
     difficulty: 1.75
     unique: false
   - type: TargetObjective
-    title: objective-condition-teach-person-title
+    title: об'єктивна-умова-навчити-людини-назви
   - type: PickRandomPerson
     filters:
     - !type:ObjectiveImmuneFilter
@@ -163,12 +163,12 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomTraitorObjective
-  description: We have reason to believe that they have begun to question the syndicate and need to be eliminated.
+  description: У нас є підстави вважати, що вони почали ставити під сумнів синдикат і потребують ліквідації.
   components:
   - type: Objective
     difficulty: 2 # They can easily buy weapons to defend themselves if they think something is up.
   - type: TargetObjective
-    title: objective-condition-traitor-kill-title
+    title: об'єктивна-умова-зрадник-вбити-титул
   - type: PickRandomTraitor
   - type: KillPersonCondition
     requireDead: true # Being able to leave them on the shuttle doesn't make sense when killing another traitor.
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseTraitorObjective
   id: UploadAILawObjective
-  name: Subvert the Station AI
-  description: The AI is causing us problems. Update its laws so it wont be an annoyance. We have given you a board in your uplink!
+  name: Підірвати ШІ станції
+  description: ШІ створює нам проблеми. Оновіть його закони, щоб це не дратувало. Ми дали вам дошку у вашому аплінку!
   components:
   - type: Objective
     difficulty: 3 # Need to get access and survive actually changing the board.

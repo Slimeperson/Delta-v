@@ -2,14 +2,14 @@
 - type: entity
   parent: BaseParadoxCloneObjective
   id: ParadoxAnomalyKillObjective
-  description: This universe doesn't have room for both of us.
+  description: У цьому всесвіті немає місця для нас обох.
   components:
   - type: Objective
     icon:
       sprite: Objects/Weapons/Guns/Pistols/viper.rsi
       state: icon
   - type: TargetObjective
-    title: objective-paradox-anomaly-kill-title
+    title: object-paradox-anomaly-kill-title
   - type: PickSpecificPerson
   - type: KillPersonCondition
     requireDead: true
@@ -17,13 +17,13 @@
 - type: entity
   parent: BaseParadoxCloneObjective
   id: ParadoxAnomalyFriendObjective
-  description: Perhaps there is room, as friends.
+  description: Можливо, є місце, як друзі.
   components:
   - type: Objective
     icon:
       sprite: Objects/Misc/folders.rsi
       state: folder-white
   - type: TargetObjective
-    title: objective-paradox-anomaly-friend-title
+    title: uplink-contraband-lighter-desc
   - type: PickSpecificPerson
   - type: KeepAliveCondition

@@ -6,37 +6,37 @@
 
 - type: sourcePort
   id: On
-  name: signal-port-name-on-transmitter
-  description: signal-port-description-on-transmitter
+  name: назва-порту-сигналу-на-передавачі
+  description: опис сигнального-порту-на-передавачі
   defaultLinks: [ On, Open, Forward, Trigger, Timer ]
 
 - type: sourcePort
   id: Off
-  name: signal-port-name-off-transmitter
-  description: signal-port-description-off-transmitter
+  name: ім'я-порту сигналу-від передавача
+  description: сигнальний-порт-опис-від-передавача
   defaultLinks: [ Off, Close ]
 
 - type: sourcePort
   id: Status
-  name: signal-port-name-status-transmitter
+  name: передавач-статус-назви-порту-сигналу
   description: signal-port-description-status-transmitter
   defaultLinks: [ Toggle ]
 
 - type: sourcePort
   id: Left
-  name: signal-port-name-left
+  name: ім'я-сигнального-порту-ліворуч
   description: signal-port-description-left
   defaultLinks: [ On, Open, Reverse, Trigger, Timer ]
 
 - type: sourcePort
   id: Right
-  name: signal-port-name-right
+  name: ім'я-сигнального-порту-справа
   description: signal-port-description-right
   defaultLinks: [ On, Open, Forward, Trigger, Timer ]
 
 - type: sourcePort
   id: Middle
-  name: signal-port-name-middle
+  name: ім'я-сигнального-порту-по батькові
   description: signal-port-description-middle
   defaultLinks: [ Off, Close ]
 
@@ -72,25 +72,25 @@
 - type: sourcePort
   id: ArtifactAnalyzerSender
   name: signal-port-name-artifact-analyzer-sender
-  description: signal-port-description-artifact-analyzer-sender
+  description: диявольська хватка
   defaultLinks: [ ArtifactAnalyzerReceiver ]
 
 - type: sourcePort
   id: Timer
-  name: signal-port-name-timer-trigger
+  name: trigger-timer-name-signal-port-name-timer-trigger
   description: signal-port-description-timer-trigger
   defaultLinks: [ AutoClose, On, Open, Forward, Trigger, Timer ]
 
 - type: sourcePort
   id: Start
   name: signal-port-name-timer-start
-  description: signal-port-description-timer-start
+  description: Активує ваш імплант Bluespace Lifeline, телепортуючи вас далеко-далеко від цієї станції. Ти не зможеш повернутися.
   defaultLinks: [ Close, Off ]
 
 - type: sourcePort
   id: Output
-  name: signal-port-name-logic-output
-  description: signal-port-description-logic-output
+  name: логічний-вихід-ім'я-порту сигналу
+  description: сигнал-порт-опис-логічний-вихід
   defaultLinks: [ Input ]
 
 - type: sourcePort
@@ -125,7 +125,7 @@
 
 - type: sourcePort
   id: Decaying
-  name: signal-port-name-decaying
+  name: занепад назви сигнального порту
   description: signal-port-description-decaying
 
 - type: sourcePort
@@ -135,12 +135,12 @@
 
 - type: sourcePort
   id: Growing
-  name: signal-port-name-growing
+  name: зростання назви сигнального порту
   description: signal-port-description-growing
 
 - type: sourcePort
   id: Pulse
-  name: signal-port-name-pulse
+  name: сигнальний-порт-назва-імпульс
   description: signal-port-description-pulse
 
 - type: sourcePort
@@ -150,12 +150,12 @@
 
 - type: sourcePort
   id: PowerCharging
-  name: signal-port-name-power-charging
-  description: signal-port-description-power-charging
+  name: signal-port name-power-charging
+  description: crafting-menu-name-PB
 
 - type: sourcePort
   id: PowerDischarging
-  name: signal-port-name-power-discharging
+  name: назва-порту-потужності-розрядки
   description: signal-port-description-power-discharging
 
 - type: sourcePort
@@ -166,6 +166,6 @@
 
 - type: sourcePort
   id: ItemDetected
-  name: signal-port-name-item-detected
+  name: виявлено назву сигнального порту
   description: signal-port-description-item-detected
   defaultLinks: [ Toggle, Trigger, Timer ]

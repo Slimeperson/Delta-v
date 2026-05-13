@@ -1,7 +1,7 @@
 - type: entity
   id: SentientSmileCore
   parent: SentientSlimesCore
-  name: sentient smile core
+  name: розумна посмішка
   components:
   - type: Sprite
     sprite: _DV/Mobs/Pets/Smile/organs.rsi

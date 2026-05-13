@@ -123,7 +123,7 @@
   id: ClothingBeltMilitaryWebbingHostageWarden
   name: warden chest rig
   description: A set of tactical webbing worn by the Gorlex Marauder hostage specialist team.
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

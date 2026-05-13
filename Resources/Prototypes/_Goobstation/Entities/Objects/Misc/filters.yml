@@ -8,8 +8,8 @@
   abstract: true
   parent: BaseItem
   id: BaseAutomationFilter
-  name: filter
-  description: A filter that can be installed in factory machines.
+  name: фільтр
+  description: Фільтр, який можна встановлювати в заводські машини.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/filter.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseAutomationFilter
   id: AutomationFilterLabel
-  name: label filter
-  description: A filter that can be installed in factory machines. This one scans labels of attached items.
+  name: фільтр етикетки
+  description: Фільтр, який можна встановлювати в заводські машини. This one scans labels of attached items.
   components:
   - type: LabelFilter
   - type: ActivatableUI
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseAutomationFilter
   id: AutomationFilterName
-  name: name filter
-  description: A filter that can be installed in factory machines. This one uses complex AI vision technology to identify items.
+  name: фільтр імен
+  description: Фільтр, який можна встановлювати в заводські машини. Цей використовує складну технологію бачення AI для ідентифікації предметів.
   components:
   - type: NameFilter
   - type: ActivatableUI
@@ -58,8 +58,8 @@
 - type: entity
   parent: BaseAutomationFilter
   id: AutomationFilterStack
-  name: stack filter
-  description: A filter that can be installed in factory machines. This one weighs items to compare it to a stack size.
+  name: стековий фільтр
+  description: Фільтр, який можна встановлювати в заводські машини. Цей зважує елементи, щоб порівняти їх із розміром стека.
   components:
   - type: StackFilter
   - type: ActivatableUI
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseAutomationFilter
   id: AutomationFilterPressure
-  name: pressure filter
-  description: A filter that can be installed in factory machines. This one has a barometer to check the pressure of gases.
+  name: напірний фільтр
+  description: Фільтр, який можна встановлювати в заводські машини. Цей має барометр для перевірки тиску газів.
   components:
   - type: PressureFilter
   - type: ActivatableUI
@@ -90,19 +90,19 @@
 - type: entity
   parent: BaseAutomationFilter
   id: AutomationFilterCombined
-  name: combined filter
-  description: A filter that can be installed in factory machines. This one uses a logic gate to combine 2 installed item filters.
+  name: комбінований фільтр
+  description: Фільтр, який можна встановлювати в заводські машини. Цей використовує логічний шлюз для об’єднання 2 встановлених фільтрів елементів.
   components:
   - type: CombinedFilter
   - type: ItemSlots
     slots:
       combined_filter_a:
-        name: Filter A
+        name: Фільтр А
         whitelist:
           components:
           - AutomationFilter
       combined_filter_b:
-        name: Filter B
+        name: Фільтр B
         whitelist:
           components:
           - AutomationFilter

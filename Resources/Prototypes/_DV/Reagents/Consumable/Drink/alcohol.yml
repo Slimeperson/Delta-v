@@ -18,9 +18,9 @@
 
 - type: reagent
   id: OldFashioned
-  name: reagent-name-old-fashioned
+  name: reagent-name-star-fashioned
   parent: BaseAlcohol
-  desc: reagent-desc-old-fashioned
+  desc: reagent-desc-старомодний
   physicalDesc: reagent-physical-desc-bittersweet
   flavor: oldfashioned
   color: "#c8753f"

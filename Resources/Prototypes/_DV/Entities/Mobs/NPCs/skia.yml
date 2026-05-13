@@ -1,8 +1,8 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, MobCombat ]
   id: MobSkia
-  name: skia
-  description: A shadow given form, lashing out at anything that comes too close.
+  name: скіа
+  description: Тінь, яка надає форму, кидається на все, що підходить надто близько.
   components:
   - type: Sprite
     drawdepth: Mobs

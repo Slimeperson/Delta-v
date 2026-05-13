@@ -2,7 +2,7 @@
   name: BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -45,11 +45,11 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: L6C РЯД
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
+  description: Автоматична рушниця з магазинним живленням для ближнього бою. Пнеться як мул на стероїдах. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -80,7 +80,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazineShotgun
         priority: 2
         whitelist:
@@ -103,10 +103,10 @@
     price: 5000
 
 - type: entity
-  name: double-barreled shotgun
+  name: двостволка
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderZookeeperContraband] # DeltaV - Keep Zookeeper/Boxer
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: Безсмертна класика. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi # Delta-V
@@ -125,20 +125,20 @@
     deconstructionTarget: null
 
 - type: entity
-  name: double-barreled shotgun
+  name: двостволка
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses .50 shotgun shells.
-  suffix: Non-Lethal
+  description: Безсмертна класика. Використовує гільзи калібру .50.
+  suffix: Нелетальний
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: Енфорсер
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  description: Напівавтоматична рушниця преміум-класу та гордість усіх сил безпеки. Використовує гільзи калібру .50.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Shotguns/enforcer.rsi # Delta-V
@@ -152,16 +152,16 @@
 - type: entity
   parent: WeaponShotgunEnforcer
   id: WeaponShotgunEnforcerRubber
-  suffix: Non-Lethal
+  suffix: Нелетальний
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: Каммерер
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
+  description: Старий, але вірний дизайн, улюблений серед нерегулярних сил багатьох світів. Використовує гільзи калібру .50.
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     sprite: _DV/Objects/Weapons/Guns/Shotguns/pump.rsi # Delta-V
@@ -181,10 +181,10 @@
     - WeaponShotgunKammerer
 
 - type: entity
-  name: sawn-off shotgun
+  name: обрізна рушниця
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: Groovy! Uses .50 shotgun shells.
+  description: Чудово! Використовує гільзи калібру .50.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
@@ -207,11 +207,11 @@
     deconstructionTarget: null
 
 - type: entity
-  name: sawn-off shotgun
+  name: обрізна рушниця
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
-  suffix: Empty
+  description: Чудово! Використовує гільзи калібру .50.
+  suffix: Порожній
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -221,7 +221,7 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol
+  name: пістолет ручної роботи
   parent: [BaseWeaponShotgun, BaseMinorContraband]
   id: WeaponShotgunHandmade
   description: Looks unreliable. Uses .50 shotgun shells.
@@ -251,7 +251,7 @@
   name: blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
-  suffix: Pirate
+  suffix: Пірат
   description: Deadly at close range.
   components:
   - type: Sprite

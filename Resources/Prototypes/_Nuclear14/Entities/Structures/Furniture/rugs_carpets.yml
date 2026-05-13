@@ -1,7 +1,7 @@
 - type: entity
   id: N14CarpetSingleBase
   parent: BaseStructure
-  description: Better than the floor.
+  description: дубова зламана підлога
   abstract: true
   components:
   - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: N14CarpetSingleBase
   id: N14RugMat
-  name: mat
+  name: мат
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: N14CarpetSingleBase # DeltaV
   id: N14RugMatWelcome
-  name: welcome mat # DeltaV
+  name: Вітальний мат # DeltaV
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs.rsi # DeltaV
@@ -52,8 +52,8 @@
 - type: entity
   parent: N14RugMat
   id: N14RugMatVulgar1
-  suffix: get f
-  description: A charming floor mat.
+  suffix: отримати f
+  description: Чарівний килимок.
   components:
   - type: Sprite
     state: mat_vulgar
@@ -61,7 +61,7 @@
 - type: entity
   parent: N14RugMatVulgar1
   id: N14RugMatVulgar2
-  suffix: f off
+  suffix: f вимкнено
   components:
   - type: Sprite
     state: mat_vulgar_2
@@ -69,7 +69,7 @@
 - type: entity
   parent: N14RugMatVulgar1
   id: N14RugMatTown
-  suffix: s town
+  suffix: s місто
   components:
   - type: Sprite
     state: mat_town
@@ -77,7 +77,7 @@
 - type: entity
   parent: N14RugMatVulgar1
   id: N14RugMatNCR
-  suffix: ncr sucks
+  suffix: ncr відстій
   components:
   - type: Sprite
     state: mat_ncr
@@ -85,7 +85,7 @@
 - type: entity
   parent: N14RugMatVulgar1
   id: N14RugMatBOS
-  suffix: bos sucks
+  suffix: бос відстій
   components:
   - type: Sprite
     state: mat_bos
@@ -94,8 +94,8 @@
 - type: entity
   parent: N14RugMat
   id: N14RugMatRubberSingle
-  name: rubber mat
-  description: A rubber protective floor mat.
+  name: гумовий килимок
+  description: Гумовий захисний килимок.
   components:
   - type: Sprite
     state: rubber_single
@@ -125,8 +125,8 @@
 - type: entity
   id: N14RugBlue
   parent: N14CarpetSingleBase # DeltaV
-  name: blue rug # DeltaV
-  description: A modern looking blue rug.
+  name: блакитний килим # DeltaV
+  description: Сучасний блакитний килим.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -152,8 +152,8 @@
 - type: entity
   id: N14RugShag # Delta V
   parent: N14RugBlue
-  name: blue shag rug # DeltaV 
-  description: A blue shag rug. Looks cheap. # DeltaV 
+  name: синій махровий килим # DeltaV
+  description: Блакитний ворсинковий килимок. Виглядає дешево. # DeltaV
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -165,8 +165,8 @@
 - type: entity
   id: N14RugBrown
   parent: N14RugBlue
-  name: brown rug
-  description: A fancy looking brown rug. 
+  name: коричневий килимок
+  description: Стильний коричневий килим.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -193,8 +193,8 @@
 - type: entity
   id: N14RugRed
   parent: N14RugBlue # DeltaV
-  name: red rug # DeltaV
-  description: A fancily patterned red rug. Looks expensive. # DeltaV
+  name: червоний килим # DeltaV
+  description: Червоний килим із химерним малюнком. Виглядає дорого. # DeltaV
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -220,8 +220,8 @@
 - type: entity
   id: N14RugYellow
   parent: N14RugBlue
-  name: orange rug
-  description: A patterned orange rug.
+  name: помаранчевий килимок
+  description: Помаранчевий килим з малюнком.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -243,8 +243,8 @@
 - type: entity
   id: N14RugMatRubberLarge
   parent: N14RugBlue
-  name: rubber mat
-  description: A large laboratory-grade rubber mat. Feel safe as you spill acid on yourself!
+  name: гумовий килимок
+  description: Великий лабораторний гумовий килимок. Відчуйте себе в безпеці, коли ви розливаєте кислоту на себе!
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi

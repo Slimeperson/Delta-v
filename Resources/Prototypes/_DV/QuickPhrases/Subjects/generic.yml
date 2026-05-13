@@ -1,217 +1,217 @@
 - type: quickPhrase
   id: PenPhrase
   parent: BaseSubjectPhrase
-  text: phrase-pen
+  text: фраза-ручка
 
 - type: quickPhrase
   id: PaperPhrase
   parent: BaseSubjectPhrase
-  text: phrase-paper
+  text: розмовник
 
 - type: quickPhrase
   id: WrenchPhrase
   parent: BaseSubjectPhrase
-  text: phrase-wrench
+  text: фраза-ключ
 
 - type: quickPhrase
   id: CrowbarPhrase
   parent: BaseSubjectPhrase
-  text: phrase-crowbar
+  text: фраза-лом
 
 - type: quickPhrase
   id: ScrewdriverPhrase
   parent: BaseSubjectPhrase
-  text: phrase-screwdriver
+  text: фраза-викрутка
 
 - type: quickPhrase
   id: WirecutterPhrase
   parent: BaseSubjectPhrase
-  text: phrase-wirecutter
+  text: фраза-дроторіз
 
 - type: quickPhrase
   id: WeldingToolPhrase
   parent: BaseSubjectPhrase
-  text: phrase-welding-tool
+  text: фраза-зварювальний-інструмент
 
 - type: quickPhrase
   id: WeldingMaskPhrase
   parent: BaseSubjectPhrase
-  text: phrase-welding-mask
+  text: фраза-зварювальна-маска
 
 - type: quickPhrase
   id: ToolboxPhrase
   parent: BaseSubjectPhrase
-  text: phrase-toolbox
+  text: фраза-м'ясо
 
 - type: quickPhrase
   id: BeakerPhrase
   parent: BaseSubjectPhrase
-  text: phrase-beaker
+  text: фраза-мензурка
 
 - type: quickPhrase
   id: RadioPhrase
   parent: BaseSubjectPhrase
-  text: phrase-radio
+  text: фраза-радіо
 
 - type: quickPhrase
   id: UniformPhrase
   parent: BaseSubjectPhrase
-  text: phrase-uniform
+  text: фраза-уніформа
 
 - type: quickPhrase
   id: SuitSensorsPhrase
   parent: BaseSubjectPhrase
-  text: phrase-suit-sensors
+  text: фрази-костюм-сенсори
 
 - type: quickPhrase
   id: InternalsPhrase
   parent: BaseSubjectPhrase
-  text: phrase-internals
+  text: фрази-внутр
 
 - type: quickPhrase
   id: GasTankPhrase
   parent: BaseSubjectPhrase
-  text: phrase-gas-tank
+  text: фраза-газобак
 
 - type: quickPhrase
   id: MultitoolPhrase
   parent: BaseSubjectPhrase
-  text: phrase-multitool
+  text: фраза-мультиінструмент
 
 - type: quickPhrase
   id: LathePhrase
   parent: BaseSubjectPhrase
-  text: phrase-lathe
+  text: фраза-токар
 
 - type: quickPhrase
   id: ComputerPhrase
   parent: BaseSubjectPhrase
-  text: phrase-computer
+  text: фраза-комп
 
 - type: quickPhrase
   id: DoorPhrase
   parent: BaseSubjectPhrase
-  text: phrase-door
+  text: фраза-двері
 
 - type: quickPhrase
   id: FirelockPhrase
   parent: BaseSubjectPhrase
-  text: phrase-firelock
+  text: словосполучення-фаєр
 
 - type: quickPhrase
   id: SpacePhrase
   parent: BaseSubjectPhrase
-  text: phrase-space
+  text: фраза-простір
 
 - type: quickPhrase
   id: ToolPhrase
   parent: BaseSubjectPhrase
-  text: phrase-tool
+  text: фраза-інструмент
 
 - type: quickPhrase
   id: WeaponPhrase
   parent: BaseSubjectPhrase
-  text: phrase-weapon
+  text: фраза-зброя
 
 - type: quickPhrase
   id: ArmorPhrase
   parent: BaseSubjectPhrase
-  text: phrase-armor
+  text: фраза-броня
 
 - type: quickPhrase
   id: BrainPhrase
   parent: BaseSubjectPhrase
-  text: phrase-brain
+  text: фраза-мозг
 
 - type: quickPhrase
   id: DrinkPhrase
   parent: BaseSubjectPhrase
-  text: phrase-drink
+  text: фраза-напій
 
 - type: quickPhrase
   id: FoodPhrase
   parent: BaseSubjectPhrase
-  text: phrase-food
+  text: фраза-їжа
 
 - type: quickPhrase
   id: WaterPhrase
   parent: BaseSubjectPhrase
-  text: phrase-water
+  text: фраза-вода
 
 - type: quickPhrase
   id: SignaturePhrase
   parent: BaseSubjectPhrase
-  text: phrase-signature
+  text: фраза-підпис
 
 - type: quickPhrase
   id: BeltPhrase
   parent: BaseSubjectPhrase
-  text: phrase-belt
+  text: фраза-ремінь
 
 - type: quickPhrase
   id: HardsuitPhrase
   parent: BaseSubjectPhrase
-  text: phrase-hardsuit
+  text: фразеологізм
 
 - type: quickPhrase
   id: LightPhrase
   parent: BaseSubjectPhrase
-  text: phrase-light
+  text: фраза-лайт
 
 - type: quickPhrase
   id: BagPhrase
   parent: BaseSubjectPhrase
-  text: phrase-bag
+  text: фраза-сумка
 
 - type: quickPhrase
   id: LockerPhrase
   parent: BaseSubjectPhrase
-  text: phrase-locker
+  text: фраза-срібло
 
 - type: quickPhrase
   id: BoxPhrase
   parent: BaseSubjectPhrase
-  text: phrase-box
+  text: словосполучення
 
 - type: quickPhrase
   id: ChemicalsPhrase
   parent: BaseSubjectPhrase
-  text: phrase-chemicals
+  text: фрази-хім
 
 - type: quickPhrase
   id: MachinePhrase
   parent: BaseSubjectPhrase
-  text: phrase-machine
+  text: фраза-машина
 
 - type: quickPhrase
   id: BloodPhrase
   parent: BaseSubjectPhrase
-  text: phrase-blood
+  text: фраза-кров
 
 - type: quickPhrase
   id: LawPhrase
   parent: BaseSubjectPhrase
-  text: phrase-law
+  text: фразеологізм
 
 - type: quickPhrase
   id: HolopadPhrase
   parent: BaseSubjectPhrase
-  text: phrase-holopad
+  text: фраза-голопад
 
 - type: quickPhrase
   id: UpgradePhrase
   parent: BaseSubjectPhrase
-  text: phrase-upgrade
+  text: фраза-upgrade
 
 - type: quickPhrase
   id: GlovesPhrase
   parent: BaseSubjectPhrase
-  text: phrase-gloves
+  text: фраза-рукавички
 
 - type: quickPhrase
   id: ShoesPhrase
   parent: BaseSubjectPhrase
-  text: phrase-shoes
+  text: фраза-туфлі
 
 # Materials
 
@@ -224,67 +224,67 @@
 - type: quickPhrase
   id: SteelPhrase
   parent: BaseMaterialPhrase
-  text: phrase-steel
+  text: фраза-сталь
 
 - type: quickPhrase
   id: PlasticPhrase
   parent: BaseMaterialPhrase
-  text: phrase-plastic
+  text: фразео-пластика
 
 - type: quickPhrase
   id: PlasteelPhrase
   parent: BaseMaterialPhrase
-  text: phrase-plasteel
+  text: фраза-plasteel
 
 - type: quickPhrase
   id: PlasmaPhrase
   parent: BaseMaterialPhrase
-  text: phrase-plasma
+  text: закон-репортер-ім'я
 
 - type: quickPhrase
   id: UraniumPhrase
   parent: BaseMaterialPhrase
-  text: phrase-uranium
+  text: словосполучення-уран
 
 - type: quickPhrase
   id: BananiumPhrase
   parent: BaseMaterialPhrase
-  text: phrase-bananium
+  text: фраза-бананіум
 
 - type: quickPhrase
   id: WoodPhrase
   parent: BaseMaterialPhrase
-  text: phrase-wood
+  text: фраза-дерево
 
 - type: quickPhrase
   id: ClothPhrase
   parent: BaseMaterialPhrase
-  text: phrase-cloth
+  text: фразеологізм
 
 - type: quickPhrase
   id: CardboardPhrase
   parent: BaseMaterialPhrase
-  text: phrase-cardboard
+  text: фраза-картон
 
 - type: quickPhrase
   id: GoldPhrase
   parent: BaseMaterialPhrase
-  text: phrase-gold
+  text: фраза-золото
 
 - type: quickPhrase
   id: GlassPhrase
   parent: BaseMaterialPhrase
-  text: phrase-glass
+  text: рецепт коробки з курячими нагетсами
 
 - type: quickPhrase
   id: SilverPhrase
   parent: BaseMaterialPhrase
-  text: phrase-silver
+  text: фраза-срібло
 
 - type: quickPhrase
   id: BluespacePhrase
   parent: BaseMaterialPhrase
-  text: phrase-bluespace
+  text: фраза-синій простір
 
 # Colors
 
@@ -297,74 +297,74 @@
 - type: quickPhrase
   id: ColorRedPhrase
   parent: BaseColorPhrase
-  text: phrase-color-red
+  text: фраза-колір-червоний
 
 - type: quickPhrase
   id: ColorOrangePhrase
   parent: BaseColorPhrase
-  text: phrase-color-orange
+  text: фраза-колір-помаранчевий
 
 - type: quickPhrase
   id: ColorYellowPhrase
   parent: BaseColorPhrase
-  text: phrase-color-yellow
+  text: фраза-колір-жовтий
 
 - type: quickPhrase
   id: ColorGreenPhrase
   parent: BaseColorPhrase
-  text: phrase-color-green
+  text: фраза-колір-зелений
 
 - type: quickPhrase
   id: ColorBluePhrase
   parent: BaseColorPhrase
-  text: phrase-color-blue
+  text: фраза-колір-синій
 
 - type: quickPhrase
   id: ColorPurplePhrase
   parent: BaseColorPhrase
-  text: phrase-color-purple
+  text: фраза-колір-фіолетовий
 
 - type: quickPhrase
   id: ColorPinkPhrase
   parent: BaseColorPhrase
-  text: phrase-color-pink
+  text: фраза-колір-рожевий
 
 - type: quickPhrase
   id: ColorBlackPhrase
   parent: BaseColorPhrase
-  text: phrase-color-black
+  text: фраза-колір-чорний
 
 - type: quickPhrase
   id: ColorWhitePhrase
   parent: BaseColorPhrase
-  text: phrase-color-white
+  text: фраза-колір-білий
 
 - type: quickPhrase
   id: ColorBrightPhrase
   parent: BaseColorPhrase
-  text: phrase-color-bright
+  text: фраза-колір-яскравий
 
 - type: quickPhrase
   id: ColorDarkPhrase
   parent: BaseColorPhrase
-  text: phrase-color-dark
+  text: фраза-колір-темний
 
 - type: quickPhrase
   id: ColorRainbowPhrase
   parent: BaseColorPhrase
-  text: phrase-color-rainbow
+  text: фраза-колір-веселка
 
 - type: quickPhrase
   id: ColorLightPhrase
   parent: BaseColorPhrase
-  text: phrase-color-light
+  text: фраза-колір-світло
 
 - type: quickPhrase
   id: ColorBrownPhrase
   parent: BaseColorPhrase
-  text: phrase-color-brown
+  text: фраза-колір-коричневий
 
 - type: quickPhrase
   id: ColorGrayPhrase
   parent: BaseColorPhrase
-  text: phrase-color-gray
+  text: фраза-колір-сірий

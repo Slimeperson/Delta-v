@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: flashlight
+  name: ліхтарик
   parent: BaseItem
   id: FlashlightLantern
-  description: It lights the way to freedom.
+  description: Воно освітлює шлях до свободи.
   components:
   - type: Tag
     tags:
@@ -80,10 +80,10 @@
       Plastic: 100
 
 - type: entity
-  name: seclite
+  name: секліт
   parent: [FlashlightLantern, BaseSecurityContraband]
   id: FlashlightSeclite
-  description: A robust flashlight used by security.
+  description: Надійний ліхтарик, який використовується охороною.
   components:
   - type: Tag
     tags:
@@ -134,7 +134,7 @@
 - type: entity
   parent: FlashlightLantern
   id: EmptyFlashlightLantern
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: ItemSlots
     slots:

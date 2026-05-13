@@ -2,9 +2,9 @@
   id: Survival
   alias:
     - survival
-  name: survival-title
+  name: титул виживання
   showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
-  description: survival-description
+  description: виживання-опис
   cooldown: 2 # Imp - Can't occur thrice
   rules:
     - MeteorSwarmScheduler
@@ -21,9 +21,9 @@
     - kessler
     - junk
     - meteorhell
-  name: kessler-syndrome-title
+  name: синдром Кесслера-заголовок
   showInVote: false # secret
-  description: kessler-syndrome-description
+  description: синдром Кесслера опис
   rules:
     - KesslerSyndromeScheduler
     - RampingStationEventScheduler
@@ -35,8 +35,8 @@
   id: AllAtOnce
   alias:
   - all
-  name: all-at-once-title
-  description: all-at-once-description
+  name: все-одноразово-заголовок
+  description: все-одноразово-опис
   showInVote: false
   rules:
     - Nukeops
@@ -84,9 +84,9 @@
   alias:
   - extended
   - shittersafari
-  name: extended-title
+  name: розширений заголовок
   showInVote: true #2boring2vote # DeltaV - I'd like to disagree, used for periapsis.
-  description: extended-description
+  description: розширений опис
   rules:
   - BasicStationEventScheduler
   - MeteorSwarmScheduler
@@ -101,7 +101,7 @@
   - shittersafarideluxeedition
   name: greenshift-title
   showInVote: true #4boring4vote # DeltaV - Enable greenshift in gamemode vote
-  description: greenshift-description
+  description: greenshift-опис
   rules:
   - SpaceTrafficControlFriendlyEventScheduler
   - BasicRoundstartVariation
@@ -113,9 +113,9 @@
   - dynamic
   - multiantag
   - director
-  name: dynamic-title
+  name: динамічний заголовок
   showInVote: false # admin-only for now until we fix some bugs
-  description: dynamic-description
+  description: динамічно-опис
   rules:
   - DynamicRule
   - DummyNonAntag
@@ -129,9 +129,9 @@
   alias:
     - secret
     - sekrit
-  name: secret-title
+  name: секрет-титул
   showInVote: true
-  description: secret-description
+  description: секрет-опис
   rules:
     - Secret
 
@@ -139,8 +139,8 @@
   id: Sandbox
   alias:
     - sandbox
-  name: sandbox-title
-  description: sandbox-description
+  name: пісочниця-заголовок
+  description: пісочниця-опис
   showInVote: false # Not suitable for use without admin intervention, since entity spamming can quickly crash a server
   maxPlayers: 5
   rules:
@@ -151,8 +151,8 @@
   alias:
     - traitor
     - tator
-  name: traitor-title
-  description: traitor-description
+  name: зрадник-титул
+  description: дослідження-технології-вибухові-технології
   cooldown: 2 # Imp - Can't occur thrice
   showInVote: false
   rules:
@@ -170,8 +170,8 @@
   alias:
     - deathmatch
     - dm
-  name: death-match-title
-  description: death-match-description
+  name: смерть-матч-назва
+  description: смерть-матч-опис
   maxPlayers: 15
   showInVote: false # DeltaV - No.
   supportedMaps: DeathMatchMapPool
@@ -183,7 +183,7 @@
   alias:
     - nukeops
   name: nukeops-title
-  description: nukeops-description
+  description: nukeops-опис
   showInVote: false
   cooldown: 2 # Imp - Can't occur thrice
   rules:
@@ -202,8 +202,8 @@
     - rev
     - revs
     - revolutionaries
-  name: rev-title
-  description: rev-description
+  name: rev-заголовок
+  description: рев-опис
   showInVote: false
   rules:
   - DummyNonAntagChance
@@ -220,7 +220,7 @@
   alias:
   - wizard
   name: wizard-title
-  description: wizard-description
+  description: майстер-опис
   showInVote: false
   rules:
   - Wizard
@@ -237,7 +237,7 @@
   alias:
     - xenoborgs
   name: xenoborgs-title
-  description: xenoborgs-description
+  description: xenoborgs-опис
   showInVote: false
   rules:
   - Xenoborgs
@@ -256,8 +256,8 @@
   - Zombies
   - zz14
   - zomber
-  name: zombie-title
-  description: zombie-description
+  name: зомбі-титул
+  description: зомбі-опис
   cooldown: 2 # Imp - Can't occur thrice
   showInVote: false
   rules:
@@ -275,7 +275,7 @@
   - zombombies
   - meteombies
   name: zombieteors-title
-  description: zombieteors-description
+  description: zombieteors-опис
   showInVote: false
   rules:
   - Zombie

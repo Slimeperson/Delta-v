@@ -70,7 +70,7 @@
 - type: entity
   parent: [ CyberneticPartBase, BaseLeftHand ]
   id: LeftHandCybernetic
-  name: cybernetic left hand
+  name: кібернетична ліва рука
   components:
   - type: BodyPart
     baseLayerId: MobCyberneticBishopLHand
@@ -78,7 +78,7 @@
 - type: entity
   parent: [ CyberneticPartBase, BaseRightHand ]
   id: RightHandCybernetic
-  name: cybernetic right hand
+  name: кібернетична права рука
   components:
   - type: BodyPart
     baseLayerId: MobCyberneticBishopRHand
@@ -86,7 +86,7 @@
 - type: entity
   parent: [ CyberneticPartBase, BaseLeftFoot ]
   id: LeftFootCybernetic
-  name: cybernetic left foot
+  name: кібернетична ліва нога
   components:
   - type: BodyPart
     baseLayerId: MobCyberneticBishopLFoot
@@ -94,7 +94,7 @@
 - type: entity
   parent: [ CyberneticPartBase, BaseRightFoot ]
   id: RightFootCybernetic
-  name: cybernetic right foot
+  name: кібернетична права нога
   components:
   - type: BodyPart
     baseLayerId: MobCyberneticBishopRFoot
@@ -102,8 +102,8 @@
 - type: entity
   parent: LeftArmCyberneticBase
   id: JawsOfLifeLeftArm
-  name: J.W.L left arm
-  description: A cybernetic left arm with the ability to pry doors open.
+  name: JWL ліва рука
+  description: Програмований робот-хірург, здатний автоматично оперувати пацієнтів.
   components:
   - type: BodyPart
     onAdd:
@@ -114,8 +114,8 @@
 - type: entity
   parent: RightArmCyberneticBase
   id: JawsOfLifeRightArm
-  name: J.W.L right arm
-  description: A cybernetic right arm with the ability to pry doors open.
+  name: J.W.L права рука
+  description: Кібернетична права рука зі здатністю відкривати двері.
   components:
   - type: BodyPart
     onAdd:
@@ -126,8 +126,8 @@
 - type: entity
   parent: LeftLegCyberneticBase
   id: SpeedLeftLeg
-  name: S.P.E.E.D left leg
-  description: A cybernetic left leg that allows its wearer to run faster.
+  name: S.P.E.E.D ліва нога
+  description: Кібернетична ліва нога, яка дозволяє її носію бігати швидше.
   components:
   - type: MovementBodyPart
     walkSpeed: 3.125
@@ -140,8 +140,8 @@
 - type: entity
   parent: RightLegCyberneticBase
   id: SpeedRightLeg
-  name: S.P.E.E.D right leg
-  description: A cybernetic left leg that allows its wearer to run faster.
+  name: S.P.E.E.D права нога
+  description: Кібернетична ліва нога, яка дозволяє її носію бігати швидше.
   components:
   - type: MovementBodyPart
     walkSpeed: 3.125

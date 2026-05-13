@@ -7,99 +7,99 @@
 - type: quickPhrase
   id: Number1Phrase
   parent: BaseNumberPhrase
-  text: phrase-number1
+  text: фраза-номер1
 
 - type: quickPhrase
   id: Number2Phrase
   parent: BaseNumberPhrase
-  text: phrase-number2
+  text: фраза-число2
 
 - type: quickPhrase
   id: Number3Phrase
   parent: BaseNumberPhrase
-  text: phrase-number3
+  text: фраза-число3
 
 - type: quickPhrase
   id: Number4Phrase
   parent: BaseNumberPhrase
-  text: phrase-number4
+  text: фраза-число4
 
 - type: quickPhrase
   id: Number5Phrase
   parent: BaseNumberPhrase
-  text: phrase-number5
+  text: фраза-число5
 
 - type: quickPhrase
   id: Number6Phrase
   parent: BaseNumberPhrase
-  text: phrase-number6
+  text: фраза-число6
 
 - type: quickPhrase
   id: Number7Phrase
   parent: BaseNumberPhrase
-  text: phrase-number7
+  text: розвантажувальна група-прокурорська шия
 
 - type: quickPhrase
   id: Number8Phrase
   parent: BaseNumberPhrase
-  text: phrase-number8
+  text: фраза-число8
 
 - type: quickPhrase
   id: Number9Phrase
   parent: BaseNumberPhrase
-  text: phrase-number9
+  text: фраза-число9
 
 - type: quickPhrase
   id: Number0Phrase
   parent: BaseNumberPhrase
-  text: phrase-number0
+  text: фраза-номер0
 
 - type: quickPhrase
   id: TenPhrase
   parent: BaseNumberPhrase
-  text: phrase-ten
+  text: фраза-десять
 
 - type: quickPhrase
   id: HundredPhrase
   parent: BaseNumberPhrase
-  text: phrase-hundred
+  text: фраза-сотня
 
 - type: quickPhrase
   id: ThousandPhrase
   parent: BaseNumberPhrase
-  text: phrase-thousand
+  text: фраза-тис
 
 - type: quickPhrase
   id: MillionPhrase
   parent: BaseNumberPhrase
-  text: phrase-million
+  text: фраза-млн
 
 - type: quickPhrase
   id: BillionPhrase
   parent: BaseNumberPhrase
-  text: phrase-billion
+  text: фраза-мільярд
 
 - type: quickPhrase
   id: StackPhrase
   parent: BaseNumberPhrase
-  text: phrase-stack
+  text: фраза-стек
 
 - type: quickPhrase
   id: HourPhrase
   parent: BaseNumberPhrase
-  text: phrase-hour
+  text: фраза-год
 
 - type: quickPhrase
   id: MinutePhrase
   parent: BaseNumberPhrase
-  text: phrase-minute
+  text: фраза-робототехніка
 
 - type: quickPhrase
   id: SecondPhrase
   parent: BaseNumberPhrase
-  text: phrase-second
+  text: фраза-друга
 
 - type: quickPhrase
   id: DayPhrase
   parent: BaseNumberPhrase
-  text: phrase-day
+  text: фраза-день

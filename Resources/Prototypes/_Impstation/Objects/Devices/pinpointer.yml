@@ -1,8 +1,8 @@
 - type: entity
   parent: PinpointerBase
-  name: core pull
-  description: You have an instinctual knowledge of the location of your core.
-  suffix: Station, Unremoveable
+  name: тяга сердечника
+  description: Ви маєте інстинктивне знання про розташування свого ядра.
+  suffix: Станція, незнімна
   id: PinpointerAnomalite
   components:
   - type: Sprite

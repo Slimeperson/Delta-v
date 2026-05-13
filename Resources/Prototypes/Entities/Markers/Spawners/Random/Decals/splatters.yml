@@ -1,7 +1,7 @@
 - type: entity
   parent: DecalSpawnerBase
   id: DecalSpawnerBloodSplatters
-  suffix: Blood Splatters, Footprints
+  suffix: Бризки крові, сліди
   components:
   - type: RandomDecalSpawner
     decals:
@@ -19,7 +19,7 @@
 - type: entity
   parent: DecalSpawnerBase
   id: DecalSpawnerGraffiti
-  suffix: Graffiti
+  suffix: Графіті
   components:
   - type: RandomDecalSpawner
     decals:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSword
   id: SilverSword
-  name: silver sword
-  description: A beautiful sword made almost entirely of silver. It's blade is dull and can't hold an edge, but perhaps it could be something more...
+  name: срібний меч
+  description: Прекрасний меч, виготовлений майже повністю зі срібла. Його лезо тупе і не може тримати вістря, але, можливо, це може бути щось більше...
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/silversword.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: SilverSword
   id: EmbeddedSword
-  name: bluespace embedded sword
-  description: you didn't think just adding bluespace would make this a workable weapon, did you?
+  name: вбудований меч bluespace
+  description: Ви не думали, що просто додавання синього простору зробить цю зброю працездатною, чи не так?
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/silversword.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: SilverSword
   id: RadiantSword
-  name: radiant sword
-  description: A silver sword infused with the light of a Chaplain's faith. While it remains ineffective against the physical, it is a powerful tool against those from beyond the veil.
+  name: променистий меч
+  description: Срібний меч, пройнятий світлом віри капелана. Хоча він залишається неефективним проти фізичного, це потужний інструмент проти тих, хто з-за завіси.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/radiantsword.rsi

@@ -1,7 +1,7 @@
 - type: job
   id: ChiefEngineer
-  name: job-name-ce
-  description: job-description-ce
+  name: робота-назва-це
+  description: посадова інструкція-се
   playTimeTracker: JobChiefEngineer
   requirements:
     - !type:RoleTimeRequirement

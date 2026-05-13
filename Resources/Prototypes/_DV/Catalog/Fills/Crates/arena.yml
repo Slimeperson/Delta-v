@@ -2,8 +2,8 @@
   id: CrateArenaMob
   parent: CrateLivestockSecureReinforced
   abstract: true
-  name: arena dangerous creature crate
-  description: A reinforced crate containing a dangerous creature for sanctioned gladiators to fight in the arena. Warning-Do not open without proper security protocols in place.
+  name: Вчений NTCC Marquess
+  description: Посилений ящик із небезпечною істотою для санкціонованих гладіаторів для боротьби на арені. Попередження. Не відкривайте без відповідних протоколів безпеки.
   components:
   - type: AccessReader
     access: [["Armory"]]
@@ -11,7 +11,7 @@
 - type: entity
   id: CrateArenaMobSmall
   parent: CrateArenaMob
-  name: arena dangerous creature(small) crate
+  name: арена небезпечна істота (малий) ящик
   components:
   - type: EntityTableContainerFill
     containers:
@@ -21,7 +21,7 @@
 - type: entity
   id: CrateArenaMobLarge
   parent: CrateArenaMob
-  name: arena dangerous creature(large) crate
+  name: арена небезпечна істота (великий) ящик
   components:
   - type: EntityTableContainerFill
     containers:

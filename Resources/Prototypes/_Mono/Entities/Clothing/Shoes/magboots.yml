@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingShoesBootsMagAdv
   id: ClothingShoesBootsMagAsakim
-  name: combat magboots # DeltaV - no fracture
-  description: State-of-the-art magnetic boots made for combat with advanced harnesses.
+  name: бойові чарівники # DeltaV - без перелому
+  description: Сучасні магнітні чоботи, створені для бою з вдосконаленими упряжями.
   components:
   #- type: FootstepModifier # DeltaV - sneaky
   #  footstepSoundCollection:

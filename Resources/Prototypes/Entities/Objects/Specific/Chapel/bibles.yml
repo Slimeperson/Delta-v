@@ -1,6 +1,6 @@
 - type: entity
-  name: space bible
-  description: New Interstellar Version 2340.
+  name: космічна біблія
+  description: Нова Interstellar версія 2340.
   parent: BaseStorageItem
   id: Bible
   components:
@@ -76,8 +76,8 @@
 
 - type: entity
   parent: [Bible, BaseSyndicateContraband]
-  name: necronomicon
-  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
+  name: флакон
+  description: "Там записка: Клатуу, Верата, Нікто -- Не забувайте знову!»
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBibleSummon
-  name: Summon familiar
-  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
+  name: Викликати знайомих
+  description: посвідчення клоуна
   components:
   - type: Action
     icon: { sprite: Clothing/Head/Hats/witch.rsi, state: icon }
@@ -116,9 +116,9 @@
 
 - type: entity
   id: BibleDruid
-  name: druidic tablet
+  name: друїдична табличка
   parent: Bible
-  description: "It's the mystery of the druids!"
+  description: "Це таємниця друїдів!»
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
@@ -127,9 +127,9 @@
 
 - type: entity
   id: BibleCommunistManifesto
-  name: communist manifesto
+  name: комуністичний маніфест
   parent: Bible
-  description: "Remove the mask of humanity from Capital."
+  description: "Зніміть маску людяності з Капіталу».
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/communistmanifesto.rsi
@@ -138,9 +138,9 @@
 
 - type: entity
   id: BibleNarsie
-  name: tome of nar'sie
+  name: том нар'сіє
   parent: Bible
-  description: "What could possibly go wrong with a book covered in blood?"
+  description: "лацеринол
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/tomeofnarsie.rsi
@@ -151,7 +151,7 @@
   id: BibleNanoTrasen
   name: codex nanotrasimus
   parent: Bible
-  description: "A familiar book containing the Sacred Operating Procedures."
+  description: "Знайома книга, яка містить Священні операційні процедури».
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/codexnanotrasimus.rsi
@@ -160,9 +160,9 @@
 
 - type: entity
   id: BibleHonk
-  name: mirth of the honkmother
+  name: веселість honkmother
   parent: Bible
-  description: "Oh great and glorious Mother, Mistress of Mirth, Matron of Mask and Merriments, Blessed is she amongst us jesters."
+  description: "О велика і славна Мати, Володарка веселощів, Матроно масок і веселощів, благословенна вона серед нас, блазнів».
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/honk.rsi
@@ -171,9 +171,9 @@
 
 - type: entity
   id: BibleRatvar
-  name: tablet of ratvar
+  name: таблетка ратвару
   parent: Bible
-  description: "A holy relic of the Clockwork Cult, blessed by the Clockwork Justice, Ratvar."
+  description: "Священна реліквія Заводного Культу, благословенна Заводним Правосуддям Ратваром».
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/ratvartablet.rsi

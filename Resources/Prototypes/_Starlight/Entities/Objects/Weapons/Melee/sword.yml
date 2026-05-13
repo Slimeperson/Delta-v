@@ -1,8 +1,8 @@
 - type: entity
-  name: makeshift sword
+  name: імпровізований меч
   parent: BaseSword
   id: SwordMakeshift
-  description: Some sharp steel affixed to a metal rod, it can hardly be called a sword.
+  description: Якась гостра сталь, прикріплена до металевого стрижня, її навряд чи можна назвати мечем.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/makeshift_sword.rsi
@@ -24,10 +24,10 @@
     node: sword
 
 - type: entity
-  name: improvised sword
+  name: імпровізований меч
   parent: BaseSword
   id: SwordImprovised
-  description: Not too sharp, but it does the job just fine.
+  description: Не надто гострий, але чудово справляється зі своєю роботою.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/improvised_sword.rsi
@@ -49,10 +49,10 @@
     node: sword
 
 - type: entity
-  name: forged sword
+  name: кований меч
   parent: BaseSword
   id: SwordForged
-  description: Made with plasteel, a single touch of the blade is enough to draw blood.
+  description: Виготовлений із пластмаси, достатньо одного дотику до леза, щоб взяти кров.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/forged_sword.rsi
@@ -73,10 +73,10 @@
     - SwordForged
 
 - type: entity
-  name: dawnbreaker
+  name: світанок
   parent: [ BaseSword,Welder ]
   id: SwordFlaming
-  description: How do you perfect upon perfection? Why, use fire of course! Be the shining light through maints and fight valiantly! 
+  description: Як досягти досконалості? Звичайно, використовуйте вогонь! Будьте сяючим світлом у головах і хоробро боріться!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/dawnbreaker.rsi
@@ -142,10 +142,10 @@
     node: sword
 
 - type: entity
-  name: tidebreaker
+  name: аномалія-поведінка-швидка
   parent: BaseSword
   id: ClaymoreForged
-  description: The perfect weapon for an aspiring maints knight!
+  description: Ідеальна зброя для молодого лицаря!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/tidebreaker.rsi

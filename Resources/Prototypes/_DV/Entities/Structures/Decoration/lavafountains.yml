@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: LavaFountainLargeRound
-  name: large round lava fountain
-  description: A fountain full of yummy lavas.
+  name: великий круглий лавовий фонтан
+  description: Фонтан, повний смачної лави.
   components:
   - type: Sprite
     noRot: true
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseStructure
   id: LavaFountainLargeRoundTop
-  name: large round lava fountain top
-  description: Sparkling lava!
+  name: великий круглий лавовий фонтан у верхній частині
+  description: Блискуча лава!
   components:
   - type: SpriteFade
   - type: Sprite

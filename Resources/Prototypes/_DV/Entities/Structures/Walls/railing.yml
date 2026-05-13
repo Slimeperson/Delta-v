@@ -1,8 +1,8 @@
 - type: entity
   parent: Railing
   id: RailingDeltaV
-  name: reinforced plasteel railing
-  description: Plasteel railing meant to protect idiots like you from falling.
+  name: перила з армованої пластмаси
+  description: Пластові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: RailingCorner
   id: RailingCornerDeltaV
-  name: reinforced plasteel railing
-  description: Plasteel railing meant to protect idiots like you from falling.
+  name: перила з армованої пластмаси
+  description: Пластові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RailingCornerSmall
   id: RailingCornerSmallDeltaV
-  name: reinforced plasteel railing
-  description: Plasteel railing meant to protect idiots like you from falling.
+  name: перила з армованої пластмаси
+  description: Пластові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: RailingRound
   id: RailingRoundDeltaV
-  name: reinforced plasteel railing
-  description: Plasteel railing meant to protect idiots like you from falling.
+  name: перила з армованої пластмаси
+  description: Пластові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: Railing
   id: RailingDeltaVGrey
-  name: reinforced steel railing
-  description: Steel railing meant to protect idiots like you from falling.
+  name: сталеві армовані перила
+  description: Сталеві перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: RailingCorner
   id: RailingCornerDeltaVGrey
-  name: reinforced steel railing
-  description: Steel railing meant to protect idiots like you from falling.
+  name: сталеві армовані перила
+  description: Сталеві перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: RailingCornerSmall
   id: RailingCornerSmallDeltaVGrey
-  name: reinforced steel railing
-  description: Steel railing meant to protect idiots like you from falling.
+  name: сталеві армовані перила
+  description: Сталеві перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -315,8 +315,8 @@
 - type: entity
   parent: RailingRound
   id: RailingRoundDeltaVGrey
-  name: reinforced steel railing
-  description: Steel railing meant to protect idiots like you from falling.
+  name: сталеві армовані перила
+  description: Сталеві перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: Railing
   id: RailingDeltaVWood
-  name: reinforced wood railing
-  description: Wood railing meant to protect idiots like you from falling.
+  name: Увімкнено, Кисень
+  description: Дерев'яні поручні, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: RailingCorner
   id: RailingCornerDeltaVWood
-  name: reinforced wood railing
-  description: Wood railing meant to protect idiots like you from falling.
+  name: Увімкнено, Кисень
+  description: Дерев'яні поручні, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -453,8 +453,8 @@
 - type: entity
   parent: RailingCornerSmall
   id: RailingCornerSmallDeltaVWood
-  name: reinforced wood railing
-  description: Wood railing meant to protect idiots like you from falling.
+  name: Увімкнено, Кисень
+  description: Дерев'яні поручні, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi
@@ -499,8 +499,8 @@
 - type: entity
   parent: RailingRound
   id: RailingRoundDeltaVWood
-  name: reinforced wood railing
-  description: Wood railing meant to protect idiots like you from falling.
+  name: Увімкнено, Кисень
+  description: Дерев'яні поручні, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/railing.rsi

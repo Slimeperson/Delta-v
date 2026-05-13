@@ -44,7 +44,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: ore crab
+  name: рудий краб
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -72,8 +72,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: An ore crab made from Quartz.
-  suffix: Quartz
+  description: Рудний краб з кварцу.
+  suffix: Кварц
   components:
   - type: Sprite
     state: quartz_crab
@@ -97,8 +97,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: An ore crab made from iron.
-  suffix: Iron
+  description: Рудний краб із заліза.
+  suffix: Залізо
   components:
   - type: Sprite
     state: iron_crab
@@ -129,8 +129,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobCoalCrab
-  description: An ore crab made from coal.
-  suffix: Coal
+  description: Рудний краб з вугілля.
+  suffix: вугілля
   components:
   - type: Sprite
     state: coal_crab
@@ -161,8 +161,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: An ore crab made from uranium.
-  suffix: Uranium
+  description: Рудний краб з урану.
+  suffix: Уран
   components:
   - type: FactionException
   - type: NPCRetaliation
@@ -197,8 +197,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobBananiumCrab
-  description: An ore crab made from bananium.
-  suffix: Bananium
+  description: Рудний краб з банана.
+  suffix: Бананіум
   components:
   - type: Sprite
     state: bananium_crab
@@ -253,8 +253,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  description: An ore crab made from silver.
-  suffix: Silver
+  description: Рудний краб зі срібла.
+  suffix: Срібло
   components:
   - type: Sprite
     state: silver_crab
@@ -282,8 +282,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobGoldCrab
-  description: An ore crab made from gold.
-  suffix: Gold
+  description: Рудний краб із золота.
+  suffix: золото
   components:
   - type: Sprite
     state: gold_crab
@@ -309,11 +309,11 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: reagent slime
+  name: реактивний слиз
   id: ReagentSlime
-  suffix: Water
+  suffix: вода
   parent: [ MobAdultSlimes, MobCombat ]
-  description: It consists of a liquid, and it wants to dissolve you in itself.
+  description: Він складається з рідини і хоче розчинити вас у собі.
   components:
   - type: GhostRole
     prob: 0
@@ -417,7 +417,7 @@
 - type: entity
   id: ReagentSlimeBeer
   parent: ReagentSlime
-  suffix: Beer
+  suffix: пиво
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -437,7 +437,7 @@
 - type: entity
   id: ReagentSlimePax
   parent: ReagentSlime
-  suffix: Pax
+  suffix: Пакс
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -460,7 +460,7 @@
 - type: entity
   id: ReagentSlimeNocturine
   parent: ReagentSlime
-  suffix: Nocturine
+  suffix: Ноктюрин
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -483,7 +483,7 @@
 - type: entity
   id: ReagentSlimeTHC
   parent: ReagentSlime
-  suffix: THC
+  suffix: ТГК
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -503,7 +503,7 @@
 - type: entity
   id: ReagentSlimeBicaridine
   parent: ReagentSlime
-  suffix: Bicaridine
+  suffix: Бікарідін
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -523,7 +523,7 @@
 - type: entity
   id: ReagentSlimeToxin
   parent: ReagentSlime
-  suffix: Toxin
+  suffix: Токсин
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -543,7 +543,7 @@
 - type: entity
   id: ReagentSlimeNapalm
   parent: ReagentSlime
-  suffix: Napalm
+  suffix: Напалм
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -563,7 +563,7 @@
 - type: entity
   id: ReagentSlimeOmnizine
   parent: ReagentSlime
-  suffix: Omnizine
+  suffix: Омнізин
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -583,7 +583,7 @@
 - type: entity
   id: ReagentSlimeMuteToxin
   parent: ReagentSlime
-  suffix: Mute Toxin
+  suffix: Німий токсин
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -603,7 +603,7 @@
 - type: entity
   id: ReagentSlimeNorepinephricAcid
   parent: ReagentSlime
-  suffix: Norepinephric Acid
+  suffix: Норадренальну кислоту
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -623,7 +623,7 @@
 - type: entity
   id: ReagentSlimeEphedrine
   parent: ReagentSlime
-  suffix: Ephedrine
+  suffix: Ефедрин
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -643,7 +643,7 @@
 - type: entity
   id: ReagentSlimeRobustHarvest
   parent: ReagentSlime
-  suffix: Robust Harvest
+  suffix: Міцний урожай
   components:
   - type: Bloodstream
     bloodReferenceSolution:

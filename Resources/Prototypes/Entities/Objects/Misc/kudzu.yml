@@ -20,9 +20,9 @@
 
 - type: entity
   id: Kudzu
-  name: kudzu
+  name: кудзу
   parent: BaseKudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: Швидкоростуча небезпечна рослина. ЧОМУ ТИ ЗУПИНЯЄШСЯ НА ЦЕ ДИВИТИСЯ?!
   components:
     - type: MeleeSound
       soundGroups:
@@ -108,16 +108,16 @@
 - type: entity
   id: WeakKudzu
   parent: Kudzu
-  suffix: Weak
+  suffix: Слабкий
   components:
     - type: Kudzu
       spreadChance: 0.3
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: floral carpet
-  suffix: Friendly, Floral Anomaly
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  name: квітковий килим
+  suffix: Дружній, квіткова аномалія
+  description: Різнобарвний килим із квітів розповсюджується в усіх напрямках. Ви не впевнені, зняти його чи залишити.
   parent: Kudzu
   components:
     - type: Sprite
@@ -154,7 +154,7 @@
 
 - type: entity
   id: KudzuFlowerAngry
-  suffix: Angry, Floral Anomaly
+  suffix: Злий, квіткова аномалія
   parent: KudzuFlowerFriendly
   components:
     - type: Kudzu
@@ -170,9 +170,9 @@
 
 - type: entity
   id: FleshKudzu
-  name: tendons
+  name: сухожилля
   parent: BaseKudzu
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: Швидко зростаюче скупчення м’ясистих сухожиль. ЧОМУ ТИ ЗУПИНЯЄШСЯ НА ЦЕ ДИВИТИСЯ?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -269,7 +269,7 @@
       - Ruminant
 
 - type: entity
-  name: dark haze
+  name: темний серпанок
   id: ShadowKudzu
   parent: [ BaseKudzu, BaseShadow ]
   components:
@@ -309,7 +309,7 @@
           data: { state: spookysmoke_static }
 
 - type: entity
-  name: haze
+  name: серпанок
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:

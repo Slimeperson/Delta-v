@@ -2,7 +2,7 @@
   name: BaseWeaponRevolver
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   parent: WeaponRevolverPirate
   id: WeaponRevolverPirateEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: RevolverAmmoProvider
     proto: null

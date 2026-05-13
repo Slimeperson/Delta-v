@@ -2,21 +2,21 @@
 ## Mail Carrier
 - type: loadoutGroup
   id: MailCarrierHead
-  name: loadout-group-mail-carrier-head
+  name: смаковий-комплекс-поганий-жарт
   minLimit: 0
   loadouts:
   - MailCarrierHead
 
 - type: loadoutGroup
   id: MailCarrierJumpsuit
-  name: loadout-group-mail-carrier-jumpsuit
+  name: loadout-group-mail-carrier-комбінезон
   loadouts:
   - MailCarrierJumpsuit
   - MailCarrierJumpskirt
 
 - type: loadoutGroup
   id: MailCarrierOuterClothing
-  name: loadout-group-mail-carrier-outerclothing
+  name: loadout-group-mail-carrier-верхній одяг
   minLimit: 0
   loadouts:
   - MailCarrierWintercoat
@@ -32,14 +32,14 @@
 
 - type: loadoutGroup
   id: MantisJumpsuit
-  name: loadout-group-mantis-jumpsuit
+  name: loadout-group-mantis-комбінезон
   loadouts:
   - MantisJumpsuit
   - MantisJumpskirt
 
 - type: loadoutGroup
   id: MantisOuterClothing
-  name: loadout-group-mantis-outerclothing
+  name: loadout-group-mantis-верхній одяг
   minLimit: 0
   loadouts:
   - MantisCoat
@@ -62,14 +62,14 @@
 ## Prison Guard
 - type: loadoutGroup
   id: PrisonGuardHead
-  name: loadout-group-prison-guard-head
+  name: розвантажувальна-група-тюремний-наглядач-начальник
   minLimit: 0
   loadouts:
   - PrisonGuardHead
 
 - type: loadoutGroup
   id: PrisonGuardJumpsuit
-  name: loadout-group-prison-guard-jumpsuit
+  name: loadout-group-тюремний-охоронець-комбінезон
   loadouts:
   - PrisonGuardJumpsuit
   - PrisonGuardJumpskirt
@@ -78,7 +78,7 @@
 ## Prisoner
 - type: loadoutGroup
   id: PrisonerJumpsuit
-  name: loadout-group-prisoner-jumpsuit
+  name: розвантажувальна-група-в'язень-комбінезон
   loadouts:
   - PrisonerJumpsuit
   - PrisonerJumpskirt
@@ -86,7 +86,7 @@
 ## Martial Artist
 - type: loadoutGroup
   id: MartialArtistJumpsuit
-  name: loadout-group-martial-artist-jumpsuit
+  name: loadout-group-martial-artist-комбінезон
   loadouts:
   - MartialArtistJumpsuit
 
@@ -106,13 +106,13 @@
 ## Gladiator
 - type: loadoutGroup
   id: GladiatorJumpsuit
-  name: loadout-group-gladiator-jumpsuit
+  name: loadout-group-gladiator-комбінезон
   loadouts:
   - GladiatorJumpsuit
   - BoxerShortsWithTop
 
 - type: loadoutGroup
   id: GladiatorOuterClothing
-  name: loadout-group-gladiator-outerclothing
+  name: loadout-group-gladiator-верхній одяг
   loadouts:
   - ClothingOuterArmorGladiator

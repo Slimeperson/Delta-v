@@ -52,7 +52,7 @@
 - type: entity
   parent: PaperBiscuit
   id: PaperBiscuitFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
     - type: ItemSlots
       slots:
@@ -89,7 +89,7 @@
 - type: entity
   parent: PaperBiscuitCorporate
   id: PaperBiscuitCorporateFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
     - type: ItemSlots
       slots:

@@ -4,11 +4,11 @@
 # Tiered cakes
 
 - type: entity
-  name: incomplete cake
+  name: неповний торт
   parent: FoodCakeBase
   id: FoodCakeTieredBase
   abstract: true
-  description: A frosted cake. Too large to eat in without slicing.
+  description: Грозний торт. Завеликий, щоб їсти, не нарізавши.
   components:
   - type: Item
     size: Large
@@ -48,8 +48,8 @@
 - type: entity
   parent: FoodCakeTieredBase
   id: FoodCakeTieredDouble
-  name: celebration cake
-  description: A huge cake for special occasions. Too large to eat without slicing.
+  name: святковий торт
+  description: Величезний торт для особливих випадків. Занадто великий, щоб їсти без нарізки.
   components:
   - type: Construction
     graph: CakeTiered
@@ -85,8 +85,8 @@
 - type: entity
   parent: FoodCakeTieredBase
   id: FoodCakeTieredTriple
-  name: wedding cake
-  description: A gargantuan decorated cake for weddings. Too large to eat without slicing.
+  name: весільний торт
+  description: Величезний декорований торт для весілля. Занадто великий, щоб їсти без нарізки.
   components:
   - type: Construction
     graph: CakeTiered
@@ -109,7 +109,7 @@
     count: 18
 
 - type: entity
-  name: slice of cake
+  name: шматочок торта
   parent: FoodCakeSliceBase
   id: FoodCakeTieredSlice
   components:

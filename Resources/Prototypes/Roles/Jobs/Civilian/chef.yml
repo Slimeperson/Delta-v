@@ -1,7 +1,7 @@
 - type: job
   id: Chef
-  name: job-name-chef
-  description: job-description-chef
+  name: словосполучення-вид-коза
+  description: Ні, це для того, щоб тренуватися, щоб піднятися по медичних сходах. Не зла.
   playTimeTracker: JobChef
   requirements:
     - !type:DepartmentTimeRequirement

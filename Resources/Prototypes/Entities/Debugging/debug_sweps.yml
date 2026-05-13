@@ -2,8 +2,8 @@
   name: bang hitscan 1dmg
   parent: BaseWeaponBatterySmall
   id: WeaponHitscanDebug
-  description: pew pew!
-  suffix: DEBUG
+  description: лавка лавка!
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/debug.rsi
@@ -22,7 +22,7 @@
     autoRechargeRate: 1000
 
 - type: entity
-  name: bang hitscan gibber
+  name: хороший адвокатський костюм
   parent: WeaponHitscanDebug
   id: WeaponHitscanDebugGib
   components:
@@ -30,11 +30,11 @@
     proto: DebugLaserGib
 
 - type: entity
-  name: bang, ded
+  name: Удосконалений козирок, який захищає очі ніндзя від миготливих вогнів, одночасно маючи можливість бачити в темряві. # DeltaV
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
   description: ded
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/debug.rsi
@@ -53,7 +53,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -62,7 +62,7 @@
           tags:
             - MagazineDebug
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgeDebug
         priority: 1
         whitelist:
@@ -74,9 +74,9 @@
 
 - type: entity
   id: MagazinePistolDebug
-  name: bang, ded mag
+  name: вибух, ded mag
   parent: BaseMagazinePistol
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Tag
     tags:
@@ -92,10 +92,10 @@
 
 - type: entity
   id: BulletDebug
-  name: bang, ded bullet
+  name: удар, куля
   parent: BaseBullet
   categories: [ Debug, HideSpawnMenu ]
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Projectile
     damage:
@@ -107,9 +107,9 @@
 
 - type: entity
   id: CartridgeDebug
-  name: bang, ded cartridge
+  name: бах, дед картридж
   parent: BaseCartridgePistol
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Tag
     tags:
@@ -121,11 +121,11 @@
     - Debug
 
 - type: entity
-  name: bang stick gibber
+  name: вибух палицею
   parent: BaseItem
   id: MeleeDebugGib
-  description: hit hard ye
-  suffix: DEBUG
+  description: вдарити сильно
+  suffix: НАЛАШТУВАННЯ
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/debug.rsi
@@ -142,7 +142,7 @@
     - Debug
 
 - type: entity
-  name: bang stick 100dmg
+  name: Bang stick 100dmg
   parent: MeleeDebugGib
   id: MeleeDebug100
   components:
@@ -155,7 +155,7 @@
     - Debug
 
 - type: entity
-  name: bang stick 200dmg
+  name: банг паличка 200дмг
   parent: MeleeDebugGib
   id: MeleeDebug200
   components:

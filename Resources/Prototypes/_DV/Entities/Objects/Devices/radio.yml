@@ -1,8 +1,8 @@
 - type: entity
   parent: RadioHandheld
   id: RadioHandheldSyndicate
-  name: syndicate radio
-  description: A nefarious syndicate radio.
+  name: радіо синдикату
+  description: Мерзенне радіо синдикату.
   components:
   - type: RadioMicrophone
     broadcastChannel: Syndicate

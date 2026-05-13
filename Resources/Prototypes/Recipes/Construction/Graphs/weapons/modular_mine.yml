@@ -22,7 +22,7 @@
         icon:
           sprite: Objects/Misc/proximity_sensor.rsi
           state: icon
-        name: construction-graph-tag-proximity-sensor
+        name: конструкція-граф-тег-датчик-наближення
     - to: start
       completed:
       - !type:SpawnPrototype
@@ -52,7 +52,7 @@
       steps:
       - tag: Payload
         store: payload
-        name: construction-graph-tag-payload
+        name: конструкція-граф-тег-корисне навантаження
         doAfter: 0.5
 
   - node: mine
@@ -60,7 +60,7 @@
     - !type:PlaySound
       sound: /Audio/Machines/button.ogg
     - !type:AdminLog
-      message: "A mine was crafted"
+      message: "Виробили міну"
     edges:
     - to: wiredCase
       steps:

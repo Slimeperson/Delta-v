@@ -1,7 +1,7 @@
 - type: job
   id: Chaplain
-  name: job-name-chaplain
-  description: job-description-chaplain
+  name: робота-ім'я-капелан
+  description: посадова інструкція-капелан
   playTimeTracker: JobChaplain
   antagAdvantage: 2 # DeltaV - Increased Psionics, Gib machine
   startingGear: ChaplainGear

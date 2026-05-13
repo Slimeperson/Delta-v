@@ -2,7 +2,7 @@
 - type: job
   id: ERTLeader
   name: job-name-ertleader
-  description: job-description-ertleader
+  description: посадовий опис керівника
   playTimeTracker: JobERTLeader
   setPreference: false
   startingGear: ERTLeaderGearEVA
@@ -109,7 +109,7 @@
 - type: job
   id: ERTChaplain
   name: job-name-ertchaplain
-  description: job-description-ertchaplain
+  description: посадовий опис-ertchaplain
   playTimeTracker: JobERTChaplain
   setPreference: false
   startingGear: ERTChaplainGear
@@ -194,7 +194,7 @@
 - type: job
   id: ERTEngineer
   name: job-name-ertengineer
-  description: job-description-ertengineer
+  description: reagent-desc-exotic
   playTimeTracker: JobERTEngineer
   setPreference: false
   startingGear: ERTEngineerGearEVA
@@ -296,7 +296,7 @@
 - type: job
   id: ERTSecurity
   name: job-name-ertsecurity
-  description: job-description-ertsecurity
+  description: посадовий опис-ertsecurity
   playTimeTracker: JobERTSecurity
   setPreference: false
   startingGear: ERTSecurityGearEVA
@@ -487,8 +487,8 @@
 # Medical
 - type: job
   id: ERTMedical
-  name: job-name-ertmedic
-  description: job-description-ertmedic
+  name: робота-назва-ертмедик
+  description: посадова інструкція-ертмедик
   playTimeTracker: JobERTMedical
   setPreference: false
   startingGear: ERTMedicalGearEVA
@@ -595,8 +595,8 @@
 # Janitor
 - type: job
   id: ERTJanitor
-  name: job-name-ertjanitor
-  description: job-description-ertjanitor
+  name: робота-назва-ертянітор
+  description: посадова інструкція-ертянітор
   playTimeTracker: JobERTJanitor
   setPreference: false
   startingGear: ERTJanitorGearEVA

@@ -1,8 +1,8 @@
 - type: entity
   parent: CratePirate
   id: CratePirateChestCaptain
-  name: captains pirate chest
-  suffix: Filled
+  name: піратська скриня капітанів
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: CratePirate
   id: CratePirateChest
-  name: crews pirate chest
-  suffix: Filled
+  name: екіпажі піратської скрині
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

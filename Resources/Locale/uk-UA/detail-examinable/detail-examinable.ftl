@@ -1,2 +1,2 @@
-﻿detail-examinable-verb-text = Деталь
+﻿detail-examinable-verb-text = {$charges [[0]]
 detail-examinable-verb-disabled = Роздивитись обʼєкт детальніше.

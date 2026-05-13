@@ -1,6 +1,6 @@
 - type: cargoAccount
   id: Cargo
-  name: cargo-account-logistics-name # DeltaV - Cargo -> Logistics
+  name: cargo-account-logistics-name # DeltaV - Cargo -> Логістика
   code: cargo-account-logistics-code # DeltaV - Cargo -> Logistics
   color: "#b48b57"
   radioChannel: Supply
@@ -24,7 +24,7 @@
 
 - type: cargoAccount
   id: Science
-  name: cargo-account-epistemics-name # DeltaV - Science -> Epistemics
+  name: cargo-account-epistemics-name # DeltaV - Наука -> Епістеміка
   code: cargo-account-epistemics-code # DeltaV - Science -> Epistemics
   color: "#cd7ccd"
   radioChannel: Science

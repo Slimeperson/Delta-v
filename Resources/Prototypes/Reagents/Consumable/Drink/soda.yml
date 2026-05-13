@@ -45,9 +45,9 @@
 
 - type: reagent
   id: ChangelingSting
-  name: reagent-name-changeling-sting
+  name: reagent-name-changing-sting
   parent: BaseSoda
-  desc: reagent-desc-changeling-sting
+  desc: reagent-desc-changinging-sting
   physicalDesc: reagent-physical-desc-fizzy
   flavor: soda
   color: "#2E6671"
@@ -69,7 +69,7 @@
 
 - type: reagent
   id: EnergyDrink
-  name: reagent-name-energy-drink
+  name: ім'я-реагенту-енергетичний-напій
   parent: BaseSoda
   desc: reagent-desc-energy-drink
   physicalDesc: reagent-physical-desc-fizzy
@@ -91,7 +91,7 @@
 
 - type: reagent
   id: GrapeSoda
-  name: reagent-name-grape-soda
+  name: ім'я-реагенту-виноградна-сода
   parent: BaseSoda
   desc: reagent-desc-grape-soda
   physicalDesc: reagent-physical-desc-fizzy
@@ -126,7 +126,7 @@
 
 - type: reagent
   id: LemonLimeCranberry
-  name: reagent-name-lemon-lime-cranberry
+  name: пошкодження-тип-структурний
   parent: BaseSoda
   desc: reagent-desc-lemon-lime-cranberry
   physicalDesc: reagent-physical-desc-fizzy
@@ -137,7 +137,7 @@
   id: PwrGame
   name: reagent-name-pwr-game
   parent: BaseSoda
-  desc: reagent-desc-pwr-game
+  desc: reagent-desc-pwr-гра
   physicalDesc: reagent-physical-desc-fizzy
   flavor: pwrgamesoda
   color: "#9385bf"
@@ -211,7 +211,7 @@
 
 - type: reagent
   id: SpaceMountainWind
-  name: reagent-name-space-mountain-wind
+  name: ім'я-реагенту-простір-гора-вітер
   parent: BaseSoda
   desc: reagent-desc-space-mountain-wind
   physicalDesc: reagent-physical-desc-fizzy
@@ -250,7 +250,7 @@
 
 - type: reagent
   id: FourteenLoko
-  name: reagent-name-fourteen-loko
+  name: ім'я-реагенту-чотирнадцять-локо
   parent: BaseSoda
   desc: reagent-desc-fourteen-loko
   physicalDesc: reagent-physical-desc-fizzy

@@ -1,4 +1,4 @@
-killtome-rules =
+killtome-rules = PB-[[0]]
     Kill Tome Rules:
     1. The humanoid whose name is written in this note shall die.
     2. If the name is shared by multiple humanoids, a random humanoid with that name will die.

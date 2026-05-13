@@ -2,8 +2,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignBar
-  name: bar sign
-  description: Bar! Get drunk here.
+  name: бар знак
+  description: Бар! Напийся тут.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/signs_32x32.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignClinic
-  name: clinic sign
-  description: A clinic sign. Hopefully they have meds.
+  name: знак клініки
+  description: Знак клініки. Сподіваюся, у них є ліки.
   components:
   - type: Sprite
     state: clinic
@@ -25,8 +25,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignOpen1
-  name: open sign
-  description: Open for business. Maybe.
+  name: відкритий знак
+  description: Відкритий для бізнесу. можливо.
   components:
   - type: Sprite
     state: open
@@ -59,8 +59,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignForRent
-  name: for rent sign
-  description: A sign advertising a place for rent.
+  name: для оренди знак
+  description: Вивіска з оголошенням про оренду приміщення.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/signs_32x32.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignNotice
-  name: notice sign
-  description: NOTICE!
+  name: знак повідомлення
+  description: УВАГА!
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14SignDanger
-  name: danger sign
-  description: Danger.
+  name: знак небезпеки
+  description: Небезпека.
   components:
   - type: Sprite
     state: danger_sign
@@ -89,8 +89,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignBazaarOn
-  name: bazaar sign
-  description: A sign for a bazaar. How bizarre.
+  name: базарний знак
+  description: Вивіска для базару. Як дивно.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/signs_64x32.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignHotel
-  name: hotel sign
-  description: A sign for a hotel. Get a room!
+  name: знак готелю
+  description: Вивіска для готелю. Отримай кімнату!
   components:
   - type: Sprite
     state: hotel
@@ -112,8 +112,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignPrivateProperty
-  name: private property sign
-  description: A private property sign.
+  name: знак приватної власності
+  description: Знак приватної власності.
   components:
   - type: Sprite
     state: private
@@ -121,8 +121,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignOpenBig
-  name: open sign
-  description: We are open sign. I hope so.
+  name: відкритий знак
+  description: Краще ніж підлога.
   components:
   - type: Sprite
     state: we_open_open
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignWorkersOnly
-  name: workers only sign
-  description: No tresspassing!
+  name: робітники лише підписують
+  description: Сторонньому входу заборонено!
   components:
   - type: Sprite
     state: workers

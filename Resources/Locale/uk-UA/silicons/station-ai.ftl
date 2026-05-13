@@ -1,7 +1,7 @@
 # General
 ai-wire-snipped = Один із проводів вашої системи було перерізано на {$source}.
 wire-name-ai-vision-light = AIV
-wire-name-ai-act-light = AIA
+wire-name-ai-act-light = AI Overlay
 station-ai-takeover = ШІ захоплення
 station-ai-eye-name = ШІ око - {$name}
 station-ai-has-no-power-for-upload = Датчики далекого радіусу дії показують, що всі ксеноборги були знищені. Ядро материнського корабля залишається дрейфувати в космосі.

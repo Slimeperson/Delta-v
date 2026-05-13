@@ -7,7 +7,7 @@
 - type: entity
   id: PartAsakim
   parent: [BaseItem, BasePart]
-  name: "asakim body part"
+  name: "частина тіла асакіма"
   abstract: true
   components:
   - type: Icon # Shitmed Change
@@ -31,7 +31,7 @@
 
 - type: entity
   id: TorsoAsakim
-  name: "asakim torso"
+  name: "тулуб асакіма"
   parent: [PartAsakim, BaseTorso]
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: HeadAsakim
-  name: "asakim head"
+  name: "голова асакіма"
   parent: [PartAsakim, BaseHead]
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
 
 - type: entity
   id: LeftArmAsakim
-  name: "left asakim arm"
+  name: "ліва рука асакіма"
   parent: [PartAsakim, BaseLeftArm]
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 
 - type: entity
   id: RightArmAsakim
-  name: "right asakim arm"
+  name: "права рука асакіма"
   parent: [PartAsakim, BaseRightArm]
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 
 - type: entity
   id: LeftHandAsakim
-  name: "left asakim hand"
+  name: "ліва рука асакіма"
   parent: [PartAsakim, BaseLeftHand]
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: RightHandAsakim
-  name: "right asakim hand"
+  name: "права рука асакіма"
   parent: [PartAsakim, BaseRightHand]
   components:
   - type: Sprite
@@ -99,7 +99,7 @@
 
 - type: entity
   id: LeftLegAsakim
-  name: "left asakim leg"
+  name: "ліва асакімова нога"
   parent: [PartAsakim, BaseLeftLeg]
   components:
   - type: Sprite
@@ -108,7 +108,7 @@
 
 - type: entity
   id: RightLegAsakim
-  name: "right asakim leg"
+  name: "права асакімова нога"
   parent: [PartAsakim, BaseRightLeg]
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 
 - type: entity
   id: LeftFootAsakim
-  name: "left asakim foot"
+  name: "ліва асакімова нога"
   parent: [PartAsakim, BaseLeftFoot]
   components:
   - type: Sprite
@@ -126,7 +126,7 @@
 
 - type: entity
   id: RightFootAsakim
-  name: "right asakim foot"
+  name: "права нога асакіма"
   parent: [PartAsakim, BaseRightFoot]
   components:
   - type: Sprite

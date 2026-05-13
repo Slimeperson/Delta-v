@@ -1,6 +1,6 @@
 - type: reagent
   id: Desoxyephedrine
-  name: reagent-name-desoxyephedrine
+  name: назва реагенту-дезоксиефедрин
   group: Narcotics
   desc: reagent-desc-desoxyephedrine
   physicalDesc: reagent-physical-desc-translucent
@@ -77,7 +77,7 @@
 
 - type: reagent
   id: Ephedrine
-  name: reagent-name-ephedrine
+  name: реагент-назва-ефедрин
   group: Narcotics
   desc: reagent-desc-ephedrine
   physicalDesc: reagent-physical-desc-powdery
@@ -136,9 +136,9 @@
 
 - type: reagent
   id: Stimulants
-  name: reagent-name-stimulants
+  name: реагент-назва-стимулятори
   group: Narcotics
-  desc: reagent-desc-stimulants
+  desc: reagent-desc-стимулятори
   physicalDesc: reagent-physical-desc-energizing
   contrabandSeverity: Syndicate
   flavor: sharp
@@ -225,7 +225,7 @@
 
 - type: reagent
   id: THC
-  name: reagent-name-thc
+  name: назва-реагенту-thc
   group: Narcotics
   desc: reagent-desc-thc
   flavor: bitter
@@ -283,7 +283,7 @@
 # TODO: Replace these nonstandardized effects with generic brain damage
 - type: reagent
   id: Impedrezene
-  name: reagent-name-impedrezene
+  name: назва реагенту імпедрезен
   group: Narcotics
   desc: reagent-desc-impedrezene
   physicalDesc: reagent-physical-desc-acrid
@@ -348,7 +348,7 @@
 
 - type: reagent
   id: Bananadine
-  name: reagent-name-bananadine
+  name: назва реагенту-бананадин
   group: Narcotics
   desc: reagent-desc-bananadine
   physicalDesc: reagent-physical-desc-powdery
@@ -413,7 +413,7 @@
 
 - type: reagent
   id: NorepinephricAcid
-  name: reagent-name-norepinephric-acid
+  name: reagent-name-noradrenaphric-acid
   group: Narcotics
   desc: reagent-desc-norepinephric-acid
   physicalDesc: reagent-physical-desc-milky

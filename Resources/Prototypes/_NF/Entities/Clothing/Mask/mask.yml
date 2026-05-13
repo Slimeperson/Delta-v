@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskPilot
-  name: pilot breathing mask
-  description: A close-fitting breath mask designed for, it would seem, minimal comfort for the wearer.
+  name: дихальна маска пілота
+  description: Щільно прилягаюча дихальна маска, розроблена для, здавалося б, мінімального комфорту для користувача.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/pilot.rsi

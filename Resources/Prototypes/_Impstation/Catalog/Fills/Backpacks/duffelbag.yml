@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledAkurra
-  name: Akurra bundle
-  description: "A fearsome liquid-ammo plasma rifle, bundled with 4 canisters of its proprietary fuel."
+  name: Пучок Акурра
+  description: "Страшна плазмова гвинтівка з рідинними боєприпасами в комплекті з 4 каністрами фірмового пального».
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateLeviathan
-  name: Leviathan bundle
-  description: "A massive, heavy-duty bazooka, bundled with 3 explosive rockets, and 2 incendiary rockets."
+  name: Пучок Левіафан
+  description: "Прикріпіть ліву ногу
   components:
   - type: EntityTableContainerFill
     containers:

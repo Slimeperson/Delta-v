@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: SpawnPointWizard
   parent: MarkerBase
-  name: wizard
+  name: майстер
   components:
   - type: SpawnPoint
   - type: Sprite

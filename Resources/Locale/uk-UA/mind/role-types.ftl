@@ -11,11 +11,11 @@ role-type-update-message = Ваша роль [колір = {$color}]{$role}[/col
 # If you change a color here, you might want to also change it in role_types.yml
 role-type-crew-aligned-color = #еееее
 role-type-crew-aligned-alternate-color = #008000
-role-type-solo-antagonist-color = #d82000
-role-type-team-antagonist-color = #d82000
-role-type-free-agent-color = #ffff00
-role-type-familiar-color = #6495ed
-role-type-silicon-color = #6495ed
+role-type-solo-antagonist-color = Комп'ютер станційних записів
+role-type-team-antagonist-color = Комп'ютер станційних записів
+role-type-free-agent-color = Тільки найкраще!
+role-type-familiar-color = Liberation Station: ваше єдине місце для всього, що стосується другої поправки!
+role-type-silicon-color = Liberation Station: ваше єдине місце для всього, що стосується другої поправки!
 role-type-silicon-antagonist-color = #c832e6
 
 # Ideally, subtype names should be short

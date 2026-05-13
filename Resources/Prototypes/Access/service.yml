@@ -1,6 +1,6 @@
 - type: accessLevel
   id: Bar
-  name: id-card-access-level-bar
+  name: id-card-access-level bar
 
 - type: accessLevel
   id: Kitchen
@@ -12,7 +12,7 @@
 
 - type: accessLevel
   id: Service
-  name: id-card-access-level-service
+  name: id-card-access-level service
 
 - type: accessLevel
   id: Janitor

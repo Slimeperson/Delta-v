@@ -48,13 +48,13 @@
       steps:
       - component: PayloadTrigger
         store: payloadTrigger
-        name: construction-graph-component-payload-trigger
+        name: конструкція-граф-компонент-корисного навантаження-тригер
         doAfter: 0.5
     - to: caseWithPayload
       steps:
       - tag: Payload
         store: payload
-        name: construction-graph-tag-payload
+        name: конструкція-граф-тег-корисне навантаження
         doAfter: 0.5
 
   - node: caseWithTrigger
@@ -74,7 +74,7 @@
       steps:
       - tag: Payload
         store: payload
-        name: construction-graph-tag-payload
+        name: конструкція-граф-тег-корисне навантаження
         doAfter: 0.5
 
   - node: caseWithPayload
@@ -94,7 +94,7 @@
       steps:
       - component: PayloadTrigger
         store: payloadTrigger
-        name: construction-graph-component-payload-trigger
+        name: конструкція-граф-компонент-корисного навантаження-тригер
         doAfter: 0.5
 
   - node: grenade
@@ -103,7 +103,7 @@
     - !type:PlaySound
       sound: /Audio/Machines/button.ogg
     - !type:AdminLog
-      message: "A grenade was crafted"
+      message: "Змайстрували гранату»
     edges:
     - to: caseWithTrigger
       steps:

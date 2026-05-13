@@ -3,7 +3,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhite
-  name: stack-white-tile
+  name: стек-біла-плитка
   spawn: FloorTileItemWhite
 
 - type: stack
@@ -15,41 +15,41 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteDiagonalMini
-  name: stack-white-steel-diagonal-mini-tile
+  name: station-ai-turret-component-is-attacking-warning
   spawn: FloorTileItemWhiteDiagonalMini
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteDiagonal
-  name: stack-white-steel-diagonal-tile
+  name: стек-біла-сталева-діагональна плитка
   spawn: FloorTileItemWhiteDiagonal
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteHerringbone
-  name: stack-white-steel-herringbone
+  name: стек-біла-сталева-ялинка
   spawn: FloorTileItemWhiteHerringbone
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMini
-  name: stack-white-steel-mini-tile
+  name: стек-біла-сталева міні-плитка
   spawn: FloorTileItemWhiteMini
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMono
-  name: stack-white-steel-mono-tile
+  name: стек-біла-сталь-моно-плитка
   spawn: FloorTileItemWhiteMono
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhitePavement
-  name: stack-white-steel-pavement
+  name: стек-білий-сталевий-тротуар
   spawn: FloorTileItemWhitePavement
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhitePavementVertical
-  name: stack-white-steel-vertical-pavement
+  name: стек-білий-сталевий-вертикальний-тротуар
   spawn: FloorTileItemWhitePavementVertical

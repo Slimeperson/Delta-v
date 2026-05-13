@@ -1,8 +1,8 @@
 - type: entity
-  name: candy spear
+  name: цукерковий спис
   parent: Spear
   id: SpearCandy
-  description: A spear made with a hardened sugar.
+  description: Спис із твердого цукру.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Melee/candy_spear.rsi

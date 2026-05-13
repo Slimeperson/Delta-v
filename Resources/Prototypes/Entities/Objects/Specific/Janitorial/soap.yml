@@ -4,7 +4,7 @@
   abstract: true
   parent: BaseItem
   id: BaseSoap
-  name: soap
+  name: мило
   components:
   - type: Tag
     tags:
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseSoap
   id: Soap
-  description: A cheap bar of soap. Doesn't smell.
+  description: Дешевий шматок мила. Не пахне.
   components:
   - type: Sprite
     layers:
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapNT
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: clipboard-slot-component-slot-name-pen
   components:
   - type: Sprite
     layers:
@@ -109,7 +109,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapDeluxe
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: Розкішне мило марки Waffle Co. Пахне полуницею.
   components:
   - type: Sprite
     layers:
@@ -125,7 +125,7 @@
 - type: entity
   parent: [BaseSoap, BaseSyndicateContraband]
   id: SoapSyndie
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: Ненадійний шматок мила. Пахне страхом.
   components:
   - type: Sprite
     layers:
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseSoap
   id: SoapletSyndie
-  name: soaplet
-  description: A tiny piece of syndicate soap.
+  name: мило
+  description: Маленький шматочок синдикатного мила.
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
@@ -210,7 +210,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapHomemade
-  description: A homemade bar of soap. Smells of... well....
+  description: Домашнє мило. Пахне... ну....
   components:
   - type: Sprite
     layers:
@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseSoap
   id: SoapOmega
-  name: omega soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  name: мило омега
+  description: Найсучасніше мило, відоме людству. Пахне синім простором.
   components:
   - type: Sprite
     layers:

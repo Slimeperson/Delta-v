@@ -2,9 +2,9 @@
 # TODO: these should really be based on localization strings.
 - type: entity
   id: PaperMailNFPowerTool
-  name: Hazard Fraught advertisement
+  name: Небезпечна реклама
   categories: [ HideSpawnMenu ]
-  suffix: "power tool ad, formatted"
+  suffix: "реклама електроінструменту, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -20,7 +20,7 @@
 - type: entity
   id: PaperMailNFVagueThreat1
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 1, formatted"
+  suffix: "нечітка поштова загроза 1, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -33,7 +33,7 @@
 - type: entity
   id: PaperMailNFVagueThreat2
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 2, formatted"
+  suffix: "невизначена поштова загроза 2, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -44,7 +44,7 @@
 - type: entity
   id: PaperMailNFVagueThreat3
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 3, formatted"
+  suffix: "нечітка поштова загроза 3, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -55,7 +55,7 @@
 - type: entity
   id: PaperMailNFVagueThreat4
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 4, formatted"
+  suffix: "нечітка поштова загроза 4, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -66,7 +66,7 @@
 - type: entity
   id: PaperMailNFVagueThreat5
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 5, formatted"
+  suffix: "нечітка поштова загроза 5, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -77,7 +77,7 @@
 - type: entity
   id: PaperMailNFVagueThreat6
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 6, formatted"
+  suffix: "нечітка поштова загроза 6, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -91,7 +91,7 @@
 - type: entity
   id: PaperMailNFVagueThreat7
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 7, formatted"
+  suffix: "нечітка поштова загроза 7, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -102,7 +102,7 @@
 - type: entity
   id: PaperMailNFVagueThreat8
   categories: [ HideSpawnMenu ] 
-  suffix: "vague mail threat 8, formatted"
+  suffix: "нечітка поштова загроза 8, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -117,7 +117,7 @@
 - type: entity
   id: PaperMailNFVagueThreat9
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 9, formatted"
+  suffix: "нечітка поштова загроза 9, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -128,7 +128,7 @@
 - type: entity
   id: PaperMailNFVagueThreat10
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 10, formatted"
+  suffix: "нечітка поштова загроза 10, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -142,7 +142,7 @@
 - type: entity
   id: PaperMailNFVagueThreat11
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 11, formatted"
+  suffix: "нечітка поштова загроза 11, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -156,7 +156,7 @@
 - type: entity
   id: PaperMailNFVagueThreat12
   categories: [ HideSpawnMenu ]
-  suffix: "vague mail threat 12, formatted"
+  suffix: "невизначена поштова загроза 12, відформатована"
   parent: Paper
   components:
   - type: Paper
@@ -169,9 +169,9 @@
 
 - type: entity
   id: PaperMailNFPwrGameAd
-  name: pwr game advertisement
+  name: пілотський шарф
   categories: [ HideSpawnMenu ]
-  suffix: "pwr game ad"
+  suffix: "реклама гри pwr"
   parent: Paper
   components:
   - type: Paper
@@ -183,7 +183,7 @@
 
 - type: entity
   id: PaperMailNFRedBoolAd
-  name: red bool advertisement
+  name: red bool реклама
   categories: [ HideSpawnMenu ]
   suffix: "red bool ad"
   parent: Paper
@@ -199,9 +199,9 @@
 
 - type: entity
   id: PaperMailNFSpaceColaAd
-  name: space cola advertisement
+  name: космічна реклама кола
   categories: [ HideSpawnMenu ]
-  suffix: "space cola ad"
+  suffix: "космічна реклама кола"
   parent: Paper
   components:
   - type: Paper
@@ -213,9 +213,9 @@
 
 - type: entity
   id: PaperMailNFSpaceMountainWindAd
-  name: space mountain wind advertisement
+  name: простір гірський вітер реклама
   categories: [ HideSpawnMenu ]
-  suffix: "space mountain wind ad"
+  suffix: "реклама космічного гірського вітру"
   parent: Paper
   components:
   - type: Paper
@@ -227,9 +227,9 @@
 
 - type: entity
   id: PaperMailNFSpaceUpAd
-  name: space up advertisement
+  name: простір до реклами
   categories: [ HideSpawnMenu ]
-  suffix: "space up ad"
+  suffix: "місце в рекламі"
   parent: Paper
   components:
   - type: Paper
@@ -246,7 +246,7 @@
 - type: entity
   id: PaperMailNTSoapAd1
   categories: [ HideSpawnMenu ]
-  suffix: "soap ad 1"
+  suffix: "мильна реклама 1"
   parent: Paper
   components:
   - type: Paper
@@ -268,7 +268,7 @@
 - type: entity
   id: PaperMailNTSoapAd2
   categories: [ HideSpawnMenu ] 
-  suffix: "soap ad 2" # DeltaV - Edited to not be addressed to Frontier Citizens, localized
+  suffix: "мильна реклама 2" # DeltaV - відредаговано, щоб не було адресовано громадянам прикордонних районів, локалізовано
   parent: Paper
   components:
   - type: Paper
@@ -286,7 +286,7 @@
 - type: entity
   id: PaperMailNTConscript
   categories: [ HideSpawnMenu ]
-  suffix: "conscript"
+  suffix: "призовник"
   parent: Paper
   components:
   - type: Paper
@@ -300,7 +300,7 @@
 - type: entity
   id: PaperMailNTMusket
   categories: [ HideSpawnMenu ]
-  suffix: "musket"
+  suffix: "мушкет"
   parent: Paper
   components:
   - type: Paper
@@ -312,7 +312,7 @@
 - type: entity
   id: PaperMailNFPaperPusherAd
   categories: [ HideSpawnMenu ]
-  suffix: "paper pusher" 
+  suffix: "штовхач паперу"
   parent: Paper
   components:
   - type: Paper
@@ -329,9 +329,9 @@
 
 - type: entity
   id: PaperMailNFPetBedAssemblyManual
-  name: pet bed assembly manual
+  name: Інструкція по збірці лежака для тварин
   categories: [ HideSpawnMenu ]
-  suffix: "pet bed assembly manual"
+  suffix: "інструкція по збірці лежака для тварин"
   parent: Paper
   components:
   - type: Paper
@@ -348,7 +348,7 @@
 - type: entity
   id: PaperMailNTBoxer
   categories: [ HideSpawnMenu ]
-  suffix: "boxer"
+  suffix: "боксер"
   parent: Paper
   components:
   - type: Paper
@@ -363,7 +363,7 @@
 - type: entity
   id: PaperMailNFPipebombIntern
   categories: [ HideSpawnMenu ]
-  suffix: "pipe bomb intern"
+  suffix: "стажер трубної бомби"
   parent: Paper
   components:
   - type: Paper
@@ -380,9 +380,9 @@
 
 - type: entity
   id: PaperMailNFAntivirus
-  name: Snortin Antivirus invoice
+  name: Рахунок-фактура Snortin Antivirus
   categories: [ HideSpawnMenu ]
-  suffix: "antivirus ad"
+  suffix: "антивірусна реклама"
   parent: Paper
   components:
   - type: Paper
@@ -403,8 +403,8 @@
 - type: entity
   id: PaperMailNFEMPPreparedness
   categories: [ HideSpawnMenu ]
-  name: EMP preparedness response form
-  suffix: "emp preparedness" # DeltaV - Replaces mention of SR with HoS
+  name: Форма відповіді щодо готовності до ПЕМ
+  suffix: "готовність до emp" # DeltaV - замінює згадку про SR на HoS
   parent: Paper
   components:
   - type: Paper
@@ -424,8 +424,8 @@
 - type: entity
   id: PaperMailNFBuildABuddy
   categories: [ HideSpawnMenu ]
-  name: Build-a-Buddy adoption letter
-  suffix: "build-a-buddy" # DeltaV- Body text changed, because Goblins Aren't Real
+  name: Лист про усиновлення Build-a-Buddy
+  suffix: "build-a-buddy" # DeltaV - Основний текст змінено, оскільки гобліни не справжні
   parent: Paper
   components:
   - type: Paper
@@ -453,7 +453,7 @@
 - type: entity
   id: PaperMailNFSpaceLaw
   categories: [ HideSpawnMenu ]
-  suffix: "space-law" # DeltaV- edited contents to be from the Delta Sector instead of the Frontier
+  suffix: "space-law" # DeltaV - відредагований вміст із сектора Дельта, а не з кордону
   parent: Paper
   components:
   - type: Paper

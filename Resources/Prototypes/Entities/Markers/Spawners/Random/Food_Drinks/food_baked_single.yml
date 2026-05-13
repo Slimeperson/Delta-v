@@ -1,7 +1,7 @@
 - type: entity
   id: RandomFoodBakedSingle
-  name: random baked food spawner
-  suffix: Single Serving
+  name: спавнер випадкової їжі
+  suffix: Одна порція
   parent: MarkerBase
   placement:
     mode: AlignTileAny

@@ -14,7 +14,7 @@
 
 - type: antag
   id: Rev
-  name: roles-antag-rev-name
+  name: roles-atag-rev-name
   antagonist: true
   setPreference: false
   objective: roles-antag-rev-objective

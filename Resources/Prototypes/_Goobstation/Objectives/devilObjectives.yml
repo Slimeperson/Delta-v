@@ -24,8 +24,8 @@
   - type: NumberObjective
     min: 7
     max: 9
-    title: objective-condition-contract-title
-    description: objective-condition-contract-description
+    title: об'єктивна умова-назва договору
+    description: мета-умова-договір-опис
   - type: SignContractCondition
 
 - type: entity
@@ -39,6 +39,6 @@
   - type: NumberObjective
     min: 150
     max: 200
-    title: objective-condition-weight-title
-    description: objective-condition-weight-description
+    title: об'єктивна-умова-вага-назва
+    description: об'єктивний-стан-вага-опис
   - type: MeetContractWeightCondition

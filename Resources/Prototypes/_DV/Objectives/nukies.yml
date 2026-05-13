@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseObjective
   id: NukeStationObjective
-  name: Nuke the station.
-  description: Its your job. Get going!
+  name: Розстріляйте станцію.
+  description: Це твоя робота. Збирайся!
   components:
   - type: Objective
     difficulty: 4.0

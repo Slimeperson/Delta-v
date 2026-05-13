@@ -1,7 +1,7 @@
 - type: entity
   id: AmeController
-  name: AME controller
-  description: It's a controller for the antimatter engine.
+  name: Контролер AME
+  description: Це контролер двигуна антиматерії.
   placement:
     mode: SnapgridCenter
   components:

@@ -48,19 +48,19 @@
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: PassengerPhrase
-  text: job-name-passenger
+  text: робота-ім'я-пасажир
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: VisitorPhrase
-  text: job-name-visitor
+  text: job-name-visiter
 
 # Command
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
   id: CaptainPhrase
-  text: job-name-captain
+  text: робота-ім'я-капітан
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
@@ -70,7 +70,7 @@
 - type: quickPhrase
   parent: BaseCommandJobPhrase
   id: CentralCommandInternPhrase
-  text: job-name-centcomintern
+  text: робота-назва-центкомінтерн
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
@@ -82,7 +82,7 @@
 - type: quickPhrase
   parent: BaseEngineeringJobPhrase
   id: ChiefEngineerPhrase
-  text: job-name-ce
+  text: робота-назва-це
 
 - type: quickPhrase
   parent: BaseEngineeringJobPhrase
@@ -92,12 +92,12 @@
 - type: quickPhrase
   parent: BaseEngineeringJobPhrase
   id: EngineerPhrase
-  text: job-name-engineer
+  text: робота-назва-інженера
 
 - type: quickPhrase
   parent: BaseEngineeringJobPhrase
   id: TechAssistantPhrase
-  text: job-name-technical-assistant
+  text: робота-назва-технічного-помічника
 
 # Epistemics
 
@@ -109,32 +109,32 @@
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: PsionicMantisPhrase
-  text: job-name-mantis
+  text: робота-ім'я-богомол
 
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: ScientistPhrase
-  text: job-name-scientist
+  text: робота-назва-вчений
 
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: ResearchAssistantPhrase
-  text: job-name-research-assistant
+  text: робота-назва-науковий-асистент
 
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: RoboticistPhrase
-  text: job-name-roboticist
+  text: робота-назва-роботехніка
 
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: ChaplainPhrase
-  text: job-name-chaplain
+  text: робота-ім'я-капелан
 
 - type: quickPhrase
   parent: BaseEpistemicsJobPhrase
   id: BorgPhrase
-  text: job-name-borg
+  text: робота-назва-борг
 
 # Logistics
 
@@ -156,7 +156,7 @@
 - type: quickPhrase
   parent: BaseLogisticsJobPhrase
   id: CourierPhrase
-  text: job-name-courier
+  text: робота-ім'я-кур'єр
 
 - type: quickPhrase
   parent: BaseLogisticsJobPhrase
@@ -168,22 +168,22 @@
 - type: quickPhrase
   parent: BaseJusticeJobPhrase
   id: ChiefJusticePhrase
-  text: job-name-chief-justice
+  text: посада-назва-головний-суддя
 
 - type: quickPhrase
   parent: BaseJusticeJobPhrase
   id: LawyerPhrase
-  text: job-name-lawyer
+  text: робота-назва-юрист
 
 - type: quickPhrase
   parent: BaseJusticeJobPhrase
   id: ProsecutorPhrase
-  text: job-name-prosecutor
+  text: посада-назва-прокурор
 
 - type: quickPhrase
   parent: BaseJusticeJobPhrase
   id: ClerkPhrase
-  text: job-name-clerk
+  text: робота-назва-діловод
 
 # Medical
 
@@ -195,27 +195,27 @@
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: ChemistPhrase
-  text: job-name-chemist
+  text: робота-ім'я-хімік
 
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: ParamedicPhrase
-  text: job-name-paramedic
+  text: робота-назва-фельдшер
 
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: MedicalDoctorPhrase
-  text: job-name-doctor
+  text: робота-назва-лікаря
 
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: MedicalInternPhrase
-  text: job-name-intern
+  text: робота-назва-інтерн
 
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: SurgeonPhrase
-  text: job-name-surgeon
+  text: робота-назва-хірург
 
 # Security
 
@@ -227,59 +227,59 @@
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: WardenPhrase
-  text: job-name-warden
+  text: робота-назва-наглядач
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: SecurityOfficerPhrase
-  text: job-name-security
+  text: безпека імені вакансії
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: SecurityCadetPhrase
-  text: job-name-cadet
+  text: робота-ім'я-курсант
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: PrisonGuardPhrase
-  text: job-name-guard
+  text: робота-ім'я-охоронець
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: DetectivePhrase
-  text: job-name-detective
+  text: робота-назва-детектив
 
 # Service
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: BartenderPhrase
-  text: job-name-bartender
+  text: робота-назва-бармена
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: BotanistPhrase
-  text: job-name-botanist
+  text: робота-назва-ботанік
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: ChefPhrase
-  text: job-name-chef
+  text: словосполучення-вид-коза
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: JanitorPhrase
-  text: job-name-janitor
+  text: робота-назва-двірник
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: LibrarianPhrase
-  text: job-name-librarian
+  text: робота-назва-бібліотекар
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: MusicianPhrase
-  text: job-name-musician
+  text: робота-ім'я-музикант
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
@@ -289,29 +289,29 @@
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: ClownPhrase
-  text: job-name-clown
+  text: робота-ім'я-клоун
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: MimePhrase
-  text: job-name-mime
+  text: робота-назва-мім
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: HeadOfPersonnelPhrase
-  text: job-name-hop
+  text: робота-назва-хоп
 
 # Wildcard
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: BoxerPhrase
-  text: job-name-boxer
+  text: робота-назва-боксер
 
 - type: quickPhrase
   parent: BaseMedicalJobPhrase
   id: PsychologistPhrase
-  text: job-name-psychologist
+  text: робота-назва-психолог
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
@@ -321,24 +321,24 @@
 - type: quickPhrase
   parent: BaseServiceJobPhrase
   id: ZookeeperPhrase
-  text: job-name-zookeeper
+  text: робота-ім'я-зоопарка
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: MartialArtistPhease
-  text: job-name-martialartist
+  text: фраза-мультиінструмент
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: PrisonerPhrase
-  text: job-name-prisoner
+  text: робота-ім'я-в'язень
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
   id: GladiatorPhrase
-  text: job-name-gladiator
+  text: станція-маяк-хімія
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
   id: CorpsmanPhrase
-  text: job-name-brigmedic
+  text: робота-назва-бригмедик

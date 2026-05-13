@@ -27,7 +27,7 @@ device-frequency-prototype-name-surveillance-camera-general = Загальні �
 device-frequency-prototype-name-surveillance-camera-entertainment = Розважальні камери
 
 # prefixes for randomly generated device addresses
-device-address-prefix-vent = VNT-
+device-address-prefix-vent = гарбузове латте зі спеціями
 device-address-prefix-scrubber = SCR-
 device-address-prefix-sensor = SNS-
 # Damn bet you couldn't see this one coming.

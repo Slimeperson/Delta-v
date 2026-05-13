@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: SnapPop
-  name: snap pop
-  description: Throw it at the floor and listen to it POP!
+  name: швидкий поп
+  description: Киньте його на підлогу і слухайте його POP!
   components:
   - type: Sprite
     sprite: Objects/Fun/snap_pops.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseStorageItem
   id: SnapPopBox
-  name: snap pop box
-  description: Contains snap pops for a few minutes of popping fun!
+  name: поп-бокс
+  description: Містить знімки для кількох хвилин веселощів!
   components:
   - type: Item
     size: Normal
@@ -66,9 +66,9 @@
 - type: entity
   parent: FoodProduceBase
   id: PlasticBanana
-  name: banana
-  suffix: Plastic
-  description: A plastic banana.
+  name: банан
+  suffix: пластик
+  description: Пластиковий банан.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyGlue
-  name: crazy glue
-  description:  A bottle of crazy glue manufactured by Honk! Co.
+  name: божевільний клей
+  description:  Пляшка божевільного клею виробництва Honk! Co.
   components:
   - type: Sprite
     sprite: Objects/Fun/glue.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyLube
-  name: crazy lube
-  description: A bottle of super slipery crazy lube manufactured by Honk! Co.
+  name: божевільна мастило
+  description: пташиний свисток
   components:
   - type: Openable
     sound:
@@ -157,9 +157,9 @@
 - type: entity
   parent: [ BaseItem, MobCombat ]
   id: MrChips
-  name: mr chips
-  suffix: Dummy
-  description: It's a dummy, dummy!
+  name: містер чіпси
+  suffix: манекен
+  description: Це муляж, муляж!
   components:
   - type: Sprite
     sprite: Objects/Fun/mrchips.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: MrChips
   id: MrDips
-  name: mr dips
+  name: Mr Dips
   components:
   - type: Sprite
     sprite: Objects/Fun/mrdips.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseItem
   id: Error
-  name: error
-  description: Hmmmm. Something went wrong.
+  name: помилка
+  description: криваво-червоний телефон
   components:
   - type: Sprite
     sprite: error.rsi
@@ -242,9 +242,9 @@
 - type: entity
   parent: BaseItem
   id: SpectralLocatorUnpowered
-  name: spectral locator
-  suffix: Always Powered
-  description: Appears to be a modified anomaly locator. Seems very old.
+  name: спектральний локатор
+  suffix: Завжди підключений
+  description: Здається, це модифікований локатор аномалій. Здається дуже старим.
   components:
   - type: Sprite
     sprite: Objects/Fun/spectrallocator.rsi
@@ -290,7 +290,7 @@
 - type: entity
   parent: SpectralLocator
   id: SpectralLocatorEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: ItemSlots
     slots:

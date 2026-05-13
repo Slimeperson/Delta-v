@@ -1,7 +1,7 @@
 # Miscellaneous
 - type: loadoutGroup
   id: Trinkets
-  name: loadout-group-trinkets
+  name: loadout-group-дрібнички
   minLimit: 0
   maxLimit: 3
   loadouts:
@@ -81,7 +81,7 @@
 
 - type: loadoutGroup
   id: Glasses
-  name: loadout-group-glasses
+  name: loadout-group-очки
   minLimit: 0
   loadouts:
   - Glasses
@@ -112,7 +112,7 @@
 # nitrogen or oxygen tank, depending on what your species needs
 - type: loadoutGroup
   id: GroupEVATank
-  name: loadout-group-EVA-tank
+  name: loadout-group-EVA-танк
   hidden: true
   loadouts:
   - LoadoutSpeciesEVANitrogen
@@ -139,7 +139,7 @@
 # Command
 - type: loadoutGroup
   id: CaptainHead
-  name: loadout-group-captain-head
+  name: капітан-групи-завантаження
   minLimit: 0
   loadouts:
   - CaptainHead
@@ -151,7 +151,7 @@
 
 - type: loadoutGroup
   id: CaptainJumpsuit
-  name: loadout-group-captain-jumpsuit
+  name: loadout-group-капітан-комбінезон
   loadouts:
   - CaptainJumpsuit
   - CaptainJumpskirt
@@ -170,7 +170,7 @@
 
 - type: loadoutGroup
   id: CaptainBackpack
-  name: loadout-group-captain-backpack
+  name: loadout-group-капітан-рюкзак
   loadouts:
   - CaptainBackpack
   - CaptainSatchel
@@ -178,7 +178,7 @@
 
 - type: loadoutGroup
   id: CaptainOuterClothing
-  name: loadout-group-captain-outerclothing
+  name: loadout-group-капітан-верхній одяг
   loadouts:
   - CaptainOuterClothing
   - CaptainLongcoat # DeltaV - Longcoats
@@ -202,7 +202,7 @@
 
 - type: loadoutGroup
   id: HoPJumpsuit
-  name: loadout-group-hop-jumpsuit
+  name: loadout-group-hop-комбінезон
   loadouts:
   - HoPJumpsuit
   - HoPJumpskirt
@@ -225,7 +225,7 @@
 
 - type: loadoutGroup
   id: HoPBackpack
-  name: loadout-group-hop-backpack
+  name: loadout-group-hop-рюкзак
   loadouts:
   # Start DeltaV changes
   # - CommonBackpack
@@ -239,7 +239,7 @@
 
 - type: loadoutGroup
   id: HoPOuterClothing
-  name: loadout-group-hop-outerclothing
+  name: loadout-group-hop-верхній одяг
   minLimit: 0
   loadouts:
   # Begin DeltaV additions
@@ -260,7 +260,7 @@
 # Civilian
 - type: loadoutGroup
   id: PassengerJumpsuit
-  name: loadout-group-passenger-jumpsuit
+  name: loadout-group-passenger-kombinezon
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
@@ -363,7 +363,7 @@
 
 - type: loadoutGroup
   id: CommonBackpack
-  name: loadout-group-backpack
+  name: loadout-group-рюкзак
   loadouts:
   - CommonBackpack
   - CommonSatchel
@@ -378,7 +378,7 @@
 
 - type: loadoutGroup
   id: PassengerOuterClothing
-  name: loadout-group-passenger-outerclothing
+  name: loadout-group-passenger-верхній одяг
   minLimit: 0
   loadouts:
   - PassengerWintercoat
@@ -434,7 +434,7 @@
 
 - type: loadoutGroup
   id: BartenderHead
-  name: loadout-group-bartender-head
+  name: loadout-group-barmen-head
   minLimit: 0
   loadouts:
   - BartenderHead
@@ -442,7 +442,7 @@
 
 - type: loadoutGroup
   id: BartenderJumpsuit
-  name: loadout-group-bartender-jumpsuit
+  name: loadout-group-бармен-комбінезон
   loadouts:
   - BartenderJumpsuit
   - BartenderJumpskirt
@@ -456,7 +456,7 @@
 
 - type: loadoutGroup
   id: BartenderOuterClothing
-  name: loadout-group-bartender-outerclothing
+  name: loadout-group-бармен-верхній одяг
   minLimit: 0
   loadouts:
   - BartenderVest
@@ -487,21 +487,21 @@
 
 - type: loadoutGroup
   id: ChefMask
-  name: loadout-group-chef-mask
+  name: loadout-group-шеф-маска
   minLimit: 0
   loadouts:
   - ChefMask
 
 - type: loadoutGroup
   id: ChefJumpsuit
-  name: loadout-group-chef-jumpsuit
+  name: loadout-group-шеф-комбінезон
   loadouts:
   - ChefJumpsuit
   - ChefJumpskirt
 
 - type: loadoutGroup
   id: ChefOuterClothing
-  name: loadout-group-chef-outerclothing
+  name: loadout-group-шеф-кухар-верхній одяг
   minLimit: 0
   loadouts:
   - ChefApron
@@ -517,7 +517,7 @@
 
 - type: loadoutGroup
   id: LibrarianJumpsuit
-  name: loadout-group-librarian-jumpsuit
+  name: розвантажувальна група-бібліотекар-комбінезон
   loadouts:
   - LibrarianJumpsuit
   - LibrarianJumpskirt
@@ -537,7 +537,7 @@
 
 - type: loadoutGroup
   id: LawyerJumpsuit
-  name: loadout-group-lawyer-jumpsuit
+  name: loadout-group-юрист-комбінезон
   loadouts:
   - LawyerJumpsuit
   - LawyerJumpskirt
@@ -576,7 +576,7 @@
 
 - type: loadoutGroup
   id: ChaplainHead
-  name: loadout-group-chaplain-head
+  name: loadout-group-capelan-head
   minLimit: 0
   loadouts:
   - ChaplainHead
@@ -587,14 +587,14 @@
 
 - type: loadoutGroup
   id: ChaplainMask
-  name: loadout-group-chaplain-mask
+  name: loadout-group-capelan-mask
   minLimit: 0
   loadouts:
   - ChaplainMask
 
 - type: loadoutGroup
   id: ChaplainJumpsuit
-  name: loadout-group-chaplain-jumpsuit
+  name: loadout-group-капелан-комбінезон
   loadouts:
   - ChaplainJumpsuit
   - ChaplainJumpskirt
@@ -607,7 +607,7 @@
 
 - type: loadoutGroup
   id: ChaplainOuterClothing
-  name: loadout-group-chaplain-outerclothing
+  name: loadout-group-капелан-верхній одяг
   minLimit: 0
   loadouts:
   - ChaplainPlagueSuit
@@ -617,7 +617,7 @@
 
 - type: loadoutGroup
   id: ChaplainNeck
-  name: loadout-group-chaplain-neck
+  name: loadout-group-capelan-neck
   minLimit: 0
   loadouts:
   - ChaplainNeck
@@ -632,7 +632,7 @@
 
 - type: loadoutGroup
   id: ChaplainBible
-  name: loadout-group-chaplain-bible
+  name: loadout-group-capelan-bible
   minLimit: 1
   loadouts:
   - Bible
@@ -644,21 +644,21 @@
 
 - type: loadoutGroup
   id: JanitorHead
-  name: loadout-group-janitor-head
+  name: loadout-group-chinitor-head
   minLimit: 0
   loadouts:
   - JanitorHead
 
 - type: loadoutGroup
   id: JanitorJumpsuit
-  name: loadout-group-janitor-jumpsuit
+  name: loadout-group-двірник-комбінезон
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
 
 - type: loadoutGroup
   id: JanitorGloves
-  name: loadout-group-janitor-gloves
+  name: loadout-group-двірник-рукавички
   minLimit: 0
   loadouts:
   - JanitorRubberGloves
@@ -667,7 +667,7 @@
 
 - type: loadoutGroup
   id: JanitorOuterClothing
-  name: loadout-group-janitor-outerclothing
+  name: дослідження-технологія-завод-аналізатор
   minLimit: 0
   loadouts:
   - JanitorWintercoat
@@ -682,7 +682,7 @@
 
 - type: loadoutGroup
   id: BotanistHead
-  name: loadout-group-botanist-head
+  name: loadout-group-ботанік-зав
   minLimit: 0
   loadouts:
   - BotanistHead
@@ -690,7 +690,7 @@
 
 - type: loadoutGroup
   id: BotanistJumpsuit
-  name: loadout-group-botanist-jumpsuit
+  name: loadout-group-botanik-комбінезон
   loadouts:
   - BotanistJumpsuit
   - BotanistJumpskirt
@@ -699,7 +699,7 @@
 
 - type: loadoutGroup
   id: BotanistBackpack
-  name: loadout-group-botanist-backpack
+  name: loadout-group-botanik-рюкзак
   loadouts:
   - BotanistBackpack
   - BotanistSatchel
@@ -707,7 +707,7 @@
 
 - type: loadoutGroup
   id: BotanistOuterClothing
-  name: loadout-group-botanist-outerclothing
+  name: loadout-group-botanik-верхній одяг
   minLimit: 0
   loadouts:
   - BotanistApron
@@ -722,7 +722,7 @@
 
 - type: loadoutGroup
   id: ClownHead
-  name: loadout-group-clown-head
+  name: loadout-group-клоун-голова
   minLimit: 0
   loadouts:
   - JesterHat
@@ -730,7 +730,7 @@
 
 - type: loadoutGroup
   id: ClownJumpsuit
-  name: loadout-group-clown-jumpsuit
+  name: loadout-group-клоун-комбінезон
   loadouts:
   - ClownSuit
   - ClownSkirt # Starlight
@@ -739,7 +739,7 @@
 
 - type: loadoutGroup
   id: ClownBackpack
-  name: loadout-group-clown-backpack
+  name: loadout-group-clown-рюкзак
   loadouts:
   - ClownBackpack
   - ClownSatchel
@@ -747,7 +747,7 @@
 
 - type: loadoutGroup
   id: ClownOuterClothing
-  name: loadout-group-clown-outerclothing
+  name: loadout-group-клоун-верхній одяг
   minLimit: 0
   loadouts:
   - ClownRobes
@@ -762,7 +762,7 @@
 
 - type: loadoutGroup
   id: SurvivalClown
-  name: loadout-group-survival-clown
+  name: loadout-group-survival-клоун
   minLimit: 2
   hidden: true
   loadouts:
@@ -791,7 +791,7 @@
 
 - type: loadoutGroup
   id: MimeMask
-  name: loadout-group-mime-mask
+  name: риса-категорія-інваліди
   loadouts:
   - MimeMask
   - MimeMaskSad
@@ -800,14 +800,14 @@
 
 - type: loadoutGroup
   id: MimeJumpsuit
-  name: loadout-group-mime-jumpsuit
+  name: loadout-group-mime-комбінезон
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
 
 - type: loadoutGroup
   id: MimeBackpack
-  name: loadout-group-mime-backpack
+  name: loadout-group-mime-рюкзак
   loadouts:
   - MimeBackpack
   - MimeSatchel
@@ -851,7 +851,7 @@
 
 - type: loadoutGroup
   id: MusicianJumpsuit
-  name: loadout-group-musician-jumpsuit
+  name: метаболізатор типу-гарпія
   loadouts:
   - MusicianJumpsuit
   - MusicianJumpskirt
@@ -862,7 +862,7 @@
 
 - type: loadoutGroup
   id: MusicianOuterClothing
-  name: loadout-group-musician-outerclothing
+  name: loadout-group-музикант-верхній одяг
   minLimit: 0
   loadouts:
   - MusicianWintercoat
@@ -912,7 +912,7 @@
 # Cargo
 - type: loadoutGroup
   id: QuartermasterHead
-  name: loadout-group-quartermaster-head
+  name: група-навантаження-інтендант-начальник
   minLimit: 0
   loadouts:
   - QuartermasterHead
@@ -921,7 +921,7 @@
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
-  name: loadout-group-quartermaster-jumpsuit
+  name: група-навантаження-інтендант-комбінезон
   loadouts:
   - QuartermasterJumpsuit
   - QuartermasterJumpskirt
@@ -949,7 +949,7 @@
 
 - type: loadoutGroup
   id: QuartermasterShoes
-  name: loadout-group-quartermaster-shoes
+  name: розширення панелі інструментів документообігу
   loadouts:
   - BrownShoes
   - CargoWinterBoots
@@ -964,14 +964,14 @@
 
 - type: loadoutGroup
   id: CargoTechnicianHead
-  name: loadout-group-cargo-technician-head
+  name: loadout-group-cargo-technician-начальник
   minLimit: 0
   loadouts:
   - CargoTechnicianHead
 
 - type: loadoutGroup
   id: CargoTechnicianJumpsuit
-  name: loadout-group-cargo-technician-jumpsuit
+  name: loadout-group-cargo-technician-комбінезон
   loadouts:
   - ClothingUniformJumpsuitCargoTechPants # DeltaV
   - ClothingUniformJumpsuitCargoTechOveralls # DeltaV
@@ -981,7 +981,7 @@
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
-  name: loadout-group-cargo-technician-backpack
+  name: loadout-group-cargo-technician-рюкзак
   loadouts:
   - CargoTechnicianBackpack
   - CargoTechnicianSatchel
@@ -989,7 +989,7 @@
 
 - type: loadoutGroup
   id: CargoTechnicianOuterClothing
-  name: loadout-group-cargo-technician-outerclothing
+  name: loadout-group-cargo-technician-верхній одяг
   minLimit: 0
   loadouts:
   - CargoTechnicianWintercoat
@@ -1010,7 +1010,7 @@
 
 - type: loadoutGroup
   id: SalvageSpecialistBackpack
-  name: loadout-group-salvage-specialist-backpack
+  name: loadout-group-salvage-specialist-рюкзак
   loadouts:
   - SalvageSpecialistBackpack
   - SalvageSpecialistSatchel
@@ -1018,7 +1018,7 @@
 
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing
-  name: loadout-group-salvage-specialist-outerclothing
+  name: loadout-group-salvage-specialist-верхній одяг
   minLimit: 0
   loadouts:
   - SalvageSpecialistWintercoat
@@ -1043,7 +1043,7 @@
 # Engineering
 - type: loadoutGroup
   id: ChiefEngineerHead
-  name: loadout-group-chief-engineer-head
+  name: розвантажувальна група-головний інженер-начальник
   minLimit: 0
   loadouts:
   - ChiefEngineerHead
@@ -1051,7 +1051,7 @@
 
 - type: loadoutGroup
   id: ChiefEngineerJumpsuit
-  name: loadout-group-chief-engineer-jumpsuit
+  name: група-розвантаження-головний-інженер-комбінезон
   loadouts:
   - ChiefEngineerJumpsuit
   - ChiefEngineerJumpskirt
@@ -1060,7 +1060,7 @@
 
 - type: loadoutGroup
   id: ChiefEngineerNeck
-  name: loadout-group-chief-engineer-neck
+  name: loadout-group-головний-інженер-шийка
   minLimit: 0
   loadouts:
   - ChiefEngineerCloak
@@ -1074,7 +1074,7 @@
 
 - type: loadoutGroup
   id: ChiefEngineerOuterClothing
-  name: loadout-group-chief-engineer-outerclothing
+  name: loadout-group-chief-engineer-верхній одяг
   minLimit: 0
   loadouts:
   - ChiefEngineerLongcoat # DeltaV - Longcoats
@@ -1082,7 +1082,7 @@
 
 - type: loadoutGroup
   id: ChiefEngineerShoes
-  name: loadout-group-chief-engineer-shoes
+  name: розвантажувальна-група-головний-інженер-взуття
   loadouts:
   #- BrownShoes # DeltaV - Engi loadout rework
   - EngineeringWinterBoots
@@ -1106,7 +1106,7 @@
 
 - type: loadoutGroup
   id: TechnicalAssistantJumpsuit
-  name: loadout-group-technical-assistant-jumpsuit
+  name: комбінезон-комбінезон-групи-технічного-помічника
   loadouts:
   - YellowJumpsuit
   - YellowJumpskirt
@@ -1120,7 +1120,7 @@
 
 - type: loadoutGroup
   id: StationEngineerHead
-  name: loadout-group-station-engineer-head
+  name: навантажувальна група-інженер-начальник станції
   minLimit: 0
   loadouts:
   - StationEngineerHardhatYellow
@@ -1130,7 +1130,7 @@
 
 - type: loadoutGroup
   id: StationEngineerJumpsuit
-  name: loadout-group-station-engineer-jumpsuit
+  name: комбінезон-інженера-групи-станції
   loadouts:
   - StationEngineerJumpsuit
   - StationEngineerJumpskirt
@@ -1140,7 +1140,7 @@
 
 - type: loadoutGroup
   id: StationEngineerBackpack
-  name: loadout-group-station-engineer-backpack
+  name: loadout-group-station-engineer-рюкзак
   loadouts:
   - StationEngineerBackpack
   - StationEngineerSatchel
@@ -1148,7 +1148,7 @@
 
 - type: loadoutGroup
   id: StationEngineerOuterClothing
-  name: loadout-group-station-engineer-outerclothing
+  name: loadout-group-station-iнженер-верхній одяг
   minLimit: 0
   loadouts:
   - StationEngineerOuterVest
@@ -1186,7 +1186,7 @@
 
 - type: loadoutGroup
   id: AtmosphericTechnicianJumpsuit
-  name: loadout-group-atmospheric-technician-jumpsuit
+  name: loadout-group-atmospheric-technician-комбінезон
   loadouts:
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianJumpskirt
@@ -1195,14 +1195,14 @@
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
-  name: loadout-group-atmospheric-technician-outerclothing
+  name: loadout-group-atmospheric-technician-верхній одяг
   minLimit: 0
   loadouts:
   - AtmosphericTechnicianWintercoat
 
 - type: loadoutGroup
   id: AtmosphericTechnicianBackpack
-  name: loadout-group-atmospheric-technician-backpack
+  name: loadout-group-atmospheric-technician-рюкзак
   loadouts:
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianSatchel
@@ -1210,7 +1210,7 @@
 
 - type: loadoutGroup
   id: AtmosphericTechnicianShoes
-  name: loadout-group-atmospheric-technician-shoes
+  name: loadout-group-atmosphero-technician-shoes
   loadouts:
   #- WhiteShoes # DeltaV - Engi loadout rework
   #- EngineeringWinterBoots # DeltaV - Engi loadout rework
@@ -1265,14 +1265,14 @@
 
 - type: loadoutGroup
   id: ResearchDirectorJumpsuit
-  name: loadout-group-research-director-jumpsuit
+  name: loadout-group-research-director-комбінезон
   loadouts:
   - ResearchDirectorJumpsuit
   - ResearchDirectorJumpskirt
 
 - type: loadoutGroup
   id: ResearchDirectorOuterClothing
-  name: loadout-group-research-director-outerclothing
+  name: loadout-group-research-director-верхній одяг
   minLimit: 0
   loadouts:
   - ResearchDirectorLabCoat
@@ -1282,7 +1282,7 @@
 
 - type: loadoutGroup
   id: ResearchDirectorShoes
-  name: loadout-group-research-director-shoes
+  name: Великий базовий корабель із порожнім трюмом, який найкраще використовувати для переобладнання та найнеобхіднішого, щоб зробити його юридично кораблем.
   loadouts:
   - BrownShoes
   - ScienceWinterBoots
@@ -1314,7 +1314,7 @@
 
 - type: loadoutGroup
   id: ScientistJumpsuit
-  name: loadout-group-scientist-jumpsuit
+  name: loadout-group-scientist-комбінезон
   loadouts:
   - ScientistJumpsuit
   - ScientistJumpskirt
@@ -1329,7 +1329,7 @@
 
 - type: loadoutGroup
   id: ScientistBackpack
-  name: loadout-group-scientist-backpack
+  name: loadout-group-scientist-рюкзак
   loadouts:
   - ScientistBackpack
   - ScientistSatchel
@@ -1337,7 +1337,7 @@
 
 - type: loadoutGroup
   id: ScientistOuterClothing
-  name: loadout-group-scientist-outerclothing
+  name: loadout-group-scientist-верхній одяг
   minLimit: 0
   loadouts:
   - RegularLabCoat
@@ -1364,7 +1364,7 @@
 
 - type: loadoutGroup
   id: ScientistPDA
-  name: loadout-group-scientist-id
+  name: uplink-black-jetpack-desc
   loadouts:
   - ScientistPDA
   - SeniorResearcherPDA
@@ -1382,7 +1382,7 @@
 
 - type: loadoutGroup
   id: ResearchAssistantJumpsuit
-  name: loadout-group-research-assistant-jumpsuit
+  name: loadout-group-research-assistant-комбінезон
   loadouts:
   - WhiteJumpsuit
   - WhiteJumpskirt
@@ -1406,7 +1406,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
-  name: loadout-group-head-of-security-jumpsuit
+  name: loadout-group-head-of-security-комбінезон
   loadouts:
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
@@ -1447,7 +1447,7 @@
 
 - type: loadoutGroup # DeltaV
   id: HeadofSecurityShoes
-  name: loadout-group-head-of-security-shoes
+  name: uplink-clothing-no-slips-shoes-desc
   loadouts:
   # Begin DeltaV changes
   - CombatBoots
@@ -1466,7 +1466,7 @@
 
 - type: loadoutGroup
   id: WardenHead
-  name: loadout-group-warden-head
+  name: розвантажувальна-група-начальник
   minLimit: 0
   loadouts:
   - WardenHead
@@ -1474,7 +1474,7 @@
 
 - type: loadoutGroup
   id: WardenJumpsuit
-  name: loadout-group-warden-jumpsuit
+  name: розвантажувальна-група-наглядач-комбінезон
   loadouts:
   - WardenJumpsuit
   - WardenJumpskirt
@@ -1489,7 +1489,7 @@
 
 - type: loadoutGroup
   id: WardenOuterClothing
-  name: loadout-group-warden-outerclothing
+  name: розвантажувальна-група-наглядач-верхній одяг
   loadouts:
   - WardenLongcoat # DeltaV - Longcoats
   - WardenCoat
@@ -1515,7 +1515,7 @@
 
 - type: loadoutGroup
   id: SecurityJumpsuit
-  name: loadout-group-security-jumpsuit
+  name: loadout-group-security-комбінезон
   loadouts:
   - SecurityJumpsuit
   - SecurityJumpskirt
@@ -1536,7 +1536,7 @@
 
 - type: loadoutGroup
   id: SecurityBackpack
-  name: loadout-group-security-backpack
+  name: loadout-group-security-рюкзак
   loadouts:
   - SecurityBackpack
   - SecuritySatchel
@@ -1544,7 +1544,7 @@
 
 - type: loadoutGroup
   id: SecurityBelt
-  name: loadout-group-security-belt
+  name: uplink-recruiter-nukieplush-name
   loadouts:
   - SecurityBelt
   - SecurityWebbing
@@ -1600,7 +1600,7 @@
 
 - type: loadoutGroup
   id: DetectiveJumpsuit
-  name: loadout-group-detective-jumpsuit
+  name: loadout-group-детектив-комбінезон
   loadouts:
   - DetectiveJumpsuit
   - DetectiveJumpskirt
@@ -1624,7 +1624,7 @@
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
-  name: loadout-group-security-cadet-jumpsuit
+  name: loadout-group-security-cadet-комбінезон
   loadouts:
   - RedJumpsuit
   - RedJumpskirt
@@ -1651,7 +1651,7 @@
 # Medical
 - type: loadoutGroup
   id: ChiefMedicalOfficerHead
-  name: loadout-group-chief-medical-officer-head
+  name: група-навантаження-начальник-санітар-начальник
   minLimit: 0
   loadouts:
   - ChiefMedicalOfficerBeret
@@ -1659,7 +1659,7 @@
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
-  name: loadout-group-chief-medical-officer-jumpsuit
+  name: комбінезон-групи-начальника-санітаря
   loadouts:
   - ChiefMedicalOfficerJumpsuit
   - ChiefMedicalOfficerJumpskirt
@@ -1675,7 +1675,7 @@
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
-  name: loadout-group-chief-medical-officer-outerclothing
+  name: група-навантаження-головний-санітар-верхній одяг
   minLimit: 0
   loadouts:
   - ChiefMedicalOfficerLabCoat
@@ -1685,7 +1685,7 @@
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerNeck
-  name: loadout-group-chief-medical-officer-neck
+  name: uplink-night-vision-goggles-name
   minLimit: 0
   loadouts:
   - ChiefMedicalOfficerCloak
@@ -1698,7 +1698,7 @@
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerShoes
-  name: loadout-group-chief-medical-officer-shoes
+  name: група-навантаження-начальник-санітаря-взуття
   loadouts:
   - BrownShoes
   - LeatherShoes # DeltaV
@@ -1715,7 +1715,7 @@
 
 - type: loadoutGroup
   id: MedicalDoctorHead
-  name: loadout-group-medical-doctor-head
+  name: група-навантаження-лікар-зав
   minLimit: 0
   loadouts:
   - MedicalBeret
@@ -1736,7 +1736,7 @@
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
-  name: loadout-group-medical-doctor-jumpsuit
+  name: розвантажувальна група-лікар-комбінезон
   loadouts:
   - MedicalDoctorJumpsuit
   - MedicalDoctorJumpskirt
@@ -1769,7 +1769,7 @@
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
-  name: loadout-group-medical-doctor-outerclothing
+  name: loadout-group-medical-doctor-верхній одяг
   minLimit: 0
   loadouts:
   - RegularLabCoat
@@ -1781,7 +1781,7 @@
 
 - type: loadoutGroup
   id: MedicalBackpack
-  name: loadout-group-medical-doctor-backpack
+  name: loadout-group-medical-doctor-рюкзак
   loadouts:
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
@@ -1807,7 +1807,7 @@
 
 - type: loadoutGroup
   id: MedicalGloves
-  name: loadout-group-medical-gloves
+  name: розвантажувальна-група-медичні-рукавички
   minLimit: 0
   loadouts:
   - LatexGloves
@@ -1815,7 +1815,7 @@
 
 - type: loadoutGroup
   id: MedicalMask
-  name: loadout-group-medical-mask
+  name: розвантажувальна-група-медична-маска
   minLimit: 0
   loadouts:
   - SterileMask
@@ -1829,7 +1829,7 @@
 
 - type: loadoutGroup
   id: MedicalInternJumpsuit
-  name: loadout-group-medical-intern-jumpsuit
+  name: комбінезон-групи-медика-інтерна
   loadouts:
   - MedicalBlueScrubs # DeltaV
   - WhiteJumpsuit
@@ -1844,7 +1844,7 @@
 
 - type: loadoutGroup
   id: ChemistJumpsuit
-  name: loadout-group-chemist-jumpsuit
+  name: loadout-group-хімік-комбінезон
   loadouts:
   - ChemistJumpsuit
   - ChemistJumpskirt
@@ -1859,7 +1859,7 @@
 
 - type: loadoutGroup
   id: ChemistOuterClothing
-  name: loadout-group-chemist-outerclothing
+  name: loadout-group-chemist-верхній одяг
   minLimit: 0
   loadouts:
   - RegularLabCoat
@@ -1872,7 +1872,7 @@
 
 - type: loadoutGroup
   id: ChemistBackpack
-  name: loadout-group-chemist-backpack
+  name: loadout-group-хімік-рюкзак
   loadouts:
   - ChemistBackpack
   - ChemistSatchel
@@ -1887,7 +1887,7 @@
 
 - type: loadoutGroup
   id: ParamedicHead
-  name: loadout-group-paramedic-head
+  name: група-навантаження-фельдшер-зав
   minLimit: 0
   loadouts:
   - ParamedicHead
@@ -1895,7 +1895,7 @@
 
 - type: loadoutGroup
   id: ParamedicJumpsuit
-  name: loadout-group-paramedic-jumpsuit
+  name: loadout-group-фельдшер-комбінезон
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
@@ -1904,7 +1904,7 @@
 
 - type: loadoutGroup
   id: ParamedicOuterClothing
-  name: loadout-group-paramedic-outerclothing
+  name: loadout-group-фельдшер-верхній одяг
   minLimit: 0
   loadouts:
   - ParamedicWindbreaker
@@ -1913,7 +1913,7 @@
 
 - type: loadoutGroup
   id: ParamedicShoes
-  name: loadout-group-paramedic-shoes
+  name: loadout-group-фельдшерське взуття
   loadouts:
   - BlueShoes
   - WhiteShoes
@@ -1932,7 +1932,7 @@
 
 - type: loadoutGroup
   id: MedicalEyewear
-  name: loadout-group-medical-glasses
+  name: loadout-group-медичні-окуляри
   minLimit: 0
   loadouts:
   - MedicalHud
@@ -1957,7 +1957,7 @@
 # Wildcards
 - type: loadoutGroup
   id: ReporterJumpsuit
-  name: loadout-group-reporter-jumpsuit
+  name: loadout-group-репортер-комбінезон
   loadouts:
   - ReporterJumpsuit
   - JournalistJumpsuit
@@ -1973,7 +1973,7 @@
 
 - type: loadoutGroup
   id: PsychologistJumpsuit
-  name: loadout-group-psychologist-jumpsuit
+  name: loadout-group-психолог-комбінезон
   loadouts:
   - PsychologistJumpsuit
   - PsychologistJumpskirt

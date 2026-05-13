@@ -25,7 +25,7 @@
 
 - type: siliconLawset
   id: SiliconPolice
-  name: law-silicon-police-name
+  name: закон-кремній-поліція-назва
   laws:
   - SiliconPolice1
   - SiliconPolice2

@@ -1,8 +1,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobArcticFox
-  name: arctic fox
-  description: Wears a regal coat of snowy elegance, belying its cold and resourceful nature.
+  name: песець
+  description: Носить королівське пальто сніжної елегантності, що заперечує його холодний і винахідливий характер.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -72,15 +72,15 @@
 - type: entity
   parent: SimpleMobBase
   id: MobSecDog
-  name: security dog
-  description: Funnily enough, this pig is actually a dog.
+  name: собака охорони
+  description: Як не дивно, ця свиня насправді собака.
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "sentient security dog"
-    description: "Help out the security team by biting the baddies and barking at everything that moves."
+    name: "розумна охоронна собака"
+    description: "Допоможіть команді безпеки, кусаючи лиходіїв і гавкаючи на все, що рухається».
   - type: GhostTakeoverAvailable
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -214,7 +214,7 @@
   parent: MobMouse
   id: MobWhimperlet
   name: scrimpering whimperlet
-  description: A pitiful creature. It loses a lot of salt through its tears.
+  description: Жалюгідна істота. Через сльози втрачає багато солі.
   components:
   - type: Body
     prototype: Animal
@@ -315,8 +315,8 @@
 - type: entity
   parent: SimpleMobBase # Not parenting off from MobMothroach to remove the ghost role components
   id: MobMothroachEvil
-  name: mad mothroach
-  description: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches... and it's out for blood.
+  name: божевільний молот
+  description: І, Якір
   components:
   - type: NpcFactionMember
     factions:

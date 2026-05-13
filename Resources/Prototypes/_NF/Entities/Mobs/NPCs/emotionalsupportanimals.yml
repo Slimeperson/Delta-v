@@ -52,7 +52,7 @@
     horizontalRotation: 90
 
 - type: entity
-  suffix: Ghost
+  suffix: Привид
   parent: [BaseEmotionalGhostCat, MobCat]
   id: MobCatGhost
   components:
@@ -64,7 +64,7 @@
         Base: cat
 
 - type: entity
-  suffix: Ghost
+  suffix: Привид
   parent: [BaseEmotionalGhostCat, MobCatCalico]
   id: MobCatCalicoGhost
   components:
@@ -76,7 +76,7 @@
         Base: cat2
 
 - type: entity
-  suffix: Ghost
+  suffix: Привид
   parent: [BaseEmotionalGhostCat, MobBingus]
   id: MobBingusGhost
   components:
@@ -88,7 +88,7 @@
         Base: bingus
 
 - type: entity
-  suffix: Ghost
+  suffix: Привид
   parent: [BaseEmotionalGhostCat, MobCatCaracal]
   id: MobCatCaracalGhost
   components:
@@ -102,7 +102,7 @@
     templateId: nfpet # Broken hats
 
 - type: entity
-  suffix: Ghost
+  suffix: Привид
   parent: [BaseEmotionalGhostCat, MobCatSpace]
   id: MobCatSpaceGhost
   components:

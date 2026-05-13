@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSalvage
   id: ClothingBackpackDuffelSalvageConscription
-  name: mining conscription kit
-  description: A duffel bag containing everything a crewmember needs to support a shaft miner in the field.
+  name: гірничий призовний комплект
+  description: Речовий мішок, що містить усе необхідне члену екіпажу для підтримки шахтаря в полі.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateFilledAutodoc
-  name: syndicate autodoc bundle
-  description: A large duffel bag containing parts for a sinister-looking Mk. XIV Autodoc.
+  name: пакет autodoc синдикату
+  description: Великий речовий мішок, що містить деталі для зловісного вигляду Mk. XIV Автодок.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingBackpackDuffelMedical
   id: ClothingBackpackDuffelRecruiterInterdyne
-  suffix: Interdyne, Uniform
+  suffix: Охорона, зачинено
   components:
   - type: EntityTableContainerFill
     containers:

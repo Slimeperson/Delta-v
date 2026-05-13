@@ -1,7 +1,7 @@
 - type: entity
   parent: AirlockCargo
   id: AirlockMailLocked
-  suffix: Mail, Locked
+  suffix: Пошта, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -10,7 +10,7 @@
 - type: entity
   parent: AirlockCargoGlass
   id: AirlockMailGlassLocked
-  suffix: Mail, Locked
+  suffix: Пошта, заблоковано
   components:
   - type: ContainerFill
     containers:
@@ -19,7 +19,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintMailLocked
-  suffix: Mail, Locked
+  suffix: Пошта, заблоковано
   components:
   - type: ContainerFill
     containers:

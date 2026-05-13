@@ -1,8 +1,8 @@
 ent-FoodCrateKvassTank = { ent-CrateFoodKvassTank }
-.desc = { ent-CrateFoodKvassTank.desc }
+    .desc = { ent-CrateFoodKvassTank.desc }
 
 ent-FoodDonkpocketSavory = { ent-CrateFoodDonkpocketSavory }
-.desc = { ent-CrateFoodDonkpocketSavory.desc }
+    .desc = { ent-CrateFoodDonkpocketSavory.desc }
 
 ent-FoodDonkpocketSweet = { ent-CrateFoodDonkpocketSweet }
-.desc = { ent-CrateFoodDonkpocketSweet.desc }
+    .desc = { ent-CrateFoodDonkpocketSweet.desc }

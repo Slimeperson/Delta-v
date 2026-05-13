@@ -238,7 +238,7 @@
 - type: entity
   parent: Holopad
   id: HolopadGeneralArcade
-  suffix: Arcade
+  suffix: Аркада
   components:
   - type: Label
     currentLabel: holopad-general-arcade
@@ -263,7 +263,7 @@
 - type: entity
   parent: HolopadCommand # DeltaV
   id: HolopadCommandBridge
-  suffix: Bridge
+  suffix: Міст
   components:
   - type: Label
     currentLabel: holopad-command-bridge
@@ -303,7 +303,7 @@
 - type: entity
   parent: Holopad
   id: HolopadCommandCaptain
-  suffix: Captain
+  suffix: Капітан
   components:
   - type: Label
     currentLabel: holopad-command-captain
@@ -404,7 +404,7 @@
 - type: entity
   parent: Holopad
   id: HolopadScienceRobotics
-  suffix: Robotics
+  suffix: Робототехніка
   components:
   - type: Label
     currentLabel: holopad-epistemics-robotics # DeltaV - Science > Epistemics
@@ -465,7 +465,7 @@
 - type: entity
   parent: Holopad
   id: HolopadMedicalChemistry
-  suffix: Chemistry
+  suffix: Хімія
   components:
   - type: Label
     currentLabel: holopad-medical-chemistry
@@ -505,7 +505,7 @@
 - type: entity
   parent: Holopad
   id: HolopadMedicalParamed
-  suffix: Paramedic
+  suffix: Фельдшер
   components:
   - type: Label
     currentLabel: holopad-medical-paramedic
@@ -517,7 +517,7 @@
 - type: entity
   parent: HolopadMedical # DeltaV
   id: HolopadMedicalVirology
-  suffix: Virology
+  suffix: Вірусологія
   components:
   - type: Label
     currentLabel: holopad-medical-virology
@@ -700,7 +700,7 @@
 - type: entity
   parent: HolopadSecurity # DeltaV
   id: HolopadSecurityWarden
-  suffix: Warden
+  suffix: наглядач
   components:
   - type: Label
     currentLabel: holopad-security-warden
@@ -724,7 +724,7 @@
 - type: entity
   parent: Holopad
   id: HolopadSecurityDetective
-  suffix: Detective
+  suffix: Детектив
   components:
   - type: Label
     currentLabel: holopad-security-detective
@@ -744,7 +744,7 @@
 - type: entity
   parent: HolopadJustice # DeltaV
   id: HolopadSecurityCourtroom
-  suffix: Courtroom
+  suffix: Зал суду
   components:
   - type: Label
     currentLabel: holopad-security-courtroom
@@ -752,7 +752,7 @@
 - type: entity
   parent: HolopadJustice # DeltaV
   id: HolopadSecurityLawyer
-  suffix: Attorney # DeltaV - Lawyer > Attorney
+  suffix: Адвокат # DeltaV - Юрист > Адвокат
   components:
   - type: Label
     currentLabel: holopad-justice-attorney # DeltaV - Lawyer > Attorney
@@ -760,7 +760,7 @@
 - type: entity
   parent: HolopadSecurity # DeltaV
   id: HolopadSecurityArmory
-  suffix: Armory
+  suffix: Збройова палата
   components:
   - type: Label
     currentLabel: holopad-security-armory
@@ -771,7 +771,7 @@
 - type: entity
   parent: HolopadSecurity # DeltaV
   id: HolopadSecurityEvacCheckpoint
-  suffix: Sec Evac Checkpoint
+  suffix: Контрольно-пропускний пункт Sec Evac
   components:
   - type: Label
     currentLabel: holopad-security-evac-checkpoint
@@ -779,7 +779,7 @@
 - type: entity
   parent: HolopadSecurity # DeltaV
   id: HolopadSecurityArrivalsCheckpoint
-  suffix: Sec Arrivals Checkpoint
+  suffix: Контрольно-пропускний пункт прибуття
   components:
   - type: Label
     currentLabel: holopad-security-arrivals-checkpoint
@@ -788,7 +788,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceJanitor
-  suffix: Janitor
+  suffix: Двірник
   components:
   - type: Label
     currentLabel: holopad-service-janitor
@@ -800,7 +800,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceBar
-  suffix: Bar
+  suffix: Бар
   components:
   - type: Label
     currentLabel: holopad-service-bar
@@ -812,7 +812,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceKitchen
-  suffix: Kitchen
+  suffix: кухня
   components:
   - type: Label
     currentLabel: holopad-service-kitchen
@@ -824,7 +824,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceBotany
-  suffix: Botany
+  suffix: Ботаніка
   components:
   - type: Label
     currentLabel: holopad-service-botany
@@ -836,7 +836,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceChapel
-  suffix: Chapel
+  suffix: Каплиця
   components:
   - type: Label
     currentLabel: holopad-service-chapel
@@ -848,7 +848,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceLibrary
-  suffix: Library
+  suffix: Бібліотека
   components:
   - type: Label
     currentLabel: holopad-service-library
@@ -860,7 +860,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceGameRoom
-  suffix: Service Game Room # DeltaV - Clarification
+  suffix: Сервіс Ігрова кімната # DeltaV - Уточнення
   components:
   - type: Label
     currentLabel: holopad-service-gameroom
@@ -868,7 +868,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceNewsroom
-  suffix: Newsroom
+  suffix: Новини
   components:
   - type: Label
     currentLabel: holopad-service-newsroom
@@ -880,7 +880,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceZookeeper
-  suffix: Zookeeper
+  suffix: Доглядач зоопарку
   components:
   - type: Label
     currentLabel: holopad-service-zookeeper
@@ -892,7 +892,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceBoxer
-  suffix: Boxer
+  suffix: Боксер
   components:
   - type: Label
     currentLabel: holopad-service-boxer
@@ -904,7 +904,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceClown
-  suffix: Clown
+  suffix: Клоун
   components:
   - type: Label
     currentLabel: holopad-service-clown
@@ -916,7 +916,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceMusician
-  suffix: Musician
+  suffix: Музикант
   components:
   - type: Label
     currentLabel: holopad-service-musician
@@ -928,7 +928,7 @@
 - type: entity
   parent: Holopad
   id: HolopadServiceMime
-  suffix: Mime
+  suffix: Мім
   components:
   - type: Label
     currentLabel: holopad-service-mime
@@ -941,7 +941,7 @@
 - type: entity
   parent: Holopad
   id: HolopadAiCore
-  suffix: AI Core
+  suffix: Ядро ШІ
   components:
   - type: Label
     currentLabel: holopad-ai-core
@@ -949,7 +949,7 @@
 - type: entity
   parent: Holopad
   id: HolopadAiMain
-  suffix: AI Main
+  suffix: AI Головний
   components:
   - type: Label
     currentLabel: holopad-ai-main
@@ -965,7 +965,7 @@
 - type: entity
   parent: Holopad
   id: HolopadAiBackupPower
-  suffix: AI Backup Power
+  suffix: Резервне живлення AI
   components:
   - type: Label
     currentLabel: holopad-ai-backup-power
@@ -973,7 +973,7 @@
 - type: entity
   parent: Holopad
   id: HolopadAiEntrance
-  suffix: AI Entrance
+  suffix: AI Вхід
   components:
   - type: Label
     currentLabel: holopad-ai-entrance
@@ -981,7 +981,7 @@
 - type: entity
   parent: Holopad
   id: HolopadAiChute
-  suffix: AI Chute
+  suffix: А. І. Жолоб
   components:
   - type: Label
     currentLabel: holopad-ai-chute
@@ -998,7 +998,7 @@
 - type: entity
   parent: [HolopadLongRange, HolopadCommand] # DeltaV
   id: HolopadCommandBridgeLongRange
-  suffix: Station Bridge
+  suffix: Станційний міст
   components:
   - type: Label
     currentLabel: holopad-station-bridge
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: [HolopadLongRange, HolopadLogistics] # DeltaV
   id: HolopadCargoBayLongRange
-  suffix: Station Cargo Bay
+  suffix: Вантажний відсік станції
   components:
   - type: Label
     currentLabel: holopad-station-cargo-bay
@@ -1014,7 +1014,7 @@
 - type: entity
   parent: HolopadLongRange
   id: HolopadCargoShuttle
-  suffix: Cargo Shuttle
+  suffix: Вантажний трансфер
   components:
   - type: Label
     currentLabel: holopad-cargo-shuttle

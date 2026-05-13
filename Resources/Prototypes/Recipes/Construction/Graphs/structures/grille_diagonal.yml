@@ -7,7 +7,7 @@
         - to: grilleDiagonal
           completed:
             - !type:AdminLog
-              message: "Construction"
+              message: "Будівництво"
               impact: High
           steps:
             - material: MetalRod
@@ -17,7 +17,7 @@
         - to: clockworkGrilleDiagonal
           completed:
             - !type:AdminLog
-              message: "Construction"
+              message: "Будівництво"
               impact: High
           steps:
             - material: MetalRod
@@ -30,7 +30,7 @@
         - to: start
           completed:
             - !type:AdminLog
-              message: "A grille was cut"
+              message: "Зрізали решітку»
             - !type:SpawnPrototype
               prototype: PartRodMetal1
               amount: 2
@@ -45,7 +45,7 @@
         - to: start
           completed:
             - !type:AdminLog
-              message: "A grille was cut"
+              message: "Зрізали решітку»
             - !type:SpawnPrototype
               prototype: PartRodMetal1
               amount: 2

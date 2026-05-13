@@ -8,7 +8,7 @@ species-name-diona = Діона
 species-name-arachnid = Арахнід
 species-name-moth = Моль
 species-name-skeleton = Скелет
-species-name-vox = Vox
+species-name-vox = {
 
 ## Misc species things
 

@@ -48,7 +48,7 @@
       steps:
       - component: DoorElectronics
         store: board
-        name: construction-graph-component-door-electronics-circuit-board
+        name: конструкція-граф-компонент-двері-електроніка-друкована плата
         icon:
           sprite: "Objects/Misc/module.rsi"
           state: "door_electronics"

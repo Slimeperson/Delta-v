@@ -1,8 +1,8 @@
 - type: entity
   id: DoorCosmicCult
   parent: BaseMaterialDoorNavMap
-  name: malign passageway
-  description: A strange, disquieting structure.
+  name: Огидна злоякісна аномалія. Груба ентропія сочиться вперед, виявляючи її нестабільність.
+  description: Дивна, тривожна структура.
   components:
   - type: Sprite
     sprite: _DV/CosmicCult/Tileset/cosmicdoor.rsi

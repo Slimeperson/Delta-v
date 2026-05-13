@@ -1,7 +1,7 @@
 - type: job
   id: CargoTechnician
   name: job-name-cargotech
-  description: job-description-cargotech
+  description: посадова інструкція-вантаж
   playTimeTracker: JobCargoTechnician
   antagAdvantage: 2 # DeltaV - Reduced TC: free shuttle, ez salvage shit, semi-free guns
   startingGear: CargoTechGear

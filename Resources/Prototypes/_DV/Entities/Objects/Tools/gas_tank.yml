@@ -58,7 +58,7 @@
 - type: entity
   parent: OxygenTank
   id: OxygenTankERT
-  name: ERT oxygen tank
+  name: ERT кисневий балон
   description: A cylindrical gas tank for oxygen, worn by Emergency Response Team members. It can hold 5 L of gas.
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: NitrogenTank
   id: NitrogenTankERT
-  name: ERT nitrogen tank
+  name: Резервуар для азоту ERT
   description: A cylindrical gas tank for nitrogen, worn by Emergency Response Team members. It can hold 5 L of gas.
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 - type: entity
   parent: WaterVaporTank
   id: WaterVaporTankERT
-  name: ERT water vapor tank
+  name: Резервуар для водяної пари ERT
   description: A cylindrical gas tank for water vapor, worn by Emergency Response Team members. It can hold 5 L of gas.
   components:
   - type: Sprite

@@ -16,7 +16,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyRipley
-  name: ripley toy
+  name: іграшка Ріплі
   description: Mini-Mecha action figure! 'Mecha No. 1/12' is written on the back.
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyFireRipley
-  name: fire ripley
+  name: вогонь Ріплі
   description: Mini-Mecha action figure! 'Mecha No. 2/12' is written on the back.
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDeathRipley
-  name: deathripley toy
+  name: іграшка Deathripley
   description: Mini-Mecha action figure! 'Mecha No. 3/12' is written on the back.
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyGygax
-  name: gygax toy
+  name: іграшка gygax
   description: Mini-Mecha action figure! 'Mecha No. 4/12' is written on the back.
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDurand
-  name: durand toy
+  name: дюрандова іграшка
   description: Mini-Mecha action figure! 'Mecha No. 5/12' is written on the back.
   components:
   - type: Sprite
@@ -156,7 +156,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyHonk
-  name: H.O.N.K. toy
+  name: H.O.N.K. іграшка
   description: Mini-Mecha action figure! 'Mecha No. 6/12' is written on the back.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMarauder
-  name: marauder toy
+  name: іграшка-мародер
   description: Mini-Mecha action figure! 'Mecha No. 7/12' is written on the back.
   components:
   - type: Sprite
@@ -212,7 +212,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToySeraph
-  name: seraph toy
+  name: іграшка серафім
   description: Mini-Mecha action figure! 'Mecha No. 8/12' is written on the back.
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMauler
-  name: mauler toy
+  name: іграшка молотка
   description: Mini-Mecha action figure! 'Mecha No. 9/12' is written on the back.
   components:
   - type: Sprite
@@ -268,7 +268,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyOdysseus
-  name: odysseus toy
+  name: іграшка одіссея
   description: Mini-Mecha action figure! 'Mecha No. 10/12' is written on the back.
   components:
   - type: Sprite
@@ -296,7 +296,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyPhazon
-  name: phazon toy
+  name: іграшка фазон
   description: Mini-Mecha action figure! 'Mecha No. 11/12' is written on the back.
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyReticence
-  name: reticence toy
+  name: стриманість іграшки
   description: Mini-Mecha action figure! 'Mecha No. 12/12' is written on the back.
   components:
   - type: Sprite

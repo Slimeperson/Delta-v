@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseBlueprint
-  name: blueprint
-  description: A blueprint for some machine. It can be inserted into an autolathe.
+  name: креслення
+  description: PKA modkit (швидкість вогню)
   abstract: true
   components:
   - type: Sprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintFulton
-  name: fulton blueprint
-  description: A blueprint with a schematic of a fulton. It can be inserted into an autolathe.
+  name: план Фултона
+  description: План зі схемою фултона. Його можна вставити в токарний верстат.
   components:
   - type: Blueprint
     providedRecipes:
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintSeismicCharge
-  name: seismic charge blueprint
-  description: A blueprint with a schematic of a seismic charge. It can be inserted into an autolathe.
+  name: план сейсмічного заряду
+  description: План зі схемою сейсмічного заряду. Його можна вставити в токарний верстат.
   components:
   - type: Blueprint
     providedRecipes:
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintDoubleEmergencyTank
-  name: double emergency tank blueprint
-  description: A blueprint with a schematic of a double emergency tank. It can be inserted into an autolathe.
+  name: проект подвійного аварійного резервуара
+  description: План зі схемою подвійної аварійної ємності. Його можна вставити в токарний верстат.
   components:
   - type: Blueprint
     providedRecipes:

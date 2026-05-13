@@ -5,7 +5,7 @@ replay-loading-reading = сварка
 replay-loading-processing = Обробка файлів
 replay-loading-spawning = Суб'єкти породження
 replay-loading-initializing = Ініціалізація сутностей
-replay-loading-starting= Starting Entities
+replay-loading-starting = Початкові сутності
 replay-loading-failed = Не вдалося завантажити повтор. Помилка:
                         {$reason}
 replay-loading-retry = Спробуйте завантажити з більшою толерантністю до винятків - МОЖУТЬ Спричинити ПОМИЛКИ!

@@ -3,8 +3,8 @@
   alias:
   - conspirators
   - conspirator
-  name: conspiracy-title
-  description: conspiracy-description
+  name: змова-титул
+  description: змова-опис
   showInVote: false # secret
   rules:
   - Conspirators

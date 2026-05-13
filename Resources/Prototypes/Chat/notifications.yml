@@ -15,7 +15,7 @@
 
 - type: chatNotification
   id: AiWireSnipped
-  message: ai-wire-snipped
+  message: ai-wire-nipped
   color: Pink
   nextDelay: 12
   notifyBySource: true

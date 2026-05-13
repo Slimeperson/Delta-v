@@ -1,7 +1,7 @@
 - type: entity
   id: BaseShutter
   parent: BaseStructure
-  name: shutter
+  name: затвор
   abstract: true
   description: One shudders to think about what might be behind this shutter.
   placement:
@@ -119,7 +119,7 @@
 - type: entity
   id: ShuttersNormalOpen
   parent: ShuttersNormal
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Door
     state: Open
@@ -157,7 +157,7 @@
 - type: entity
   id: ShuttersRadiationOpen
   parent: ShuttersRadiation
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Door
     state: Open
@@ -194,7 +194,7 @@
 - type: entity
   id: ShuttersWindowOpen
   parent: ShuttersWindow
-  suffix: Open
+  suffix: ВІДЧИНЕНО
   components:
   - type: Door
     state: Open

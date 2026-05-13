@@ -13,32 +13,32 @@
 - type: entity
   parent: [ PartHarpyBase, BaseTorso ]
   id: TorsoHarpy
-  name: "harpy torso"
+  name: "тулуб гарпії"
 
 - type: entity
   parent: [ PartHarpyBase, BaseHead ]
   id: HeadHarpy
-  name: "harpy head"
+  name: "голова гарпії"
 
 - type: entity
   parent: [ PartHarpyBase, BaseLeftArm ]
   id: LeftArmHarpy
-  name: "left harpy arm"
+  name: "ліва рука гарпії"
 
 - type: entity
   parent: [ PartHarpyBase, BaseRightArm ]
   id: RightArmHarpy
-  name: "right harpy arm"
+  name: "права рука гарпії"
 
 - type: entity
   parent: [ PartHarpyBase, BaseLeftHand ]
   id: LeftHandHarpy
-  name: "left harpy hand"
+  name: "ліва гарпія"
 
 - type: entity
   parent: [ PartHarpyBase, BaseRightHand ]
   id: RightHandHarpy
-  name: "right harpy hand"
+  name: "права гарпія"
 
 - type: entity
   abstract: true
@@ -52,19 +52,19 @@
 - type: entity
   parent: [ BaseHarpyLeg, BaseLeftLeg ]
   id: LeftLegHarpy
-  name: "left harpy leg"
+  name: "ліва нога гарпії"
 
 - type: entity
   parent: [ BaseHarpyLeg, BaseRightLeg ]
   id: RightLegHarpy
-  name: "right harpy leg"
+  name: "права нога гарпії"
 
 - type: entity
   parent: [ PartHarpyBase, BaseLeftFoot ]
   id: LeftFootHarpy
-  name: "left harpy foot"
+  name: "ліва гарпійна нога"
 
 - type: entity
   parent: [ PartHarpyBase, BaseRightFoot ]
   id: RightFootHarpy
-  name: "right harpy foot"
+  name: "права нога гарпії"

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestValet
-  name: valet vest
-  description: A goofy red vest almost certainly designed with the sole purpose of being demeaning.
+  name: камердинерський жилет
+  description: Кому потрібні фрукти чи овочі? ЇЖ М'ЯСО! Нарощуйте ці м’язи та вирушайте в бій на арені, щоб показати їх успіхи!»
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Vests/valet.rsi

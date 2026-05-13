@@ -6,7 +6,7 @@ marking-OniHornTallCurved3Tone-tall_curved_3tone_1 = Нижня третина
 marking-OniHornTallCurved3Tone-tall_curved_3tone_2 = Середня терція
 marking-OniHornTallCurved3Tone-tall_curved_3tone_3 = Верхня Третя
 
-marking-OniHornTallBull= Tall Bull
+marking-OniHornTallBull = Високий Бик
 marking-OniHornTallBull-tall_bull = Високий бик
 
 marking-OniHornTallBull3Tone = Високий бик (три тони)

@@ -1,6 +1,6 @@
 - type: species
   id: Kobold
-  name: species-name-kobold
+  name: вид-назва-кобольд
   roundStart: false # sad...
   prototype: MobKobold
   sprites: MobKoboldSprites

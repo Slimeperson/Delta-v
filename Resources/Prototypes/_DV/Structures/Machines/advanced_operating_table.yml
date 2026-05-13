@@ -1,8 +1,8 @@
 - type: entity
   id: OperatingTableAdvanced
   parent: [ OperatingTable, MedicalBed ]
-  name: advanced operating table
-  description: An operating table specially built to keep the patient precisely still, allowing the surgeon to work faster with confidence.
+  name: вдосконалений операційний стіл
+  description: Операційний стіл, спеціально створений для того, щоб пацієнт утримувався нерухомо, дозволяючи хірургу працювати швидше та впевненіше.
   components:
   - type: Machine
     board: OperatingTableAdvancedCircuitboard

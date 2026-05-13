@@ -1,9 +1,9 @@
 ﻿- type: entity
   id: BaseElectronics
   parent: BaseItem
-  name: base electronics
+  name: базова електроніка
   abstract: true
-  suffix: Electronics
+  suffix: електроніка
   components:
   - type: Item
     storedRotation: -90

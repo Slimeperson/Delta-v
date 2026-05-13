@@ -1,7 +1,7 @@
 ﻿- type: job
   id: TechnicalAssistant
-  name: job-name-technical-assistant
-  description: job-description-technical-assistant
+  name: робота-назва-технічного-помічника
+  description: посадова інструкція-технічний помічник
   playTimeTracker: JobTechnicalAssistant
   antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Engineering
   requirements:

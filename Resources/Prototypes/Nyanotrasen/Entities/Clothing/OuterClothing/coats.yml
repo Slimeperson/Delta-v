@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMantis
-  name: psionic mantis' jacket # DeltaV - Rename Forensic Mantis to Psionic Mantis
-  description: Modeled after an ancient infantry uniform, this jacket may guard you against the unknown in your journey for the truth.
+  name: куртка псіонічного богомола # DeltaV — перейменуйте Forensic Mantis на Psionic Mantis
+  description: Створена за зразком старовинної піхотної форми, ця куртка може захистити вас від невідомого у вашій подорожі за правдою.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Coats/mantis_jacket.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRndMysta
-  name: mystagogue lab coat # Delta V - Mystagogue new coat
-  description: Similar to the standard model but with more purple and gold. # Delta V - Mystagogue new coat
+  name: пояс псіонічного богомола # DeltaV — перейменуйте Forensic Mantis у Psionic Mantis
+  description: Подібний до стандартної моделі, але з більшою кількістю фіолетового та золотого кольорів. # Delta V - нове пальто Mystagogue
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Coats/mystacoat.rsi

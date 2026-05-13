@@ -1,8 +1,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateTrafficKey
-  name: traffic key crate
-  description: Contains a box of traffic keys
+  name: трафік ключовий ящик
+  description: Містить коробку з дорожніми ключами
   components:
   - type: EntityTableContainerFill
     containers:

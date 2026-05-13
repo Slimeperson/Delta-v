@@ -74,7 +74,7 @@
 #currently mechs don't support upgrading. add them back in once that's squared away.
 
       - component: PowerCell
-        name: construction-graph-component-power-cell
+        name: конструкція-граф-компонент-сила-елемент
         store: battery-container
         icon:
           sprite: Objects/Power/power_cells.rsi

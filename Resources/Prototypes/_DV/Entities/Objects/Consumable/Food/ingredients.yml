@@ -1,8 +1,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSalt
-  name: salt container
-  description: A big container of salt. Good for cooking!
+  name: контейнер для солі
+  description: Велика ємність солі. Добре підходить для приготування!
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Food/ingredients.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerPepper
-  name: pepper container
-  description: A big container of pepper. Good for cooking!
+  name: ємність для перцю
+  description: Велика ємність перцю. Добре підходить для приготування!
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Food/ingredients.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerChocolate
-  name: cocoa powder bag
-  description: A big bag of cocoa powder. Good for cooking!
+  name: пакетик какао-порошку
+  description: Великий пакет какао-порошку. Добре підходить для приготування!
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Food/ingredients.rsi

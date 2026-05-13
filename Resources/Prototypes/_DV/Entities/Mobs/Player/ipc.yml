@@ -1,8 +1,8 @@
 - type: entity
   parent: MobIPC
   id: MobIPCTorsoOnly
-  name: ipc chassis
-  suffix: Torso Only
+  name: шасі ipc
+  suffix: Тільки тулуб
   components:
   - type: Body
     prototype: IPCTorsoOnly

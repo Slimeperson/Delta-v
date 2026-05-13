@@ -1,7 +1,7 @@
 - type: vessel
   id: PTS
-  name: NTCI-TR Private Transport Shuttle
-  description: A private transport vessel for up to 6 passengers.
+  name: Приватний трансфер NTCI-TR
+  description: Приватне транспортне судно до 6 пасажирів.
   price: 25000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_pts.yml
   categories:
@@ -11,8 +11,8 @@
 
 - type: vessel
   id: Barge
-  name: NTCI-MI Barge
-  description: A large shipping vessel repurposed into a salvage bar.
+  name: Баржа NTCI-MI
+  description: Велике транспортне судно перепрофілювали на аварійний бар.
   price: 59000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_barge.yml
   categories:
@@ -23,8 +23,8 @@
 
 - type: vessel
   id: Helix
-  name: NTCI-ME Helix
-  description: A large mobile health clinic for servicing distant outposts.
+  name: loadout-group-atmospheric-technician-рюкзак
+  description: Велика мобільна амбулаторія для обслуговування віддалених застав.
   price: 58500
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_helix.yml
   categories:
@@ -34,8 +34,8 @@
 
 - type: vessel
   id: Eden
-  name: NTCI-ME Eden
-  description: A modestly sized botanical garden with a chemistry lab for pushing the bounds of hydroponics.
+  name: NTCI-ME Едем
+  description: Ботанічний сад скромних розмірів із хімічною лабораторією для розширення меж гідропоніки.
   price: 77000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_eden.yml
   categories:
@@ -45,8 +45,8 @@
 
 - type: vessel
   id: Orit
-  name: NTCI-ME Orit
-  description: A small medical vessel designed for the fast search and retrieval of patients in deep space.
+  name: NTCI-ME Орит
+  description: Невелике медичне судно, призначене для швидкого пошуку та вилучення пацієнтів у глибокому космосі.
   price: 36000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_orit.yml
   categories:
@@ -56,8 +56,8 @@
 
 - type: vessel
   id: Miriam
-  name: NTCI-ME Miriam
-  description: A modestly sized medical vessel with all the equipment to operate a cryogenics laboratory.
+  name: Вчений NTCC Marquess
+  description: Медичне судно невеликого розміру з усім обладнанням для роботи кріогенної лабораторії.
   price: 61000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_miriam.yml
   categories:
@@ -67,8 +67,8 @@
 
 - type: vessel
   id: Prospector
-  name: NTCI-MI NT-7-Prospector
-  description: A small mining vessel designed to assist salvage operations.
+  name: NTCI-MI NT-7-Проспектор
+  description: Невелике шахтарське судно, призначене для допомоги в рятувальних операціях.
   price: 29000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_prospector.yml
   categories:
@@ -79,7 +79,7 @@
 - type: vessel
   id: Nomad
   name: NTCI-TR Nomad
-  description: A small shuttle for transporting up to 3 passengers with relative comfort.
+  description: Невеликий шатл для перевезення до 3 пасажирів з відносним комфортом.
   price: 25500
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_nomad.yml
   categories:
@@ -89,8 +89,8 @@
 
 - type: vessel
   id: Tote
-  name: NTCI-SH Tote
-  description: A small shipping vessel, adapted from the Nomad line of shuttles with room for 2 passengers.
+  name: Сумка NTCI-SH
+  description: Невелике морське судно, адаптоване з лінії човників Nomad, з місцем для 2 пасажирів.
   price: 27000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_tote.yml
   categories:
@@ -100,8 +100,8 @@
 
 - type: vessel
   id: Pulse
-  name: NTCI-SH Pulse
-  description: A moderately sized shuttle intended for all-purpose use. It can comfortably accomodate a crew of up to ten people.
+  name: NTCI-SH Пульс
+  description: Човник середнього розміру, призначений для універсального використання. На ньому з комфортом може розміститися екіпаж до десяти осіб.
   price: 62000
   path: /Maps/_DV/Shuttles/Shipyard/ntsy_pulse.yml
   categories:

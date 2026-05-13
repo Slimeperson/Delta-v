@@ -7,7 +7,7 @@
         - to: solarassembly
           steps:
             - tag: SolarAssemblyFlatpack
-              name: construction-graph-tag-solar-assembly-parts
+              name: будівельний-граф-тег-сонячні-складальні частини
               icon:
                 sprite: Objects/Devices/flatpack.rsi
                 state: solar-assembly-part
@@ -57,7 +57,7 @@
             - !type:EntityAnchored
           steps:
             - tag: SolarTrackerElectronics
-              name: construction-graph-tag-solar-tracker-electronics
+              name: будівництво-граф-тег-сонячний-трекер-електроніка
               icon:
                 sprite: Objects/Misc/module.rsi
                 state: engineering

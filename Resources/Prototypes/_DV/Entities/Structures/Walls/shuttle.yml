@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWall
   id: WallShuttleInterior
-  name: shuttle wall
-  suffix: Interior
+  name: човникова стінка
+  suffix: Інтер'єр
   components:
   - type: RCDDeconstructable
     cost: 6

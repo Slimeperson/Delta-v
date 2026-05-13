@@ -1,8 +1,8 @@
 - type: entity
   parent: MaterialBase
   id: CrushedPhosphorus
-  name: crushed phosphorus
-  suffix: Full
+  name: подрібненого фосфору
+  suffix: Повний
   components:
   - type: Material
   - type: Stack
@@ -35,7 +35,7 @@
 - type: entity
   parent: CrushedPhosphorus
   id: CrushedPhosphorus1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Sprite
     state: phosphorus

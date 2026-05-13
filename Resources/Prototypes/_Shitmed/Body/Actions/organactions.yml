@@ -3,7 +3,7 @@
 - type: entity
   id: ActionGoliathTentacleCrew
   name: "[color=red]Tentacle Slam[/color]"
-  description: Use your tentacles to grab and stun a target player!
+  description: Використовуйте свої щупальця, щоб схопити та приголомшити цільового гравця!
   components:
   - type: Action
     icon:

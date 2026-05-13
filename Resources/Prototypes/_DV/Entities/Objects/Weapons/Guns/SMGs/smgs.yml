@@ -2,7 +2,7 @@
   name: Typewriter
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunTypewriter
-  description: A modern take on the classic design used by mobsters throughout space and time. Types .35 auto ammo.
+  description: Сучасний погляд на класичний дизайн, який використовується бандитами в просторі та часі. Типи автоматичних патронів .35.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi
@@ -28,7 +28,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -37,7 +37,7 @@
           tags:
             - MagazinePistolSubMachineGun
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -50,10 +50,10 @@
   - type: Appearance
 
 - type: entity
-  name: Patos
+  name: Патос
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunPatos
-  description: A compact and lightweight personal defense weapon, with an aggressive compensator. Uses .35 auto ammo.
+  description: проклята коса
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/SMGs/patos.rsi
@@ -90,7 +90,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -100,7 +100,7 @@
           - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: CartridgePistol
         priority: 1
         whitelist:

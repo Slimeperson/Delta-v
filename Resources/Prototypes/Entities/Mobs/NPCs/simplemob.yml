@@ -5,7 +5,7 @@
   - MobDamageable
   - MobPolymorphable
   id: BaseSimpleMob
-  suffix: AI
+  suffix: ШІ
   abstract: true
   components:
   - type: Reactive
@@ -43,7 +43,7 @@
   - MobBloodstream
   - MobFlammable
   id: SimpleSpaceMobBase # Mob without barotrauma, freezing and asphyxiation (for space carps!?)
-  suffix: AI
+  suffix: ШІ
   components:
   - type: NpcFactionMember
     factions:
@@ -73,7 +73,7 @@
   - MobAtmosStandard
   - SimpleSpaceMobBase
   id: SimpleMobBase # for air breathers
-  suffix: AI
+  suffix: ШІ
   abstract: true
   components:
   - type: Hunger

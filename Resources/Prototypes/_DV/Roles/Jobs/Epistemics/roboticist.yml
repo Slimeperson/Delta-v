@@ -1,7 +1,7 @@
 - type: job
   id: Roboticist
-  name: job-name-roboticist
-  description: job-description-roboticist
+  name: робота-назва-роботехніка
+  description: посадова інструкція-роботехнік
   playTimeTracker: JobRoboticist
   antagAdvantage: 4 # The shadow factory
   requirements:

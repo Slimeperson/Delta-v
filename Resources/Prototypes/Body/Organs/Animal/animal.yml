@@ -26,7 +26,7 @@
 - type: entity
   id: OrganAnimalLungs
   parent: BaseAnimalOrgan
-  name: animal lungs
+  name: легені тварини
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   id: OrganAnimalStomach
   parent: BaseAnimalOrgan
-  name: animal stomach
+  name: шлунок тварини
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   id: OrganMouseStomach
   parent: OrganAnimalStomach
-  name: mouse stomach # DeltaV
+  name: мишачий шлунок # DeltaV
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
@@ -110,7 +110,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
-  name: animal liver
+  name: скринька шифрування логістики # DeltaV - відділ логістики замінює Cargo
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 - type: entity
   id: OrganAnimalHeart
   parent: BaseAnimalOrgan
-  name: animal heart
+  name: серце тварини
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
 - type: entity
   id: OrganAnimalKidneys
   parent: BaseAnimalOrgan
-  name: animal kidneys
+  name: нирки тварин
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: cell recharger
-  description: An older model recharger that can recharge power cells.
+  name: зарядний пристрій
+  description: Там, у країні лави та попелу, можна готувати зефір і картоплю.
   components:
   - type: Sprite
     sprite: Structures/Power/cell_recharger.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
-  name: cage recharger
-  description: A specialized machine made for recharging the heavy cage batteries used by ship-mounted weapons.
+  name: зарядний пристрій для клітки
+  description: ім'я-реагенту-пташка-джунглів
   components:
   - type: Fixtures
     fixtures:
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
-  name: recharger
-  description: A modern recharging station that can fit both power cells and small electronic devices.
+  name: зарядний пристрій
+  description: Сучасна зарядна станція, яка може вмістити як елементи живлення, так і маленькі електронні пристрої.
   components:
 # Begin DeltaV Changes - Directional Sprite
   - type: Sprite
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: TurboItemRecharger
-  name: turbo recharger
-  description: An overclocked recharger. Not recommended for use around asthmatics.
+  name: турбонаповнювач
+  description: Розігнаний зарядний пристрій. Не рекомендується використовувати в оточенні астматиків.
   components:
 # Begin DeltaV Changes - Directional Sprite
   - type: Sprite
@@ -221,8 +221,8 @@
 - type: entity
   parent: [ BaseItemRecharger, BaseWallmount ]
   id: WallWeaponCapacitorRecharger
-  name: wall recharger
-  description: A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
+  name: настінний зарядний пристрій
+  description: Компактний настінний зарядний пристрій. Він може лише заряджати електронні пристрої та не має місця для елементів живлення.
   components:
 # Begin DeltaV Changes - Directional Sprite
   - type: Rotatable
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseRecharger
   id: BorgCharger
-  name: cyborg recharging station
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: станція підзарядки кіборг
+  description: Стаціонарний зарядний пристрій для різних роботів і кіборгів. Напрочуд просторий.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi
@@ -334,8 +334,8 @@
 - type: entity
   parent: BorgCharger
   id: BorgChargerXenoborg
-  name: xenoborg recharging station
-  description: A stationary charger for xenoborgs. Feels claustrophobic.
+  name: станція підзарядки xenoborg
+  description: Стаціонарний зарядний пристрій для ксеноборгів. Відчуває клаустрофобію.
   components:
   - type: Sprite
     sprite: Structures/Power/xenoborg_charger.rsi

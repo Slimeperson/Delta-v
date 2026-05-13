@@ -1,8 +1,8 @@
 - type: entity
   id: WashingMachine
   parent: BaseStructureDynamic
-  name: washing machine
-  description: A machine that washes clothes with a spinning steel drum in a shiny frame.
+  name: пральна машина
+  description: Машина для прання одягу з обертовим сталевим барабаном у блискучій рамі.
   components:
   - type: Sprite
     noRot: true
@@ -133,9 +133,9 @@
 - type: entity
   id: WashingMachineBroken
   parent: WashingMachine
-  name: washing machine
-  suffix: broken
-  description: A shattered mess of glass and steel that won't be washing anything anytime soon. It looks dusty.
+  name: пральна машина
+  suffix: зламаний
+  description: Розбитий безлад зі скла та сталі, який найближчим часом нічого не митиме. Виглядає запорошеним.
   components:
   - type: Sprite
     layers:
@@ -183,8 +183,8 @@
 - type: entity
   id: WashingMachineFilledClothes
   parent: WashingMachine
-  name: washing machine
-  suffix: random clothes
+  name: пральна машина
+  suffix: випадковий одяг
   components:
   - type: EntityTableContainerFill
     containers:

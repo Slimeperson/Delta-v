@@ -7,7 +7,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenIncision
-  name: Open Incision
+  name: Відкритий розріз
   components:
   - type: Surgery
     steps:
@@ -19,7 +19,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryCloseIncision
-  name: Close Incision
+  name: Закрити розріз
   components:
   - type: Surgery
     priority: 1
@@ -32,7 +32,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenRibcage
-  name: Open Ribcage
+  name: Відкрийте грудну клітку
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -45,7 +45,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemovePart
-  name: Remove Part
+  name: revenant-blood-writing-name
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -64,7 +64,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachHead
-  name: Attach Head
+  name: Прикріпити голову
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -80,7 +80,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftArm
-  name: Attach Left Arm
+  name: Прикріпіть ліву руку
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -97,7 +97,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightArm
-  name: Attach Right Arm
+  name: Прикріпіть праву руку
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -114,7 +114,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLegs
-  name: Attach Legs
+  name: Прикріпіть ніжки
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -131,7 +131,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftLeg
-  name: Attach Left Leg
+  name: Прикріпіть ліву ногу
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -148,7 +148,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightLeg
-  name: Attach Right Leg
+  name: Прикріпіть праву ногу
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -165,7 +165,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachHands
-  name: Attach Hands
+  name: uplink-вогнемет-desc
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -181,7 +181,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftHand
-  name: Attach Left Hand
+  name: Прикріпіть ліву руку
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -199,7 +199,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightHand
-  name: Attach Right Hand
+  name: Прикріпіть праву руку
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -217,7 +217,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachFeet
-  name: Attach Feet
+  name: Прикріпіть ніжки
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -234,7 +234,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftFoot
-  name: Attach Left Foot
+  name: Прикріпіть ліву ногу
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -252,7 +252,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightFoot
-  name: Attach Right Foot
+  name: Прикріпіть праву ногу
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -270,7 +270,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachTail
-  name: Attach Tail
+  name: Прикріпіть хвіст
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -303,7 +303,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryTendWoundsBrute
-  name: Tend Bruise Wounds
+  name: Доглядайте забиті рани
   components:
   - type: Surgery
     steps:
@@ -315,7 +315,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryTendWoundsBurn
-  name: Tend Burn Wounds
+  name: Догляд за опіковими ранами
   components:
   - type: Surgery
     steps:
@@ -327,7 +327,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertItem
-  name: Cavity Implant
+  name: Порожнинні імплантати
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -344,7 +344,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveBrain
-  name: Remove Brain
+  name: Видалити мозок
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -361,7 +361,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveBorgBrain
-  name: Remove Positronic Brain
+  name: Видаліть Positronic Brain
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -379,7 +379,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertBrain
-  name: Insert Brain
+  name: Вставте Мозок
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -398,7 +398,7 @@
 - type: entity
   parent: SurgeryInsertBrain
   id: SurgeryInsertBorgBrain
-  name: Insert Positronic Brain
+  name: Вставте позитронний мозок
   components:
   - type: SurgeryOrganSlotCondition
     organSlot: posbrain
@@ -409,7 +409,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveHeart
-  name: Remove Heart
+  name: Видалити серце
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -430,7 +430,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertHeart
-  name: Insert Heart
+  name: Вставте серце
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -449,7 +449,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveLiver
-  name: Remove Liver
+  name: Видалити печінку
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -466,7 +466,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertLiver
-  name: Insert Liver
+  name: Вставте печінку
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -485,7 +485,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveLungs
-  name: Remove Lungs
+  name: Видаліть легені
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -502,7 +502,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertLungs
-  name: Insert Lungs
+  name: Вставити легені
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -521,7 +521,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveStomach
-  name: Remove Stomach
+  name: Видалити шлунок
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -538,7 +538,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertStomach
-  name: Insert Stomach
+  name: Вставити живіт
   components:
   - type: Surgery
     requirement: SurgeryOpenRibcage
@@ -557,7 +557,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveEyes
-  name: Remove Eyes
+  name: Видаліть очі
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -574,7 +574,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertEyes
-  name: Insert Eyes
+  name: Вставте очі
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -620,7 +620,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryMendBrainTissue
-  name: Mend brain tissue
+  name: Відновити мозкову тканину
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision

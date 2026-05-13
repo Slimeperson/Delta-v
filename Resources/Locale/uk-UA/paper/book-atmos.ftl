@@ -38,7 +38,7 @@ book-text-atmos-alarms = Повітряні сигналізації розта�
 
             A multitool or network configurator can be used to link devices to air alarms.
 
-book-text-atmos-vents =
+book-text-atmos-vents = Нижче наведено короткий довідник щодо кількох атмосферних пристроїв:
     Below is a quick reference guide to several atmospheric devices:
 
                 Passive Vents:

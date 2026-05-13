@@ -48,7 +48,7 @@
       steps:
       - tag: DoorElectronics
         store: board
-        name: construction-graph-tag-door-electronics-circuit-board
+        name: конструкція-граф-тег-двері-електроніка-плата
         icon:
           sprite: "Objects/Misc/module.rsi"
           state: "door_electronics"

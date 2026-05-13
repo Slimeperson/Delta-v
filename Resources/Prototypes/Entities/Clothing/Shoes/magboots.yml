@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBase, BaseToggleClothing]
   id: ClothingShoesBootsMagBase
-  name: magboots
-  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  name: чарівні чоботи
+  description: Магнітні черевики, які часто використовуються під час позашляховиків, щоб гарантувати, що користувач залишається безпечно прикріпленим до автомобіля.
   abstract: true
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseGrandTheftContraband]
   id: ClothingShoesBootsMagAdv
-  name: advanced magboots
-  description: State-of-the-art magnetic boots that do not slow down their wearer.
+  name: просунуті чарівники
+  description: Сучасні магнітні черевики, які не гальмують свого власника.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-advanced.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingShoesBootsMagBase
   id: ClothingShoesBootsMagBlinding
-  name: magboots of blinding speed
-  description: These would look fetching on a fetcher like you.
+  name: чарівні чоботи сліпучої швидкості
+  description: Вони виглядатимуть привабливо на такому транспортнику, як ви.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 1.1 #PVS isn't too much of an issue when you are blind...
@@ -91,8 +91,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseJetpack, BaseSyndicateContraband]
   id: ClothingShoesBootsMagSyndie
-  name: blood-red magboots
-  description: Reverse-engineered from ERT magboots, they have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+  name: криваво-червоні чарівники
+  description: Створені на базі магнітних черевиків ERT, вони мають сильну магнітну силу та вбудовані двигуни. Він може вмістити 0,75 л газу.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-syndicate.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: [BaseCentcommContraband, ClothingShoesBootsMagSyndie]
   id: ClothingShoesBootsMagERT
-  name: ERT magboots
-  description: Upgraded magnetic boots utilized by Nanotrasen's Emergency Response Teams, they have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+  name: Магнітні черевики ERT
+  description: Модернізовані магнітні чоботи, які використовуються групами реагування на надзвичайні ситуації Nanotrasen, мають потужну магнітну силу та вбудовані двигуни. Він може вмістити 0,75 л газу.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-ert.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleMagboots
-  name: Toggle Magboots
-  description: Toggles the magboots on and off.
+  name: Перемкнути Magboots
+  description: Вмикає та вимикає чарівники.
   components:
   - type: Action
     itemIconStyle: BigItem

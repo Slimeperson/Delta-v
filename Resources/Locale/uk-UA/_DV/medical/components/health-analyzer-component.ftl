@@ -4,12 +4,12 @@ health-analyzer-window-entity-uncloneable-text = [color=orange]Пацієнт м
 health-analyzer-window-triage-claim = Позов Пацієнт
 health-analyzer-window-triage-unclaim = Заявник: {$claimedBy}
 health-analyzer-window-triage-status-None = Жодного
-.ToolTip = Пацієнт без травм
+    .ToolTip = Пацієнт без травм
 health-analyzer-window-triage-status-Minor = перма
-.ToolTip = Постраждалий з відносно легкими травмами
+    .ToolTip = { ent-CrateArmoryEnergyGunMini.desc }
 health-analyzer-window-triage-status-Delayed = Затримується
-.ToolTip = Транспортування потерпілого може затриматися. Потенційно загрожує життю, але не відразу.
+    .ToolTip = Транспортування потерпілого може затриматися. Потенційно загрожує життю, але не відразу.
 health-analyzer-window-triage-status-Immediate = негайно
-.ToolTip = Постраждалому можна допомогти негайним втручанням і транспортуванням. Для виживання потрібна медична допомога.
+    .ToolTip = #
 health-analyzer-window-triage-status-Expectant = Вичікувальна
-.ToolTip = Жертва навряд чи виживе або вже мертва.
+    .ToolTip = Жертва навряд чи виживе або вже мертва.

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseControllable, BaseStructure ]
   id: MothershipCore
-  name: mothership core
-  description: A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
+  name: ядро материнського корабля
+  description: Розумна машина, яка може створювати Ксеноборгів. Без цього Ксеноборги приречені.
   components:
   - type: InputMover # needs this to pilot the mothership
   - type: BlockMovement # They should never be moving!
@@ -240,8 +240,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgControlMonitor
-  name: Xenoborgs Control Console
-  description: View the Xenoborgs Control Console
+  name: Консоль управління Xenoborgs
+  description: Перегляньте консоль керування Xenoborgs
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-control-computer }
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgCameraMonitor
-  name: Xenoborgs Camera Monitor
-  description: View the Xenoborgs Camera Monitor
+  name: Монітор камери Xenoborgs
+  description: Перегляньте монітор камери Xenoborgs
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-camera-computer }

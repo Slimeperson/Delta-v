@@ -1,9 +1,9 @@
 - type: entity
   id: BaseMachineCircuitboard
   parent: BaseItem
-  name: machine board
+  name: плата машини
   abstract: true
-  suffix: Machine Board
+  suffix: Машинна плата
   components:
     - type: MachineBoard
     - type: Sprite

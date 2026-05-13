@@ -1,7 +1,7 @@
 - type: job
   id: CentralCommandIntern
-  name: job-name-centcomintern
-  description: job-description-centcomintern
+  name: робота-назва-центкомінтерн
+  description: посадова інструкція-центкомінтерн
   playTimeTracker: JobCentralCommandIntern
   setPreference: false
   startingGear: CentcomInternGear

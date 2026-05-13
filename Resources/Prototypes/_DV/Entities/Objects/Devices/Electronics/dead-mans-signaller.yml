@@ -3,8 +3,8 @@
 - type: entity
   parent: RemoteSignaller
   id: DeadMansSignaler
-  name: dead man's signaler
-  description: A device that if armed will send signals to objects within 50 meters when dropped or put away.
+  name: сигналіст мерця
+  description: Пристрій, який, якщо його ввімкнено, надсилатиме сигнали об’єктам у радіусі 50 метрів, коли його впадуть або приберуть.
   components:
   - type: DeadMansSignaller
   - type: ItemToggle

@@ -6,127 +6,127 @@
 - type: quickPhrase
   id: AMEPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-ame
+  text: фраза-ам
 
 - type: quickPhrase
   id: APCPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-apc
+  text: фраза-апк
 
 - type: quickPhrase
   id: CanisterPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-canister
+  text: фраза-каністра
 
 - type: quickPhrase
   id: CompressedMatterPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-compressed-matter
+  text: словосполучення
 
 - type: quickPhrase
   id: FrezonPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-frezon
+  text: фраза-фрезон
 
 - type: quickPhrase
   id: GravityPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-gravity
+  text: фраза-тяжкість
 
 - type: quickPhrase
   id: HVWirePhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-hvwire
+  text: фраза-hvwire
 
 - type: quickPhrase
   id: LVWirePhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-lvwire
+  text: фраза-lvwire
 
 - type: quickPhrase
   id: MVWirePhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-mvwire
+  text: фраза-mvwire
 
 - type: quickPhrase
   id: NetworkConfiguratorPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-network-configurator
+  text: фраза-мережевий конфігуратор
 
 - type: quickPhrase
   id: NitrogenPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-nitrogen
+  text: словосполучення-азот
 
 - type: quickPhrase
   id: OxygenPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-oxygen
+  text: фраза-кисень
 
 - type: quickPhrase
   id: RCDPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-rcd
+  text: фраза-rcd
 
 - type: quickPhrase
   id: RTGPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-rtg
+  text: фраза-rtg
 
 - type: quickPhrase
   id: ScrubberPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-scrubber
+  text: фраза-скраббер
 
 - type: quickPhrase
   id: SinguloPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-singulo
+  text: фраза-singulo
 
 - type: quickPhrase
   id: SMESPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-smes
+  text: фраза-smes
 
 - type: quickPhrase
   id: SubstationPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-substation
+  text: фраза-підст
 
 - type: quickPhrase
   id: TRayScanner
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-tray-scanner
+  text: фразовий трей-сканер
 
 - type: quickPhrase
   id: TEGPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-teg
+  text: фраза-тег
 
 - type: quickPhrase
   id: TeslaPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-tesla
+  text: фраза-тесла
 
 - type: quickPhrase
   id: TritiumPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-tritium
+  text: фраза-тритій
 
 - type: quickPhrase
   id: MagbootsPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-magboots
+  text: фраза-magboots
 
 - type: quickPhrase
   id: HolofanPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-holofan
+  text: фраза-холофан
 
 - type: quickPhrase
   id: EngiOnPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-engi-on
+  text: фраза-енгі-он
 
 - type: quickPhrase
   id: EngiOffPhrase
@@ -136,4 +136,4 @@
 - type: quickPhrase
   id: GasAnalyzerPhrase
   parent: BaseEngineeringSubjectPhrase
-  text: phrase-gas-analyzer
+  text: фраза-газоаналізатор

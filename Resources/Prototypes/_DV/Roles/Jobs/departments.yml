@@ -1,7 +1,7 @@
 - type: department
   id: Justice
-  name: department-Justice
-  description: department-Justice-description
+  name: відділ-юстиції
+  description: відділ-Юстиція-опис
   color: "#701442"
   roles:
   - ChiefJustice

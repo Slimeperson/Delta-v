@@ -138,7 +138,7 @@
 # Spawners
 
 - type: entity
-  name: nuke ops loot spawner
+  name: породжувач здобичі nuke ops
   id: NukeOpsLootSpawner
   parent: MarkerBase
   components:
@@ -154,7 +154,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops weapon spawner
+  name: породжувач зброї nuke ops
   id: NukeOpsWeaponSpawner
   parent: MarkerBase
   components:
@@ -171,7 +171,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops brute medkit spawner
+  name: комп'ютер управління сонячними променями
   id: NukeOpsMedkitBruteSpawner
   parent: MarkerBase
   components:
@@ -187,7 +187,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops general medkit spawner
+  name: спавнер nuke ops general medkit
   id: NukeOpsMedkitSpawner
   parent: MarkerBase
   components:
@@ -205,7 +205,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops grenade spawner
+  name: породжувач гранат nuke ops
   id: NukeOpsGrenadeSpawner
   parent: MarkerBase
   components:
@@ -224,7 +224,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops ammo spawner
+  name: породжувач боєприпасів nuke ops
   id: NukeOpsAmmoSpawner
   parent: MarkerBase
   components:

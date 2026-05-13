@@ -1,6 +1,6 @@
 - type: antag
   id: ParadoxAnomaly
-  name: roles-antag-paradox-anomaly-name
+  name: roles-atag-paradox-anomaly-name
   antagonist: true
   setPreference: false
   objective: roles-antag-paradox-anomaly-objective

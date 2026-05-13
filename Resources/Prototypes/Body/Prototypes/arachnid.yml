@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Arachnid
-  name: "arachnid"
+  name: "павукоподібний"
   root: torso
   slots:
     head:

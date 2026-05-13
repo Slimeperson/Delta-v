@@ -1,8 +1,8 @@
 - type: entity
   parent: OrganIPCPump
   id: OrganIPCSpacePump
-  name: pressurized micro pump
-  description: "A pressure-resistant micro pump, able to work even in the depths of space."
+  name: мікронасос під тиском
+  description: "Стійкий до тиску мікронасос, здатний працювати навіть у глибині космосу».
   components:
   - type: Organ
     onAdd:

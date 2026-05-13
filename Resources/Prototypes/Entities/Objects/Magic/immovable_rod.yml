@@ -1,7 +1,7 @@
 - type: entity
   id: ImmovableRod
-  name: immovable rod
-  description: You can sense that it's hungry. That's usually a bad sign.
+  name: нерухомий стрижень
+  description: Ви можете відчути, що він голодний. Зазвичай це поганий знак.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -45,7 +45,7 @@
 - type: entity
   parent: ImmovableRod
   id: ImmovableRodDespawn
-  suffix: Despawn
+  suffix: Деспаун
   components:
   - type: TimedDespawn
     lifetime: 30.0
@@ -53,7 +53,7 @@
 - type: entity
   parent: ImmovableRodDespawn
   id: ImmovableRodSlow
-  suffix: Slow
+  suffix: Повільно
   components:
   - type: ImmovableRod
     minSpeed: 1
@@ -62,7 +62,7 @@
 - type: entity
   parent: ImmovableRodDespawn
   id: ImmovableRodKeepTiles
-  suffix: Keep Tiles
+  suffix: Тримайте плитки
   components:
   - type: ImmovableRod
     destroyTiles: false
@@ -72,7 +72,7 @@
 - type: entity
   parent: ImmovableRod
   id: ImmovableRodWizard
-  suffix: Wizard
+  suffix: майстер
   components:
   - type: ImmovableRod
     maxSpeed: 25
@@ -98,7 +98,7 @@
 - type: entity
   parent: ImmovableRodKeepTiles
   id: ImmovableRodKeepTilesStill
-  suffix: Keep Tiles, Still
+  suffix: Тримайте Tiles, Still
   components:
   - type: ImmovableRod
     randomizeVelocity: false
@@ -107,8 +107,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodMop
-  name: immovable mop
-  description: Hurled like a javelin, with the power of a thousand furious janitors.
+  name: нерухома швабра
+  description: Кинуто, як спис, з силою тисячі розлючених двірників.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodShark
-  name: immovable shark
-  description: SHARK TORNADO!
+  name: нерухома акула
+  description: Силова стіна книга заклинань
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/shark.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodClown
-  name: immovable clown
-  description: Ejected from the neighbouring station one solar system over. HONK!
+  name: непорушний клоун
+  description: Викинута з сусідньої станції одна сонячна система понад. СВИДНІТЬ!
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodBanana
-  name: immovable banana
-  description: At least you won't slip on it.
+  name: нерухомий банан
+  description: Принаймні на ньому не посковзнешся.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -154,7 +154,7 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodHammer
-  name: immovable hammer
+  name: нерухомий молоток
   description: Bwoink.
   components:
   - type: Sprite
@@ -166,8 +166,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodThrongler
-  name: immovable throngler
-  description: If you catch it, you can keep it.
+  name: нерухомий дросел
+  description: Якщо ви зловите це, ви можете зберегти його.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/Throngler2.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodGibstick
-  name: immovable gibstick
-  description: What did you expect?
+  name: нерухомий gibstick
+  description: Чого ви очікували?
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/debug.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodWeh
-  name: immovable weh
+  name: нерухомий вех
   description: WEH!
   components:
   - type: Sprite

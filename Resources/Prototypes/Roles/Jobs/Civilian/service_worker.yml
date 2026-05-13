@@ -1,7 +1,7 @@
 - type: job
   id: ServiceWorker
   name: job-name-serviceworker
-  description: job-description-serviceworker
+  description: посадова інструкція-службовець
   playTimeTracker: JobServiceWorker
   requirements:
   - !type:DepartmentTimeRequirement

@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnClownSpider
-  name: clown spider spawner
+  name: спаунер павука-клоуна
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBear
-  name: Space Bear Spawner
+  name: Спаунер космічного ведмедя
   components:
   - type: Sprite
     layers:
@@ -47,7 +47,7 @@
   parent: MarkerBase
   id: SpawnMobBoxingKangaroo
   name: Boxing Kangaroo Spawner
-  suffix: Hostile
+  suffix: Ворожий
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousEntity
-  name: luminous entity spawner
+  name: спаунер світлових сутностей
   components:
   - type: Sprite
     layers:
@@ -103,7 +103,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousObject
-  name: luminous object spawner
+  name: джерело світяться об'єктів
   components:
   - type: Sprite
     layers:
@@ -117,7 +117,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousPerson
-  name: luminous person spawner
+  name: джерело світяться людей
   components:
   - type: Sprite
     layers:
@@ -131,7 +131,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobOreCrab
-  name: ore crab spawner
+  name: порода рудого краба
   components:
   - type: Sprite
     layers:
@@ -151,7 +151,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPurpleSnake
-  name: Purple Snake Spawner
+  name: Відроджувач фіолетової змії
   components:
   - type: Sprite
     layers:
@@ -165,7 +165,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSmallPurpleSnake
-  name: Small Purple Snake Spawner
+  name: Невеликий фіолетовий змійник
   components:
   - type: Sprite
     layers:
@@ -193,7 +193,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSpaceSpider
-  name: Space Spider Spawner
+  name: Спаунер космічного павука
   components:
   - type: Sprite
     layers:

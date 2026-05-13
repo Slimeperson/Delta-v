@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAugment
   id: AugmentBaseArm
-  name: base arm augment
+  name: базове нарощування рук
   abstract: true
   components:
   - type: Organ
@@ -11,8 +11,8 @@
 - type: entity
   parent: [ActionOpenAugmentInterface, BaseAction]
   id: ActionOpenToolsPanel
-  name: Open tools panel
-  description: Access the tools implanted within you
+  name: Відкрити панель інструментів
+  description: Отримайте доступ до імплантованих у вас інструментів
   components:
   - type: Action
     icon: { sprite: Clothing/Belt/utility.rsi, state: icon }
@@ -20,7 +20,7 @@
 - type: entity
   parent: AugmentBaseArm
   id: AugmentBaseToolPanel
-  name: base tool panel augment
+  name: розширення базової панелі інструментів
   abstract: true
   components:
   - type: Sprite
@@ -70,8 +70,8 @@
 - type: entity
   parent: AugmentBaseElectronics
   id: AugmentUtilityPanelElectronics
-  name: utility tools panel electronics
-  description: An electronics board that programs a tool panel to hold a specific type of item. This one holds utility tools.
+  name: комунальні інструменти панель електроніки
+  description: Електронна плата, яка програмує панель інструментів для зберігання певного типу предмета. У цьому зберігаються службові інструменти.
   components:
   - type: Item
     storedRotation: 0
@@ -81,8 +81,8 @@
 - type: entity
   parent: AugmentBaseElectronics
   id: AugmentBotanyPanelElectronics
-  name: botany tools panel electronics
-  description: An electronics board that programs a tool panel to hold a specific type of item. This one holds botanical tools.
+  name: ботаніка інструменти панель електроніка
+  description: Електронна плата, яка програмує панель інструментів для зберігання певного типу предмета. У цьому зберігаються ботанічні інструменти.
   components:
   - type: Item
     storedRotation: 0
@@ -92,8 +92,8 @@
 - type: entity
   parent: AugmentBaseElectronics
   id: AugmentSurgeryPanelElectronics
-  name: surgery tools panel electronics
-  description: An electronics board that programs a tool panel to hold a specific type of item. This one holds surgical tools.
+  name: хірургічні інструменти панелі електроніки
+  description: Електронна плата, яка програмує панель інструментів для зберігання певного типу предмета. Цей тримає хірургічні інструменти.
   components:
   - type: Item
     storedRotation: 0
@@ -103,8 +103,8 @@
 - type: entity
   parent: AugmentBaseElectronics
   id: AugmentPaperworkPanelElectronics
-  name: paperwork tools panel electronics
-  description: An electronics board that programs a tool panel to hold a specific type of item. This one holds paperwork tools.
+  name: документообіг інструменти панель електроніка
+  description: Електронна плата, яка програмує панель інструментів для зберігання певного типу предмета. У цьому є інструменти для роботи з документами.
   components:
   - type: Item
     storedRotation: 0
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseIncompleteAugmentToolPanel
   id: AugmentToolPanelCasing
-  name: tools panel augment casing
-  description: Can be implanted into a body to provide access to specific tools. This one is incomplete.
+  name: панель інструментів збільшення корпусу
+  description: Можна імплантувати в тіло, щоб забезпечити доступ до певних інструментів. Цей неповний.
   components:
   - type: Sprite
     state: base
@@ -139,8 +139,8 @@
 - type: entity
   parent: BaseIncompleteAugmentToolPanel
   id: AugmentToolPanelCasingCables
-  name: tools panel augment casing with cables
-  description: Can be implanted into a body to provide access to specific tools. This one is incomplete.
+  name: додатковий корпус панелі інструментів із кабелями
+  description: Можна імплантувати в тіло, щоб забезпечити доступ до певних інструментів. Цей неповний.
   components:
   - type: Sprite
     state: base_cables
@@ -150,8 +150,8 @@
 - type: entity
   parent: AugmentBaseToolPanel
   id: AugmentToolsPanel
-  name: tools panel augment
-  description: A panel that can be augmented into a patient's arm to provide them access to its contents. This one can hold tools.
+  name: розширення панелі інструментів
+  description: Панель, яку можна збільшити на руці пацієнта, щоб забезпечити їм доступ до її вмісту. Тут можна зберігати інструменти.
   components:
   - type: Sprite
     state: engineering
@@ -185,8 +185,8 @@
 - type: entity
   parent: AugmentBaseToolPanel
   id: AugmentBotanyPanel
-  name: botanical tools panel augment
-  description: A panel that can be augmented into a patient's arm to provide them access to its contents. This one can hold botanical tools.
+  name: розширення панелі ботанічних інструментів
+  description: Панель, яку можна збільшити на руці пацієнта, щоб забезпечити їм доступ до її вмісту. Тут можна зберігати ботанічні інструменти.
   components:
   - type: Sprite
     state: botany
@@ -206,8 +206,8 @@
 - type: entity
   parent: AugmentBaseToolPanel
   id: AugmentPaperworkPanel
-  name: paperwork tools panel augment
-  description: A panel that can be augmented into a patient's arm to provide them access to its contents. This one can hold paperwork tools.
+  name: розширення панелі інструментів документообігу
+  description: Панель, яку можна збільшити на руці пацієнта, щоб забезпечити їм доступ до її вмісту. Тут можна зберігати інструменти для паперів.
   components:
   - type: Sprite
     state: paperwork
@@ -225,8 +225,8 @@
 - type: entity
   parent: AugmentBaseToolPanel
   id: AugmentSurgicalPanel
-  name: surgical tools panel augment
-  description: A panel that can be augmented into a patient's arm to provide them access to its contents. This one can hold surgical tools.
+  name: збільшення панелі хірургічних інструментів
+  description: Панель, яку можна збільшити на руці пацієнта, щоб забезпечити їм доступ до її вмісту. Тут можна зберігати хірургічні інструменти.
   components:
   - type: Sprite
     state: surgical

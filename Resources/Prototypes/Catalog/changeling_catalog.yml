@@ -2,8 +2,8 @@
 
 - type: listing
   id: ChangelingArmBlade
-  name: changeling-arm-blade-name
-  description: changeling-arm-blade-desc
+  name: підмінник-рука-лезо-ім'я
+  description: підмінний-рука-лезо-дес
   productAction: ActionRetractableItemArmBlade
   applyToMob: true
   cost:

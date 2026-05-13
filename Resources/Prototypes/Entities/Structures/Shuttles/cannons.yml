@@ -1,7 +1,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: shittle gun
+  name: рушниця
   abstract: true
   components:
   - type: Appearance
@@ -39,8 +39,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-400c "Svalinn machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  name: LSE-400c «Кулемет Свалін»
+  description: Базова стаціонарна лазерна установка. Ефективний проти живих цілей і електроніки. Для стрільби використовує звичайні елементи живлення та має надзвичайно високу скорострільність.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: Журнал
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -97,8 +97,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-1200c "Perforator"
-  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+  name: LSE-1200c "Перфоратор"
+  description: Удосконалена стаціонарна лазерна установка. Знищує електроніку та надзвичайно небезпечний для здоров'я! Використовує клітку для стрільби.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: Журнал
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -157,8 +157,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-320g "Friendship"
-  description: A small stationary grenade launcher that holds 2 grenades.
+  name: ЕХП-320г "Дружба"
+  description: Невеликий стаціонарний гранатомет, який вміщує 2 гранати.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -211,8 +211,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-2100g "Duster"
-  description: A powerful stationary grenade launcher. A cartridge is required for use.
+  name: ЕХП-2100г "Дастер"
+  description: Двірник
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Журнал
         priority: 2
         whitelist:
           tags:
@@ -272,8 +272,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
-  name: pirate ship cannon
-  description: Kaboom!
+  name: гармата піратського корабля
+  description: Кабум!
   components:
   - type: ContainerContainer
     containers:
@@ -309,8 +309,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: PTK-800 "Matter Dematerializer"
-  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
+  name: ПТК-800 «Дематеріалізатор матерії»
+  description: Утилізована стаціонарна шахтна турель. Поступово накопичує заряди самостійно, надзвичайно ефективний для розкопок астероїдів.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -365,8 +365,8 @@
 - type: entity
   parent: ShuttleGunBase
   id: ShuttleGunKineticOld
-  name: xenomorphic dematerializer
-  description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
+  name: ксеноморфний дематеріалізатор
+  description: Старовинна корабельна гармата, яка використовує біомеханічні системи для зберігання та вивільнення енергії. Хоча він унікальний за своєю конструкцією, він став застарілим через низьку швидкість заряджання та стрільби порівняно з механічними конструкціями.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi

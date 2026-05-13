@@ -6,7 +6,7 @@
 - type: entity
   abstract: true
   id: BaseUnsetSensor
-  suffix: Unset
+  suffix: Не встановлено
   components:
   - type: AtmosMonitor
     temperatureThresholdId: ignore

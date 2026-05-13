@@ -370,7 +370,7 @@
       max: 2
       pickPlayer: true
       briefing:
-        text: NTAgent-role-greeting-human
+        text: дослідження-технології-експериментальна-рятувальна-зброя
         color: lightblue
         sound: /Audio/_DV/Ambience/Antag/centcomm_nt_agent.ogg
       mindRoles:
@@ -413,7 +413,7 @@
         components:
         - AntagImmune
       briefing:
-        text: NTAgent-role-greeting-human
+        text: дослідження-технології-експериментальна-рятувальна-зброя
         color: lightblue
         sound: /Audio/_DV/Ambience/Antag/centcomm_nt_agent.ogg
       mindRoles:

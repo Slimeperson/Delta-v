@@ -44,7 +44,7 @@
     duration: 120
     earliestStart: 20
   - type: CargoGiftsRule
-    description: cargo-gift-pizza-small
+    description: вантаж-подарунок-піца-мал
     dest: cargo-gift-dest-bar
     gifts:
       FoodPizza: 1              # 4 pizzas
@@ -79,7 +79,7 @@
     earliestStart: 30
     minimumPlayers: 10
   - type: CargoGiftsRule
-    description: cargo-gift-eng
+    description: cargo-gift-англ
     dest: cargo-gift-dest-eng
     gifts:
       EngineeringCableBulk: 1
@@ -99,7 +99,7 @@
     minimumPlayers: 40
     earliestStart: 30
   - type: CargoGiftsRule
-    description: cargo-gift-vending
+    description: карго-подарунковий вендинг
     dest: cargo-gift-dest-supp
     gifts:
       CrateVendingMachineRestockHotDrinks: 3
@@ -119,7 +119,7 @@
     minimumPlayers: 30
     earliestStart: 20
   - type: CargoGiftsRule
-    description: cargo-gift-cleaning
+    description: cargo-gift-cleing
     dest: cargo-gift-dest-janitor
     gifts:
       ServiceJanitorial: 2
@@ -174,7 +174,7 @@
     earliestStart: 20
     minimumPlayers: 40
   - type: CargoGiftsRule
-    description: cargo-gift-fire-protection
+    description: вантаж-подарунок-вогнезахист
     dest: cargo-gift-dest-supp
     gifts:
       EmergencyFire: 2
@@ -191,7 +191,7 @@
     earliestStart: 20
     minimumPlayers: 50
   - type: CargoGiftsRule
-    description: cargo-gift-security-guns
+    description: стек-голіаф-ховатися
     dest: cargo-gift-dest-sec
     gifts:
       SecurityArmor: 3
@@ -210,7 +210,7 @@
     earliestStart: 20
     minimumPlayers: 50
   - type: CargoGiftsRule
-    description: cargo-gift-security-riot
+    description: вантаж-подарунок-безпека-бунт
     dest: cargo-gift-dest-sec
     gifts:
       SecurityRiot: 2

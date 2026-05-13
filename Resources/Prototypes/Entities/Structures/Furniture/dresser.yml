@@ -54,7 +54,7 @@
 - type: entity
   id: DresserFilled
   parent: Dresser
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill #TODO: make these tables in any way consistent
     containers:

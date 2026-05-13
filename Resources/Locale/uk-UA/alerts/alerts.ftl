@@ -23,7 +23,7 @@ alerts-too-hot-name = [color=red]Надто спекотно[/color]
 alerts-too-hot-desc = Тут [color=red]дуже спекотно![/color] Перейдіть до холодного місця і зніміть там ізоляційний одяг, наприклад скафандр, або хоча б відійдіть від вогню.
 
 alerts-weightless-name = Невагомістью
-alerts-weightless-desc =
+alerts-weightless-desc = Гравітація перестала впливати на вас, і ви безцільно парите. Знайдіть щось міцне, за що можна триматися, або киньте чи вистріліть щось у напрямку, протилежному вам.
     Gravity has ceased affecting you, and you're floating around aimlessly. Find something sturdy to hold onto, or throw or shoot something in a direction opposite of you.
     Mag-boots or jetpacks would help you move with more control.
 

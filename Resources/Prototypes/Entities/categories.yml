@@ -21,7 +21,7 @@
 # markers, atmos fixing, etc
 - type: entityCategory
   id: Mapping
-  name: entity-category-name-mapping
+  name: зіставлення імен категорій сутностей
 
 - type: entityCategory
   id: DoNotMap

@@ -16,47 +16,47 @@
 - type: quickPhrase
   id: DamageBrutePhrase
   parent: BaseDamageTypePhrase
-  text: damage-group-brute
+  text: група пошкоджень-брут
 
 - type: quickPhrase
   id: DamageBurnPhrase
   parent: BaseDamageTypePhrase
-  text: damage-group-burn
+  text: пошкодження-група-опік
 
 - type: quickPhrase
   id: DamageAirlossPhrase
   parent: BaseDamageTypePhrase
-  text: damage-group-airloss
+  text: пошкодження-група-втрата повітря
 
 - type: quickPhrase
   id: DamageToxinPhrase
   parent: BaseDamageTypePhrase
-  text: damage-group-toxin
+  text: пошкодження-група-токсин
 
 - type: quickPhrase
   id: DamageGeneticPhrase
   parent: BaseDamageTypePhrase
-  text: damage-group-genetic
+  text: група ушкоджень-генетична
 
 - type: quickPhrase
   id: DamageBloodlossPhrase
   parent: BaseDamageTypePhrase
-  text: damage-type-bloodloss
+  text: alerts-light-level-neutral-name
 
 - type: quickPhrase
   id: DamageRadiationPhrase
   parent: BaseDamageTypePhrase
-  text: damage-type-radiation
+  text: пошкодження типу випромінювання
 
 - type: quickPhrase
   id: ChemDylovenePhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-dylovene
+  text: ім'я-реагенту-диловен
 
 - type: quickPhrase
   id: ChemArithrazinePhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-arithrazine
+  text: ім'я-реагенту-аритразин
 
 - type: quickPhrase
   id: ChemBicaridinePhrase
@@ -66,17 +66,17 @@
 - type: quickPhrase
   id: ChemDermalinePhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-dermaline
+  text: назва-реагенту-дермалін
 
 - type: quickPhrase
   id: ChemDexalinPhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-dexalin
+  text: ім'я реагенту-дексалін
 
 - type: quickPhrase
   id: ChemKelotanePhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-kelotane
+  text: назва реагенту-келотан
 
 - type: quickPhrase
   id: ChemTricordrazinePhrase
@@ -86,7 +86,7 @@
 - type: quickPhrase
   id: ChemOmnizinePhrase
   parent: BaseMedicinePhrase
-  text: reagent-name-omnizine
+  text: назва-реагенту-омнізин
 
 - type: quickPhrase
   id: ChemPyrazinePhrase
@@ -96,94 +96,94 @@
 - type: quickPhrase
   id: TopicalPhrase
   parent: BaseMedicinePhrase
-  text: phrase-topical
+  text: фразеологізм
 
 - type: quickPhrase
   id: TopicalBrutePackPhrase
   parent: BaseMedicinePhrase
-  text: phrase-topical-brute-pack
+  text: фраза-тематичний-брут-пак
 
 - type: quickPhrase
   id: TopicalGauzePhrase
   parent: BaseMedicinePhrase
-  text: phrase-topical-gauze
+  text: фраза-топіка-марля
 
 - type: quickPhrase
   id: TopicalBloodpackPhrase
   parent: BaseMedicinePhrase
-  text: phrase-topical-bloodpack
+  text: фраза-тематична-кривава зграя
 
 - type: quickPhrase
   id: DefibrillatorPhrase
   parent: BaseMedicinePhrase
-  text: phrase-defibrillator
+  text: фраза-дефібрилятор
 
 - type: quickPhrase
   id: CryopodPhrase
   parent: BaseMedicinePhrase
-  text: phrase-cryopod
+  text: фраза-кріопод
 
 - type: quickPhrase
   id: StasisBedPhrase
   parent: BaseMedicinePhrase
-  text: phrase-stasis-bed
+  text: фраза-stasis-bed
 
 - type: quickPhrase
   id: FirstAidKitPhrase
   parent: BaseMedicinePhrase
-  text: phrase-first-aid-kit
+  text: фраза-аптечка
 
 - type: quickPhrase
   id: ClonePhrase
   parent: BaseMedicinePhrase
-  text: phrase-clone
+  text: фраза-клон
 
 - type: quickPhrase
   id: CloningPodPhrase
   parent: BaseMedicinePhrase
-  text: phrase-cloning-pod
+  text: фраза-клонування-под
 
 - type: quickPhrase
   id: BiomassPhrase
   parent: BaseMedicinePhrase
-  text: phrase-biomass
+  text: фраза-біомаса
 
 - type: quickPhrase
   id: SyringePhrase
   parent: BaseMedicinePhrase
-  text: phrase-syringe
+  text: фраза-шприц
 
 - type: quickPhrase
   id: PillPhrase
   parent: BaseMedicinePhrase
-  text: phrase-pill
+  text: фраза-таблетка
 
 - type: quickPhrase
   id: AlivePhrase
   parent: BaseMedicinePhrase
-  text: phrase-alive
+  text: фраза-жива
 
 - type: quickPhrase
   id: CritPhrase
   parent: BaseMedicinePhrase
-  text: phrase-crit
+  text: фразео-крит
 
 - type: quickPhrase
   id: DeadPhrase
   parent: BaseMedicinePhrase
-  text: phrase-dead
+  text: фраза-мертв
 
 - type: quickPhrase
   id: HealthyPhrase
   parent: BaseMedicinePhrase
-  text: phrase-healthy
+  text: станція-маяк-евакуація
 
 - type: quickPhrase
   id: MedicalChemicalsPhrase
   parent: BaseMedicinePhrase
-  text: phrase-chemicals
+  text: фрази-хім
 
 - type: quickPhrase
   id: LimbsPhrase
   parent: BaseMedicinePhrase
-  text: phrase-limbs
+  text: фраза-кінцівки

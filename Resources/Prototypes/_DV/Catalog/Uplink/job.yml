@@ -1,7 +1,7 @@
 - type: listing
   id: UplinkViperAppraisal
-  name: uplink-appraisal-tool-gun-name
-  description: uplink-appraisal-tool-gun-desc
+  name: uplink-appraisal-tool-name-gun
+  description: loadout-group-security-id
   productEntity: WeaponPistolViperAppraisal
   discountCategory: rareDiscounts
   discountDownTo:

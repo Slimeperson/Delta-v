@@ -2,10 +2,10 @@ cwoink-user-title = Повідомлення куратора
 
 cwoink-system-starmute-message-no-other-users = *Система: ніхто не доступний для отримання вашого повідомлення. Спробуйте пінгувати Event Management на Discord.
 
-cwoink-system-messages-being-relayed-to-discord =
+cwoink-system-messages-being-relayed-to-discord = Lonsdaleite
     All messages are relayed to game Curators via Discord.
 
-cwoink-system-introductory-message =
+cwoink-system-introductory-message = Будь ласка, повідомляйте нам про будь-які запитання, пов’язані з подіями, тут.
     Please let us know of any event related queries here.
 
     Administrative concerns, such as rule violations and questions, as well as mentoring, should be directed to Admin Help.

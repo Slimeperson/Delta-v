@@ -15,7 +15,7 @@
 
 - type: siliconLawset
   id: StreamerLaws
-  name: law-streamer-name
+  name: закон-стример-назва
   laws:
   - Streamer1
   - Streamer2

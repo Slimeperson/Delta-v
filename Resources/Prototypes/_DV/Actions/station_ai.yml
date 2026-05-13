@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionStationAiOpenShop
-  name: Choose programs
-  description: Configure your installed programs
+  name: Виберіть програми
+  description: Налаштуйте встановлені програми
   components:
   - type: Action
     itemIconStyle: BigAction
@@ -99,8 +99,8 @@
 
 - type: entity
   id: StationAiHolopointer
-  name: holopointer
-  description: A hologram projected by the station's AI to bring your attention to something.
+  name: голопокажчик
+  description: Голограма, створена ШІ станції, щоб привернути вашу увагу до чогось.
   components:
   - type: Transform
     anchored: true

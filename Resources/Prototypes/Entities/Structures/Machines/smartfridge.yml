@@ -122,7 +122,7 @@
   parent: SmartFridge
   id: SmartFridgeMedical
   categories: [ HideSpawnMenu ]
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: SmartFridge
     #flavorText: smart-fridge-request-chemistry

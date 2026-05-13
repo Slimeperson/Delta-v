@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomProduce
-  name: random produce spawner
+  name: спаунер випадкового виробництва
   parent: MarkerBase
   placement:
     mode: AlignTileAny

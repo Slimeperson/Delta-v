@@ -15,56 +15,56 @@
 
 - type: radioChannel
   id: Command
-  name: chat-radio-command
+  name: чат-радіо-команда
   keycode: 'c'
   frequency: 1353
   color: "#fcdf03"
 
 - type: radioChannel
   id: Engineering
-  name: chat-radio-engineering
+  name: чат-радіотехн
   keycode: 'e'
   frequency: 1357
   color: "#ff733c"
 
 - type: radioChannel
   id: Medical
-  name: chat-radio-medical
+  name: чат-радіо-мед
   keycode: 'm'
   frequency: 1355
   color: "#57b8f0"
 
 - type: radioChannel
   id: Science
-  name: chat-radio-science
+  name: чат-радіо-наука
   keycode: 'n'
   frequency: 1351
   color: "#cd7ccd"
 
 - type: radioChannel
   id: Security
-  name: chat-radio-security
+  name: чат-радіо-безпека
   keycode: 's'
   frequency: 1359
   color: "#ff4242"
 
 - type: radioChannel
   id: Service
-  name: chat-radio-service
+  name: закон-паладин-ім'я
   keycode: 'v'
   frequency: 1349
   color: "#539c00"
 
 - type: radioChannel
   id: Supply
-  name: chat-radio-supply
+  name: чат-радіо-постачання
   keycode: 'u'
   frequency: 1347
   color: "#b48b57"
 
 - type: radioChannel
   id: Syndicate
-  name: chat-radio-syndicate
+  name: чат-радіо-синдикат
   keycode: 't'
   frequency: 1213
   color: "#8f4a4b"
@@ -72,7 +72,7 @@
 
 - type: radioChannel
   id: Handheld
-  name: chat-radio-handheld
+  name: чат-радіо-КПК
   frequency: 1330
   color: "#967101"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -89,7 +89,7 @@
 
 - type: radioChannel
   id: Freelance
-  name: chat-radio-freelance
+  name: чат-радіо-фрілансер
   keycode: 'f'
   frequency: 1984
   color: "#f6ce64"
@@ -107,7 +107,7 @@
 
 - type: radioChannel
   id: Mothership
-  name: chat-radio-mothership
+  name: чат-радіо-материнка
   keycode: 'z'
   frequency: 2003
   color: "#ff2222"

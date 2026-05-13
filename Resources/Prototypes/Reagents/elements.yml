@@ -1,8 +1,8 @@
 - type: reagent
   id: Aluminium # We use real words here.
-  name: reagent-name-aluminium # -we use real words here.
+  name: reagent-name-aluminium # - ми використовуємо справжні слова.
   group: Elements
-  desc: reagent-desc-aluminium # -we use real words here.
+  desc: reagent-desc-aluminium # -тут ми використовуємо справжні слова.
   physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#848789"
@@ -11,7 +11,7 @@
 
 - type: reagent
   id: Carbon
-  name: reagent-name-carbon
+  name: ім'я-реагенту-вуглець
   group: Elements
   desc: reagent-desc-carbon
   physicalDesc: reagent-physical-desc-crystalline
@@ -22,7 +22,7 @@
 
 - type: reagent
   id: Chlorine
-  name: reagent-name-chlorine
+  name: назва-реагенту-хлор
   group: Elements
   desc: reagent-desc-chlorine
   physicalDesc: reagent-physical-desc-gaseous
@@ -117,7 +117,7 @@
 
 - type: reagent
   id: Hydrogen
-  name: reagent-name-hydrogen
+  name: назва-реагенту-водень
   group: Elements
   desc: reagent-desc-hydrogen
   physicalDesc: reagent-physical-desc-gaseous
@@ -128,7 +128,7 @@
 
 - type: reagent
   id: Iodine
-  name: reagent-name-iodine
+  name: ім'я-реактиву-йод
   group: Elements
   desc: reagent-desc-iodine
   physicalDesc: reagent-physical-desc-dark-brown
@@ -196,7 +196,7 @@
 
 - type: reagent
   id: Mercury
-  name: reagent-name-mercury
+  name: reagent-name-fiber
   group: Elements
   desc: reagent-desc-mercury
   physicalDesc: reagent-physical-desc-shiny
@@ -217,7 +217,7 @@
 
 - type: reagent
   id: Potassium
-  name: reagent-name-potassium
+  name: reagent-name-kalij
   group: Elements
   desc: reagent-desc-potassium
   physicalDesc: reagent-physical-desc-shiny
@@ -228,7 +228,7 @@
 
 - type: reagent
   id: Phosphorus
-  name: reagent-name-phosphorus
+  name: реагент-назва-фосфор
   group: Elements
   desc: reagent-desc-phosphorus
   physicalDesc: reagent-physical-desc-powdery
@@ -246,7 +246,7 @@
 
 - type: reagent
   id: Radium
-  name: reagent-name-radium
+  name: назва-реагенту-радій
   group: Elements
   parent: Uranium
   desc: reagent-desc-radium
@@ -305,7 +305,7 @@
 
 - type: reagent
   id: Sodium
-  name: reagent-name-sodium
+  name: реагент-натрій
   group: Elements
   desc: reagent-desc-sodium
   physicalDesc: reagent-physical-desc-metallic

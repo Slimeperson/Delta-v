@@ -7,8 +7,8 @@
 - type: entity
   parent: BaseAction
   id: ActionStartFishing
-  name: Throw fishing lure
-  description: Throw lure from the fishing rod to catch something!
+  name: Закинути рибальську приманку
+  description: Кидайте приманку з вудки, щоб щось зловити!
   components:
   - type: Action
     icon:
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseAction
   id: ActionStopFishing
-  name: Reel fishing rod
-  description: Reel your fishing rod to pull an object that it attached to, or stop fishing.
+  name: signal-port-description-artifact-analyzer-receiver
+  description: Намотайте вудку, щоб витягнути предмет, до якого вона прикріпилася, або припиніть риболовлю.
   components:
   - type: Action
     icon:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionViewMoods
-  name: View Moods
-  description: View your current moods.
+  name: Переглянути настрої
+  description: Перегляньте свій поточний настрій.
   components:
   - type: Action
     itemIconStyle: NoItem

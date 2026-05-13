@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseNF
   id: ClothingOuterHardsuitPilot
-  name: pilot hardsuit
-  description: A hardsuit tailored for someone who spends the majority of their time buckled to a chair.
+  name: пілотний хардкостюм
+  description: Жорсткий костюм, створений для тих, хто проводить більшу частину часу, пристебнувшись до стільця.
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/pilot.rsi

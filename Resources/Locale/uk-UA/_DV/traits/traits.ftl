@@ -43,17 +43,17 @@ trait-dysgraphia-name = Не вміє писати
 trait-dysgraphia-desc = Ви не можете писати через інвалідність, свою історію чи за бажанням.
 
 trait-amputee-left-arm-name = Інвалід (рука, ліва)
-trait-amputee-left-arm-desc =
+trait-amputee-left-arm-desc = Твоя ліва рука відсутня!
     Your left arm is missing!
     (Note: Amputee traits do not appear in the character editor preview!)
 
 trait-amputee-right-arm-name = Інвалід (рука, права)
-trait-amputee-right-arm-desc =
+trait-amputee-right-arm-desc = Твоєї правої руки немає!
     Your right arm is missing!
     (Note: Amputee traits do not appear in the character editor preview!)
 
 trait-redshirt-name = Червона сорочка
-trait-redshirt-desc =
+trait-redshirt-desc = Встановлює ваш поріг смерті до 100 одиниць шкоди. У вас більше немає критичного стану.
     Sets your death threshold to 100 damage. You no longer have a critical state.
 
     "They said this air would be breathable.

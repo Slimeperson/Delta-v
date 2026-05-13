@@ -7,74 +7,74 @@
 - type: quickPhrase
   id: CallPhrase
   parent: BaseActionPhrase
-  text: phrase-call
+  text: фраза-заклик
 
 - type: quickPhrase
   id: DrinkActionPhrase
   parent: BaseActionPhrase
-  text: phrase-actiondrink
+  text: фраза-діянапій
 
 - type: quickPhrase
   id: ShowMePhrase
   parent: BaseActionPhrase
-  text: phrase-show
+  text: фраза-шоу
 
 - type: quickPhrase
   id: HelpPhrase
   parent: BaseActionPhrase
-  text: phrase-help
+  text: фраза-довідка
 
 - type: quickPhrase
   id: AttackPhrase
   parent: BaseActionPhrase
-  text: phrase-attack
+  text: фраза-атака
 
 - type: quickPhrase
   id: BreakPhrase
   parent: BaseActionPhrase
-  text: phrase-break
+  text: фразорозрив
 
 - type: quickPhrase
   id: BuildPhrase
   parent: BaseActionPhrase
-  text: phrase-build
+  text: словосполучення-буд
 
 - type: quickPhrase
   id: HealPhrase
   parent: BaseActionPhrase
-  text: phrase-heal
+  text: словосполучення-лік
 
 - type: quickPhrase
   id: RunPhrase
   parent: BaseActionPhrase
-  text: phrase-run
+  text: фраза-біг
 
 - type: quickPhrase
   id: GoPhrase
   parent: BaseActionPhrase
-  text: phrase-go
+  text: фраза-го
 
 - type: quickPhrase
   id: FixPhrase
   parent: BaseActionPhrase
-  text: phrase-fix
+  text: фраза-фікс
 
 - type: quickPhrase
   id: SwitchPhrase
   parent: BaseActionPhrase
-  text: phrase-switch
+  text: фраза-перемикач
 
 - type: quickPhrase
   id: KnowPhrase
   parent: BaseActionPhrase
-  text: phrase-know
+  text: фраза-знати
 
 - type: quickPhrase
   id: ThinkPhrase
   parent: BaseActionPhrase
-  text: phrase-think
+  text: фраза-роздум
 
 - type: quickPhrase
   id: EatPhrase
   parent: BaseActionPhrase
-  text: phrase-eat
+  text: фраза-їсти

@@ -1,8 +1,8 @@
 - type: entity
   id: OrganAnimalBrain
   parent: BaseAnimalOrgan
-  name: animal brain
-  description: "Not so intelligence, not so honk."
+  name: мозок тварини
+  description: "легені космічних тварин
   components:
   - type: Sprite
     state: brain
@@ -48,8 +48,8 @@
 - type: entity
   id: OrganAnimalEyes
   parent: BaseAnimalOrgan
-  name: animal eyes
-  description: "I see you!"
+  name: очі тварини
+  description: "Я бачу тебе!"
   components:
   # start-backmen: surgery
   - type: Organ

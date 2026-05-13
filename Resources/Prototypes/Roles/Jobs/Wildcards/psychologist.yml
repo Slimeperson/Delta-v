@@ -1,7 +1,7 @@
 - type: job
   id: Psychologist
-  name: job-name-psychologist
-  description: job-description-psychologist
+  name: робота-назва-психолог
+  description: посадова інструкція-психолог
   playTimeTracker: JobPsychologist
   startingGear: PsychologistGear
   icon: "JobIconPsychologist"

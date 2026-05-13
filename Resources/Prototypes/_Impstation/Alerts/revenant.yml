@@ -1,7 +1,7 @@
 ﻿- type: alert
   id: EssenceRegen
-  name: alerts-revenant-essence-regen
-  description: alerts-revenant-essence-regen
+  name: сповіщення-revenant-essence-regen
+  description: сповіщення-revenant-essence-regen
   icons:
   - sprite: /Textures/Mobs/Ghosts/revenant.rsi
     state: icon

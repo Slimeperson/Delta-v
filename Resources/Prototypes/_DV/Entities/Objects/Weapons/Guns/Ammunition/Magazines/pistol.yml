@@ -162,7 +162,7 @@
 - type: entity
   parent: BaseMagazinePistolSpecial
   id: MagazinePistolSpecial
-  description: 5-round single-stack magazine for the psi-breaker pistol. Intended to hold general-purpose kinetic ammunition.
+  description: Магазин на 5 патронів для пси-брекерного пістолета. Призначений для зберігання кінетичних боєприпасів загального призначення.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecial
@@ -176,8 +176,8 @@
 - type: entity
   parent: BaseMagazinePistolSpecial
   id: MagazinePistolSpecialPractice
-  name: pistol magazine (.38 special practice)
-  description: 5-round single-stack magazine for the psi-breaker pistol. Intended to hold non-harmful chalk ammunition.
+  name: магазин для пістолета (.38 спеціальна практика)
+  description: Магазин на 5 патронів для пси-брекерного пістолета. Призначений для зберігання нешкідливих крейдяних боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialPractice
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseMagazinePistolSpecial
   id: MagazinePistolSpecialRubber
-  name: pistol magazine (.38 special rubber)
-  description: 5-round single-stack magazine for the psi-breaker pistol. Intended to hold less-lethal rubber ammunition.
+  name: магазин для пістолета (спеціальна гума .38)
+  description: Магазин на 5 патронів для пси-брекерного пістолета. Призначений для зберігання менш летальних гумових боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialRubber
@@ -206,8 +206,8 @@
 - type: entity
   parent: BaseMagazinePistolSpecial
   id: MagazinePistolSpecialMindbreaker
-  name: pistol magazine (.38 special mindbreaker)
-  description: 5-round single-stack magazine for the psi-breaker pistol. Intended to hold psionic-removing mindbreaker ammunition.
+  name: магазин для пістолета (.38 special mindbreaker)
+  description: Магазин на 5 патронів для пси-брекерного пістолета. Призначений для зберігання псіотехнічних боєприпасів для злому розуму.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialMindbreaker

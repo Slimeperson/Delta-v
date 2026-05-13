@@ -1,7 +1,7 @@
 - type: job
   id: SalvageSpecialist
   name: job-name-salvagespec
-  description: job-description-salvagespec
+  description: посадовий опис-рятувальний спец
   playTimeTracker: JobSalvageSpecialist
   antagAdvantage: 8 # DeltaV - Reduced TC: External Access + Free hardsuit and weapons
   requirements:

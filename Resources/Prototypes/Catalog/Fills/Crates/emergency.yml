@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSecgear
   id: CrateEmergencyExplosive
-  name: bomb suit crate
-  description: Science gone bonkers? Beeping behind the airlock? Buy now and be the hero the station des... I mean needs! (time not included)
+  name: ящик бомбового костюма
+  description: Наука збожеволіла? Сигнали за шлюзом? Придбайте зараз і станьте героєм станції де... Я маю на увазі потреби! (час не включено)
   components:
   - type: EntityTableContainerFill
     containers:
@@ -18,8 +18,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEmergencyFire
-  name: firefighting crate
-  description: Only you can prevent station fires. Partner up with two firefighter suits, gas masks, flashlights, large oxygen tanks, extinguishers, and hardhats!
+  name: протипожежний ящик
+  description: Тільки ви можете запобігти пожежі на станції. Об’єднайтеся з двома костюмами пожежників, протигазами, ліхтариками, великими кисневими баллонами, вогнегасниками та касками!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CrateInternals
   id: CrateEmergencyInternals
-  name: internals crate
-  description: Master your life energy and control your breathing with three breath masks, three gas masks, three emergency EVA suits, three oxygen tanks, and three nitrogen tanks.
+  name: внутрішній ящик
+  description: Опануйте своєю життєвою енергією та контролюйте своє дихання за допомогою трьох дихальних масок, трьох протигазів, трьох екстрених костюмів EVA, трьох кисневих балонів і трьох балонів з азотом.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CrateInternals
   id: CrateEmergencyInternalsLarge
-  name: internals crate (large)
-  description: Master your life energy and control your breathing with six breath masks, six gas masks, six emergency EVA suits, six oxygen tanks, and six nitrogen tanks.
+  name: внутрішній ящик (великий)
+  description: Керуйте своєю життєвою енергією та контролюйте своє дихання за допомогою шести дихальних масок, шести протигазів, шести екстрених костюмів EVA, шести кисневих балонів і шести балонів з азотом.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -83,8 +83,8 @@
 - type: entity
   parent: CrateInternals
   id: CrateNitrogenInternals
-  name: internals crate (nitrogen)
-  description: Contains two breath masks, two gas masks, and four nitrogen tanks. Intended for nitrogen-breathing species.
+  name: внутрішній ящик (азот)
+  description: Містить дві дихальні маски, дві протигази та чотири балони з азотом. Призначений для видів, що дихають азотом.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -100,8 +100,8 @@
 - type: entity
   parent: CrateRadiation
   id: CrateEmergencyRadiation
-  name: radiation protection crate
-  description: Survive the Nuclear Apocalypse and Supermatter Engine alike with two sets of Radiation suits. Each set contains a helmet, suit, and Geiger counter. We'll even throw in a bottle of vodka and some glasses too, considering the life-expectancy of people who order this.
+  name: ящик радіаційного захисту
+  description: Переживіть ядерний апокаліпсис і двигун суперматерії з двома комплектами радіаційних костюмів. Кожен набір містить шолом, костюм і лічильник Гейгера. Навіть пляшку горілки підкинемо і чарки теж, враховуючи тривалість життя людей, які це замовляють.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -119,8 +119,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateEmergencyInflatablewall
-  name: inflatable wall crate
-  description: Three stacks of inflatable walls for when the stations metal walls don't want to hold atmosphere anymore.
+  name: надувний настінний ящик
+  description: Три купи надувних стін, коли металеві стіни станцій більше не хочуть утримувати атмосферу.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -130,8 +130,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateGenericBiosuit
-  name: emergency bio suit crate
-  description: Contains 2 biohazard suits to ensure that no disease will distract you from what you're doing there.
+  name: аварійний біокостюм ящик
+  description: Містить 2 костюми біологічної небезпеки, щоб жодна хвороба не відволікала вас від того, що ви там робите.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,8 +1,8 @@
 - type: entity
-  name: forged double-barrel shotgun
+  name: v1.1
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunForged
-  description: Decently made double-barrel shotgun, reinforced with mixed steel and plasteel plates to keep it together. Not as accurate as a real gun.
+  description: Імпровізована комбінація інструментів, яка все ще лише трохи краща, ніж нічого.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun_inhands_64x.rsi
@@ -21,10 +21,10 @@
     proto: null
 
 - type: entity
-  name: makeshift shotgun
+  name: саморобний дробовик
   parent: [WeaponFlareGunSecurity, BaseMinorContraband]
   id: WeaponShotgunMakeshift
-  description: A small hand-cannon that fires .50 shotgun shells. Has no cloth to hold it together, so it has a high chance of falling apart with every shot.
+  description: Невелика ручна гармата, яка стріляє снарядами калібру .50. Не має тканини, щоб утримувати його разом, тому він має високий шанс розвалитися з кожним пострілом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi

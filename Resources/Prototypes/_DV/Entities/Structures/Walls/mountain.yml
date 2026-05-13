@@ -2,8 +2,8 @@
   id: BaseAltRock #It's 1994
   parent: BaseWall
   abstract: true
-  name: asteroid rock
-  description: A rocky asteroid.
+  name: астероїдна скеля
+  description: Скелястий астероїд.
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/asteroid_rock.rsi
@@ -50,7 +50,7 @@
 - type: entity
   id: AsteroidAltRock
   parent: BaseAltRock
-  suffix: Low Yield, Standard Value
+  suffix: Низький вихід, стандартне значення
   components:
   - type: OreVein
     oreChance: 0.2
@@ -59,7 +59,7 @@
 - type: entity
   id: AsteroidAltRockMining
   parent: AsteroidAltRock
-  suffix: High Yield, Standard Value
+  suffix: Висока врожайність, стандартне значення
   components:
   - type: OreVein
     oreChance: 0.33
@@ -68,7 +68,7 @@
 - type: entity
   id: AsteroidRockOreCrab
   parent: AsteroidAltRock
-  suffix: Ore Crab
+  suffix: Рудний краб
   components:
   - type: OreVein
     oreChance: 0.33
@@ -77,9 +77,9 @@
 - type: entity
   id: MountainRock
   parent: BaseAltRock
-  name: mountain rock
-  description: A craggy mountain wall.
-  suffix: Un-mineable
+  name: гірська скеля
+  description: Скеляста гірська стіна.
+  suffix: Не можна видобувати
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/mountain_rock.rsi
@@ -108,7 +108,7 @@
 - type: entity
   id: MountainRockMining
   parent: MountainRock
-  suffix: Low Yield, High Value
+  suffix: Низька врожайність, висока вартість
   components:
   - type: Sprite
     sprite: _DV/Structures/Walls/mountain_rock_ore.rsi

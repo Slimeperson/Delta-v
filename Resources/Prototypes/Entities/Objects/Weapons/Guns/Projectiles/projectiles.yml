@@ -814,7 +814,7 @@
 # Launcher projectiles (grenade / rocket)
 - type: entity
   id: BulletRocket
-  name: rocket
+  name: ракета
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1020,7 +1020,7 @@
 
 - type: entity
   id: BulletWaterShot
-  name: water
+  name: води
   categories: [ HideSpawnMenu ]
   components:
   - type: Clickable

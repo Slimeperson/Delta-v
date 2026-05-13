@@ -2,7 +2,7 @@
 
 - type: technology
   id: BasicRobotics
-  name: research-technology-basic-robotics
+  name: дослідження-технології-основна-робототехніка
   icon:
     sprite: Structures/Machines/exosuit_fabricator.rsi
     state: fab-idle
@@ -15,7 +15,7 @@
 
 - type: technology
   id: BasicAnomalousResearch
-  name: research-technology-basic-anomalous-research
+  name: дослідження-технології-основне-аномальне-дослідження
   icon:
     sprite: Objects/Specific/Research/anomalyscanner.rsi
     state: icon
@@ -31,7 +31,7 @@
 
 - type: technology
   id: BasicXenoArcheology
-  name: research-technology-basic-xenoarcheology
+  name: дослідження-технологія-основна-ксеноархеологія
   icon:
     sprite: Structures/Machines/artifact_analyzer.rsi
     state: display
@@ -45,7 +45,7 @@
 
 - type: technology
   id: AlternativeResearch
-  name: research-technology-alternative-research
+  name: дослідження-технологія-альтернативне-дослідження
   icon:
     sprite: Structures/Machines/tech_disk_printer.rsi
     state: display
@@ -58,7 +58,7 @@
 
 - type: technology
   id: MagnetsTech
-  name: research-technology-magnets-tech
+  name: дослідження-технології-магніти-техн
   icon:
     sprite: Clothing/Shoes/Boots/magboots-science.rsi
     state: icon
@@ -75,7 +75,7 @@
 
 - type: technology
   id: AnomalyCoreHarnessing
-  name: research-technology-anomaly-harnessing
+  name: дослідження-технології-використання аномалій
   icon:
     sprite: Objects/Weapons/Melee/gorilla.rsi
     state: icon
@@ -89,7 +89,7 @@
 
 - type: technology
   id: AbnormalArtifactManipulation
-  name: research-technology-abnormal-artifact-manipulation
+  name: дослідження-технології-аномальні-маніпуляції-артефактами
   icon:
     sprite: Structures/Machines/artifact_crusher.rsi
     state: icon
@@ -101,7 +101,7 @@
 
 - type: technology
   id: AdvancedAnomalyResearch
-  name: research-technology-advanced-anomaly-research
+  name: дослідження-технології-передові-дослідження-аномалій
   icon:
     sprite: Structures/Machines/anomaly_sync.rsi
     state: base
@@ -117,7 +117,7 @@
 
 - type: technology
   id: DeterrenceTechnologies
-  name: research-technology-deterrence
+  name: дослідження-технологія-стримування
   icon:
     sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
     state: base
@@ -145,7 +145,7 @@
 
 - type: technology
   id: QuantumLeaping
-  name: research-technology-quantum-leaping
+  name: дослідження-технології-квантовий стрибок
   icon:
     sprite: Objects/Devices/swapper.rsi
     state: icon
@@ -157,7 +157,7 @@
 
 - type: technology
   id: BluespaceTimeManipulation
-  name: research-technology-bluespace-time-manipulation
+  name: дослідження-технології-bluespace-time-маніпуляції
   icon:
     sprite: Objects/Devices/desynchronizer.rsi
     state: icon

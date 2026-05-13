@@ -5,8 +5,8 @@
   abstract: true
   parent: BaseStructure
   id: MonumentCosmicCultBase
-  name: The Monument
-  description: A great slab of unknowledge, only visible to those aware of it. Built of a thousand little nothings, its surface reflects a starless emptiness...
+  name: Пам'ятник
+  description: Велика плита незнання, видима лише тим, хто про це знає. Побудована з тисячі дрібниць, її поверхня відображає беззіркову порожнечу...
   placement:
     mode: AlignTileAny
   components:
@@ -118,9 +118,9 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: MonumentCosmicCultSpawnIn
-  name: The Monument
+  name: Пам'ятник
   parent: BaseStructure
-  suffix: Spawn, DO NOT MAP
+  suffix: Спаун, НЕ КАРТА
   components:
   - type: Visibility
     layer: 16
@@ -176,9 +176,9 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: MonumentCosmicCultMoveStart
-  name: The Monument
+  name: Пам'ятник
   parent: BaseStructure
-  suffix: Spawn, DO NOT MAP
+  suffix: Спаун, НЕ КАРТА
   components:
   - type: Visibility
     layer: 16
@@ -231,9 +231,9 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: MonumentCosmicCultMoveEnd
-  name: The Monument
+  name: Пам'ятник
   parent: BaseStructure
-  suffix: Spawn, DO NOT MAP
+  suffix: Спаун, НЕ КАРТА
   components:
   - type: Visibility
     layer: 16
@@ -289,7 +289,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: MonumentCollider
-  suffix: Debug, DO NOT MAP
+  suffix: Налагоджувати, НЕ МАПИТИ
   parent: BaseStructure
   placement:
     mode: AlignTileAny
@@ -312,7 +312,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: MonumentSlowZone
-  suffix: Debug, DO NOT MAP
+  suffix: Налагоджувати, НЕ МАПИТИ
   placement:
     mode: SnapgridCenter
     snap:
@@ -349,7 +349,7 @@
   categories: [ HideSpawnMenu ]
   parent: MonumentCosmicCultBase
   id: MonumentCosmicCult1
-  suffix: Base, DO NOT MAP
+  suffix: База, НЕ КАРТА
   components:
   - type: Monument # Causes test fail without
     targetProgress: 35
@@ -357,7 +357,7 @@
 
 - type: entity
   id: MonumentCosmicCult2
-  suffix: DO NOT MAP, DO NOT SPAWN
+  suffix: НЕ МАПИ, НЕ СПАВНУЄТЬСЯ
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -367,7 +367,7 @@
 
 - type: entity
   id: MonumentCosmicCult3
-  suffix: DO NOT MAP, DO NOT SPAWN
+  suffix: НЕ МАПИ, НЕ СПАВНУЄТЬСЯ
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

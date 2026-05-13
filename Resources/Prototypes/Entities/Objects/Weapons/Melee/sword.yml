@@ -106,7 +106,7 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: katana
+  name: катана
   parent: [ BaseSword, BaseMajorContraband ]
   id: Katana
   description: Ancient craftwork made with not so ancient plasteel.
@@ -175,7 +175,7 @@
 
 #Greatswords
 - type: entity
-  name: claymore
+  name: клеймор
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
   description: An ancient war blade.

@@ -4,7 +4,7 @@
 
 - type: entity
   id: HandheldAutopulserProjectile
-  name: plasma projectile
+  name: плазмовий снаряд
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

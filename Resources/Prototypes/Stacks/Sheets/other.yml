@@ -1,20 +1,20 @@
 - type: stack
   parent: BaseSheetStack
   id: Plasma
-  name: stack-plasma
+  name: стек-плазма
   icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plasma }
   spawn: SheetPlasma1
 
 - type: stack
   parent: BaseSheetStack
   id: Plastic
-  name: stack-plastic
+  name: стек-пластик
   icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plastic }
   spawn: SheetPlastic1
 
 - type: stack
   parent: BaseSheetStack
   id: Uranium
-  name: stack-uranium
+  name: стек-уран
   icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium }
   spawn: SheetUranium1

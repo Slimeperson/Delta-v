@@ -1,6 +1,6 @@
 - type: guideEntry
   id: References
-  name: guide-entry-references
+  name: путівник-вступ-довідники
   priority: 30
   text: "/ServerInfo/Guidebook/References.xml"
   children:
@@ -12,7 +12,7 @@
 
 - type: guideEntry
   id: Drinks
-  name: guide-entry-drinks
+  name: гід-вхід-напої
   text: "/ServerInfo/Guidebook/ReferenceTables/Drinks.xml"
   filterEnabled: true
 
@@ -41,55 +41,55 @@
 
 - type: guideEntry
   id: PizzaRecipes
-  name: guide-entry-pizza-recipes
+  name: путівник-вхід-піца-рецепти
   text: "/ServerInfo/Guidebook/Service/PizzaRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: SavoryRecipes
-  name: guide-entry-savory-recipes
+  name: путівник-запис-пікантні-рецепти
   text: "/ServerInfo/Guidebook/Service/SavoryRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: BreadRecipes
-  name: guide-entry-bread-recipes
+  name: путівник-запис-рецепти-хліба
   text: "/ServerInfo/Guidebook/Service/BreadRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: BreakfastRecipes
-  name: guide-entry-breakfast-recipes
+  name: путівник-вхід-сніданок-рецепти
   text: "/ServerInfo/Guidebook/Service/BreakfastRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: MothRecipes
-  name: guide-entry-moth-recipes
+  name: керівництво-запис молі-рецепти
   text: "/ServerInfo/Guidebook/Service/MothRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: PastaRecipes
-  name: guide-entry-pasta-recipes
+  name: довідник-вхід-рецепти макаронних виробів
   text: "/ServerInfo/Guidebook/Service/PastaRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: DessertRecipes
-  name: guide-entry-dessert-recipes
+  name: путівник-вхід-десерти-рецепти
   text: "/ServerInfo/Guidebook/Service/DessertRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: SoupRecipes
-  name: guide-entry-soup-recipes
+  name: гід-вступ-мед
   text: "/ServerInfo/Guidebook/Service/SoupRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: PieRecipes
-  name: guide-entry-pie-recipes
+  name: посібник-вхід-рецепти-пирогів
   text: "/ServerInfo/Guidebook/Service/PieRecipes.xml"
   filterEnabled: True
 
@@ -101,37 +101,37 @@
 
 - type: guideEntry
   id: CakeRecipes
-  name: guide-entry-cake-recipes
+  name: довідник-вхід-рецепти тортів
   text: "/ServerInfo/Guidebook/Service/CakeRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: SaladRecipes
-  name: guide-entry-salad-recipes
+  name: путівник-вхід-салат-рецепти
   text: "/ServerInfo/Guidebook/Service/SaladRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: OtherRecipes
-  name: guide-entry-other-recipes
+  name: посібник-запис-інші-рецепти
   text: "/ServerInfo/Guidebook/Service/OtherRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: MedicinalRecipes
-  name: guide-entry-medicinal-recipes
+  name: путівник-запис-лікарські-рецепти
   text: "/ServerInfo/Guidebook/Service/MedicinalRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: SecretRecipes
-  name: guide-entry-secret-recipes
+  name: керівництво-запис-секретні-рецепти
   text: "/ServerInfo/Guidebook/Service/SecretRecipes.xml"
   filterEnabled: True
 
 - type: guideEntry
   id: Writing
-  name: guide-entry-writing
+  name: путівник-запис-написання
   text: "/ServerInfo/Guidebook/Writing.xml"
 
 - type: guideEntry

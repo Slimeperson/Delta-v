@@ -6,39 +6,39 @@
 - type: quickPhrase
   id: AccessPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-access
+  text: фраза-доступ
 
 - type: quickPhrase
   id: EncryptionKeyPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-encryption-key
+  text: фраза-ключ-шифрування
 
 - type: quickPhrase
   id: IdCardPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-id-card
+  text: фраза-ідентифікаційна картка
 
 - type: quickPhrase
   id: PDAPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-pda
+  text: фраза-кпк
 
 - type: quickPhrase
   id: StampPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-stamp
+  text: фраза-штамп
 
 - type: quickPhrase
   id: ImplantPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-implant
+  text: фраза-імплант
 
 - type: quickPhrase
   id: NukeDiskPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-nukedisk
+  text: фраза-nukedisk
 
 - type: quickPhrase
   id: PinpointerPhrase
   parent: BaseCommandSubjectPhrase
-  text: phrase-pinpointer
+  text: фраза-пінпоінтер

@@ -32,8 +32,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineBoxingDrobe
-  name: Boxing Drobe
-  description: Always short on stock.
+  name: Боксерський одяг
+  description: На складі завжди бракує.
   components:
   - type: VendingMachine
     pack: BoxingDrobeInventory
@@ -54,7 +54,7 @@
   parent: VendingMachine
   id: VendingMachineRepDrobe
   name: RepDrobe
-  description: A machine for all your reporting needs, as long as you need clothes.
+  description: Машина для всіх ваших потреб у звітності, якщо вам потрібен одяг.
   components:
   - type: VendingMachine
     pack: RepDrobeInventory
@@ -77,8 +77,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMNKDrobe
-  name: MNK Drobe
-  description: Quality garments provided by MoNoKrome.
+  name: МНК Дроб
+  description: Якісний одяг від MoNoKrome.
   components:
   - type: VendingMachine
     pack: MNKDrobeInventory

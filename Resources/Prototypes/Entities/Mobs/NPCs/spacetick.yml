@@ -1,8 +1,8 @@
 - type: entity
-  name: space tick
+  name: космічна галочка
   id: MobTick
   parent: SimpleSpaceMobBase
-  description: It's a space tick, watch out for its nasty bite. CentComm reports that 90 percent of logistics leg amputations are due to space tick bites. # DeltaV - Logistics Department replacing Cargo
+  description: Це космічний кліщ, стережіться його неприємного укусу. CentComm повідомляє, що 90 відсотків ампутацій ніг ​​у логістиці відбувається через укуси кліщів. # DeltaV - відділ логістики замість Cargo
   components:
   - type: InputMover
   - type: MobMover
@@ -96,7 +96,7 @@
 - type: entity
   id: MobTickSalvage
   parent: MobTick
-  suffix: "Salvage Ruleset"
+  suffix: "Набір правил порятунку"
   components:
   - type: SalvageMobRestrictions
 

@@ -10,7 +10,7 @@ wires-component-ui-on-receive-message-cannot-mend-uncut-wire = Ви не мож�
 
 wires-menu-name-label = Дроти
 wires-menu-dead-beef-text = МЕРШ-ЯЛОВИЧИЙ
-wires-menu-help-popup =
+wires-menu-help-popup = Клацніть на золоті контакти мультитулом у руках, щоб імпульсувати їхній дріт.
     Click on the gold contacts with a multitool in hand to pulse their wire.
     Click on the wires with a pair of wirecutters in hand to cut/mend them.
 

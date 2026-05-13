@@ -17,5 +17,5 @@ cmd-mapping-failure-bool = {$arg}не є дійсним логічним зна�
 cmd-mapping-nullspace = Ви не можете завантажити на карту 0.
 cmd-hint-mapping-id = [MapID]
 cmd-mapping-hint-grid = [Grid]
-cmd-hint-mapping-path = [Path]
+cmd-hint-mapping-path = { TOSTRING($value, "P0") }
 cmd-mapping-exists = Карта {$mapId}вже існує.

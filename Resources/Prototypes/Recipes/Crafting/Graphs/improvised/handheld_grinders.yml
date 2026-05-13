@@ -27,7 +27,7 @@
     - to: mortarAndPestle
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tool: Slicing
@@ -70,7 +70,7 @@
     - to: juicer
       completed:
       - !type:AdminLog
-        message: "Construction"
+        message: "Будівництво"
         impact: High
       steps:
       - tool: Slicing

@@ -1,8 +1,8 @@
 - type: entity
   id: N14FreeTableBase # Base off this for wood tables
   parent: BaseStructure
-  name: table
-  description: A square piece of wood standing on four wood legs.
+  name: стіл
+  description: Квадратний шматок дерева, що стоїть на чотирьох дерев’яних ніжках.
   abstract: true
   components:
   - type: Damageable
@@ -48,7 +48,7 @@
 - type: entity
   parent: N14FreeTableBase # Begin DeltaV Additions
   id: N14FreeMetalTableBase # Base off THIS for metal tables
-  description: A cold piece of metal standing on four metal legs.
+  description: Холодний шматок металу, що стоїть на чотирьох металевих ніжках.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -76,8 +76,8 @@
 - type: entity
   parent: N14FreeMetalTableBase # Begin DeltaV Additions
   id: N14TableMetalRound
-  name: circular metal table
-  description: A cold handmade circular metal table. # End DeltaV Additions
+  name: круглий металевий стіл
+  description: Круглий металевий столик ручної роботи. # Завершити доповнення DeltaV
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tables.rsi # Begin DeltaV Additions
@@ -100,9 +100,9 @@
 
 - type: entity
   id: N14TableMetalRoundDirty
-  name: round table
-  suffix: dirty
-  description: A round metal table. Prison like.
+  name: круглий стіл
+  suffix: брудний
+  description: Круглий металевий стіл. Як тюрма.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableWoodSquare
-  name: wooden table
-  description: A simple wooden table. # DeltaV - added description
+  name: дерев'яний стіл
+  description: Простий дерев'яний стіл. # DeltaV - додано опис
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tables.rsi # DeltaV - Resprite
@@ -137,8 +137,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodRound
-  name: circular wooden table
-  description: A circular wooden table.
+  name: круглий дерев'яний стіл
+  description: Круглий дерев'яний стіл.
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tables.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodLow
-  name: wooden coffee table # DeltaV
-  description: A low wooden square table.
+  name: дерев'яний журнальний столик # DeltaV
+  description: Низький дерев'яний квадратний стіл.
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tables.rsi # Begin DeltaV Changes
@@ -187,8 +187,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodStand
-  name: wooden end table # DeltaV
-  description: A small wooden table for holding smaller things. # DeltaV - added description
+  name: дерев'яний торцевий стіл # DeltaV
+  description: Невеликий дерев'яний столик для зберігання дрібних речей. # DeltaV - додано опис
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tables.rsi # Begin DeltaV Changes
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WoodTableFrame
-  name: wooden frame
-  description: Pieces of wood that make up the frame of an unfinished object.
+  name: дерев'яний каркас
+  description: Шматки дерева, з яких складається каркас незавершеного об’єкта.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -258,8 +258,8 @@
 - type: entity
   parent: N14FreeMetalTableBase # DeltaV
   id: N14TableDeskMetal
-  name: metal desk
-  description: A metal desk for working at. Sturdy.
+  name: металевий стіл
+  description: Сучасний блакитний килим.
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/desks.rsi # DeltaV - Resprite
@@ -282,8 +282,8 @@
 - type: entity
   parent: BaseStructure # Begin DeltaV Additions
   id: N14MetalTableFrame
-  name: metal frame
-  description: Pieces of metal that make up the frame of an unfinished object.
+  name: металевий каркас
+  description: Шматки металу, з яких складається каркас незавершеного об’єкта.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -327,7 +327,7 @@
 - type: entity
   parent: N14FreeMetalTableBase # End DeltaV Additions
   id: N14TableDeskMetalDirty
-  suffix: dirty
+  suffix: брудний
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -336,7 +336,7 @@
 - type: entity # Begin DeltaV additions
   parent: N14FreeMetalTableBase
   id: N14TableDeskMetalAlt
-  suffix: alt
+  suffix: альт
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/desks.rsi 
@@ -354,7 +354,7 @@
   parent: N14FreeTableBase
   id: N14TableDeskWood2 
   suffix: alt # DeltaV
-  description: A desk for working at. # DeltaV
+  description: Стіл для роботи. # DeltaV
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/desks.rsi # DeltaV - Resprite
@@ -374,7 +374,7 @@
 - type: entity
   parent: N14TableDeskWood2 
   id: N14TableDeskWood # DeltaV
-  name: office desk
+  name: синій килим
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/desks.rsi # DeltaV - Resprite
@@ -397,7 +397,7 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableDeskWoodSmall
-  suffix: small
+  suffix: блакитний килим фантазії
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/desks.rsi # DeltaV - Resprite
@@ -417,8 +417,8 @@
 - type: entity
   parent: N14TableDeskWood
   id: N14TableCasinoCards
-  name: cards table
-  description: A fancy table for playing cards at.
+  name: картковий стіл
+  description: Шикарний стіл для гри в карти.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -427,8 +427,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableCasinoPool
-  name: pool table
-  description: A fancy table for playing pool at.
+  name: більярдний стіл
+  description: Шикарний стіл для гри в більярд.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -437,8 +437,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenOvalWide
-  name: oval wooden table # DeltaV
-  description: An oval table made from wood.
+  name: овальний дерев'яний стіл # DeltaV
+  description: Стіл овальний з дерева.
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tablesx64.rsi # Begin DeltaV Additions
@@ -461,8 +461,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenSquareWide
-  name: wide wooden table # DeltaV
-  description: A wide square table made from wood.
+  name: широкий дерев'яний стіл # DeltaV
+  description: Широкий квадратний стіл з дерева.
   components:
   - type: Sprite
     sprite: _DV/Structures/Furniture/N14Tables/tablesx64.rsi # Begin DeltaV Additions
@@ -485,8 +485,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableMetalWide
-  name: metal table
-  description: A wide metal table.
+  name: металевий стіл
+  description: Широкий металевий стіл.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -496,9 +496,9 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableCounter
-  name: wood counter # DeltaV
-  description: A wooden counter. Give me a drink, bartender. # DeltaV
-  suffix: full
+  name: Лічильник деревини # DeltaV
+  description: Дерев'яна стійка. Дай мені випити, бармен. # DeltaV
+  suffix: повний
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -510,7 +510,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterBend
-  suffix: corner
+  suffix: куточок
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -522,7 +522,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterIntersect
-  suffix: intersect
+  suffix: перетинаються
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -534,7 +534,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCross
-  suffix: cross
+  suffix: хрестик
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraft
-  description: This counter looks like scrap.
-  suffix: craft full
+  description: Цей лічильник виглядає як брухт.
+  suffix: ремесло повне
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -560,7 +560,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraftBend
-  suffix: craft corner
+  suffix: легені космічних тварин
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -572,7 +572,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraftIntersect
-  suffix: craft intersect
+  suffix: ремесла перетинаються
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -584,7 +584,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraftCross
-  suffix: craft cross
+  suffix: космічна кобра"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -597,8 +597,8 @@
 - type: entity
   parent: N14FreeMetalTableBase # DeltaV
   id: N14TableCounterMetal
-  name: metal counter
-  description: A cold, hard metal counter.
+  name: металевий лічильник
+  description: Холодний твердий металевий лічильник.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -610,7 +610,7 @@
 - type: entity
   parent: N14TableCounterMetal
   id: N14TableCounterMetalBend
-  suffix: corner
+  suffix: куточок
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -622,7 +622,7 @@
 - type: entity
   parent: N14TableCounterMetal
   id: N14TableCounterMetalIntersect
-  suffix: intersect
+  suffix: перетинаються
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -634,7 +634,7 @@
 - type: entity
   parent: N14TableCounterMetal
   id: N14TableCounterMetalCross
-  suffix: cross
+  suffix: хрестик
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -647,8 +647,8 @@
 - type: entity
   id: N14TableMetalGrate
   parent: Table
-  name: metal table
-  description: A cold handmade metal table made from grating.
+  name: металевий стіл
+  description: Холодний металевий стіл ручної роботи з решітки.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/metalgrate.rsi

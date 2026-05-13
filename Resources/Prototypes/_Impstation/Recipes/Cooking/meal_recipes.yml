@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeCamelSoup
-  name: one day blinding stew recipe # DeltaV - name change
+  name: привид
   result: FoodCamelSoup
   time: 15
   solids:

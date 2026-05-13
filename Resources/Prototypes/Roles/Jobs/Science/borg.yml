@@ -20,8 +20,8 @@
 
 - type: job
   id: Borg
-  name: job-name-borg
-  description: job-description-borg
+  name: робота-назва-борг
+  description: посадова інструкція-борг
   playTimeTracker: JobBorg
   requirements:
     - !type:OverallPlaytimeRequirement

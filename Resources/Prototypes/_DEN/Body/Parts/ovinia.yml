@@ -3,7 +3,7 @@
 - type: entity
   id: PartOvinia
   parent: [BaseItem, BasePart]
-  name: "ovinia body part"
+  name: "частина тіла ovinia"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoOvinia
-  name: "ovinia torso"
+  name: "тулуб яйцеклітини"
   parent: [PartOvinia, BaseTorso]
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: HeadOvinia
-  name: "ovinia head"
+  name: "Песто — популярна начинка для піци для молі, цілком можливо, тому що вона є прикладом їхніх улюблених смаків; сир, зелень і овочі.
   parent: [PartOvinia, BaseHead]
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 
 - type: entity
   id: LeftArmOvinia
-  name: "left ovinia arm"
+  name: "ліва рука ovinia"
   parent: [PartOvinia, BaseLeftArm]
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 
 - type: entity
   id: RightArmOvinia
-  name: "right ovinia arm"
+  name: "права яйцеподібна рука"
   parent: [PartOvinia, BaseRightArm]
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: LeftHandOvinia
-  name: "left ovinia hand"
+  name: "сутінки школярка форма
   parent: [PartOvinia, BaseLeftHand]
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RightHandOvinia
-  name: "right ovinia hand"
+  name: "права ovinia рука"
   parent: [PartOvinia, BaseRightHand]
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: LeftLegOvinia
-  name: "left ovinia leg"
+  name: "ліва яйцеподібна нога"
   parent: [PartOvinia, BaseLeftLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: RightLegOvinia
-  name: "right ovinia leg"
+  name: "права яйцеподібна нога"
   parent: [PartOvinia, BaseRightLeg]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: LeftFootOvinia
-  name: "left ovinia foot"
+  name: "ліва яйцеподібна стопа"
   parent: [PartOvinia, BaseLeftFoot]
   components:
   - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RightFootOvinia
-  name: "right ovinia foot"
+  name: "права яйцеподібна нога"
   parent: [PartOvinia, BaseRightFoot]
   components:
   - type: Sprite

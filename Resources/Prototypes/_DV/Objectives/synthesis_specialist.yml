@@ -12,8 +12,8 @@
 - type: entity
   parent: [BaseSynthesisObjective, BaseSurviveObjective]
   id: SynthesisSurviveObjective
-  description: Survive to sell off your goods another day!
-  name: Survive and Prosper
+  description: Виживіть, щоб розпродати свої товари ще один день!
+  name: Вижити і процвітати
   components:
   - type: Objective
     icon:
@@ -23,8 +23,8 @@
 - type: entity
   parent: [BaseSynthesisObjective, BaseSurviveObjective]
   id: SynthesisPrescribeObjective
-  description: Sell your finest potions, craft nefarious concoctions, and peddle them to the highest bidder.
-  name: Profit and Synthesis
+  description: Розкрадати або витрачати кошти будь-якого відділу.
+  name: Прибуток і синтез
   components:
   - type: Objective
     icon:

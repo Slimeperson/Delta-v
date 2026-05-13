@@ -1,6 +1,6 @@
 - type: entity
   id: BulletLightRifleImprovised
-  name: bullet (.30 rifle improvised)
+  name: куля (саморобна гвинтівка .30)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

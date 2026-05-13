@@ -18,7 +18,7 @@
 - type: entity
   parent: [PartKobold, BaseTorso]
   id: TorsoKobold
-  name: "kobold torso"
+  name: "тулуб кобольда"
   components:
   - type: Sprite
     state: "torso_m"
@@ -33,7 +33,7 @@
 - type: entity
   parent: [PartKobold, BaseHead]
   id: HeadKobold
-  name: "kobold head"
+  name: "голова кобольда"
   components:
   - type: Sprite
     state: "head_m"
@@ -48,7 +48,7 @@
 - type: entity
   parent: [PartKobold, BaseLeftArm]
   id: LeftArmKobold
-  name: "left kobold arm"
+  name: "ліва рука кобольда"
   components:
   - type: Sprite
     state: "l_arm"
@@ -56,7 +56,7 @@
 - type: entity
   parent: [PartKobold, BaseRightArm]
   id: RightArmKobold
-  name: "right kobold arm"
+  name: "права рука кобольда"
   components:
   - type: Sprite
     state: "r_arm"
@@ -64,7 +64,7 @@
 - type: entity
   parent: [PartKobold, BaseLeftHand]
   id: LeftHandKobold
-  name: "left kobold hand"
+  name: "ліва рука кобольда"
   components:
   - type: Sprite
     state: "l_hand"
@@ -72,7 +72,7 @@
 - type: entity
   parent: [PartKobold, BaseRightHand]
   id: RightHandKobold
-  name: "right kobold hand"
+  name: "права рука кобольда"
   components:
   - type: Sprite
     state: "r_hand"
@@ -80,7 +80,7 @@
 - type: entity
   parent: [PartKobold, BaseLeftLeg]
   id: LeftLegKobold
-  name: "left kobold leg"
+  name: "ліва кобольдова нога"
   components:
   - type: Sprite
     state: "l_leg"
@@ -88,7 +88,7 @@
 - type: entity
   parent: [PartKobold, BaseRightLeg]
   id: RightLegKobold
-  name: "right kobold leg"
+  name: "права кобольдова нога"
   components:
   - type: Sprite
     state: "r_leg"
@@ -96,7 +96,7 @@
 - type: entity
   parent: [PartKobold, BaseLeftFoot]
   id: LeftFootKobold
-  name: "left kobold foot"
+  name: "ліва кобольдова нога"
   components:
   - type: Sprite
     state: "l_foot"
@@ -104,7 +104,7 @@
 - type: entity
   parent: [PartKobold, BaseRightFoot]
   id: RightFootKobold
-  name: "right kobold foot"
+  name: "права кобольдова нога"
   components:
   - type: Sprite
     state: "r_foot"

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClosetSteelBase
   id: N14ClosetSafe
-  name: safe
-  description: Might be filled with valuables.
+  name: безпечний
+  description: Може бути наповнений цінностями.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/Furniture/safe.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: N14ClosetSafe
   id: N14ClosetSafeSpinner
-  suffix: spinner
+  suffix: спінер
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/Furniture/safespinner.rsi

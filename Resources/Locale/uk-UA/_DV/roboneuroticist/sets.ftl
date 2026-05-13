@@ -1,39 +1,39 @@
 roboneuroticist-set-commander-name = Командир безпілотника
-roboneuroticist-set-commander-description =
+roboneuroticist-set-commander-description = Hixashape
     You have always led borgs with your own voice, and speak their language.
     Comes with an additional Weapons Module, a common key, and a Voice Mask
 
 roboneuroticist-set-saboteur-name = Віддалений диверсант
-roboneuroticist-set-saboteur-description =
+roboneuroticist-set-saboteur-description = Зробити інженерів нещасними — місія вашого життя.
     Making engineers miserable is your life's mission.
     Comes with an additional two RCD Modules, and a Powersink.
 
 roboneuroticist-set-mechanic-name = Польовий механік
-roboneuroticist-set-mechanic-description =
+roboneuroticist-set-mechanic-description = Керувати з фронту — ваше покликання, ремонт ваших боргів — ваша мета.
     Leading from the front is your calling, repairing your borgs is your goal.
     Comes with an Syndicate Thermal Hardsuit, and a set of Advanced Tools
 
 roboneuroticist-set-infiltrator-name = Спеціаліст з обфускації
-roboneuroticist-set-infiltrator-description =
+roboneuroticist-set-infiltrator-description = Виверт — це назва гри, і ти знаєш це краще за всіх.
     Subterfuge is the name of the game, and you know that better than anyone.
     Comes with a Saboteur Cyborg, a RCD Module, and an Energy Sword Module.
 
 roboneuroticist-set-warmonger-name = Механічна лють
-roboneuroticist-set-warmonger-description =
+roboneuroticist-set-warmonger-description = Іноді вам просто потрібно трохи більше зброї.
     Sometimes you just need a little more gun.
     Comes with a fully equipped Syndicate Assault Cyborg.
 
 roboneuroticist-set-clown-name = Роботизований гумор
-roboneuroticist-set-clown-description =
+roboneuroticist-set-clown-description = Божевілля та безрозсудність визначають вас, ви не маєте контролю над реальністю.
     Madness and recklessness define you, you have no grip on reality.
     Comes with Clown gear, a service borg ready for emagging, and a jonkbot.
 
 roboneuroticist-set-pirate-name = Синтетичні Scallywags
-roboneuroticist-set-pirate-description =
+roboneuroticist-set-pirate-description = Ви пірат, і візьмете все, що захочете.
     You are a pirate, and you will take what you want.
     Comes with a Cannon Module, 2 Buccaneer Modules, A Pirate Capn's Hardsuit, and a pile of pirate hats.
 
 roboneurotocist-set-malpractice-name = Медична помилка
-roboneurotocist-set-malpractice-description =
+roboneurotocist-set-malpractice-description = Божевільна наука — ваша гра, і ви любите в неї грати.
     Mad science is your game, and you love to play it.
     Comes with Assorted surgical implements, a Syndicate Medical Cyborg, Interdyne Defib, a borg sleep hypo, and some fancy surgical gloves.

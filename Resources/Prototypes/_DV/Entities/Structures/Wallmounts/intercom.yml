@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseIntercomSecure
   id: IntercomJustice
-  suffix: Justice
+  suffix: Справедливість
   description: An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill

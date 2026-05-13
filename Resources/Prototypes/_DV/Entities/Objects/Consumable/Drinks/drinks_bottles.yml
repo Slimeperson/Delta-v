@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: DrinkAngobittersBottleFull
-  name: angobitters bottle
-  description: Commonly used for mixed drinks, not drunk neat.
+  name: angobitters пляшка
+  description: Зазвичай використовується для змішаних напоїв, не п’ється чистим.
   components:
   - type: SolutionContainerManager
     solutions:

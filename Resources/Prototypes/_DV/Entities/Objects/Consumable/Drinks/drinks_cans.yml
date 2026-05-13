@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkDrGibbBloodRedCan
-  name: Dr. Gibb Blood Red can
-  description:  A drink to quench YOUR bloodthirst.
+  name: Доктор Гібб Криваво-червоний може
+  description:  Напій, щоб втамувати ВАШУ кровожерливість.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -17,7 +17,7 @@
 - type: entity
   id: DrinkCanPackBloodRed
   parent: DrinkCanPack
-  name: Blood-red brew 6pack
+  name: Криваво-червоний напій 6пак
   components:
   - type: Storage
     whitelist:

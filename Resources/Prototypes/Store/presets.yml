@@ -42,7 +42,7 @@
   abstract: true
   components:
   - type: Store
-    name: store-preset-name-changeling
+    name: store-preset-name-changinging
     categories:
     - ChangelingAbilities
     currencyWhitelist:

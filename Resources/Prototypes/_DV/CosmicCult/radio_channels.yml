@@ -1,6 +1,6 @@
 - type: radioChannel
   id: CosmicRadio
-  name: chat-radio-cosmiccult
+  name: чат-радіо-космкульт
   keycode: 'a'
   frequency: 77777
   color: "#4cabb3"

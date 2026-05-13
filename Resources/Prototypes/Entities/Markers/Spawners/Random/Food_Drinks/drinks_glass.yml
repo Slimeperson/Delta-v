@@ -1,7 +1,7 @@
 - type: entity
   id: RandomDrinkGlass
-  name: random drink spawner
-  suffix: Glass
+  name: спаунер випадкового виробництва
+  suffix: скло
   parent: MarkerBase
   placement:
     mode: AlignTileAny

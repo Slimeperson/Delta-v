@@ -1,6 +1,6 @@
 - type: guideEntry
   id: Jobs
-  name: guide-entry-jobs
+  name: гід-вхід-робочі місця
   text: "/ServerInfo/Guidebook/Jobs.xml"
   children:
   - Service

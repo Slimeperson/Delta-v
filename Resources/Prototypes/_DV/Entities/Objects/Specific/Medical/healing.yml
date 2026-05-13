@@ -290,7 +290,7 @@
   parent: BaseHealingItem
   id: Oilpack
   name: oil pack
-  suffix: Full
+  suffix: Повний
   description: Fit with a proprietary and disposable connector, oil can easily be injected to top off a bleeding IPC
   components:
   - type: Sprite
@@ -315,7 +315,7 @@
 - type: entity
   parent: Oilpack
   id: Oilpack1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -323,7 +323,7 @@
 - type: entity
   parent: Oilpack
   id: OmniPatch
-  suffix: Full
+  suffix: Повний
   name: omni patch
   description: A topical patch of specially grown silica microbots, curated to heal machine entities. Smells of ozone.
   components:
@@ -348,7 +348,7 @@
 - type: entity
   id: Omnipatch1
   parent: OmniPatch
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -356,7 +356,7 @@
 - type: entity
   parent: PurifyingSalts
   id: PurifyingSalts1
-  suffix: Single
+  suffix: щит паладина
   components:
   - type: Stack
     count: 1
@@ -366,7 +366,7 @@
   description: A canister of purifying salts for cleansing the body of metaphysical injuries
   parent: BaseHealingItem
   id: PurifyingSalts
-  suffix: Full
+  suffix: Повний
   components:
   - type: Sprite
     sprite: _DV/Objects/Medical/purifyingsalts.rsi

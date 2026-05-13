@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: різач для дроту
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: Це вбиває провід.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -58,10 +58,10 @@
         variation: 0.125
 
 - type: entity
-  name: screwdriver
+  name: викрутка
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: Крутний момент промислового рівня в невеликій упаковці гвинтів.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -111,10 +111,10 @@
       path: /Audio/_Shitmed/Medical/Surgery/retractor2.ogg
 
 - type: entity
-  name: wrench
+  name: гайковий ключ
   parent: BaseItem
   id: Wrench
-  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
+  description: 'Звичайний інструмент для монтажу та демонтажу. Запам'ятайте: лівий фіксує, правий знімає.'
   components:
   - type: EmitSoundOnLand
     sound:
@@ -153,10 +153,10 @@
     - Construction
 
 - type: entity
-  name: multitool
+  name: мультитул
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  description: Удосконалений інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -207,10 +207,10 @@
     - InspectingPower
 
 - type: entity
-  name: network configurator
+  name: конфігуратор мережі
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: Набір щелеп життя, стиснутих завдяки магії науки.
   components:
     - type: EmitSoundOnLand
       sound:
@@ -260,10 +260,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: електродриль
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: Проста ручна електродриль.
   components:
   - type: Tag
     tags:
@@ -322,8 +322,8 @@
 - type: entity
   id: RCD
   parent: [ BaseItem, BaseEngineeringContraband ]
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: УЗО
+  description: Швидкий будівельний пристрій можна використовувати для швидкого розміщення та демонтажу різних станційних конструкцій і пристосувань. Для функціонування потрібна стиснена речовина.
   components:
   - type: RCD
     availablePrototypes:
@@ -377,7 +377,7 @@
 - type: entity
   id: RCDEmpty
   parent: RCD
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: LimitedCharges
     lastCharges: -1
@@ -385,9 +385,9 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
-  suffix: AutoRecharge
+  name: експериментальне УЗО
+  description: Пристрій швидкого будівництва, встановлений на кіборзі, який миттєво створює стиснений матеріал за допомогою внутрішнього виробника.
+  suffix: Автопоповнення
   components:
   - type: LimitedCharges
     maxCharges: 20
@@ -433,8 +433,8 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: експериментальне УЗО
+  description: Розширений bluespace пристрій для швидкого будівництва, який пасивно генерує власну стиснуту речовину.
   components:
   - type: AutoRecharge
     rechargeDuration: 1
@@ -444,10 +444,10 @@
 # End DeltaV additions
 
 - type: entity
-  name: compressed matter
+  name: стиснена речовина
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: Картридж сирої речовини, ущільненої за технологією bluespace. Використовується в пристроях швидкого будівництва.
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -473,7 +473,7 @@
   name: omnitool
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: Кращий друг дрона.
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -536,10 +536,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: лопата
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: Великий інструмент для копання та переміщення бруду.
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -565,8 +565,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: скалка
+  description: Інструмент, який використовується для формування та розплющування тіста.
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

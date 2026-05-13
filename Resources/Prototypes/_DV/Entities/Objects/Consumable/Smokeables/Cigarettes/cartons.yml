@@ -1,8 +1,8 @@
 - type: entity
   id: CigCartonPurple
   parent: CigCartonGreen
-  name: De Jure carton
-  description: A carton containing 6 packets of De Jure.
+  name: Де-Юре картон
+  description: Картонна коробка з 6 пакетами De Jure.
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/purple.rsi
@@ -17,8 +17,8 @@
 - type: entity
   id: CigCartonCandy
   parent: CigCartonGreen
-  name: Sugar Rush carton
-  description: A carton containing 6 packets of Sugar Rush.
+  name: Коробка Sugar Rush
+  description: Картонна коробка з 6 пакетами Sugar Rush.
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/pink.rsi
@@ -33,8 +33,8 @@
 - type: entity
   id: CigCartonSyndicate
   parent: CigCartonGreen
-  name: Interdyne Herbals carton
-  description: A carton containing 6 packets of Interdynes, plus an exclusive flippo.
+  name: Картонна упаковка Interdyne Herbals
+  description: Картонна коробка містить 6 пакетів Interdynes, а також ексклюзивний Flippo.
   components:
   - type: Sprite
     sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/syndicate.rsi

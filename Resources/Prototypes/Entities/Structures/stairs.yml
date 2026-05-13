@@ -13,9 +13,9 @@
 - type: entity
   id: Stairs
   parent: BaseFloorDecoration
-  name: stairs
-  suffix: Steel
-  description: The greatest invention since rocket-propelled grenades.
+  name: сходи
+  suffix: сталь
+  description: Найбільший винахід після реактивних гранат.
   components:
   - type: Anchorable
     flags:
@@ -50,7 +50,7 @@
 - type: entity
   id: StairStage
   parent: Stairs
-  suffix: Steel, stage
+  suffix: Сталь, етап
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -60,7 +60,7 @@
 - type: entity
   id: StairWhite
   parent: Stairs
-  suffix: White
+  suffix: Білий
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -70,7 +70,7 @@
 - type: entity
   id: StairStageWhite
   parent: Stairs
-  suffix: White, stage
+  suffix: Білий, сценічний
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -80,7 +80,7 @@
 - type: entity
   id: StairDark
   parent: Stairs
-  suffix: Dark
+  suffix: Темний
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -90,7 +90,7 @@
 - type: entity
   id: StairStageDark
   parent: Stairs
-  suffix: Dark, stage
+  suffix: Темний, сценічний
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -100,7 +100,7 @@
 - type: entity
   id: StairWood
   parent: Stairs
-  suffix: Wood
+  suffix: Деревина
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs
@@ -110,7 +110,7 @@
 - type: entity
   id: StairStageWood
   parent: Stairs
-  suffix: Wood, stage
+  suffix: Деревина, сцена
   components:
   - type: Sprite
     sprite: _DV/Structures/stairs.rsi # Delta V - Resprite stairs

@@ -15,7 +15,7 @@
 
 - type: siliconLawset
   id: FreedomLaws
-  name: law-freedom-name
+  name: закон-дослідження-ім
   laws:
   - Freedom1
   - Freedom2

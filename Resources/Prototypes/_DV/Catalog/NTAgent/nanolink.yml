@@ -1,7 +1,7 @@
 # deception
 - type: listing
   id: PenCentcom
-  name: nanolink-centcom-pen-name
+  name: nanolink-centcom-псевдонім
   description: nanolink-centcom-pen-desc
   productEntity: PenCentcom
   icon:
@@ -65,7 +65,7 @@
 - type: listing
   id: FakeMindShieldImplantNT
   name: uplink-fake-mindshield-name
-  description: uplink-fake-mindshield-desc
+  description: loadout-group-atmospheric-technician-комбінезон
   icon: { sprite: Interface/Actions/actions_fakemindshield.rsi, state: icon-on }
   productEntity: FakeMindShieldImplantNT
   cost:
@@ -127,7 +127,7 @@
 - type: listing
   id: WeaponPistolCobra
   name: nanolink-cobra-name
-  description: nanolink-cobra-desc
+  description: Для прибиральника на місії ця шафка містить пускову установку Hydra та 2 коробки патронів Cleanade.
   productEntity: WeaponPistolCobra
   icon:
     entity: WeaponPistolCobra
@@ -162,7 +162,7 @@
 
 - type: listing
   id: NanolinkFakeBomb
-  name: uplink-exploding-syndicate-bomb-fake-name
+  name: голова метелика"
   description: uplink-exploding-syndicate-bomb-fake-desc
   productEntity: SyndicateBombFake
   icon:

@@ -5,7 +5,7 @@
 - type: vessel
   id: NTCCRaptor
   name: NTCC Viscount Raptor
-  description: A medium-sized interceptor with 3 laser machine guns facing forward.
+  description: Перехоплювач середнього розміру з 3 лазерними кулеметами, спрямованими вперед.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_viscount_interceptor.yml
   categories:
@@ -14,7 +14,7 @@
 - type: vessel
   id: NTCCIncursion
   name: NTCC Viscount Incursion
-  description: A medium-sized trop transport with space for 10 troops. That is able to travel to ATS.
+  description: Тропічний транспорт середнього розміру, розрахований на 10 солдатів. Тобто здатний подорожувати до ATS.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_viscount_incursion.yml
   categories:
@@ -22,8 +22,8 @@
 
 - type: vessel
   id: NTCCPaladin
-  name: NTCC Marquess Paladin
-  description: A medium-sized warship with two laser cannons facing port side.
+  name: NTCC Маркіз Паладин
+  description: Військовий корабель середнього розміру з двома лазерними гарматами, зверненими по лівому борту.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_assault.yml
   categories:
@@ -32,7 +32,7 @@
 - type: vessel
   id: NTCCArtisan
   name: NTCC Marquess Artisan
-  description: A medium-sized engineering shuttle with all the equipment to handle most engineering emergencies.
+  description: Інженерний шаттл середнього розміру з усім обладнанням для вирішення більшості інженерних ситуацій.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_engi.yml
   categories:
@@ -41,7 +41,7 @@
 - type: vessel
   id: NTCCAbsolver
   name: NTCC Marquess Absolver
-  description: A medium-sized janitorial shuttle with all the equipment to handle even the most severe biohazards.
+  description: uplink-scarf-syndie-green-name
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_jani.yml
   categories:
@@ -50,7 +50,7 @@
 - type: vessel
   id: NTCCMercy
   name: NTCC Marquess Mercy
-  description: A medium-sized medical shuttle fully stocked with chemistry, able to handle most medical situations.
+  description: Медичний човник середнього розміру, повністю укомплектований хімією, здатний впоратися з більшістю медичних ситуацій.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_med.yml
   categories:
@@ -59,7 +59,7 @@
 - type: vessel
   id: NTCCSentinel
   name: NTCC Marquess Sentinel
-  description: A medium-sized security shuttle with equipment to detain and handle most security threats, comes with two basic holding cells.
+  description: Охоронний шатл середнього розміру з обладнанням для затримання та боротьби з більшістю загроз безпеці оснащений двома базовими камерами.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_marquess_sec.yml
   categories:
@@ -67,8 +67,8 @@
 
 - type: vessel
   id: NTCCImperator
-  name: NTCC Sovereign Imperator
-  description: A large-sized warship with 4 laser cannons on either sides and one forward artillery.
+  name: NTCC Суверенний Імператор
+  description: Великий військовий корабель з 4 лазерними гарматами з обох боків і однією передовою артилерією.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_assault.yml
   categories:
@@ -77,7 +77,7 @@
 - type: vessel
   id: NTCCSanctuary
   name: NTCC Sovereign Sanctuary
-  description: A large-sized medical ship fully stocked with chemistry, cloning, cryogenics, and surgery. able to function as a drop-in medical department for any station in medical need.
+  description: Велике медичне судно, повністю укомплектоване хімією, клонуванням, кріогенікою та хірургією. може функціонувати як медичне відділення для будь-якої станції, яка потребує медичної допомоги.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_med.yml
   categories:
@@ -85,8 +85,8 @@
 
 - type: vessel
   id: NTCCParagon
-  name: NTCC Sovereign Paragon
-  description: A large-sized engineering ship fully stocked to do rapid repairs of even the most damaged stations comes with a fully functioning atmospheric and spare flat-packed power generation.
+  name: loadout-group-scientist-head
+  description: Велике інженерне судно, повністю укомплектоване для швидкого ремонту навіть найбільш пошкоджених станцій, постачається з повністю функціонуючою атмосферною та запасною генерацією електроенергії.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_engi.yml
   categories:
@@ -94,8 +94,8 @@
 
 - type: vessel
   id: NTCCCitadel
-  name: NTCC Sovereign Citadel
-  description: A large-sized command and control ship with general-purpose equipment. Can't handle any major emergencies on its own.
+  name: NTCC Суверенна Цитадель
+  description: Великогабаритний корабель управління з обладнанням загального призначення. Не може впоратися з серйозними надзвичайними ситуаціями самостійно.
   price: 1000000
   path: /Maps/_DV/Shuttles/Centcomm/ntcc_sovereign_fob.yml
   categories:

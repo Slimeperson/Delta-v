@@ -1,1 +1,1 @@
-namepreset-firstdashlast = {$first}-{$last}
+namepreset-firstdashlast = ABEX

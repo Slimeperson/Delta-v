@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAlexander
-  name: Alexander Spawner
-  suffix: Chef Pet
+  name: Олександр Спаунер
+  suffix: Шеф-кухар Пет
   components:
   - type: Sprite
     layers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBandito
-  name: Bandito Spawner
-  suffix: RD Pet
+  name: Бандито Спаунер
+  suffix: Р. Д. Пет
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCat
-  name: Random Cat Spawner
+  name: Випадковий спаунер котів
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatException
-  name: Exception Spawner
+  name: Виняток Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatRuntime
-  name: Runtime Spawner
+  name: Спавнер часу виконання
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCorgi
-  name: Corgi Spawner
+  name: ксеноборги
   suffix: HoP Pet
   components:
   - type: Sprite
@@ -147,8 +147,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFoxRenault
-  name: Fox Renault Spawner
-  suffix: Captain Pet
+  name: Фокс Рено Спаунер
+  suffix: Капітан Пет
   components:
   - type: Sprite
     layers:
@@ -162,7 +162,7 @@
   parent: MarkerBase
   id: SpawnMobMcGriff
   name:  McGriff Spawner
-  suffix: Warden Pet
+  suffix: Наглядач Пет
   components:
   - type: Sprite
     layers:
@@ -175,8 +175,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHamsterHamlet
-  name: Hamster Hamlet Spawner
-  suffix: Bridge Pet (crate)
+  name: Хом'як Гамлет Спаунер
+  suffix: Bridge Pet (ящик)
   components:
   - type: Sprite
     layers:
@@ -191,8 +191,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKangarooWillow
-  name: Willow Spawner
-  suffix: Boxer Pet
+  name: Вербовий спаунер
+  suffix: Боксер Pet
   components:
   - type: Sprite
     layers:
@@ -206,8 +206,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMonkeyPunpun
-  name: Pun Pun Spawner
-  suffix: Bartender Pet
+  name: Каламбур
+  suffix: Бармен Pet
   components:
   - type: Sprite
     layers:
@@ -222,8 +222,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPollyParrot
-  name: Polly the parrot Spawner
-  suffix: CE Pet
+  name: Папуга Поллі Spawner
+  suffix: shadow kudzu loot spawner
   components:
   - type: Sprite
     layers:
@@ -237,7 +237,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPossumMorty
-  name: Possum Morty Spawner
+  name: Опоссум Морті Спаунер
   suffix: Morgue Pet
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobRaccoonMorticia
-  name: Raccoon Morticia Spawner
+  name: Єнот Morticia Spawner
   suffix: QM Pet
   components:
   - type: Sprite
@@ -265,7 +265,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobShiva
-  name: Shiva Spawner
+  name: Шива Спаунер
   suffix: Security Pet
   components:
   - type: Sprite
@@ -281,7 +281,7 @@
   parent: MarkerBase
   id: SpawnMobSlothPaperwork
   name: Sloth Paperwork Spawner
-  suffix: Librarian Pet
+  suffix: Donkpocket Box Spawner
   components:
   - type: Sprite
     layers:
@@ -295,7 +295,7 @@
   parent: MarkerBase
   id: SpawnMobSmile
   name: Smile Spawner
-  suffix: Science Pet
+  suffix: наук Пет
   components:
   - type: Sprite
     layers:
@@ -308,8 +308,8 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWalter
-  name: Walter Spawner
-  suffix: Chemistry Pet
+  name: Волтер Спаунер
+  suffix: Хімія Пет
   components:
   - type: Sprite
     layers:

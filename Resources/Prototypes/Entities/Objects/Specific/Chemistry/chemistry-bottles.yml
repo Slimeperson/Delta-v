@@ -1,9 +1,9 @@
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
-  description: A small bottle.
+  description: Маленька пляшка.
   components:
   - type: Tag
     tags:
@@ -156,7 +156,7 @@
 
 - type: entity
   id: ChemistryBottleAloxadone
-  suffix: aloxadone
+  suffix: алоксадон
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -171,7 +171,7 @@
 
 - type: entity
   id: ChemistryBottleAmbuzol
-  suffix: ambuzol
+  suffix: амбузол
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -186,7 +186,7 @@
 
 - type: entity
   id: ChemistryBottleAmbuzolPlus
-  suffix: ambuzol+
+  suffix: Плунжер з пластиковою присоскою, покритою тонким шаром золота, вручається на знак подяки за багаторічну службу. Досі використовується для прочищення каналізації.
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -201,7 +201,7 @@
 
 - type: entity
   id: ChemistryBottleArithrazine
-  suffix: arithrazine
+  suffix: аритразин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -216,7 +216,7 @@
 
 - type: entity
   id: ChemistryBottleBarozine
-  suffix: barozine
+  suffix: барозин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -231,7 +231,7 @@
 
 - type: entity
   id: ChemistryBottleBicaridine
-  suffix: bicaridine
+  suffix: бікаридин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -246,7 +246,7 @@
 
 - type: entity
   id: ChemistryBottleBruizine
-  suffix: bruizine
+  suffix: синяк
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -261,7 +261,7 @@
 
 - type: entity
   id: ChemistryBottleCognizine
-  suffix: cognizine
+  suffix: контейнер для артефактів
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -276,7 +276,7 @@
 
 - type: entity
   id: ChemistryBottleCryoxadone
-  suffix: cryoxadone
+  suffix: кріоксадон
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -291,7 +291,7 @@
 
 - type: entity
   id: ChemistryBottleCryptobiolin
-  suffix: cryptobiolin
+  suffix: криптобіолін
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -306,7 +306,7 @@
 
 - type: entity
   id: ChemistryBottleDermaline
-  suffix: dermaline
+  suffix: дермалін
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -351,7 +351,7 @@
 
 - type: entity
   id: ChemistryBottleDiphenhydramine
-  suffix: diphenhydramine
+  suffix: димедрол
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -366,7 +366,7 @@
 
 - type: entity
   id: ChemistryBottleDiphenylmethylamine
-  suffix: meth
+  suffix: мет
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -381,7 +381,7 @@
 
 - type: entity
   id: ChemistryBottleDoxarubixadone
-  suffix: doxarubixadone
+  suffix: доксарубіксадон
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -396,7 +396,7 @@
 
 - type: entity
   id: ChemistryBottleDylovene
-  suffix: dylovene
+  suffix: диловен
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -411,7 +411,7 @@
 
 - type: entity
   id: ChemistryBottleEpinephrine
-  suffix: epinephrine
+  suffix: епінефрин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -426,7 +426,7 @@
 
 - type: entity
   id: ChemistryBottleEthyloxyephedrine
-  suffix: ethyloxyephedrine
+  suffix: етилоксиефедрин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -441,7 +441,7 @@
 
 - type: entity
   id: ChemistryBottleEthylredoxrazine
-  suffix: ethylredoxrazine
+  suffix: етилредоксазин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -456,7 +456,7 @@
 
 - type: entity
   id: ChemistryBottleHaloperidol
-  suffix: haloperidol
+  suffix: галоперидол
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -471,7 +471,7 @@
 
 - type: entity
   id: ChemistryBottleHolywater
-  suffix: holy water
+  suffix: свята вода
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -486,7 +486,7 @@
 
 - type: entity
   id: ChemistryBottleHyronalin
-  suffix: hyronalin
+  suffix: гіроналін
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -501,7 +501,7 @@
 
 - type: entity
   id: ChemistryBottleInaprovaline
-  suffix: inaprovaline
+  suffix: Універсальний модуль-кіборг, який дозволяє установці та маніпуляції електричними системами.
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -516,7 +516,7 @@
 
 - type: entity
   id: ChemistryBottleInsuzine
-  suffix: insuzine
+  suffix: інсузин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -531,7 +531,7 @@
 
 - type: entity
   id: ChemistryBottleIpecac
-  suffix: ipecac
+  suffix: іпекакуана
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -546,7 +546,7 @@
 
 - type: entity
   id: ChemistryBottleKelotane
-  suffix: kelotane
+  suffix: келотан
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -561,7 +561,7 @@
 
 - type: entity
   id: ChemistryBottleLacerinol
-  suffix: lacerinol
+  suffix: лацеринол
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -576,7 +576,7 @@
 
 - type: entity
   id: ChemistryBottleLeporazine
-  suffix: leporazine
+  suffix: спрей від бур'янів
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -591,7 +591,7 @@
 
 - type: entity
   id: ChemistryBottleLipozine
-  suffix: lipozine
+  suffix: ліпозин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -606,7 +606,7 @@
 
 - type: entity
   id: ChemistryBottleMannitol
-  suffix: mannitol
+  suffix: маніт
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -621,7 +621,7 @@
 
 - type: entity
   id: ChemistryBottleNecrosol
-  suffix: necrosol
+  suffix: некрозоль
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -636,7 +636,7 @@
 
 - type: entity
   id: ChemistryBottleOculine
-  suffix: oculine
+  suffix: окулярний
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -651,7 +651,7 @@
 
 - type: entity
   id: ChemistryBottleOmnizine
-  suffix: omnizine
+  suffix: омнізин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -666,7 +666,7 @@
 
 - type: entity
   id: ChemistryBottleOpporozidone
-  suffix: opporozidone
+  suffix: оппорозидон
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -681,7 +681,7 @@
 
 - type: entity
   id: ChemistryBottlePhalanximine
-  suffix: phalanximine
+  suffix: фаланксимін
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -696,7 +696,7 @@
 
 - type: entity
   id: ChemistryBottlePolypyryliumOligomers
-  suffix: poly-oli
+  suffix: полі-олі
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -711,7 +711,7 @@
 
 - type: entity
   id: ChemistryBottlePotassiumIodide
-  suffix: iodide
+  suffix: йодид
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -726,7 +726,7 @@
 
 - type: entity
   id: ChemistryBottlePsicodine
-  suffix: psicodine
+  suffix: псікодин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -741,7 +741,7 @@
 
 - type: entity
   id: ChemistryBottlePulpedBananaPeel
-  suffix: pulped-banana-peel
+  suffix: м'якоть-бананова шкірка
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -756,7 +756,7 @@
 
 - type: entity
   id: ChemistryBottlePuncturase
-  suffix: puncturase
+  suffix: пунктураза
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -771,7 +771,7 @@
 
 - type: entity
   id: ChemistryBottlePyrazine
-  suffix: pyrazine
+  suffix: піразин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -786,7 +786,7 @@
 
 - type: entity
   id: ChemistryBottleSaline
-  suffix: saline
+  suffix: фізіологічний розчин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -801,7 +801,7 @@
 
 - type: entity
   id: ChemistryBottleSiderlac
-  suffix: siderlac
+  suffix: сидерлак
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -816,7 +816,7 @@
 
 - type: entity
   id: ChemistryBottleSigynate
-  suffix: sigynate
+  suffix: сигінат
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -831,7 +831,7 @@
 
 - type: entity
   id: ChemistryBottleStellibinin
-  suffix: stellibinin
+  suffix: стелібінін
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -846,7 +846,7 @@
 
 - type: entity
   id: ChemistryBottleSynaptizine
-  suffix: synaptizine
+  suffix: синаптизин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -861,7 +861,7 @@
 
 - type: entity
   id: ChemistryBottleTranexamicAcid
-  suffix: tranexamic acid
+  suffix: транексамова кислота
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -876,7 +876,7 @@
 
 - type: entity
   id: ChemistryBottleTricordrazine
-  suffix: tricordrazine
+  suffix: трикордразин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -891,7 +891,7 @@
 
 - type: entity
   id: ChemistryBottleUltravasculine
-  suffix: ultravasculine
+  suffix: ультраваскулінний
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -908,7 +908,7 @@
 
 - type: entity
   id: ChemistryBottleRobustHarvest
-  suffix: robust harvest
+  suffix: міцний урожай
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -923,7 +923,7 @@
 
 - type: entity
   id: ChemistryBottleEZNutrient
-  suffix: ez nutrient
+  suffix: ez поживна речовина
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -938,7 +938,7 @@
 
 - type: entity
   id: ChemistryBottleLeft4Zed
-  suffix: left-4-zed
+  suffix: лівий-4-зед
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -953,7 +953,7 @@
 
 - type: entity
   id: ChemistryBottleUnstableMutagen
-  suffix: unstable mutagen
+  suffix: нестійкий мутаген
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -968,7 +968,7 @@
 
 - type: entity
   id: ChemistryBottleNocturine
-  suffix: nocturine
+  suffix: ноктюрин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -983,7 +983,7 @@
 
 - type: entity
   id: ChemistryBottleEphedrine
-  suffix: ephedrine
+  suffix: ефедрин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -998,7 +998,7 @@
 
 - type: entity
   id: ChemistryBottlePax
-  suffix: pax
+  suffix: пакс
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1013,7 +1013,7 @@
 
 - type: entity
   id: ChemistryBottleMuteToxin
-  suffix: mute toxin
+  suffix: німий токсин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1028,7 +1028,7 @@
 
 - type: entity
   id: ChemistryBottleLead
-  suffix: lead
+  suffix: привести
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1043,7 +1043,7 @@
 
 - type: entity
   id: ChemistryBottleToxin
-  suffix: toxin
+  suffix: токсин
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1059,7 +1059,7 @@
 # Base reagent bottles
 - type: entity
   id: ChemistryBottleAluminium
-  suffix: aluminium
+  suffix: алюміній
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1074,7 +1074,7 @@
 
 - type: entity
   id: ChemistryBottleCarbon
-  suffix: carbon
+  suffix: вуглець
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1089,7 +1089,7 @@
 
 - type: entity
   id: ChemistryBottleChlorine
-  suffix: chlorine
+  suffix: хлор
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1104,7 +1104,7 @@
 
 - type: entity
   id: ChemistryBottleCopper
-  suffix: copper
+  suffix: мідь
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1119,7 +1119,7 @@
 
 - type: entity
   id: ChemistryBottleEthanol
-  suffix: ethanol
+  suffix: етанол
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1134,7 +1134,7 @@
 
 - type: entity
   id: ChemistryBottleFluorine
-  suffix: fluorine
+  suffix: фтор
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1149,7 +1149,7 @@
 
 - type: entity
   id: ChemistryBottleHydrogen
-  suffix: hydrogen
+  suffix: водень
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1164,7 +1164,7 @@
 
 - type: entity
   id: ChemistryBottleIodine
-  suffix: iodine
+  suffix: йод
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1179,7 +1179,7 @@
 
 - type: entity
   id: ChemistryBottleIron
-  suffix: iron
+  suffix: залізо
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1194,7 +1194,7 @@
 
 - type: entity
   id: ChemistryBottleLithium
-  suffix: lithium
+  suffix: літій
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1209,7 +1209,7 @@
 
 - type: entity
   id: ChemistryBottleMercury
-  suffix: mercury
+  suffix: ртуть
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1224,7 +1224,7 @@
 
 - type: entity
   id: ChemistryBottleNitrogen
-  suffix: nitrogen
+  suffix: азот
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1239,7 +1239,7 @@
 
 - type: entity
   id: ChemistryBottleOxygen
-  suffix: oxygen
+  suffix: кисень
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1254,7 +1254,7 @@
 
 - type: entity
   id: ChemistryBottlePhosphorus
-  suffix: phosphorus
+  suffix: фосфор
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1269,7 +1269,7 @@
 
 - type: entity
   id: ChemistryBottlePotassium
-  suffix: potassium
+  suffix: калію
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1284,7 +1284,7 @@
 
 - type: entity
   id: ChemistryBottleRadium
-  suffix: radium
+  suffix: радій
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1299,7 +1299,7 @@
 
 - type: entity
   id: ChemistryBottleSilicon
-  suffix: silicon
+  suffix: кремній
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1314,7 +1314,7 @@
 
 - type: entity
   id: ChemistryBottleSodium
-  suffix: sodium
+  suffix: натрію
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1329,7 +1329,7 @@
 
 - type: entity
   id: ChemistryBottleSugar
-  suffix: sugar
+  suffix: цукор
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -1344,7 +1344,7 @@
 
 - type: entity
   id: ChemistryBottleSulfur
-  suffix: sulfur
+  suffix: сірка
   parent: BaseChemistryBottleFilled
   components:
   - type: Label

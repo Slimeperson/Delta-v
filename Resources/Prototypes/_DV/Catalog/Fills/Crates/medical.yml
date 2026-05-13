@@ -13,8 +13,8 @@
 - type: entity
   id: CratePainkillerBottles
   parent: CrateMedical
-  name: painkiller crate
-  description: Running out of these is not an option.
+  name: ящик для знеболюючого
+  description: Закінчити їх - не варіант.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -25,8 +25,8 @@
 - type: entity
   id: CrateViralCarePackage
   parent: CrateMedical
-  name: viral care package crate
-  description: Contains all you need to subdue a viral outbreak.
+  name: упаковка для лікування вірусів
+  description: Містить усе, що вам потрібно, щоб приборкати спалах вірусу.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -50,8 +50,8 @@
 - type: entity
   id: CrateCrashCart
   parent: CrateMedical
-  name: crash cart crate
-  description: Contains one empty crash cart.
+  name: аварії кошик ящик
+  description: Містить один порожній аварійний візок.
   components:
   - type: EntityTableContainerFill
     containers:

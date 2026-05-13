@@ -5,8 +5,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionCorticalBorerChemMenu
-  name: Chemicals
-  description: Open the chemicals menu.
+  name: Хімічні речовини
+  description: Відкрийте меню хімікатів.
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_chem.png
@@ -16,7 +16,7 @@
 - type: entity # DeltaV - rework for action refactor
   id: ActionCorticalBorerInfest
   name: Infest
-  description: Infest target Humanoid. Target host must have a bloodstream.
+  description: Infest target Humanoid. Цільовий господар повинен мати кровотік.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -33,8 +33,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionCorticalBorerEject
-  name: Eject Host
-  description: Eject yourself from your host.
+  name: Вилучити хост
+  description: Великий лабораторний гумовий килимок. Відчуйте себе в безпеці, коли ви розливаєте кислоту на себе!
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_eject.png
@@ -44,8 +44,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionCheckBlood
-  name: Check Blood
-  description: Inspect the blood of your host to see how they are doing.
+  name: Перевірте кров
+  description: Огляньте кров свого господаря, щоб побачити, як вони почуваються.
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_bloodcheck.png
@@ -55,8 +55,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionControlHost
-  name: Take Control
-  description: Take full control of your host, lasts for 40 seconds on awake hosts.
+  name: Візьміть під контроль
+  description: Візьміть повний контроль над своїм хостом, триває 40 секунд на хостах, що активні.
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_control.png
@@ -66,8 +66,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionEndControlHost
-  name: Relinquish Control
-  description: Give up hold of the host's body early.
+  name: Відмовтеся від контролю
+  description: Завчасно відмовляйтеся від захоплення тіла господаря.
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_eject.png
@@ -77,8 +77,8 @@
 
 - type: entity # DeltaV - rework for action refactor
   id: ActionLayEggHost
-  name: Lay Egg
-  description: Force your host to vomit an egg. Costs 200 chemicals. # needs to be changed if the base chem cost is changed
+  name: Відкласти яйце
+  description: Змусити господаря вирвати яйце. Коштує 200 хімікатів. # потрібно змінити, якщо змінюється базова хімічна вартість
   components:
   - type: Action
     icon: _Mono/Interface/Action/borer_egg.png

@@ -82,7 +82,7 @@
   abstract: true
   id: CosmicPolymorphEnt
   name: "???"
-  description: Trapped in a lapse between here and there.
+  description: Потрапив у пастку між тут і там.
   components:
   - type: Sprite
     sprite: _DV/CosmicCult/Effects/ability_lapsepolymorph.rsi

@@ -1,4 +1,4 @@
 - type: guideEntry
   id: FrequentlyUsedChemicals
-  name: guide-entry-frequently-used-chemicals
+  name: довідник-запис-часто використовувані-хімікати
   text: "/ServerInfo/Guidebook/_DV/Medical/FrequentlyUsedChemicals.xml"

@@ -1,8 +1,8 @@
 #Spawners
 - type: entity
   id: RandomIngredient
-  name: random ingredient spawner
-  suffix: Non-Plant
+  name: спаунер випадкових інгредієнтів
+  suffix: Нерослинний
   parent: MarkerBase
   placement:
     mode: PlaceFree

@@ -1,7 +1,7 @@
 - type: thiefBackpackSet
   id: ChameleonSet
-  name: thief-backpack-category-chameleon-name
-  description: thief-backpack-category-chameleon-description
+  name: злодій-рюкзак-категорія-хамелеон-назва
+  description: злодій-рюкзак-категорія-хамелеон-опис
   sprite: 
     sprite: /Textures/Clothing/OuterClothing/Misc/black_hoodie.rsi
     state: icon
@@ -13,8 +13,8 @@
 
 - type: thiefBackpackSet
   id: ToolsSet
-  name: thief-backpack-category-tools-name
-  description: thief-backpack-category-tools-description
+  name: злодій-рюкзак-категорія-інструменти-назва
+  description: злодій-рюкзак-категорія-інструменти-опис
   sprite: 
     sprite: Objects/Tools/jaws_of_life.rsi
     state: jaws_pry
@@ -31,8 +31,8 @@
 
 - type: thiefBackpackSet
   id: ChemistrySet
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: злодій-рюкзак-категорія-хімія-назва
+  description: злодій-рюкзак-категорія-хімія-опис
   sprite:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: implanter0
@@ -75,8 +75,8 @@
 
 - type: thiefBackpackSet
   id: CommunicatorSet
-  name: thief-backpack-category-communicator-name
-  description: thief-backpack-category-communicator-description
+  name: злодій-рюкзак-категорія-ім'я-комунікатора
+  description: злодій-рюкзак-категорія-комунікатор-опис
   sprite: 
     sprite: Objects/Tools/spy_device.rsi
     state: icon
@@ -91,7 +91,7 @@
 - type: thiefBackpackSet
   id: SmugglerSet
   name: thief-backpack-category-smuggler-name
-  description: thief-backpack-category-smuggler-description
+  description: злодій-рюкзак-категорія-контрабандист-опис
   sprite: 
     sprite: Clothing/Neck/Cloaks/void.rsi
     state: icon

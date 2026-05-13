@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSMES
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: SMES
-  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
+  name: МСП
+  description: Надпровідний накопичувач магнітної енергії (SMES) великої ємності.
   placement:
     mode: SnapgridCenter
   components:
@@ -129,7 +129,7 @@
 - type: entity
   parent: BaseSMES
   id: SMESBasic
-  suffix: Basic, 8MW
+  suffix: Базовий, 8 МВт
   components:
   - type: Battery
     maxCharge: 8000000
@@ -138,7 +138,7 @@
 - type: entity
   parent: SMESBasic
   id: SMESBasicEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Battery
     startingCharge: 0
@@ -146,9 +146,9 @@
 - type: entity
   parent: BaseSMES
   id: SMESAdvanced
-  suffix: Advanced, 16MJ
-  name: advanced SMES
-  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+  suffix: Розширений, 16 МДж
+  name: просунутий МСП
+  description: Надпровідний накопичувач магнітної енергії (SMES) ще більшої ємності.
   components:
   - type: Sprite
     sprite: Structures/Power/smes.rsi
@@ -183,7 +183,7 @@
 - type: entity
   parent: SMESAdvanced
   id: SMESAdvancedEmpty
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Battery
     startingCharge: 0

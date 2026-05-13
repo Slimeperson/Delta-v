@@ -2,7 +2,7 @@
   parent: [ BasePart ]
   abstract: true
   id: PartFeroxiBase
-  name: feroxi body part
+  name: права хітинідна нога"
   components:
     - type: Sprite
       sprite: _DV/Mobs/Species/Feroxi/parts.rsi
@@ -10,49 +10,49 @@
 - type: entity
   parent: [ PartFeroxiBase, BaseTorso ]
   id: TorsoFeroxi
-  name: feroxi torso
+  name: feroxi торс
 
 - type: entity
   parent: [ PartFeroxiBase, BaseHead ]
   id: HeadFeroxi
-  name: feroxi head
+  name: feroxi голова
 
 - type: entity
   parent: [ PartFeroxiBase, BaseLeftArm ]
   id: LeftArmFeroxi
-  name: left feroxi arm
+  name: Виконайте своє завдання.
 
 - type: entity
   parent: [ PartFeroxiBase, BaseRightArm ]
   id: RightArmFeroxi
-  name: right feroxi arm
+  name: права feroxi рука
 
 - type: entity
   parent: [ PartFeroxiBase, BaseLeftHand ]
   id: LeftHandFeroxi
-  name: left feroxi hand
+  name: ліва feroxi рука
 
 - type: entity
   parent: [ PartFeroxiBase, BaseRightHand ]
   id: RightHandFeroxi
-  name: right feroxi hand
+  name: права feroxi рука
 
 - type: entity
   parent: [ PartFeroxiBase, BaseLeftLeg ]
   id: LeftLegFeroxi
-  name: left feroxi leg
+  name: права гарпія"
 
 - type: entity
   parent: [ PartFeroxiBase, BaseRightLeg ]
   id: RightLegFeroxi
-  name: right feroxi leg
+  name: права feroxi нога
 
 - type: entity
   parent: [ PartFeroxiBase, BaseLeftFoot ]
   id: LeftFootFeroxi
-  name: left feroxi foot
+  name: ліва feroxi стопа
 
 - type: entity
   parent: [ PartFeroxiBase, BaseRightFoot ]
   id: RightFootFeroxi
-  name: right feroxi foot
+  name: права feroxi стопа

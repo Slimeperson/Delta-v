@@ -1,7 +1,7 @@
 - type: job
   id: Lawyer
-  name: job-name-lawyer
-  description: job-description-lawyer
+  name: робота-назва-юрист
+  description: посадова інструкція-юрист
   playTimeTracker: JobLawyer
   antagAdvantage: 4 # DeltaV - Reduced TC: Security Radio and Access
   requirements:

@@ -3,7 +3,7 @@
 - type: trait
   id: PirateAccent
   name: trait-pirate-accent-name
-  description: trait-pirate-accent-desc
+  description: trait-protected-desc
   category: Accents
   cost: 2
   effects:
@@ -13,8 +13,8 @@
 
 - type: trait
   id: SouthernAccent
-  name: trait-southern-name
-  description: trait-southern-desc
+  name: риса-південна-назва
+  description: риса-південний-дес
   category: Accents
   cost: 2
   effects:
@@ -24,7 +24,7 @@
 
 - type: trait
   id: CowboyAccent
-  name: trait-cowboy-name
+  name: риса-ковбой-ім'я
   description: trait-cowboy-desc
   category: Accents
   cost: 2
@@ -36,8 +36,8 @@
 
 - type: trait
   id: ItalianAccent
-  name: trait-italian-name
-  description: trait-italian-desc
+  name: ознака-монохромність-назва
+  description: риса-італійський-дес
   category: Accents
   cost: 2
   effects:
@@ -108,7 +108,7 @@
 
 - type: trait
   id: ScottishAccent
-  name: trait-scottish-accent-name
+  name: fugitive-set-leverage-description
   description: trait-scottish-accent-desc
   category: Accents
   cost: 0
@@ -119,7 +119,7 @@
 
 - type: trait
   id: Accentless
-  name: trait-accentless-name
+  name: ознака-безнаголосне-ім'я
   description: trait-accentless-desc
   category: Accents
   cost: 0
@@ -135,7 +135,7 @@
 
 - type: trait
   id: SocialAnxiety
-  name: trait-socialanxiety-name
+  name: риса-соціальна тривожність-назва
   description: trait-socialanxiety-desc
   category: Accents
   cost: 0
@@ -161,7 +161,7 @@
 
 - type: trait
   id: Hushed
-  name: trait-hushed-name
+  name: риса-замовчена-ім'я
   description: trait-hushed-desc
   category: Accents
   cost: 0
@@ -177,7 +177,7 @@
 
 - type: trait
   id: AnglishTung
-  name: trait-anglish-name
+  name: англійська назва
   description: trait-anglish-desc
   category: Accents
   cost: 2
@@ -188,7 +188,7 @@
 
 - type: trait
   id: SlavicAccent
-  name: trait-slavic-name
+  name: риса-слов'янське-ім'я
   description: trait-slavic-desc
   category: Accents
   cost: 2

@@ -1,7 +1,7 @@
 # upstream removed it
 - type: tile
   id: FloorSteelBurnt
-  name: tiles-steel-floor
+  name: плитка-сталева підлога
   sprite: /Textures/Tiles/steel_burnt.png
   variants: 2
   placementVariants:
@@ -19,13 +19,13 @@
 - type: tile
   id: FloorHullReinforcedDestructible
   parent: FloorHullReinforced
-  name: tiles-hull-reinforced-destructible
+  name: черепиця-корпус-посилений-руйнівний
   indestructible: false
 
 #indoor grass tiles
 - type: tile
   id: FloorGrassDarkIndoors
-  name: tiles-dark-grass-floor-indoors
+  name: плитка-темна-трав'яна-підлога-в приміщенні
   sprite: /Textures/Tiles/grassdark.png
   variants: 4
   placementVariants:
@@ -42,7 +42,7 @@
 
 - type: tile
   id: FloorGrassLightIndoors
-  name: tiles-light-grass-floor-indoors
+  name: плитка-світла-трав'яна-підлога-в приміщенні
   sprite: /Textures/Tiles/grasslight.png
   variants: 4
   placementVariants:
@@ -59,7 +59,7 @@
 
 - type: tile
   id: FloorMowedAstroSnow
-  name: tiles-mowed-astro-snow
+  name: черепиця-скошена-астро-сніг
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -86,7 +86,7 @@
 - type: tile
   id: FloorAstroSnowDug
   parent: [ BaseStationTile, FloorSnowDug ]
-  name: tiles-astro-snow-dug
+  name: черепиця-астро-сніг-копав
   isSubfloor: false
   sprite: /Textures/Tiles/Planet/Snow/snow_dug.png
   footstepSounds:
@@ -97,7 +97,7 @@
 
 - type: tile
   id: FloorMowedAstroSnowDug
-  name: tiles-mowed-astro-snow-dug
+  name: черепиця-скошена-астро-сніг-викопана
   baseTurf: Plating
   isSubfloor: false
   sprite: /Textures/Tiles/Planet/Snow/snow_dug.png

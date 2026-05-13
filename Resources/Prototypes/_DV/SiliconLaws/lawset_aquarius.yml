@@ -20,7 +20,7 @@
 
 - type: siliconLawset
   id: AquariusLaws
-  name: law-aquarius-name
+  name: закон-водолій-ім'я
   laws:
   - Aquarius1
   - Aquarius2

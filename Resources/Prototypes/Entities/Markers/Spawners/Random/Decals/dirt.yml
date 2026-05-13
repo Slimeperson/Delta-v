@@ -83,7 +83,7 @@
 - type: entity
   parent: DecalSpawnerDirtBase
   id: DecalSpawnerDirtSingle
-  suffix: Dirt, 0 Radius
+  suffix: Бруд, радіус 0
   components:
   - type: RandomDecalSpawner
     radius: 0
@@ -93,7 +93,7 @@
 - type: entity
   parent: DecalSpawnerDirtBase
   id: DecalSpawnerDirtNear
-  suffix: Dirt, 1.5 Radius
+  suffix: Грязь, радіус 1,5
   components:
   - type: RandomDecalSpawner
     radius: 1.5
@@ -102,7 +102,7 @@
 - type: entity
   parent: DecalSpawnerDirtBase
   id: DecalSpawnerDirtWide
-  suffix: Dirt, 3 Radius
+  suffix: Бруд, 3 радіуса
   components:
   - type: RandomDecalSpawner
     radius: 3
@@ -112,7 +112,7 @@
 - type: entity
   parent: DecalSpawnerDirtBase
   id: DecalSpawnerDirtMonospace
-  suffix: Dirt, Monospace, 1 Radius
+  suffix: Бруд, монопростір, 1 радіус
   components:
   - type: RandomDecalSpawner
     radius: 1
@@ -176,7 +176,7 @@
 - type: entity
   parent: DecalSpawnerDirtMonospace
   id: DecalSpawnerBurns
-  suffix: Burns, 1 Radius
+  suffix: Бернс, 1 радіус
   components:
   - type: RandomDecalSpawner
     decals:

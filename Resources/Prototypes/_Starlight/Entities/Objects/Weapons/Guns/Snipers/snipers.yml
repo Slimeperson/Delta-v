@@ -1,8 +1,8 @@
 - type: entity
-  name: Makeshift Repeater Rifle
+  name: Імпровізована гвинтівка-ретранслятор
   parent: BaseWeaponSniper
   id: WeaponSniperMakeshift
-  description: It'll blow a hole in the guy you point this at, if it doesn't snap your wrist first.
+  description: Він проб’є дірку в хлопцеві, на якого ти цим вкажеш, якщо спочатку не клацне твоє зап’ястя.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Snipers/makeshift_rifle.rsi
@@ -44,10 +44,10 @@
         prob: 0.80
 
 - type: entity
-  name: Improvised Repeater Rifle
+  name: Імпровізована гвинтівка-ретранслятор
   parent: WeaponSniperMakeshift
   id: WeaponSniperImprovised
-  description: Can ALMOST reliably hit a target!
+  description: Може МАЙЖЕ надійно вразити ціль!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Snipers/improvised_rifle.rsi
@@ -93,10 +93,10 @@
 
 
 - type: entity
-  name: Forged Repeater Rifle
+  name: що ти робиш..? Треба.. зварити.
   parent: WeaponSniperMakeshift
   id: WeaponSniperForged
-  description: The best a tider can achive, reliable fire-rate and accuracy with a satisfying lever-action system. What more can you ask for?
+  description: Найкраще, чого може досягти тидер: надійна скорострільність і точність із задовільною системою важеля. Що ще можна побажати?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Snipers/forged_rifle.rsi

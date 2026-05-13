@@ -1,6 +1,6 @@
 - type: stealTargetGroup
   id: AntiPsychicKnife
-  name: steal-target-groups-anti-psychic-knife
+  name: викрасти-цільові-групи-антипсихічний-ніж
   sprite:
     sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
     state: icon

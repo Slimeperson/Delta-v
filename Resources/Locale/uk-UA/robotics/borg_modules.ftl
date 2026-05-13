@@ -13,6 +13,6 @@ borg-slot-instruments-empty = Інструменти
 borg-slot-beakers-empty = Мензурки
 borg-slot-brains-empty = Мізки та MMI
 borg-slot-modules-empty = Модулі
-borg-slot-powercell-empty = Powercells
+borg-slot-powercell-empty = Wipe Brain
 borg-slot-inflatable-door-empty = Надувні двері
 borg-slot-inflatable-wall-empty = Надувна стіна

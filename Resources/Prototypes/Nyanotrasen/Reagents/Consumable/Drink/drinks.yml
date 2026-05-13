@@ -43,7 +43,7 @@
 
 - type: reagent
   id: BubbleTea
-  name: reagent-name-bubbletea
+  name: Фіктивний oni призначений для використання в налаштуванні персонажа.
   parent: BaseDrink
   desc: reagent-desc-bubbletea
   physicalDesc: reagent-physical-desc-bubbly

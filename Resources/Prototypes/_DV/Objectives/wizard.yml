@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardMagicocracyObjective
-  name: Magicocracy
-  description: Usurp the powers that be and establish Magicocracy amidst the secular on this station!
+  name: Магікократія
+  description: Узурпуйте владу та встановіть магікократію серед світських на цій станції!
   components:
   - type: Objective
     icon:
@@ -12,8 +12,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardBalanceObjective
-  name: Balance
-  description: Establish a cosmic balance on the station by striking a perfect blend of chaos and peace through the use of wit and the arcane!
+  name: Баланс
+  description: Встановіть космічний баланс на станції, досягнувши ідеального поєднання хаосу та миру за допомогою дотепності та таємниці!
   components:
   - type: Objective
     icon:
@@ -23,8 +23,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardDestroyObjective
-  name: Find the funniest way for the station to end
-  description: Seek the most hilarious possible apocalypse scenario. Test options. Simulate disasters. Take crew "input" surveys. Choose your favorite ending and try to make it happen.
+  name: Знайдіть найсмішніший спосіб закінчення станції
+  description: Шукайте найвеселіший можливий сценарій апокаліпсису. Варіанти тесту. Симулюйте катастрофи. Пройдіть опитування членів екіпажу. Виберіть свій улюблений кінець і спробуйте його втілити.
   components:
   - type: Objective
     difficulty: 2
@@ -35,8 +35,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardTeachObjective
-  name: Teach
-  description: Establish a movement based around training, instructing, or discussing with crew in the arts of the arcane, whether by mentorship or experimentation!
+  name: Навчати
+  description: Створіть рух, заснований на навчанні, інструктуванні або обговоренні з екіпажем таємного мистецтва, будь то наставництво чи експериментування!
   components:
   - type: Objective
     icon:
@@ -46,8 +46,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardProfitObjective
-  name: Profit
-  description: Utilize the station for the purpose of profit for the wizard federation!
+  name: Прибуток
+  description: Використовуйте станцію з метою отримання прибутку для федерації чарівників!
   components:
   - type: Objective
     icon:
@@ -57,8 +57,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardPopularObjective
-  name: Become Popular
-  description: Seek to be the most liked, talked-about, or sought-after person on the station!
+  name: Стати популярним
+  description: Прагніть бути найбільш улюбленою, обговорюваною або затребуваною людиною на станції!
   components:
   - type: Objective
     icon:
@@ -68,8 +68,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardDataObjective
-  name: Collect Pointless Data
-  description: Record and analyze bizarre metrics like "Average Doorway Hesitation Time," "Crew Punchability Ratings," or "How many feathers is too many feathers?" If questioned, simply tell them "it's for science."
+  name: Збирайте безглузді дані
+  description: Записуйте та аналізуйте такі химерні показники, як «Середній час вагання дверного отвору», «Оцінки пробивності екіпажу» або «Скільки пір’я — це забагато пір’я?» Якщо вас запитають, просто скажіть їм: «Це для науки».
   components:
   - type: Objective
     icon:
@@ -79,14 +79,14 @@
 - type: entity
   parent: [BaseWizardObjective, BaseKeepAliveObjective]
   id: WizardPreserveObjective
-  description: An arcane cosmic entity has prophesized that a mortal aboard the station will go on to do great things, and you must preserve their life by any means necessary.
+  description: Таємнича космічна сутність передбачила, що смертний на борту станції продовжить творити великі справи, і ви повинні зберегти його життя будь-якими засобами.
   components:
   - type: Objective
     icon:
       sprite: Objects/Magic/magicactions.rsi
       state: shield
   - type: TargetObjective
-    title: objective-condition-wizard-preserve-person-title
+    title: object-condition-wizard-preserve-person-title
   - type: PickRandomPerson
     filters:
     - !type:BodyMindFilter
@@ -99,14 +99,14 @@
 - type: entity
   parent: [BaseWizardObjective, BaseKillObjective]
   id: WizardKillObjective
-  description: The Space Wizards Federation has tasked you with the handling of one of its rivals. Do it in the most public and awestriking of ways!
+  description: Федерація космічних чарівників доручила вам впоратися з одним із її суперників. Зробіть це найбільш публічним і вражаючим способом!
   components:
   - type: Objective
     icon:
       sprite: Objects/Weapons/Guns/Basic/wands.rsi
       state: death
   - type: TargetObjective
-    title: objective-condition-wizard-kill-person-title
+    title: object-condition-wizard-kill-person-title
   - type: PickRandomPerson
     filters:
     - !type:ObjectiveImmuneFilter
@@ -121,8 +121,8 @@
 - type: entity
   parent: [BaseWizardObjective, BaseFreeObjective]
   id: WizardFearObjective
-  name: Become Fear
-  description: Seek to become the most feared person on the station. Make them recoil at the mention of your name!
+  name: Стати страхом
+  description: Seek to become the most feared person on the station. Змусьте їх відсахнутися при згадці вашого імені!
   components:
   - type: Objective
     icon:

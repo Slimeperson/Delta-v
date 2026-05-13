@@ -14,7 +14,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: revivopine
+  suffix: ревівопін
   parent: PrefilledSyringe
   id: SyringeRevivopine
   components:
@@ -29,8 +29,8 @@
           Quantity: 15
 
 - type: entity
-  name: pill
-  suffix: Granibitulari 20u # Takes like 5 minutes to fully heal at 15, 20 makes sense - Funkychem
+  name: reagent-name-exotic
+  suffix: Granibitulari 20u # Потрібно близько 5 хвилин, щоб повністю відновитися при 15, 20 має сенс - Funkychem
   parent: Pill
   id: PillGranibitulari
   components:
@@ -49,10 +49,10 @@
           Quantity: 20
 
 - type: entity
-  name: pill canister
+  name: каністра для таблеток
   parent: PillCanister
   id: PillCanisterGranibitulari
-  suffix: Granibitulari 15u
+  suffix: Гранібітулярі 15у
   components:
   - type: Label
     currentLabel: pill-granibitulari-15u  # DeltaV - Label localisation

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRosyCloak
-  name: rosy the maple mothroach hood
-  description: The adorable visage of a rosy maple mothroach. You have never felt cuter.
+  name: Рожевий Клен Mothroach капюшон
+  description: Чарівний образ рожево-кленового мокаля. Ти ніколи не почувався миліше.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hoods/rosy.rsi

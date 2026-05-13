@@ -1,7 +1,7 @@
 - type: job
   id: HeadOfSecurity
   name: job-name-hos
-  description: job-description-hos
+  description: посадова інструкція-гос
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:RoleTimeRequirement

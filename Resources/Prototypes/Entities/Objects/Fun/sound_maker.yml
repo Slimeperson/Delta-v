@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseItem
   id: BikeHorn
-  name: bike horn
-  description: A horn off of a bicycle.
+  name: велосипедний гудок
+  description: Сигнал від велосипеда.
   components:
   - type: Sprite
     sprite: Objects/Fun/bikehorn.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseItem
   id: CluwneHorn
-  name: broken bike horn
-  description: A broken horn off of a bicycle.
+  name: зламаний велосипедний гудок
+  description: Зламаний клаксон від велосипеда.
   components:
   - type: UseDelay
   - type: Sprite
@@ -93,8 +93,8 @@
 - type: entity
   parent: BikeHorn
   id: GoldenBikeHorn
-  name: golden honker
-  description: A happy honk prize, pray to the gods for your reward.
+  name: золотий гудок
+  description: Щасливого гудкового призу, моліться богам про вашу нагороду.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -118,8 +118,8 @@
 - type: entity
   parent: BikeHorn
   id: BananiumHorn
-  name: bananium horn
-  description: An air horn made from bananium.
+  name: банановий ріг
+  description: Пневматичний ріг з банану.
   components:
   - type: Sprite
     sprite: Objects/Fun/bananiumhorn.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseItem
   id: PushHorn
-  name: push horn
-  description: This powerful bikehorn is sure to blast frowns away.
+  name: штовхати гудок
+  description: Цей потужний байкхорн точно розірве хмурі очі.
   components:
   - type: Sprite
     sprite: Objects/Fun/push_horn.rsi
@@ -199,8 +199,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWhistle
-  name: whistle
-  description: Someone forgot to turn off a kettle?
+  name: свисток
+  description: Хтось забув вимкнути чайник?
   components:
   - type: Item
     sprite: Objects/Fun/whistles.rsi
@@ -229,7 +229,7 @@
 - type: entity
   parent: BaseWhistle
   id: SecurityWhistle
-  description: The sound of it brings fear.
+  description: Його звук викликає страх.
   components:
   - type: Sprite
     state: whistle # DeltaV - replace sec with whistle
@@ -241,8 +241,8 @@
 - type: entity
   parent: [BaseWhistle, BaseMinorContraband]
   id: SyndicateWhistle
-  name: trench whistle
-  description: A whistle used by Syndicate commanders to draw attention. Avanti!
+  name: окопний свисток
+  description: Свисток, який використовують командири Синдикату, щоб привернути увагу. Avanti!
   components:
   - type: Sprite
     state: trench
@@ -283,8 +283,8 @@
 - type: entity
   parent: BaseRubberToy
   id: ToyRubberDuck
-  name: rubber ducky
-  description: Not carried here by ocean currents.
+  name: гумова качечка
+  description: Не переноситься сюди океанськими течіями.
   components:
   - type: Sprite
     sprite: Objects/Fun/ducky.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: BaseRubberToy
   id: RubberChicken
-  name: rubber chicken
-  description: A stress inducing parody of nature's most delectable avian.
+  name: гумова курка
+  description: Стресова пародія на наймилішого птаха природи.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_chicken.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: BaseItem
   id: NewtonCradle
-  name: newton cradle
-  description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
+  name: колиска Ньютона
+  description: Пристрій, яким набридли штовхачі паперу, щоб нагадати собі, що час ще не зупинився. Містить гравітацію.
   components:
   - type: Sprite
     sprite: Objects/Fun/newton_cradle.rsi
@@ -373,8 +373,8 @@
 - type: entity
   parent: BaseItem
   id: ClownRecorder
-  name: clown recorder
-  description: When you just can't get those laughs coming the natural way!
+  name: клоун-флейта
+  description: Коли ви просто не можете змусити цей сміх прийти природним шляхом!
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: BaseItem
   id: WhoopieCushion
-  name: whoopie cushion
-  description: A practical joke device involving flatulence humour.
+  name: вупі подушка
+  description: Пристрій практичного жарту, що включає метеоризм.
   components:
   - type: Sprite
     sprite: Objects/Fun/whoopie.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: BaseItem
   id: Skub
-  name: skub
-  description: Skub is the fifth Chaos God.
+  name: скуб
+  description: Скуб — ​​п'ятий Бог Хаосу.
   components:
   - type: Sprite
     sprite: Objects/Misc/skub.rsi

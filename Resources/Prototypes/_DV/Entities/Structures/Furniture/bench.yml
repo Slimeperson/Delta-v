@@ -1,11 +1,11 @@
 # Base benches
 - type: entity
-  name: bench
+  name: лавка
   id: BenchBaseMiddle
-  suffix: Middle
+  suffix: Середній
   abstract: true
   parent: SeatBase
-  description: Multiple seats spanning a single object. Truly a marvel of science.
+  description: Кілька місць, що охоплюють один об’єкт. Воістину диво науки.
   components:
   - type: Physics
     bodyType: Static
@@ -17,7 +17,7 @@
 
 # Park benches
 - type: entity
-  name: park bench
+  name: паркова лавка
   id: BenchParkMiddle
   parent: BenchBaseMiddle
   placement:
@@ -31,7 +31,7 @@
 
 - type: entity
   id: BenchParkLeftDV
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchParkMiddle
   placement:
     mode: SnapgridCenter
@@ -44,7 +44,7 @@
 
 - type: entity
   id: BenchParkRightDV
-  suffix: Right
+  suffix: правильно
   parent: BenchParkMiddle
   placement:
     mode: SnapgridCenter
@@ -57,7 +57,7 @@
 
 # Bamboo benches
 - type: entity
-  name: park bench
+  name: паркова лавка
   id: BenchParkBambooMiddle
   parent: BenchBaseMiddle
   placement:
@@ -71,7 +71,7 @@
 
 - type: entity
   id: BenchParkBambooLeftDV
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchParkBambooMiddle
   placement:
     mode: SnapgridCenter
@@ -84,7 +84,7 @@
 
 - type: entity
   id: BenchParkBambooRightDV
-  suffix: Right
+  suffix: правильно
   parent: BenchParkBambooMiddle
   placement:
     mode: SnapgridCenter
@@ -97,7 +97,7 @@
 
 # Pews
 - type: entity
-  name: pew
+  name: лава
   id: BenchPewMiddle
   parent: BenchBaseMiddle
   placement:
@@ -111,7 +111,7 @@
 
 - type: entity
   id: BenchPewLeft
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchPewMiddle
   placement:
     mode: SnapgridCenter
@@ -124,7 +124,7 @@
 
 - type: entity
   id: BenchPewRight
-  suffix: Right
+  suffix: правильно
   parent: BenchPewMiddle
   placement:
     mode: SnapgridCenter
@@ -137,7 +137,7 @@
 
 # Steel benches
 - type: entity
-  name: steel bench
+  name: сталева лава
   id: BenchSteelMiddle
   parent: BenchBaseMiddle
   placement:
@@ -151,7 +151,7 @@
 
 - type: entity
   id: BenchSteelLeft
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchSteelMiddle
   placement:
     mode: SnapgridCenter
@@ -164,7 +164,7 @@
 
 - type: entity
   id: BenchSteelRight
-  suffix: Right
+  suffix: правильно
   parent: BenchSteelMiddle
   placement:
     mode: SnapgridCenter
@@ -177,7 +177,7 @@
 
 # White steel benches
 - type: entity
-  name: white steel bench
+  name: Фельдшер, Зачинено
   id: BenchSteelWhiteMiddle
   parent: BenchBaseMiddle
   placement:
@@ -191,7 +191,7 @@
 
 - type: entity
   id: BenchSteelWhiteLeft
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchSteelWhiteMiddle
   placement:
     mode: SnapgridCenter
@@ -204,7 +204,7 @@
 
 - type: entity
   id: BenchSteelWhiteRight
-  suffix: Right
+  suffix: правильно
   parent: BenchSteelWhiteMiddle
   placement:
     mode: SnapgridCenter
@@ -217,7 +217,7 @@
 
 # Standard sofa
 - type: entity
-  name: sofa
+  name: шафка хірурга
   id: BenchSofaMiddle
   parent: BenchBaseMiddle
   placement:
@@ -231,7 +231,7 @@
 
 - type: entity
   id: BenchSofaLeftDV
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchSofaMiddle
   placement:
     mode: SnapgridCenter
@@ -244,7 +244,7 @@
 
 - type: entity
   id: BenchSofaRightDV
-  suffix: Right
+  suffix: правильно
   parent: BenchSofaMiddle
   placement:
     mode: SnapgridCenter
@@ -256,9 +256,9 @@
     node: BenchSofaRightDV
 
 - type: entity
-  name: sofa
+  name: шафка хірурга
   id: BenchSofaCorner
-  suffix: Corner
+  suffix: Куточок
 #  parent: BenchSofaMiddle
   placement:
     mode: SnapgridCenter
@@ -292,7 +292,7 @@
 
 # Corp sofa
 - type: entity
-  name: grey sofa
+  name: сірий диван
   id: BenchSofaCorpMiddle
   parent: BenchBaseMiddle
   placement:
@@ -306,7 +306,7 @@
 
 - type: entity
   id: BenchSofaCorpLeftDV
-  suffix: Left
+  suffix: Ліворуч
   parent: BenchSofaCorpMiddle
   placement:
     mode: SnapgridCenter
@@ -319,7 +319,7 @@
 
 - type: entity
   id: BenchSofaCorpRightDV
-  suffix: Right
+  suffix: правильно
   parent: BenchSofaCorpMiddle
   placement:
     mode: SnapgridCenter
@@ -331,9 +331,9 @@
     node: BenchSofaCorpRightDV
 
 - type: entity
-  name: grey sofa
+  name: сірий диван
   id: BenchSofaCorpCorner
-  suffix: Corner
+  suffix: Куточок
 #  parent: BenchSofaCorpMiddle
   placement:
     mode: SnapgridCenter

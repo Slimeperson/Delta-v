@@ -1,6 +1,6 @@
 ﻿- type: gas
   id: Oxygen
-  name: gases-oxygen
+  name: гази-кисень
   specificHeat: 20
   heatCapacityRatio: 1.4
   molarMass: 32
@@ -9,7 +9,7 @@
 
 - type: gas
   id: Nitrogen
-  name: gases-nitrogen
+  name: гази-азот
   specificHeat: 30
   heatCapacityRatio: 1.4
   molarMass: 28
@@ -18,7 +18,7 @@
 
 - type: gas
   id: CarbonDioxide
-  name: gases-co2
+  name: гази-co2
   specificHeat: 30
   heatCapacityRatio: 1.3
   molarMass: 44
@@ -27,7 +27,7 @@
 
 - type: gas
   id: Plasma
-  name: gases-plasma
+  name: гази-плазма
   specificHeat: 200
   heatCapacityRatio: 1.7
   molarMass: 120
@@ -38,7 +38,7 @@
 
 - type: gas
   id: Tritium
-  name: gases-tritium
+  name: гази-тритій
   specificHeat: 10
   heatCapacityRatio: 1.3
   molarMass: 6
@@ -50,7 +50,7 @@
 
 - type: gas
   id: WaterVapor
-  name: gases-water-vapor
+  name: гази-водяна пара
   specificHeat: 40
   heatCapacityRatio: 1.33
   molarMass: 18
@@ -61,7 +61,7 @@
 
 - type: gas
   id: Ammonia
-  name: gases-miasma # DeltaV
+  name: гази-міазми # DeltaV
   specificHeat: 20
   heatCapacityRatio: 1.4
   molarMass: 44
@@ -75,7 +75,7 @@
 
 - type: gas
   id: NitrousOxide
-  name: gases-n2o
+  name: гази-n2o
   specificHeat: 40
   heatCapacityRatio: 1.3
   molarMass: 44
@@ -85,7 +85,7 @@
 
 - type: gas
   id: Frezon
-  name: gases-frezon
+  name: гази-фрезон
   specificHeat: 600 # Strongest by far
   heatCapacityRatio: 1.33
   molarMass: 50

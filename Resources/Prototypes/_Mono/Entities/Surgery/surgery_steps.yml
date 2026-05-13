@@ -1,7 +1,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveCorticalBorer
-  name: Remove the Cortical Borer
+  name: Зніміть кортикальний борер
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep

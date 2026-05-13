@@ -1,7 +1,7 @@
 - type: entity
   id: TeslaCoil
-  name: tesla coil
-  description: A machine that converts lightning strikes into an electric current.
+  name: котушка тесла
+  description: Паливо для зварювання, 8 кВт
   placement:
     mode: SnapgridCenter
   components:

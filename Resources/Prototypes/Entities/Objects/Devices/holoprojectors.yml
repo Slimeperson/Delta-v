@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: проектор голографічних знаків
+  description: Зручний голографічний проектор, який відображає табличку прибиральника.
   components:
   - type: Item
     storedRotation: -90
@@ -38,7 +38,7 @@
   parent: Holoprojector
   id: HoloprojectorEmpty
   categories: [ HideSpawnMenu ] # DeltaV - This is identical to the normal one
-  suffix: Empty
+  suffix: Порожній
   #components: # DeltaV - Holoprojectors don't need batteries
   #- type: ItemSlots
   #  slots:
@@ -50,8 +50,8 @@
   id: HoloprojectorBorg
   categories: [ HideSpawnMenu ] # DeltaV - This is identical to the normal one
   suffix: borg
-  name: holosign projector
-  description: A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
+  name: голографічний проектор
+  description: Модифікований голографічний проектор знаків для використання в кіборгах-охоронцях. Автоматично самозаряджається.
   #components: # DeltaV - Holoprojectors don't need batteries
   #- type: HolosignProjector
   #  chargeUse: 240
@@ -66,8 +66,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorClownBorg
-  name: holopeel projector
-  description: A holopeel projector that creates a slippery, hard light banana peel. It recharges, so that the fun never ends!
+  name: командний дверний пульт
+  description: Проектор holopeel, який створює слизьку, тверду легку бананову шкірку. Він заряджає, щоб веселощі ніколи не закінчувалися!
   suffix: borg
   components:
   #- type: HolosignProjector # DeltaV - Holoprojectors dont need batteries
@@ -96,8 +96,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: проектор холофан
+  description: Не дозволяйте пасажирам-самогубцям вбивати всіх під час надзвичайних ситуацій в атмосфері.
   components:
   #- type: HolosignProjector # DeltaV - Holoprojectors dont need batteries
   #  signProto: HoloFan
@@ -128,7 +128,7 @@
   parent: HolofanProjector
   id: HolofanProjectorEmpty
   categories: [ HideSpawnMenu ] # DeltaV - this is identical to the normal one
-  suffix: Empty
+  suffix: Порожній
   #components: # DeltaV - Holoprojectors dont need batteries
   #- type: ItemSlots
   #  slots:
@@ -139,8 +139,8 @@
   parent: HolofanProjector
   id: HolofanProjectorBorg
   categories: [ HideSpawnMenu ] # DeltaV - This is identical to the normal one
-  name: integrated holofan
-  description: Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
+  name: інтегрований холофан
+  description: Не дозволяє ідіотам завдавати ще більше шкоди екіпажу під час атмосферних надзвичайних ситуацій. Встановлений безпосередньо в інженерний кіборг, він заряджається з часом.
   #components: # DeltaV - Holoprojectors dont need batteries
   #- type: ItemSlots
   #  slots:
@@ -153,8 +153,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: force field projector
-  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
+  name: проектор силового поля
+  description: Створює непрохідне силове поле, яке нічого не пропускає. Близьке розташування може викликати або не викликати рак.
   components:
   #  - type: HolosignProjector # DeltaV - Holoprojectors dont need batteries
   #    signProto: HolosignForcefield
@@ -179,7 +179,7 @@
   parent: HoloprojectorField
   id: HoloprojectorFieldEmpty
   categories: [ HideSpawnMenu ] # DeltaV - This is identical to the normal one
-  suffix: Empty
+  suffix: Порожній
   #components: # DeltaV - Holoprojectors dont need batteries
   #- type: ItemSlots
   # slots:
@@ -189,8 +189,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: голобар'єрний проектор
+  description: Створює міцний, але крихкий голографічний бар'єр.
   components:
   #  - type: HolosignProjector # DeltaV - Holoprojectors dont need batteries
   #    signProto: HolosignSecurity
@@ -216,7 +216,7 @@
   parent: HoloprojectorSecurity
   id: HoloprojectorSecurityEmpty
   categories: [ HideSpawnMenu ] # DeltaV - This is identical to the normal one
-  suffix: Empty
+  suffix: Порожній
   # components: # DeltaV - Holoprojectors dont need batteries
   # - type: ItemSlots
   #   slots:

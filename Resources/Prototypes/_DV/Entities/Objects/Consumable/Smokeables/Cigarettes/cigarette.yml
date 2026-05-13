@@ -1,8 +1,8 @@
 - type: entity
   parent: Cigarette
   id: CigaretteOlive
-  suffix: olive
-  description: A roll of tobacco and nicotine soaked in some chemical, smells like olives.
+  suffix: оливковий
+  description: Згорток тютюну і нікотин, просочений якоюсь хімією, пахне оливками.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -17,8 +17,8 @@
 - type: entity
   parent: [Cigarette, FoodBase]
   id: CigaretteCandy
-  suffix: candy
-  description: Sugar sticks designed to look like a roll of nicotine and tobacco.
+  suffix: цукерки
+  description: Цукрові палички, схожі на згорток нікотину та тютюну.
   components:
   - type: Tag
     tags:

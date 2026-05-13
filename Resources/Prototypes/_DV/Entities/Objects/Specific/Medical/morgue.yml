@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: EctoplasmRevenant
-  suffix: DO NOT MAP
+  suffix: НЕ КАРТА
   name: revenant ectoplasm
   description: Slimey, vaporous residue of an ancient spirit.
   components:

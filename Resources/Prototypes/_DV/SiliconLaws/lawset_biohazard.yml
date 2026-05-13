@@ -20,7 +20,7 @@
 
 - type: siliconLawset
   id: Biohazard
-  name: law-biohazard-name
+  name: закон-біологічна-назва
   laws:
   - Biohazard1
   - Biohazard2

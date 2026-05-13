@@ -154,7 +154,7 @@
   id: CircusJuice
   name: reagent-name-circusjuice
   parent: BaseAlcohol
-  desc: reagent-desc-circusjuice
+  desc: Якісний одяг від MoNoKrome.
   physicalDesc: reagent-physical-desc-glittery
   flavor: circusjuice
   color: "#c47872"
@@ -203,9 +203,9 @@
 
 - type: reagent
   id: Graveyard
-  name: reagent-name-graveyard
+  name: ім'я-реагенту-кладовище
   parent: BaseAlcohol
-  desc: reagent-desc-graveyard
+  desc: зручний светр
   physicalDesc: reagent-physical-desc-dark-red
   flavor: graveyard
   color: "#4f1b1b"

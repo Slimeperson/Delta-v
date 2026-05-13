@@ -24,12 +24,12 @@ ui-vote-type-timeout = Це голосування вже нещодавно в�
 ui-vote-type-not-available = Цей тип голосування вимкнено.
 
 # Vote option only available for specific users.
-ui-vote-trusted-users-notice =
+ui-vote-trusted-users-notice = Цей варіант голосування доступний лише для гравців, які мають достатньо ігрового часу або є в білому списку.
   This vote option is only available to players who have enough playtime or are whitelisted.
   In addition, you must have been a ghost for { $timeReq } seconds.
 
 # Warning to not abuse a specific vote option.
-ui-vote-abuse-warning =
+ui-vote-abuse-warning = УВАГА!
   Warning!
   Abuse of the votekick system may result in an indefinite ban!
 

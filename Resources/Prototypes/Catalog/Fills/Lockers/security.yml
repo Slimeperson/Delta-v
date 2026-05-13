@@ -1,6 +1,6 @@
 - type: entity
   id: LockerWardenFilledHardsuit
-  suffix: Filled, Hardsuit
+  suffix: Заповнений, Hardsuit
   parent: LockerWarden
   components:
   - type: EntityTableContainerFill
@@ -14,7 +14,7 @@
 
 - type: entity
   id: LockerWardenFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerWarden
   components:
   - type: EntityTableContainerFill
@@ -70,7 +70,7 @@
 
 - type: entity
   id: LockerSecurityFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerSecurity
   components:
   - type: EntityTableContainerFill
@@ -113,7 +113,7 @@
 
 - type: entity
   id: LockerBrigmedicFilled
-  suffix: Corpsman, Filled # DeltaV - rename brigmedic to corpsman
+  suffix: Corpsman, Filled # DeltaV - перейменувати бригадного медика в санітара
   parent: LockerBrigmedic
   components:
   - type: EntityTableContainerFill
@@ -181,7 +181,7 @@
 
 - type: entity
   id: LockerDetectiveFilled
-  suffix: Filled
+  suffix: Заповнений
   parent: LockerDetective
   components:
   - type: EntityTableContainerFill
@@ -219,7 +219,7 @@
 - type: entity
   id: ClosetBombFilled
   parent: ClosetBomb
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -240,7 +240,7 @@
 - type: entity
   parent: [SecurityGunSafeNonlethalHandgunDV, BaseSecurityContraband]
   id: GunSafeDisabler
-  name: disabler gun safe # DeltaV - Added "gun"
+  name: ящик для ансамблю дерев'яних духових інструментів
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: disabler
@@ -259,7 +259,7 @@
 - type: entity
   parent: [SecurityGunSafeHandgunDV, BaseSecurityContraband]
   id: GunSafePistolMk58
-  name: mk58 gun safe # DeltaV - Added "gun"
+  name: mk58 gun safe # DeltaV - Додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: pistol
@@ -280,7 +280,7 @@
 - type: entity
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
   id: GunSafeRifleLecter
-  name: lecter gun safe # DeltaV - Added "gun"
+  name: Заповнений, невизначений # DeltaV - Виберіть свою власну пригоду в твердому костюмі, було заповнено, жорсткий костюм.
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: lecter
@@ -301,7 +301,7 @@
 - type: entity
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
   id: GunSafeSubMachineGunDrozd
-  name: drozd gun safe # DeltaV - Added "gun"
+  name: drozd gun safe # DeltaV - Додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: drozd
@@ -322,7 +322,7 @@
 - type: entity
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
   id: GunSafeShotgunEnforcer
-  name: enforcer gun safe # DeltaV - Added "gun"
+  name: enforcer gun safe # DeltaV - Додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: enforcer
@@ -343,7 +343,7 @@
 - type: entity
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
   id: GunSafeShotgunKammerer
-  name: kammerer gun safe # DeltaV - Added "gun"
+  name: kammerer gun safe # DeltaV - Додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: kammerer
@@ -363,9 +363,9 @@
 
 - type: entity
   id: GunSafeSubMachineGunWt550
-  suffix: Wt550
+  suffix: Коробка з кількома випадково підібраними інструментами, відібраними найкращими музикантами Centcomm!
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
-  name: wt550 gun safe # DeltaV - Added "gun"
+  name: wt550 gun safe # DeltaV - Додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: wt550
@@ -386,7 +386,7 @@
 - type: entity 
   parent: [SecurityGunSafeBaseSecureDV, BaseSecurityContraband]
   id: GunSafeLaserCarbine
-  name: laser gun safe # DeltaV - Added "gun"
+  name: сейф для лазерної зброї # DeltaV - додано "пістолет"
   components:
   - type: EntityStorageVisuals # DeltaV Sprite
     stateDoorClosed: laser

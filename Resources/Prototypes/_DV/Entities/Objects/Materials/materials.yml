@@ -2,7 +2,7 @@
   parent: MaterialBase
   id: MaterialBluespace
   name: bluespace crystal
-  suffix: Full
+  suffix: Повний
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Materials/materials.rsi
@@ -93,7 +93,7 @@
   id: MaterialChitinSharkminnow
   name: sharkminnow chitin
   description: Thick, tough, and strangely lightweight. Might make good armor.
-  suffix: Full
+  suffix: Повний
   components:
   - type: Sprite
     sprite: _DV/Objects/Materials/Mob/sharkchitin.rsi

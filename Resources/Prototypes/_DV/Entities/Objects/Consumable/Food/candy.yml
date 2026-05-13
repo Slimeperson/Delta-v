@@ -11,8 +11,8 @@
 - type: entity
   parent: FoodCandyBase
   id: FoodLollipop
-  name: lollipop
-  description: For being such a good sport! It's enriched with potent yet mostly safe-to-eat medicine.
+  name: льодяник
+  description: За такий хороший спорт! Він збагачений сильнодіючими, але переважно безпечними для вживання ліками.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -43,8 +43,8 @@
 - type: entity
   parent: FoodCandyBase
   id: FoodGumball
-  name: gumball
-  description: "Try as you might, you can't blow bubbles with it... it's enriched with medicine for minor ailments."
+  name: гумовий м'яч
+  description: "Як би ви не намагалися, ви не можете з ним пускати мильні бульбашки... він збагачений ліками від незначних захворювань».
   components:
   - type: SolutionContainerManager
     solutions:

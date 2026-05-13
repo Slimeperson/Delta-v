@@ -1,9 +1,9 @@
 - type: entity
-  name: black tome
+  name: чорний фоліант
   parent: BasePaper
   id: KillTome
-  suffix: KillTome, Admeme # To stay true to the lore, please never make this accessible outside of divine intervention (admeme).
-  description: A worn black tome. It smells like old paper.
+  suffix: KillTome, Admeme # Щоб залишатися вірним знанням, будь ласка, ніколи не робіть це доступним поза божественним втручанням (admeme).
+  description: Потертий чорний фоліант. Пахне старим папером.
   components:
   - type: Sprite
     sprite: Objects/Misc/killtome.rsi

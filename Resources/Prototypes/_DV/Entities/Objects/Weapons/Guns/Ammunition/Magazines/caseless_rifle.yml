@@ -157,7 +157,7 @@
   parent: BaseMagazineCaselessRifleShort
   id: MagazineCaselessRifleShortRubber
   name: short magazine (.25 caseless rubber)
-  description: 20-round short magazine for caseless rifles. Intended to hold less-lethal rubber ammunition.
+  description: Короткий магазин на 20 патронів для безгільзових рушниць. Призначений для зберігання менш летальних гумових боєприпасів.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber

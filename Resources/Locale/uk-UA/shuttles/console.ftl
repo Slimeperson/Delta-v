@@ -10,11 +10,11 @@ shuttle-console-prevent = Ви не можете керувати цим кор�
 shuttle-console-display-label = Дисплей
 
 shuttle-console-position = Позиція:
-shuttle-console-position-value = {$X}, {$Y}
+shuttle-console-position-value = ftldisk {$X}
 shuttle-console-orientation = Орієнтація:
 shuttle-console-orientation-value = {$angle}
 shuttle-console-linear-velocity = Лінійна швидкість:
-shuttle-console-linear-velocity-value = {$X}, {$Y}
+shuttle-console-linear-velocity-value = ftldisk {$X}
 shuttle-console-angular-velocity = Кутова швидкість:
 shuttle-console-angular-velocity-value = {$angularVelocity}
 

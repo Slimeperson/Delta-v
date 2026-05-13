@@ -1,8 +1,8 @@
 - type: entity
   parent: [ Incorporeal, BaseMob ]
   id: MobObserverTelegnostic
-  name: telegnostic projection
-  description: Ominous.
+  name: телегностична проекція
+  description: Зловісний.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

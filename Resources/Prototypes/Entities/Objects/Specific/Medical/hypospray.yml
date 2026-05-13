@@ -20,8 +20,8 @@
 - type: entity
   parent: [BaseHypospray, BaseGrandTheftContraband]
   id: Hypospray
-  name: hypospray
-  description: A sterile injector for rapid administration of drugs to patients.
+  name: гіпоспрей
+  description: Стерильний інжектор для швидкого введення ліків пацієнтам.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: [BaseHypospray, BaseSyndicateContraband]
   id: SyndiHypo
-  name: gorlex hypospray
-  description: A sterile injector for rapid administration of drugs. Reverse-engineered from Nanotrasen designs, Cybersun produces these in limited quantities for Gorlex Marauders' corpsmen.
+  name: горлекс гіпоспрей
+  description: Стерильний інжектор для швидкого введення ліків. Створений на основі дизайну Nanotrasen, Cybersun виробляє їх в обмежених кількостях для санітарів Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihypo.rsi
@@ -85,7 +85,7 @@
   parent: BaseHypospray
   id: BorgHypo
   name: borghypo
-  description: A sterile injector for rapid administration of drugs to patients. This integrated model is specialized for use by medical borgs.
+  description: Стерильний інжектор для швидкого введення ліків пацієнтам. Ця інтегрована модель спеціалізована для використання медичними боргами.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: BaseHypospray
   id: JetInjector
-  name: jet injector
-  description: A sterile injector for convenient administration of drugs to patients.
+  name: мазь
+  description: Стерильний інжектор для зручного введення ліків пацієнтам.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/jetinjector.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: JetInjector
   id: AdvancedJetInjector
-  name: advanced jet injector
-  description: A pristine, fashionable, high quality injector. Allows for a faster injection, with a slightly larger capacity.
+  name: вдосконалений струменевий інжектор
+  description: модуль рятувального кіборга
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/advanced_jetinjector.rsi
@@ -180,9 +180,9 @@
 - type: entity
   parent: SyndiHypo
   id: AdminHypo
-  name: experimental hypospray
+  name: експериментальний гіпоспрей
   suffix: Admeme
-  description: The ultimate application of bluespace technology and rapid chemical administration.
+  description: Максимальне застосування технології bluespace і швидкого введення хімікатів.
   components:
     - type: SolutionContainerManager
       solutions:
@@ -194,8 +194,8 @@
 - type: entity
   parent: BaseHypospray
   id: ChemicalMedipen
-  name: chemical medipen
-  description: A single-dose, non-refillable medipen.
+  name: хімічний медіпен
+  description: Однодозовий одноразовий медіпен.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -251,8 +251,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  name: emergency medipen
-  description: A single-dose, non-refillable medipen containing epinephrine and tranexamic acid, used to temporarily stabilize patients in critical condition and buy time for them to recieve proper medical treatment. Beware of overdose.
+  name: невідкладна медична допомога
+  description: Однодозовий одноразовий медіпен, що містить адреналін і транексамову кислоту, який використовується для тимчасової стабілізації пацієнтів у критичному стані та виграшу часу для отримання належного лікування. Остерігайтеся передозування.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
-  name: poison auto-injector
-  description: A single-dose, non-refillable medipen containing ultravasculine and epinephrine, used to quickly and easily treat toxin poisoning.
+  name: автоінжектор отрути
+  description: Однодозовий одноразовий медіпен, що містить ультраваскулін та адреналін, використовується для швидкого та легкого лікування отруєння токсинами.
   components:
   - type: Item
     inhandVisuals:
@@ -313,8 +313,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  name: brute auto-injector
-  description: A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
+  name: брутальний автоінжектор
+  description: Однодозовий одноразовий медіпен, що містить бікаридин і транексамову кислоту, використовується для швидкого та легкого лікування простих фізичних травм. Зазвичай використовується як бойовий засіб.
   components:
   - type: Item
     inhandVisuals:
@@ -350,8 +350,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: BurnAutoInjector
-  name: burn auto-injector
-  description: A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
+  name: спалити автоінжектор
+  description: Однодозовий одноразовий медіпен, що містить дермалін і лепоразин, використовується для швидкого та легкого лікування нехімічних опіків. Зазвичай використовується як бойовий засіб.
   components:
   - type: Item
     inhandVisuals:
@@ -387,8 +387,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: RadAutoInjector
-  name: rad auto-injector
-  description: A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
+  name: автоінжектор rad
+  description: Однодозовий одноразовий медіпен, що містить аритразин і бікаридин, використовується для швидкого та легкого лікування радіаційних отруєнь.
   components:
   - type: Item
     inhandVisuals:
@@ -424,8 +424,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: PunctAutoInjector
-  name: puncturase auto-injector
-  description: A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
+  name: автоінжектор puncturase
+  description: Однодозовий одноразовий медіпен, що містить пунктуразу та транексамову кислоту, використовується для швидкого та легкого лікування колотих ран. Зазвичай використовується як бойовий засіб.
   components:
   - type: Item
     inhandVisuals:
@@ -461,8 +461,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: PyraAutoInjector
-  name: pyrazine auto-injector
-  description: A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
+  name: автоінжектор піразину
+  description: Однодозовий одноразовий медіпен, що містить піразин і дермалін, використовується для швидкого та легкого лікування термічних опіків. Зазвичай використовується як бойовий засіб.
   components:
   - type: Item
     inhandVisuals:
@@ -498,7 +498,7 @@
 - type: entity
   parent: ChemicalMedipen
   id: AirlossAutoInjector
-  description: A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
+  description: Однодозовий одноразовий медіпен, що містить фізіологічний розчин і дексалін плюс, використовується для швидкого та легкого лікування крововтрати та асфіксії.
   components:
   - type: Item
     inhandVisuals:
@@ -536,8 +536,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: SpaceMedipen
-  name: space medipen
-  description: A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
+  name: космічний медіпен
+  description: Однодозовий одноразовий медіпен, що містить барозин і лепоразин, який використовується для захисту незахищеної тіла від смертоносного впливу космосу.
   components:
   - type: Item
     inhandVisuals:
@@ -573,8 +573,8 @@
 - type: entity
   parent: [ChemicalMedipen, BaseSyndicateContraband]
   id: Stimpack
-  name: hyperzine injector
-  description: A chemical injector containing a large shot of pure hyperzine. For when it's time to throw down. Effects last for about 60 seconds.
+  name: гіперзиновий інжектор
+  description: Хімічний інжектор, що містить велику порцію чистого гіперзину. Коли прийде час скинути. Ефект триває приблизно 60 секунд.
   components:
   - type: Item
     inhandVisuals:
@@ -612,8 +612,8 @@
 - type: entity
   parent: [ChemicalMedipen, BaseSyndicateContraband]
   id: StimpackMini
-  name: hyperzine microinjector
-  description: A chemical microinjector containing a small shot of pure hyperzine. Effects last for about 30 seconds.
+  name: мікроінжектор гіперзин
+  description: Хімічний мікроінжектор, що містить невелику порцію чистого гіперзину. Ефект триває приблизно 30 секунд.
   components:
   - type: Item
     inhandVisuals:
@@ -651,8 +651,8 @@
 - type: entity
   parent: [ChemicalMedipen, BaseSyndicateContraband]
   id: CombatMedipen
-  name: combat medipen
-  description: A single-dose, non-refillable medipen containing a chemical cocktail that treats most forms of damage.
+  name: бойовий медіпен
+  description: Одноразовий одноразовий медіпен, що містить хімічний коктейль, який лікує більшість форм ушкоджень.
   components:
   - type: Item
     inhandVisuals:
@@ -690,7 +690,7 @@
 - type: entity
   parent: Pen # It is just like normal pen, isn't it?
   id: Hypopen
-  suffix: Hypopen
+  suffix: Гіпопен
   components:
   - type: SolutionContainerManager
     solutions:
@@ -720,8 +720,8 @@
 - type: entity
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: HypopenBox
-  name: hypopen box
-  description: A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: гіпопен бокс
+  description: Невелика коробка, в якій знаходиться гіпопен. При відкритті упаковка розпадається, не залишаючи слідів.
   components:
   - type: Item
     size: Tiny
@@ -737,8 +737,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: WehMedipen
-  name: weh auto-injector
-  description: A non-refillable medipen containing multiple doses of weh.
+  name: автоінжектор weh
+  description: Модуль з перешкодою зв'язку.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi

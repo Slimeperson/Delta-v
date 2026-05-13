@@ -2,13 +2,13 @@
 - type: stack
   parent: BaseSmallStack
   id: InflatableWall
-  name: stack-inflatable-wall
+  name: стек-надувна-стіна
   icon: { sprite: "/Textures/Objects/Misc/inflatable_wall.rsi", state: item_wall }
   spawn: InflatableWallStack1
 
 - type: stack
   id: InflatableDoor
-  name: stack-inflatable-door
+  name: стек-надувні двері
   icon: { sprite: "/Textures/Objects/Misc/inflatable_door.rsi", state: item_door }
   spawn: InflatableDoorStack1
   maxCount: 4 # Maybe increased to 5 to reuse the base?
@@ -24,7 +24,7 @@
 - type: stack
   parent: BaseMediumStack
   id: CableMV
-  name: stack-mv-cable
+  name: стек-mv-кабель
   icon: { sprite: "/Textures/Objects/Tools/cable-coils.rsi", state: coilmv-30 }
   spawn: CableMVStack1
 

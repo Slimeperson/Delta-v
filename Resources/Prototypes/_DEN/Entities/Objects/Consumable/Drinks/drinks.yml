@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: DrinkGlass
   id: DrinkJaegermisterGlass
-  suffix: jaegermister
+  suffix: єгермістер
   components:
   - type: SolutionContainerManager
     solutions:
@@ -17,7 +17,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJaegerbombGlass
-  suffix: jaegerbomb
+  suffix: єгербомба
   components:
   - type: SolutionContainerManager
     solutions:
@@ -33,7 +33,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJaegeritaGlass
-  suffix: jaegerita
+  suffix: єгерита
   components:
   - type: SolutionContainerManager
     solutions:
@@ -49,7 +49,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSurferGlass
-  suffix: surfer
+  suffix: серфер
   components:
   - type: SolutionContainerManager
     solutions:
@@ -65,7 +65,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSurferOnAcidGlass
-  suffix: surfer on acid
+  suffix: серфер на кислоті
   components:
   - type: SolutionContainerManager
     solutions:
@@ -97,7 +97,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTuxedoSunsetGlass
-  suffix: tuxedo sunset
+  suffix: смокінг захід сонця
   components:
   - type: SolutionContainerManager
     solutions:
@@ -113,7 +113,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkInsideScoopGlass
-  suffix: inside scoop
+  suffix: всередині совок
   components:
   - type: SolutionContainerManager
     solutions:
@@ -129,7 +129,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkFizzballFloatGlass
-  suffix: fizzball float
+  suffix: fizzball поплавок
   components:
   - type: SolutionContainerManager
     solutions:
@@ -161,7 +161,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDeathFlipGlass
-  suffix: death flip
+  suffix: смерть фліп
   components:
   - type: SolutionContainerManager
     solutions:
@@ -177,7 +177,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBloodyJaegerGlass
-  suffix: bloody jaeger
+  suffix: кривавий єгер
   components:
   - type: SolutionContainerManager
     solutions:
@@ -193,7 +193,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPopQuizGlass
-  suffix: pop quiz
+  suffix: поп-вікторина
   components:
   - type: SolutionContainerManager
     solutions:
@@ -209,7 +209,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkNaughtyBartenderGlass
-  suffix: naughty bartender
+  suffix: неслухняний бармен
   components:
   - type: SolutionContainerManager
     solutions:
@@ -225,7 +225,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCafeCocktailGlass
-  suffix: cafe cocktail
+  suffix: кафе коктейль
   components:
   - type: SolutionContainerManager
     solutions:
@@ -241,7 +241,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCinnamonCookieGlass
-  suffix: cinnamon cookie
+  suffix: печиво з корицею
   components:
   - type: SolutionContainerManager
     solutions:
@@ -257,7 +257,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBloodRedLicoriceGlass
-  suffix: blood-red-licorice
+  suffix: криваво-червоно-солодковий
   components:
   - type: SolutionContainerManager
     solutions:

@@ -8,10 +8,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Cortical Borer
+  name: Кортикальний борер
   parent: SimpleSpaceMobBase
   id: MobCorticalBorer
-  description: A worm that burrows into brains and lays its eggs. # DeltaV - added a period
+  description: Великий лабораторний гумовий килимок. Відчуйте себе в безпеці, коли ви розливаєте кислоту на себе!
   components:
   - type: GhostRole
     makeSentient: true
@@ -109,8 +109,8 @@
 - type: entity
   parent: BaseItem
   id: CorticalBorerEgg
-  name: cortical borer egg
-  description: This egg is so nice and wet and soft...
+  name: коркове яйце бурильця
+  description: Це яйце таке гарне, вологе і м’яке...
   components:
   - type: Sprite
     sprite: _Mono/Mobs/Aliens/cortical_borer_egg.rsi

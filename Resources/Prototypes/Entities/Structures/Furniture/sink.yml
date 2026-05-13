@@ -1,7 +1,7 @@
 - type: entity
   name: sink
   id: SinkEmpty
-  suffix: Empty
+  suffix: Порожній
   description: The faucets have been tightened to the maximum possible torque but are still known to drip.
   placement:
     mode: SnapgridCenter
@@ -71,7 +71,7 @@
   name: sink
   id: Sink
   parent: SinkEmpty
-  suffix: Water
+  suffix: вода
   components:
   - type: SolutionContainerManager
     solutions:
@@ -118,7 +118,7 @@
   name: sink
   id: SinkStemlessWater
   parent: SinkStemless
-  suffix: Water
+  suffix: вода
   components:
   - type: SolutionContainerManager
     solutions:

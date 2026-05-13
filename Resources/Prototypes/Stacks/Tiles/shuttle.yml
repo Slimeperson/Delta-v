@@ -3,41 +3,41 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleWhite
-  name: stack-white-shuttle-tile
+  name: стек-білий-човник-плитка
   spawn: FloorTileItemShuttleWhite
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleBlue
-  name: stack-blue-shuttle-tile
+  name: стек-блакитний-човник-плитка
   spawn: FloorTileItemShuttleBlue
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleOrange
-  name: stack-orange-shuttle-tile
+  name: стек-апельсин-човник-плитка
   spawn: FloorTileItemShuttleOrange
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttlePurple
-  name: stack-purple-shuttle-tile
+  name: стек-сталь-міні-плитка
   spawn: FloorTileItemShuttlePurple
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleRed
-  name: stack-red-shuttle-tile
+  name: стек-червоний-човник-плитка
   spawn: FloorTileItemShuttleRed
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleGrey
-  name: stack-grey-shuttle-tile
+  name: стек-сірий-човник-плитка
   spawn: FloorTileItemShuttleGrey
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackShuttleBlack
-  name: stack-black-shuttle-tile
+  name: стек-чорний-човник-плитка
   spawn: FloorTileItemShuttleBlack

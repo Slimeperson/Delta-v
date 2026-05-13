@@ -1,8 +1,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyJustice
-  name: justice encryption key
-  description: An encryption key used by the justice department.
+  name: ключ шифрування справедливості
+  description: Ключ шифрування, який використовується міністерством юстиції.
   components:
   - type: EncryptionKey
     channels:
@@ -17,8 +17,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyPrison
-  name: Prison encryption key
-  description: An encryption key used by anybody who needs to speak with the prisoners
+  name: В'язничний ключ шифрування
+  description: Ключ шифрування, яким користується кожен, кому потрібно поговорити з ув'язненими
   components:
   - type: EncryptionKey
     channels:
@@ -33,9 +33,9 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyAdmeme1
-  name: Channel 1 encryption key
+  name: Ключ шифрування каналу 1
   suffix: Admeme
-  description: An encryption key for Channel 1
+  description: Ключ шифрування для каналу 1
   components:
   - type: EncryptionKey
     channels:
@@ -49,9 +49,9 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyAdmeme2
-  name: Channel 2 encryption key
+  name: Ключ шифрування каналу 2
   suffix: Admeme
-  description: An encryption key for Channel 2
+  description: Сервери камер
   components:
   - type: EncryptionKey
     channels:
@@ -65,9 +65,9 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyAdmeme3
-  name: Channel 3 encryption key
+  name: Ключ шифрування каналу 3
   suffix: Admeme
-  description: An encryption key for Channel 3
+  description: Ключ шифрування для Channel 3
   components:
   - type: EncryptionKey
     channels:

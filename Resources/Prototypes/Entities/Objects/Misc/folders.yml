@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BoxFolderNuclearCodes
-  name: nuclear code folder
+  name: папка ядерного коду
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: BoxBase
   id: BoxFolderBaseEmpty
-  name: folder
-  description: A folder filled with top secret paperwork.
+  name: папку
+  description: Папка, наповнена надсекретною документацією.
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -74,7 +74,7 @@
 - type: entity
   abstract: true
   id: BoxFolderFill # Include this as a parent prototype to add 0-5 random papers to a folder's inventory when spawned.
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:
@@ -94,7 +94,7 @@
 - type: entity
   abstract: true
   id: BoxFolderFillThreePapers # Like BoxFolderFill, but always has exactly three sheets of standard paper; use for things that should always be consistent, e.g roundstart items
-  suffix: 3 papers
+  suffix: 3 папери
   components:
   - type: EntityTableContainerFill
     containers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderRedEmpty
-  suffix: Red
+  suffix: Червоний
   components:
   - type: Sprite
     layers:
@@ -124,17 +124,17 @@
 - type: entity
   parent: [BoxFolderRedEmpty, BoxFolderFill]
   id: BoxFolderRed
-  suffix: Red, Filled
+  suffix: Червоний, заповнений
 
 - type: entity
   parent: [BoxFolderRedEmpty, BoxFolderFillThreePapers]
   id: BoxFolderRedThreePapers
-  suffix: Red, 3 papers
+  suffix: Червоний, 3 папери
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderBlueEmpty
-  suffix: Blue
+  suffix: Синій
   components:
   - type: Sprite
     layers:
@@ -145,17 +145,17 @@
 - type: entity
   parent: [BoxFolderBlueEmpty, BoxFolderFill]
   id: BoxFolderBlue
-  suffix: Blue, Filled
+  suffix: Синій, заповнений
 
 - type: entity
   parent: [BoxFolderBlueEmpty, BoxFolderFillThreePapers]
   id: BoxFolderBlueThreePapers
-  suffix: Blue, 3 papers
+  suffix: Ложки немає.
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderYellowEmpty
-  suffix: Yellow
+  suffix: Жовтий
   components:
   - type: Sprite
     layers:
@@ -166,17 +166,17 @@
 - type: entity
   parent: [BoxFolderYellowEmpty, BoxFolderFill]
   id: BoxFolderYellow
-  suffix: Yellow, Filled
+  suffix: Жовтий, заповнений
 
 - type: entity
   parent: [BoxFolderYellowEmpty, BoxFolderFillThreePapers]
   id: BoxFolderYellowThreePapers
-  suffix: Yellow, 3 papers
+  suffix: Жовтий, 3 папери
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderGreyEmpty
-  suffix: Grey
+  suffix: Сірий
   components:
   - type: Sprite
     layers:
@@ -187,17 +187,17 @@
 - type: entity
   parent: [BoxFolderGreyEmpty, BoxFolderFill]
   id: BoxFolderGrey
-  suffix: Grey, Filled
+  suffix: Сірий, заповнений
 
 - type: entity
   parent: [BoxFolderGreyEmpty, BoxFolderFillThreePapers]
   id: BoxFolderGreyThreePapers
-  suffix: Grey, 3 papers
+  suffix: Сірий, 3 папери
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderBlackEmpty
-  suffix: Black
+  suffix: чорний
   components:
   - type: Sprite
     layers:
@@ -208,17 +208,17 @@
 - type: entity
   parent: [BoxFolderBlackEmpty, BoxFolderFill]
   id: BoxFolderBlack
-  suffix: Black, Filled
+  suffix: Чорний, заповнений
 
 - type: entity
   parent: [BoxFolderBlackEmpty, BoxFolderFillThreePapers]
   id: BoxFolderBlackThreePapers
-  suffix: Black, 3 papers
+  suffix: Чорний, 3 листи
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderGreenEmpty
-  suffix: Green
+  suffix: Зелений
   components:
   - type: Sprite
     layers:
@@ -229,17 +229,17 @@
 - type: entity
   parent: [BoxFolderGreenEmpty, BoxFolderFill]
   id: BoxFolderGreen
-  suffix: Green, Filled
+  suffix: Зелений, заповнений
 
 - type: entity
   parent: [BoxFolderGreenEmpty, BoxFolderFillThreePapers]
   id: BoxFolderGreenThreePapers
-  suffix: Green, 3 papers
+  suffix: Грін, 3 листи
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderWhiteEmpty
-  suffix: White
+  suffix: Білий
   components:
   - type: Sprite
     layers:
@@ -249,19 +249,19 @@
 - type: entity
   parent: [BoxFolderWhiteEmpty, BoxFolderFill]
   id: BoxFolderWhite
-  suffix: White, Filled
+  suffix: Білий, заповнений
 
 - type: entity
   parent: [BoxFolderWhiteEmpty, BoxFolderFillThreePapers]
   id: BoxFolderWhiteThreePapers
-  suffix: White, 3 papers
+  suffix: Білий, 3 листи
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderCentComEmpty
   categories: [ DoNotMap ]
-  name: CentComm folder
-  description: CentComm's miserable little pile of secrets!
+  name: Папка CentComm
+  description: посвідчення лікаря-інтерна
   components:
   - type: Sprite
     layers:
@@ -271,18 +271,18 @@
 - type: entity
   parent: [BoxFolderCentComEmpty, BoxFolderFill]
   id: BoxFolderCentCom
-  suffix: DO NOT MAP; Filled
+  suffix: НЕ КАРТА; Заповнений
 
 - type: entity
   parent: [BoxFolderCentComEmpty, BoxFolderFillThreePapers]
   id: BoxFolderCentComThreePapers
-  suffix: DO NOT MAP; 3 papers
+  suffix: НЕ КАРТА; 3 папери
 
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderClipboardEmpty
-  name: clipboard
-  description: The weapon of choice for those on the front lines of bureaucracy.
+  name: буфер обміну
+  description: Найкраща зброя для тих, хто на передовій бюрократії.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderPlasticClipboardEmpty
-  name: plastic clipboard
-  description: A cheap clipboard made of blue plastic. For those who aren't yet ready to wield the bureaucratic might of a proper wooden clipboard.
+  name: пластиковий буфер обміну
+  description: Дешевий буфер обміну з синього пластику. Для тих, хто ще не готовий володіти бюрократичною міццю справжнього дерев’яного планшета.
   components:
   - type: Sprite
     sprite: Objects/Misc/plastic_clipboard.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderCentComClipboardEmpty
-  name: CentComm clipboard
-  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
+  name: Буфер обміну CentComm
+  description: A luxurious clipboard upholstered with green velvet. Його часто носять посадові особи CentComm, але рідко використовують насправді.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: [BoxFolderClipboardEmpty, BaseGrandTheftContraband]
   id: BoxFolderQmClipboard
-  name: requisition digi-board
-  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
+  name: заявка digi-board
+  description: Громіздкий електричний буфер обміну, наповнений замовленнями на доставку та деталями фінансування. З такою кількістю компрометуючих документів, ви повинні зберегти це в безпеці.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi

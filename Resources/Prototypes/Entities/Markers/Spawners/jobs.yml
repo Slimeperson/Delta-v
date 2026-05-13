@@ -12,7 +12,7 @@
     sprite: Markers/jobs.rsi
 
 - type: entity
-  name: observer spawn point
+  name: точка появи спостерігача
   id: SpawnPointObserver
   parent: MarkerBase
   components:
@@ -37,7 +37,7 @@
     spawn_type: LateJoin
 
 - type: entity
-  name: any job spawn point
+  name: будь-яка точка появи вакансій
   id: SpawnPointAnyJob # used for integration tests so we don't need to map every single job spawner on the test map
   parent: SpawnPointJobBase
   components:
@@ -52,7 +52,7 @@
 - type: entity
   id: SpawnPointQuartermaster
   parent: SpawnPointJobBase
-  name: logistics officer # DeltaV - Logistics Department replacing Cargo
+  name: офіцер з логістики # DeltaV - відділ логістики замінює Cargo
   components:
   - type: SpawnPoint
     job_id: Quartermaster
@@ -65,7 +65,7 @@
 - type: entity
   id: SpawnPointCargoTechnician
   parent: SpawnPointJobBase
-  name: cargotechnician
+  name: вантажотехнік
   components:
   - type: SpawnPoint
     job_id: CargoTechnician
@@ -77,7 +77,7 @@
 - type: entity
   id: SpawnPointSalvageSpecialist
   parent: SpawnPointJobBase
-  name: salvagespecialist
+  name: фахівець з порятунку
   components:
   - type: SpawnPoint
     job_id: SalvageSpecialist
@@ -92,7 +92,7 @@
 - type: entity
   id: SpawnPointPassenger
   parent: SpawnPointJobBase
-  name: assistant # DeltaV - rename passenger to assistant
+  name: помічник # DeltaV - перейменувати пасажира в помічника
   components:
   - type: SpawnPoint
     job_id: Passenger
@@ -104,7 +104,7 @@
 - type: entity
   id: SpawnPointTechnicalAssistant
   parent: SpawnPointJobBase
-  name: technical assistant
+  name: технічний помічник
   components:
   - type: SpawnPoint
     job_id: TechnicalAssistant
@@ -116,7 +116,7 @@
 - type: entity
   id: SpawnPointMedicalIntern
   parent: SpawnPointJobBase
-  name: medical intern
+  name: мед.інтерн
   components:
   - type: SpawnPoint
     job_id: MedicalIntern
@@ -128,7 +128,7 @@
 - type: entity
   id: SpawnPointSecurityCadet
   parent: SpawnPointJobBase
-  name: security cadet
+  name: курсант охорони
   components:
   - type: SpawnPoint
     job_id: SecurityCadet
@@ -140,7 +140,7 @@
 - type: entity
   id: SpawnPointResearchAssistant
   parent: SpawnPointJobBase
-  name: research assistant
+  name: науковий співробітник
   components:
   - type: SpawnPoint
     job_id: ResearchAssistant
@@ -152,7 +152,7 @@
 - type: entity
   id: SpawnPointServiceWorker
   parent: SpawnPointJobBase
-  name: service worker
+  name: службовець
   components:
   - type: SpawnPoint
     job_id: ServiceWorker
@@ -164,7 +164,7 @@
 - type: entity
   id: SpawnPointBartender
   parent: SpawnPointJobBase
-  name: bartender
+  name: бармен
   components:
   - type: SpawnPoint
     job_id: Bartender
@@ -176,7 +176,7 @@
 - type: entity
   id: SpawnPointChef
   parent: SpawnPointJobBase
-  name: chef
+  name: шеф-кухар
   components:
   - type: SpawnPoint
     job_id: Chef
@@ -188,7 +188,7 @@
 - type: entity
   id: SpawnPointBotanist
   parent: SpawnPointJobBase
-  name: botanist
+  name: ботанік
   components:
   - type: SpawnPoint
     job_id: Botanist
@@ -200,7 +200,7 @@
 - type: entity
   id: SpawnPointClown
   parent: SpawnPointJobBase
-  name: clown
+  name: клоун
   components:
   - type: SpawnPoint
     job_id: Clown
@@ -212,7 +212,7 @@
 - type: entity
   id: SpawnPointMime
   parent: SpawnPointJobBase
-  name: mime
+  name: мім
   components:
   - type: SpawnPoint
     job_id: Mime
@@ -224,7 +224,7 @@
 - type: entity
   id: SpawnPointChaplain
   parent: SpawnPointJobBase
-  name: chaplain
+  name: капелан
   components:
   - type: SpawnPoint
     job_id: Chaplain
@@ -236,7 +236,7 @@
 - type: entity
   id: SpawnPointLibrarian
   parent: SpawnPointJobBase
-  name: librarian
+  name: бібліотекар
   components:
   - type: SpawnPoint
     job_id: Librarian
@@ -248,7 +248,7 @@
 - type: entity
   id: SpawnPointLawyer
   parent: SpawnPointJobBase
-  name: lawyer
+  name: адвокат
   components:
   - type: SpawnPoint
     job_id: Lawyer
@@ -260,7 +260,7 @@
 - type: entity
   id: SpawnPointJanitor
   parent: SpawnPointJobBase
-  name: janitor
+  name: двірник
   components:
   - type: SpawnPoint
     job_id: Janitor
@@ -272,7 +272,7 @@
 - type: entity
   id: SpawnPointMusician
   parent: SpawnPointJobBase
-  name: musician
+  name: музикант
   components:
   - type: SpawnPoint
     job_id: Musician
@@ -284,7 +284,7 @@
 - type: entity
   id: SpawnPointBorg
   parent: SpawnPointJobBase
-  name: cyborg
+  name: кіборг
   components:
   - type: SpawnPoint
     job_id: Borg
@@ -301,7 +301,7 @@
 - type: entity
   id: SpawnPointCaptain
   parent: SpawnPointJobBase
-  name: captain
+  name: капітан
   components:
   - type: SpawnPoint
     job_id: Captain
@@ -313,7 +313,7 @@
 - type: entity
   id: SpawnPointHeadOfPersonnel
   parent: SpawnPointJobBase
-  name: headofpersonnel
+  name: керівник персоналу
   components:
   - type: SpawnPoint
     job_id: HeadOfPersonnel
@@ -327,7 +327,7 @@
 - type: entity
   id: SpawnPointChiefEngineer
   parent: SpawnPointJobBase
-  name: chiefengineer
+  name: Moproach Spawner
   components:
   - type: SpawnPoint
     job_id: ChiefEngineer
@@ -339,7 +339,7 @@
 - type: entity
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
-  name: stationengineer
+  name: станційний інженер
   components:
   - type: SpawnPoint
     job_id: StationEngineer
@@ -351,7 +351,7 @@
 - type: entity
   id: SpawnPointAtmos
   parent: SpawnPointJobBase
-  name: atmospherics
+  name: атмосфери
   components:
   - type: SpawnPoint
     job_id: AtmosphericTechnician
@@ -365,7 +365,7 @@
 - type: entity
   id: SpawnPointChiefMedicalOfficer
   parent: SpawnPointJobBase
-  name: chiefmedicalofficer
+  name: головного медичного лікаря
   components:
   - type: SpawnPoint
     job_id: ChiefMedicalOfficer
@@ -377,7 +377,7 @@
 - type: entity
   id: SpawnPointMedicalDoctor
   parent: SpawnPointJobBase
-  name: medicaldoctor
+  name: лікар
   components:
   - type: SpawnPoint
     job_id: MedicalDoctor
@@ -389,7 +389,7 @@
 - type: entity
   id: SpawnPointParamedic
   parent: SpawnPointJobBase
-  name: paramedic
+  name: фельдшер
   components:
   - type: SpawnPoint
     job_id: Paramedic
@@ -401,7 +401,7 @@
 - type: entity
   id: SpawnPointChemist
   parent: SpawnPointJobBase
-  name: chemist
+  name: хімік
   components:
   - type: SpawnPoint
     job_id: Chemist
@@ -415,7 +415,7 @@
 - type: entity
   id: SpawnPointResearchDirector
   parent: SpawnPointJobBase
-  name: mystagogue # DeltaV - Epistemics Department replacing Science
+  name: mystagogue # DeltaV - Відділ епістемології замінює науку
   components:
   - type: SpawnPoint
     job_id: ResearchDirector
@@ -428,7 +428,7 @@
 - type: entity
   id: SpawnPointScientist
   parent: SpawnPointJobBase
-  name: scientist
+  name: науковець
   components:
   - type: SpawnPoint
     job_id: Scientist
@@ -443,7 +443,7 @@
 - type: entity
   id: SpawnPointHeadOfSecurity
   parent: SpawnPointJobBase
-  name: headofsecurity
+  name: начальник служби безпеки
   components:
   - type: SpawnPoint
     job_id: HeadOfSecurity
@@ -455,7 +455,7 @@
 - type: entity
   id: SpawnPointWarden
   parent: SpawnPointJobBase
-  name: warden
+  name: наглядач
   components:
   - type: SpawnPoint
     job_id: Warden
@@ -467,7 +467,7 @@
 - type: entity
   id: SpawnPointSecurityOfficer
   parent: SpawnPointJobBase
-  name: securityofficer
+  name: офіцер безпеки
   components:
   - type: SpawnPoint
     job_id: SecurityOfficer
@@ -479,7 +479,7 @@
 - type: entity
   id: SpawnPointDetective
   parent: SpawnPointJobBase
-  name: detective
+  name: Напої
   components:
   - type: SpawnPoint
     job_id: Detective
@@ -491,7 +491,7 @@
 - type: entity
   id: SpawnPointBrigmedic
   parent: SpawnPointJobBase
-  name: corpsman # DeltaV - rename brigmedic to corpsman
+  name: санітар # DeltaV - перейменувати бригадного медика в санітар
   components:
   - type: SpawnPoint #Delta V
     job_id: Brigmedic
@@ -517,7 +517,7 @@
 - type: entity
   id: SpawnPointERTChaplain
   parent: SpawnPointJobBase
-  name: ERTchaplain
+  name: капелан ERT
   components:
   - type: SpawnPoint
     job_id: ERTChaplain
@@ -565,7 +565,7 @@
 - type: entity
   id: SpawnPointERTJanitor
   parent: SpawnPointJobBase
-  name: ERTjanitor
+  name: ERT Двірник
   components:
   - type: SpawnPoint
     job_id: ERTJanitor
@@ -579,7 +579,7 @@
 - type: entity
   id: SpawnPointReporter
   parent: SpawnPointJobBase
-  name: reporter
+  name: репортер
   components:
   - type: SpawnPoint
     job_id: Reporter
@@ -591,7 +591,7 @@
 - type: entity
   id: SpawnPointPsychologist
   parent: SpawnPointJobBase
-  name: psychologist
+  name: психолог
   components:
   - type: SpawnPoint
     job_id: Psychologist

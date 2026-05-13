@@ -14,7 +14,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedMilk
-  name: reagent-name-powdered-milk
+  name: reagent-name-dr-gibb-blood-red
   group: Foods
   desc: reagent-desc-powdered-milk
   flavor: sweet
@@ -23,7 +23,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedMilkSoy
-  name: reagent-name-powdered-milk-soy
+  name: назва-реагенту-сухе-молоко-соя
   group: Foods
   desc: reagent-desc-powdered-milk-soy
   flavor: soy
@@ -32,7 +32,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceOrange
-  name: reagent-name-powdered-juice-orange
+  name: назва-реагенту-порошок-сок-апельсина
   group: Foods
   desc: reagent-desc-powdered-juice-orange
   flavor: sour
@@ -41,7 +41,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceLime
-  name: reagent-name-powdered-juice-lime
+  name: назва-реагенту-порошок-сік-лайма
   group: Foods
   desc: reagent-desc-powdered-juice-lime
   flavor: sour
@@ -67,7 +67,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceLemon
-  name: reagent-name-powdered-juice-lemon
+  name: reagent-name-lemondrop
   group: Foods
   desc: reagent-desc-powdered-juice-lemon
   flavor: sour
@@ -93,7 +93,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuicePineapple
-  name: reagent-name-powdered-juice-pineapple
+  name: назва-реагенту-порошок-сок-ананас
   group: Foods
   desc: reagent-desc-powdered-juice-pineapple
   flavor: sour
@@ -119,7 +119,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceBanana
-  name: reagent-name-powdered-juice-banana
+  name: назва-реагенту-порошок-сок-банан
   group: Foods
   desc: reagent-desc-powdered-juice-banana
   flavor: terrible
@@ -137,7 +137,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceWatermelon
-  name: reagent-name-powdered-juice-watermelon
+  name: ім'я-реагенту-порошок-сок-кавун
   group: Foods
   desc: reagent-desc-powdered-juice-watermelon
   flavor: terrible
@@ -146,7 +146,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceGrape
-  name: reagent-name-powdered-juice-grape
+  name: ім'я-реагенту-порошок-виноградний сік
   group: Foods
   desc: reagent-desc-powdered-juice-grape
   flavor: sour
@@ -155,7 +155,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceApple
-  name: reagent-name-powdered-juice-apple
+  name: назва-реагенту-порошок-яблучний сік
   group: Foods
   desc: reagent-desc-powdered-juice-apple
   flavor: sour
@@ -164,7 +164,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceCherry
-  name: reagent-name-powdered-juice-cherry
+  name: назва-реагенту-порошок-сок-вишня
   group: Foods
   desc: reagent-desc-powdered-juice-cherry
   flavor: sour
@@ -173,7 +173,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceCarrot
-  name: reagent-name-powdered-juice-carrot
+  name: ім'я-реагенту-порошок-сок-моркви
   group: Foods
   desc: reagent-desc-powdered-juice-carrot
   flavor: bitter
@@ -182,7 +182,7 @@
 - type: reagent
   parent: BasePowderedBeverage
   id: PowderedJuiceTomato
-  name: reagent-name-powdered-juice-tomato
+  name: назва-реагенту-порошок-сок-томатний
   group: Foods
   desc: reagent-desc-powdered-juice-tomato
   flavor: bitter

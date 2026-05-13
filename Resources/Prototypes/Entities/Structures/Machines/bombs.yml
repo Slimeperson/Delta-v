@@ -134,7 +134,7 @@
 - type: entity
   parent: SyndicateBomb
   id: SyndicateBombFake
-  suffix: fake
+  suffix: підробка
   components:
     - type: Explosive
       explosionType: Default
@@ -147,7 +147,7 @@
   parent: SyndicateBomb
   id: DebugHardBomb
   name: debug bomb
-  suffix: DEBUG
+  suffix: НАЛАШТУВАННЯ
   description: Holy shit this is gonna explode.
   components:
     - type: Defusable

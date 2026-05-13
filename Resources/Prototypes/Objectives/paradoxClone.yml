@@ -17,8 +17,8 @@
 - type: entity
   parent: [BaseParadoxCloneObjective, BaseLivingObjective]
   id: ParadoxCloneLivingObjective
-  name: Escape to CentComm alive and unrestrained via the escape shuttle.
-  description: Return to your old life.
+  name: Втікайте до CentComm живим і нестримним за допомогою евакуаційного човника.
+  description: Поверніться до старого життя.
   components:
   - type: Objective
     icon:
@@ -29,12 +29,12 @@
 - type: entity
   parent: [BaseParadoxCloneObjective, BaseKillObjective]
   id: ParadoxCloneKillObjective
-  name: Fix the space-time paradox.
-  description: Replace your original to fix the paradox. Remember, your mission is to blend in, do not kill anyone else unless you have to!
+  name: Виправити парадокс простору-часу.
+  description: Замініть свій оригінал, щоб виправити парадокс. Пам'ятайте, що ваша місія - злитися, не вбивайте нікого, якщо вам це не потрібно!
   components:
   - type: PickSpecificPerson
   - type: KillPersonCondition
     requireDead: true
   - type: TargetObjective
-    title: objective-condition-kill-head-title # kill <name>, <job>
+    title: object-condition-kill-head-title # вбити <ім'я>, <робота>
 

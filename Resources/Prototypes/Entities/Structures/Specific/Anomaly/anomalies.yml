@@ -65,7 +65,7 @@
 - type: entity
   id: AnomalyPyroclastic
   parent: BaseAnomaly
-  suffix: Pyroclastic
+  suffix: Пірокластичні
   components:
   - type: AmbientSound
     volume: 5
@@ -124,7 +124,7 @@
 - type: entity
   id: AnomalyGravity
   parent: BaseAnomaly
-  suffix: Gravity
+  suffix: Сила тяжіння
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreGravity
@@ -159,7 +159,7 @@
 - type: entity
   id: AnomalyElectricity
   parent: BaseAnomaly
-  suffix: Electricity
+  suffix: Електрика
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreElectricity
@@ -184,7 +184,7 @@
 - type: entity
   id: AnomalyFlesh
   parent: BaseAnomaly
-  suffix: Flesh
+  suffix: Плоть
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreFlesh
@@ -328,7 +328,7 @@
 - type: entity
   id: AnomalyIce
   parent: BaseAnomaly
-  suffix: Ice
+  suffix: лід
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/ice_anom.rsi
@@ -385,7 +385,7 @@
   id: AnomalyRockBase
   parent: BaseAnomaly
   abstract: true
-  suffix: Rock
+  suffix: Рок
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreRock
@@ -774,7 +774,7 @@
 - type: entity
   id: AnomalyFlora
   parent: BaseAnomaly
-  suffix: Flora
+  suffix: Флора
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -875,7 +875,7 @@
 - type: entity
   id: AnomalyLiquid
   parent: BaseAnomaly
-  suffix: Liquid
+  suffix: Рідина
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/liquid_anom.rsi
@@ -998,7 +998,7 @@
 - type: entity
   id: AnomalyShadow
   parent: BaseAnomaly
-  suffix: Shadow
+  suffix: Тінь
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/shadow_anom.rsi
@@ -1062,7 +1062,7 @@
 - type: entity
   id: AnomalyTech
   parent: BaseAnomaly
-  suffix: Tech
+  suffix: техн
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/tech_anom.rsi

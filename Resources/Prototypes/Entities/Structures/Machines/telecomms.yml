@@ -229,7 +229,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: ContainerFill
     containers:
@@ -239,7 +239,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: ContainerFill
     containers:
@@ -259,7 +259,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: ContainerFill
     containers:
@@ -270,7 +270,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledService
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: ContainerFill
     containers:
@@ -280,7 +280,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledCommand
-  suffix: Command
+  suffix: Команда
   components:
   - type: ContainerFill
     containers:

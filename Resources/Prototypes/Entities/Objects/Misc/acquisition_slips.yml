@@ -2,8 +2,8 @@
   abstract: true
   parent: Paper
   id: PaperAcquisitionSlip
-  name: acquisition slip
-  description: A slip with order details on it. It can be given to Cargo to complete the order.
+  name: квитанція про придбання
+  description: Бланк із деталями замовлення. Його можна передати Карго для виконання замовлення.
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipMedical
-  suffix: Medical
+  suffix: Медичний
   components:
   - type: Sprite
     layers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipScience
-  suffix: Science
+  suffix: Наука
   components:
   - type: Sprite
     layers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipSecurity
-  suffix: Security
+  suffix: Безпека
   components:
   - type: Sprite
     layers:
@@ -86,7 +86,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipService
-  suffix: Service
+  suffix: Сервіс
   components:
   - type: Sprite
     layers:
@@ -105,7 +105,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipCargo
-  suffix: Cargo
+  suffix: вантажний
   components:
   - type: Sprite
     layers:
@@ -124,7 +124,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipEngineering
-  suffix: Engineering
+  suffix: Інженерія
   components:
   - type: Sprite
     layers:

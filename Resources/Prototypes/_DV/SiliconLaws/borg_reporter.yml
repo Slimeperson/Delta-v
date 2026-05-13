@@ -21,7 +21,7 @@
 
 - type: siliconLawset
   id: Reporter
-  name: law-reporter-name
+  name: закон-репортер-ім'я
   laws:
   - Reporter1
   - Reporter2

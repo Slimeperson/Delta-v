@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseMob, StripableInventoryBase]
   id: BaseBorgChassisNotIonStormable
-  name: cyborg
-  description: A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+  name: кіборг
+  description: Гібрид людини і машини, який допомагає в діяльності станції. Їм подобається, коли їх просять повторювати свої закони знову і знову.
   save: false
   abstract: true
   components:
@@ -483,8 +483,8 @@
 - type: entity
   parent: BaseBorgChassisNotIonStormable
   id: BaseXenoborgChassis
-  name: xenoborg
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army.
+  name: ксеноборг
+  description: Гібрид людини та машини, який прагне відтворити себе. Вони люблять витягувати мізки, щоб вставляти їх у свіже шасі Xenoborg, щоб розвивати свою армію.
   save: false
   abstract: true
   components:

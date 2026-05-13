@@ -2,8 +2,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderAmber
-  name: ERT leader
-  suffix: DeltaV, Amber, ERTRole
+  name: Лідер ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTLeaderRed
-  name: ERT leader
-  suffix: DeltaV, Red, ERTRole
+  name: Лідер ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTLeaderGamma
-  suffix: DeltaV, Gamma, ERTRole
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: RandomHumanoidSpawner
     settings: ERTLeaderGamma
@@ -81,8 +81,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTChaplainAmber
-  name: ERT chaplain
-  suffix: DeltaV, Amber, ERTRole
+  name: капелан ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -101,8 +101,8 @@
   components:
   - type: BibleUser
   - type: GhostRole
-    name: ghost-role-information-ert-chaplain-name
-    description: ghost-role-information-ert-chaplain-description
+    name: ghost-role-information-ert-capelan-name
+    description: ghost-role-information-ert-capelan-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: short
@@ -119,8 +119,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTChaplainAmber
   id: RandomHumanoidSpawnerERTChaplainRed
-  name: ERT chaplain
-  suffix: DeltaV, Red, ERTRole
+  name: капелан ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTChaplainAmber
   id: RandomHumanoidSpawnerERTChaplainGamma
-  name: ERT chaplain
-  suffix: DeltaV, Gamma, ERTRole
+  name: капелан ERT
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: Sprite
     sprite: _DV/Markers/jobs.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTJanitorAmber
-  name: ERT janitor
-  suffix: DeltaV, Amber, ERTRole
+  name: Двірник ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTJanitorAmber
   id: RandomHumanoidSpawnerERTJanitorRed
-  name: ERT janitor
-  suffix: DeltaV, Red, ERTRole
+  name: Двірник ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTJanitorAmber
   id: RandomHumanoidSpawnerERTJanitorGamma
-  name: ERT janitor
-  suffix: DeltaV, Gamma, ERTRole
+  name: Двірник ERT
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: Sprite
     sprite: _DV/Markers/jobs.rsi
@@ -257,8 +257,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTEngineerAmber
-  name: ERT engineer
-  suffix: DeltaV, Amber, ERTRole
+  name: Інженер ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -276,7 +276,7 @@
   id: ERTEngineerAmber
   components:
   - type: GhostRole
-    name: ghost-role-information-ert-engineer-name
+    name: ghost-role-information-ert-ім'я-інженера
     description: ghost-role-information-ert-engineer-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
@@ -294,8 +294,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTEngineerAmber
   id: RandomHumanoidSpawnerERTEngineerRed
-  name: ERT engineer
-  suffix: DeltaV, Red, ERTRole
+  name: Інженер ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -314,8 +314,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTEngineerAmber
   id: RandomHumanoidSpawnerERTEngineerGamma
-  name: ERT engineer
-  suffix: DeltaV, Gamma, ERTRole
+  name: Інженер ERT
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: Sprite
     sprite: _DV/Markers/jobs.rsi
@@ -336,8 +336,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTSecurityAmber
-  name: ERT security
-  suffix: DeltaV, Amber, ERTRole
+  name: Безпека ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -355,7 +355,7 @@
   id: ERTSecurityAmber
   components:
   - type: GhostRole
-    name: ghost-role-information-ert-security-name
+    name: настінна шафка для хірурга
     description: ghost-role-information-ert-security-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
@@ -373,8 +373,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityAmber
   id: RandomHumanoidSpawnerERTSecurityRed
-  name: ERT security
-  suffix: DeltaV, Red, ERTRole
+  name: Безпека ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -393,7 +393,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityAmber
   id: RandomHumanoidSpawnerERTSecurityGamma
-  suffix: DeltaV, Gamma, ERTRole
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: Sprite
     sprite: _DV/Markers/jobs.rsi
@@ -414,8 +414,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTLeaderAmber
   id: RandomHumanoidSpawnerERTMedicalAmber
-  name: ERT medic
-  suffix: DeltaV, Amber, ERTRole
+  name: лікар ERT
+  suffix: DeltaV, Amber, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -451,8 +451,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTMedicalAmber
   id: RandomHumanoidSpawnerERTMedicalRed
-  name: ERT medic
-  suffix: DeltaV, Red, ERTRole
+  name: лікар ERT
+  suffix: DeltaV, Red, ERTROle
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -471,8 +471,8 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTMedicalAmber
   id: RandomHumanoidSpawnerERTMedicalGamma
-  name: ERT medic
-  suffix: DeltaV, Gamma, ERTRole
+  name: лікар ERT
+  suffix: DeltaV, Gamma, ERTROle
   components:
   - type: Sprite
     sprite: _DV/Markers/jobs.rsi

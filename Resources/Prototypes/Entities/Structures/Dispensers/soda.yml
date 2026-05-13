@@ -3,7 +3,7 @@
   id: SodaDispenserEmpty
   name: soda dispenser
   description: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Rotatable
   - type: Sprite
@@ -27,7 +27,7 @@
 - type: entity
   parent: SodaDispenserEmpty
   id: SodaDispenser
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: EntityTableContainerFill
     containers:

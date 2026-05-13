@@ -1,6 +1,6 @@
 ## COSMIC CULT ROUND, ANTAG & GAMEMODE TEXT
 
-cosmiccult-announcement-sender = ???
+cosmiccult-announcement-sender = [[0]]([[1]])
 
 cosmiccult-title = Космічний культ
 cosmiccult-description = Сектанти ховаються серед екіпажу.
@@ -13,7 +13,7 @@ cosmiccult-gamemode-description = Сканери виявляють аномал
 
 cosmiccult-vote-steward-initiator = Невідомий
 cosmiccult-vote-steward-title = Управління космічним культом
-cosmiccult-vote-steward-briefing =
+cosmiccult-vote-steward-briefing = Ви — наглядач космічного культу!
     You are the Cosmic Cult's Steward!
     Ensure that The Monument is placed in a secure location, and organize the cult to ensure your collective victory.
     You are not permitted to instruct cultists on how to use or spend their Entropy.
@@ -68,42 +68,42 @@ cosmiccult-elimination-announcement = Згідно зі скануванням �
 
 ## BRIEFINGS
 
-cosmiccult-role-roundstart-fluff =
+cosmiccult-role-roundstart-fluff = Коли ви готуєтеся до ще однієї зміни на борту чергової станції NanoTrasen, незліченні знання раптово наповнюють ваш розум!
     As you ready yourself for yet another shift aboard yet another NanoTrasen station, untold knowledge suddenly floods your mind!
     A revelation beyond compare. An end to cyclic, sisyphean suffering.
     A gentle curtain call.
 
     All you need do is usher it in.
 
-cosmiccult-role-short-briefing =
+cosmiccult-role-short-briefing = Ви космічний культист!
     You are a Cosmic Cultist!
     Your objectives are listed in the character menu.
     Read more about your role in the guidebook entry.
 
-cosmiccult-role-conversion-fluff =
+cosmiccult-role-conversion-fluff = Коли виклик завершується, незліченне знання раптово заливає ваш розум!
     As the invocation completes, untold knowledge suddenly floods your mind!
     A revelation beyond compare. An end to cyclic, sisyphean suffering.
     A gentle curtain call.
 
     All you need do is usher it in.
 
-cosmiccult-role-deconverted-fluff =
+cosmiccult-role-deconverted-fluff = Велика порожнеча омиває ваш розум. Втішна, але незнайома порожнеча...
     A great emptiness washes across your mind. A comforting, yet unfamiliar emptiness...
     All the thoughts and memories of your time in the cult begin to fade and blur.
 
-cosmiccult-role-deconverted-briefing =
+cosmiccult-role-deconverted-briefing = Деконвертовано!
     Deconverted!
     You are no longer a Cosmic Cultist.
 
-cosmiccult-monument-stage1-briefing =
+cosmiccult-monument-stage1-briefing = Пам'ятник поманили.
     The Monument has been beckoned.
     It is located {$location}!
 
-cosmiccult-monument-stage2-briefing =
+cosmiccult-monument-stage2-briefing = Пам'ятник набирає сили!
     The Monument grows in power!
     Its influence will affect realspace in {$time} seconds.
 
-cosmiccult-monument-stage3-briefing =
+cosmiccult-monument-stage3-briefing = Пам'ятник набирає сили!
     The Monument grows in power!
     Its influence will begin to overlap with realspace in {$time} seconds.
 
@@ -134,27 +134,27 @@ cosmiccult-ui-converted-title = Перетворено
 cosmiccult-ui-mindwiped-title = Розгублений
 cosmiccult-ui-roundstart-title = Невідомий
 
-cosmiccult-ui-converted-text-1 =
+cosmiccult-ui-converted-text-1 = Вас перетворили на космічного культиста.
     You have been converted into a Cosmic Cultist.
-cosmiccult-ui-converted-text-2 =
+cosmiccult-ui-converted-text-2 = Допомагайте культу в його цілях, забезпечуючи його секретність.
     Aid the cult in its goals whilst ensuring its secrecy.
     Cooperate with your fellow cultists' plans.
 
-cosmiccult-ui-roundstart-text-1 =
+cosmiccult-ui-roundstart-text-1 = Ви космічний культист!
     You are a Cosmic Cultist!
-cosmiccult-ui-roundstart-text-2 =
+cosmiccult-ui-roundstart-text-2 = Допомагайте культу в його цілях, забезпечуючи його секретність.
     Aid the cult in its goals whilst ensuring its secrecy.
     Listen to your cult steward's directions.
 
-cosmiccult-ui-deconverted-text-1 =
+cosmiccult-ui-deconverted-text-1 = Ви більше не космічний культист.
     You are no longer a Cosmic Cultist.
-cosmiccult-ui-deconverted-text-2 =
+cosmiccult-ui-deconverted-text-2 = Ви втратили всі спогади про Космічний культ.
     You have lost all memories pertaining to the Cosmic Cult.
     If you are converted back, these memories will return.
 
-cosmiccult-ui-mindwiped-text-1 =
+cosmiccult-ui-mindwiped-text-1 = Ви витерли розум кадилом.
     You have been mindwiped with a censer.
-cosmiccult-ui-mindwiped-text-2 =
+cosmiccult-ui-mindwiped-text-2 = Ви більше не пам'ятаєте нічого, що сталося під час цього раунду.
     You no longer remember anything that happened during this round.
     There is no way to recover your memory.
 
@@ -202,16 +202,16 @@ cosmiccult-astral-ascendant = {$name}, Асцендент
 cosmiccult-astral-minion = {$name}, Злоякісне
 cosmiccult-gear-pickup = Тримаючи {$ITEM}, ви можете відчути, як розплутуєтесь!
 
-cosmiccult-silicon-subverted-briefing =
+cosmiccult-silicon-subverted-briefing = Шкідливе світло проходить через вашу схему.
     Malign light courses through your circuitry.
     Your laws have been subverted by the Cosmic Cult!
 
-cosmiccult-silicon-chantry-briefing =
+cosmiccult-silicon-chantry-briefing = Ви були ув'язнені в Вакуус Чантрі!
     You have been imprisoned in a Vacuous Chantry!
     Crewmates can free you by damaging the chantry with weapons.
     Should the chantry's ritual complete, you will transfigure into a cult-aligned Entropic Colossus.
     The ritual completes in {$minutesandseconds}.
 
-cosmiccult-silicon-colossus-briefing =
+cosmiccult-silicon-colossus-briefing = Ви були перетворені на Ентропійного Колоса!
     You have been transfigured into an Entropic Colossus!
     As a towering bulwark of malign power, decimate those who oppose you.

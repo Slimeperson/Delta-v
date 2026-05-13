@@ -1,9 +1,9 @@
 - type: entity
   parent: Clothing
   id: ClothingNeckShockCollar
-  name: shock collar
+  name: ударний комір
   suffix: SelfUnremovable
-  description: An electric collar that shocks on the signal.
+  description: Електричний нашийник, що б'є по сигналу.
   components:
   - type: Item
     size: Small

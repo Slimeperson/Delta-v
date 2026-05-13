@@ -281,7 +281,7 @@
       max: 3
       playerRatio: 15
       briefing:
-        text: changeling-role-greeting
+        text: підмінник-рольове привітання
         color: Red
         sound: /Audio/Ambience/Antag/changeling_start.ogg
       components:
@@ -293,7 +293,7 @@
         - ActionChangelingStore
       # TODO: Make it so the changeling gamerule changeling can inherit from the changeling store preset somehow
       - type: Store
-        name: store-preset-name-changeling
+        name: store-preset-name-changinging
         categories:
         - ChangelingAbilities
         currencyWhitelist:
@@ -389,7 +389,7 @@
       roleLoadout:
        - RoleSurvivalExtended
       briefing:
-        text: wizard-role-greeting
+        text: майстер-роль-привітання
         color: Turquoise
         # TODO: Need Wizard Start sound
         #sound: "/Audio/Ambience/Antag/wizard_start.ogg"
@@ -438,7 +438,7 @@
         - ZombieImmune
         - AntagImmune
       briefing:
-        text: zombie-bioterrorist-role-greeting # DeltaV: Different greeting
+        text: zombie-bioterrorist-role-greeting # DeltaV: Різне привітання
         color: Plum
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:

@@ -1,7 +1,7 @@
 - type: job
   id: Prosecutor
-  name: job-name-prosecutor
-  description: job-description-prosecutor
+  name: посада-назва-прокурор
+  description: посадова інструкція-прокурор
   playTimeTracker: JobProsecutor
   requirements:
     - !type:OverallPlaytimeRequirement

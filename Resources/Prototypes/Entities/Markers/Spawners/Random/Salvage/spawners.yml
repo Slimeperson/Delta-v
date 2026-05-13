@@ -35,8 +35,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapCommon
-  name: Salvage Scrap Spawner
-  suffix: Common, 50%
+  name: Спавнер утилізованого брухту
+  suffix: Звичайний, 50%
   components:
   - type: Sprite
     layers:
@@ -52,7 +52,7 @@
 - type: entity
   parent: SalvageSpawnerScrapCommon
   id: SalvageSpawnerScrapCommon75
-  suffix: Common, 75%
+  suffix: Загальний, 75%
   components:
   - type: EntityTableSpawner
     offset: 0.4
@@ -96,8 +96,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapValuable
-  name: Salvage Scrap Spawner
-  suffix: Valuable, 50%
+  name: Спавнер утилізованого брухту
+  suffix: Цінний, 50%
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: SalvageSpawnerScrapValuable
   id: SalvageSpawnerScrapValuable75
-  suffix: Valuable, 75%
+  suffix: Цінний, 75%
   components:
   - type: EntityTableSpawner
     offset: 0.4
@@ -172,8 +172,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasure
-  name: Salvage Treasure Spawner
-  suffix: Common, 75%
+  name: Спавнер врятованих скарбів
+  suffix: Загальний, 75%
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasureValuable
-  name: Salvage Treasure Spawner
-  suffix: Valuable, 75%
+  name: Спавнер врятованих скарбів
+  suffix: Цінний, 75%
   components:
   - type: Sprite
     layers:
@@ -300,8 +300,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipment
-  name: Salvage Equipment Spawner
-  suffix: Common, 75%
+  name: Спавнер рятувального обладнання
+  suffix: Загальний, 75%
   components:
   - type: Sprite
     layers:
@@ -365,8 +365,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipmentValuable
-  name: Salvage Equipment Spawner
-  suffix: Valuable, 75%
+  name: Спавнер рятувального обладнання
+  suffix: Цінний, 75%
   components:
   - type: Sprite
     layers:
@@ -380,7 +380,7 @@
       prob: 0.75
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: Спавнер рятувальних каністр
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -474,7 +474,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerStructuresVarious
-  name: Space Debris Structure Spawner
+  name: Створювач структур космічного сміття
   components:
   - type: Sprite
     layers:
@@ -527,7 +527,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMiningAsteroid
-  name: Mining Asteroid Mob Spawner
+  name: Майнінг Asteroid Mob Spawner
   components:
   - type: Sprite
     layers:

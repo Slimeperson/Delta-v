@@ -31,19 +31,19 @@ med-tek-program-name = MedTek
 
 # NanoTask cartridge
 
-nano-task-ui-heading-high-priority-tasks =
+nano-task-ui-heading-high-priority-tasks = { $сума ->
     { $amount ->
         [zero] No High Priority Tasks
         [one] 1 High Priority Task
        *[other] {$amount} High Priority Tasks
     }
-nano-task-ui-heading-medium-priority-tasks =
+nano-task-ui-heading-medium-priority-tasks = { $сума ->
     { $amount ->
         [zero] No Medium Priority Tasks
         [one] 1 Medium Priority Task
        *[other] {$amount} Medium Priority Tasks
     }
-nano-task-ui-heading-low-priority-tasks =
+nano-task-ui-heading-low-priority-tasks = { $сума ->
     { $amount ->
         [zero] No Low Priority Tasks
         [one] 1 Low Priority Task

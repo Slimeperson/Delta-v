@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterArmorForged
   id: ClothingOuterArmorMakeshift
-  name: makeshift vest
-  description: Might catch a bullet. Might.
+  name: імпровізований жилет
+  description: Може потрапити під кулю. може.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/makeshift.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingOuterArmorForged
   id: ClothingOuterArmorImprovised
-  name: improvised vest
-  description: Interlocking metal plates ensure you're decently protected against stabs, but not much else.
+  name: імпровізований жилет
+  description: Металеві пластини, що з’єднуються між собою, забезпечують належний захист від ударів, але нічого іншого.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/improvised.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorForged
-  name: forged vest
-  description: A product of high-quality tidesmithing, the additional leather padding and the swap for plasteel over steel ensures the armor is lightweight and effective.
+  name: кований жилет
+  description: Продукт високої якості, додаткова шкіряна підкладка та заміна пластмаси на сталь забезпечують легкість та ефективність броні.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/forged.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorPaladin
-  name: paladin suit
-  description: Be the paladin you want to be! Swing swords in maints at the terrified security officer! Battle MONSTERS that are totally not vent creatures! Get shot by lasers and die-! Wait what?
+  name: костюм паладина
+  description: Будь паладином, яким хочеш бути! Замахніться мечами в головах на наляканого офіцера безпеки! Боріться з МОНСТРАМИ, які зовсім не віддушинні істоти! Отримай лазерний постріл і помри! Чекати що?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/paladin.rsi

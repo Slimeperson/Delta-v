@@ -3,7 +3,7 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: BaseMobBehonker
   abstract: true
-  description: A floating demon aspect of the honkmother.
+  description: Плаваючий демонський аспект honkmother.
   components:
     - type: GhostRole
       allowMovement: true
@@ -122,7 +122,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
-  suffix: "Pyro"
+  suffix: "піро"
   components:
     - type: PyroclasticAnomaly
     - type: TempAffectingAnomaly
@@ -137,7 +137,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerPyro
-  suffix: "Electrical"
+  suffix: "Електрика"
   components:
   - type: ElectricityAnomaly
   - type: Electrified
@@ -146,7 +146,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerGrav
-  suffix: "Grav"
+  suffix: "Грав"
   components:
   - type: GravityAnomaly
 
@@ -154,7 +154,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerIce
-  suffix: "Ice"
+  suffix: "лід"
   components:
   - type: Anomaly
   - type: ExplosionAnomaly

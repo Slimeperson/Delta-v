@@ -21,13 +21,13 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkAstroGrass
-  name: stack-dark-astro-grass-floor
+  name: стек-темна-астро-трав'яна підлога
   spawn: FloorTileItemDarkAstroGrass
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileLightAstroGrass
-  name: stack-light-astro-grass-floor
+  name: стек-світло-астро-трав'яна підлога
   spawn: FloorTileItemLightAstroGrass
 
 - type: stack
@@ -39,7 +39,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileAstroSnow
-  name: stack-astro-snow-floor
+  name: стек-астро-снігова підлога
   spawn: FloorTileItemAstroSnow
 
 - type: stack
@@ -51,7 +51,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDesertAstroSand
-  name: stack-desert-astro-sand-floor
+  name: стек-пустеля-астро-піщана підлога
   spawn: FloorTileItemDesertAstroSand
 
 - type: stack

@@ -1,9 +1,9 @@
 - type: entity
   id: OrganVoxLungs
   parent: OrganHumanLungs
-  description: "The blue, anaerobic lungs of a vox, they intake nitrogen to breathe. Any form of gaseous oxygen is lethally toxic if breathed in."
-  suffix: "vox"
-  name: vox lungs # Shitmed
+  description: "Сині анаеробні легені вокса, вони споживають азот, щоб дихати. Будь-яка форма газоподібного кисню є смертельно токсичною при вдиханні».
+  suffix: "вокс"
+  name: vox легені # Shitmed
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: OrganHumanStomach
   id: OrganVoxStomach
-  name: vox stomach # DeltaV
-  description: "A stomach that smells of ammonia."
+  name: vox шлунок # DeltaV
+  description: "Шлунок, який пахне аміаком».
   components:
   - type: Metabolizer #Skreeeee!
     metabolizerTypes: [Vox]
@@ -35,8 +35,8 @@
 - type: entity
   parent: OrganHumanLiver
   id: OrganVoxLiver
-  name: vox liver # DeltaV
-  description: "Smells flammable."
+  name: vox печінка # DeltaV
+  description: "Пахне горючим».
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -47,7 +47,7 @@
   parent: OrganHumanHeart
   id: OrganVoxHeart
   name: vox heart # DeltaV
-  description: "The strange heart of a vox."
+  description: "Дивне серце вокса".
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -57,8 +57,8 @@
 - type: entity
   parent: OrganHumanKidneys
   id: OrganVoxKidneys
-  name: vox kidney # DeltaV
-  description: "Smells flammable."
+  name: vox нирка # DeltaV
+  description: "Пахне горючим».
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -68,7 +68,7 @@
 - type: entity
   id: OrganVoxEyes
   parent: OrganHumanEyes
-  name: vox eyes # DeltaV
+  name: вокс очі # DeltaV
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -79,8 +79,8 @@
 - type: entity
   id: OrganVoxTongueA
   parent: OrganHumanTongue
-  name: vox tongue # DeltaV
-  description: "A fleshy muscle mostly used for screaming."
+  name: vox язик # DeltaV
+  description: "М’ясистий м’яз, який переважно використовується для крику».
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -90,8 +90,8 @@
 - type: entity
   id: OrganVoxTongueB
   parent: OrganHumanTongue
-  name: vox tongue # DeltaV
-  description: "A fleshy muscle mostly used for screaming."
+  name: vox язик # DeltaV
+  description: "М’ясистий м’яз, який переважно використовується для крику».
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi

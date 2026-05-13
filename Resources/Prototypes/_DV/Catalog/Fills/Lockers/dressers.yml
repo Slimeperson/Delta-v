@@ -11,7 +11,7 @@
 
 - type: entity
   id: DresserCaptainFilledDV
-  suffix: Filled, Captain
+  suffix: Заповнено, капітане
   parent: DresserLargeCommand
   components:
   - type: EntityTableContainerFill
@@ -56,7 +56,7 @@
 - type: entity
   id: DresserChiefEngineerFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Chief Engineer
+  suffix: Заповнений, головний інженер
   components:
   - type: EntityTableContainerFill
     containers:
@@ -85,7 +85,7 @@
 - type: entity
   id: DresserChiefMedicalOfficerFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Chief Medical Officer
+  suffix: Заповнений, головний лікар
   components:
   - type: EntityTableContainerFill
     containers:
@@ -126,7 +126,7 @@
 - type: entity
   id: DresserHeadOfPersonnelFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Head Of Personnel
+  suffix: Начальник відділу кадрів
   components:
   - type: EntityTableContainerFill
     containers:
@@ -166,7 +166,7 @@
 - type: entity
   id: DresserHeadOfSecurityFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Head Of Security
+  suffix: Заповнений, начальник служби безпеки
   components:
   - type: EntityTableContainerFill
     containers:
@@ -205,7 +205,7 @@
 - type: entity
   id: DresserQuarterMasterFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Logistics Officer
+  suffix: Заповнений, логістик
   components:
   - type: EntityTableContainerFill
     containers:
@@ -233,7 +233,7 @@
 - type: entity
   id: DresserResearchDirectorFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Mystagogue
+  suffix: Заповнений, Mystagogue
   components:
   - type: EntityTableContainerFill
     containers:
@@ -264,7 +264,7 @@
 - type: entity
   id: DresserChiefJusticeFilled
   parent: DresserLargeCommand
-  suffix: Filled, Chief Justice
+  suffix: Заповнено, головний суддя
   components:
   - type: EntityTableContainerFill
     containers:
@@ -289,7 +289,7 @@
 - type: entity
   id: DresserWardenFilledDV
   parent: DresserLargeCommand
-  suffix: Filled, Warden
+  suffix: Заповнений, наглядач
   components:
   - type: EntityTableContainerFill
     containers:
@@ -322,7 +322,7 @@
 #CentComm
 - type: entity
   id: DresserCentCommFilledDV
-  suffix: Filled, CentComm
+  suffix: Заповнено, CentComm
   parent: DresserLargeCommand
   components:
   - type: StorageFill

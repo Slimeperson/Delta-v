@@ -1,8 +1,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateFoodPizza
-  name: emergency pizza delivery
-  description: Help do your part to end station hunger by distributing pizza to underfunded departments! Includes 4 pizzas.
+  name: термінова доставка піци
+  description: Допоможіть покласти край голодуванню, роздавши піцу малозабезпеченим відділам! Включає 4 піци.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -17,8 +17,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateFoodMRE
-  name: MRE crate
-  description: A military style meal fit to feed a whole department.
+  name: Ящик ІМО
+  description: Обід у військовому стилі, яким можна нагодувати цілий відділ.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -29,8 +29,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodCooking
-  name: kitchen supplies crate
-  description: Extra kitchen supplies, in case the botanists are absent.
+  name: ящик для кухонного приладдя
+  description: Додаткове кухонне приладдя на випадок відсутності ботаніків.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateFoodDinnerware
-  name: kitchen dinnerware crate
-  description: Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+  name: ящик для кухонного посуду
+  description: Додаткові кухонні приналежності на випадок, якщо клоуна пустять у їдальню без нагляду.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -90,8 +90,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodBarSupply
-  name: bartending supplies crate
-  description: Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+  name: ящик для барменів
+  description: Додаткові запаси бару, якщо клоуна пустили в бар без нагляду.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -119,8 +119,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodSoftdrinks
-  name: softdrinks crate
-  description: A variety of sodas to complement a small party, without having to empty the soda machines. Includes 14 sodas.
+  name: ящик для безалкогольних напоїв
+  description: Різноманітність газованих напоїв, щоб доповнити невелику вечірку, не спустошуючи автомати з газованою водою. Включає 14 газованих напоїв.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -144,8 +144,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodGetMore
-  name: Getmore Bakemore crate
-  description: Getmore branded snacks and baking supplies for the creative chef, all without the need of emptying your station's Getmore machines!
+  name: Ящик Getmore Bakemore
+  description: Фірмові закуски та випічка Getmore для креативного шеф-кухаря, і все це без необхідності спорожняти автомати Getmore!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -172,8 +172,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodIceCream
-  name: ice cream delivery
-  description: An assortment of ice cream delights for any occasion! Includes 16 frozen treats.
+  name: доставка морозива
+  description: Асортимент морозива на будь-який випадок! Включає 16 заморожених ласощів.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -197,8 +197,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodSnowcone
-  name: snowcone delivery
-  description: A freezer packed with refreshing snowcones for a hard working crew, or even a lazy one! Includes 16 snowcones.
+  name: доставка снігового конуса
+  description: Морозильна камера, наповнена освіжаючими сніговими шишками для наполегливої ​​чи навіть ледачої команди! Включає 16 снігових конусів.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -220,8 +220,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateFoodHappyHonkBigBite
-  name: Happy Honk meal delivery
-  description: Two fully loaded Happy Honk Big Bite burger meals, complete with cheesy fries, a bottle of Space Cola, a slice of apple pie and a toy!
+  name: Гарна доставка їжі
+  description: Два повних гамбургера Happy Honk Big Bite разом із сирною картоплею фрі, пляшкою Space Cola, шматочком яблучного пирога та іграшкою!
   components:
   - type: EntityTableContainerFill
     containers:

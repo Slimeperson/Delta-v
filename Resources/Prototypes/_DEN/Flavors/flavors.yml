@@ -1,7 +1,7 @@
 ﻿- type: flavor
   id: jaegermister
   flavorType: Complex
-  description: flavor-complex-jaegermister
+  description: flavor-complex-jegermister
 
 - type: flavor
   id: jaegerbomb
@@ -11,7 +11,7 @@
 - type: flavor
   id: jaegerita
   flavorType: Complex
-  description: flavor-complex-jaegerita
+  description: смаковий комплекс-ягерита
 
 - type: flavor
   id: surfer
@@ -31,7 +31,7 @@
 - type: flavor
   id: tuxedo-sunset
   flavorType: Complex
-  description: flavor-complex-tuxedo-sunset
+  description: аромат-комплекс-смокінг-захід
 
 - type: flavor
   id: inside-scoop
@@ -46,7 +46,7 @@
 - type: flavor
   id: chartruse
   flavorType: Complex
-  description: flavor-complex-chartruse
+  description: смаковий комплекс-чартрус
 
 - type: flavor
   id: death-flip
@@ -56,7 +56,7 @@
 - type: flavor
   id: bloody-jaeger
   flavorType: Complex
-  description: flavor-complex-bloody-jaeger
+  description: flavor-complex-bloody-jeger
 
 - type: flavor
   id: pop-quiz
@@ -66,17 +66,17 @@
 - type: flavor
   id: naughty-bartender
   flavorType: Complex
-  description: flavor-complex-naughty-bartender
+  description: смаковий комплекс-неслухняний-бармен
 
 - type: flavor
   id: cafe-cocktail
   flavorType: Complex
-  description: flavor-complex-cafe-cocktail
+  description: смаковий комплекс-кафе-коктейль
 
 - type: flavor
   id: cinnamon-cookie
   flavorType: Complex
-  description: flavor-complex-cinnamon-cookie
+  description: смаковий комплекс-коричне-печиво
 
 # - type: flavor
 #   id: thoughts-and-prayers
@@ -96,4 +96,4 @@
 - type: flavor
   id: blood-red-licorice
   flavorType: Complex
-  description: flavor-complex-blood-red-licorice
+  description: смаковий комплекс-криваво-червона-солодка

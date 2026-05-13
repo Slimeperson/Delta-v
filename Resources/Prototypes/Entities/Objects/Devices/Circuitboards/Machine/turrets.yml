@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseMachineCircuitboard
   id: WeaponEnergyTurretStationMachineCircuitboardBase
-  name: sentry turret machine board
-  description: A machine printed circuit board for a sentry turret.
+  name: дошка сторожової турелі
+  description: Машинна друкована плата для сторожової вежі.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationMachineCircuitboardBase
   id: WeaponEnergyTurretAIMachineCircuitboard
-  suffix: AI, Silicon
+  suffix: ШІ, кремній
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationMachineCircuitboardBase
   id: WeaponEnergyTurretSecurityMachineCircuitboard
-  suffix: Security
+  suffix: Безпека
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationMachineCircuitboardBase
   id: WeaponEnergyTurretCommandMachineCircuitboard
-  suffix: Command
+  suffix: Команда
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

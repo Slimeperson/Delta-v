@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledHarbingerBundle
-  name: harbinger bundle
-  description: A bundle containing an Accursed Scythe and a set of Harbinger's armor.
+  name: пучок провісників
+  description: Набір, що містить Прокляту Косу та набір броні Провісника.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelNTFan
-  name: duffelbag of loyalty
-  description: A large duffelbag for the most loyal and devoted employees of Nanotrasen.
+  name: речовий мішок вірності
+  description: Велика речова сумка для найвірніших і відданих співробітників Nanotrasen.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,12 +1,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgEngi
-  name: engi xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
+  name: Енгі Ксеноборг
+  suffix: з мозком
+  description: Гібрид людини та машини, який прагне відтворити себе. Вони люблять витягувати мізки, щоб вставляти їх у свіже шасі Xenoborg, щоб розвивати свою армію. Це, здається, інженерний тип, оскільки він має більше інструментів для підтримки інших Ксеноборгів.
   components:
   - type: BorgTransponder
-    name: engi xenoborg
+    name: Енгі Ксеноборг
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_engi
@@ -59,12 +59,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgHeavy
-  name: heavy xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+  name: важкий ксеноборг
+  suffix: з мозком
+  description: Гібрид людини та машини, який прагне відтворити себе. Вони люблять витягувати мізки, щоб вставляти їх у свіже шасі Xenoborg, щоб розвивати свою армію. Цей тип має важкі лазери та покритий товстою бронею. Він може бути міцнішим, але його швидкість відповідає його м’язам.
   components:
   - type: BorgTransponder
-    name: heavy xenoborg
+    name: важкий ксеноборг
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_heavy
@@ -154,12 +154,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgScout
-  name: scout xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+  name: розвідник ксеноборг
+  suffix: з мозком
+  description: крижень #квак
   components:
   - type: BorgTransponder
-    name: scout xenoborg
+    name: розвідник ксеноборг
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_scout
@@ -210,12 +210,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgStealth
-  name: stealth xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+  name: стелс ксеноборг
+  suffix: з мозком
+  description: Гібрид людини та машини, який прагне відтворити себе. Вони люблять витягувати мізки, щоб вставляти їх у свіже шасі Xenoborg, щоб розвивати свою армію. Це стелс-тип. Його броня переливається на світлі, як жоден інший матеріал, який ви бачили.
   components:
   - type: BorgTransponder
-    name: stealth xenoborg
+    name: стелс ксеноборг
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_stealth
@@ -268,7 +268,7 @@
 - type: entity
   parent: XenoborgEngi
   id: XenoborgEngiPrinted
-  suffix: no brain
+  suffix: немає мозку
   components:
   - type: ContainerFill
     containers:
@@ -293,7 +293,7 @@
 - type: entity
   parent: XenoborgHeavy
   id: XenoborgHeavyPrinted
-  suffix: no brain
+  suffix: немає мозку
   components:
   - type: ContainerFill
     containers:
@@ -313,7 +313,7 @@
 - type: entity
   parent: XenoborgScout
   id: XenoborgScoutPrinted
-  suffix: no brain
+  suffix: немає мозку
   components:
   - type: ContainerFill
     containers:
@@ -333,7 +333,7 @@
 - type: entity
   parent: XenoborgStealth
   id: XenoborgStealthPrinted
-  suffix: no brain
+  suffix: немає мозку
   components:
   - type: ContainerFill
     containers:

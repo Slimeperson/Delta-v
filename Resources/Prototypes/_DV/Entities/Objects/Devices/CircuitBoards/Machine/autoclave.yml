@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutoclaveMachineCircuitboard
-  name: autoclave machine board
+  name: плата автоклавної машини
   components:
   - type: Sprite
     state: service

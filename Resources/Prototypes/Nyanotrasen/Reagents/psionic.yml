@@ -75,7 +75,7 @@
 
 - type: reagent
   id: Ectoplasm
-  name: reagent-name-ectoplasm
+  name: ім'я-реагенту-ектоплазма
   group: Toxins
   desc: reagent-desc-ectoplasm
   flavor: sublime

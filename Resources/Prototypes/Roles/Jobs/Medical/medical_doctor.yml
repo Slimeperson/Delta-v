@@ -1,7 +1,7 @@
 - type: job
   id: MedicalDoctor
-  name: job-name-doctor
-  description: job-description-doctor
+  name: робота-назва-лікаря
+  description: посадова інструкція-лікар
   playTimeTracker: JobMedicalDoctor
   requirements:
     - !type:DepartmentTimeRequirement

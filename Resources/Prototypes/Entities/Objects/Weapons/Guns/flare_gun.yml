@@ -1,8 +1,8 @@
 - type: entity
-  name: flare gun
+  name: сигнальний пістолет
   parent: BaseItem
   id: WeaponFlareGun
-  description: A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
+  description: Компактний однозарядний пістолет, який стріляє патронами. Поставляється з функцією безпеки, яка запобігає установці смертоносних снарядів усередині.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun.rsi
@@ -18,7 +18,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: палата
         startingItem: ShellShotgunFlare
         priority: 1
         whitelist:
@@ -52,10 +52,10 @@
 
 
 - type: entity
-  name: security shell gun
+  name: захисний снаряд
   parent: [WeaponFlareGun, BaseSecurityContraband]
   id: WeaponFlareGunSecurity
-  description: A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
+  description: Модифікований сигнальний пістолет, спочатку розроблений для використання службами безпеки для запуску несмертоносних дробових снарядів, однак він також може стріляти смертельними снарядами без ризику.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun_security.rsi
@@ -68,7 +68,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: палата
         priority: 1
         whitelist:
           tags:

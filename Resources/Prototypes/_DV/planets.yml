@@ -14,7 +14,7 @@
         min: 300
         max: 600
     - weather: AshfallLight # ash starts to fall, 30 second warning
-      message: ash-storm-telegraph
+      message: попіл-гроза-телеграф
       duration:
         min: 30
         max: 30
@@ -24,7 +24,7 @@
         min: 60
         max: 120
     - weather: AshfallLight # ash clears away for 30 seconds
-      message: ash-storm-clearing
+      message: попіл-гроза-прояснення
       duration:
         min: 30
         max: 30

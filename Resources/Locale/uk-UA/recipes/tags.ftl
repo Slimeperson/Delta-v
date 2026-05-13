@@ -7,7 +7,7 @@ construction-graph-tag-clown-recorder = клоун-флейта
 construction-graph-tag-clown-bike-horn = Баритон саксофон
 construction-graph-tag-clowne-horn = зламаний велосипедний гудок
 construction-graph-tag-happy-honk-meal = щаслива трапеза
-construction-graph-tag-woeful-cluwne-meal = woeful cluwn meal
+construction-graph-tag-woeful-cluwne-meal = жалюгідний клоун
 construction-graph-tag-boxhug = коробка обіймів
 
 # mime

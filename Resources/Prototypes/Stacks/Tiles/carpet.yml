@@ -3,13 +3,13 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackCarpetClown
-  name: stack-clown-carpet-tile
+  name: стек-клоун-килимова плитка
   spawn: FloorTileItemCarpetClown
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileStackCarpetOffice
-  name: stack-office-carpet-tile
+  name: стек-офіс-килимова плитка
   spawn: FloorTileItemCarpetOffice
 
 # Carpets that are not actually tiles (yet)
@@ -65,20 +65,20 @@
 - type: stack
   parent: BaseTileStack
   id: FloorCarpetPink
-  name: stack-pink-carpet-tile
+  name: crafting-menu-text-FVT
   icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: carpet-pink }
   spawn: FloorCarpetItemPink
 
 - type: stack
   parent: BaseTileStack
   id: FloorCarpetCyan
-  name: stack-cyan-carpet-tile
+  name: стек-кухня-плитка для підлоги
   icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: carpet-cyan }
   spawn: FloorCarpetItemCyan
 
 - type: stack
   parent: BaseTileStack
   id: FloorCarpetWhite
-  name: stack-white-carpet-tile
+  name: стек-білий-килим-плитка
   icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: carpet-white }
   spawn: FloorCarpetItemWhite

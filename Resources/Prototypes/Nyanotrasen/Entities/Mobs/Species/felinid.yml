@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McFelinid
+  name: Уріст Макфелінід
   parent: BaseMobHuman
   id: MobFelinidBase
   abstract: true
@@ -70,11 +70,11 @@
 
 - type: entity
   save: false
-  name: Urist McHands
+  name: Уріст Макхендс
   parent: MobHumanDummy
   id: MobFelinidDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy felinid meant to be used in character setup.
+  description: Фіктивний фелінід, призначений для налаштування персонажа.
   components:
   - type: HumanoidAppearance
     species: Felinid

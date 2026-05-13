@@ -1,4 +1,4 @@
-﻿gun-comp-enabled = Пістолет увімкнено [color=green]увімкнено[/color].
+﻿gun-comp-enabled = The gun is turned [color=green]on[/color].
 gun-comp-disabled = Пістолет [color=red]вимкнено[/color].
 
 auto-fire-enabled = Рушниця включена.

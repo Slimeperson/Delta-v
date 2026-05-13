@@ -1,8 +1,8 @@
 - type: entity
   parent: HeavyFlatpackBase # Delta-V was CrateEngineering
   id: NuclearReactorFlatpack
-  name: nuclear reactor flatpack
-  description: A flatpack used for constructing a nuclear reactor. Parts sold separately.
+  name: плоский пакет ядерного реактора
+  description: Плоский пакет, який використовується для будівництва ядерного реактора. Запчастини продаються окремо.
   components:
   - type: Sprite
     sprite: Objects/Devices/flatpack.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: HeavyFlatpackBase # Delta-V was CrateEngineering
   id: GasTurbineFlatpack
-  name: gas turbine flatpack
-  description: A flatpack used for constructing a gas turbine.
+  name: газова турбіна плоский пакет
+  description: Плоский пакет, який використовується для побудови газової турбіни.
   components:
   - type: Sprite
     sprite: Objects/Devices/flatpack.rsi

@@ -1,7 +1,7 @@
 - type: material
   id: RawIron
   stackEntity: SteelOre1
-  name: materials-raw-iron
+  name: матеріали-сировина-заліз
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: iron }
   price: 0.05
@@ -9,7 +9,7 @@
 - type: material
   id: RawQuartz
   stackEntity: SpaceQuartz1
-  name: materials-raw-quartz
+  name: матеріали-сировина-кварц
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: spacequartz }
   color: "#a8ccd7"
@@ -18,7 +18,7 @@
 - type: material
   id: RawGold
   stackEntity: GoldOre1
-  name: materials-raw-gold
+  name: матеріали-сировина-золото
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: gold }
   color: "#FFD700"
@@ -27,7 +27,7 @@
 - type: material
   id: RawDiamond
   stackEntity: DiamondOre1
-  name: materials-raw-diamond
+  name: матеріали-сировина-алмаз
   unit: materials-unit-piece
   icon: { sprite: Objects/Materials/ore.rsi, state: diamond }
   color: "#C9D8F2"
@@ -36,7 +36,7 @@
 - type: material
   id: RawSilver
   stackEntity: SilverOre1
-  name: materials-raw-silver
+  name: матеріали-сировина-срібло
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: silver }
   color: "#C0C0C0"
@@ -45,7 +45,7 @@
 - type: material
   id: RawPlasma
   stackEntity: PlasmaOre1
-  name: materials-raw-plasma
+  name: матеріали-сировина-плазма
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: plasma }
   color: "#7e009e"
@@ -54,7 +54,7 @@
 - type: material
   id: RawUranium
   stackEntity: UraniumOre1
-  name: materials-raw-uranium
+  name: матеріали-сировина-уран
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: uranium }
   color: "#32a852"
@@ -63,7 +63,7 @@
 - type: material
   id: RawBananium
   stackEntity: BananiumOre1
-  name: materials-raw-bananium
+  name: матеріали-сировина-бананій
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: bananium }
   color: "#32a852"
@@ -72,7 +72,7 @@
 - type: material
   id: RawSalt
   stackEntity: Salt1
-  name: materials-raw-salt
+  name: матеріали-сировина-соль
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: salt }
   color: "#f5e7d7"

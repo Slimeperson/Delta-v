@@ -1,4 +1,4 @@
-﻿role-timer-department-insufficient = Вам потрібно [color=yellow]{$time}[/color]більше часу для гри у відділі [color={$departmentColor}]{$department}[/color], щоб розблокувати це.
+﻿role-timer-department-insufficient = You require [color=yellow]{$time}[/color] more playtime in the [color={$departmentColor}]{$department}[/color] department to unlock this.
 role-timer-department-too-high = Щоб вибрати це, вам потрібно [color=yellow]{$time}[/color]менше часу для гри у відділі [color={$departmentColor}]{$department}[/color]. (Ви намагаєтеся грати роль стажера?)
 role-timer-overall-insufficient = Вам потрібно [color=yellow]{$time}[/color]більше загального часу гри, щоб розблокувати це.
 role-timer-overall-too-high = Щоб вибрати це, вам потрібно [color=yellow]{$time}[/color]менше загального часу відтворення. (Ви намагаєтеся грати роль стажера?)

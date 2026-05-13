@@ -1,7 +1,7 @@
 - type: entity
   id: BriefcaseBrownFilled
   parent: BriefcaseBrown
-  suffix: Filled, Paper
+  suffix: Заповнений, папір
   components:
   - type: EntityTableContainerFill
     containers:
@@ -35,7 +35,7 @@
 - type: entity
   id: BriefcaseSyndieLobbyingBundleFilled
   parent: CybersunBriefcase # DeltaV
-  suffix: Syndicate, Spesos
+  suffix: Синдикат, Спесос
   components:
   - type: EntityTableContainerFill
     containers:
@@ -59,7 +59,7 @@
 - type: entity
   id: BriefcaseThiefBribingBundleFilled
   parent: BriefcaseSyndie
-  suffix: Thief, Spesos
+  suffix: Злодій, Спесос
   components:
   - type: EntityTableContainerFill
     containers:

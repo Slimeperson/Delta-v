@@ -1,6 +1,6 @@
 ghost-role-information-armsdealer-name = Торговець зброєю
 ghost-role-information-armsdealer-description = Ви член синдикату! Вам надано всі інструменти для торгівлі вашою вогнепальною зброєю та отримання прибутку.
-ghost-role-information-armsdealer-rules =
+ghost-role-information-armsdealer-rules = You are a [color=yellow][bold]Free-Agent[/bold][/color].  You are free to act as either an antagonist or a non-antagonist.
     You are a [color=yellow][bold]Free-Agent[/bold][/color].  You are free to act as either an antagonist or a non-antagonist.
     You are just a arms dealer so do not act like a full-on antagonist, i.e. no killing people yourself or using your merchandise unless your ship is in danger.
 

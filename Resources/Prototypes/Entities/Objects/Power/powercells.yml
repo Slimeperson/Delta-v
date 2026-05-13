@@ -42,8 +42,8 @@
           Empty: {visible: false}
 
 - type: entity
-  name: potato battery
-  description: Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
+  name: картопляна батарея
+  description: Хтось застромив два цвяхи і трохи дроту у велику картоплину. Якось це забезпечує невеликий заряд.
   id: PowerCellPotato
   parent: BasePowerCell
   components:
@@ -61,10 +61,10 @@
     node: potatobattery
 
 - type: entity
-  name: small-capacity power cell
-  description: A rechargeable power cell. This is the cheapest kind you can find.
+  name: елемент живлення малої ємності
+  description: Перезаряджуваний елемент живлення. Це найдешевший вид, який ви можете знайти.
   id: PowerCellSmall
-  suffix: Full
+  suffix: Повний
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: PowerCellSmallPrinted
-  suffix: Empty
+  suffix: Порожній
   parent: PowerCellSmall
   components:
   - type: Sprite
@@ -101,18 +101,18 @@
 - type: entity
   parent: PowerCellSmall
   id: PowerCellSmallNuclear
-  name: small-capacity nuclear power cell
-  description: A self rechargeable power cell, designed for fast recharge rate at the expense of capacity.
+  name: атомна енергетична ячейка малої потужності
+  description: Елемент живлення, що самостійно перезаряджається, призначений для швидкої зарядки за рахунок ємності.
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 36 # 10 seconds to recharge
     autoRechargePauseTime: 30
 
 - type: entity
-  name: medium-capacity power cell
-  description: A rechargeable power cell. This is the popular and reliable version.
+  name: елемент живлення середньої потужності
+  description: Перезаряджуваний елемент живлення. Це популярна і надійна версія.
   id: PowerCellMedium
-  suffix: Full
+  suffix: Повний
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 
 - type: entity
   id: PowerCellMediumPrinted
-  suffix: Empty
+  suffix: Порожній
   parent: PowerCellMedium
   components:
   - type: Sprite
@@ -144,10 +144,10 @@
     startingCharge: 0
 
 - type: entity
-  name: high-capacity power cell
-  description: A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
+  name: елемент живлення великої ємності
+  description: Перезаряджуваний стандартизований елемент живлення. Цей бренд преміум-класу зберігає на 50% більше енергії, ніж конкуренти.
   id: PowerCellHigh
-  suffix: Full
+  suffix: Повний
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -167,7 +167,7 @@
 
 - type: entity
   id: PowerCellHighPrinted
-  suffix: Empty
+  suffix: Порожній
   parent: PowerCellHigh
   components:
   - type: Sprite
@@ -183,10 +183,10 @@
     startingCharge: 0
 
 - type: entity
-  name: hyper-capacity power cell
-  description: A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
+  name: елемент живлення гіперємності
+  description: Перезаряджуваний стандартизований елемент живлення. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
   id: PowerCellHyper
-  suffix: Full
+  suffix: Повний
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 
 - type: entity
   id: PowerCellHyperPrinted
-  suffix: Empty
+  suffix: Порожній
   parent: PowerCellHyper
   components:
   - type: Sprite
@@ -224,9 +224,9 @@
 - type: entity
   parent: BasePowerCell
   id: PowerCellMicroreactor
-  name: microreactor power cell
-  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
-  suffix: Full
+  name: Елемент мікрореактора
+  description: Перезаряджуваний стандартизований мікрореакторний елемент. Має меншу ємність, але повільно заряджається самостійно.
+  suffix: Повний
   components:
   - type: Sprite
     layers:
@@ -244,7 +244,7 @@
 - type: entity
   parent: PowerCellMicroreactor
   id: PowerCellMicroreactorPrinted
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Sprite
     layers:
@@ -258,8 +258,8 @@
     startingCharge: 0
 
 - type: entity
-  name: antique power cell prototype
-  description: A small cell that self recharges. Used in old laser arms research.
+  name: старовинний прототип елемента живлення
+  description: Маленький елемент, який самостійно заряджається. Використовувався в старих дослідженнях лазерної зброї.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:
@@ -310,8 +310,8 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-  name: small-capacity power cage
-  description: A rechargeable power cage for big devices. This is the cheapest kind you can find.
+  name: силовий каркас малої місткості
+  description: Перезаряджуваний блок живлення для великих пристроїв. Це найдешевший вид, який ви можете знайти.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -328,8 +328,8 @@
 - type: entity
   id: PowerCageMedium
   parent: BasePowerCage
-  name: medium-capacity power cage
-  description: A rechargeable power cage for big devices. The gold standard of capacity and cost.
+  name: силовий каркас середньої місткості
+  description: Перезаряджуваний блок живлення для великих пристроїв. Золотий стандарт потужності та вартості.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -346,8 +346,8 @@
 - type: entity
   id: PowerCageHigh
   parent: BasePowerCage
-  name: high-capacity power cage
-  description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
+  name: силовий каркас великої місткості
+  description: Перезаряджуваний блок живлення для великих пристроїв. Збільшена потужність для збільшення рівня потужності.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -364,7 +364,7 @@
 - type: entity
   id: PowerCageSmallEmpty
   parent: PowerCageSmall
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -382,7 +382,7 @@
 - type: entity
   id: PowerCageMediumEmpty
   parent: PowerCageMedium
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -399,7 +399,7 @@
 - type: entity
   id: PowerCageHighEmpty
   parent: PowerCageHigh
-  suffix: Empty
+  suffix: Порожній
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi

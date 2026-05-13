@@ -15,12 +15,12 @@
         icon:
           sprite: Objects/Misc/modular_receiver.rsi
           state: icon
-        name: construction-graph-tag-modular-receiver
+        name: конструкція-граф-тег-модульний-приймач
       - tag: RifleStock
         icon:
           sprite: Objects/Misc/rifle_stock.rsi
           state: icon
-        name: construction-graph-tag-rifle-stock
+        name: конструкція-граф-тега-приклада
       - material: Cloth
         amount: 6
         doAfter: 7

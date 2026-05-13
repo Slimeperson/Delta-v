@@ -74,7 +74,7 @@
 
 - type: guideEntry
   id: DeltaVRule2
-  name: guide-entry-deltav-rule-2
+  name: ghost-role-information-colossus-description
   text: "/ServerInfo/Guidebook/_DV/Rules/GameRules/2_Metagaming.xml"
   ruleEntry: true
 
@@ -98,7 +98,7 @@
 
 - type: guideEntry
   id: DeltaVRuleC1
-  name: guide-entry-deltav-rule-c1
+  name: культ-гліф-назви-знання
   text: "/ServerInfo/Guidebook/_DV/Rules/RoleRules/C1_CommandSecurityJustice.xml"
   ruleEntry: true
 

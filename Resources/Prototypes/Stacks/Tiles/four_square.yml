@@ -4,25 +4,25 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileFreezer
-  name: stack-freezer-tile
+  name: стек-морозильник-плитка
   spawn: FloorTileItemFreezer
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileShowroom
-  name: stack-showroom-tile
+  name: стек-салон-плитка
   spawn: FloorTileItemShowroom
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileHydro
-  name: stack-hydro-tile
+  name: стек-гідроплитка
   spawn: FloorTileItemHydro
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileLime
-  name: stack-lime-tile
+  name: стек-вапно-плитка
   spawn: FloorTileItemLime
 
 - type: stack
@@ -59,38 +59,38 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileClown
-  name: stack-clown-floor-tile
+  name: id-card-access-level-research-director
   spawn: FloorTileItemClown
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileMime
-  name: stack-mime-floor-tile
+  name: стек-мім-плитка для підлоги
   spawn: FloorTileItemMime
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileKitchen
-  name: stack-kitchen-floor-tile
+  name: стек-кухня-плитка для підлоги
   spawn: FloorTileItemKitchen
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileLaundry
-  name: stack-laundry-floor-tile
+  name: стек-пральня-плитка для підлоги
   spawn: FloorTileItemLaundry
 
 # Patterned
 - type: stack
   parent: BaseTileStack
   id: FloorTileElevatorShaft
-  name: stack-elevator-shaft-tile
+  name: стек-ліфт-шахта-плитка
   spawn: FloorTileItemElevatorShaft
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileRockVault
-  name: stack-rock-vault-tile
+  name: стек-скеля-склеп-плитка
   spawn: FloorTileItemRockVault
 
 - type: stack

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleMassScanner
-  name: Mass Scanner
-  description: View the mass scanner interface.
+  name: Масовий сканер
+  description: Перегляньте інтерфейс масового сканера.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }

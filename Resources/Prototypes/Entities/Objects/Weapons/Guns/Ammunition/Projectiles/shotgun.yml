@@ -245,7 +245,7 @@
   parent: BaseBullet
   id: PelletGlass
   categories: [ HideSpawnMenu ]
-  name: glass shard
+  name: осколок скла
   components:
   - type: Sprite
     noRot: false

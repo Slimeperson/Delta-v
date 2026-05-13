@@ -31,7 +31,7 @@
 
 - type: siliconLawset
   id: Clown
-  name: law-clown-name
+  name: станція-маяк-бар
   laws:
   - Clown1
   - Clown2

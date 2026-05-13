@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWall
   id: WallPaper
-  name: paper wall
-  description: Helps to contain the repeated screams of martial artists.
+  name: паперова стіна
+  description: Допомагає стримувати повторювані крики майстрів бойових мистецтв.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Walls/paper.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseWall
   id: WallDrywall
-  name: drywall
-  description: It looks sturdy enough.
+  name: гіпсокартон
+  description: Виглядає досить міцно.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Walls/drywall.rsi
