@@ -33,5 +33,5 @@ lathe-menu-delete-fabricating-tooltip = Скасувати друк поточн
 lathe-menu-delete-item-tooltip = Скасувати друк цієї партії.
 lathe-menu-move-up-tooltip = Перемістіть цю партію вперед у черзі.
 lathe-menu-move-down-tooltip = Перемістіть цю партію назад у чергу.
-lathe-menu-item-single = {$index}. {$name}
+lathe-menu-item-single = Таймер
 lathe-menu-item-batch = {$index}. {$name}({$printed}/{$total})

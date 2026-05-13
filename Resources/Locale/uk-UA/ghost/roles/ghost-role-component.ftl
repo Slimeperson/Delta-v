@@ -38,7 +38,7 @@ ghost-role-information-cancer-mouse-description = Опромінена миша,
 ghost-role-information-mothroach-name = Тарганоміль
 ghost-role-information-mothroach-description = Милий, але пустотливий тарганоміль.
 
-ghost-role-information-moproach-name = Moproach
+ghost-role-information-moproach-name = Trechesrecre
 ghost-role-information-moproach-description = Милий молотка з ще симпатичнішими черевиками на ногах.
 
 ghost-role-information-snail-name = Равлик

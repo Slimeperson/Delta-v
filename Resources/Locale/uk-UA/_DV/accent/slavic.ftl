@@ -34,7 +34,7 @@ accent-slavic-words-replace-9 = на здоров'я
 
 accent-slavic-words-10 = блін
 accent-slavic-words-10-2 = до біса
-accent-slavic-words-replace-10 = blin
+accent-slavic-words-replace-10 = Riskirasre
 
 accent-slavic-words-11 = лайно
 accent-slavic-words-replace-11 = блять

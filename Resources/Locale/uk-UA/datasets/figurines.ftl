@@ -47,7 +47,7 @@ figurines-salvage-9 = Чи можемо ми позичити вантажний
 figurines-ce-1 = Всі на брифінг!
 figurines-ce-2 = Підключіть солярки!
 figurines-ce-3 = Томмі Б. Сейф Сез: Поворот ліворуч заборонений, окрім маршрутних автобусів
-figurines-ce-4 = Interdyne Pharmaceutics
+figurines-ce-4 = SINGULOOSE!
 figurines-ce-5 = TESLOOSE!
 figurines-ce-6 = Знову немає електроенергії.
 
@@ -61,7 +61,7 @@ figurines-atmostech-7 = TEG: Теплова енергія? пішов!
 figurines-atmostech-8 = Хтось ще чує тріск скла?
 figurines-atmostech-9 = Я обіцяю, що ця топкова камера абсолютно безпечна і НЕ вибухне.
 
-figurines-engineer-1 = Interdyne Pharmaceutics
+figurines-engineer-1 = SINGULOOSE!
 figurines-engineer-2 = TESLOOSE!
 figurines-engineer-3 = Хтось не забув увімкнути AME?
 figurines-engineer-4 = Безкоштовні ізоляції в Engineering!

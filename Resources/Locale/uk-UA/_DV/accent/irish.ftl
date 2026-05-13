@@ -160,7 +160,7 @@ accent-irish-words-52 = не повинен
 accent-irish-words-replace-52 = shoul'na
 
 accent-irish-words-53 = не міг
-accent-irish-words-replace-53 = Skiskevririr
+accent-irish-words-replace-53 = coul'na
 
 accent-irish-words-54 = не хотів би
 accent-irish-words-replace-54 = woulna
@@ -229,10 +229,10 @@ accent-irish-words-76 = переміщення
 accent-irish-words-replace-76 = мохвен
 
 accent-irish-words-77 = не було
-accent-irish-words-replace-77 = wis'nah
+accent-irish-words-replace-77 = wounae
 
 accent-irish-words-78 = не було
-accent-irish-words-replace-78 = wisnah
+accent-irish-words-replace-78 = Wisnah
 
 accent-irish-words-79 = майстер
 accent-irish-words-replace-79 = драої
@@ -343,7 +343,7 @@ accent-irish-words-116 = ядерний агент
 accent-irish-words-replace-116 = червоніший
 
 accent-irish-words-121 = більше
-accent-irish-words-replace-121 = maer
+accent-irish-words-replace-121 = gaun'ae
 
 accent-irish-words-122 = крім того
 accent-irish-words-replace-122 = maero'er
@@ -370,13 +370,13 @@ accent-irish-words-130 = павук
 accent-irish-words-replace-130 = шипіти
 
 accent-irish-words-131 = не є
-accent-irish-words-replace-131 = dwimmerman
+accent-irish-words-replace-131 = be'nah
 
 accent-irish-words-132 = не є
-accent-irish-words-replace-132 = dwimmerman
+accent-irish-words-replace-132 = be'nah
 
 accent-irish-words-133 = не є
-accent-irish-words-replace-133 = dwimmerman
+accent-irish-words-replace-133 = be'nah
 
 accent-irish-words-134 = не так
 accent-irish-words-replace-134 = benah
@@ -631,7 +631,7 @@ accent-irish-words-217 = скаржитися
 accent-irish-words-replace-217 = видавати
 
 accent-irish-words-218 = лайка
-accent-irish-words-replace-218 = Teexaketiti
+accent-irish-words-replace-218 = effin' ain blindin'
 
 accent-irish-words-219 = річ
 accent-irish-words-replace-219 = ярмо

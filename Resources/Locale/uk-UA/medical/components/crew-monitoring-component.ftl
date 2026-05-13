@@ -11,4 +11,4 @@ crew-monitoring-ui-no-department-label = Невідомий
 crew-monitoring-ui-no-station-label = Невідома станція
 
 crew-monitoring-ui-flavor-left-label = У разі надзвичайної ситуації негайно зв’яжіться з медичним персоналом станції
-crew-monitoring-ui-flavor-right-label = v1.7
+crew-monitoring-ui-flavor-right-label = Дефібрилятор не включений.

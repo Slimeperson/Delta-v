@@ -22,7 +22,7 @@ station-beacon-medical = Медичний
 station-beacon-medbay = Медбай
 station-beacon-chemistry = Chem
 station-beacon-cryonics = Криоподи
-station-beacon-cmo = 200%
+station-beacon-cmo = CMO
 station-beacon-morgue = Морг
 station-beacon-surgery = Хірургія
 
@@ -81,7 +81,7 @@ station-beacon-theater = Театр
 station-beacon-tools = Інструменти
 station-beacon-disposals = Вибуття
 station-beacon-cryosleep = Кріосон
-station-beacon-escape-pod = #c832e6
+station-beacon-escape-pod = Escape Pod
 station-beacon-escape-pod-N = Escape Pod N
 station-beacon-escape-pod-NE = Escape Pod NE
 station-beacon-escape-pod-E = Escape Pod E

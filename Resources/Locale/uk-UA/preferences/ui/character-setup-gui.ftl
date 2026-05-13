@@ -9,6 +9,6 @@ character-setup-gui-character-picker-button-delete-button = Видалити
 character-setup-gui-character-picker-button-confirm-delete-button = Підтвердити
 
 character-setup-gui-save-panel-title = Незбережені зміни символів
-character-setup-gui-save-panel-save = Епістеміка
+character-setup-gui-save-panel-save = зберегти
 character-setup-gui-save-panel-nosave = Не економте
 character-setup-gui-save-panel-cancel = Скасувати

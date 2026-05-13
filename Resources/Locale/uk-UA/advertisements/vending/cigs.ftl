@@ -1,4 +1,4 @@
-﻿advertisement-cigs-1 = Привіт світ!
+﻿advertisement-cigs-1 = Космічні сигарети мають такий смак, як і сигарети.
 advertisement-cigs-2 = я краще виберу цигарку,ніж кальян!
 advertisement-cigs-3 = Увага,гази!
 advertisement-cigs-4 = Не вірте СМІ - куріть сьогодні!

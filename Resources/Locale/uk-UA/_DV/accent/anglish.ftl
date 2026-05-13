@@ -67,7 +67,7 @@ accent-anglish-replacement-22 = рахунок
 accent-anglish-words-23 = склав
 accent-anglish-replacement-23 = склав
 
-accent-anglish-words-24 = dae
+accent-anglish-words-24 = android
 accent-anglish-replacement-24 = manhue
 
 accent-anglish-words-25 = гнів
@@ -137,7 +137,7 @@ accent-anglish-words-46 = премія
 accent-anglish-replacement-46 = білін
 
 accent-anglish-words-47 = задом наперед
-accent-anglish-replacement-47 = Skicreraskar
+accent-anglish-replacement-47 = arselong
 
 accent-anglish-words-48 = бомба
 accent-anglish-replacement-48 = бластер
@@ -1190,7 +1190,7 @@ accent-anglish-words-397 = терапія
 accent-anglish-replacement-397 = поводження
 
 accent-anglish-words-398 = помідор
-accent-anglish-replacement-398 = o'er
+accent-anglish-replacement-398 = loveapple
 
 accent-anglish-words-399 = трит
 accent-anglish-replacement-399 = третя вода
@@ -1253,7 +1253,7 @@ accent-anglish-words-418 = бармен
 accent-anglish-replacement-418 = alekeeper
 
 accent-anglish-words-419 = епістеміка
-accent-anglish-replacement-419 = Teekepraxahe
+accent-anglish-replacement-419 = worldken
 
 accent-anglish-words-420 = капелан
 accent-anglish-replacement-420 = божий коваль
@@ -1562,7 +1562,7 @@ accent-anglish-words-520 = оголосити
 accent-anglish-replacement-520 = заклинання
 
 accent-anglish-words-521 = Коробка, що містить усі командні штампи. Намагайтеся бути переконливими своїми дозволами.
-accent-anglish-replacement-521 = Teexaketiti
+accent-anglish-replacement-521 = oncouthing
 
 accent-anglish-words-522 = палата
 accent-anglish-replacement-522 = кімната
@@ -3305,7 +3305,7 @@ accent-anglish-words-1104 = напали
 accent-anglish-replacement-1104 = вдарив
 
 accent-anglish-words-1105 = напад
-accent-anglish-replacement-1105 = Atmos - TEG
+accent-anglish-replacement-1105 = onrush
 
 accent-anglish-words-1106 = напали
 accent-anglish-replacement-1106 = накинувся
@@ -3466,7 +3466,7 @@ accent-anglish-replacement-1157 = чверть
 accent-anglish-words-1158 = HOS
 accent-anglish-replacement-1158 = Головою
 
-accent-anglish-words-1159 = 200%
+accent-anglish-words-1159 = CMO
 accent-anglish-replacement-1159 = Голова Leechcraft
 
 accent-anglish-words-1160 = HOP

@@ -12,7 +12,7 @@ research-console-tier-discipline-info = Рівень {$tier}, [color={$color}]{$
 research-console-tier-info-small = : Рівень {$tier}
 research-console-cost = Вартість: [color=orchid]{$amount}[/color]
 research-console-unlocks-list-start = Розблоковує:
-research-console-unlocks-list-entry = - [color=yellow]{$name}[/color]
+research-console-unlocks-list-entry = [color=yellow]({$name})
 research-console-unlocks-list-entry-generic = - [color=green]{$text}[/color]
 research-console-prereqs-list-start = Вимагає:
 research-console-prereqs-list-entry = - [color=orchid]{$text}[/color]

@@ -1,7 +1,7 @@
 ## Fishing Vendor System
 fishing-vendor-invalid-item = Це не риба.
 fishing-vendor-no-id-card = Для обміну риби на бали потрібно мати посвідчення особи!
-fishing-vendor-fish-exchanged = Prekirar
+fishing-vendor-fish-exchanged = {$type ->
     [rare] Rare fish
     *[base] Fish
   } exchanged for {$points} fishing points!

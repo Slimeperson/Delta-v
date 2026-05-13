@@ -31,7 +31,7 @@ accent-scottish-words-9 = ім
 accent-scottish-words-replace-9 = ранок
 
 accent-scottish-words-10 = йде
-accent-scottish-words-replace-10 = gaun
+accent-scottish-words-replace-10 = Risritracre
 
 accent-scottish-words-11 = знати
 accent-scottish-words-replace-11 = кен
@@ -196,7 +196,7 @@ accent-scottish-words-64 = ранок
 accent-scottish-words-replace-64 = бути
 
 accent-scottish-words-66 = харчування
-accent-scottish-words-replace-66 = GPS
+accent-scottish-words-replace-66 = grub
 
 accent-scottish-words-67 = мати
 accent-scottish-words-replace-67 = хе
@@ -217,7 +217,7 @@ accent-scottish-words-72 = себе
 accent-scottish-words-replace-72 = mesel
 
 accent-scottish-words-73 = себе
-accent-scottish-words-replace-73 = Srekreprexe
+accent-scottish-words-replace-73 = hesel
 
 accent-scottish-words-74 = себе
 accent-scottish-words-replace-74 = шесель
@@ -271,7 +271,7 @@ accent-scottish-words-91 = збирається
 accent-scottish-words-replace-91 = gaun'ae
 
 accent-scottish-words-92 = пішов
-accent-scottish-words-replace-92 = gaun
+accent-scottish-words-replace-92 = Risritracre
 
 accent-scottish-words-93 = говорити
 accent-scottish-words-replace-93 = лепетати
@@ -379,13 +379,13 @@ accent-scottish-words-133 = не є
 accent-scottish-words-replace-133 = be'nae
 
 accent-scottish-words-134 = не так
-accent-scottish-words-replace-134 = cludhopper
+accent-scottish-words-replace-134 = benae
 
 accent-scottish-words-135 = арента
-accent-scottish-words-replace-135 = cludhopper
+accent-scottish-words-replace-135 = benae
 
 accent-scottish-words-136 = не так
-accent-scottish-words-replace-136 = cludhopper
+accent-scottish-words-replace-136 = benae
 
 accent-scottish-words-137 = зомбі
 accent-scottish-words-replace-137 = гнилиця
@@ -448,7 +448,7 @@ accent-scottish-words-156 = від
 accent-scottish-words-replace-156 = frae
 
 accent-scottish-words-157 = високогір'я
-accent-scottish-words-replace-157 = begears
+accent-scottish-words-replace-157 = hielan
 
 accent-scottish-words-158 = висока
 accent-scottish-words-replace-158 = привіт

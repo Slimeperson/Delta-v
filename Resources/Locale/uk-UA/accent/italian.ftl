@@ -94,7 +94,7 @@ accent-italian-words-29 = шитсек
 accent-italian-words-replace-29 = карабінери
 
 accent-italian-words-30 = співати
-accent-italian-words-replace-30 = sing-a
+accent-italian-words-replace-30 = jfc
 
 accent-italian-words-31 = спагетті
 accent-italian-words-replace-31 = СПАГЕТ

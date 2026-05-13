@@ -115,7 +115,7 @@ chatsan-replacement-41 = що ти робиш
 chatsan-word-42 = ofc
 chatsan-replacement-42 = звичайно
 
-chatsan-word-43 = ig
+chatsan-word-43 = Vehritrexe
 chatsan-replacement-43 = я здогадуюсь
 
 chatsan-word-44 = tbf

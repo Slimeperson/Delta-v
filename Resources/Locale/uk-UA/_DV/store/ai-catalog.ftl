@@ -14,4 +14,4 @@ ent-ActionStationAiRepairNanites = Ремонт нанітів
 .desc = Надішліть нанітів, щоб вони відремонтували кіборга
 
 ent-ActionStationAiEmergencySealant = Аварійний герметик
-.desc = Розгорніть металеву піну, щоб закрити розриви
+.desc = Home Run Bat

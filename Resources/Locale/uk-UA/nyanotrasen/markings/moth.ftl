@@ -56,7 +56,7 @@ marking-MothRArmClassicDeathshead = Moth Right Arm (Deathhead, Classic)
 marking-MothLLegClassicDeathshead = Мот Ліва нога (Deathhead, Classic)
 marking-MothRLegClassicDeathshead = Мот Права нога (Deathshead, Classic)
 
-marking-MothHeadClassicFirewatch = Moth Head (Firewatch, Classic)
+marking-MothHeadClassicFirewatch = ETA
 marking-MothChestClassicFirewatch = Скриня молі (Firewatch, Classic)
 marking-MothLArmClassicFirewatch = Ліва рука молі (Firewatch, Classic)
 marking-MothRArmClassicFirewatch = Права рука метелика (Firewatch, Classic)
@@ -133,7 +133,7 @@ marking-MothRArmClassicWhitefly = Права рука метелика (біло
 marking-MothLLegClassicWhitefly = Ліва нога мотиля (білокрилка, класична)
 marking-MothRLegClassicWhitefly = Права нога мотиля (білокрилка, класичний)
 
-marking-MothHeadClassicWitchking = Moth Head (Witchking, Classic)
+marking-MothHeadClassicWitchking = Голова метелика (Чародій, Класика)
 marking-MothChestClassicWitchking = Скриня метелика (Чаклун, Класичний)
 marking-MothLArmClassicWitchking = Ліва рука метелика (Чаклун, Класичний)
 marking-MothRArmClassicWitchking = Права рука метелика (Чаклун, Класичний)

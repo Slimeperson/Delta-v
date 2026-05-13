@@ -31,7 +31,7 @@ accent-dwarf-words-9 = ім
 accent-dwarf-words-replace-9 = ранок
 
 accent-dwarf-words-10 = йде
-accent-dwarf-words-replace-10 = gaun
+accent-dwarf-words-replace-10 = Risritracre
 
 accent-dwarf-words-11 = знати
 accent-dwarf-words-replace-11 = кен
@@ -196,7 +196,7 @@ accent-dwarf-words-64 = ранок
 accent-dwarf-words-replace-64 = бути
 
 accent-dwarf-words-66 = харчування
-accent-dwarf-words-replace-66 = GPS
+accent-dwarf-words-replace-66 = grub
 
 accent-dwarf-words-67 = мати
 accent-dwarf-words-replace-67 = хе
@@ -217,7 +217,7 @@ accent-dwarf-words-72 = себе
 accent-dwarf-words-replace-72 = mesel
 
 accent-dwarf-words-73 = себе
-accent-dwarf-words-replace-73 = Srekreprexe
+accent-dwarf-words-replace-73 = hesel
 
 accent-dwarf-words-74 = себе
 accent-dwarf-words-replace-74 = шесель
@@ -271,7 +271,7 @@ accent-dwarf-words-91 = збирається
 accent-dwarf-words-replace-91 = gaun'ae
 
 accent-dwarf-words-92 = пішов
-accent-dwarf-words-replace-92 = gaun
+accent-dwarf-words-replace-92 = Risritracre
 
 accent-dwarf-words-93 = говорити
 accent-dwarf-words-replace-93 = лепетати
@@ -379,13 +379,13 @@ accent-dwarf-words-133 = не є
 accent-dwarf-words-replace-133 = be'nae
 
 accent-dwarf-words-134 = не так
-accent-dwarf-words-replace-134 = cludhopper
+accent-dwarf-words-replace-134 = benae
 
 accent-dwarf-words-135 = арента
-accent-dwarf-words-replace-135 = cludhopper
+accent-dwarf-words-replace-135 = benae
 
 accent-dwarf-words-136 = не так
-accent-dwarf-words-replace-136 = cludhopper
+accent-dwarf-words-replace-136 = benae
 
 accent-dwarf-words-137 = зомбі
 accent-dwarf-words-replace-137 = гнильці

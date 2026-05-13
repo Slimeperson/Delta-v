@@ -1,4 +1,4 @@
-﻿advertisement-happyhonk-1 = сигналити! сигналити! Чому б не замовити Happy Honk Meal сьогодні?
+﻿advertisement-happyhonk-1 = Сигнал! Сигнал! Чому б не замовити Happy Honk Meal сьогодні?
 advertisement-happyhonk-2 = Клоуни заслуговують на обійми, якщо ви їх побачите, обов’язково висловіть свою вдячність.
 advertisement-happyhonk-3 = Якщо ви знайдете Золотий гудок,то потім помоліться богам, вам пощастило.
 advertisement-happyhonk-4 = Happy Honk,  це їжа, це угода, я отримав пластикову іграшку, яка змусить вас верещати.

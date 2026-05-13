@@ -80,7 +80,7 @@ accent-cowboy-words-27 = боротися
 accent-cowboy-replacement-27 = брухт
 
 accent-cowboy-words-28 = харчування
-accent-cowboy-replacement-28 = GPS
+accent-cowboy-replacement-28 = grub
 
 accent-cowboy-words-29 = друг
 accent-cowboy-replacement-29 = партнер

@@ -1,1 +1,1 @@
-﻿handheld-teleporter-instability-fizzle = Портал шипне, коли ви намагаєтеся його розмістити, руйнуючи обидва кінці!
+﻿handheld-teleporter-instability-fizzle = Портал шипиться, коли ви намагаєтеся його розмістити, руйнуючи обидва кінці!

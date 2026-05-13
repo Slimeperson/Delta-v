@@ -19,7 +19,7 @@ station-beacon-forensic-mantis = Богомол
 
 station-beacon-mailroom = Пошта
 
-station-beacon-engi-outpost = [[0]], [[1]]
+station-beacon-engi-outpost = Engi Outpost
 station-beacon-atmos-outpost = Atmos Outpost
 
 station-beacon-janitor-office = Офіс Яні

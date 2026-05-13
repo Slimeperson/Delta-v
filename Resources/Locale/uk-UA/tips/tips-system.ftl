@@ -1,1 +1,1 @@
-﻿tips-system-chat-message-wrap = Переможцем став {$tip}[[1]]![[2]]
+﻿tips-system-chat-message-wrap = Порада: {$tip}

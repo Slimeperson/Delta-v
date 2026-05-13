@@ -34,5 +34,5 @@ uplink-recruiter-winterboots-desc = Міцні, важкі черевики.
 uplink-recruiter-lingsting-name = Сода Changeling Sting
 uplink-recruiter-lingsting-desc = Стильна газована вода з незвичайним зовнішнім виглядом.
 
-uplink-recruiter-nukieplush-name = TC
+uplink-recruiter-nukieplush-name = Nuclear Operative Plush
 uplink-recruiter-nukieplush-desc = Plushie, що зображує на 100% вигаданого «ядерного оперативника» у їхньому не менш вигаданому криваво-червоному комбінезоні.

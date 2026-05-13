@@ -6,7 +6,7 @@ admin-logs-pop-out = Вискочити
 # Round
 admin-logs-round = Круглий{" "}
 admin-logs-reset = Скинути
-admin-logs-reset-with-id = Пінбол
+admin-logs-reset-with-id = Скинути раунд (#{$id})
 
 # Types
 admin-logs-search-types-placeholder = Типи пошуку (АБО)

@@ -1,1 +1,1 @@
-﻿popup-system-repeated-popup-stacking-wrap = {$popup-message} x{$count}
+﻿popup-system-repeated-popup-stacking-wrap = Здається, цей подарунок містить {INDEFINITE($name)} {$count}.

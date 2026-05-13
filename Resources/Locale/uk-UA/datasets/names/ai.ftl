@@ -23,7 +23,7 @@ names-ai-dataset-16 = Альфа 9
 names-ai-dataset-17 = AmigoBot
 names-ai-dataset-18 = Android
 names-ai-dataset-19 = Аніель
-names-ai-dataset-20 = Hirirahehet
+names-ai-dataset-20 = AOL
 names-ai-dataset-21 = Азімов
 
 # The most influential modem ever, created by the bell system. It still lives on today in certain applications
@@ -37,7 +37,7 @@ names-ai-dataset-27 = Кассандра
 names-ai-dataset-28 = Стільниковий
 names-ai-dataset-29 = Чиі
 names-ai-dataset-30 = Чіп
-names-ai-dataset-31 = C.R.A.I.G.
+names-ai-dataset-31 = Teeus
 
 # Commercial supercomputer from the 70s
 names-ai-dataset-32 = Крей-2

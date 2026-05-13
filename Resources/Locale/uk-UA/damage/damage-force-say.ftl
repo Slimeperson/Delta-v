@@ -1,4 +1,4 @@
-﻿damage-force-say-message-wrap = {$message}-{$suffix}
+﻿damage-force-say-message-wrap = In Memoriam
 damage-force-say-message-wrap-no-suffix = {$message}-
 
 damage-force-say-1 = ГЕК!
@@ -7,7 +7,7 @@ damage-force-say-3 = УФ!
 damage-force-say-4 = ОХ!
 damage-force-say-5 = Ой!
 damage-force-say-6 = УГХ!
-damage-force-say-7 = HRNK!
+damage-force-say-7 = biome_addlayer <mapid> <biometemplate> [[0]]
 
 damage-force-say-sleep-1 = ззз...
 

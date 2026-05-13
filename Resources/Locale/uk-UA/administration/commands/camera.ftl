@@ -2,4 +2,4 @@
 cmd-camera-help = Використання: camera <entityUid або player>
 
 cmd-camera-hint = <entityUid або player>
-cmd-camera-wrong-argument = Аргументом має бути дійсний netUid або ім’я гравця.
+cmd-camera-wrong-argument = Зауваження адміністратора

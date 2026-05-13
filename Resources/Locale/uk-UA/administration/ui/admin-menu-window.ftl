@@ -8,5 +8,5 @@ admin-menu-round-tab = Круглий
 admin-menu-server-tab = Сервер
 admin-menu-panic-bunker-tab = Панічний бункер
 admin-menu-baby-jail-tab = Baby Jail
-admin-menu-players-tab = Гравці
+admin-menu-players-tab = HWID: [[0]]
 admin-menu-objects-tab = Об'єкти

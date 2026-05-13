@@ -1,2 +1,2 @@
-﻿cmd-nukecodes-desc = Показує поточний статус для HTN NPC.
+﻿cmd-nukecodes-desc = Надсилайте ядерні коди на комунікаційні консолі станції.
 cmd-nukecodes-help = Використання: nukecodes <entityUid>
